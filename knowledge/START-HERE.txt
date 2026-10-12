@@ -36,8 +36,8 @@ Read knowledge/known-issues.txt before trusting anything. In short:
 - No LICENSE, README or CONTRIBUTING file. The owner has decided on GPL 3 with a
   contributor clause (knowledge/decisions.txt); the files are not written.
 - A local git repository since 2026-10-12, branch main. session-logs/ and procedures/
-  are kept out of it by the owner's decision (.gitignore). Not on GitHub. Creating the
-  public repo is the owner's call.
+  are kept out of it by the owner's decision (.gitignore). Public on GitHub since the
+  same day: github.com/9-7-8/open-equine-genetics. Push only when the owner says to.
 
 Everything left to do, in order, is in TODO.txt at the root.
 

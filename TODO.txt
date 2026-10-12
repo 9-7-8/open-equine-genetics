@@ -36,8 +36,6 @@ The owner is Isabel. Lines marked [OWNER] need her answer before work can start;
              here under GPL 3.
 [OWNER] 1.7  The knowledge files name local paths on her machine and a live game server
              folder. Trim before publishing?
-[OWNER] 1.8  Create the public GitHub repo "open-equine-genetics" under her account; first
-             push. (procedures/publish-a-version.txt)
         1.9  A GitHub Actions workflow that runs tools/validate.mjs on every push and pull
              request.
 [OWNER] 1.10 Version numbering. A suggestion is in publish-a-version.txt; not settled.
