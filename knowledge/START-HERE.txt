@@ -23,9 +23,15 @@ mod-map.json        how each locus here maps to the mod's saved gene keys. Only 
                     needs it. See knowledge/the-mod.txt
 knowledge/          what a maintainer needs to know
 knowledge/science/  the science notes for each gene, copied from the mod's wiki
+tools/validate.mjs  checks every gene file against the format. Run it after any change
+README.md           the front page: what this is and how far to trust it
+
+ON THE MAINTAINER'S MACHINE ONLY (not in the repository, by the owner's decision)
 procedures/         how to do each routine job. Read procedures/INDEX.txt first
 session-logs/       one file per working session, newest last by name
-tools/validate.mjs  checks every gene file against the format. Run it after any change
+TODO.txt            everything left to do, in order
+Where a published file names one of these, it means the maintainer's copy. A reader on
+GitHub does not have them and does not need them to use the data.
 
 WHAT IS NOT HERE YET
 --------------------
@@ -33,13 +39,15 @@ Read knowledge/known-issues.txt before trusting anything. In short:
 - This is a first export of what the mod models. It has NOT been audited. Every frequency
   is an estimate, and most descriptions were written for a game.
 - No breeds. They are planned (the mod has about 120 real breeds as JSON already).
-- LICENSE is the unmodified GPL 3 text. No README or CONTRIBUTING file yet; the
-  contributor clause the owner decided on (knowledge/decisions.txt) is not written.
-- A local git repository since 2026-10-12, branch main. session-logs/ and procedures/
-  are kept out of it by the owner's decision (.gitignore). Public on GitHub since the
-  same day: github.com/9-7-8/open-equine-genetics. Push only when the owner says to.
+- No CONTRIBUTING file yet; the contributor clause the owner decided on
+  (knowledge/decisions.txt) is not written. LICENSE is the unmodified GPL 3 text.
 
-Everything left to do, in order, is in TODO.txt at the root.
+THE REPOSITORY
+--------------
+A git repository, branch main, public since 2026-10-12 at
+github.com/9-7-8/open-equine-genetics. Push only when the owner says to.
+
+Everything left to do, in order, is in the maintainer's TODO.txt.
 
 READ NEXT
 ---------
@@ -47,4 +55,4 @@ READ NEXT
 2. knowledge/format.txt        the file format and the three evidence levels.
 3. knowledge/known-issues.txt  what is wrong or unproven in the data right now.
 4. knowledge/sources.txt       where the science comes from and how far to trust each.
-5. procedures/INDEX.txt        the routines.
+5. procedures/INDEX.txt        the routines (maintainer's machine only).

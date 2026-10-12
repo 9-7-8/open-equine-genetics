@@ -1,0 +1,2 @@
+# LF everywhere, so files do not churn between Windows and anything else.
+* text=auto eol=lf

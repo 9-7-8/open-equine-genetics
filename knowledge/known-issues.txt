@@ -21,8 +21,10 @@ BY HAND, UNCHECKED
 WRITTEN FOR A GAME
 - Summaries and phenotype descriptions come from the mod. Many are good plain science;
   some describe game effects. Files known to mention the game ("the mod", hearts of
-  health, golden carrots): abstracted_hardiness, acan, b4galt7, cvm, fertility, gbe1,
-  hmga2, lama3, lcorl, leopard, mstn, ryr1, ryr2, tiger_eye, toe1.
+  health, golden carrots, "a player", "rolled"): abstracted_hardiness, acan, b4galt7,
+  cvm, ednrb, fertility, gbe1, gys1, hmga2, lama3, lcorl, leopard, mstn, patn1, ryr1,
+  ryr2, tiger_eye, toe1. Found by a word search on 2026-10-12, not by reading; subtler
+  cases remain.
 - The five abstracted body loci: phenotype descriptions talk about "the percentage written
   on that copy". In the mod each allele copy carries its own inherited strength. That idea
   is not in this format. Decide whether it belongs here.
@@ -50,6 +52,10 @@ CITATIONS
 - 29 of 68 loci have citations. They are every external link found in that gene's wiki
   Science tab, attached to the locus as a whole, not to an allele or a claim.
 - 39 loci have none. Their science notes may still name papers in prose.
+- 15 of those 39 are marked "published" with no citation, against rule 6 of
+  knowledge/format.txt: acan, brindle, grey, lama3, lamc2, lcorl, leopard, mitf, patn1,
+  pdk4, roan, ryr1, ryr2, silver, slc5a3. tools/validate.mjs does not check rule 6.
+- By source: pubmed 45, ucdavis-vgl 13, other 12, paper 11, omia 9 (90 in all).
 - "source" was guessed from the link's host name.
 - patn1 and patn2 share the leopard page in the mod's wiki; see knowledge/science/leopard.txt.
 - 15 loci have no science note at all: the five abstracted body loci, the eight eye loci,
@@ -68,13 +74,12 @@ STRUCTURE
   pax3 list theirs under nonviable_genotypes. That mirrors the mod (lethal at birth versus
   never conceived). Check that the difference is real for each.
 - tools/validate.mjs does not check that allele order is unchanged since the last version
-  (it has no earlier version to compare with until this is a git repository).
+  (there is no tagged version to compare with yet).
+- 246 of the 252 allele names repeat the allele id in brackets ("Extension (E)").
 
 THE PUBLISHED REPOSITORY (found 2026-10-12)
-- TODO.txt, knowledge/START-HERE.txt and knowledge/how-this-was-exported/README.txt point
-  readers to procedures/ and session-logs/, which are not in the repository. A reader on
-  GitHub follows those to nothing.
-- TODO.txt is public and reads as private working notes addressed to the owner.
-- There is no README, so the GitHub page shows a bare file list and nothing says the
-  data is unaudited before a reader opens a file.
+- knowledge/START-HERE.txt and knowledge/how-this-was-exported/README.txt name
+  procedures/, session-logs/ and TODO.txt, which are not in the repository; each says so.
+  TODO.txt was public until 2026-10-12 and is still in the commit history.
+- No CONTRIBUTING file and no automatic run of the validator on a push.
 - Local file paths are in the first four commits' history. The owner said that is fine.

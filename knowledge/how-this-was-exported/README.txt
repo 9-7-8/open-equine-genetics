@@ -29,6 +29,8 @@ Bash; JDK 25 and Node 22+ on the path)
 
 WARNING: step 4 OVERWRITES every file in genes/ and knowledge/science/. Any hand
 correction made here since the last export is lost. Once the data has been edited by hand,
-do not re-run this; follow procedures/re-export-from-the-mod.txt instead.
+do not re-run this over this folder: export into a scratch folder and carry the changes
+across by hand (the maintainer's procedure re-export-from-the-mod.txt, which is not in
+the repository).
 
 The planned, permanent version of this exporter is the mod's issue #252.

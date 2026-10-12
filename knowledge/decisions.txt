@@ -50,8 +50,8 @@ LICENCE
   pushed 2026-10-12: github.com/9-7-8/open-equine-genetics.
 
 THE REPOSITORY (2026-10-12)
-- Everything in the folder is committed EXCEPT session-logs/ and procedures/. Those stay
-  on the maintainer's machine. mod-map.json, knowledge/science/ and
+- Everything in the folder is committed EXCEPT session-logs/, procedures/ and (from
+  later the same day) TODO.txt. Those stay on the maintainer's machine. mod-map.json, knowledge/science/ and
   knowledge/how-this-was-exported/ are published.
 - No local file path goes in anything committed. Paths already in the commit history
   stay; history is not rewritten for them.
