@@ -64,4 +64,4 @@ MADE BY THE EXPORTING SESSION, NOT ASKED (change freely, tell the owner)
 - genes/ is one flat folder with a "species" field in each file.
 - "sex" is not exported as a locus.
 - The gene symbols filled into "symbol" (see known-issues.txt).
-- This folder living at C:\Users\Isabel\open-equine-genetics, beside the mod's folder.
+- This folder living beside the mod's folder, not inside it.

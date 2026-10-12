@@ -33,8 +33,6 @@ The owner is Isabel. Lines marked [OWNER] need her answer before work can start;
 [OWNER] 1.5  Are mod-map.json and knowledge/how-this-was-exported/ published, or kept out?
 [OWNER] 1.6  knowledge/science/ is copied from her mod's wiki. Confirm she wants that text
              here under GPL 3.
-[OWNER] 1.7  The knowledge files name local paths on her machine and a live game server
-             folder. Trim before publishing?
         1.9  A GitHub Actions workflow that runs tools/validate.mjs on every push and pull
              request.
 [OWNER] 1.10 Version numbering. A suggestion is in publish-a-version.txt; not settled.
@@ -144,8 +142,8 @@ Nothing exported. procedures/add-a-breed.txt holds what is decided.
              set without opening 68 files.
 
 
-7. THE MOD SIDE  (work in C:\Users\Isabel\Procedural-Horse-Coats, under ITS rules)
-==================================================================================
+7. THE MOD SIDE  (work in the mod's own repository, under ITS rules)
+====================================================================
 Not this repo's work, listed so the dependency is visible. All scoped in issue #250.
         7.1  #251 and #252: the permanent exporter inside the mod, replacing the throwaway
              tools in knowledge/how-this-was-exported/.

@@ -13,7 +13,8 @@ science.mjs             copies each gene's wiki Science tab into knowledge/scien
                         the external links to the gene file as citations, and fills
                         "symbol" from a hand-written table at its top.
 
-TO RUN IT AGAIN (from C:\Users\Isabel, Git Bash; JDK 25 and Node 22+ on the path)
+TO RUN IT AGAIN (from the folder that holds both the mod's folder and this one, in Git
+Bash; JDK 25 and Node 22+ on the path)
 1. The mod's classes must be compiled already:
    Procedural-Horse-Coats/common/build/classes/java/main. Do NOT run a Gradle build while
    the owner's game is open; ask first.

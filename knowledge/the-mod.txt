@@ -1,8 +1,7 @@
 THE MOD THIS CAME FROM, AND WHAT IT STILL NEEDS FROM HERE
 =========================================================
-Procedural Horse Coats: github.com/9-7-8/Procedural-Horse-Coats, on this machine at
-C:\Users\Isabel\Procedural-Horse-Coats. A Minecraft (NeoForge) mod with Mendelian horse
-genetics and generated coats. Code MIT, art CC BY-SA 4.0.
+Procedural Horse Coats: github.com/9-7-8/Procedural-Horse-Coats. A Minecraft (NeoForge)
+mod with Mendelian horse genetics and generated coats. Code MIT, art CC BY-SA 4.0.
 
 THE PLAN (issues in that repo)
 #250  tracking issue: the whole move, every decision, what exists in the mod's code
@@ -36,7 +35,3 @@ WHERE THINGS ARE IN THE MOD, IF YOU NEED TO LOOK
 - Each gene's wiki page: wiki/gene-<name>.html, with Gameplay, Coding and Science tabs.
 - The mod has its own rules file (CLAUDE.md) and procedures. They govern work in THAT
   repo, not this one.
-
-NEVER
-- Never touch C:\Users\Isabel\26.1.2-neoforge-server. It is a live game server with
-  players on it and is not part of either project.
