@@ -1,0 +1,41 @@
+{
+  "format": 1,
+  "id": "met",
+  "species": "horse",
+  "name": "MET",
+  "symbol": "MET",
+  "evidence": "published",
+  "summary": "MET, lethal at conception: when two carriers would produce an affected foal, the pairing simply yields no foal at all. The opposite of Overo Lethal White, which is at least born.",
+  "inheritance": "autosomal",
+  "affects_coat": false,
+  "alleles": [
+    { "id": "met", "name": "Embryonic lethal (met)", "wild_type": false },
+    { "id": "N", "name": "Wild-type (N)", "wild_type": true }
+  ],
+  "phenotypes": [
+    { "id": "wild", "name": "Wild type", "description": "Two working copies. Nothing is wrong and nothing is passed on.", "changes_coat": false },
+    { "id": "met-carrier", "name": "MET carrier", "description": "One copy of met. The horse is completely normal and there is no way to see it - but half its foals inherit the copy, and two carriers bred together are the only way embryonic lethal (met) appears.", "changes_coat": false },
+    { "id": "met-embryonic-lethal", "name": "Embryonic lethal (MET)", "description": "Two non-functional copies of MET. The embryo never develops, so the pairing produces no foal at all.", "changes_coat": false }
+  ],
+  "genotypes": [
+    { "alleles": ["N", "N"], "phenotype": "wild" },
+    { "alleles": ["met", "N"], "phenotype": "met-carrier" }
+  ],
+  "nonviable_genotypes": [
+    { "alleles": ["met", "met"], "phenotype": "met-embryonic-lethal" }
+  ],
+  "frequencies": [
+    {
+      "population": "general population",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["met", "N"], "percent": 3 },
+        { "alleles": ["N", "N"], "percent": 97 }
+      ]
+    }
+  ],
+  "citations": [
+    { "source": "omia", "label": "OMIA 003064", "url": "https://omia.org/OMIA003064/9796/" },
+    { "source": "pubmed", "label": "PMC7403398", "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7403398/" }
+  ]
+}

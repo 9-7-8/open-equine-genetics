@@ -1,0 +1,20 @@
+Grey - science notes
+(Copied 2026-10-12 from the Science tab of the Procedural Horse Coats wiki page for this gene.
+Written for that project: it may mention how a game models the gene. Not yet audited.)
+
+What grey is not
+----------------
+
+Not to be confused with | Difference
+Dominant white | Present from birth, and pink skin under the white.
+Double cream | Born cream, blue eyes, pink skin.
+Roan | A stable mix of white and coloured hairs, not a progressive one.
+Silver | Dilutes black; the pale mane is there from birth.
+Dapple grey | A stage of grey, not a locus. It is the middle of the window above.
+
+What was in the reference and is not here
+-----------------------------------------
+
+The source note proposed a five-stage health pipeline - genotype, then appearance, then susceptibility, then an age-related chance of lesion onset, then lesion burden and severity with health effects. Stages 4 and 5 need an age clock and a per-horse disease-progression system, neither of which exists, so they are not built and are not stubbed. The Condition is the whole of it.
+
+It also suggested vitiligo-like depigmentation round the eyes and mouth, and flea-bitten grey. Both are parked with aging: see the settled list.

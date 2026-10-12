@@ -1,0 +1,142 @@
+PAX3 (splash white) - science notes
+(Copied 2026-10-12 from the Science tab of the Procedural Horse Coats wiki page for this gene.
+Written for that project: it may mention how a game models the gene. Not yet audited.)
+
+At a glance
+-----------
+
+Gene | PAX3 - paired box 3, a developmental transcription factor
+Chromosome | Equine chromosome 6 (ECA6)
+Test name | Splash White 2, SW2
+Variant | PAX3:c.209G>A, p.Cys70Tyr (p.C70Y); EquCab2 ECA6:g.11,429,753C>T
+Inheritance | Autosomal dominant, with variable expression and incomplete penetrance at the visible-coat level
+Heterozygote | May show little white or classic splash; may have one or two blue eyes; may be congenitally deaf
+Homozygote | Viable - not an established embryonic lethal - usually much more extensively white, and may be deaf
+Main health concern | Congenital sensorineural deafness in some, not all, affected horses
+Breeds | American Quarter Horse and American Paint Horse
+
+What PAX3 does
+--------------
+
+PAX3 encodes a transcription factor - a protein that binds DNA and regulates other genes during embryonic development. Its relevant roles are in neural-crest development; the migration and survival of melanoblasts, the embryonic precursors of melanocytes; some nervous-system and muscle lineages; and the activation of pigment pathways including regulation connected to MITF.
+
+Melanocytes migrate from the neural crest to skin, hair follicles, eyes and inner ear. Where fewer precursors arrive, or fewer survive, that tissue has no pigment: white hair and pink skin in the coat, blue or partly blue eyes in the iris, and a predisposition to congenital deafness in the inner ear. That is one mechanism producing three apparently unrelated symptoms - and it is why the mod's eye-colour hooks and its deafness condition both hang off the white-pattern genes rather than off anything of their own. Hauswirth et al., PMC3325211 (https://pmc.ncbi.nlm.nih.gov/articles/PMC3325211/)
+
+SW2 does not switch PAX3 off. One copy creates a partial, dosage-sensitive developmental effect, and the visible result is a patchy absence of pigment cells rather than a whole-body one.
+
+The mutation
+------------
+
+The substitution sits in the paired domain, one of PAX3's key DNA-binding domains. The cysteine at position 70 is highly conserved across PAX-family proteins and across animals, and structural comparison with human PAX6 suggests it normally helps contact the DNA backbone - so replacing it with tyrosine should alter DNA binding and downstream regulation.
+
+The case for causality is strong, and much of the mechanism is inferred rather than measured in equine embryonic tissue: linkage in a Quarter Horse family pointed to ECA6, where PAX3 sits; the allele was found in splash-white horses and not in the solid-coloured controls examined; PAX3's biological role fits abnormal pigment-cell development directly; comparable variants in humans and mice cause pigmentary and hearing phenotypes; and the affected residue is conserved and functionally crucial.
+
+Coat and eye
+------------
+
+SW2 is a white spotting pattern, not a dilution. The base colour still exists in the pigmented areas; SW2 removes pigment where melanocytes are missing. Typical features: a large broad blaze; a bald face, often over or past the eyes and onto the cheeks; white lower legs, sometimes carried high; one or two blue eyes, or partial blue and sectoral heterochromia; small belly spots or more extensive body white; and the impression of a horse dipped in white from below.
+
+Expression is highly variable. One N/SW2 horse has a bald face and four high whites; another has ordinary socks and a modest blaze. Visual identification is unreliable. Horses carrying SW2 and SW1 averaged more facial depigmentation than horses carrying either alone, and chestnut horses in that study showed more extensive white face than bays of the same splash genotype - so base colour and other modifiers matter.
+
+visible white = SW2 effect + other white-pattern alleles + base colour and modifiers + developmental variation
+
+So markings cannot tell you whether a horse has SW2, or whether it has one copy or two.
+
+Deafness
+--------
+
+The well-supported health association is congenital sensorineural deafness. Some splash-white horses are deaf; many are not, and the research and laboratory guidance do not support treating it as inevitable.
+
+The mechanism is developmental. Melanocytes matter to normal inner-ear physiology: in the cochlea, melanocyte-like cells in the stria vascularis help maintain the ionic environment hearing depends on. If the pigment pathway leaves the inner ear without enough functional melanocytes, the hearing loss is permanent.
+
+- It is usually present from birth, not progressive.
+- A blue eye is a clue to altered pigment-cell distribution and is not a hearing test.
+- Extensive facial white, particularly around the ears, raises suspicion; appearance cannot diagnose it.
+- BAER testing is the objective method where hearing matters for safety, training, breeding or sale disclosure.
+- A deaf horse can live and work successfully with predictable routines, visual cues and safety-aware handling.
+
+The mod makes deafness a rule where reality makes it a risk
+In the mod, two variant copies at this locus and the horse is deaf - deterministically, and one copy never is. Reality is messier in both directions: deafness has incomplete penetrance even in homozygotes, and it does occur in some heterozygous splash-white horses. The exact penetrance for N/SW2 and SW2/SW2 is listed among the open questions below.
+
+The mod's version is the legible one: a player can predict it, breed around it, and learn the rule from one affected horse. A probabilistic condition on a locus that already has variable coat expression would be indistinguishable from noise. It is the same trade GYS1 makes with penetrance, and it is worth recording as a simplification rather than a finding.
+
+What SW2 is not known to cause
+------------------------------
+
+trait | evidence
+height and mature size | no validated association
+conformation - skeleton, balance, bone, topline, limb angle, muscling | none established
+foal growth and adult development | no evidence of impairment
+speed, racing, stride mechanics, aerobic capacity | no published evidence
+endurance, cardiovascular fitness, metabolism, recovery | none established
+jumping scope, technique, bascule, carefulness, coordination, soundness | no evidence
+temperament and trainability | no direct effect; a deaf horse responds differently because it cannot use sound cues
+eye disease merely from a blue eye | no evidence
+seizures, neurologic disease, immune disorder, heterozygote infertility | no evidence
+
+The caveat that matters: deafness changes management, not inherent athletic ability. A deaf horse may need training adapted to vibration, body language, touch, visual signals and an awareness of startling risk. No study establishes an SW2-specific reduction in athletic capacity. People infer physical traits from the striking look of a high-white horse; there is no basis for it. SW2 affects embryonic patterning of melanocytes and is not a quantitative trait locus for conformation or sport.
+
+Inheritance
+-----------
+
+mating | expected per foal
+N/N x N/N | 100% N/N
+N/SW2 x N/N | 50% / 50%
+N/SW2 x N/SW2 | 25 / 50 / 25
+SW2/SW2 x N/N | 100% N/SW2
+SW2/SW2 x N/SW2 | 50% / 50%
+SW2/SW2 x SW2/SW2 | 100% SW2/SW2
+
+Dominant genetically; variable in expression. A horse can inherit SW2 and show only modest markings. So SW2 is dominant with variable expressivity, not "one allele equals a fixed paint pattern". Other loci add or alter white: SW1 and the other MITF splash alleles, tobiano, frame overo, sabino 1 and the other KIT variants, W20 and the dominant whites, and the base colour itself.
+
+The homozygote, and a hypothesis that did not survive
+-----------------------------------------------------
+
+Early work found no SW2/SW2 horses. Because PAX3 matters in neural development, the 2012 discovery paper reasonably raised the possibility that homozygosity might be embryonic or fetal lethal, partly on mouse biology. That was a hypothesis.
+
+Large-scale genotyping settled it. A UC Davis dataset of 11,281 horses found nine SW2/SW2 animals - three Paints and six Quarter Horses. So the genotype is not universally lethal. The six homozygous Quarter Horses with photographs were all described as all-white, and five also carried one or more additional white-patterning alleles. PMC9498372 (https://pmc.ncbi.nlm.nih.gov/articles/PMC9498372/)
+
+Careful conclusion: homozygotes can be born and survive; they tend toward far more extensive depigmentation than heterozygotes; the data are too limited to predict a uniform SW2/SW2 pattern; many known examples have confounding stacked white alleles; and the frequency and severity of deafness among them is not well quantified. UC Davis describes homozygosity as likely non-lethal while noting such horses may be deaf and warrant veterinary evaluation.
+
+The mod tracks this correctly, including the negative case
+SW2/SW2 is viable in the mod and lands on the bold-splash outcome, which matches the post-2022 picture rather than the superseded lethality hypothesis. And SW4/SW4 is excluded from the catalogue by canOccur because it has never been detected in a live horse - a rarer and more careful distinction than most of the mod makes, and the same mechanism MET uses for its own reason.
+
+Breeds and frequency
+--------------------
+
+In the 11,281-horse, 28-breed study, SW2 was found in Quarter Horses and Paint Horses only.
+
+breed | sampled | N/SW2 | SW2/SW2 | filtered n | allele frequency
+American Paint Horse | 2,080 | 63 | 3 | 1,020 | 0.78%
+American Quarter Horse | 5,518 | 202 | 6 | 3,193 | 0.83%
+
+That is an allele frequency near 0.8%, not a carrier percentage. For a rare dominant allele, heterozygotes are about 2p(1-p), so 0.008 corresponds to roughly 1.5-1.7% heterozygotes under random mating, before selection and relatedness. Quarter Horse and Paint registries have historical gene flow and dual registration, so the two figures are not independent breed estimates, and the original research treated them as one connected population.
+
+The mod carries WILD_SW2_PERCENT = 3.0 and WILD_SW4_PERCENT = 0.5 - SW2 roughly twice the real stock-horse heterozygote rate, and SW4 rarer still, which is right: SW4 is one Appaloosa family and nothing else.
+
+SW2 is the rare one, and it is rare because it is new
+Genetic evidence suggests SW2 began as a recent de novo germline mutation in a Quarter Horse mare born in 1987. Hair-root DNA from that mare tested wild type while two splash-white sons carried SW2 - so the mutation most likely arose in the germ cells that produced her offspring rather than throughout her sampled tissue. That is the whole reason for the asymmetry the mod encodes: SW1 on MITF is the widespread, several-centuries-old, minimally expressed allele, and SW2 is a coding change in PAX3 that is barely forty years old and concentrated in one stock-horse family.
+
+SW2 against the rest of the splash family
+-----------------------------------------
+
+"Splash white" is a phenotype category, not a gene. At least two genes produce splash-like patterning:
+
+allele | gene | distinction
+SW1 | MITF | broadly distributed across breeds; a regulatory / promoter variant
+SW2 | PAX3 | the p.Cys70Tyr missense; strongest evidence in Quarter Horse and Paint lines
+SW3 | MITF | rare frameshift allele in Quarter Horse and Paint lines
+SW4 | PAX3 | rare, documented in Appaloosa-family material
+SW5-SW8 | MITF | rare, many lineage- or breed-restricted
+SW10 | PAX3 | a separate stop-gain allele in Pura Raza Española horses - not SW2
+
+So a horse can look splashy and test N/N for SW2 because it has SW1, a different splash allele, a KIT white allele, frame overo, an untested variant, or a combination - and an SW2-positive horse can look only subtly marked. The mod carries SW2 and SW4 on this locus and SW1 on its MITF twin, which is the correct split: they are different chromosomes' worth of gene, so a horse can be splash twice over, and one carrying both is whiter than either alone with no special case anywhere.
+
+What is settled, and what is not
+--------------------------------
+
+Well supported. SW2 is the PAX3 p.Cys70Tyr variant on ECA6, inherited as an autosomal dominant white-pattern allele; it affects melanocyte development and produces variable splash-white spotting with broad facial white, leg white, blue or partly blue eyes and sometimes extensive body white; some splash-white horses have congenital deafness; SW2 interacts with SW1 to increase average white; homozygotes exist, so the genotype is not universally lethal; and the documented distribution is Quarter Horse and Paint.
+
+Still uncertain. The exact molecular change in DNA binding and downstream expression caused by p.C70Y in living equine pigment cells; the exact penetrance of deafness for heterozygotes and homozygotes; whether SW2 alone accounts for the all-white homozygote phenotypes, given that most known homozygotes carry additional white alleles; the precise influence of base colour, MITF and KIT alleles and unknown modifiers; and the real frequency in individual sublines, regions and programmes.
+
+Not supported. SW2 as a speed, racing, jumping, endurance or conformation gene; that it improves or impairs athletic potential; that a blue eye proves deafness; that an SW2-positive horse is automatically deaf; that a splashy horse is automatically SW2-positive; or that homozygous SW2 is categorically lethal - that concern was superseded by living homozygotes.

@@ -1,0 +1,40 @@
+{
+  "format": 1,
+  "id": "rabicano",
+  "species": "horse",
+  "name": "Rabicano",
+  "symbol": null,
+  "evidence": "abstracted",
+  "summary": "White ticking that starts at the tail dock and the flank and works forward - a frosted, banded coon tail, a scatter of white hairs over the rear barrel and belly, and broken vertical rib bars on the strongest ones. The allele is dominant but how much shows is a per-horse roll that can come out at almost nothing, so a horse recorded as solid can throw a heavily ticked foal. Not classic roan: the tail tells them apart.",
+  "inheritance": "autosomal",
+  "affects_coat": true,
+  "alleles": [
+    { "id": "Rb", "name": "Rabicano (Rb)", "wild_type": false },
+    { "id": "rb", "name": "Wild-type (rb)", "wild_type": true }
+  ],
+  "phenotypes": [
+    { "id": "wild", "name": "Wild type", "description": "No white ticking.", "changes_coat": false },
+    { "id": "rabicano", "name": "Rabicano", "description": "White ticking from the tail dock and flank forward - a frosted, banded coon tail and a scatter of white hairs over the rear barrel and belly. How much shows varies enormously and can be almost nothing: a horse recorded as solid can carry it and throw a strongly ticked foal.", "changes_coat": true },
+    { "id": "strong-rabicano", "name": "Strong rabicano", "description": "Two copies. The same pattern with its floor raised - a horse that never comes out entirely plain, often with broken vertical rib bars up the barrel and enough white to be mistaken for a roan until you look at its tail.", "changes_coat": true }
+  ],
+  "genotypes": [
+    { "alleles": ["rb", "rb"], "phenotype": "wild" },
+    { "alleles": ["Rb", "rb"], "phenotype": "rabicano" },
+    { "alleles": ["Rb", "Rb"], "phenotype": "strong-rabicano" }
+  ],
+  "frequencies": [
+    {
+      "population": "general population",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["Rb", "Rb"], "percent": 0.2 },
+        { "alleles": ["Rb", "rb"], "percent": 6 },
+        { "alleles": ["rb", "rb"], "percent": 93.8 }
+      ]
+    }
+  ],
+  "citations": [
+    { "source": "other", "label": "AQHA", "url": "https://www.aqha.com/-/five-major-variations-in-horse-color" },
+    { "source": "other", "label": "eScholarship 95w0q51r", "url": "https://escholarship.org/uc/item/95w0q51r" }
+  ]
+}

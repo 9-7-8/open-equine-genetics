@@ -1,0 +1,28 @@
+Markings - science notes
+(Copied 2026-10-12 from the Science tab of the Procedural Horse Coats wiki page for this gene.
+Written for that project: it may mention how a game models the gene. Not yet audited.)
+
+At a glance
+-----------
+
+Trait | Ordinary white face and leg markings - star, stripe, snip, blaze, coronet, sock, stocking
+Genetics | Polygenic: many small-effect loci, with no single causal variant
+Also | Substantial non-genetic developmental variation in how far pigment cells migrated
+Testable | No commercial test, because there is no one locus to test
+Health | None. White hair is not a disorder; the deafness risk belongs to the splash alleles specifically
+
+Why this is its own thing and not splash
+----------------------------------------
+
+The single most useful finding here is a negative one. The study that identified SW1 deliberately assembled 112 horses with minimal white markings - the population you would expect a minimally-expressed splash allele to be hiding in - and found no splash allele at all. Ordinary stars and socks are simply not splash.
+
+They are also not one gene. Marking extent behaves like a quantitative trait: continuously distributed, moderately heritable, and responsive to selection, which is the signature of many loci of small effect rather than one locus with big ones. Breeders have selected both for and against white for centuries and moved the population gradually in both directions, which is exactly what you cannot do with a single dominant.
+
+On top of the genetics sits genuine developmental noise. Pigment cells migrate from the neural crest during gestation, and how far they get before the coat is fixed is not fully determined by the genome - which is why full siblings, and even clones, differ in their markings, and why a marking is usable as an individual identifier on a registration diagram at all.
+
+The confusion this locus reproduces on purpose
+----------------------------------------------
+
+At its top end this gene draws a broad blaze and high stockings, which is very hard to tell from a minimally expressed sabino or splash by eye. That ambiguity is not a shortcoming of the model - it is the thing the literature keeps saying out loud, and the reason testing exists. A horse with four white legs and a bald face may be a heavily marked ordinary horse or a minimally marked pattern carrier, and only its genotype settles it.
+
+In the mod that distinction is real and checkable: the info panel and a research paper name the locus, so two horses that look alike can be told apart by what they will actually throw.

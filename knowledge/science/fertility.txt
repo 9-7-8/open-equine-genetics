@@ -1,0 +1,18 @@
+Fertility - science notes
+(Copied 2026-10-12 from the Science tab of the Procedural Horse Coats wiki page for this gene.
+Written for that project: it may mention how a game models the gene. Not yet audited.)
+
+There is no fertility locus
+---------------------------
+
+Nothing in a real horse's genome matches this gene. Fertility in horses is polygenic and strongly shaped by age, condition and management. The part that is inherited is small and spread across many genes. This locus is a game abstraction of a real heritable trait: something a breeder can select for and see results from, which a diffuse polygenic score would not give a player. That is also why the epigenetic number exists: it drifts a little each generation, so fertility stays a matter of degree even between two horses with the same alleles.
+
+Twins in real horses
+--------------------
+
+A mare fairly often releases two eggs in one heat, more often in some breeds. But a live twin birth is rare. Most twin pregnancies end with one or both lost, and breeders usually reduce a twin pregnancy to one early. The mod's twins are more forgiving than that on purpose. Offered a harsher, more realistic outcome table, the owner chose "rare, and usually both live" (2026-09-13).
+
+Subfertility
+------------
+
+A stallion or mare that is reliably hard to get in foal is a familiar problem in real breeding. Its causes range from semen quality to uterine health, and are rarely a single inherited cause. The allele here stands in for the heritable part only. Making it recessive and absent from the wild keeps it something a breeder produces by breeding, which matches how a closed line accumulates problems rather than how wild populations carry them.

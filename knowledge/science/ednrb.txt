@@ -1,0 +1,96 @@
+EDNRB (frame overo) - science notes
+(Copied 2026-10-12 from the Science tab of the Procedural Horse Coats wiki page for this gene.
+Written for that project: it may mention how a game models the gene. Not yet audited.)
+
+Genetic identity
+----------------
+
+Gene | EDNRB - endothelin receptor type B
+Chromosome | Equine chromosome 17 (ECA17)
+Variant | A two-nucleotide substitution, reported as TC -> AG
+Protein | p.Ile118Lys (I118K) - isoleucine to lysine in the first transmembrane domain, a highly conserved and functionally important stretch
+Inheritance | Incompletely dominant for spotting; recessive lethal for the developmental syndrome
+Notation | N usual allele, O frame (also written Fr)
+
+This is a developmental white-spotting locus, not a base-colour or dilution locus, and it has exactly one molecularly confirmed equine coat-colour allele. The original work found I118K homozygous in unrelated lethal-white foals and heterozygous in all forty frame overos tested. Metallinos et al., PMID 9585428 (https://pubmed.ncbi.nlm.nih.gov/9585428/?dopt=Abstract)
+
+Why white hair and a fatal gut disease are the same gene
+--------------------------------------------------------
+
+EDNRB is a receptor used during embryonic development, in pathways affecting cells derived from the neural crest. Two of those populations matter here:
+
+- Melanocytes - the pigment cells that colonise skin and hair follicles. If their precursors do not migrate, survive or differentiate normally in a region, that region grows white hair over pink skin because there are no pigment cells in it.
+- Enteric neurons and ganglia - the nervous system embedded in the intestinal wall, which coordinates gut motility. If they fail to populate the distal intestine the result is aganglionosis, and the gut cannot move.
+
+That shared origin explains an otherwise bizarre pairing. It is not that a colour gene somehow also causes colic: one impaired developmental signal hits pigment cells and gut nerves alike. The disease is the equine counterpart of human Hirschsprung disease, where EDNRB-pathway mutations are also implicated.
+
+A lethal white foal is usually white or nearly white, often with blue eyes, because the loss of signalling is widespread enough to leave almost no pigmented hair. It may nurse and look bright, then fail to pass meconium and develop severe colic and abdominal distension, deteriorating within a day or two of birth.
+
+It removes pigment cells; it does not dilute
+--------------------------------------------
+
+EDNRB sits upstream of the red-versus-black choice. It decides whether melanocytes are present in an area at all; it never tells a melanocyte which pigment to make. In a frame-white patch neither eumelanin nor pheomelanin is produced, so the white is identical whatever the horse's base would have been - chestnut, bay, black, palomino, buckskin, grullo, smoky black. The coloured portions go on expressing MC1R, ASIP and every dilution normally.
+
+visible coat = base pigment programme + dilutions - melanocytes in EDNRB-white areas
+
+Inheritance, and the breeding rule
+----------------------------------
+
+Genotype | Expected from N/O x N/O | Outcome
+N/N | 25% | Does not carry or transmit I118K
+N/O | 50% | Viable frame carrier, variable visible expression
+O/O | 25% | Lethal white foal syndrome
+
+That 25% is per conception, not a quota: four pregnancies do not guarantee one foal of each genotype. The safe rule is simply never to breed two confirmed carriers together; N/O x N/N still produces frame foals about half the time with no affected foal possible. UC Davis VGL (https://vgl.ucdavis.edu/test/lethal-white-overo)
+
+A carrier does not have to look like one
+----------------------------------------
+
+Classic frame is white concentrated on the face, belly, flanks, lower neck or sides, with dark pigment appearing to frame it, white that does not cross the topline, a bald or very broad face marking, dark legs more often than not, and sometimes blue eyes.
+
+But expression is variable, and that is the clinically important fact. The original study documented carriers with no recognised overo phenotype at all, and the veterinary literature describes a solid-registered Quarter Horse mare that was heterozygous and produced an affected foal. Visual assessment cannot rule the allele in or out. Other white patterns compound the problem: a frame carrier that is also tobiano may simply be described as tobiano or tovero, and tobiano can obscure the recognisable frame layout entirely.
+
+Health, and what deafness actually means here
+---------------------------------------------
+
+For O/O, the picture is not in dispute: congenital, fatal, no curative treatment, with aganglionosis of the distal small and large intestine producing functional obstruction. For N/O, horses are ordinarily healthy with respect to that disorder and their established phenotype is the spotting.
+
+Deafness is an association, not a one-gene prediction. It is biologically plausible - inner-ear melanocytes matter for normal hearing - and a study of American Paint Horses found congenital deafness particularly among horses with extensive facial and limb white, blue or partly blue eyes, and splash/frame or tovero blends, with most deaf or suspected-deaf horses carrying the EDNRB mutation. JAVMA 235(10):1204 (https://avmajournals.avma.org/view/journals/javma/235/10/javma.235.10.1204.xml) But those phenotypes commonly involved splashed white as well, and several loci affecting melanocyte development contribute to facial white, blue eyes and hearing risk. "Every frame horse is deaf" and "frame alone predicts deafness" are both wrong.
+
+"Overo" is not one allele
+-------------------------
+
+Overo is a Paint-horse family of pinto patterns and a registry word, not a molecular category. Patterns called overo arise from at least: frame (this gene), splashed white (MITF and PAX3), sabino-type white including KIT's SB1, and the broad dominant-white series also at KIT. Tovero is a visual description of tobiano plus overo-type patterning, not a gene. PMID 11197568 (https://pubmed.ncbi.nlm.nih.gov/11197568/)
+
+Two corollaries worth keeping straight. A nearly white foal is not a diagnosis - extensive KIT white or stacked spotting alleles can make one that lives perfectly well, while an O/O foal has a specific developmental disease rather than merely a lot of white hair. And an N/N horse can still look thoroughly overo: it will be splash, sabino, tobiano, KIT white or a combination, which refutes neither the test nor the phenotype.
+
+Why frame has a locus to itself
+-------------------------------
+
+Because it does - EDNRB is nothing to do with KIT or the splash genes. And that is not a filing detail: a locus of its own is precisely why frame composes freely with everything else. A horse really can be frame and tobiano and splash, and the loudest overos in life are exactly those stacks.
+
+Breeds and frequency
+--------------------
+
+Strongly associated with lineages carrying frame ancestry, but not confined to Paints: the documented testing context spans Paint, Pinto, Quarter Horse, Miniature Horse and Thoroughbred populations. A registry label does not protect against the allele; only inheritance does, which is the whole argument for testing rather than eyeballing.
+
+What is settled, and what is not
+--------------------------------
+
+Claim | Status
+I118K causes frame spotting heterozygous and LWFS homozygous | Established, and the first equine white pattern with a defined causal mutation
+Carriers can be minimally marked or visually solid | Established
+The white is melanocyte absence, not dilution | Established
+A routine test proves the horse carries no EDNRB variant at all | False. It asks one narrow question: I118K, yes or no
+Other non-lethal equine EDNRB white alleles | Unproven. Biologically possible - the gene is large and developmental - but there is no validated equine series comparable to KIT's
+A viable homozygous frame adult | Unsupported. Such a claim needs repeat genotyping, parentage confirmation and veterinary evidence before it displaces the established rule
+
+Where the mod departs
+---------------------
+
+- Frame white never crosses the topline here; in life it usually does not. TOPLINE_CAP is a hard exclusion in EdnrbGene, where the literature says white "often does not cross the topline in a simple frame-only presentation". The simplification is deliberate and mostly invisible, because a frame horse that also carries tobiano gets its topline white from tobiano, painted separately - which is the same stack that produces the effect in life. What it costs is the occasional frame-only horse that should have broken the rule.
+- Deafness is not modelled at all, here or on the splash loci. Given that the real association runs through splash and frame combinations rather than through this allele alone, modelling it on this gene would assert something the evidence does not.
+- The lethal is a birth death, not a developmental one. An O/O foal is born and then dies, because the health system works that way; there is no aganglionosis to simulate and no gut to model. The mod's own note on this is that no founder is ever born dying - see the horse's body.
+
+One thing the mod gets right that is easy to get wrong
+Cryptic carriers exist here. EdnrbGene's cover roll reaches low enough that some O/N horses show no recognisable frame at all, which is exactly the documented behaviour and exactly why the real-world advice is to test rather than look. A model that drew every carrier as a textbook frame would make the punnett square a formality instead of the point.

@@ -1,0 +1,184 @@
+EVERYTHING LEFT TO DO
+=====================
+Written 2026-10-12, at the end of the session that made the first export. Nothing below is
+started unless it says so. Tick a line by deleting it and saying so in the session log.
+Read knowledge/START-HERE.txt and procedures/start-a-session.txt before working on any of it.
+
+The owner is Isabel. Lines marked [OWNER] need her answer before work can start; ask with
+2-4 options, recommendation first. Never publish, push or create a GitHub repo unasked.
+
+
+0. FIRST, BEFORE ANYTHING IS BUILT ON THIS
+==========================================
+[OWNER] 0.1  Review the gene file format. She has not seen it. Show genes/extension.json,
+             genes/kit.json and knowledge/format.txt. Every field name was chosen by the
+             exporting session. Changing it later costs every consumer.
+[OWNER] 0.2  Confirm the folder is where she wants it (beside the mod, not inside it).
+[OWNER] 0.3  Confirm the readings in session-logs/2026-10-12-1308-first-export.txt,
+             "HOW THE REQUEST WAS READ".
+[OWNER] 0.4  Locus ids: keep the mod's names ("extension", "matp") or use gene symbols
+             ("mc1r", "slc45a2")? Decide before publishing; mod-map.json absorbs either.
+[OWNER] 0.5  Allele ids are the mod's tokens ("Cr", "prl", "W20"). Keep, or adopt UC Davis
+             naming with the old token kept in the mod map?
+        0.6  Prove one procedure end to end: procedures/audit-a-gene.txt on extension, the
+             simplest locus. Fix the procedure where it turns out wrong.
+
+
+1. MAKE IT A REPOSITORY
+=======================
+[OWNER] 1.1  git init and a first commit. (Not a git repository today.)
+        1.2  LICENSE: the GPL 3 text, unmodified.
+        1.3  README: what this is; the three evidence words explained FIRST; the format in
+             brief; how to cite it; that it is unaudited.
+        1.4  CONTRIBUTING and a pull-request template with the clause: "I license this
+             contribution under GPL 3 and grant the maintainer the right to relicense it."
+[OWNER] 1.5  Are mod-map.json and knowledge/how-this-was-exported/ published, or kept out?
+[OWNER] 1.6  knowledge/science/ is copied from her mod's wiki. Confirm she wants that text
+             here under GPL 3.
+[OWNER] 1.7  The knowledge files name local paths on her machine and a live game server
+             folder. Trim before publishing?
+[OWNER] 1.8  Create the public GitHub repo "open-equine-genetics" under her account; first
+             push. (procedures/publish-a-version.txt)
+        1.9  A GitHub Actions workflow that runs tools/validate.mjs on every push and pull
+             request.
+[OWNER] 1.10 Version numbering. A suggestion is in publish-a-version.txt; not settled.
+        1.11 A .gitattributes forcing LF line endings, so files do not churn between
+             Windows and anything else.
+
+
+2. FIX WHAT THE FIRST EXPORT GOT WRONG OR LEFT ROUGH
+====================================================
+Detail for each is in knowledge/known-issues.txt.
+        2.1  Rewrite game wording out of summaries and phenotype descriptions. Known
+             files: abstracted_hardiness, acan, b4galt7, cvm, fertility, gbe1, hmga2,
+             lama3, lcorl, leopard, mstn, ryr1, ryr2, tiger_eye, toe1. Then read ALL 68
+             for subtler cases ("no wild horse is born with two", "rolled", "foal crop
+             in the mod").
+[OWNER] 2.2  The five abstracted body loci describe "the percentage written on that copy"
+             (each allele copy carrying its own inherited strength). Does that idea belong
+             in this format, or are those descriptions rewritten without it?
+        2.3  Check every "symbol" against UC Davis VGL or OMIA. Doubtful: roan and tobiano
+             as KIT; patn1 as RFWD3; tiger_eye as SLC24A5; mushroom as MFSD12; brindle as
+             MBTPS2.
+        2.4  39 loci have no citation. For each, read its science note for papers named in
+             prose and turn them into citations; if there are none, find the sources.
+        2.5  Citations hang on the whole locus. Decide whether a citation can attach to an
+             allele, a genotype or a frequency table, and extend the format if so.
+        2.6  Citation "source" was guessed from the host name. Check the 12 marked "other".
+        2.7  patn1 and patn2 have no science note; their science is in
+             knowledge/science/leopard.txt. Write theirs, or point to it.
+        2.8  The eight eye loci and the five abstracted body loci have no science note.
+             Write one each, saying plainly what real variation they stand in for.
+        2.9  State real epistasis that the data does not: grey and dominant white hiding
+             other colours; cream on red versus black pigment; silver showing only on
+             black pigment; dun, champagne, pearl interactions. Only agouti, leopard and
+             flaxen have an "interactions" table today.
+        2.10 agouti's interactions table includes the mod's split of bay into shades by
+             the abstracted "shade" locus. Decide whether that stays in agouti.json.
+        2.11 The left-eye loci in the mod usually copy the right eye. Not expressed here.
+             Express it or drop the left/right split.
+        2.12 acan lists its lethal homozygote as a genotype with a condition; kit, met,
+             mitf and pax3 list theirs as nonviable. Check the difference is real for each.
+        2.13 "sex" is not a locus here, and brindle uses a placeholder "Y" allele. Decide
+             how sex and sex linkage are stated for the species as a whole.
+        2.14 Spot-check the science notes converted cleanly (tables, lists, special
+             characters). Only extension was looked at.
+        2.15 Every "name" on an allele repeats its id in brackets ("Extension (E)"). Tidy.
+
+
+3. THE ACCURACY AUDIT  (the main work; the mod's issue #256)
+============================================================
+One locus per run of procedures/audit-a-gene.txt. Needs web access. The owner approves
+every change. 68 loci, none audited.
+[OWNER] 3.1  The order. Suggested: coat-colour loci with a UC Davis test first, then
+             disorders with a commercial test, then performance loci, then abstractions.
+        3.2  Uncollapse the merged loci: kit (dominant white W alleles, sabino and more as
+             one locus), mitf, matp. Each split needs a mod-map.json change and the owner's
+             explicit yes.
+        3.3  Add real alleles the data lacks. Known: "ea" at extension. Find the rest by
+             reading each science note against its gene file.
+        3.4  The dosage loci (shade, flaxen, sooty, pangare, markings, grey) are the mod's
+             model. For each: is there now a real locus or variant? If not, confirm
+             "abstracted" and say what is actually known.
+        3.5  Replace estimated frequencies with published ones where a survey exists, with
+             the population named. Leave the rest flagged.
+        3.6  Real loci the mod never modelled at all (find them from the UC Davis horse
+             test list and OMIA). procedures/add-a-gene.txt.
+        3.7  For each audited locus, replace "Not yet audited" at the top of its science
+             note with the date and sources.
+[OWNER] 3.8  What a new real allele means for the mod: appended to the mod's gene too, or
+             held here only? (Open in the mod's issue #256.)
+
+
+4. KEEPING IT UP TO DATE
+========================
+[OWNER] 4.1  How "up to date with UC Davis" is kept: a scheduled check or one run by hand,
+             and how often. procedures/check-for-new-findings.txt.
+        4.2  Run check-for-new-findings.txt once to get a baseline list.
+
+
+5. BREEDS  (the mod's issue #251)
+=================================
+Nothing exported. procedures/add-a-breed.txt holds what is decided.
+        5.1  Write the breed format into knowledge/format.txt.
+[OWNER] 5.2  Show her one breed (the Arabian) in the draft format and get a yes.
+        5.3  Extend tools/validate.mjs for breeds.
+        5.4  Export the mod's natural breeds (about 120): id, name, country, description,
+             strains, pools at the loci that exist here, the 1-10 scores marked abstracted.
+             Drop biomes, spawn rules, prices, herds, the heat and cold pools, game notes.
+        5.5  Real height, weight and type per breed, cited. The mod stores none: its size
+             is a model scale. A height derived from it is an estimate.
+        5.6  Cited allele frequencies per breed where a survey exists.
+        5.7  Rewrite add-a-breed.txt as a real procedure.
+        5.8  Countries are free text in the mod's files. Choose a standard (ISO codes?).
+
+
+6. TOOLS
+========
+        6.1  A JSON Schema file for a gene (and later a breed), so other languages can
+             validate without Node.
+        6.2  validate.mjs cannot detect a reordered or renamed allele. Once there is a
+             tagged version, add a check against it.
+        6.3  validate.mjs requires every locus to be in mod-map.json with an identical
+             allele order. The first locus or allele the mod lacks will fail it. Loosen
+             it then (add-a-gene.txt step 6, add-an-allele.txt step 7), and break it on
+             purpose once to see it still fails.
+        6.4  A checker that every citation address still answers.
+        6.5  A small generated index (ids, names, evidence) so a reader can see the whole
+             set without opening 68 files.
+
+
+7. THE MOD SIDE  (work in C:\Users\Isabel\Procedural-Horse-Coats, under ITS rules)
+==================================================================================
+Not this repo's work, listed so the dependency is visible. All scoped in issue #250.
+        7.1  #251 and #252: the permanent exporter inside the mod, replacing the throwaway
+             tools in knowledge/how-this-was-exported/.
+        7.2  Until 7.3 this repo is a MIRROR: a natural gene or breed changed in the mod
+             must be carried here by procedures/re-export-from-the-mod.txt. The mod's
+             procedures/rebake.txt has no row for that yet.
+        7.3  #253, #254, #255: the mod reads breeds, then genes, from here through a
+             pinned git submodule. After the mod's rename (#142) and jar split (#146).
+        7.4  When 7.3 ships: retire re-export-from-the-mod.txt and say in
+             knowledge/the-mod.txt that the direction has reversed.
+        7.5  In the mod: six natural disorder genes sit in its "magical" priority band.
+             Unconfirmed, unfiled; noted in #250.
+
+
+8. PROCEDURES
+=============
+        8.1  None of the twelve has been run. The first run of each will find mistakes;
+             fix the file in that session.
+        8.2  review-a-contribution.txt is unusable until section 1 is done.
+        8.3  A procedure for answering "what is the genotype for <colour>" style questions
+             from the data, if other projects start asking.
+
+
+9. LATER, IF WANTED
+===================
+[OWNER] 9.1  Donkey and zebra data (the repo is "equids only"; only horse exists).
+             natural_zebra is exported as an abstracted HORSE locus by her decision.
+[OWNER] 9.2  Generating the mod's wiki Science tabs from this data. Declined for now; she
+             said to ask again later.
+[OWNER] 9.3  Climate tolerance, temperament and yields as abstractions. Left out by her
+             choice of "body stats only"; re-askable.
+        9.4  A citable release (a DOI through Zenodo or similar) if it is to be cited.

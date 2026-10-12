@@ -1,0 +1,67 @@
+DECISIONS ALREADY MADE
+======================
+All made by the owner (Isabel) on 2026-10-12 unless a line says otherwise. The full record
+is GitHub issue #250 in 9-7-8/Procedural-Horse-Coats. Do not reopen one without asking her.
+
+PURPOSE
+- A separate repo she maintains, usable in other projects, language-agnostic.
+- Aim: the most accurate list of genes and breeds for real horses, kept up to date with
+  UC Davis findings as far as she can.
+
+WHAT IT HOLDS
+- Real science, uncollapsed where it is known.
+- PLUS the mod's abstractions, each clearly labelled as an abstraction. An abstraction is a
+  single made-up locus standing in for something real that is polygenic or not yet
+  understood (height, flaxen, sooty). They are named "abstracted ...", never "magical ...".
+- A "mod map" that says how the mod's model relates to the data here.
+- Nothing invented for the game with no real counterpart. No magical genes.
+
+WHICH GENES
+- Every gene with a published locus.
+- As abstractions: flaxen, shade, sooty, markings, pangare, rabicano, manchado, CVM,
+  megaesophagus, PATN2, the eight eye loci, fertility, natural zebra (as a HORSE locus).
+- As abstractions from the mod's body stats: abstracted height, speed, jump, hardiness,
+  draft power. The mod's "vampiric" allele on those is not included.
+- Left out on purpose: diet; climate tolerance; temperament; yields; everything magical.
+
+SPECIES
+- Equids only: horse now; donkey and zebra may follow. No sheep.
+
+BREEDS (not exported yet)
+- Natural breeds only, with nothing Minecraft in them (no biomes, spawn rules, prices).
+- Gene pools: each frequency carries a citation where one exists and an "estimated" flag
+  where it is a guess. Everything starts as estimated.
+- Body: real measurements (height, weight, type) with citations, AND the mod's 1-10 scores
+  for speed, jump, health and pull, marked as abstracted estimates.
+
+EVIDENCE
+- Every entry says how far to trust it. See knowledge/format.txt.
+- Citations come first from the mod's wiki Science tabs, harvested once. Those tabs stay
+  hand-written in the mod; generating them from this data was declined for now and may be
+  asked again.
+
+LICENCE
+- GPL 3.
+- Contributions: a clause in CONTRIBUTING and a pull-request checkbox - "I license this
+  contribution under GPL 3 and grant the maintainer the right to relicense it." This is
+  what lets outside additions flow back into the MIT-licensed mod.
+- Inside the mod's jar the data stays GPL 3.
+- Repo name: open-equine-genetics. Public, under her GitHub account. Not created yet.
+
+THE MOD
+- The mod will READ this repo as its source of truth (not merely export to it), through a
+  git submodule pinned to a commit.
+- Saved gene keys and allele tokens in the mod never change; mod-map.json translates.
+- Until the mod reads it (issue #253 onward), this repo is a MIRROR: a change in the mod
+  has to be re-exported here, and a change here does not reach the mod.
+
+THE AUDIT
+- Making the data accurate is its own job (issue #256): locus by locus, a session
+  researches UC Davis VGL, OMIA and the papers, and the owner approves each change.
+
+MADE BY THE EXPORTING SESSION, NOT ASKED (change freely, tell the owner)
+- The file layout and every field name in knowledge/format.txt.
+- genes/ is one flat folder with a "species" field in each file.
+- "sex" is not exported as a locus.
+- The gene symbols filled into "symbol" (see known-issues.txt).
+- This folder living at C:\Users\Isabel\open-equine-genetics, beside the mod's folder.

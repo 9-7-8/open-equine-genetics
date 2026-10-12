@@ -1,0 +1,36 @@
+{
+  "format": 1,
+  "id": "roan",
+  "species": "horse",
+  "name": "Roan",
+  "symbol": "KIT",
+  "evidence": "published",
+  "summary": "Classic roan: an even salt-and-pepper of white hairs through the whole trunk - shoulder, barrel, back, flank and hip alike - over a base colour it does not change, so a black goes blue roan and a chestnut strawberry. The head stays dark (the roan mask), the mane and tail stay solid, and the dark lower leg rises into the roaning in a point. Not the leopard complex's varnish roan, which is patchy and whitens the face. The density varies per horse and is inherited whole.",
+  "inheritance": "autosomal",
+  "affects_coat": true,
+  "alleles": [
+    { "id": "Rn", "name": "Roan (Rn)", "wild_type": false },
+    { "id": "rn", "name": "Wild-type (rn)", "wild_type": true }
+  ],
+  "phenotypes": [
+    { "id": "wild", "name": "Wild type", "description": "No white hairs mixed in.", "changes_coat": false },
+    { "id": "roan", "name": "Roan", "description": "An even salt-and-pepper of white hairs through the whole trunk - barrel, shoulder, back, flank and hip alike - over a base colour it does not change: blue roan on a black, strawberry on a chestnut. The head stays dark, giving the mask classic roan is known by, the mane and tail stay solid, and the dark lower leg rises into the roaning in a point.", "changes_coat": true }
+  ],
+  "genotypes": [
+    { "alleles": ["rn", "rn"], "phenotype": "wild" },
+    { "alleles": ["Rn", "rn"], "phenotype": "roan" },
+    { "alleles": ["Rn", "Rn"], "phenotype": "roan" }
+  ],
+  "frequencies": [
+    {
+      "population": "general population",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["Rn", "Rn"], "percent": 0.1111 },
+        { "alleles": ["Rn", "rn"], "percent": 6.4444 },
+        { "alleles": ["rn", "rn"], "percent": 93.4444 }
+      ]
+    }
+  ],
+  "citations": []
+}

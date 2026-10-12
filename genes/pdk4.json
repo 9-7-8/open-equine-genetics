@@ -1,0 +1,37 @@
+{
+  "format": 1,
+  "id": "pdk4",
+  "species": "horse",
+  "name": "PDK4",
+  "symbol": "PDK4",
+  "evidence": "published",
+  "summary": "PDK4, a straightforward speed gene: each A copy adds a small amount of movement speed and nothing else. It is one atomic locus, not a hidden bundle of markers.",
+  "inheritance": "autosomal",
+  "affects_coat": false,
+  "alleles": [
+    { "id": "A", "name": "Racing (A)", "wild_type": false },
+    { "id": "G", "name": "Wild-type (G)", "wild_type": true }
+  ],
+  "phenotypes": [
+    { "id": "pdk4-fast", "name": "PDK4 racing type", "description": "Two racing copies. The full speed bonus this locus offers.", "changes_coat": false },
+    { "id": "pdk4-mixed", "name": "PDK4 intermediate", "description": "One racing copy. Exactly half the bonus - the alleles add rather than one masking the other.", "changes_coat": false },
+    { "id": "pdk4-plain", "name": "PDK4 wild type", "description": "No racing copy. No contribution to speed.", "changes_coat": false }
+  ],
+  "genotypes": [
+    { "alleles": ["G", "G"], "phenotype": "pdk4-plain" },
+    { "alleles": ["A", "G"], "phenotype": "pdk4-mixed" },
+    { "alleles": ["A", "A"], "phenotype": "pdk4-fast" }
+  ],
+  "frequencies": [
+    {
+      "population": "general population",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["A", "A"], "percent": 6.25 },
+        { "alleles": ["A", "G"], "percent": 37.5 },
+        { "alleles": ["G", "G"], "percent": 56.25 }
+      ]
+    }
+  ],
+  "citations": []
+}

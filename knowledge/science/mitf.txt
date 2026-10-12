@@ -1,0 +1,10 @@
+MITF (splash white) - science notes
+(Copied 2026-10-12 from the Science tab of the Procedural Horse Coats wiki page for this gene.
+Written for that project: it may mention how a game models the gene. Not yet audited.)
+
+Why splash is two genes
+-----------------------
+
+A gene has two slots. If SW1 and SW2 were alleles of one gene, they would compete for those slots - and a horse could not carry both. In life a horse carries N/SW1 at MITF and N/SW2 at PAX3, and comes out with markedly more face, leg and belly white than either alone. One gene cannot express that genotype at all.
+
+Two MITF variants can still meet - SW1/SW3 is a real compound heterozygote - and that is what this locus's own table is for.

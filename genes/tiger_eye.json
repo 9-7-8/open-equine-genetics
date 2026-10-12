@@ -1,0 +1,47 @@
+{
+  "format": 1,
+  "id": "tiger_eye",
+  "species": "horse",
+  "name": "Tiger eye (SLC24A5)",
+  "symbol": "SLC24A5",
+  "evidence": "published",
+  "summary": "A bright amber iris in a horse whose coat is entirely ordinary. It is the first gene in the mod that changes only the eyes, and the reason the eye-colour channel exists at all. Essentially confined to the Puerto Rican Paso Fino, in life and here.",
+  "inheritance": "autosomal",
+  "affects_coat": true,
+  "alleles": [
+    { "id": "TE1", "name": "Tiger eye 1 (TE1)", "wild_type": false },
+    { "id": "TE2", "name": "Tiger eye 2 (TE2)", "wild_type": false },
+    { "id": "N", "name": "Wild-type (N)", "wild_type": true }
+  ],
+  "phenotypes": [
+    { "id": "wild", "name": "Wild type", "description": "Ordinary dark eyes.", "changes_coat": false },
+    { "id": "tiger-eye-carrier", "name": "Tiger eye carrier", "description": "One copy, which shows nothing at all - not in the eyes and not in the coat. Two carriers bred together is the only way amber eyes appear.", "changes_coat": false },
+    { "id": "tiger-eye-amber", "name": "Tiger eye (amber)", "description": "A bright amber iris, the colour of a hawk's eye, in a horse whose coat is entirely ordinary. Nothing else about the horse changes.", "changes_coat": true },
+    { "id": "tiger-eye-yellow", "name": "Tiger eye (yellow)", "description": "The paler, more yellow shade two TE2 copies produce - the same trait a stop lighter than the amber TE1 gives.", "changes_coat": true }
+  ],
+  "genotypes": [
+    { "alleles": ["N", "N"], "phenotype": "wild" },
+    { "alleles": ["TE2", "N"], "phenotype": "tiger-eye-carrier" },
+    { "alleles": ["TE2", "TE2"], "phenotype": "tiger-eye-yellow" },
+    { "alleles": ["TE1", "N"], "phenotype": "tiger-eye-carrier" },
+    { "alleles": ["TE1", "TE2"], "phenotype": "tiger-eye-amber" },
+    { "alleles": ["TE1", "TE1"], "phenotype": "tiger-eye-amber" }
+  ],
+  "frequencies": [
+    {
+      "population": "general population",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["TE1", "TE1"], "percent": 0.0204 },
+        { "alleles": ["TE1", "TE2"], "percent": 0.0245 },
+        { "alleles": ["TE1", "N"], "percent": 2.7918 },
+        { "alleles": ["TE2", "TE2"], "percent": 0.0073 },
+        { "alleles": ["TE2", "N"], "percent": 1.6751 },
+        { "alleles": ["N", "N"], "percent": 95.4808 }
+      ]
+    }
+  ],
+  "citations": [
+    { "source": "pubmed", "label": "Mack et al., PMC5555483", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5555483/" }
+  ]
+}

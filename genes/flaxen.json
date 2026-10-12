@@ -1,0 +1,70 @@
+{
+  "format": 1,
+  "id": "flaxen",
+  "species": "horse",
+  "name": "Flaxen",
+  "symbol": null,
+  "evidence": "abstracted",
+  "summary": "The pale mane and tail of a chestnut horse - from a few gold strands to a near-white fall of hair - as a dosage of two variant alleles rather than the simple recessive folklore models it as, because no flaxen mutation has ever been identified. It touches the long hair and nothing else, and it is invisible on any horse that makes black hair, which carries and transmits it regardless.",
+  "inheritance": "autosomal",
+  "affects_coat": true,
+  "alleles": [
+    { "id": "Fl2", "name": "Flaxen, strong (Fl2)", "wild_type": false },
+    { "id": "Fl1", "name": "Flaxen, mild (Fl1)", "wild_type": false },
+    { "id": "f", "name": "Wild-type (f)", "wild_type": true }
+  ],
+  "phenotypes": [
+    { "id": "wild", "name": "Wild type", "description": "The mane and tail are the colour of the body. On a horse that makes black hair this is what every combination looks like - flaxen only shows on a chestnut.", "changes_coat": false },
+    { "id": "mild-flaxen", "name": "Mild flaxen", "description": "Red long hair shot through with gold and cream strands - enough to notice, not enough to call the horse flaxen at a distance.", "changes_coat": true },
+    { "id": "flaxen", "name": "Flaxen", "description": "Clearly blond mane, tail and forelock over a red body: the classic flaxen chestnut.", "changes_coat": true },
+    { "id": "strong-flaxen", "name": "Strong flaxen", "description": "Pale cream long hair against the body colour, with the hard contrast a Haflinger is known for.", "changes_coat": true },
+    { "id": "extreme-flaxen", "name": "Extreme flaxen", "description": "A near-white fall of mane and tail, with only a few darker strands left in it.", "changes_coat": true }
+  ],
+  "genotypes": [
+    { "alleles": ["f", "f"], "phenotype": "wild" },
+    { "alleles": ["Fl1", "f"], "phenotype": "mild-flaxen" },
+    { "alleles": ["Fl1", "Fl1"], "phenotype": "flaxen" },
+    { "alleles": ["Fl2", "f"], "phenotype": "flaxen" },
+    { "alleles": ["Fl2", "Fl1"], "phenotype": "strong-flaxen" },
+    { "alleles": ["Fl2", "Fl2"], "phenotype": "extreme-flaxen" }
+  ],
+  "interactions": {
+    "depends_on": ["extension"],
+    "note": "The phenotype of this locus once the loci it depends on are known. Overrides the genotypes table.",
+    "table": [
+      { "alleles": ["f", "f"], "with": { "extension": ["e", "e"] }, "phenotype": "wild" },
+      { "alleles": ["f", "f"], "with": { "extension": ["E", "e"] }, "phenotype": "wild" },
+      { "alleles": ["f", "f"], "with": { "extension": ["E", "E"] }, "phenotype": "wild" },
+      { "alleles": ["Fl1", "f"], "with": { "extension": ["e", "e"] }, "phenotype": "mild-flaxen" },
+      { "alleles": ["Fl1", "f"], "with": { "extension": ["E", "e"] }, "phenotype": "wild" },
+      { "alleles": ["Fl1", "f"], "with": { "extension": ["E", "E"] }, "phenotype": "wild" },
+      { "alleles": ["Fl1", "Fl1"], "with": { "extension": ["e", "e"] }, "phenotype": "flaxen" },
+      { "alleles": ["Fl1", "Fl1"], "with": { "extension": ["E", "e"] }, "phenotype": "wild" },
+      { "alleles": ["Fl1", "Fl1"], "with": { "extension": ["E", "E"] }, "phenotype": "wild" },
+      { "alleles": ["Fl2", "f"], "with": { "extension": ["e", "e"] }, "phenotype": "flaxen" },
+      { "alleles": ["Fl2", "f"], "with": { "extension": ["E", "e"] }, "phenotype": "wild" },
+      { "alleles": ["Fl2", "f"], "with": { "extension": ["E", "E"] }, "phenotype": "wild" },
+      { "alleles": ["Fl2", "Fl1"], "with": { "extension": ["e", "e"] }, "phenotype": "strong-flaxen" },
+      { "alleles": ["Fl2", "Fl1"], "with": { "extension": ["E", "e"] }, "phenotype": "wild" },
+      { "alleles": ["Fl2", "Fl1"], "with": { "extension": ["E", "E"] }, "phenotype": "wild" },
+      { "alleles": ["Fl2", "Fl2"], "with": { "extension": ["e", "e"] }, "phenotype": "extreme-flaxen" },
+      { "alleles": ["Fl2", "Fl2"], "with": { "extension": ["E", "e"] }, "phenotype": "wild" },
+      { "alleles": ["Fl2", "Fl2"], "with": { "extension": ["E", "E"] }, "phenotype": "wild" }
+    ]
+  },
+  "frequencies": [
+    {
+      "population": "general population",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["Fl2", "Fl2"], "percent": 1 },
+        { "alleles": ["Fl2", "Fl1"], "percent": 5.6 },
+        { "alleles": ["Fl2", "f"], "percent": 12.4 },
+        { "alleles": ["Fl1", "Fl1"], "percent": 7.84 },
+        { "alleles": ["Fl1", "f"], "percent": 34.72 },
+        { "alleles": ["f", "f"], "percent": 38.44 }
+      ]
+    }
+  ],
+  "citations": []
+}

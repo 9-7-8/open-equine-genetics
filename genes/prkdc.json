@@ -1,0 +1,43 @@
+{
+  "format": 1,
+  "id": "prkdc",
+  "species": "horse",
+  "name": "PRKDC (SCID)",
+  "symbol": "PRKDC",
+  "evidence": "published",
+  "summary": "PRKDC (SCID), severe combined immunodeficiency - a recessive lethal. The foal is born with no immune system and does not survive.",
+  "inheritance": "autosomal",
+  "affects_coat": false,
+  "alleles": [
+    { "id": "scid", "name": "SCID (scid)", "wild_type": false },
+    { "id": "N", "name": "Wild-type (N)", "wild_type": true }
+  ],
+  "phenotypes": [
+    { "id": "wild", "name": "Wild type", "description": "Two working copies. Nothing is wrong and nothing is passed on.", "changes_coat": false },
+    { "id": "prkdc-carrier", "name": "PRKDC (SCID) carrier", "description": "One copy of scid. The horse is completely normal and there is no way to see it - but half its foals inherit the copy, and two carriers bred together are the only way scid (no immune system) appears.", "changes_coat": false },
+    { "id": "scid", "name": "SCID (no immune system)", "description": "The foal is born with no working immune system at all. It is healthy for a few days on its dam's antibodies and then has nothing left to fight with.", "changes_coat": false }
+  ],
+  "genotypes": [
+    { "alleles": ["N", "N"], "phenotype": "wild" },
+    { "alleles": ["scid", "N"], "phenotype": "prkdc-carrier" },
+    { "alleles": ["scid", "scid"], "phenotype": "scid", "conditions": ["scid"] }
+  ],
+  "conditions": [
+    { "id": "scid", "name": "SCID (no immune system)", "description": "The foal is born with no working immune system at all. It is healthy for a few days on its dam's antibodies and then has nothing left to fight with.", "severity": "lethal_at_birth" }
+  ],
+  "frequencies": [
+    {
+      "population": "general population",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["scid", "N"], "percent": 2.8 },
+        { "alleles": ["N", "N"], "percent": 97.2 }
+      ]
+    }
+  ],
+  "citations": [
+    { "source": "omia", "label": "OMIA 000220", "url": "https://omia.org/OMIA000220/9796/" },
+    { "source": "ucdavis-vgl", "label": "UC Davis VGL", "url": "https://vgl.ucdavis.edu/test/scid" },
+    { "source": "pubmed", "label": "PMID 9682449", "url": "https://pubmed.ncbi.nlm.nih.gov/9682449/" }
+  ]
+}

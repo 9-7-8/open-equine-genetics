@@ -1,0 +1,42 @@
+{
+  "format": 1,
+  "id": "rapgef5",
+  "species": "horse",
+  "name": "RAPGEF5",
+  "symbol": "RAPGEF5",
+  "evidence": "published",
+  "summary": "RAPGEF5 (EFIH), the most severe and rarest of the foal lethals - recessive, lethal at birth, carried silently by a small fraction of wild horses.",
+  "inheritance": "autosomal",
+  "affects_coat": false,
+  "alleles": [
+    { "id": "efih", "name": "EFIH (efih)", "wild_type": false },
+    { "id": "N", "name": "Wild-type (N)", "wild_type": true }
+  ],
+  "phenotypes": [
+    { "id": "wild", "name": "Wild type", "description": "Two working copies. Nothing is wrong and nothing is passed on.", "changes_coat": false },
+    { "id": "rapgef5-carrier", "name": "RAPGEF5 carrier", "description": "One copy of efih. The horse is completely normal and there is no way to see it - but half its foals inherit the copy, and two carriers bred together are the only way hypoparathyroidism (efih) appears.", "changes_coat": false },
+    { "id": "efih", "name": "Hypoparathyroidism (EFIH)", "description": "The foal is born with no parathyroid glands and cannot hold its calcium. It seizes and does not survive.", "changes_coat": false }
+  ],
+  "genotypes": [
+    { "alleles": ["N", "N"], "phenotype": "wild" },
+    { "alleles": ["efih", "N"], "phenotype": "rapgef5-carrier" },
+    { "alleles": ["efih", "efih"], "phenotype": "efih", "conditions": ["efih"] }
+  ],
+  "conditions": [
+    { "id": "efih", "name": "Hypoparathyroidism (EFIH)", "description": "The foal is born with no parathyroid glands and cannot hold its calcium. It seizes and does not survive.", "severity": "lethal_at_birth" }
+  ],
+  "frequencies": [
+    {
+      "population": "general population",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["efih", "N"], "percent": 1.4 },
+        { "alleles": ["N", "N"], "percent": 98.6 }
+      ]
+    }
+  ],
+  "citations": [
+    { "source": "pubmed", "label": "Rocha et al., PMC7544121", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7544121/" },
+    { "source": "pubmed", "label": "PMC10073348", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10073348/" }
+  ]
+}

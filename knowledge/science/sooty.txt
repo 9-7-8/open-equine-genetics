@@ -1,0 +1,25 @@
+Sooty - science notes
+(Copied 2026-10-12 from the Science tab of the Procedural Horse Coats wiki page for this gene.
+Written for that project: it may mention how a game models the gene. Not yet audited.)
+
+What is actually known
+----------------------
+
+Not much, and nothing testable. There is no validated commercial sooty test and no demonstrated inheritance model - not dominant, not recessive, not codominant, not incomplete dominant. Saying otherwise would be inventing a fact.
+
+What exists is a 2020 genome-wide association study of 126 bay horses (Quarter Horses, Arabians, Persian Horses, two Standardbreds and one Thoroughbred) finding a very strong association between a region on chromosome 22 near ASIP and RALY and how far black spreads over a bay. The lead marker's effect was roughly additive - which is the one structural fact worth building on, and is why this locus is a dosage. The causal mutation was not identified; a candidate RALY indel was found and the lead marker still predicted the phenotype better.
+
+So: a dose-dependent modifier with a per-horse roll, the same shape flaxen and the bay shade score take, and labelled as a modelled modifier rather than as settled science.
+
+Why it is not the shade locus, given they are the same paper
+------------------------------------------------------------
+
+Shade models the same chromosome-22 signal. Keeping them apart is deliberate:
+
+| Shade | Sooty (this gene)
+Scope | Bays only | Every base with pigment to keep
+Justified by | The study, which measured bay horses and ranked bay shade. That is the claim it supports. | The phenotype. A muddy palomino and a smutty buckskin are real and common and obviously not bay shade.
+Does | Decides how far black spreads from the points - blood bay to seal brown | Lays a dark cape over the topline of anything
+Shows on a chestnut | No | Yes - as a liver overlay
+
+Folding them into one locus would have claimed a great deal more than the paper does: that one mutation causes both bay shade and every dirty palomino. Two abstractions of overlapping evidence, each honest about its own scope. A horse carries both, and a dark bay can be dark for either reason or for both at once.

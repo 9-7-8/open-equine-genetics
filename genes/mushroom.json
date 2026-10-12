@@ -1,0 +1,40 @@
+{
+  "format": 1,
+  "id": "mushroom",
+  "species": "horse",
+  "name": "Mushroom",
+  "symbol": "MFSD12",
+  "evidence": "published",
+  "summary": "The mirror of silver: dilutes red pigment only, and only with two copies, walking a chestnut's red body toward a flat sepia. A black or bay horse carries it almost invisibly, having little red to lose.",
+  "inheritance": "autosomal",
+  "affects_coat": true,
+  "alleles": [
+    { "id": "Mu", "name": "Mushroom (Mu)", "wild_type": false },
+    { "id": "mu", "name": "Wild-type (mu)", "wild_type": true }
+  ],
+  "phenotypes": [
+    { "id": "wild", "name": "Wild type", "description": "Red pigment is left alone.", "changes_coat": false },
+    { "id": "mushroom-carrier", "name": "Mushroom carrier", "description": "One copy shows nothing. The allele passes on invisibly - two carriers bred together are how mushroom appears.", "changes_coat": false },
+    { "id": "mushroom", "name": "Mushroom", "description": "Red pigment cut hard and partly traded for black, so a chestnut becomes a flat sepia-khaki. A black or bay horse has little red to lose and looks much the same.", "changes_coat": true }
+  ],
+  "genotypes": [
+    { "alleles": ["mu", "mu"], "phenotype": "wild" },
+    { "alleles": ["Mu", "mu"], "phenotype": "mushroom-carrier" },
+    { "alleles": ["Mu", "Mu"], "phenotype": "mushroom" }
+  ],
+  "frequencies": [
+    {
+      "population": "general population",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["Mu", "Mu"], "percent": 0.0865 },
+        { "alleles": ["Mu", "mu"], "percent": 5.7093 },
+        { "alleles": ["mu", "mu"], "percent": 94.2042 }
+      ]
+    }
+  ],
+  "citations": [
+    { "source": "pubmed", "label": "Tanaka et al., PMC6827053", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6827053/" },
+    { "source": "paper", "label": "Nature s41586-020-2937-x", "url": "https://www.nature.com/articles/s41586-020-2937-x" }
+  ]
+}

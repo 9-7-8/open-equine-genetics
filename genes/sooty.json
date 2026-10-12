@@ -1,0 +1,46 @@
+{
+  "format": 1,
+  "id": "sooty",
+  "species": "horse",
+  "name": "Sooty",
+  "symbol": null,
+  "evidence": "abstracted",
+  "summary": "The dark countershading that lies over a horse's topline, crest, shoulder and croup and makes it look darker than its base colour says - a muddy palomino, a smutty buckskin, a bay people keep calling black. It works by declining to remove pigment the rest of the coat was about to lose, so it shows most on the colours with the most to keep and does nothing at all on a plain black. A dosage of two variant alleles; no confirmed real-world inheritance exists.",
+  "inheritance": "autosomal",
+  "affects_coat": true,
+  "alleles": [
+    { "id": "S2", "name": "Sooty, strong (S2)", "wild_type": false },
+    { "id": "S1", "name": "Sooty, mild (S1)", "wild_type": false },
+    { "id": "s", "name": "Wild-type (s)", "wild_type": true }
+  ],
+  "phenotypes": [
+    { "id": "wild", "name": "Wild type", "description": "No dark overlay - whatever the base colour and the dilutions made, that is what shows.", "changes_coat": false },
+    { "id": "faint-sooty", "name": "Faint sooty", "description": "A dark haze along the spine and a little shading over the croup. Easy to miss, and easy to mistake for a dun's dorsal stripe - which it is not: there are no leg bars, no shoulder bar and no mask with it.", "changes_coat": true },
+    { "id": "sooty", "name": "Sooty", "description": "An obviously darker topline, crest and upper barrel over a clearer belly and flank - the countershading the word usually means.", "changes_coat": true },
+    { "id": "heavy-sooty", "name": "Heavy sooty", "description": "A dark cape over the shoulder, back and croup, with the base colour left showing mostly low on the sides. On a chestnut-based coat the lower legs go muddy with it.", "changes_coat": true },
+    { "id": "extreme-sooty", "name": "Extreme sooty", "description": "Dark over nearly the whole body. A bay reads as brown or black, a buckskin as a dark bay, and a palomino as a bronze horse - which is the commonest reason a coat cannot be identified from a photograph.", "changes_coat": true }
+  ],
+  "genotypes": [
+    { "alleles": ["s", "s"], "phenotype": "wild" },
+    { "alleles": ["S1", "s"], "phenotype": "faint-sooty" },
+    { "alleles": ["S1", "S1"], "phenotype": "sooty" },
+    { "alleles": ["S2", "s"], "phenotype": "sooty" },
+    { "alleles": ["S2", "S1"], "phenotype": "heavy-sooty" },
+    { "alleles": ["S2", "S2"], "phenotype": "extreme-sooty" }
+  ],
+  "frequencies": [
+    {
+      "population": "general population",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["S2", "S2"], "percent": 1.44 },
+        { "alleles": ["S2", "S1"], "percent": 7.2 },
+        { "alleles": ["S2", "s"], "percent": 13.92 },
+        { "alleles": ["S1", "S1"], "percent": 9 },
+        { "alleles": ["S1", "s"], "percent": 34.8 },
+        { "alleles": ["s", "s"], "percent": 33.64 }
+      ]
+    }
+  ],
+  "citations": []
+}

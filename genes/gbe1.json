@@ -1,0 +1,42 @@
+{
+  "format": 1,
+  "id": "gbe1",
+  "species": "horse",
+  "name": "GBE1 (GBED)",
+  "symbol": "GBE1",
+  "evidence": "published",
+  "summary": "GBE1 (GBED), glycogen branching enzyme deficiency - a recessive lethal at birth, and the largest heart reduction in the mod. The foal cannot store or release sugar.",
+  "inheritance": "autosomal",
+  "affects_coat": false,
+  "alleles": [
+    { "id": "gbed", "name": "GBED (gbed)", "wild_type": false },
+    { "id": "N", "name": "Wild-type (N)", "wild_type": true }
+  ],
+  "phenotypes": [
+    { "id": "wild", "name": "Wild type", "description": "Two working copies. Nothing is wrong and nothing is passed on.", "changes_coat": false },
+    { "id": "gbe1-carrier", "name": "GBE1 (GBED) carrier", "description": "One copy of gbed. The horse is completely normal and there is no way to see it - but half its foals inherit the copy, and two carriers bred together are the only way glycogen branching enzyme deficiency appears.", "changes_coat": false },
+    { "id": "gbed", "name": "Glycogen branching enzyme deficiency", "description": "The foal cannot store or release sugar. It is weak from birth, cannot keep itself warm, and has nothing to draw on.", "changes_coat": false }
+  ],
+  "genotypes": [
+    { "alleles": ["N", "N"], "phenotype": "wild" },
+    { "alleles": ["gbed", "N"], "phenotype": "gbe1-carrier" },
+    { "alleles": ["gbed", "gbed"], "phenotype": "gbed", "conditions": ["gbed"] }
+  ],
+  "conditions": [
+    { "id": "gbed", "name": "Glycogen branching enzyme deficiency", "description": "The foal cannot store or release sugar. It is weak from birth, cannot keep itself warm, and has nothing to draw on.", "severity": "lethal_at_birth" }
+  ],
+  "frequencies": [
+    {
+      "population": "general population",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["gbed", "N"], "percent": 2 },
+        { "alleles": ["N", "N"], "percent": 98 }
+      ]
+    }
+  ],
+  "citations": [
+    { "source": "omia", "label": "OMIA 000420", "url": "https://omia.org/OMIA000420/9796/" },
+    { "source": "ucdavis-vgl", "label": "UC Davis VGL", "url": "https://vgl.ucdavis.edu/test/gbed" }
+  ]
+}

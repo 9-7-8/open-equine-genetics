@@ -1,0 +1,95 @@
+CKM - science notes
+(Copied 2026-10-12 from the Science tab of the Procedural Horse Coats wiki page for this gene.
+Written for that project: it may mention how a game models the gene. Not yet audited.)
+
+Read this first: the mod is more confident than the evidence is
+Of every natural gene in the mod, this is the one where the science and the implementation disagree hardest. The mod treats CKM as a real additive speed locus. The equine literature contains one performance claim for it, from a small 2010 Thoroughbred candidate-gene study, and that claim failed independent validation in the same paper's own replication sample and was explicitly non-significant in a later Quarter Horse study. The biochemistry is sound; the genotype-to-phenotype link is not established. Everything below says so in detail, and the last section says what that means for the gene.
+
+What CKM is
+-----------
+
+CKM is creatine kinase, M-type - the muscle-type creatine kinase gene, encoding an enzyme expressed mainly in skeletal and cardiac muscle. Its central reaction transfers a phosphate from phosphocreatine to ADP:
+
+phosphocreatine + ADP + H+ ⇌ creatine + ATP
+
+That is the phosphagen energy system. At the start of a sprint, a jump take-off, a gallop acceleration or a sudden uphill effort, muscle ATP demand rises almost instantly, and the ATP stored directly in muscle is very limited. CK-M regenerates it locally and fast, acting as an energy buffer and shuttle for extremely high-power contraction over seconds - not as a supply of long-duration aerobic energy.
+
+So CKM is a physiologically plausible muscle-power candidate. Plausibility is not proof that ordinary inherited CKM variants produce a measurable difference in a horse. The annotated equine gene lies on equine chromosome 10 (ECA10), on EquCab3.0 and on the newer TB-T2T assembly. NCBI Gene 100065641 (https://www.ncbi.nlm.nih.gov/gene/100065641)
+
+Not a coat gene, not a size gene
+--------------------------------
+
+CKM is not a coat-colour locus and is not known to affect base colour, any dilution, any white pattern, mane and tail colour, grey, roan, skin pigment or eye colour. Those come from MC1R, ASIP, KIT, STX17, PMEL, TBX3 and their neighbours. The mod agrees - every CKM outcome is marked wildType.
+
+Nor is it an established size or conformation gene: not withers height, body mass, frame, bone length, neck or shoulder or croup or limb angle, hoof or joint size, or muscle mass in the way the "speed gene" label sometimes implies. The best-supported body-size region in horses is on ECA3 near LCORL and NCAPG; a 2024 study of 2,709 German Warmblood mares found the ECA3 region accounted for a very large share of the genetic signal for withers height, and CKM - on ECA10 - was not implicated. PMC11177368 (https://pmc.ncbi.nlm.nih.gov/articles/PMC11177368/)
+
+Muscle function is not muscle shape
+It is reasonable to speculate that CKM activity differences change how a muscle meets very short-term energy demand. That is a different claim from CKM making a horse more muscular, stockier, taller or better built. Muscle shape and hypertrophy are polygenic and driven hard by growth, nutrition, sex, training, endocrine state and age. MSTN has substantially stronger evidence for racing-distance aptitude and muscular phenotype - and even MSTN is not a deterministic single-gene switch.
+
+Speed - the claim, and what happened to it
+------------------------------------------
+
+The horse-specific CKM claim traces to a 2010 candidate-gene study of Thoroughbreds. Researchers found novel SNPs in ACTN3, CKM and COX4I2, then compared "elite" Thoroughbreds against horses that had never won. Three SNPs in CKM/COX4I2 were nominally significant in the initial sample.
+
+The associations were then not validated in an additional independent sample of 130 horses, and when all samples were combined, only a COX4I2 variant retained a reported association. PMID 21059062 (https://pubmed.ncbi.nlm.nih.gov/21059062/)
+
+The SNP usually quoted from that work is CKM g.15884567G>A in EquCab2.0 coordinates, with the original work and its patent materials proposing that the A allele - especially A/A - might be enriched among elite performers. WO2010029527A1 (https://patents.google.com/patent/WO2010029527A1/en) It is an exploratory association that did not replicate, not an established marker.
+
+A later study tested the same variant in Quarter Horses - 296 from racing lines and 68 from cutting lines. The marker was polymorphic, and there was no significant association with line type or with the extreme racing-performance groups compared. The authors' conclusion was explicit: the tested CKM SNP was not related to racing performance in Quarter Horses. J Equine Vet Sci (https://www.sciencedirect.com/science/article/pii/S0737080615005699)
+
+question | current evidence for CKM
+Does CKM affect muscle energy biochemistry? | yes - strongly supported by the enzyme's basic role
+Does a known CKM allele reliably make a horse faster? | no - not established
+Does CKM predict sprint versus staying aptitude? | no - far weaker than MSTN
+Does it predict earnings, wins or elite status across breeds? | no - the initial result did not cleanly replicate
+Is it useful as a stand-alone commercial performance test? | no, on current evidence
+
+Jumping
+-------
+
+No direct evidence that CKM genotype predicts scope, jump height, bascule, carefulness, technique, take-off distance, landing mechanics, show-jumping results or eventing performance. Its energy role makes a tiny contribution to explosive hindlimb contraction at take-off hypothesisable, and that is all it is.
+
+Equine jumping GWAS work has identified QTL on other chromosomes, near genes including RYR2, ACTA1 and ACTN2 - more directly tied to muscle calcium signalling and muscle structure. That does not prove those genes "cause jumping"; it shows the current literature does not name CKM as a validated jumping locus. Front. Genet. 11:448 (https://www.frontiersin.org/journals/genetics/articles/10.3389/fgene.2020.00448/full)
+
+Jumping is a stack of interacting layers: limb and back conformation; muscle force, elastic recoil, coordination and balance; canter quality and adjustability; vision, temperament, learning and rider interaction; training history, conditioning, injury, footing, course design and management. A single SNP would be expected, at most, to contribute very little among all of that. The mod gives CKM no jump effect at all, which is the right call.
+
+If it did anything, it would be this kind of speed
+--------------------------------------------------
+
+Were a functional CKM difference ever shown to matter, the plausible phenotype is very-short-duration, high-rate ATP turnover: the first strides from a start, sudden acceleration, brief maximal galloping, a jump take-off, fast muscle-force transients. It is much less plausible that CKM alone governs sustained aerobic capacity or long-distance racing, which depend far more on oxygen delivery, mitochondrial density and function, cardiovascular capacity, thermoregulation, glycogen and fat metabolism, biomechanics and training adaptation. That is biochemical reasoning, not evidence about real horses.
+
+Inheritance
+-----------
+
+An ordinary autosomal gene on ECA10 - not sex-linked, not mitochondrial. For a single biallelic SNP the genotypes are the usual three, transmitted the usual way, and two heterozygotes give 25% / 50% / 25%.
+
+That the genotypes segregate simply does not mean the phenotype follows a simple dominant or recessive pattern. There is no validated, breed-general answer to whether the proposed elite allele is dominant, recessive or additive. If CKM has any population-level effect at all it could be additive (each copy a small shift), dominant (one copy as good as two), recessive (two copies needed), overdominant (heterozygotes unlike either homozygote), context-dependent (visible only in a breed, distance, training environment or ancestry group), or not causal at all - the SNP may simply have been linked to a nearby causal variant in the original population, or the association may have been chance.
+
+The mod picks additive, and picks different letters
+CkmGene models a clean additive effect: +0.015 speed per copy, +0.030 homozygous. Additive is one of at least six possibilities above and is not the one the evidence supports - it is the one that makes the best game, because it gives a breeding programme a gradient to climb rather than a threshold to hit. The mod also names its alleles T and C, where the literature's marker is G>A with A as the proposed elite allele. Nothing depends on the letters, and they are not the ones in the paper.
+
+Breeds and frequency
+--------------------
+
+population | what was studied | frequency
+Thoroughbred | the 2010 association study examined CKM variation against elite versus non-winning status | polymorphic; no reliable public breed-wide frequency for g.15884567G>A, and the association did not validate
+American Quarter Horse | 296 racing-line and 68 cutting-line horses, 2016 | polymorphic; no reliable breed-wide A-allele frequency published; no association with group or performance extremes
+every other breed | no robust breed survey located | presence, prevalence and effect all unknown
+
+So the honest answer to "which breeds, and how common?" is: documented as polymorphic in Thoroughbreds and Quarter Horses; no defensible percentage available for Thoroughbreds, Quarter Horses, Warmbloods, Arabians, Standardbreds or anything else. And "found in a breed" is not "important in that breed", which is not "predictive within that breed".
+
+The mod uses p(T) = 0.20, which has no published counterpart to be checked against. It was chosen so that the locus is the second-rarest of the three speed genes - a gameplay ordering, not a population measurement.
+
+Health
+------
+
+There is no established equine CKM variant causing a recognised inherited health syndrome, growth disorder, orthopaedic disease or performance-limiting muscle disease. That does not make CKM irrelevant to health: CK-M activity is central to muscle energetics, and serum creatine kinase is a standard clinical blood biomarker of muscle damage. But that is an enzyme measurement, not evidence that the SNP from an old performance panel causes muscle disease.
+
+What this means for the gene as implemented
+-------------------------------------------
+
+Known. CKM encodes a major skeletal-muscle energy-buffering enzyme; it is on ECA10; a historical Thoroughbred candidate-gene study reported an initial association with elite racing status; that signal failed independent validation, with the combined analysis retaining COX4I2 rather than CKM; the marker was polymorphic but unassociated with line or performance in Quarter Horses; and CKM has no validated association with coat, height, build, jumping or any hereditary disease.
+
+Speculative. That a CKM allele improves brief maximal power enough to change race results; that it determines acceleration or explosive take-off; that A/A at g.15884567G>A marks elite Thoroughbred potential; that a CKM test can guide breeding, purchasing, discipline choice or training; and that CKM meaningfully affects muscle mass or conformation.
+
+So the mod ships a speed locus the real literature does not support. That is a deliberate trade and it is worth naming rather than burying: the mod wants three legible speed genes of different sizes so a breeding programme has a gradient with a long tail, and CKM is the smallest of the three precisely because it is the least defensible. The alternative designs were to drop it (leaving two speed loci and a much shorter programme) or to model the real polygenic architecture (which a player cannot see or breed for). Neither is better; both are honest. What is not honest is letting a page imply the biochemistry settles the genetics. It does not - and the same caution applies with less force to PDK4, which is the other marker-in-a-cluster modelled as an atomic gene here.

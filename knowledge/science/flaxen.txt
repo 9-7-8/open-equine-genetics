@@ -1,0 +1,19 @@
+Flaxen - science notes
+(Copied 2026-10-12 from the Science tab of the Procedural Horse Coats wiki page for this gene.
+Written for that project: it may mention how a game models the gene. Not yet audited.)
+
+It is a phenotype, and this is a simulation of one
+--------------------------------------------------
+
+There is no identified flaxen mutation and no DNA test for it. That is the single most important fact about this gene and the reason it is shaped the way it is.
+
+Breeders have modelled flaxen as a simple recessive for a century, written f/f or fl/fl, on pedigree evidence - flaxen bred to flaxen tends to give flaxen, and Morgan pedigrees in particular were studied for exactly this. That is a useful breeding observation and it is not proof of a locus. The veterinary-genetics resources list no flaxen variant and no commercial test, and they are explicit that a great deal of equine shade variation remains unexplained.
+
+Model | Status
+Dominant | No identified allele one copy of which reliably produces flaxen.
+Recessive | Historical and pedigree support. Unconfirmed.
+Codominant | No validated heterozygote distinct from either homozygote.
+Incomplete dominant | No demonstrated one-copy-versus-two dose series, unlike cream.
+Polygenic | The best fit for what is actually observed: the degree of lightening varies enormously, and mane and tail colour move with age, season, sun, nutrition and clipping.
+
+So this locus is a simulated polygenic modifier, and it says so in its own description in the gene browser. It is the same shape the bay shade score takes, and for the same reason: a graded, heritable, additive quantity is what the evidence describes, and one locus with a dosage plus an expression roll says that in a genotype code a player can actually read. Three to six separate polygenes would say it too, at the cost of six segments in every horse's code and six loci nobody could reason about.

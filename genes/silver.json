@@ -1,0 +1,40 @@
+{
+  "format": 1,
+  "id": "silver",
+  "species": "horse",
+  "name": "Silver dapple",
+  "symbol": "PMEL",
+  "evidence": "published",
+  "summary": "Silver dapple (PMEL17): dilutes black pigment only, toward chocolate on the body and near-flaxen on the mane and tail, while leaving red untouched. A black becomes chocolate with a pale mane, a bay becomes silver bay, and a chestnut carrying it looks unchanged - it has no black to act on.",
+  "inheritance": "autosomal",
+  "affects_coat": true,
+  "alleles": [
+    { "id": "Z", "name": "Silver dapple (Z)", "wild_type": false },
+    { "id": "z", "name": "Wild-type (z)", "wild_type": true }
+  ],
+  "phenotypes": [
+    { "id": "wild", "name": "Wild type", "description": "Black pigment is left alone.", "changes_coat": false },
+    { "id": "silver", "name": "Silver dapple", "description": "Black pigment walked toward chocolate, and most of the way to flaxen on the mane and tail, with red untouched - a chocolate body under a pale mane on a black horse, silver bay on a bay. A chestnut carrier looks unchanged.", "changes_coat": true }
+  ],
+  "genotypes": [
+    { "alleles": ["z", "z"], "phenotype": "wild" },
+    { "alleles": ["Z", "z"], "phenotype": "silver", "conditions": ["mcoa-cyst"] },
+    { "alleles": ["Z", "Z"], "phenotype": "silver", "conditions": ["mcoa"] }
+  ],
+  "conditions": [
+    { "id": "mcoa-cyst", "name": "Ocular cysts (silver)", "description": "One silver copy. Small cysts sit at the back of the iris. Common in silver horses and usually harmless - but it is the same defect that disables a horse with two copies.", "severity": "informational" },
+    { "id": "mcoa", "name": "Multiple congenital ocular anomalies", "description": "Two silver copies. The eyes are malformed - cysts and a misshapen cornea - and the horse is a little frailer for it.", "severity": "impairing" }
+  ],
+  "frequencies": [
+    {
+      "population": "general population",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["Z", "Z"], "percent": 0.0278 },
+        { "alleles": ["Z", "z"], "percent": 3.2778 },
+        { "alleles": ["z", "z"], "percent": 96.6944 }
+      ]
+    }
+  ],
+  "citations": []
+}

@@ -1,0 +1,92 @@
+ST14 - science notes
+(Copied 2026-10-12 from the Science tab of the Procedural Horse Coats wiki page for this gene.
+Written for that project: it may mention how a game models the gene. Not yet audited.)
+
+The variant, and the protein it removes
+---------------------------------------
+
+The causal variant is ST14:c.388G>T, a nonsense mutation in exon 4. In protein notation p.Glu130* - a glutamic-acid codon becomes a premature stop at amino acid 130, predicted to truncate more than 80% of the protein. The mutant RNA also undergoes partial nonsense-mediated decay, the cell's quality control for messages carrying premature stops. An affected foal produces little or no functional ST14. Bärtschi et al., PMC5386879 (https://pmc.ncbi.nlm.nih.gov/articles/PMC5386879/)
+
+ST14 encodes matriptase, a type-II transmembrane serine protease. The name ("suppression of tumorigenicity 14") comes from cancer research and is irrelevant here; what matters is its epithelial biology - forming and maintaining the epidermal barrier, terminal differentiation of epidermal cells, processing of filaggrin/profilaggrin-related barrier proteins, hair-follicle development and hair-shaft formation, and protease signalling involving prostasin and related epithelial-development pathways.
+
+That places it in a different category from SHOX skeletal atavism, which is a limb-growth and patterning disorder. NFS is an epithelial, skin, follicle and barrier disorder.
+
+Locus and inheritance
+---------------------
+
+The gene is on equine chromosome 7, not a sex chromosome. Early mapping flagged candidate regions on chromosomes 7 and 27; whole-genome sequencing found the only protein-altering perfectly associated variant in the chromosome-7 interval. Inheritance is monogenic autosomal recessive.
+
+genotype | meaning | phenotype
+N/N | two normal alleles | unaffected, transmits nothing
+N/nfs | one of each | clinically normal carrier; passes it to ~50% of foals
+nfs/nfs | two NFS alleles | affected; incompatible with normal survival
+
+A carrier pairing gives 25% clear, 50% carrier, 25% affected per conception - expectations, not a guaranteed outcome across a handful of foals.
+
+What "naked" actually means
+---------------------------
+
+Descriptive but incomplete: affected foals are born with almost no body coat, rather than with no hair anywhere. The case descriptions report severe congenital alopecia or hypotrichosis; sparse or absent mane and tail; sparse, short, often curly or abnormal whiskers; missing eyelashes; slightly greater hair density distally on the limbs than over the trunk; thin, structurally abnormal hair shafts where hair exists; dry scaly skin with mild ichthyosis and xerosis cutis; skin erosions, scars and injury risk from having no coat; poor growth and small size for age in at least some survivors; and persistent epiphora in at least one documented case.
+
+Histology is what settles that this is not a cosmetic hairlessness or a pigment failure. The follicles themselves are malformed: shortened and dysplastic, with underdeveloped and disorganised bulbs, distorted openings filled with excess keratin and sebum, unusually thin abnormal shafts, and a hyperplastic epidermis with abnormal keratinisation. ST14 loss disrupts the machinery of skin maturation and follicle construction, not the look of the coat.
+
+The coat half of this gene is not built, and that is deliberate
+This is the one health gene in the mod that is supposed to be a coat gene as well. Phase 1 can only push pigment down, and "no hair" is not "less pigment" - a de-pigmented mane reads as a white mane, which is a different horse and a worse lie than drawing nothing at all. Doing it honestly means a bare-skin template or a real phase-3 pass, and because the affected foal dies within seconds of being born that was settled against on 2026-09-21 rather than approximated or queued. What ships is the disorder: the foal is born, the info panel names it as hairless, and it does not survive. The histology above is why the shortcut would have been wrong - the follicle is malformed, so there is nothing a pigment mask could honestly say. MYO5A is the same problem from the other direction.
+
+Health and survival
+-------------------
+
+The prognosis is very poor. The original report stated that all known affected horses died between a few weeks and three years of age, most in the first weeks or months. A few survived beyond two years with intensive care, which is not evidence of good welfare or normal health.
+
+Clinical concerns reported include general weakness and failure to thrive, an inadequate skin barrier and vulnerability to injury, persistent diarrhoea and other digestive problems, abnormal tooth development, laminitis-like hoof problems, and heightened practical vulnerability to cold, sun, abrasion, infection and fluid loss. UC Davis VGL (https://vgl.ucdavis.edu/test/naked-foal-syndrome)
+
+One necropsied foal had a spontaneous limb fracture, mild internal hydrocephalus, tricuspid-valve dysplasia, and striking abnormalities in lymphoid tissue - abnormal thymic organisation and poorly developed T-cell zones in spleen and lymph nodes. The authors did not conclude that any of that was a universal feature; they treated it as possibly coincidental pending further cases.
+
+claim | status
+severe hair, skin and follicular disease is central to NFS | strongly established
+affected foals have markedly reduced life expectancy | strongly established from known cases
+dental, GI, diarrhoea and laminitis-like signs occur | reported by diagnostic and breed sources
+a universal primary immune deficiency is part of NFS | plausible from one necropsy; unproven as consistent
+the cause of every early death is known | not established
+hydrocephalus or heart defects are inevitable | not established
+
+The mod kills at birth; the range is weeks to three years
+LETHAL_AT_BIRTH is the shortest reading of "most die in the first weeks or months", and it discards the tail entirely - a real NFS foal can be nursed for two years. Of the mod's foal lethals this is the one whose real course is least like the mechanism used for it, and it is another consequence of having no age model (gap 1). The alternative, an impairing condition with a long slow decline, is not expressible on the trait layer yet.
+
+Coat colour versus coat growth
+------------------------------
+
+NFS does not change a horse's coat-colour genotype at all. An affected foal can be genetically bay, chestnut, black, cremello, palomino, buckskin or grey; it simply lacks the coat that would show it. One detailed affected case was a cremello colt - and cremello came from its own dilution genotype, not from NFS. The mutation affects follicle development, hair-shaft formation and epidermal integrity, not pigment production at MC1R, ASIP, SLC45A2, KIT or STX17.
+
+The Akhal-Teke's metallic sheen is likewise unrelated. NFS is not a variant of the breed's naturally fine glossy coat and not a desirable "hairless colour".
+
+Build, movement, performance
+----------------------------
+
+NFS is not a primary skeletal dwarfism syndrome; it produces none of the retained ulna/fibula deformity that SHOX does. Affected foals may be small for age or growth-delayed, which most likely reflects severe systemic illness, poor barrier function, chronic stress and GI dysfunction rather than any direct size effect of ST14. One published affected colt was explicitly described as small and growth-delayed against unaffected age-matched horses at the same stud.
+
+There is no evidence that the allele improves speed, jumping scope, stride length, endurance, agility, gait quality, muscle development or athletic performance. For an affected foal the question does not arise. For a carrier, there is no published evidence of reduced speed or jump, altered build, altered coat quality, altered teeth, digestive disease, or any advantage - and histology found no noticeable skin difference between an obligate carrier and an unrelated control.
+
+So: carriers are considered clinically normal and should not be paired with another carrier. Claims that carriers are secretly inferior athletes, better endurance horses, more metallic or finer-coated are speculation until independently demonstrated.
+
+Breed and frequency
+-------------------
+
+The allele is currently known as an Akhal-Teke breed disorder. In the original study it was homozygous in all five available affected horses, heterozygous in all ten tested obligate carriers, present heterozygously in 26 of 191 other sampled Akhal-Tekes, and absent in 400 control horses from other breeds.
+
+Twenty-six in 191 is a carrier proportion of 13.6% in that cohort, corresponding to a mutant allele frequency of about 6.8% in that sampled group. Population-wide frequency will differ by country, bloodline, registry and testing era.
+
+Breeders have recognised NFS since at least 1938. Pedigree analysis cited by the Akhal-Teke Association of America traced 28 hairless foals from 1938 onward and identified several carrier ancestors, influential sires among them. A small closed studbook, line breeding, and heavy use of a limited number of animals is precisely the arrangement that lets a recessive allele circulate silently for generations - the same story as MYO5A in Egyptian Arabians.
+
+Against 13.6% in the breed, the mod uses a WILD_CARRIER_PERCENT of 1.8 across all founders. Once again the two numbers describe different populations rather than disagreeing.
+
+What is settled, and what is not
+--------------------------------
+
+Strongly supported. NFS is caused by the recessive ST14:c.388G>T nonsense variant in Akhal-Tekes; the affected genotype sharply reduces functional matriptase; ST14 is essential for epidermal barrier formation and hair-follicle development; affected foals have severe congenital hypotrichosis with mild ichthyosis and a poor survival outlook; and a DNA test identifies all three genotypes.
+
+Reasonable inference. That impaired barrier function contributes materially to frailty, skin damage and possibly early death; that the follicular dysplasia directly explains the sparse, thin, abnormal hair; and that the disease is a useful large-animal model for human ST14-related autosomal-recessive congenital ichthyosis with hypotrichosis.
+
+Not established. The precise cause of premature death in every affected foal; whether immune dysfunction is consistent across cases; whether cardiac, neurologic or skeletal abnormalities are regular features; whether carriers have subtle health, dental, GI, fertility, skin or performance differences; and any relationship to coat colour, the Akhal-Teke sheen, endurance or sport performance.
+
+For a rare closed breed, removing every carrier at once would narrow the gene pool needlessly. UC Davis notes explicitly that carrier-to-clear breeding is acceptable because it prevents affected foals, with offspring tested and plans adjusted over time. The operational rule is one line: test breeding animals, and never breed carrier to carrier.

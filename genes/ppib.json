@@ -1,0 +1,42 @@
+{
+  "format": 1,
+  "id": "ppib",
+  "species": "horse",
+  "name": "PPIB (HERDA)",
+  "symbol": "PPIB",
+  "evidence": "published",
+  "summary": "PPIB (HERDA), fragile skin - a recessive disorder the horse lives with rather than dies of: it splits where a saddle sits and never heals cleanly. The commonest survivable recessive here, because the real thing hides inside exactly the working lines a breeder would choose.",
+  "inheritance": "autosomal",
+  "affects_coat": false,
+  "alleles": [
+    { "id": "herda", "name": "HERDA (herda)", "wild_type": false },
+    { "id": "N", "name": "Wild-type (N)", "wild_type": true }
+  ],
+  "phenotypes": [
+    { "id": "wild", "name": "Wild type", "description": "Two working copies. Nothing is wrong and nothing is passed on.", "changes_coat": false },
+    { "id": "ppib-carrier", "name": "PPIB (HERDA) carrier", "description": "One copy of herda. The horse is completely normal and there is no way to see it - but half its foals inherit the copy, and two carriers bred together are the only way herda (fragile skin) appears.", "changes_coat": false },
+    { "id": "herda", "name": "HERDA (fragile skin)", "description": "A collagen defect in the skin. It splits and scars where a saddle sits and never heals cleanly, and the horse is sore enough that it will not work properly. It survives; it is just never sound.", "changes_coat": false }
+  ],
+  "genotypes": [
+    { "alleles": ["N", "N"], "phenotype": "wild" },
+    { "alleles": ["herda", "N"], "phenotype": "ppib-carrier" },
+    { "alleles": ["herda", "herda"], "phenotype": "herda", "conditions": ["herda"] }
+  ],
+  "conditions": [
+    { "id": "herda", "name": "HERDA (fragile skin)", "description": "A collagen defect in the skin. It splits and scars where a saddle sits and never heals cleanly, and the horse is sore enough that it will not work properly. It survives; it is just never sound.", "severity": "impairing" }
+  ],
+  "frequencies": [
+    {
+      "population": "general population",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["herda", "N"], "percent": 3.4 },
+        { "alleles": ["N", "N"], "percent": 96.6 }
+      ]
+    }
+  ],
+  "citations": [
+    { "source": "pubmed", "label": "Tryon et al., PMID 17498917", "url": "https://pubmed.ncbi.nlm.nih.gov/17498917/" },
+    { "source": "other", "label": "UC Davis CEH", "url": "https://ceh.vetmed.ucdavis.edu/health-topics/hereditary-equine-regional-dermal-asthenia-herda" }
+  ]
+}

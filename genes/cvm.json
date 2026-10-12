@@ -1,0 +1,39 @@
+{
+  "format": 1,
+  "id": "cvm",
+  "species": "horse",
+  "name": "CVM (cervical malformation)",
+  "symbol": null,
+  "evidence": "abstracted",
+  "summary": "CVM, cervical vertebral malformation - a recessive lethal at birth. Unlike every other natural gene here it has no confirmed causal variant; treating it as one locus is the mod's simplification, not a claim about horse genetics.",
+  "inheritance": "autosomal",
+  "affects_coat": false,
+  "alleles": [
+    { "id": "cvm", "name": "Cervical malformation (cvm)", "wild_type": false },
+    { "id": "N", "name": "Wild-type (N)", "wild_type": true }
+  ],
+  "phenotypes": [
+    { "id": "wild", "name": "Wild type", "description": "Two working copies. Nothing is wrong and nothing is passed on.", "changes_coat": false },
+    { "id": "cvm-carrier", "name": "CVM (cervical malformation) carrier", "description": "One copy of cvm. The horse is completely normal and there is no way to see it - but half its foals inherit the copy, and two carriers bred together are the only way cervical vertebral malformation appears.", "changes_coat": false },
+    { "id": "cervical-malformation", "name": "Cervical vertebral malformation", "description": "The neck vertebrae form crooked and pinch the spinal cord where it passes through them. The foal cannot coordinate its hindquarters and does not get up.", "changes_coat": false }
+  ],
+  "genotypes": [
+    { "alleles": ["N", "N"], "phenotype": "wild" },
+    { "alleles": ["cvm", "N"], "phenotype": "cvm-carrier" },
+    { "alleles": ["cvm", "cvm"], "phenotype": "cervical-malformation", "conditions": ["cervical-malformation"] }
+  ],
+  "conditions": [
+    { "id": "cervical-malformation", "name": "Cervical vertebral malformation", "description": "The neck vertebrae form crooked and pinch the spinal cord where it passes through them. The foal cannot coordinate its hindquarters and does not get up.", "severity": "lethal_at_birth" }
+  ],
+  "frequencies": [
+    {
+      "population": "general population",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["cvm", "N"], "percent": 1.6 },
+        { "alleles": ["N", "N"], "percent": 98.4 }
+      ]
+    }
+  ],
+  "citations": []
+}

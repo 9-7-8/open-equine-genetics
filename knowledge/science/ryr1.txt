@@ -1,0 +1,35 @@
+RYR1 - science notes
+(Copied 2026-10-12 from the Science tab of the Procedural Horse Coats wiki page for this gene.
+Written for that project: it may mention how a game models the gene. Not yet audited.)
+
+At a glance
+-----------
+
+Gene | RYR1 - ryanodine receptor 1, the calcium-release channel of skeletal muscle
+Disorder | Malignant hyperthermia (MH)
+Inheritance | Autosomal dominant
+Heterozygote | Susceptible, and clinically normal between episodes
+Trigger | Typically general anaesthesia (notably halothane); also extreme exertion or stress
+Coat | No known effect
+
+What breaks
+-----------
+
+RYR1 encodes the channel that releases calcium from the sarcoplasmic reticulum into the muscle fibre - the step that actually starts a contraction. The variant channel leaks: it opens too readily and closes too reluctantly.
+
+Under ordinary conditions that is compensated for and invisible. Under a trigger it is not. Calcium floods the fibre and will not be pumped back, the muscle contracts continuously, and the metabolic cost of that runaway contraction produces the picture the condition is named for: a very high body temperature, rigid muscles, acidosis, a racing heart and muscle breakdown. Untreated it is frequently fatal, and it develops over minutes rather than hours.
+
+Why "affected" and "unwell" are different words here
+----------------------------------------------------
+
+This is the part the mod had to take a position on. An MH horse is not a sick horse that occasionally gets sicker. It is a normal horse with a conditional fault - correct temperature, correct muscle function, correct performance, right up until a trigger it may never encounter. Many affected horses live an entire working life without an episode.
+
+So the honest model is a condition that is reported and not priced, which is what Condition.informational exists for. The alternative - docking hearts to represent a risk that is currently zero - would say something false about the horse standing in front of the player.
+
+Breeds
+------
+
+The variant is concentrated in Quarter Horse-derived lines rather than spread through the species, which is why the global founder rate here is low and the breed pool carries the real weight. The American Azteca registry screens breeding stock for it alongside HYPP, PSSM1, GBED and HERDA - the four the Azteca already carried in this mod, and the reason this locus was the conspicuous absence on that panel.
+
+MH and PSSM1 are different things that look alike
+Both cause exertional muscle damage and both turn up on the same Quarter Horse test panels, so they are easy to conflate. PSSM1 is a glycogen-storage defect and its horse ties up recurrently under ordinary work; MH is a calcium-channel defect whose horse is fine until a specific trigger. A horse can carry both, and in this mod they are separate loci that stack.

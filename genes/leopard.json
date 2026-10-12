@@ -1,0 +1,78 @@
+{
+  "format": 1,
+  "id": "leopard",
+  "species": "horse",
+  "name": "Leopard complex (appaloosa)",
+  "symbol": "TRPM1",
+  "evidence": "published",
+  "summary": "The leopard complex (TRPM1), and the only gene in the model that reads other loci to decide what it paints. LP alone gives the appaloosa characteristics - roaning that spares the bony parts, a scatter of white spots, striped hooves, a white-rimmed eye. The bold patterns - leopard, fewspot, blanket, snowcap - come from the PATN1 and PATN2 modifiers, which do nothing at all on a horse without LP.",
+  "inheritance": "autosomal",
+  "affects_coat": true,
+  "alleles": [
+    { "id": "LP", "name": "Leopard complex (LP)", "wild_type": false },
+    { "id": "lp", "name": "Wild-type (lp)", "wild_type": true }
+  ],
+  "phenotypes": [
+    { "id": "wild", "name": "Wild type", "description": "No leopard complex - a solid-coloured coat.", "changes_coat": false },
+    { "id": "mottled", "name": "Mottled (LP characteristics)", "description": "One leopard-complex copy and no pattern modifier: light, uneven roaning that keeps its colour over the cheekbones, shoulders, hips and knees, a scatter of small white spots, striped hooves and a white-rimmed eye. The appaloosa “look” without a bold pattern.", "changes_coat": true },
+    { "id": "varnish-roan", "name": "Varnish roan", "description": "Two leopard-complex copies and no modifier: heavy, uneven whitening that leaves darker “varnish marks” over the horse's bones - cheekbones, shoulder blades, elbows, hips, stifles and knees - so it ends up outlined by its own anatomy. Not true roan and not a stronger version of it: patchy where classic roan is even, and it whitens the head, which classic roan never does.", "changes_coat": true },
+    { "id": "leopard", "name": "Leopard", "description": "One leopard-complex copy plus PATN1: a white or cream body carrying round dark spots of the base colour, fairly evenly spread from head to hoof.", "changes_coat": true },
+    { "id": "fewspot", "name": "Fewspot leopard", "description": "Two leopard-complex copies plus PATN1: almost solid white, with only a handful of small spots left - usually on the flank, elbow and stifle.", "changes_coat": true },
+    { "id": "blanket", "name": "Spotted blanket", "description": "One leopard-complex copy plus PATN2: a solid white sheet over the hips and croup with dark spots of the base colour inside it; the rest of the horse is its ordinary colour.", "changes_coat": true },
+    { "id": "snowcap", "name": "Snowcap blanket", "description": "Two leopard-complex copies plus PATN2: the same white blanket over the hips, with no spots in it at all.", "changes_coat": true },
+    { "id": "semi-leopard", "name": "Semi-leopard", "description": "A leopard-complex horse carrying both PATN1 and PATN2: a spotted white blanket that reaches well forward over the barrel, part-way to a full leopard.", "changes_coat": true }
+  ],
+  "genotypes": [
+    { "alleles": ["lp", "lp"], "phenotype": "wild" },
+    { "alleles": ["LP", "lp"], "phenotype": "varnish-roan" },
+    { "alleles": ["LP", "LP"], "phenotype": "varnish-roan", "conditions": ["csnb"] }
+  ],
+  "conditions": [
+    { "id": "csnb", "name": "Congenital stationary night blindness", "description": "Two leopard-complex copies. The horse sees poorly in the dark from birth - it does not get better or worse, and in daylight the horse is unaffected.", "severity": "informational" }
+  ],
+  "interactions": {
+    "depends_on": ["patn1", "patn2"],
+    "note": "The phenotype of this locus once the loci it depends on are known. Overrides the genotypes table.",
+    "table": [
+      { "alleles": ["lp", "lp"], "with": { "patn1": ["n", "n"], "patn2": ["n", "n"] }, "phenotype": "wild" },
+      { "alleles": ["lp", "lp"], "with": { "patn1": ["n", "n"], "patn2": ["PATN2", "n"] }, "phenotype": "wild" },
+      { "alleles": ["lp", "lp"], "with": { "patn1": ["n", "n"], "patn2": ["PATN2", "PATN2"] }, "phenotype": "wild" },
+      { "alleles": ["lp", "lp"], "with": { "patn1": ["PATN1", "n"], "patn2": ["n", "n"] }, "phenotype": "wild" },
+      { "alleles": ["lp", "lp"], "with": { "patn1": ["PATN1", "n"], "patn2": ["PATN2", "n"] }, "phenotype": "wild" },
+      { "alleles": ["lp", "lp"], "with": { "patn1": ["PATN1", "n"], "patn2": ["PATN2", "PATN2"] }, "phenotype": "wild" },
+      { "alleles": ["lp", "lp"], "with": { "patn1": ["PATN1", "PATN1"], "patn2": ["n", "n"] }, "phenotype": "wild" },
+      { "alleles": ["lp", "lp"], "with": { "patn1": ["PATN1", "PATN1"], "patn2": ["PATN2", "n"] }, "phenotype": "wild" },
+      { "alleles": ["lp", "lp"], "with": { "patn1": ["PATN1", "PATN1"], "patn2": ["PATN2", "PATN2"] }, "phenotype": "wild" },
+      { "alleles": ["LP", "lp"], "with": { "patn1": ["n", "n"], "patn2": ["n", "n"] }, "phenotype": "mottled" },
+      { "alleles": ["LP", "lp"], "with": { "patn1": ["n", "n"], "patn2": ["PATN2", "n"] }, "phenotype": "blanket" },
+      { "alleles": ["LP", "lp"], "with": { "patn1": ["n", "n"], "patn2": ["PATN2", "PATN2"] }, "phenotype": "blanket" },
+      { "alleles": ["LP", "lp"], "with": { "patn1": ["PATN1", "n"], "patn2": ["n", "n"] }, "phenotype": "leopard" },
+      { "alleles": ["LP", "lp"], "with": { "patn1": ["PATN1", "n"], "patn2": ["PATN2", "n"] }, "phenotype": "semi-leopard" },
+      { "alleles": ["LP", "lp"], "with": { "patn1": ["PATN1", "n"], "patn2": ["PATN2", "PATN2"] }, "phenotype": "semi-leopard" },
+      { "alleles": ["LP", "lp"], "with": { "patn1": ["PATN1", "PATN1"], "patn2": ["n", "n"] }, "phenotype": "leopard" },
+      { "alleles": ["LP", "lp"], "with": { "patn1": ["PATN1", "PATN1"], "patn2": ["PATN2", "n"] }, "phenotype": "semi-leopard" },
+      { "alleles": ["LP", "lp"], "with": { "patn1": ["PATN1", "PATN1"], "patn2": ["PATN2", "PATN2"] }, "phenotype": "semi-leopard" },
+      { "alleles": ["LP", "LP"], "with": { "patn1": ["n", "n"], "patn2": ["n", "n"] }, "phenotype": "varnish-roan" },
+      { "alleles": ["LP", "LP"], "with": { "patn1": ["n", "n"], "patn2": ["PATN2", "n"] }, "phenotype": "snowcap" },
+      { "alleles": ["LP", "LP"], "with": { "patn1": ["n", "n"], "patn2": ["PATN2", "PATN2"] }, "phenotype": "snowcap" },
+      { "alleles": ["LP", "LP"], "with": { "patn1": ["PATN1", "n"], "patn2": ["n", "n"] }, "phenotype": "fewspot" },
+      { "alleles": ["LP", "LP"], "with": { "patn1": ["PATN1", "n"], "patn2": ["PATN2", "n"] }, "phenotype": "semi-leopard" },
+      { "alleles": ["LP", "LP"], "with": { "patn1": ["PATN1", "n"], "patn2": ["PATN2", "PATN2"] }, "phenotype": "semi-leopard" },
+      { "alleles": ["LP", "LP"], "with": { "patn1": ["PATN1", "PATN1"], "patn2": ["n", "n"] }, "phenotype": "fewspot" },
+      { "alleles": ["LP", "LP"], "with": { "patn1": ["PATN1", "PATN1"], "patn2": ["PATN2", "n"] }, "phenotype": "semi-leopard" },
+      { "alleles": ["LP", "LP"], "with": { "patn1": ["PATN1", "PATN1"], "patn2": ["PATN2", "PATN2"] }, "phenotype": "semi-leopard" }
+    ]
+  },
+  "frequencies": [
+    {
+      "population": "general population",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["LP", "LP"], "percent": 0.0625 },
+        { "alleles": ["LP", "lp"], "percent": 4.875 },
+        { "alleles": ["lp", "lp"], "percent": 95.0625 }
+      ]
+    }
+  ],
+  "citations": []
+}

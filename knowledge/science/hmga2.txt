@@ -1,0 +1,112 @@
+HMGA2 (pony) - science notes
+(Copied 2026-10-12 from the Science tab of the Procedural Horse Coats wiki page for this gene.
+Written for that project: it may mention how a game models the gene. Not yet audited.)
+
+Gene and locus
+--------------
+
+Gene | HMGA2 - high-mobility group AT-hook 2
+Chromosome | Equine chromosome 6 (ECA6). The original Shetland mapping placed the interval at roughly ECA6:81.0-81.8 Mb in EquCab2; newer assemblies differ, so a test report should say which reference it used
+Pony variant | HMGA2:c.83G>A in exon 1, giving p.G28E - glycine at amino acid 28 becomes glutamate
+Class | Missense variant in a transcription-regulating DNA-binding protein
+Proven phenotype | Reduced height at the withers in ponies
+Other association | Higher basal insulin and related metabolic measures, smaller and more context-dependent than the height effect
+Not | A congenital dwarfism mutation. It is a common quantitative body-size allele with a large effect in certain pony populations
+
+HMGA2 is a chromatin-associated architectural transcription factor with three AT-hook regions that bind the minor groove of AT-rich DNA and help regulate proliferation and differentiation programmes. It affects body size across species - humans, mice, dogs, horses.
+
+The equine change sits in the first and highly conserved AT-hook. Glycine is neutral; glutamate is negatively charged, and DNA is negatively charged too, so the substitution is mechanistically plausible as a DNA-binding disruption. In an electrophoretic mobility-shift assay the mutant AT-hook peptide had greatly reduced DNA-binding affinity. That is unusually strong functional support for causality rather than mere linkage. Frischknecht et al., PMC4608717 (https://pmc.ncbi.nlm.nih.gov/articles/PMC4608717/)
+
+Size, which is the well-evidenced part
+--------------------------------------
+
+The A allele is size-reducing; the reference G allele goes with taller stature. In the original 110 genotyped Shetlands, each A copy was associated with an average reduction of about 9.5 cm at the withers, and every Shetland under 87 cm in that cohort was homozygous for the size haplotype. When the genotype was accounted for, the ECA6 height signal disappeared - strong evidence that this variant is that QTL.
+
+A later multi-breed Australian study found that after accounting for breed, genotype explained about 54.9% of remaining height variation across the sampled ponies, 44% of within-breed variation in Shetlands and 21% in Welsh ponies. In that cohort A/A ponies averaged 10.4 cm shorter than G/A and 12.6 cm shorter than G/G, while G/A and G/G did not differ significantly. PMC10229368 (https://pmc.ncbi.nlm.nih.gov/articles/PMC10229368/)
+
+What "build" means here
+-----------------------
+
+The data are strongest for height, not for detailed conformation. The variant probably reduces overall developmental growth, so a smaller-bodied animal follows - but nothing shows that it independently produces a particular head or neck shape, shoulder or croup angle, limb-to-body ratio, bone circumference, muscle distribution, hoof form, or "pony type" versus refined type. Some build consequences follow from being smaller; the allele does not create an athletic conformation.
+
+Height is polygenic. Major loci include NCAPG on ECA3 (the mod's LCORL), ZFAT on ECA9, GH on ECA11 and HMGA2 on ECA6; in one cross-breed analysis four loci together explained a large share of size variation. So an HMGA2 genotype is informative, not a complete height prediction - which is also how the mod uses it, as one of two size loci pulling against each other rather than as the answer.
+
+Inheritance
+-----------
+
+genotype | meaning | direction for height
+G/G | no size-reducing allele | taller within a comparable background
+G/A | one copy | usually intermediate; varies by population
+A/A | two copies | shortest
+
+The Shetland study supported a largely additive / semi-dominant quantitative effect - roughly 9.5 cm per copy - and the Welsh cohort likewise favoured an additive model. The 2023 mixed-pony study found a pattern closer to recessive for height, with A/A clearly shorter and the other two indistinguishable. That probably reflects breed composition, allele frequencies, unequal genotype groups, modifiers and sample size rather than overturning the additive model.
+
+The practical reading: a large-effect quantitative allele whose expression is breed- and background-dependent, not a Mendelian test that guarantees a number of centimetres. Two G/A parents give the usual 25% / 50% / 25% genotype probabilities, and A/A offspring are expected to average shorter than their siblings while still varying a great deal individually.
+
+The mod chooses additive, which is the better-supported half
+Hmga2Gene subtracts 0.06 of body scale per p copy, additively. That matches the Shetland and Welsh findings; it does not match the recessive-looking Australian pattern. Given that the two disagree and additive is the one with a mechanism behind it, additive is the right pick - and it is also the one that makes the heterozygote mean something, which matters for a gene a player breeds toward incrementally.
+
+Health - and the one place the mod inverts the sign
+---------------------------------------------------
+
+The most important health finding is an association between the A allele and higher insulin in ponies. That matters because persistent hyperinsulinaemia and insulin dysregulation are major risk factors for endocrinopathic laminitis.
+
+In 294 Welsh ponies, the A allele correlated strongly with shorter height (r = -0.75) and moderately with baseline insulin (r = 0.32), insulin after an oral sugar test (0.25), non-esterified fatty acids (0.19) and triglycerides (0.22). The ECA6 region accounted for roughly 40% of estimated genetic variation in height and roughly 20% in baseline insulin in that population. PMC6430908 (https://pmc.ncbi.nlm.nih.gov/articles/PMC6430908/)
+
+In a six-breed Australian study of 236 ponies with an A-allele frequency of 62%, A/A and G/A ponies had basal insulin about 4.3 and 2.7 uIU/mL higher than G/G - genotype accounting for about 7.1% of the explained variation. Meaningful, and far from the whole story: farm and management, cresty-neck score, age, sex, breed, diet, body condition, exercise, season and many other genes all contribute.
+
+The mod gives the pony allele more hearts; the literature gives it a metabolic risk
+HEALTH_PER_P is +2.0 per copy. The stated reason is a design one and a good one: a pony is not a broken horse, it is a hardy one, and the small end of the size range has to buy something or nobody would breed toward it - a locus whose only effect is "worse" is a locus a player fixes once and forgets.
+
+But the direction is opposite to the evidence. The only validated health association at this locus is higher insulin and, through it, laminitis risk. Nothing in the equine literature makes the A allele hardier. This is the clearest case in the mod of a gameplay requirement overriding the source material, and it should be read that way rather than as a claim about ponies. A future mod with a metabolic or laminitis system would have somewhere honest to put the real effect - the diet gene is the nearest existing hook - and could then let the pony allele keep a genuine benefit elsewhere.
+
+An A allele is not a diagnosis of equine metabolic syndrome, insulin dysregulation or laminitis. It is a risk-associated factor found in pony studies, and it should never be used alone to call a pony metabolically unhealthy. The unresolved question is whether p.G28E itself changes metabolic physiology - true pleiotropy - or whether another linked, unidentified variant on the same selected ECA6 haplotype does. Researchers flagged this explicitly as open.
+
+There is no good evidence that the allele directly causes skeletal dysplasia or disproportionate dwarfism, lethal developmental disease, a specific orthopaedic syndrome, immune deficiency, poor fertility, cancer predisposition, or laminitis independent of insulin dysregulation and management. HMGA2 has important cancer and growth biology in other species - abnormal overexpression is tied to tumour biology in humans - and that is not evidence that the naturally occurring pony allele causes equine cancer.
+
+Pony is a size; dwarfism is a disorder
+The mod keeps them apart on purpose, and the science agrees: this variant is explicitly not a congenital dwarfism mutation. Only the dwarfism loci (ACAN, B4GALT7) report a Condition, only they are suppressed when health genetics are switched off, and only they cost hearts. They also multiply scale rather than subtracting it, so a dwarf pony is smaller than either alone and a dwarf draught horse is still unmistakably a dwarf.
+
+Coat, speed, jumping
+--------------------
+
+Coat. No evidence that c.83G>A controls base colour, grey, any dilution, white spotting, roan, appaloosa patterning, mane and tail colour, feathering, or coat texture, length and shedding. Colour lives at MC1R, ASIP and the dilution and spotting loci; HMGA2 is not among the validated pigment genes. Where a colour looks associated with the allele in one population, breeders selected both small size and that colour in the same lines.
+
+Speed. No published evidence of a direct effect on sprint speed, acceleration, maximal velocity, racing performance, gait mechanics, aerobic capacity, muscle-fibre type, heart and lung capacity or recovery. There is an indirect relationship, because size changes stride length, mass, leverage and what discipline suits - but smaller is not inherently faster or slower. A small efficient pony can be very quick over a short distance or agile on rough ground, while a larger horse has stride-length advantages at an open gallop. Biomechanics and training, not an HMGA2 performance effect. Do not confuse this with MSTN: HMGA2 is a body-size locus.
+
+Jumping. No controlled study shows that genotype predicts free-jumping score, scope, carefulness, technique, bascule, competition results, tendon or ligament injury risk, or soundness under jumping load. Stature does influence the practical fit between a pony and a fence height, a rider, a stride distance and a division - a shorter A/A pony has a shorter stride and different distance needs, which is not the same as less jump ability.
+
+The mod charges 0.008 speed and 0.02 jump per copy, described in the source as "shorter stride". That is the indirect, biomechanical reading above rather than a claim about the gene, and it is the honest way round.
+
+Breed distribution
+------------------
+
+Overwhelmingly a pony allele, with frequencies differing sharply by country, breed section and sampled population. Small samples are not breed prevalence.
+
+population | finding
+Shetland pony | strong size effect in the original study; an Australian cohort of 120 gave G/G 43, G/A 58, A/A 19 - A frequency about 40%, differing from earlier reports
+Welsh, whole US cohort | 294 ponies: G/G 30, G/A 80, A/A 184 - A frequency 76%
+Welsh Section A | 100% A in 78 US animals; all 37 Australian Section A ponies were A/A - consistent with intense selection for the smallest section
+Welsh Section B | A frequency 74% in the US cohort; Australian sample 20 A/A, 2 G/A, no G/G of 22
+Welsh Section C | A frequency 83% - but only 3 animals
+Welsh Section D | A frequency 3%, consistent with this being the taller section
+Welsh Section H | A frequency 64%
+Australian Pony | 21 animals; A frequency ~88% (small sample)
+Australian Riding Pony | 19 animals; A frequency ~87% (small sample)
+New Forest pony | 4 animals, A frequency 25% - far too small to generalise
+Highland pony | 6 animals, all G/G; described as fixed or near-fixed for G in that sample, needing validation
+German Riding Pony | listed among breeds carrying the allele in curated records
+Debao pony (China) | seven HMGA2 variants found, six novel; four linked variants associated with withers height in 180 ponies - not the same test as p.G28E
+Bosnian Mountain Horse | a genome-wide homozygosity scan (Schrimpf et al.) found evidence of long-term selection toward roughly 135 cm at the withers and a high prevalence of small-allele homozygosity at the body-size loci examined - a small breed that was selected small, rather than one carrying this variant. Not the same test as p.G28E, so the breed names no HMGA2 pool in the mod
+Large horse breeds | very uncommon: 5 heterozygotes among 530 - A frequency 0.5%. The carriers were two Tennessee Walking Horses, one Morgan, one Mustang, one Kentucky Mountain Horse; none among 59 Quarter Horses or 64 Arabians
+
+The mod uses p(p) = 0.25 across all founders. Against a real distribution that runs from 0.5% in large breeds to 100% in Welsh Section A, that number is doing something different from any of them: it is setting how often a player meets a pony at all. Given that the mod has no breed structure at founder time, a single middling frequency is the only thing available - and it is the clearest example on the wiki of why per-breed allele weighting would change the whole feel of the genetics.
+
+What is settled, and what is not
+--------------------------------
+
+Strongly supported. c.83G>A / p.G28E on ECA6 is a functional, major-effect quantitative variant for reduced height in several pony populations; it disrupts an AT-hook DNA-binding domain and reduces DNA binding in vitro; the A allele is common in some small pony populations and rare in sampled full-sized horses; and it is associated with higher basal insulin and other metabolic measures.
+
+Plausible, not settled. Whether the insulin association is caused directly by p.G28E or by a separate linked variant on the selected haplotype; whether inheritance is consistently additive across breeds - studies support additive, recessive-like and, in one insulin analysis, dominant-like patterns depending on cohort and phenotype; the exact effect size in any individual breed or line; and whether other HMGA2 variants explain small stature in further pony populations, Debao ponies included.
+
+Not supported. p.G28E as a coat-colour gene, as a direct jumping gene, as a direct speed or race gene, as a stand-alone EMS or laminitis diagnostic, or as a deterministic adult-height forecast from one genotype.

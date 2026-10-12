@@ -1,0 +1,43 @@
+{
+  "format": 1,
+  "id": "toe1",
+  "species": "horse",
+  "name": "TOE1 (cerebellar abiotrophy)",
+  "symbol": "TOE1",
+  "evidence": "published",
+  "summary": "TOE1, cerebellar abiotrophy - a recessive disorder of balance. The horse survives but has no idea where its feet are, which makes it the heaviest jump penalty in the mod. Progressive in reality; a flat cost here, because there is no age model.",
+  "inheritance": "autosomal",
+  "affects_coat": false,
+  "alleles": [
+    { "id": "ca", "name": "Cerebellar abiotrophy (ca)", "wild_type": false },
+    { "id": "N", "name": "Wild-type (N)", "wild_type": true }
+  ],
+  "phenotypes": [
+    { "id": "wild", "name": "Wild type", "description": "Two working copies. Nothing is wrong and nothing is passed on.", "changes_coat": false },
+    { "id": "toe1-carrier", "name": "TOE1 (cerebellar abiotrophy) carrier", "description": "One copy of ca. The horse is completely normal and there is no way to see it - but half its foals inherit the copy, and two carriers bred together are the only way cerebellar abiotrophy appears.", "changes_coat": false },
+    { "id": "cerebellar-abiotrophy", "name": "Cerebellar abiotrophy", "description": "The part of the brain that governs balance wastes away after birth. The horse has no sense of where its feet are: it moves in a wide, over-reaching stagger and cannot judge a jump at all.", "changes_coat": false }
+  ],
+  "genotypes": [
+    { "alleles": ["N", "N"], "phenotype": "wild" },
+    { "alleles": ["ca", "N"], "phenotype": "toe1-carrier" },
+    { "alleles": ["ca", "ca"], "phenotype": "cerebellar-abiotrophy", "conditions": ["cerebellar-abiotrophy"] }
+  ],
+  "conditions": [
+    { "id": "cerebellar-abiotrophy", "name": "Cerebellar abiotrophy", "description": "The part of the brain that governs balance wastes away after birth. The horse has no sense of where its feet are: it moves in a wide, over-reaching stagger and cannot judge a jump at all.", "severity": "impairing" }
+  ],
+  "frequencies": [
+    {
+      "population": "general population",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["ca", "N"], "percent": 2.4 },
+        { "alleles": ["N", "N"], "percent": 97.6 }
+      ]
+    }
+  ],
+  "citations": [
+    { "source": "pubmed", "label": "Scott et al., PMC5336519", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5336519/" },
+    { "source": "omia", "label": "OMIA 000175", "url": "https://omia.org/OMIA000175/9796/" },
+    { "source": "ucdavis-vgl", "label": "UC Davis VGL", "url": "https://vgl.ucdavis.edu/test/ca" }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "format": 1,
+  "id": "mstn",
+  "species": "horse",
+  "name": "MSTN (myostatin)",
+  "symbol": "MSTN",
+  "evidence": "published",
+  "summary": "MSTN (myostatin), the sprint / stamina trade-off. Codominant: each C copy adds a little speed and costs two hearts of health. Endurance is paid for in hearts because there is no separate stamina bar.",
+  "inheritance": "autosomal",
+  "affects_coat": false,
+  "alleles": [
+    { "id": "C", "name": "Sprint (C)", "wild_type": false },
+    { "id": "T", "name": "Stayer (T)", "wild_type": true }
+  ],
+  "phenotypes": [
+    { "id": "sprinter", "name": "Sprinter", "description": "Two sprint copies. The fastest horse this locus can make, and the one with the fewest hearts to show for it.", "changes_coat": false },
+    { "id": "middle-distance", "name": "Middle distance", "description": "One of each. Half a sprinter's speed for half a sprinter's hearts - the alleles do not hide each other, they add.", "changes_coat": false },
+    { "id": "stayer", "name": "Stayer", "description": "Two stayer copies - the baseline horse. No speed bonus, and no hearts given up for one.", "changes_coat": false }
+  ],
+  "genotypes": [
+    { "alleles": ["T", "T"], "phenotype": "stayer" },
+    { "alleles": ["C", "T"], "phenotype": "middle-distance" },
+    { "alleles": ["C", "C"], "phenotype": "sprinter" }
+  ],
+  "frequencies": [
+    {
+      "population": "general population",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["C", "C"], "percent": 12.25 },
+        { "alleles": ["C", "T"], "percent": 45.5 },
+        { "alleles": ["T", "T"], "percent": 42.25 }
+      ]
+    }
+  ],
+  "citations": [
+    { "source": "pubmed", "label": "PMC2913906", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2913906/" },
+    { "source": "paper", "label": "Hill et al., PLoS ONE 5:e8645", "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0008645" },
+    { "source": "paper", "label": "Sci. Rep. s41598-025-22472-7", "url": "https://www.nature.com/articles/s41598-025-22472-7" },
+    { "source": "pubmed", "label": "PMID 25160752", "url": "https://pubmed.ncbi.nlm.nih.gov/25160752/" },
+    { "source": "pubmed", "label": "PMC11177368", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11177368/" },
+    { "source": "pubmed", "label": "PMC12995546", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12995546/" },
+    { "source": "other", "label": "Anim. Behav. Genet. 54(2)", "url": "https://www.jstage.jst.go.jp/article/abgri/54/2/54_25/_article/-char/en" }
+  ]
+}

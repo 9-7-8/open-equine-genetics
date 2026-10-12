@@ -1,0 +1,44 @@
+{
+  "format": 1,
+  "id": "abstracted_speed",
+  "species": "horse",
+  "name": "Abstracted speed",
+  "symbol": null,
+  "evidence": "abstracted",
+  "summary": "A stand-in for the many loci that set a horse's speed. One allele raises it, one lowers it, and the two copies add. The real trait is polygenic; this single locus is an abstraction, not a claim about a real gene.",
+  "inheritance": "autosomal",
+  "affects_coat": false,
+  "alleles": [
+    { "id": "Swift", "name": "Swiftness (Swift)", "wild_type": false },
+    { "id": "Sluggish", "name": "Sluggishness (Sluggish)", "wild_type": false },
+    { "id": "n", "name": "Wild-type (n)", "wild_type": true }
+  ],
+  "phenotypes": [
+    { "id": "wild", "name": "Wild type", "description": "Ordinary speed for whatever the horse's own speed genes say - which, since most horses carry a copy of this one, is itself slightly unusual.", "changes_coat": false },
+    { "id": "less", "name": "Slower", "description": "One sluggish copy. The same thing in reverse: slower by the percentage on that copy, usually around a tenth, and inherited with the allele.", "changes_coat": false },
+    { "id": "double-less", "name": "Much slower", "description": "Two sluggish copies, and the percentages subtract together. Around a fifth under on average and a great deal less at the extreme.", "changes_coat": false },
+    { "id": "more", "name": "Faster", "description": "One swift copy. The horse is faster than its own genes would make it, by the percentage written on that copy - usually around a tenth. It passes that exact percentage on with the allele.", "changes_coat": false },
+    { "id": "balanced", "name": "Balanced", "description": "One swift copy and one sluggish copy. Their percentages very nearly cancel, so the horse runs close to its ordinary speed while carrying, and passing on, both extremes.", "changes_coat": false },
+    { "id": "double-more", "name": "Much faster", "description": "Two swift copies, and the percentages add. Around a fifth over on average, and far more when both copies rolled well - the fastest horses in the world are bred here, because no wild horse is born with two.", "changes_coat": false }
+  ],
+  "genotypes": [
+    { "alleles": ["n", "n"], "phenotype": "wild" },
+    { "alleles": ["Sluggish", "n"], "phenotype": "less" },
+    { "alleles": ["Sluggish", "Sluggish"], "phenotype": "double-less" },
+    { "alleles": ["Swift", "n"], "phenotype": "more" },
+    { "alleles": ["Swift", "Sluggish"], "phenotype": "balanced" },
+    { "alleles": ["Swift", "Swift"], "phenotype": "double-more" }
+  ],
+  "frequencies": [
+    {
+      "population": "general population",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["Swift", "n"], "percent": 40.8163 },
+        { "alleles": ["Sluggish", "n"], "percent": 40.8163 },
+        { "alleles": ["n", "n"], "percent": 18.3673 }
+      ]
+    }
+  ],
+  "citations": []
+}

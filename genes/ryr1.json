@@ -1,0 +1,40 @@
+{
+  "format": 1,
+  "id": "ryr1",
+  "species": "horse",
+  "name": "RYR1",
+  "symbol": "RYR1",
+  "evidence": "published",
+  "summary": "RYR1 (MH), malignant hyperthermia - a dominant disorder, so every copy shows and there is no silent carrier. It costs the horse nothing day to day: the real condition is episodic, triggered by anaesthesia or hard stress, and a horse between episodes is an ordinary horse.",
+  "inheritance": "autosomal",
+  "affects_coat": false,
+  "alleles": [
+    { "id": "MH", "name": "Malignant hyperthermia (MH)", "wild_type": false },
+    { "id": "N", "name": "Wild-type (N)", "wild_type": true }
+  ],
+  "phenotypes": [
+    { "id": "wild", "name": "Wild type", "description": "Two working copies. Nothing is wrong and nothing is passed on.", "changes_coat": false },
+    { "id": "malignant-hyperthermia", "name": "Malignant hyperthermia", "description": "One copy of the RYR1 variant. The horse is completely normal to look at and to ride - the fault only shows under anaesthesia or extreme stress, which is why the condition is screened for rather than spotted.", "changes_coat": false },
+    { "id": "malignant-hyperthermia-severe", "name": "Malignant hyperthermia (two copies)", "description": "Two copies of the RYR1 variant, and no normal calcium channel left. The horse overheats and stiffens under any real exertion, and has fewer hearts for it.", "changes_coat": false }
+  ],
+  "genotypes": [
+    { "alleles": ["N", "N"], "phenotype": "wild" },
+    { "alleles": ["MH", "N"], "phenotype": "malignant-hyperthermia", "conditions": ["malignant-hyperthermia"] },
+    { "alleles": ["MH", "MH"], "phenotype": "malignant-hyperthermia-severe", "conditions": ["malignant-hyperthermia-severe"] }
+  ],
+  "conditions": [
+    { "id": "malignant-hyperthermia", "name": "Malignant hyperthermia", "description": "One copy of the RYR1 variant. The horse is completely normal to look at and to ride - the fault only shows under anaesthesia or extreme stress, which is why the condition is screened for rather than spotted.", "severity": "informational" },
+    { "id": "malignant-hyperthermia-severe", "name": "Malignant hyperthermia (two copies)", "description": "Two copies of the RYR1 variant, and no normal calcium channel left. The horse overheats and stiffens under any real exertion, and has fewer hearts for it.", "severity": "impairing" }
+  ],
+  "frequencies": [
+    {
+      "population": "general population",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["MH", "N"], "percent": 1 },
+        { "alleles": ["N", "N"], "percent": 99 }
+      ]
+    }
+  ],
+  "citations": []
+}

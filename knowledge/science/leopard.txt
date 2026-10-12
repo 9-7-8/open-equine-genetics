@@ -1,0 +1,13 @@
+Leopard complex (appaloosa) - science notes
+(Copied 2026-10-12 from the Science tab of the Procedural Horse Coats wiki page for this gene.
+Written for that project: it may mention how a game models the gene. Not yet audited.)
+
+Why the modifiers are separate genes
+------------------------------------
+
+LP is one locus (TRPM1). PATN1 and PATN2 are real, independently inherited modifier loci, so they have to be separate genes - a breeder works toward "this line carries PATN1" the same way they work toward any other allele. They just have no phenotype of their own: a PATN1 carrier with no LP looks like any other horse.
+
+That creates a texture-cache problem. A gene is left out of a horse's coat code unless affectsCoat() is true, and every one of PATN's own combinations is a wild type - so a LP/LP PATN1/PATN1 horse and a plain LP/LP one would collide in the cache and render identically. The fix is a new hook, Gene.coatDependsOn(): LeopardGene names both modifiers, and Genotype.coatCode() folds their alleles into the texture key - but only for a horse that actually carries LP, so a PATN carrier with no leopard complex still shares its texture. BreedFounder likewise treats a named modifier like a coat gene (forced wild unless the breed lists it).
+
+Not a pattern for third-party genes
+Cross-locus reads make a gene hard to reason about, hard to show in a punnett square and hard to breed toward. The built-in leopard complex earns the exception because it is a real, famous pattern that genuinely works this way. See the roadmap's settled decisions.

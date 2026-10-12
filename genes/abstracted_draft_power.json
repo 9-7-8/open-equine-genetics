@@ -1,0 +1,44 @@
+{
+  "format": 1,
+  "id": "abstracted_draft_power",
+  "species": "horse",
+  "name": "Abstracted draft power",
+  "symbol": null,
+  "evidence": "abstracted",
+  "summary": "A stand-in for the many loci that set a horse's pulling power. One allele raises it, one lowers it, and the two copies add. The real trait is polygenic; this single locus is an abstraction, not a claim about a real gene.",
+  "inheritance": "autosomal",
+  "affects_coat": false,
+  "alleles": [
+    { "id": "Strong", "name": "Strength (Strong)", "wild_type": false },
+    { "id": "Weak", "name": "Weakness (Weak)", "wild_type": false },
+    { "id": "n", "name": "Wild-type (n)", "wild_type": true }
+  ],
+  "phenotypes": [
+    { "id": "wild", "name": "Wild type", "description": "Ordinary pulling ability - a score of five, which is what a horse carrying nothing at this locus is worth and what most riding breeds sit on.", "changes_coat": false },
+    { "id": "less", "name": "Weak", "description": "One weak copy. The horse pulls worse than an ordinary one by the number written on that copy.", "changes_coat": false },
+    { "id": "double-less", "name": "Very weak", "description": "Two weak copies, and the numbers add. The miniatures and the smallest ponies; a horse that is very nearly not worth hitching to anything.", "changes_coat": false },
+    { "id": "more", "name": "Strong", "description": "One strong copy. The horse pulls better than an ordinary one by the number written on that copy - usually half a point, sometimes rather more. The copy is inherited with the allele, so a good one is worth passing on.", "changes_coat": false },
+    { "id": "balanced", "name": "Balanced", "description": "One strong copy and one weak one. They cancel as far as they go, so the horse lands near ordinary - but it is carrying both, and its foals will not all be near ordinary.", "changes_coat": false },
+    { "id": "double-more", "name": "Very strong", "description": "Two strong copies, and the numbers add. This is where the draught breeds live, and no wild horse is born with two - a doubled horse is one somebody bred.", "changes_coat": false }
+  ],
+  "genotypes": [
+    { "alleles": ["n", "n"], "phenotype": "wild" },
+    { "alleles": ["Weak", "n"], "phenotype": "less" },
+    { "alleles": ["Weak", "Weak"], "phenotype": "double-less" },
+    { "alleles": ["Strong", "n"], "phenotype": "more" },
+    { "alleles": ["Strong", "Weak"], "phenotype": "balanced" },
+    { "alleles": ["Strong", "Strong"], "phenotype": "double-more" }
+  ],
+  "frequencies": [
+    {
+      "population": "general population",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["Strong", "n"], "percent": 40 },
+        { "alleles": ["Weak", "n"], "percent": 40 },
+        { "alleles": ["n", "n"], "percent": 20 }
+      ]
+    }
+  ],
+  "citations": []
+}

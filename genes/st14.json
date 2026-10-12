@@ -1,0 +1,42 @@
+{
+  "format": 1,
+  "id": "st14",
+  "species": "horse",
+  "name": "ST14",
+  "symbol": "ST14",
+  "evidence": "published",
+  "summary": "ST14, naked foal syndrome - a recessive lethal at birth. The bald coat it causes in life is not drawn (the pipeline can only remove pigment, and a bald mane would read as a white one); the lethality is.",
+  "inheritance": "autosomal",
+  "affects_coat": false,
+  "alleles": [
+    { "id": "nfs", "name": "Naked foal (nfs)", "wild_type": false },
+    { "id": "N", "name": "Wild-type (N)", "wild_type": true }
+  ],
+  "phenotypes": [
+    { "id": "wild", "name": "Wild type", "description": "Two working copies. Nothing is wrong and nothing is passed on.", "changes_coat": false },
+    { "id": "st14-carrier", "name": "ST14 carrier", "description": "One copy of nfs. The horse is completely normal and there is no way to see it - but half its foals inherit the copy, and two carriers bred together are the only way naked foal syndrome appears.", "changes_coat": false },
+    { "id": "naked-foal-syndrome", "name": "Naked foal syndrome", "description": "The foal is born with almost no hair and cannot hold its own temperature. It does not survive. (The bare coat itself is not drawn yet.)", "changes_coat": false }
+  ],
+  "genotypes": [
+    { "alleles": ["N", "N"], "phenotype": "wild" },
+    { "alleles": ["nfs", "N"], "phenotype": "st14-carrier" },
+    { "alleles": ["nfs", "nfs"], "phenotype": "naked-foal-syndrome", "conditions": ["naked-foal-syndrome"] }
+  ],
+  "conditions": [
+    { "id": "naked-foal-syndrome", "name": "Naked foal syndrome", "description": "The foal is born with almost no hair and cannot hold its own temperature. It does not survive. (The bare coat itself is not drawn yet.)", "severity": "lethal_at_birth" }
+  ],
+  "frequencies": [
+    {
+      "population": "general population",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["nfs", "N"], "percent": 1.8 },
+        { "alleles": ["N", "N"], "percent": 98.2 }
+      ]
+    }
+  ],
+  "citations": [
+    { "source": "pubmed", "label": "Bärtschi et al., PMC5386879", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5386879/" },
+    { "source": "ucdavis-vgl", "label": "UC Davis VGL", "url": "https://vgl.ucdavis.edu/test/naked-foal-syndrome" }
+  ]
+}

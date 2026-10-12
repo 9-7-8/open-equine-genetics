@@ -1,0 +1,71 @@
+KNOWN ISSUES IN THE DATA
+========================
+As of the first export, 2026-10-12. Nothing in genes/ has been audited. Remove a line here
+when it is fixed, and say so in the session log.
+
+HOW THE EXPORT WAS MADE
+- A throwaway Java program read the mod's compiled gene registry and wrote each locus
+  (knowledge/how-this-was-exported/). The pair tables, nonviable pairs, conditions and
+  frequencies are therefore exactly what the mod computes, at mod commit 93af89d9 plus one
+  docs commit. Nothing was typed by hand except the items listed under BY HAND.
+- tools/validate.mjs passes on all 68 files (structure only: it cannot tell whether the
+  science is right). It was broken on purpose twice and failed both times.
+
+BY HAND, UNCHECKED
+- "symbol" on the 43 published loci was filled from the exporting session's own knowledge,
+  not from a source. Check each against UC Davis VGL or OMIA. Particular doubts: "roan" and
+  "tobiano" are given KIT, but both are KIT-linked rather than known KIT coding variants;
+  "patn1" is given RFWD3; "tiger_eye" SLC24A5; "mushroom" MFSD12; "brindle" MBTPS2.
+- The name and summary of the five abstracted body loci.
+
+WRITTEN FOR A GAME
+- Summaries and phenotype descriptions come from the mod. Many are good plain science;
+  some describe game effects. Files known to mention the game ("the mod", hearts of
+  health, golden carrots): abstracted_hardiness, acan, b4galt7, cvm, fertility, gbe1,
+  hmga2, lama3, lcorl, leopard, mstn, ryr1, ryr2, tiger_eye, toe1.
+- The five abstracted body loci: phenotype descriptions talk about "the percentage written
+  on that copy". In the mod each allele copy carries its own inherited strength. That idea
+  is not in this format. Decide whether it belongs here.
+- knowledge/science/*.txt are copies of wiki pages and say so at the top. They explain
+  the real science AND how the mod departs from it.
+
+COLLAPSED AND MISSING REAL SCIENCE
+- The mod merges several real loci into one and drops some real alleles on purpose. Known:
+  kit (dominant white W alleles, sabino, and more, as one locus), mitf, matp. These are
+  exported in the mod's shape. Uncollapsing is audit work.
+- Real alleles the science notes name that the data lacks, e.g. the "ea" allele at
+  extension. Find them by reading each science note against its gene file.
+- Dosage loci (shade, flaxen, sooty, pangare, markings, grey) are the mod's model.
+
+FREQUENCIES
+- Every table is "estimated". They are the mod's wild-horse founder rates. A few were set
+  from published surveys (the kit table cites a tested population in the mod's source
+  comments) but none carries its source here.
+- Breed-specific frequencies do not exist here until breeds are exported.
+- brindle has one table per sex; patn1 and patn2 have one with and one without the
+  leopard allele. The left-eye loci in the mod usually copy the right eye; that is NOT
+  expressed here - each eye locus has only its free-standing table.
+
+CITATIONS
+- 29 of 68 loci have citations. They are every external link found in that gene's wiki
+  Science tab, attached to the locus as a whole, not to an allele or a claim.
+- 39 loci have none. Their science notes may still name papers in prose.
+- "source" was guessed from the link's host name.
+- patn1 and patn2 share the leopard page in the mod's wiki; see knowledge/science/leopard.txt.
+- 15 loci have no science note at all: the five abstracted body loci, the eight eye loci,
+  patn1, patn2.
+
+INTERACTIONS
+- Only agouti, leopard and flaxen carry an interactions table. agouti's includes the
+  mod's split of bay into shades by the abstracted "shade" locus, which is the mod's model.
+- Other real epistasis is NOT stated in the data: grey and dominant white hiding other
+  colours, cream on red versus black, silver showing only on black pigment. The mod does
+  these in its painting code, so the export could not see them.
+
+STRUCTURE
+- "sex" is not a locus here. brindle is x_linked and uses a placeholder allele "Y".
+- acan lists a lethal homozygote as a genotype with a condition, while kit, met, mitf and
+  pax3 list theirs under nonviable_genotypes. That mirrors the mod (lethal at birth versus
+  never conceived). Check that the difference is real for each.
+- tools/validate.mjs does not check that allele order is unchanged since the last version
+  (it has no earlier version to compare with until this is a git repository).

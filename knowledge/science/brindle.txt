@@ -1,0 +1,10 @@
+Brindle (MBTPS2) - science notes
+(Copied 2026-10-12 from the Science tab of the Procedural Horse Coats wiki page for this gene.
+Written for that project: it may mention how a game models the gene. Not yet audited.)
+
+Not modelled
+------------
+
+Sexual dimorphism in the coat is a different thing entirely and is unbuilt: the sex locus paints nothing and deliberately never will, so a stallion's crest would be a separate gene reading this one. Also not planned at all: imprinting, crossing over, linkage.
+
+Mosaicism is a special case and needs saying carefully. There is no general mosaicism in the model - a genotype is one pair per gene and every texel reads the same one. What this gene has is the look of a mosaic, painted: BlaschkoStripes rolls each band independently per side, which produces the asymmetry X-inactivation produces without any of the machinery. It is a drawing of the phenomenon and not an implementation of it, and nothing else in the mod can reach it.

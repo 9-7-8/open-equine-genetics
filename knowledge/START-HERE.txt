@@ -1,0 +1,49 @@
+OPEN EQUINE GENETICS - START HERE
+=================================
+Written 2026-10-12 for whoever maintains this folder next, person or AI session.
+
+WHAT THIS IS
+------------
+A language-agnostic, platform-agnostic database of horse genes (and, later, breeds), meant
+to be the most accurate open list of real equine genetics its owner can keep, checked
+against UC Davis Veterinary Genetics Laboratory findings. Plain JSON. No code is needed
+to read it.
+
+It was lifted out of a Minecraft mod, Procedural Horse Coats
+(github.com/9-7-8/Procedural-Horse-Coats), whose genetics model was built from the real
+science. The mod is to become one consumer of this data among others.
+
+The owner is Isabel. She decides what goes in. Ask her before any change that is not a
+plain correction with a source.
+
+WHAT IS HERE TODAY
+------------------
+genes/              one JSON file per locus. Format: knowledge/format.txt
+mod-map.json        how each locus here maps to the mod's saved gene keys. Only the mod
+                    needs it. See knowledge/the-mod.txt
+knowledge/          what a maintainer needs to know
+knowledge/science/  the science notes for each gene, copied from the mod's wiki
+procedures/         how to do each routine job. Read procedures/INDEX.txt first
+session-logs/       one file per working session, newest last by name
+tools/validate.mjs  checks every gene file against the format. Run it after any change
+
+WHAT IS NOT HERE YET
+--------------------
+Read knowledge/known-issues.txt before trusting anything. In short:
+- This is a first export of what the mod models. It has NOT been audited. Every frequency
+  is an estimate, and most descriptions were written for a game.
+- No breeds. They are planned (the mod has about 120 real breeds as JSON already).
+- No LICENSE, README or CONTRIBUTING file. The owner has decided on GPL 3 with a
+  contributor clause (knowledge/decisions.txt); the files are not written.
+- Not a git repository yet, and not on GitHub. Creating the public repo is the owner's
+  call.
+
+Everything left to do, in order, is in TODO.txt at the root.
+
+READ NEXT
+---------
+1. knowledge/decisions.txt     what the owner has already settled. Do not reopen these.
+2. knowledge/format.txt        the file format and the three evidence levels.
+3. knowledge/known-issues.txt  what is wrong or unproven in the data right now.
+4. knowledge/sources.txt       where the science comes from and how far to trust each.
+5. procedures/INDEX.txt        the routines.

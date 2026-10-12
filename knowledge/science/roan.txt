@@ -1,0 +1,10 @@
+Roan - science notes
+(Copied 2026-10-12 from the Science tab of the Procedural Horse Coats wiki page for this gene.
+Written for that project: it may mention how a game models the gene. Not yet audited.)
+
+What is not modelled, and is not a gap
+--------------------------------------
+
+Real classic roan is most obvious in a short summer coat and least obvious in a long, faded or sun-bleached winter one, and it looks temporarily darker after sweating, rolling, rain or clipping - the white hairs are still there, they just reflect light differently. None of that is here, and none of it should be: the mod has no seasons, no coat length, no weather-dependent rendering and no aging, so a horse's roan is as fixed as everything else about it.
+
+It is worth writing down because it is the commonest reason a photograph of a real roan disagrees with this page. The pattern below is the thing being modelled; how strongly it reads on a given afternoon is not.

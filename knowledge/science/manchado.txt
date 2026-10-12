@@ -1,0 +1,15 @@
+Manchado - science notes
+(Copied 2026-10-12 from the Science tab of the Procedural Horse Coats wiki page for this gene.
+Written for that project: it may mention how a game models the gene. Not yet audited.)
+
+What it is not
+--------------
+
+Pattern | How it differs
+Sabino | Jagged, roaned margins, and white on the face and legs. Manchado's white is clean and opaque, and its face and legs are dark.
+Tobiano | Large smooth patches crossing the spine, usually with white legs - but no rounded islands inside the white. That is the whole difference.
+Splash | Comes up from below: white belly, tall leg white, a bald face, blue eyes. Manchado is top-down and its underside stays coloured.
+Leopard complex | Does put colour inside white, but with mottled skin, striped hooves and white sclera, and as a dense cloud of small spots rather than a handful of large ovals.
+Roan | Hair-by-hair mixing, not patch white.
+
+ManchadoGeneTest asserts the geometry directly rather than describing it - that the white is dorsal, that the belly and legs are untouched, and that the coloured leftovers inside the field are runs rather than single texels, which is the measurable difference between an island and a fleck.

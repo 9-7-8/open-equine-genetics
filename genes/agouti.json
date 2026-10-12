@@ -1,0 +1,103 @@
+{
+  "format": 1,
+  "id": "agouti",
+  "species": "horse",
+  "name": "Agouti",
+  "symbol": "ASIP",
+  "evidence": "published",
+  "summary": "Where black pigment is allowed to sit. a/a leaves black over the whole horse (plain black, or chestnut if extension already removed it); one A copy restricts black toward the points, making a bay. How far it is restricted is the shade locus's business, and that is what makes a bay a blood bay, an ordinary bay, a liver bay or a seal brown.",
+  "inheritance": "autosomal",
+  "affects_coat": true,
+  "alleles": [
+    { "id": "A", "name": "Agouti / bay (A)", "wild_type": false },
+    { "id": "a", "name": "Non-agouti (a)", "wild_type": true }
+  ],
+  "phenotypes": [
+    { "id": "wild", "name": "Wild type", "description": "Black pigment is not restricted, so it covers the whole horse - a plain black, or a chestnut if extension already removed it.", "changes_coat": false },
+    { "id": "blood-bay", "name": "Blood bay", "description": "The red end of the bay range: a saturated copper-red body with crisp black mane, tail, ears and hooves, and black barely climbing the legs.", "changes_coat": true },
+    { "id": "bay", "name": "Bay", "description": "The ordinary bay: a red-brown body with black mane, tail, ears and hooves, and black climbing the legs and a little of the face.", "changes_coat": true },
+    { "id": "liver-bay", "name": "Liver bay", "description": "A dark mahogany or chocolate body - still visibly red rather than black - with the black points running well up the legs and over the muzzle.", "changes_coat": true },
+    { "id": "seal-brown", "name": "Seal brown", "description": "Near-black at a distance, and given away by the soft tan points a seal brown keeps: a mealy muzzle, a paler ring over the eye, and light patches at the elbow and the flank.", "changes_coat": true }
+  ],
+  "genotypes": [
+    { "alleles": ["a", "a"], "phenotype": "wild" },
+    { "alleles": ["A", "a"], "phenotype": "bay" },
+    { "alleles": ["A", "A"], "phenotype": "bay" }
+  ],
+  "interactions": {
+    "depends_on": ["extension", "shade"],
+    "note": "The phenotype of this locus once the loci it depends on are known. Overrides the genotypes table.",
+    "table": [
+      { "alleles": ["a", "a"], "with": { "extension": ["e", "e"], "shade": ["ShL", "ShL"] }, "phenotype": "wild" },
+      { "alleles": ["a", "a"], "with": { "extension": ["e", "e"], "shade": ["Sh", "ShL"] }, "phenotype": "wild" },
+      { "alleles": ["a", "a"], "with": { "extension": ["e", "e"], "shade": ["Sh", "Sh"] }, "phenotype": "wild" },
+      { "alleles": ["a", "a"], "with": { "extension": ["e", "e"], "shade": ["ShD", "ShL"] }, "phenotype": "wild" },
+      { "alleles": ["a", "a"], "with": { "extension": ["e", "e"], "shade": ["ShD", "Sh"] }, "phenotype": "wild" },
+      { "alleles": ["a", "a"], "with": { "extension": ["e", "e"], "shade": ["ShD", "ShD"] }, "phenotype": "wild" },
+      { "alleles": ["a", "a"], "with": { "extension": ["E", "e"], "shade": ["ShL", "ShL"] }, "phenotype": "wild" },
+      { "alleles": ["a", "a"], "with": { "extension": ["E", "e"], "shade": ["Sh", "ShL"] }, "phenotype": "wild" },
+      { "alleles": ["a", "a"], "with": { "extension": ["E", "e"], "shade": ["Sh", "Sh"] }, "phenotype": "wild" },
+      { "alleles": ["a", "a"], "with": { "extension": ["E", "e"], "shade": ["ShD", "ShL"] }, "phenotype": "wild" },
+      { "alleles": ["a", "a"], "with": { "extension": ["E", "e"], "shade": ["ShD", "Sh"] }, "phenotype": "wild" },
+      { "alleles": ["a", "a"], "with": { "extension": ["E", "e"], "shade": ["ShD", "ShD"] }, "phenotype": "wild" },
+      { "alleles": ["a", "a"], "with": { "extension": ["E", "E"], "shade": ["ShL", "ShL"] }, "phenotype": "wild" },
+      { "alleles": ["a", "a"], "with": { "extension": ["E", "E"], "shade": ["Sh", "ShL"] }, "phenotype": "wild" },
+      { "alleles": ["a", "a"], "with": { "extension": ["E", "E"], "shade": ["Sh", "Sh"] }, "phenotype": "wild" },
+      { "alleles": ["a", "a"], "with": { "extension": ["E", "E"], "shade": ["ShD", "ShL"] }, "phenotype": "wild" },
+      { "alleles": ["a", "a"], "with": { "extension": ["E", "E"], "shade": ["ShD", "Sh"] }, "phenotype": "wild" },
+      { "alleles": ["a", "a"], "with": { "extension": ["E", "E"], "shade": ["ShD", "ShD"] }, "phenotype": "wild" },
+      { "alleles": ["A", "a"], "with": { "extension": ["e", "e"], "shade": ["ShL", "ShL"] }, "phenotype": "wild" },
+      { "alleles": ["A", "a"], "with": { "extension": ["e", "e"], "shade": ["Sh", "ShL"] }, "phenotype": "wild" },
+      { "alleles": ["A", "a"], "with": { "extension": ["e", "e"], "shade": ["Sh", "Sh"] }, "phenotype": "wild" },
+      { "alleles": ["A", "a"], "with": { "extension": ["e", "e"], "shade": ["ShD", "ShL"] }, "phenotype": "wild" },
+      { "alleles": ["A", "a"], "with": { "extension": ["e", "e"], "shade": ["ShD", "Sh"] }, "phenotype": "wild" },
+      { "alleles": ["A", "a"], "with": { "extension": ["e", "e"], "shade": ["ShD", "ShD"] }, "phenotype": "wild" },
+      { "alleles": ["A", "a"], "with": { "extension": ["E", "e"], "shade": ["ShL", "ShL"] }, "phenotype": "blood-bay" },
+      { "alleles": ["A", "a"], "with": { "extension": ["E", "e"], "shade": ["Sh", "ShL"] }, "phenotype": "bay" },
+      { "alleles": ["A", "a"], "with": { "extension": ["E", "e"], "shade": ["Sh", "Sh"] }, "phenotype": "bay" },
+      { "alleles": ["A", "a"], "with": { "extension": ["E", "e"], "shade": ["ShD", "ShL"] }, "phenotype": "bay" },
+      { "alleles": ["A", "a"], "with": { "extension": ["E", "e"], "shade": ["ShD", "Sh"] }, "phenotype": "liver-bay" },
+      { "alleles": ["A", "a"], "with": { "extension": ["E", "e"], "shade": ["ShD", "ShD"] }, "phenotype": "seal-brown" },
+      { "alleles": ["A", "a"], "with": { "extension": ["E", "E"], "shade": ["ShL", "ShL"] }, "phenotype": "blood-bay" },
+      { "alleles": ["A", "a"], "with": { "extension": ["E", "E"], "shade": ["Sh", "ShL"] }, "phenotype": "bay" },
+      { "alleles": ["A", "a"], "with": { "extension": ["E", "E"], "shade": ["Sh", "Sh"] }, "phenotype": "bay" },
+      { "alleles": ["A", "a"], "with": { "extension": ["E", "E"], "shade": ["ShD", "ShL"] }, "phenotype": "bay" },
+      { "alleles": ["A", "a"], "with": { "extension": ["E", "E"], "shade": ["ShD", "Sh"] }, "phenotype": "liver-bay" },
+      { "alleles": ["A", "a"], "with": { "extension": ["E", "E"], "shade": ["ShD", "ShD"] }, "phenotype": "seal-brown" },
+      { "alleles": ["A", "A"], "with": { "extension": ["e", "e"], "shade": ["ShL", "ShL"] }, "phenotype": "wild" },
+      { "alleles": ["A", "A"], "with": { "extension": ["e", "e"], "shade": ["Sh", "ShL"] }, "phenotype": "wild" },
+      { "alleles": ["A", "A"], "with": { "extension": ["e", "e"], "shade": ["Sh", "Sh"] }, "phenotype": "wild" },
+      { "alleles": ["A", "A"], "with": { "extension": ["e", "e"], "shade": ["ShD", "ShL"] }, "phenotype": "wild" },
+      { "alleles": ["A", "A"], "with": { "extension": ["e", "e"], "shade": ["ShD", "Sh"] }, "phenotype": "wild" },
+      { "alleles": ["A", "A"], "with": { "extension": ["e", "e"], "shade": ["ShD", "ShD"] }, "phenotype": "wild" },
+      { "alleles": ["A", "A"], "with": { "extension": ["E", "e"], "shade": ["ShL", "ShL"] }, "phenotype": "blood-bay" },
+      { "alleles": ["A", "A"], "with": { "extension": ["E", "e"], "shade": ["Sh", "ShL"] }, "phenotype": "blood-bay" },
+      { "alleles": ["A", "A"], "with": { "extension": ["E", "e"], "shade": ["Sh", "Sh"] }, "phenotype": "bay" },
+      { "alleles": ["A", "A"], "with": { "extension": ["E", "e"], "shade": ["ShD", "ShL"] }, "phenotype": "bay" },
+      { "alleles": ["A", "A"], "with": { "extension": ["E", "e"], "shade": ["ShD", "Sh"] }, "phenotype": "bay" },
+      { "alleles": ["A", "A"], "with": { "extension": ["E", "e"], "shade": ["ShD", "ShD"] }, "phenotype": "liver-bay" },
+      { "alleles": ["A", "A"], "with": { "extension": ["E", "E"], "shade": ["ShL", "ShL"] }, "phenotype": "blood-bay" },
+      { "alleles": ["A", "A"], "with": { "extension": ["E", "E"], "shade": ["Sh", "ShL"] }, "phenotype": "bay" },
+      { "alleles": ["A", "A"], "with": { "extension": ["E", "E"], "shade": ["Sh", "Sh"] }, "phenotype": "bay" },
+      { "alleles": ["A", "A"], "with": { "extension": ["E", "E"], "shade": ["ShD", "ShL"] }, "phenotype": "bay" },
+      { "alleles": ["A", "A"], "with": { "extension": ["E", "E"], "shade": ["ShD", "Sh"] }, "phenotype": "liver-bay" },
+      { "alleles": ["A", "A"], "with": { "extension": ["E", "E"], "shade": ["ShD", "ShD"] }, "phenotype": "seal-brown" }
+    ]
+  },
+  "frequencies": [
+    {
+      "population": "general population",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["A", "A"], "percent": 25 },
+        { "alleles": ["A", "a"], "percent": 50 },
+        { "alleles": ["a", "a"], "percent": 25 }
+      ]
+    }
+  ],
+  "citations": [
+    { "source": "ucdavis-vgl", "label": "UC Davis VGL", "url": "https://vgl.ucdavis.edu/resources/horse-coat-color" },
+    { "source": "other", "label": "Equine Tapestry", "url": "https://www.equinetapestry.blog/base-color-variation-mealy-and-seal-brown/" },
+    { "source": "pubmed", "label": "PMC6447268", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6447268/" }
+  ]
+}

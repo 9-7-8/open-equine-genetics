@@ -1,0 +1,18 @@
+Pangare (mealy) - science notes
+(Copied 2026-10-12 from the Science tab of the Procedural Horse Coats wiki page for this gene.
+Written for that project: it may mention how a game models the gene. Not yet audited.)
+
+What is actually known
+----------------------
+
+No confirmed causal mutation and no test. Breeders have treated pangaré as heritable for as long as anyone has kept records - it is near-fixed in several breeds - but its inheritance mode is unresolved, and the very wide range of intensity points at several loci rather than one.
+
+The nearest thing to evidence is a 2018 population study of a region on chromosome 22 about 50 kb downstream of EDN3, whose allele frequencies split sharply between athletic breeds and the pony and draft breeds where mealy is pervasive:
+
+Marker at | Breeds
+99-98% | Fjord, Haflinger, Exmoor
+90-74% | North Swedish Draught, Gotlandsruss, Ardennes, Icelandic
+58% | Shetland
+8-1% | Quarter Horse, Swedish Warmblood, Shire, Thoroughbred
+
+That is an association between a marker and a breed group, not a cause, and the authors said so. So the locus here is a dosage with a per-horse roll - the same shape as flaxen, sooty and the bay shade score - and the population evidence lands where it actually belongs, in the breed frequencies.

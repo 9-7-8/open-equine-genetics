@@ -1,0 +1,22 @@
+Shade (ASIP/RALY) - science notes
+(Copied 2026-10-12 from the Science tab of the Procedural Horse Coats wiki page for this gene.
+Written for that project: it may mention how a game models the gene. Not yet audited.)
+
+What it is modelling
+--------------------
+
+A genome-wide association study of 126 genetically confirmed bay horses found a ~0.5 Mb region on equine chromosome 22, immediately upstream of ASIP and taking in the neighbouring RALY gene, very strongly associated with the continuum from light bay (black confined to mane, tail, lower legs and ear margins) through to near-black bay (black over most of the body with only small red areas left). It is by a wide margin the strongest known signal for bay shade - much stronger than the ordinary A/a test.
+
+The causal mutation has not been identified. The lead marker sits in a high-linkage block and nobody has yet disentangled whether the functional variant is in ASIP, in RALY, or in a regulatory element controlling one or both. The leading biological guess is a regulatory variant that alters when, where or how strongly ASIP is expressed: broader ASIP activity inhibits MC1R over more of the horse and biases it redder; narrower activity lets eumelanin cover more of it.
+
+So there is no allele to name, and this gene does not pretend there is. What it models is the thing the association actually describes: a haplotype dosage, as three alleles worth -1.5, 0 and +1.5, summed.
+
+Why there is no At
+------------------
+
+The model you will see everywhere else
+Most horse-colour material, and most horse games, use an agouti allelic series: A+ wild bay, A bay, At seal brown, a black. It is tidy, it is easy to teach, and it is not a validated equine explanation.
+
+A tan-point at allele is genuinely mapped in several other mammals, and the horse version was borrowed from them by analogy. But the commercial equine agouti test distinguishes A from the recessive 11 bp deletion a and nothing else, and seal-brown-looking horses test as ordinary A/A or A/a - genetically bay at that locus. The chromosome-22 region above is a far stronger modern lead.
+
+So a mod that advertises genetic accuracy (see philosophy) does not get to ship At as a real allele. There were three honest options - give each shade a made-up allele (arcade), ship At and label it a simplification (fine for a teaching game), or model a shade locus plus the dosage terms. This is the third.

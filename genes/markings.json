@@ -1,0 +1,46 @@
+{
+  "format": 1,
+  "id": "markings",
+  "species": "horse",
+  "name": "Markings",
+  "symbol": null,
+  "evidence": "abstracted",
+  "summary": "Ordinary white markings - the star, stripe, snip, sock and stocking a horse can have without carrying any white pattern gene at all. An additive dosage locus: more copies means more white, from a coronet up to a broad blaze and high stockings. It runs before every pattern locus, so sabino and splash stack their white on top of it.",
+  "inheritance": "autosomal",
+  "affects_coat": true,
+  "alleles": [
+    { "id": "M2", "name": "Markings, strong (M2)", "wild_type": false },
+    { "id": "M1", "name": "Markings, mild (M1)", "wild_type": false },
+    { "id": "m", "name": "Wild-type (m)", "wild_type": true }
+  ],
+  "phenotypes": [
+    { "id": "wild", "name": "Wild type", "description": "No ordinary white - a clean face and four coloured legs, unless a pattern gene puts white somewhere itself.", "changes_coat": false },
+    { "id": "minimal-markings", "name": "Minimal markings", "description": "A star, or nothing more than a coronet above a hoof. The commonest thing a horse can have and still be called solid.", "changes_coat": true },
+    { "id": "markings", "name": "White markings", "description": "A star and often a snip, with socks on one or two legs - the ordinary marked riding horse.", "changes_coat": true },
+    { "id": "bold-markings", "name": "Bold markings", "description": "A stripe or a narrow blaze down the face and socks on most legs.", "changes_coat": true },
+    { "id": "broad-markings", "name": "Broad markings", "description": "A wide blaze and high stockings. At this end it is easy to mistake for a minimally expressed sabino or splash, which is exactly the confusion the real-world literature describes.", "changes_coat": true }
+  ],
+  "genotypes": [
+    { "alleles": ["m", "m"], "phenotype": "wild" },
+    { "alleles": ["M1", "m"], "phenotype": "minimal-markings" },
+    { "alleles": ["M1", "M1"], "phenotype": "markings" },
+    { "alleles": ["M2", "m"], "phenotype": "markings" },
+    { "alleles": ["M2", "M1"], "phenotype": "bold-markings" },
+    { "alleles": ["M2", "M2"], "phenotype": "broad-markings" }
+  ],
+  "frequencies": [
+    {
+      "population": "general population",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["M2", "M2"], "percent": 1.96 },
+        { "alleles": ["M2", "M1"], "percent": 9.52 },
+        { "alleles": ["M2", "m"], "percent": 14.56 },
+        { "alleles": ["M1", "M1"], "percent": 11.56 },
+        { "alleles": ["M1", "m"], "percent": 35.36 },
+        { "alleles": ["m", "m"], "percent": 27.04 }
+      ]
+    }
+  ],
+  "citations": []
+}

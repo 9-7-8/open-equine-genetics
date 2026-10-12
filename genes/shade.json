@@ -1,0 +1,46 @@
+{
+  "format": 1,
+  "id": "shade",
+  "species": "horse",
+  "name": "Shade (ASIP/RALY)",
+  "symbol": null,
+  "evidence": "abstracted",
+  "summary": "The regulatory region beside agouti that decides how far black spreads over a bay. It paints nothing on its own and every horse carries it - a chestnut can hand a seal brown to a grandfoal - but on a bay its dosage, plus whether extension is E/E and whether agouti is A/a, chooses between a bright blood bay and a near-black seal brown.",
+  "inheritance": "autosomal",
+  "affects_coat": false,
+  "alleles": [
+    { "id": "ShD", "name": "Shade, dark haplotype (ShD)", "wild_type": false },
+    { "id": "Sh", "name": "Shade, neutral haplotype (Sh)", "wild_type": true },
+    { "id": "ShL", "name": "Shade, light haplotype (ShL)", "wild_type": false }
+  ],
+  "phenotypes": [
+    { "id": "lightest", "name": "Restricting (ShL/ShL)", "description": "Carried, and silent on its own. On a bay it holds black to the points and keeps the body its reddest - a blood bay. On anything else it does nothing at all.", "changes_coat": false },
+    { "id": "light", "name": "Light-leaning (ShL/Sh)", "description": "Carried, and silent on its own. On a bay it leans the body toward red.", "changes_coat": false },
+    { "id": "neutral", "name": "Neutral (Sh/Sh, ShL/ShD)", "description": "Carried, and silent on its own. On a bay it gives the ordinary red-brown body and black points most people picture.", "changes_coat": false },
+    { "id": "dark", "name": "Dark-leaning (Sh/ShD)", "description": "Carried, and silent on its own. On a bay it spreads black further over the body - a mahogany or liver bay.", "changes_coat": false },
+    { "id": "darkest", "name": "Expanding (ShD/ShD)", "description": "Carried, and silent on its own. On a bay it lets black cover nearly the whole horse, leaving only the soft tan points of a seal brown.", "changes_coat": false }
+  ],
+  "genotypes": [
+    { "alleles": ["ShL", "ShL"], "phenotype": "lightest" },
+    { "alleles": ["Sh", "ShL"], "phenotype": "light" },
+    { "alleles": ["Sh", "Sh"], "phenotype": "neutral" },
+    { "alleles": ["ShD", "ShL"], "phenotype": "neutral" },
+    { "alleles": ["ShD", "Sh"], "phenotype": "dark" },
+    { "alleles": ["ShD", "ShD"], "phenotype": "darkest" }
+  ],
+  "frequencies": [
+    {
+      "population": "general population",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["ShD", "ShD"], "percent": 7 },
+        { "alleles": ["ShL", "ShL"], "percent": 9 },
+        { "alleles": ["ShD", "ShL"], "percent": 15 },
+        { "alleles": ["ShD", "Sh"], "percent": 22 },
+        { "alleles": ["Sh", "ShL"], "percent": 27 },
+        { "alleles": ["Sh", "Sh"], "percent": 20 }
+      ]
+    }
+  ],
+  "citations": []
+}

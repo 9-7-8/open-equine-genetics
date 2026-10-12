@@ -1,0 +1,106 @@
+PRKDC (SCID) - science notes
+(Copied 2026-10-12 from the Science tab of the Procedural Horse Coats wiki page for this gene.
+Written for that project: it may mention how a game models the gene. Not yet audited.)
+
+At a glance
+-----------
+
+Gene | PRKDC - protein kinase, DNA-activated, catalytic polypeptide
+Protein | DNA-dependent protein kinase catalytic subunit, DNA-PKcs
+Chromosome | Equine chromosome 9, at ECA9p12; EquCab3.0 NC_009152.3:g.36395752_36395756del
+Variant | PRKDC:c.9478_9482del - a five-base deletion
+Protein consequence | p.(Asn3160fs*3) - frameshift, premature stop
+Disease | Arabian severe combined immunodeficiency (SCID)
+Inheritance | Autosomal recessive
+Coat | No known effect
+
+A DNA-repair gene that the immune system borrows
+------------------------------------------------
+
+PRKDC encodes DNA-PKcs, the catalytic subunit of DNA-dependent protein kinase. DNA-PK is best known for repairing double-strand breaks by non-homologous end joining. In developing lymphocytes that same cut-and-rejoin machinery has a second, essential job: V(D)J recombination.
+
+B cells and T cells do not inherit a ready-made gene for every antibody. During development they deliberately cut and reassemble variable, diversity and joining DNA segments to generate an enormous repertoire of antibodies and T-cell receptors. So the chain runs: controlled DNA breaks during lymphocyte development -> DNA-PK-dependent repair and joining -> functional B- and T-cell receptors -> adaptive immunity. Break the kinase and it runs the other way - failed recombination, profound B- and T-cell deficiency, and effectively no adaptive immunity at all.
+
+The combined in severe combined immunodeficiency means both arms are gone at once. Affected foals show hypogammaglobulinaemia, lymphopenia, absent or severely deficient thymic tissue, absent germinal centres, and major deficits in thymus-dependent lymphocytes. OMIA 000220 (https://omia.org/OMIA000220/9796/)
+
+The deletion shifts the reading frame near the end of the coding sequence and stops three amino acids later. It is a frameshift loss of function: the protein that results lacks the full-length kinase and has no DNA-PK catalytic activity. UC Davis VGL (https://vgl.ucdavis.edu/test/scid)
+
+The discovery leaned on comparative biology. DNA-PK defects were already known to cause SCID in mice; equine linkage mapping placed Arabian SCID near markers HTG8 and HTG4, FISH mapped the equine DNA-PK gene to ECA9p12, and sequencing found the five-base deletion in affected foals.
+
+Why the foal looks fine, and then does not
+------------------------------------------
+
+At birth an SCID foal is vigorous and ordinary, because it is running on maternal antibodies from colostrum. That is borrowed protection; it does nothing about the foal's inability to build its own B and T cells. As the borrowed antibodies decline and the foal meets ordinary environmental microbes, the failure surfaces - typically at 2-8 weeks, occasionally as early as ten days.
+
+What appears then is fever, depression, failure to thrive, respiratory distress, recurrent or persistent bronchopneumonia, diarrhoea, and opportunistic bacterial, viral, fungal and protozoal infection that does not respond normally to treatment - including severe disease from organisms an immunocompetent foal handles, adenoviruses among them. Several infections at once is characteristic, because the problem is not one germ but the absence of a defence. Without immune reconstitution it is fatal; affected foals do not survive past about six months.
+
+The mod kills it in seconds, and knows it
+This is the cruellest of the foal lethals in flavour precisely because of the weeks of apparent health. The mod has no delayed-death path and no age model (gap 1), so the foal is born, named, recorded, and dies with the others. The condition sentence carries what the mechanism cannot. If a delayed-death path ever lands, this gene and TOE1 are the two that most want it - both are disorders whose whole character is timing.
+
+Coat, build, size, performance
+------------------------------
+
+trait | affected scid/scid | carrier N/scid
+coat and markings | no known effect | no known effect
+build at birth | usually normal | no known effect on conformation
+growth | fails to thrive once infection begins - secondary to disease | no established effect
+mature size | does not survive to reach one | no evidence of any adult type difference
+performance | not meaningful | no evidence on speed, stride, endurance, recovery, jump or trainability
+soundness | not a musculoskeletal disorder | no evidence of tendon, joint or fracture risk
+health | fatal loss of B- and T-cell immunity | clinically normal
+
+SCID has no known coat or conformation function in horses and no validated carrier advantage in racing, endurance or jumping. The effect on an affected foal is indirect but absolute: infection, treatment burden, poor growth and early death make athletic development impossible. A carrier has one working copy and is not known to have reduced immune competence, which is why the mod's carrier row costs nothing.
+
+Inheritance
+-----------
+
+mating | per conception | outcome
+N/N x N/N | 100% clear | nothing transmitted
+N/N x N/scid | 50% clear, 50% carrier | no affected foals
+N/scid x N/scid | 25% / 50% / 25% | one in four fatal, every conception
+N/scid x scid/scid | 50% carrier, 50% affected | theoretical - affected foals do not survive
+N/N x scid/scid | 100% carrier | theoretical
+scid/scid x scid/scid | 100% affected | theoretical
+
+Autosomal, so mares and stallions carry equally. Each conception is independent: a carrier pair does not spend its 25% by producing a healthy foal first.
+
+Breeds and frequency
+--------------------
+
+Firmly established in Arabian horses and horses with Arabian ancestry, part-Arabs included. It was first described in Arabian foals in 1973, and labs recommend testing Arabians and Arabian crosses. It is not a routine panel target for unrelated breeds without a pedigree reason.
+
+population | result | reading
+Randomly selected US Arabians, 1998 | 21 of 250 - 8.4% carriers | predicted 0.18% affected foals under random mating
+UK Arabians, older estimate | 2.8% carriers | country- and era-specific
+Moroccan Arabians | 7% carriers | one sampled population
+Moroccan Arab-Barbs | 4% carriers | reflects Arabian-derived ancestry
+Moroccan Anglo-Arabs | 3.3% carriers | small subgroup; read cautiously
+Iranian Arabians | allele frequency 0.8% | allele, not carrier, frequency
+Egyptian sample, 103 horses | no allele detected | a negative small sample is not an absence
+Clinical-lab summary | 1-8% in Arabians | the honest practical range
+
+The 8.4% figure is the one usually quoted because it came from a random sample of 250 Arabians rather than a testing-driven one. Under random mating it implied about 0.18% affected foals - roughly one birth in 567. Present-day rates may be lower, since testing has let breeders avoid carrier pairings. PMID 9682449 (https://pubmed.ncbi.nlm.nih.gov/9682449/)
+
+Three numbers that are not the same number
+Carrier frequency, allele frequency and affected-foal frequency get quoted interchangeably and are not interchangeable. For a rare recessive allele at frequency q, affected ~ q2 and carriers ~ 2q(1-q). Real horse populations depart from random mating anyway - selected pedigrees, popular sires, linebreeding, imports, and deliberately test-based mate choice - which is most of why national estimates disagree. The mod's WILD_CARRIER_PERCENT of 2.8 is a carrier figure, and it sits inside the 1-8% band.
+
+Origin
+------
+
+Recognised first in two full-sibling Arabian foals in 1973; family studies then established recessive inheritance, and the PRKDC deletion made reliable DNA testing possible. The allele almost certainly spread through historical Arabian lines before testing existed - carriers being clinically normal, it can persist silently for generations and concentrate wherever an influential carrier leaves many descendants. The founder horse is not identified in the accessible literature.
+
+Diagnosis and treatment
+-----------------------
+
+The direct DNA test settles clear, carrier or affected. In a sick Arabian foal a vet may also look at lymphocyte counts, serum immunoglobulins, evidence of failure of passive transfer versus a primary immune disorder, the pattern of recurrent or treatment-resistant infection, and thymic and lymphoid development. Testing matters because SCID initially resembles failure of passive transfer - and those differ fundamentally: a passive-transfer foal can still go on to build normal immunity, and an SCID foal cannot.
+
+There is no routine curative treatment. Isolation, antimicrobials and plasma support can extend survival without restoring the missing immune system. Bone-marrow transplantation and experimental reconstitution have been reported historically and are not part of ordinary breeding practice. Prevention through testing is the whole of the modern answer.
+
+What is settled, and what is not
+--------------------------------
+
+Well established. c.9478_9482del is the causal Arabian SCID mutation; it frameshifts and truncates DNA-PKcs and removes kinase activity; the locus is ECA9p12; inheritance is autosomal recessive; affected foals have profound B- and T-cell deficiency from failed V(D)J recombination; they are normal at birth and fail as maternal protection wanes; the disease is fatal, commonly before six months; carriers are clinically normal; and the allele is relevant to Arabians and Arabian crosses.
+
+Plausible but not settled. The current carrier frequency in every population and registry; how far testing policy has reduced risk in particular countries since the early surveys; and whether carriers have any subtle immune, biochemical or cancer-related difference. Some reports have raised possibilities such as more virus-associated sarcoids or small biochemical differences; none is established as a reliable carrier syndrome, and none should be used to judge a carrier's health or athletic potential.
+
+Not supported. That carrier status causes poor immunity, growth, temperament, fertility, conformation or performance; that SCID affects coat colour, eye colour, markings, height, body type, gait, speed, jump or endurance; that a normal-looking newborn Arabian is necessarily clear; that colostrum can cure it (it supplies temporary antibodies, nothing more); or that avoiding all carriers is necessary - the mating to avoid is carrier x carrier.

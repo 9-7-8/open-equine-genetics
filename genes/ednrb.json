@@ -1,0 +1,44 @@
+{
+  "format": 1,
+  "id": "ednrb",
+  "species": "horse",
+  "name": "EDNRB (frame overo)",
+  "symbol": "EDNRB",
+  "evidence": "published",
+  "summary": "Frame overo: big, sharp-edged white splotches across the middle of the side - barrel, flank, shoulder and lower neck - that never cross the back and rarely reach the belly, so colour is left framing them above and below. Broad white face, dark legs, and two sides that need not match; some carriers show almost nothing, which is why frame is tested for. Two copies (O/O) is Overo Lethal White - an all-white foal that does not survive. It has its locus to itself, so it stacks freely with every other white pattern.",
+  "inheritance": "autosomal",
+  "affects_coat": true,
+  "alleles": [
+    { "id": "O", "name": "Frame overo (O)", "wild_type": false },
+    { "id": "N", "name": "Wild-type (N)", "wild_type": true }
+  ],
+  "phenotypes": [
+    { "id": "wild", "name": "Wild type", "description": "No white patches.", "changes_coat": false },
+    { "id": "frame-overo", "name": "Frame overo", "description": "Big, sharp-edged splotches of white across the middle of the side - barrel, flank, shoulder and lower neck - that never cross the back and rarely reach the belly, so the coloured coat is left framing them above and below, which is where the name comes from. The face is broadly white, often bald, and the legs stay dark but for the occasional coronet. The two sides need not match. Some carriers are marked so little you would never guess, which is why frame is tested for and not eyeballed.", "changes_coat": true },
+    { "id": "lethal-white", "name": "Lethal white", "description": "An all-white foal with pink skin - Overo Lethal White Syndrome, which two frame carriers produce one time in four. In a real horse the gut has no nerve supply and the foal dies within a day or two; this mod paints the coat and does not yet model the death.", "changes_coat": true }
+  ],
+  "genotypes": [
+    { "alleles": ["N", "N"], "phenotype": "wild" },
+    { "alleles": ["O", "N"], "phenotype": "frame-overo" },
+    { "alleles": ["O", "O"], "phenotype": "lethal-white", "conditions": ["overo-lethal-white"] }
+  ],
+  "conditions": [
+    { "id": "overo-lethal-white", "name": "Overo lethal white syndrome", "description": "Two frame copies. The foal is born pure white with an unformed gut and cannot survive its first day.", "severity": "lethal_at_birth" }
+  ],
+  "frequencies": [
+    {
+      "population": "general population",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["O", "N"], "percent": 3.5714 },
+        { "alleles": ["N", "N"], "percent": 96.4286 }
+      ]
+    }
+  ],
+  "citations": [
+    { "source": "pubmed", "label": "Metallinos et al., PMID 9585428", "url": "https://pubmed.ncbi.nlm.nih.gov/9585428/?dopt=Abstract" },
+    { "source": "ucdavis-vgl", "label": "UC Davis VGL", "url": "https://vgl.ucdavis.edu/test/lethal-white-overo" },
+    { "source": "paper", "label": "JAVMA 235(10):1204", "url": "https://avmajournals.avma.org/view/journals/javma/235/10/javma.235.10.1204.xml" },
+    { "source": "pubmed", "label": "PMID 11197568", "url": "https://pubmed.ncbi.nlm.nih.gov/11197568/" }
+  ]
+}

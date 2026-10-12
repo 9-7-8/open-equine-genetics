@@ -1,0 +1,74 @@
+{
+  "format": 1,
+  "id": "matp",
+  "species": "horse",
+  "name": "MATP (cream / pearl)",
+  "symbol": "SLC45A2",
+  "evidence": "published",
+  "summary": "The dilution locus - one gene, five alleles (Cr, prl, sun, sno, N). One cream copy is a partial dilution (palomino / buckskin / smoky black); two cream, or cream beside any of the three recessives, is a full double dilute. Pearl needs two copies for a milder uniform dilution; sunshine needs two and reads like champagne; snowdrop needs two and is indistinguishable from a double cream. That last part is the point: a horse that looks like a cremello may carry one cream allele or none, and only its genotype says which.",
+  "inheritance": "autosomal",
+  "affects_coat": true,
+  "alleles": [
+    { "id": "Cr", "name": "Cream (Cr)", "wild_type": false },
+    { "id": "prl", "name": "Pearl (prl)", "wild_type": false },
+    { "id": "sun", "name": "Sunshine (sun)", "wild_type": false },
+    { "id": "sno", "name": "Snowdrop (sno)", "wild_type": false },
+    { "id": "N", "name": "Wild-type (N)", "wild_type": true }
+  ],
+  "phenotypes": [
+    { "id": "wild", "name": "Wild type", "description": "No dilution.", "changes_coat": false },
+    { "id": "pearl-carrier", "name": "Pearl carrier", "description": "One pearl copy does nothing on its own - the horse looks undiluted and only its descendants show it. Breeding two carriers is how classic pearl appears.", "changes_coat": false },
+    { "id": "dilution-carrier", "name": "Dilution carrier", "description": "One copy of sunshine or snowdrop, and nothing to see. Both are recessive and both look exactly like a horse carrying neither - which is how the first snowdrop foal was born pale out of two apparently undiluted parents.", "changes_coat": false },
+    { "id": "single-cream", "name": "Single cream", "description": "Red cut hard and black cut a little - palomino on a chestnut, buckskin on a bay, smoky black on a black. The points go dark brown, never jet black.", "changes_coat": true },
+    { "id": "classic-pearl", "name": "Classic pearl", "description": "Black cut hard and red barely touched - a warm, lightened coat that keeps its colour rather than washing out. Only two pearl copies and no cream produce it.", "changes_coat": true },
+    { "id": "sunshine", "name": "Sunshine", "description": "Two sunshine copies. A whole-coat dilution that reads closer to champagne than to a cremello - warm and light rather than washed out - and, unlike the double dilutes, it does not give the horse a pale blue eye.", "changes_coat": true },
+    { "id": "double-dilute", "name": "Double dilute", "description": "Red almost entirely gone and black heavily cut - cremello, perlino or smoky cream, a near-white body over rusty points. Two cream copies do it, and so does one cream with one pearl.", "changes_coat": true }
+  ],
+  "genotypes": [
+    { "alleles": ["N", "N"], "phenotype": "wild" },
+    { "alleles": ["sno", "N"], "phenotype": "dilution-carrier" },
+    { "alleles": ["sno", "sno"], "phenotype": "double-dilute" },
+    { "alleles": ["sun", "N"], "phenotype": "dilution-carrier" },
+    { "alleles": ["sun", "sno"], "phenotype": "double-dilute" },
+    { "alleles": ["sun", "sun"], "phenotype": "sunshine" },
+    { "alleles": ["prl", "N"], "phenotype": "pearl-carrier" },
+    { "alleles": ["prl", "sno"], "phenotype": "double-dilute" },
+    { "alleles": ["prl", "sun"], "phenotype": "classic-pearl" },
+    { "alleles": ["prl", "prl"], "phenotype": "classic-pearl" },
+    { "alleles": ["Cr", "N"], "phenotype": "single-cream" },
+    { "alleles": ["Cr", "sno"], "phenotype": "double-dilute" },
+    { "alleles": ["Cr", "sun"], "phenotype": "double-dilute" },
+    { "alleles": ["Cr", "prl"], "phenotype": "double-dilute" },
+    { "alleles": ["Cr", "Cr"], "phenotype": "double-dilute" }
+  ],
+  "frequencies": [
+    {
+      "population": "general population",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["Cr", "Cr"], "percent": 0.1111 },
+        { "alleles": ["Cr", "prl"], "percent": 0.0222 },
+        { "alleles": ["Cr", "sun"], "percent": 0.0022 },
+        { "alleles": ["Cr", "sno"], "percent": 0.0019 },
+        { "alleles": ["Cr", "N"], "percent": 6.4181 },
+        { "alleles": ["prl", "prl"], "percent": 0.0011 },
+        { "alleles": ["prl", "sun"], "percent": 2.0E-4 },
+        { "alleles": ["prl", "sno"], "percent": 2.0E-4 },
+        { "alleles": ["prl", "N"], "percent": 0.6418 },
+        { "alleles": ["sun", "sun"], "percent": 0 },
+        { "alleles": ["sun", "sno"], "percent": 0 },
+        { "alleles": ["sun", "N"], "percent": 0.0642 },
+        { "alleles": ["sno", "sno"], "percent": 0 },
+        { "alleles": ["sno", "N"], "percent": 0.055 },
+        { "alleles": ["N", "N"], "percent": 92.6819 }
+      ]
+    }
+  ],
+  "citations": [
+    { "source": "ucdavis-vgl", "label": "UC Davis, cream", "url": "https://vgl.ucdavis.edu/test/cream" },
+    { "source": "ucdavis-vgl", "label": "UC Davis, pearl", "url": "https://vgl.ucdavis.edu/test/pearl" },
+    { "source": "paper", "label": "Anim. Genet. 10.1111/age.12790", "url": "https://onlinelibrary.wiley.com/doi/full/10.1111/age.12790" },
+    { "source": "other", "label": "bioRxiv 851246", "url": "https://www.biorxiv.org/content/10.1101/851246v1" },
+    { "source": "pubmed", "label": "PMC9498372", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9498372/" }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "format": 1,
+  "id": "eye_sclera_right",
+  "species": "horse",
+  "name": "Right eye sclera",
+  "symbol": null,
+  "evidence": "abstracted",
+  "summary": "What colour the white of this horse's right eye is. White is dominant; black, chaos and invisible each take a matched pair. A black sclera turns the eye into one dark patch with the iris buried in it, and an invisible one leaves the iris floating on the horse's own coat. It shows nothing on a foal, whose template has no white round the pupil at all.",
+  "inheritance": "autosomal",
+  "affects_coat": true,
+  "alleles": [
+    { "id": "Wht", "name": "White (Wht)", "wild_type": true },
+    { "id": "Blk", "name": "Black (Blk)", "wild_type": false },
+    { "id": "Inv", "name": "Invisible (Inv)", "wild_type": false },
+    { "id": "Cha", "name": "Chaos (Cha)", "wild_type": false }
+  ],
+  "phenotypes": [
+    { "id": "wild", "name": "Wild type", "description": "The ordinary white of the eye.", "changes_coat": false },
+    { "id": "eye-sclera-carrier", "name": "Sclera colour carrier", "description": "One copy of a variant, which shows nothing - all three are recessive to white and to each other.", "changes_coat": false },
+    { "id": "eye-sclera-mismatched", "name": "Two different sclera colours", "description": "Two different variants, which is an ordinary white eye.", "changes_coat": false },
+    { "id": "eye-sclera-black-right", "name": "Black sclera", "description": "The white of the eye is black, so the eye reads as one dark patch with the iris colour buried in the middle of it. On a pale horse it is the loudest thing about the face.", "changes_coat": true },
+    { "id": "eye-sclera-invisible-right", "name": "Invisible sclera", "description": "The sclera is not painted at all - the coat on the head runs straight through it, and the iris floats on the horse's own colour with nothing round it.", "changes_coat": true },
+    { "id": "eye-sclera-chaos-right", "name": "Chaos sclera", "description": "A colour written on the allele copy, so no two horses have the same whites and a line of them drifts.", "changes_coat": true }
+  ],
+  "genotypes": [
+    { "alleles": ["Cha", "Cha"], "phenotype": "eye-sclera-chaos-right" },
+    { "alleles": ["Inv", "Cha"], "phenotype": "eye-sclera-mismatched" },
+    { "alleles": ["Inv", "Inv"], "phenotype": "eye-sclera-invisible-right" },
+    { "alleles": ["Blk", "Cha"], "phenotype": "eye-sclera-mismatched" },
+    { "alleles": ["Blk", "Inv"], "phenotype": "eye-sclera-mismatched" },
+    { "alleles": ["Blk", "Blk"], "phenotype": "eye-sclera-black-right" },
+    { "alleles": ["Wht", "Cha"], "phenotype": "eye-sclera-carrier" },
+    { "alleles": ["Wht", "Inv"], "phenotype": "eye-sclera-carrier" },
+    { "alleles": ["Wht", "Blk"], "phenotype": "eye-sclera-carrier" },
+    { "alleles": ["Wht", "Wht"], "phenotype": "wild" }
+  ],
+  "frequencies": [
+    {
+      "population": "general population",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["Blk", "Blk"], "percent": 0.3 },
+        { "alleles": ["Wht", "Blk"], "percent": 0.9 },
+        { "alleles": ["Inv", "Inv"], "percent": 0.1 },
+        { "alleles": ["Wht", "Inv"], "percent": 0.3 },
+        { "alleles": ["Cha", "Cha"], "percent": 0.06 },
+        { "alleles": ["Wht", "Cha"], "percent": 0.18 },
+        { "alleles": ["Wht", "Wht"], "percent": 98.16 }
+      ]
+    }
+  ],
+  "citations": []
+}

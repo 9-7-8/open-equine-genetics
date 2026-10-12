@@ -1,0 +1,46 @@
+{
+  "format": 1,
+  "id": "gys1",
+  "species": "horse",
+  "name": "GYS1 (PSSM1)",
+  "symbol": "GYS1",
+  "evidence": "published",
+  "summary": "GYS1 (PSSM1), tying-up - a dominant disorder, so every copy shows and there is no carrier. Neither combination is lethal, which makes it the mildest and by far the commonest disorder a player will actually meet.",
+  "inheritance": "autosomal",
+  "affects_coat": false,
+  "alleles": [
+    { "id": "P", "name": "PSSM1 (P)", "wild_type": false },
+    { "id": "N", "name": "Wild-type (N)", "wild_type": true }
+  ],
+  "phenotypes": [
+    { "id": "wild", "name": "Wild type", "description": "Two working copies. Nothing is wrong and nothing is passed on.", "changes_coat": false },
+    { "id": "pssm1", "name": "PSSM1 (tying-up)", "description": "The muscle stores sugar it cannot burn. The horse ties up under work - it tires sooner than it should and does not move freely afterwards.", "changes_coat": false },
+    { "id": "pssm1-severe", "name": "PSSM1 (two copies)", "description": "Two copies. The same disorder, worse: episodes come on under less work and take more out of the horse. It still lives an ordinary life.", "changes_coat": false }
+  ],
+  "genotypes": [
+    { "alleles": ["N", "N"], "phenotype": "wild" },
+    { "alleles": ["P", "N"], "phenotype": "pssm1", "conditions": ["pssm1"] },
+    { "alleles": ["P", "P"], "phenotype": "pssm1-severe", "conditions": ["pssm1-severe"] }
+  ],
+  "conditions": [
+    { "id": "pssm1", "name": "PSSM1 (tying-up)", "description": "The muscle stores sugar it cannot burn. The horse ties up under work - it tires sooner than it should and does not move freely afterwards.", "severity": "impairing" },
+    { "id": "pssm1-severe", "name": "PSSM1 (two copies)", "description": "Two copies. The same disorder, worse: episodes come on under less work and take more out of the horse. It still lives an ordinary life.", "severity": "impairing" }
+  ],
+  "frequencies": [
+    {
+      "population": "general population",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["P", "N"], "percent": 2.5 },
+        { "alleles": ["N", "N"], "percent": 97.5 }
+      ]
+    }
+  ],
+  "citations": [
+    { "source": "pubmed", "label": "PMC5148651", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5148651/" },
+    { "source": "pubmed", "label": "PMC3409190", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3409190/" },
+    { "source": "paper", "label": "Anim. Genet. 10.1111/age.12481", "url": "https://onlinelibrary.wiley.com/doi/10.1111/age.12481" },
+    { "source": "pubmed", "label": "PMC3920812", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3920812/" },
+    { "source": "pubmed", "label": "PMC2430182", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2430182/" }
+  ]
+}

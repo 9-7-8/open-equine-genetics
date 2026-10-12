@@ -1,0 +1,10 @@
+PDK4 - science notes
+(Copied 2026-10-12 from the Science tab of the Procedural Horse Coats wiki page for this gene.
+Written for that project: it may mention how a game models the gene. Not yet audited.)
+
+Why one gene and not a marker set
+---------------------------------
+
+In reality this is one marker in a cluster, and racing ability is a polygenic sum over many of them. Polygenic inheritance is cut from this mod (a settled decision), and the reason is a design one rather than a technical one: a hidden sum of anonymous markers is indistinguishable from a dice roll at the scale a player can observe, and the whole point of the genetics here is that a player can breed for something and see it work. So the cluster collapses into two alleles with an additive weight, and a player who fixes A/A in a line has visibly made it faster.
+
+Together with MSTN and CKM it makes speed a three-locus breeding problem rather than a single switch: the fastest horse the model can make is 0.3135, against a baseline of 0.1875 and a vanilla range of 0.1125-0.3375.

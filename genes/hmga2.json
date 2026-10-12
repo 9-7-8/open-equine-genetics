@@ -1,0 +1,41 @@
+{
+  "format": 1,
+  "id": "hmga2",
+  "species": "horse",
+  "name": "HMGA2 (pony)",
+  "symbol": "HMGA2",
+  "evidence": "published",
+  "summary": "HMGA2, the pony gene: each p copy makes the horse smaller and slower with less jump, but adds two hearts of health - small has to buy something.",
+  "inheritance": "autosomal",
+  "affects_coat": false,
+  "alleles": [
+    { "id": "p", "name": "Pony (p)", "wild_type": false },
+    { "id": "N", "name": "Wild-type (N)", "wild_type": true }
+  ],
+  "phenotypes": [
+    { "id": "pony", "name": "Pony", "description": "Two pony copies. A visibly smaller, slower, lower-jumping horse - and the hardiest one this locus makes.", "changes_coat": false },
+    { "id": "pony-mixed", "name": "Part pony", "description": "One pony copy. Half the loss of height and half the gain in hearts.", "changes_coat": false },
+    { "id": "pony-plain", "name": "Wild type", "description": "No pony copy. Ordinary height.", "changes_coat": false }
+  ],
+  "genotypes": [
+    { "alleles": ["N", "N"], "phenotype": "pony-plain" },
+    { "alleles": ["p", "N"], "phenotype": "pony-mixed" },
+    { "alleles": ["p", "p"], "phenotype": "pony" }
+  ],
+  "frequencies": [
+    {
+      "population": "general population",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["p", "p"], "percent": 6.25 },
+        { "alleles": ["p", "N"], "percent": 37.5 },
+        { "alleles": ["N", "N"], "percent": 56.25 }
+      ]
+    }
+  ],
+  "citations": [
+    { "source": "pubmed", "label": "Frischknecht et al., PMC4608717", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4608717/" },
+    { "source": "pubmed", "label": "PMC10229368", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10229368/" },
+    { "source": "pubmed", "label": "PMC6430908", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6430908/" }
+  ]
+}

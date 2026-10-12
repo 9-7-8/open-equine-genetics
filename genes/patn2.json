@@ -1,0 +1,42 @@
+{
+  "format": 1,
+  "id": "patn2",
+  "species": "horse",
+  "name": "PATN2 (blanket pattern)",
+  "symbol": null,
+  "evidence": "abstracted",
+  "summary": "The second leopard-complex pattern modifier, and a pure modifier like PATN1: on an LP horse it gives the blanket patterns - a white sheet over the hips, spotted or not - and carrying both modifiers gives the semi-leopard between the two. Invisible on a horse without LP.",
+  "inheritance": "autosomal",
+  "affects_coat": false,
+  "alleles": [
+    { "id": "PATN2", "name": "Leopard pattern-2 (PATN2)", "wild_type": false },
+    { "id": "n", "name": "Wild-type (n)", "wild_type": true }
+  ],
+  "phenotypes": [
+    { "id": "wild", "name": "Wild type", "description": "Carried, but silent on its own - it only shapes the pattern of a horse that also carries the leopard complex.", "changes_coat": false }
+  ],
+  "genotypes": [
+    { "alleles": ["n", "n"], "phenotype": "wild" },
+    { "alleles": ["PATN2", "n"], "phenotype": "wild" },
+    { "alleles": ["PATN2", "PATN2"], "phenotype": "wild" }
+  ],
+  "frequencies": [
+    {
+      "population": "horses without the leopard complex allele",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["n", "n"], "percent": 100 }
+      ]
+    },
+    {
+      "population": "horses carrying the leopard complex allele",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["PATN2", "PATN2"], "percent": 1 },
+        { "alleles": ["PATN2", "n"], "percent": 15 },
+        { "alleles": ["n", "n"], "percent": 84 }
+      ]
+    }
+  ],
+  "citations": []
+}

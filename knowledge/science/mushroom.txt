@@ -1,0 +1,105 @@
+Mushroom - science notes
+(Copied 2026-10-12 from the Science tab of the Procedural Horse Coats wiki page for this gene.
+Written for that project: it may mention how a game models the gene. Not yet audited.)
+
+Genetic identity
+----------------
+
+Gene | MFSD12 - major facilitator superfamily domain-containing 12
+Chromosome | Equine chromosome 7 (ECA7)
+Variant | MFSD12 c.600dupC; NC_009150.3:g.2544512dupC
+Protein | p.Asp201fs - a frameshift predicted to truncate the protein by 277 amino acids
+Inheritance | Autosomal recessive
+Notation | N usual allele, Mu mushroom
+
+The evidence behind the variant is unusually strong for a horse colour trait. Researchers mapped mushroom to a chromosome-7 region by genome-wide association, found a shared 3 Mb homozygous region in affected ponies, and identified c.600dupC as the only high-impact candidate in it. In a phenotype-confirmed set of 96 Shetlands, all 45 mushroom ponies were Mu/Mu and none of the 51 ordinary chestnuts were (P = 1.15 x 10-22). Tanaka et al., PMC6827053 (https://pmc.ncbi.nlm.nih.gov/articles/PMC6827053/)
+
+Strictly, the authors wrote that the variant was proposed causal rather than proving it by gene editing. Perfect genotype-phenotype concordance, a predicted severe protein disruption, and what MFSD12 is known to do in other mammals make it a highly credible causal mutation.
+
+Why it dilutes red and leaves black alone
+-----------------------------------------
+
+MFSD12 is a membrane transporter associated with melanosomes - the pigment-making organelles inside melanocytes - and with lysosomes. Later cell biology showed that MFSD12 is required for cysteine import into melanosomes, and cysteine is needed to form cysteinyldopas, which are precursors specific to pheomelanin synthesis. Nature s41586-020-2937-x (https://www.nature.com/articles/s41586-020-2937-x)
+
+MFSD12 activity -> cysteine enters the melanosome -> pheomelanin synthesis -> red and yellow coat pigment
+
+Break the transporter and the melanosomal chemistry that makes normal pheomelanin is limited, giving the muted sepia dilution. Eumelanin synthesis does not depend on that cysteine step, which is exactly why the effect is pigment-specific. Loss or altered function of MFSD12 influences pigmentation in humans, mice and dogs by the same route.
+
+The mod implements precisely this asymmetry
+MushroomGene multiplies red by KEEP_RED = 0.12 and adds nothing to the black channel except a tint carried sideways from the red it removed. There is no keepBlack term at all, because there should not be one: the biology says black is untouched, and this is one of the few genes in the mod where the painter and the molecular mechanism line up term for term.
+
+What it looks like, base by base
+--------------------------------
+
+base | appearance in Mu/Mu | evidence
+chestnut (e/e) | red becomes sepia, taupe, yellow-beige or greyish-brown; mane and tail often light or flaxen | well established
+bay | reduced reddish warmth in the body; black points stay dark. The authors proposed the term bay mushroom | supported, small sample
+black | little or no visible change - a black horse expresses mostly eumelanin | limited observation
+carrier N/Mu | no established visible dilution | well established
+
+On a chestnut base, mushroom can look deceptively like a cream dilution, a silver-associated tone, an ordinary flaxen chestnut or just a muted chestnut. Visual identification is unreliable, and UC Davis recommends evaluating it alongside MC1R, ASIP, cream, silver, dun and the other relevant variants.
+
+The original study found six bay Shetlands that were Mu/Mu: less red than a typical bay, black mane, tail and points retained, a more sepia body. One bay carrying mushroom and one cream allele appeared more diluted still, suggesting an additive-looking interaction on a bay background - informative, from few animals, and not a precise prediction rule.
+
+Inheritance
+-----------
+
+pairing | expected genotypes | mushroom phenotype
+N/N x N/N | 100% N/N | none
+N/N x N/Mu | 50% / 50% | none; 50% carriers
+N/Mu x N/Mu | 25 / 50 / 25 | 25% Mu/Mu - visible only if the base has pheomelanin to dilute
+Mu/Mu x N/N | 100% carriers | none visible
+Mu/Mu x N/Mu | 50% / 50% | 50% Mu/Mu
+Mu/Mu x Mu/Mu | 100% Mu/Mu | all
+
+Two ways to be invisible
+A Mu/Mu horse on a black base inherits and transmits mushroom exactly like any other homozygote while looking essentially black, and a carrier is visually ordinary. So the "25%" for a carrier pairing is a genotype probability, not the chance of a visibly mushroom foal - base-colour inheritance has to be accounted for too. That is a genuinely nice piece of hidden genetics, and the mod reproduces it for free: because mushroom is a phase-1 restriction on the red channel, a black horse carrying two copies simply has no red for it to take.
+
+Health
+------
+
+There is no evidence that mushroom causes systemic disease, reduced longevity, a metabolic issue, a skeletal defect or impaired athletic function. Laboratories treat it as a coat-colour test, not a disease-risk test.
+
+The one health question actually investigated is the eye, prompted by silver's link to multiple congenital ocular anomalies. A board-certified ophthalmologist evaluated 20 Shetlands - 9 mushroom and 11 not - while accounting for other colour genes, and found no association between mushroom homozygosity and the abnormalities observed (uveal hypopigmentation, persistent pupillary membranes, corpora nigra cysts). The ocular findings tracked tobiano and cream better in that small sample.
+
+Worded carefully: known, no mushroom-associated eye disorder was detected in that small controlled study; not known, whether very subtle or rare ocular effects exist in a much larger population; not justified, calling mushroom proven free of any health association, since the equine evidence is limited. There is also a biological caveat - MFSD12 has melanosomal and lysosomal roles in laboratory systems, and the horse phenotype comes from a specific allele in a specific background, so human and mouse disease outcomes should not be read across.
+
+Build, size, jumping, speed
+---------------------------
+
+No published evidence that the allele changes adult height or growth rate, body mass or muscling, bone structure, limb conformation, hoof quality or joint health, head and neck shape, topline, any breed-type trait, or fertility. And none that it changes maximum speed, acceleration, stride length, gait mechanics, aerobic capacity, exercise metabolism, neuromuscular power, proprioception, reaction time, balance, or jumping scope, technique, carefulness or soundness.
+
+The confound to avoid
+Mushroom occurs most notably in Shetland Ponies and at low frequency in Miniature Horses - breeds that are small because of their broader ancestry and many other selected loci, chiefly HMGA2. Attributing pony stature or compact build to MFSD12 would be a textbook confounding error, and the research was designed around pigmentation, not morphometrics. The gene's established functional connection is pigment-cell chemistry, not the muscle, tendon, cardiovascular, neurological or skeletal pathways that would plausibly change performance.
+
+Breeds and frequency
+--------------------
+
+In the key genotyping study the causal variant - not merely a nearby shared haplotype - was detected in only two populations among the breeds tested.
+
+population | n | Mu allele frequency
+Shetland Pony | 177 | 12%
+Miniature Horse | 129 | 2% - no homozygotes in the sample
+Icelandic Horse | 29 | not detected
+Belgian | 33 | not detected
+Rocky Mountain Horse | 59 | not detected
+Friesian | 32 | not detected
+Arabian | 35 | not detected
+Quarter Horse | 32 | not detected
+Thoroughbred | 31 | not detected
+
+Sample estimates, not censuses: zero in 29 Icelandics does not prove the allele cannot occur in the breed. The Miniature Horse connection is historically plausible because Shetlands were a foundation breed for Miniatures and the populations have been crossed.
+
+A worked example of why Hardy-Weinberg is a starting point
+A 12% allele frequency predicts Mu/Mu at 0.122 - about 1.44%, one or two ponies per hundred. The study's random Shetland sample actually held 10 homozygotes among 177, about 5.6% - nearly four times the idealised figure. Breed subpopulations, deliberate breeding for colour, relatedness and non-random mating all violate the assumptions. It is the clearest illustration on this wiki of why the mod's founder tables being Hardy-Weinberg draws produces a tidier population than a real breed register does.
+
+The mod uses one mushroom allele in 34, or 2.9% - between the Shetland 12% and the several breeds where it was not found at all, which is the right place for a world-wide founder number to sit.
+
+What is settled, and what is not
+--------------------------------
+
+Well supported. Mushroom is caused, or at minimum extremely strongly explained, by the recessive MFSD12 c.600dupC frameshift on ECA7; the phenotype is a dilution of pheomelanin, most visible in chestnuts as a sepia or taupe coat often with a light mane and tail; carriers show nothing; bay homozygotes show a less-red sepia body with black points retained, and black horses show little; no mushroom-specific ocular association was found in the 20-pony study; and the allele is established in Shetlands and low-frequency in Miniatures.
+
+Plausible but unresolved. The exact magnitude and consistency of expression on bay, cream, dun and other combinations; the phenotype of a horse homozygous for both mushroom and cream, which the study had no example of; how much lighting, season, age, clipping and other colour genes change how a mushroom horse is perceived; whether rare or subtle eye findings emerge in larger studies; and whether other MFSD12 variants create mushroom-like phenotypes outside c.600dupC.
+
+Claims to avoid. That mushroom makes horses small or pony-built; that it improves or harms jumping; that it makes a horse slower, faster, calmer or more trainable; that it is a known health defect; or that every dull chestnut, flaxen chestnut, palomino or silver-looking pony is mushroom.

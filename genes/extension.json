@@ -1,0 +1,40 @@
+{
+  "format": 1,
+  "id": "extension",
+  "species": "horse",
+  "name": "Extension",
+  "symbol": "MC1R",
+  "evidence": "published",
+  "summary": "Whether the horse can make black pigment at all. E lets black through; e/e removes it entirely, leaving only red - a chestnut - on which every gene that merely moves black pigment is invisible.",
+  "inheritance": "autosomal",
+  "affects_coat": true,
+  "alleles": [
+    { "id": "E", "name": "Extension (E)", "wild_type": true },
+    { "id": "e", "name": "Non-extension / red (e)", "wild_type": false }
+  ],
+  "phenotypes": [
+    { "id": "wild", "name": "Wild type", "description": "Black pigment is produced normally. Whether it is visible is agouti's business.", "changes_coat": false },
+    { "id": "chestnut", "name": "Chestnut", "description": "No black pigment anywhere - the horse is red, from liver to flaxen chestnut, and every gene that only moves black pigment is invisible on it.", "changes_coat": true }
+  ],
+  "genotypes": [
+    { "alleles": ["e", "e"], "phenotype": "chestnut" },
+    { "alleles": ["E", "e"], "phenotype": "wild" },
+    { "alleles": ["E", "E"], "phenotype": "wild" }
+  ],
+  "frequencies": [
+    {
+      "population": "general population",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["E", "E"], "percent": 25 },
+        { "alleles": ["E", "e"], "percent": 50 },
+        { "alleles": ["e", "e"], "percent": 25 }
+      ]
+    }
+  ],
+  "citations": [
+    { "source": "ucdavis-vgl", "label": "UC Davis VGL", "url": "https://vgl.ucdavis.edu/resources/horse-coat-color" },
+    { "source": "pubmed", "label": "PMC9498372", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9498372/" },
+    { "source": "pubmed", "label": "PMC7349280", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7349280/" }
+  ]
+}

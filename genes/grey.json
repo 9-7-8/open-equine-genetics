@@ -1,0 +1,50 @@
+{
+  "format": 1,
+  "id": "grey",
+  "species": "horse",
+  "name": "Grey",
+  "symbol": "STX17",
+  "evidence": "published",
+  "summary": "Progressive dapple grey, adults only - it lightens the coat toward neutral without shifting hue. How far along the greying is, the dapple size and how long the mane, tail and legs hold colour all vary per horse and are fixed for life (there is no aging). A foal is born its base colour.",
+  "inheritance": "autosomal",
+  "affects_coat": true,
+  "alleles": [
+    { "id": "G3", "name": "Grey, triplication (G3)", "wild_type": false },
+    { "id": "G2", "name": "Grey, duplication (G2)", "wild_type": false },
+    { "id": "N", "name": "Wild-type (N)", "wild_type": true }
+  ],
+  "phenotypes": [
+    { "id": "wild", "name": "Wild type", "description": "The coat keeps its colour for life.", "changes_coat": false },
+    { "id": "grey-slow", "name": "Slow grey (N/G2)", "description": "One duplication, and the slowest greying there is: this horse spends its life as a dark steel or mid dapple grey with its base colour still legible under the white hairs. A foal is born its base colour and greys on reaching adulthood; the head goes first, the legs and the long hair last.", "changes_coat": true },
+    { "id": "grey", "name": "Grey (N/G3, G2/G2)", "description": "The ordinary grey - a dappled mid grey with the head already pale, the legs and the long hair holding their colour longest. A foal is born its base colour and greys on reaching adulthood; the head goes first, the legs and the long hair last.", "changes_coat": true },
+    { "id": "grey-fast", "name": "Fast grey (G2/G3)", "description": "Three copies between the two alleles. A light grey: dapples fading out, base colour left mostly on the legs and around the flank. A foal is born its base colour and greys on reaching adulthood; the head goes first, the legs and the long hair last.", "changes_coat": true },
+    { "id": "grey-rapid", "name": "Rapid grey (G3/G3)", "description": "Two triplications, the fastest greying and the highest melanoma risk. Very nearly white - the dark skin and dark eyes are what still say grey rather than white. A foal is born its base colour and greys on reaching adulthood; the head goes first, the legs and the long hair last.", "changes_coat": true }
+  ],
+  "genotypes": [
+    { "alleles": ["N", "N"], "phenotype": "wild" },
+    { "alleles": ["G2", "N"], "phenotype": "grey-slow", "conditions": ["melanoma-risk-2"] },
+    { "alleles": ["G2", "G2"], "phenotype": "grey", "conditions": ["melanoma-risk-2"] },
+    { "alleles": ["G3", "N"], "phenotype": "grey", "conditions": ["melanoma-risk-2"] },
+    { "alleles": ["G3", "G2"], "phenotype": "grey-fast", "conditions": ["melanoma-risk-3"] },
+    { "alleles": ["G3", "G3"], "phenotype": "grey-rapid", "conditions": ["melanoma-risk-3"] }
+  ],
+  "conditions": [
+    { "id": "melanoma-risk-2", "name": "Melanoma risk (high)", "description": "Carries three or four grey copies, or a grey allele on a black-based coat. High lifetime risk of dermal melanoma. No effect on this horse's body.", "severity": "informational" },
+    { "id": "melanoma-risk-3", "name": "Melanoma risk (highest)", "description": "Three or four grey copies on a black-based coat - the highest-risk combination there is. No effect on this horse's body.", "severity": "informational" }
+  ],
+  "frequencies": [
+    {
+      "population": "general population",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["G3", "G3"], "percent": 0.3086 },
+        { "alleles": ["G3", "G2"], "percent": 0.1587 },
+        { "alleles": ["G3", "N"], "percent": 10.3351 },
+        { "alleles": ["G2", "G2"], "percent": 0.0204 },
+        { "alleles": ["G2", "N"], "percent": 2.6576 },
+        { "alleles": ["N", "N"], "percent": 86.5195 }
+      ]
+    }
+  ],
+  "citations": []
+}

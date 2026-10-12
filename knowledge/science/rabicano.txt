@@ -1,0 +1,97 @@
+Rabicano - science notes
+(Copied 2026-10-12 from the Science tab of the Procedural Horse Coats wiki page for this gene.
+Written for that project: it may mention how a game models the gene. Not yet audited.)
+
+There is no rabicano gene - not yet
+Every other natural gene on this wiki names a real locus with a published variant behind it. Rabicano does not have one. As of September 2026 there is no causal DNA variant, no official locus symbol, no validated inheritance model and no commercial test. It is a variable white-ticking coat pattern, not a solved gene in the way cream, grey, tobiano or sabino-1 are. The Rb allele symbol on the coding tab is the mod's invention, and this page is where that is written down so nobody goes looking for the paper. CVM and megaesophagus are the other two loci in that position.
+
+What it does to the coat
+------------------------
+
+Rabicano affects visible pigment distribution: white hairs begin at the tailhead and flanks, may spread along the barrel and belly, and range from subtle tail frosting to an almost roan-like body. It does not alter the base colour - black, bay, chestnut - it overlays white hairs on it.
+
+The hallmark is white hair at the base of the tail, giving the dock a striped or frosted coon tail or skunk-tail look. Additional white typically appears in this order:
+
+- Tailhead and the adjacent upper tail.
+- Flanks - often the strongest body expression.
+- Belly, and behind the elbow.
+- Barrel and rib cage, sometimes in vertical concentrations called rib barring.
+- In high-expression horses, much of the torso can look roaned - unevenly, and still centred on the flank.
+
+A minimal rabicano may be little more than tailhead frosting. A strong one can be mistaken for a classic roan. The pattern is generally present from birth, though it becomes more conspicuous as the adult coat changes seasonally. AQHA (https://www.aqha.com/-/five-major-variations-in-horse-color)
+
+It does not inherently change black pigment to red or the reverse, dilute the base colour, produce the large sharply edged patches of tobiano or most overo patterns, cause grey's progressive age-related whitening, or necessarily create white face or leg markings. A chestnut rabicano is a chestnut, determined at MC1R, with white ticking added around the tailhead and flanks.
+
+The mod's four layers are this list
+Tail frosting with its coon-tail banding, the flank field, the belly climb and the rib bars are the four regions above, drawn in the order the phenotype describes them appearing. The order is not decorative: it is what makes a weakly expressed horse in the mod come out as tail-only rather than as a faint version of the whole pattern, which is how a real minimal rabicano presents.
+
+Why it gets confused with everything else
+-----------------------------------------
+
+"Roan" is used loosely in breed records and casual description, and rabicano and classic roan are distinct both phenotypically and genetically.
+
+pattern | distribution | tailhead | genetic status
+rabicano | flanks, belly, barrel; uneven, radiating from the flank | white frosting and banding is characteristic | causal variant unknown; ECA28 / KITLG is a research lead
+classic roan | fine white hairs mixed broadly through the body; head and lower legs stay darker | mane and tail generally stay solid | associated with the KIT region on ECA3; causal variant unsettled
+grey | progressive pigment loss with age | lightens as the whole horse greys | a known STX17 duplication
+sabino-like spotting | face, legs, belly; jagged white borders, possible roaning | not defined by tailhead frosting | several mechanisms, including KIT variants such as SB1
+varnish roan / appaloosa | colour loss emphasises bony areas; mottled skin and sclera | variable | LP / TRPM1 plus pattern modifiers
+
+Classic roan has long been associated with KIT on chromosome 3 while rabicano's strongest lead is a separate region on chromosome 28. That alone is reason not to treat a rabicano horse as a "mild roan" - and it is why the mod puts the two on separate loci with rabicano painting after roan rather than modelling one as a weak setting of the other.
+
+Inheritance: familial, probably dominant, not settled
+-----------------------------------------------------
+
+The phenotype is reported in families and is often described as behaving dominantly - a visibly affected parent can produce affected offspring - but this is not a settled Mendelian conclusion. The uncertainty has clear causes: expression ranges from barely detectable frosting to extensive ticking; mild cases get missed or recorded inconsistently; similar-looking patterns have different biological causes; more than one variant, or one variant plus modifiers, may produce what people label rabicano; and breed background may change expression or obscure a shared signal.
+
+The accurate statement is: rabicano appears familial and may be dominantly inherited in some lineages, but its inheritance pattern has not been conclusively established across horses or breeds. It would be premature to call it recessive, to assign a genotype, or to quote reliable 50% foaling odds from an affected parent.
+
+The mod's split is the best available reading of that
+RabicanoGene makes the allele dominant and inherited like one, while what it shows is a per-horse roll that can come out at nothing - so a visibly plain horse can carry a copy and throw a strongly ticked foal. That is not a compromise between two models; it is the only structure that reproduces both halves of what the literature reports, namely apparent dominance in pedigrees and expression ranging down to invisible. If the causal variant is ever found and turns out to be a regulatory change of the kind suspected, this is roughly the behaviour it would be expected to have.
+
+The best current lead: ECA28, near KITLG
+----------------------------------------
+
+A University of California project investigated rabicano with short- and long-read sequence data across 61 rabicano cases and 36 controls, initially reviewing variants in 659 pigmentation-related genes. A CEP290 coding variant was the most concordant of the initial coding candidates - and it did not perfectly track with rabicano and is not considered causal. eScholarship 95w0q51r (https://escholarship.org/uc/item/95w0q51r)
+
+The stronger signal was a roughly 1.7 Mb haplotype on ECA28 around KITLG, which encodes KIT ligand. The top associated SNP was NC_009171.3:g.15967332G>A, also listed as ECA28:rs397240012, at p = 7.36 x 10-9. It lies in a skin enhancer-associated chromatin region about 160 kb from the KITLG transcription start site. That makes a pigment-regulatory effect biologically plausible; it does not identify the causal change.
+
+KITLG is plausible because the KITLG-KIT-MITF pathway is central to melanocyte biology: melanoblasts arise from the neural crest, migrate to skin and hair follicles, and KIT ligand binds the KIT receptor on them to support their survival, proliferation, migration and pigment production. Disrupt or locally reduce that signalling and an area is left with fewer pigment-producing cells, so its hair grows white. Many known equine white-pattern loci sit in or beside that network - KIT, MITF, PAX3 - so a regulatory variant subtly changing KITLG expression in skin could, in principle, give localised ticking rather than broad uniform depigmentation. A mechanistic hypothesis, not proof.
+
+Treat as unproven
+That rabicano is one single dominant allele in every breed. That it is recessive. That it is caused by CEP290. That it is definitively a KITLG mutation. That a marker near KITLG is a diagnostic test. That all flank ticking and coon-tail frosting is the same genetic condition. Or that rabicano is linked to speed, jumping, height, build or disease. The dissertation concludes explicitly that further work is needed to refine the ECA28 haplotype across breeds and find the causal variant - and the imperfect concordance is exactly what you would expect if the marker is merely linked to a causal variant, if several variants produce similar patterns, or if the phenotype classification is noisy.
+
+Build, size, health, performance
+--------------------------------
+
+Conformation and size. No evidence that rabicano changes withers height, bone size, limb proportion, muscle mass, neck or croup shape, mature weight, growth rate, skeletal development or breed type. It is a pigmentation phenotype whose visible effect is in the hair coat. Where a group of rabicano horses shares a build, breed, ancestry, selection programme and management explain it far better than the pattern does.
+
+Health. No condition has been established as caused by rabicano, and no evidence raises risk for deafness, eye abnormality or blindness, lethal white syndrome, colic or gastrointestinal malformation, infertility, immune dysfunction, skin disease, laminitis, tendon injury or arthritis.
+
+That is worth stating carefully, because not all white-pattern genes are equally benign: some MITF and PAX3 splashed-white variants associate with deafness, homozygous frame overo causes lethal white syndrome, and some white-spotting alleles carry concerns in particular combinations. Rabicano has not been shown to share those risks - and because its causal mutation is unknown, "no known health effect" is more precise than "proven biologically inert". The one practical caveat is indirect: a rabicano horse that also carries a lot of pink unpigmented skin from another pattern needs ordinary sun management for those areas, attributable to that other pattern rather than to the ticking.
+
+Speed and jumping. No peer-reviewed evidence that rabicano affects maximum speed, acceleration, aerobic capacity or stamina, muscle-fibre composition, racing performance, stride length, scope over fences, coordination, bravery, trainability or technique. Coat-colour genes are poor proxies for athletic genes. A rabicano Thoroughbred is fast because of its pedigree, training, soundness and biomechanics, not because its tailhead carries white hairs. The only legitimate performance-related point is that rabicano occurs in performance breeds, so successful rabicanos exist in racing, Western, endurance and sport populations - which demonstrates compatibility, not advantage.
+
+Breeds and frequency
+--------------------
+
+Observed across a broad range of breeds and types, including the American Quarter Horse; the Arabian, where it has historically sometimes been recorded as "roan" despite differing from classic roan; the Thoroughbred; Warmblood populations; the Brazilian Mangalarga; and the South American Criollo. It is reported more broadly in horses with Spanish, Iberian, Western, racing, gaited and stock-horse influence, with documentation strength varying by breed.
+
+The point that matters: rabicano is not confined to one lineage, and its presence does not require that the breed carry classic roan. Rabicano-patterned Arabians are the clearest example - a breed in which classic roan does not occur.
+
+Frequency: genuinely unknown, and the mod's number is a guess
+There are no robust breed-wide frequency data, because the causal mutation has not been identified, there is no validated test, registry labels are inconsistent (roan, ticking, rabicano, or nothing at all), mild expression is easy to overlook after clipping or seasonal change or sun fading or greying, and visual surveys cannot distinguish true rabicano from phenocopies. No defensible percentage exists for Quarter Horses, Arabians, Thoroughbreds, Mangalargas, Criollos or Warmbloods. "Uncommon to variably encountered, often lineage-associated, probably under-recorded at the minimal end" is as far as the evidence goes.
+
+The mod uses CARRIER_PERCENT = 6.0 and HOMOZYGOTE_PERCENT = 0.2. Those have no published counterpart to be checked against - not "they disagree with the literature" but "the literature has no number". They are set for the game, and this is the one locus where that is the only option available.
+
+How a breeder is actually told to handle it
+-------------------------------------------
+
+- Treat rabicano as a phenotypic observation, not a solved genotype.
+- Record the coat carefully - tailhead, flanks, belly, elbow, rib barring, face and leg markings, skin colour, eye colour, and photographs in a natural unclipped coat.
+- DNA-test the known white-pattern loci when the phenotype is ambiguous: KIT variants, tobiano, sabino 1, splashed white, frame overo, grey and leopard complex as appropriate to the breed.
+- Do not use the ECA28 / KITLG research marker as a stand-alone breeding test unless it has been validated in that breed and laboratory.
+- Do not infer health risk, homozygous lethality or athletic ability from the appearance.
+- If two parents or several relatives show the pattern, document the offspring carefully - pedigree-quality phenotype data is exactly what a future mapping study needs.
+
+In short: a real, recognisable coat pattern with a biologically plausible and increasingly focused lead near KITLG on ECA28, and still genetically unresolved. Its known effect is white ticking in a characteristic distribution; effects on body type, size, health, jumping and speed remain unsupported speculation.

@@ -1,0 +1,11 @@
+Megaesophagus - science notes
+(Copied 2026-10-12 from the Science tab of the Procedural Horse Coats wiki page for this gene.
+Written for that project: it may mention how a game models the gene. Not yet audited.)
+
+No confirmed causal variant
+---------------------------
+
+Like CVM, this is a breed condition that is clearly heritable and has no agreed single gene behind it, so it is keyed on the condition rather than on a gene symbol and the simplification to one recessive locus is the mod's own. See that page for the reasoning, which is the same reasoning.
+
+No founder is ever affected
+The founder table lists only the clear horse and the carrier. A wild-caught horse is an adult that survived, so it can carry this and never have it, and the homozygote's weight is simply absent from the table. The only way to produce an affected foal is to breed two carriers - which is the whole design: it is what makes a pedigree worth keeping, and what turns the carrier wording in the info panel from decoration into the difference between a breeding programme and a lottery.

@@ -1,0 +1,85 @@
+THE GENE FILE FORMAT (format 1)
+===============================
+One file per locus: genes/<id>.json. UTF-8 JSON, nothing else. Any language with a JSON
+parser can read it. No field depends on a game, an engine or a programming language.
+
+This format was laid out by the exporting session on 2026-10-12 and has not been reviewed
+by the owner. Change it if it is wrong, bump "format", and say so in the session log.
+
+FIELDS
+------
+format        integer. 1.
+id            the locus id, lower case with underscores. The file name without .json.
+species       "horse".
+name          a readable name.
+symbol        the gene symbol (MC1R, KIT) or null. null for every abstraction.
+evidence      "published" or "abstracted". See EVIDENCE below.
+summary       one to three sentences on what the locus does.
+inheritance   "autosomal", "x_linked" or "y_linked".
+affects_coat  true if any genotype changes coat colour or pattern.
+
+alleles       list, IN A FIXED ORDER that must never be changed (append only).
+  id            the allele's short token, unique within the locus ("E", "e", "W20").
+  name          a readable name.
+  wild_type     true for the one allele that is the population's ordinary copy.
+  placeholder   present only on the stand-in "Y" of an x_linked locus: the missing second
+                copy in a male.
+
+phenotypes    list of the outcomes this locus can produce.
+  id, name, description
+  changes_coat  false means this outcome paints nothing on the coat. It does NOT mean
+                "healthy" or "normal": every outcome of a non-coat locus is false.
+
+genotypes     list covering EVERY pair of alleles that can exist, each exactly once.
+  alleles       two allele ids. Order within the pair carries no meaning.
+  phenotype     a phenotype id.
+  conditions    optional list of condition ids this genotype causes.
+
+nonviable_genotypes   optional. Pairs that cannot exist in a living horse (an embryo with
+                      this pair does not develop). They are absent from "genotypes".
+                      A row may carry "phenotype": what the pair would have been.
+
+conditions    optional list of health conditions.
+  id, name, description
+  severity      "informational", "impairing", "lethal_at_birth", "lethal_at_conception".
+
+interactions  optional. Present when the outcome depends on other loci.
+  depends_on    list of locus ids.
+  table         every combination: "alleles" at this locus, "with" the pairs at the other
+                loci, and the resulting "phenotype". Where present it overrides
+                "genotypes", which then shows the outcome with the other loci at wild type.
+
+frequencies   list of genotype frequency tables.
+  population    who the table describes ("general population", "mares").
+  evidence      "published" or "estimated".
+  genotypes     alleles + percent. Percents in a table sum to 100. A pair not listed is 0.
+
+citations     list.
+  source        "ucdavis-vgl", "omia", "pubmed", "paper" or "other".
+  label         short text.
+  url
+
+EVIDENCE
+--------
+published    A cited source says so. On a locus: the locus is real and identified.
+estimated    A number of ours for something real. Used on frequencies. EVERY frequency in
+             the first export is estimated: they were tuned for a game.
+abstracted   A stand-in of ours for something real that is polygenic or not understood.
+             The alleles are invented. Never present an abstracted locus as a real gene.
+
+RULES A CHANGE MUST KEEP  (tools/validate.mjs checks 2 to 5)
+------------------------------------------------------------
+1. Never reorder, rename or remove an allele. Append new ones at the end of the list.
+   Consumers store horses by allele id, and one of them aligns stored data by order.
+2. Never rename a locus id without updating mod-map.json in the same change.
+3. "genotypes" plus "nonviable_genotypes" must cover every unordered pair of alleles
+   exactly once (for an x_linked locus: every pair a mare or a stallion can have).
+4. Every phenotype and condition id used must be declared; every declared one used.
+5. Evidence is never left out and never defaulted.
+6. A "published" claim needs a citation in the same change.
+
+mod-map.json
+------------
+Not part of the science. One row per locus: "locus" (the id here), "mod_key" (the key the
+mod saves), "mod_allele_order" (the order the mod requires), and "mod_only_alleles" (alleles
+the mod has that this data deliberately leaves out).

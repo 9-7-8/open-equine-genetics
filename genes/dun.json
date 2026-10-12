@@ -1,0 +1,47 @@
+{
+  "format": 1,
+  "id": "dun",
+  "species": "horse",
+  "name": "Dun",
+  "symbol": "TBX3",
+  "evidence": "published",
+  "summary": "Real-horse TBX3, three alleles with two dominance orders. D lightens the body coat while leaving the points dark - tan on a bay, blue-grey grullo on a black, pale red on a chestnut - and adds primitive markings: a dorsal stripe into the tail, and, on some horses, leg bars, a shoulder bar and a face mask. d1 adds the dorsal stripe with no dilution at all; d2 does neither. So a horse can carry primitive markings without being a dun.",
+  "inheritance": "autosomal",
+  "affects_coat": true,
+  "alleles": [
+    { "id": "D", "name": "Dun (D)", "wild_type": false },
+    { "id": "d1", "name": "Non-dun, marked (d1)", "wild_type": false },
+    { "id": "d2", "name": "Non-dun, unmarked (d2)", "wild_type": true }
+  ],
+  "phenotypes": [
+    { "id": "wild", "name": "Wild type", "description": "No dilution and no primitive markings.", "changes_coat": false },
+    { "id": "primitive-marks", "name": "Primitive markings", "description": "No real dilution - the horse is its base colour - but a dorsal stripe still runs from poll to tail, a shade darker than the body around it, and faint leg bars and a shoulder shadow may come with it on any base pale enough to show them. One d1 copy is enough; it is how a plain bay or chestnut ends up with primitive markings and no dun.", "changes_coat": true },
+    { "id": "dun", "name": "Dun", "description": "Black pigment thins while red is left alone, so a bay turns tan, a black turns blue-grey grullo, and a chestnut - which has no black to lose - stays very nearly chestnut. The points, a dorsal stripe from poll to tail, and whichever primitive markings this horse drew skip the dilution and stay dark.", "changes_coat": true }
+  ],
+  "genotypes": [
+    { "alleles": ["d2", "d2"], "phenotype": "wild" },
+    { "alleles": ["d1", "d2"], "phenotype": "primitive-marks" },
+    { "alleles": ["d1", "d1"], "phenotype": "primitive-marks" },
+    { "alleles": ["D", "d2"], "phenotype": "dun" },
+    { "alleles": ["D", "d1"], "phenotype": "dun" },
+    { "alleles": ["D", "D"], "phenotype": "dun" }
+  ],
+  "frequencies": [
+    {
+      "population": "general population",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["D", "D"], "percent": 0.1736 },
+        { "alleles": ["D", "d1"], "percent": 0.8333 },
+        { "alleles": ["D", "d2"], "percent": 7.1528 },
+        { "alleles": ["d1", "d1"], "percent": 1 },
+        { "alleles": ["d1", "d2"], "percent": 17.1667 },
+        { "alleles": ["d2", "d2"], "percent": 73.6736 }
+      ]
+    }
+  ],
+  "citations": [
+    { "source": "pubmed", "label": "Imsland et al., PMC4731265", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4731265/" },
+    { "source": "pubmed", "label": "PMC8796118", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8796118/" }
+  ]
+}

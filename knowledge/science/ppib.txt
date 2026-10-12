@@ -1,0 +1,122 @@
+PPIB (HERDA) - science notes
+(Copied 2026-10-12 from the Science tab of the Procedural Horse Coats wiki page for this gene.
+Written for that project: it may mention how a game models the gene. Not yet audited.)
+
+At a glance
+-----------
+
+Gene | PPIB, peptidyl-prolyl isomerase B
+Protein | Cyclophilin B, an endoplasmic-reticulum protein involved in collagen folding and maturation
+Chromosome | Equine chromosome 1 (ECA1)
+Variant | PPIB:c.115G>A in exon 1
+Protein | p.Gly39Arg (p.G39R) - missense
+Disease | Hereditary equine regional dermal asthenia (HERDA), also hyperelastosis cutis
+Inheritance | Autosomal recessive
+Coat | No primary effect. Healed lesions can regrow white hair or scar
+Main welfare cost | Severe saddle-area skin injury and lost rideability
+
+The gene, and the fold it fails to make
+---------------------------------------
+
+PPIB encodes cyclophilin B, which lives mainly in the endoplasmic reticulum - the compartment where secreted proteins, collagen among them, are built and folded. It is a peptidyl-prolyl isomerase: its job is to help a protein rotate around proline-containing bonds into the right three-dimensional shape. Collagen needs that badly, being large, repetitive and tightly organised, and having to assemble correctly before it is secreted into working tissue.
+
+The variant swaps a small, highly conserved glycine at residue 39 for a much larger, charged arginine. The protein is still made; it is expected to work wrongly, and to take collagen handling and fibril organisation with it. Tryon et al., PMID 17498917 (https://pubmed.ncbi.nlm.nih.gov/17498917/)
+
+The mapping study localised HERDA to a roughly 2.5 Mb homozygous-by-descent region on ECA1, found c.115G>A homozygous in 64 affected horses, and saw it segregate consistently in affected pedigrees. The shared homozygous block points to a fairly recent historical origin that then spread through related Quarter Horse lines.
+
+Why it is the skin, and why it is the saddle
+--------------------------------------------
+
+HERDA is a collagen architecture disease. It is not thin skin, not an allergy, not an infection, and not bad saddle fit. With defective collagen the skin's layers do not stay anchored and organised under mechanical stress, so the outer layer separates from the deeper planes exactly where pressure, shear, heat, sunlight, sweat, rubbing and tack are applied. Mechanical stress plus structurally weak collagen gives separation, fluid pockets, tearing, ulcers and scarring.
+
+The name is literal - hereditary, equine, regional, dermal, asthenia (weakness) - and the region is the dorsal surface: the back under a saddle, and sometimes the neck. UC Davis CEH (https://ceh.vetmed.ucdavis.edu/health-topics/hereditary-equine-regional-dermal-asthenia-herda)
+
+The course, which is the interesting difference
+-----------------------------------------------
+
+HERDA is present from conception and structurally present at birth, and yet most affected foals look outwardly normal, because they have not yet met the repetitive friction that exposes the weakness. That is the sharp contrast with PLOD1 fragile foal syndrome: WFFS is usually catastrophic at birth and non-viable, while HERDA is commonly not recognised until the horse is started under tack at around 1.5-2 years old.
+
+Early signs are unusually loose or hyperextensible skin, seromas, haematomas, damage after grooming or blanketing or minor trauma, slow healing, and skin that lifts too easily. Established disease brings large lesions along the back, withers, saddle area and sides of the neck; separation of skin layers; tears, ulcers and exposed tissue; extensive scarring; hair regrowing white over scars; and lesions that recur after friction, pressure or sun. Lower-leg lesions occur occasionally.
+
+Severity varies a great deal between horses with the same genotype - probably management, cumulative trauma, UV exposure, where the friction falls, skin biomechanics and other modifiers - and no validated modifier panel predicts it.
+
+The mod has no age model, so it charges from birth
+The real disorder is a horse that is fine until you put a saddle on it, and then is progressively not. The mod applies a flat cost from birth, because it has neither an age model (gap 1) nor an episodic-condition mechanism (severity stays flat). Of everything on this page that is the largest divergence, and it is the one that most changes what the gene means: in a real breeding programme HERDA is a two-year-old's problem that the yearling sale did not disclose.
+
+Beyond the skin, where the evidence thins
+-----------------------------------------
+
+Collagen is not confined to skin, and there are findings past the dermis - with much weaker evidence behind them.
+
+Eyes. A small study of affected horses found increased corneal-ulcer incidence, thinner corneas, greater corneal curvature, larger corneal diameter and mild corneal opacity. Whether those changes consistently reduce vision, and how often they occur across the affected population, is unresolved. Recurrent eye pain or suspected ulceration in a known affected horse still warrants rapid assessment.
+
+Heart valves. A more recent study suggested affected horses may have weakened valves. UC Davis notes the clinical consequences are not yet established - a finding to watch, not a proof that affected horses have cardiac disease.
+
+Everything else. It is plausible that other connective tissues are altered, but the robust evidence is about skin integrity. Claims that HERDA gives every affected horse a predictable tendon disease, ligament laxity, bone weakness or joint-failure syndrome run past the evidence.
+
+Coat, build, speed, jumping
+---------------------------
+
+trait | affected herda/herda | carrier N/herda
+coat colour | no inherited effect; scars may regrow white | none
+skin | hyperextensible, fragile, prone to separation and ulceration | no known abnormality
+build | no established "HERDA body type" | no proven effect on proportion, muscling, bone or limb angle
+mature size | no known direct effect | none
+speed | pain and injury make training impractical or inhumane; no metabolic speed effect | no evidence either way
+jumping | friction, saddle pressure and wound risk make ridden work unsuitable | no evidence of altered scope or soundness
+riding | usually unsuitable, especially saddle-based work | normal, on this status alone
+
+The distinction to keep is between a direct genetic effect and a practical consequence. HERDA does not encode poor speed, poor jumping or a characteristic build. It encodes skin that ordinary tack injures - and the result is a horse that cannot be worked. The mod's -0.025 speed and -0.15 jump are that second thing wearing the clothes of the first, because a flat trait penalty is the only vocabulary the trait layer has for "sore enough that it will not work properly".
+
+Inheritance
+-----------
+
+mating | per conception
+N/N x N/N | 100% clear
+N/N x N/herda | 50% clear, 50% carrier; no affected foals
+N/herda x N/herda | 25% clear, 50% carrier, 25% affected
+N/herda x herda/herda | 50% carrier, 50% affected
+N/N x herda/herda | 100% carrier
+herda/herda x herda/herda | 100% affected
+
+Unusually among the disorders on this wiki, the bottom three rows are not hypothetical: an affected horse survives to breeding age. It is the same fact that makes this gene interesting in the mod - B4GALT7 aside, it is the disorder that leaves a live animal and a decision. Probabilities reset each pregnancy; two carriers can produce several clear foals and then an affected one.
+
+Breeds and prevalence
+---------------------
+
+Best established in the American Quarter Horse and in horses with substantial Quarter Horse ancestry - Paints and Appaloosas with Quarter Horse lineage, and crossbreds descending from affected families. It is most concentrated in cutting-horse lines, which is a population pattern and not a claim that cutting causes it: the allele was enriched by breeding history, line concentration and heavy use of a few related ancestors.
+
+population | reported frequency | context
+US control Quarter Horses, original mapping study | 3.5% carriers | a screening estimate, not every discipline or region
+French Quarter Horses | 1.6% carriers | spread beyond the US, still uncommon in that sample
+Brazilian American Quarter Horses | 5.8% carriers (allele 2.9%) | population-specific
+General Quarter Horse, diagnostic labs | 1.8-6.5% carriers | varies strongly with bloodline and sample source
+Cutting-horse subpopulations | reported higher | varies by survey and whether sampling was random or testing-driven
+
+Treat the "over 25% in cutting horses" figure carefully
+It circulates widely and is usually quoted without saying whether it means a selected high-risk pedigree group, one tested sample, carrier prevalence or something else. It should not be generalised to all cutting-bred Quarter Horses, let alone all Quarter Horses. The safe summary: uncommon but important in the general Quarter Horse population, and substantially more relevant in cutting pedigrees and Quarter Horse-derived Paint and Appaloosa lines than in unrelated breeds.
+
+The mod's WILD_CARRIER_PERCENT is 3.4 - which lands squarely inside the 1.8-6.5% band and next to the original study's 3.5%. It is the closest agreement between a mod carrier rate and its real counterpart on any of these pages, and it happens for a reason: HERDA's real concentration is in a set of heavily used working lines rather than one closed breed, so the world-wide founder number and the breed number are not as far apart as they are for the Arabian lethals.
+
+Pedigree history
+----------------
+
+The shared ~2.5 Mb homozygous region is consistent with identity by descent from one historical mutation. The concentration is often discussed in connection with influential cutting ancestors and the wider Poco Bueno-descended family network. Three cautions apply, and they generalise past this gene: a shared ancestor in pedigrees does not identify the horse the mutation arose in; the allele may well predate the famous sire it gets attributed to; and heavy modern use of closely related successful lines raises the chance of pairing two clinically normal carriers. A DNA test beats pedigree reasoning, because a carrier shows nothing and a low-risk-looking pedigree can hide one in an unrecognised branch.
+
+What else it might be
+---------------------
+
+A horse with skin lesions is not automatically a HERDA horse. Poorly fitted tack and repetitive pressure injury, rain rot and other infectious skin disease, ringworm, insect hypersensitivity, photosensitisation, pemphigus foliaceus and other immune-mediated disease, ordinary trauma, and other inherited or spontaneous Ehlers-Danlos-like disorders all produce wounds, crusting, ulcers, hair loss or poor healing.
+
+The reverse also holds: a negative c.115G>A result does not prove a horse has no connective-tissue condition. A Quarter Horse gelding with HERDA-like pathology and no detectable PPIB mutation has been reported, which is why authors recommend keeping classic familial HERDA distinct from the broader class of equine Ehlers-Danlos-like syndromes.
+
+What is settled, and what is not
+--------------------------------
+
+Well established. The c.115G>A p.Gly39Arg mutation causes HERDA; it lies on ECA1; inheritance is autosomal recessive; affected horses have defective collagen organisation and severe dorsal skin fragility; signs are usually first noticed as tack friction begins; the lesion set is separation, seromas, haematomas, ulceration, extensive scarring and abnormal hair regrowth; carriers are clinically normal; the disorder is concentrated in Quarter Horses and especially cutting lines; and DNA testing identifies affected horses before the phenotype appears.
+
+Plausible but not settled. Exactly how p.G39R changes cyclophilin B function and which collagen-processing steps suffer most; why severity varies so widely between horses of the same genotype; how common the corneal and heart-valve findings are across the affected population; whether affected horses have meaningful tendon, ligament, joint or vascular vulnerability past the skin; and the true carrier frequency in each national population and discipline.
+
+Not supported. That carrier status predicts poor speed, reduced jump, poor conformation, weak tendons or catastrophic breakdown; that carriers should be treated as sick or unusable; that affected horses have a predictable coat or white pattern; that a saddle sore, a scar or elastic skin alone confirms HERDA; or that a negative test rules out every Ehlers-Danlos-like disorder.
+
+There is no curative treatment. Management reduces trauma but cannot build a saddle-safe connective-tissue system, and affected horses are frequently euthanised because the disease is painful, progressive and limits welfare profoundly; some are kept as carefully managed pasture companions out of the friction and the sun. Genetic status is a reproductive-planning tool, not a performance score - the mating to avoid is carrier x carrier, and a carrier bred to a tested-clear mate keeps the line without producing an affected foal.

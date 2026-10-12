@@ -1,0 +1,37 @@
+{
+  "format": 1,
+  "id": "lcorl",
+  "species": "horse",
+  "name": "LCORL / NCAPG (height)",
+  "symbol": "LCORL",
+  "evidence": "published",
+  "summary": "LCORL / NCAPG, a height gene: each L copy makes the horse taller and adds a little speed and jump. Body scale changes the model and the hitbox together.",
+  "inheritance": "autosomal",
+  "affects_coat": false,
+  "alleles": [
+    { "id": "L", "name": "Tall (L)", "wild_type": false },
+    { "id": "n", "name": "Wild-type (n)", "wild_type": true }
+  ],
+  "phenotypes": [
+    { "id": "lcorl-tall", "name": "Tall", "description": "Two tall copies. A visibly larger horse, a longer stride and a higher jump.", "changes_coat": false },
+    { "id": "lcorl-mixed", "name": "Part tall", "description": "One tall copy. Half the height, half the stride - the alleles add.", "changes_coat": false },
+    { "id": "lcorl-plain", "name": "Wild type", "description": "No tall copy. Ordinary height.", "changes_coat": false }
+  ],
+  "genotypes": [
+    { "alleles": ["n", "n"], "phenotype": "lcorl-plain" },
+    { "alleles": ["L", "n"], "phenotype": "lcorl-mixed" },
+    { "alleles": ["L", "L"], "phenotype": "lcorl-tall" }
+  ],
+  "frequencies": [
+    {
+      "population": "general population",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["L", "L"], "percent": 9 },
+        { "alleles": ["L", "n"], "percent": 42 },
+        { "alleles": ["n", "n"], "percent": 49 }
+      ]
+    }
+  ],
+  "citations": []
+}

@@ -1,0 +1,39 @@
+{
+  "format": 1,
+  "id": "slc5a3",
+  "species": "horse",
+  "name": "SLC5A3",
+  "symbol": "SLC5A3",
+  "evidence": "published",
+  "summary": "SLC5A3 (FIS), foal immunodeficiency syndrome - a recessive lethal at birth. The foal is born looking perfectly healthy and fades as its dam's borrowed antibodies run out. Globally rare, but commonplace inside the Fell and Dales ponies, where roughly two horses in five carry a copy.",
+  "inheritance": "autosomal",
+  "affects_coat": false,
+  "alleles": [
+    { "id": "fis", "name": "Foal immunodeficiency (fis)", "wild_type": false },
+    { "id": "N", "name": "Wild-type (N)", "wild_type": true }
+  ],
+  "phenotypes": [
+    { "id": "wild", "name": "Wild type", "description": "Two working copies. Nothing is wrong and nothing is passed on.", "changes_coat": false },
+    { "id": "slc5a3-carrier", "name": "SLC5A3 carrier", "description": "One copy of fis. The horse is completely normal and there is no way to see it - but half its foals inherit the copy, and two carriers bred together are the only way foal immunodeficiency syndrome appears.", "changes_coat": false },
+    { "id": "foal-immunodeficiency-syndrome", "name": "Foal immunodeficiency syndrome", "description": "No working B cells and a failing marrow. The foal is born looking perfectly healthy and fades as its dam's borrowed antibodies run out - anaemia, then an infection it cannot answer. It does not survive.", "changes_coat": false }
+  ],
+  "genotypes": [
+    { "alleles": ["N", "N"], "phenotype": "wild" },
+    { "alleles": ["fis", "N"], "phenotype": "slc5a3-carrier" },
+    { "alleles": ["fis", "fis"], "phenotype": "foal-immunodeficiency-syndrome", "conditions": ["foal-immunodeficiency-syndrome"] }
+  ],
+  "conditions": [
+    { "id": "foal-immunodeficiency-syndrome", "name": "Foal immunodeficiency syndrome", "description": "No working B cells and a failing marrow. The foal is born looking perfectly healthy and fades as its dam's borrowed antibodies run out - anaemia, then an infection it cannot answer. It does not survive.", "severity": "lethal_at_birth" }
+  ],
+  "frequencies": [
+    {
+      "population": "general population",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["fis", "N"], "percent": 0.8 },
+        { "alleles": ["N", "N"], "percent": 99.2 }
+      ]
+    }
+  ],
+  "citations": []
+}

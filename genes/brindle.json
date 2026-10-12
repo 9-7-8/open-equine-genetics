@@ -1,0 +1,48 @@
+{
+  "format": 1,
+  "id": "brindle",
+  "species": "horse",
+  "name": "Brindle (MBTPS2)",
+  "symbol": "MBTPS2",
+  "evidence": "published",
+  "summary": "The one X-linked locus. Irregular white streaks running down from the topline over the barrel, quarters and neck, turning crosswise on the upper legs, and deliberately not matching from one side of the horse to the other - they are a record of which X chromosome each patch of skin silenced. It takes two copies, and a stallion's single X is one, so every brindle horse is a mare and every stallion who has it is a carrier who gives it to all his daughters.",
+  "inheritance": "x_linked",
+  "affects_coat": true,
+  "alleles": [
+    { "id": "Brn", "name": "Brindle (Brn)", "wild_type": false },
+    { "id": "n", "name": "Wild-type (n)", "wild_type": true },
+    { "id": "Y", "name": "No copy (Y chromosome)", "wild_type": false, "placeholder": "the missing second copy in the hemizygous sex" }
+  ],
+  "phenotypes": [
+    { "id": "wild", "name": "Wild type", "description": "No brindle striping.", "changes_coat": false },
+    { "id": "brindle-carrier", "name": "Brindle carrier", "description": "One brindle copy and nothing showing - a mare with it on one of her two X chromosomes, or any stallion who has it at all, since his single X is one copy and it takes two. He passes it to every daughter he ever gets.", "changes_coat": false },
+    { "id": "brindle", "name": "Brindle", "description": "Irregular white streaks, soft-edged and broken, running down from the topline over the barrel, quarters and neck and turning crosswise on the upper legs. They are white on any base colour, and they do not match from one side of the horse to the other. It takes two copies, so every brindle horse is a mare.", "changes_coat": true }
+  ],
+  "genotypes": [
+    { "alleles": ["n", "Y"], "phenotype": "wild" },
+    { "alleles": ["n", "n"], "phenotype": "wild" },
+    { "alleles": ["Brn", "Y"], "phenotype": "brindle-carrier" },
+    { "alleles": ["Brn", "n"], "phenotype": "brindle-carrier" },
+    { "alleles": ["Brn", "Brn"], "phenotype": "brindle" }
+  ],
+  "frequencies": [
+    {
+      "population": "stallions",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["Brn", "Y"], "percent": 10 },
+        { "alleles": ["n", "Y"], "percent": 90 }
+      ]
+    },
+    {
+      "population": "mares",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["Brn", "Brn"], "percent": 1 },
+        { "alleles": ["Brn", "n"], "percent": 18 },
+        { "alleles": ["n", "n"], "percent": 81 }
+      ]
+    }
+  ],
+  "citations": []
+}

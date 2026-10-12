@@ -1,0 +1,37 @@
+{
+  "format": 1,
+  "id": "natural_zebra",
+  "species": "horse",
+  "name": "Zebra striping",
+  "symbol": null,
+  "evidence": "abstracted",
+  "summary": "Real zebra striping, done the way a zebra does it: the dark bands are the horse's own colour and the gaps have the pigment taken out of them, so a striped black is black and white and a striped chestnut is red and white. Codominant - one copy gives faint shadow stripes, two take the gaps to white. Vertical bands off the spine, arcs round the hip, rings down the legs, a dark dorsal stripe and muzzle, and a pale belly.",
+  "inheritance": "autosomal",
+  "affects_coat": true,
+  "alleles": [
+    { "id": "Zeb", "name": "Zebra striping (Zeb)", "wild_type": false },
+    { "id": "n", "name": "Wild-type (n)", "wild_type": true }
+  ],
+  "phenotypes": [
+    { "id": "wild", "name": "Wild type", "description": "No striping.", "changes_coat": false },
+    { "id": "shadow-striped", "name": "Shadow-striped", "description": "One copy suppresses pigment part of the way, so the horse wears the full zebra map as faint bands a shade off its own colour rather than as white ones - a plains zebra's shadow stripes. Visible, and worth breeding from.", "changes_coat": true },
+    { "id": "zebra-striped", "name": "Zebra-striped", "description": "White stripes taken out of the horse's own colour: vertical bands off the spine, arcs round the hip, rings down the legs, narrow bands on the neck and face, a dark dorsal stripe and muzzle, and a pale belly. Black and white on a black horse, red and white on a chestnut, gold and white on a palomino.", "changes_coat": true }
+  ],
+  "genotypes": [
+    { "alleles": ["n", "n"], "phenotype": "wild" },
+    { "alleles": ["Zeb", "n"], "phenotype": "shadow-striped" },
+    { "alleles": ["Zeb", "Zeb"], "phenotype": "zebra-striped" }
+  ],
+  "frequencies": [
+    {
+      "population": "general population",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["Zeb", "Zeb"], "percent": 0.0278 },
+        { "alleles": ["Zeb", "n"], "percent": 3.2778 },
+        { "alleles": ["n", "n"], "percent": 96.6944 }
+      ]
+    }
+  ],
+  "citations": []
+}

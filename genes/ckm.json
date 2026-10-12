@@ -1,0 +1,44 @@
+{
+  "format": 1,
+  "id": "ckm",
+  "species": "horse",
+  "name": "CKM",
+  "symbol": "CKM",
+  "evidence": "published",
+  "summary": "CKM, the weakest and rarest of the three natural speed genes: each T copy adds a small amount of movement speed.",
+  "inheritance": "autosomal",
+  "affects_coat": false,
+  "alleles": [
+    { "id": "T", "name": "Racing (T)", "wild_type": false },
+    { "id": "C", "name": "Wild-type (C)", "wild_type": true }
+  ],
+  "phenotypes": [
+    { "id": "ckm-fast", "name": "CKM racing type", "description": "Two racing copies. The full contribution this locus makes to speed.", "changes_coat": false },
+    { "id": "ckm-mixed", "name": "CKM intermediate", "description": "One racing copy, half the contribution.", "changes_coat": false },
+    { "id": "ckm-plain", "name": "CKM wild type", "description": "No racing copy. No contribution to speed.", "changes_coat": false }
+  ],
+  "genotypes": [
+    { "alleles": ["C", "C"], "phenotype": "ckm-plain" },
+    { "alleles": ["T", "C"], "phenotype": "ckm-mixed" },
+    { "alleles": ["T", "T"], "phenotype": "ckm-fast" }
+  ],
+  "frequencies": [
+    {
+      "population": "general population",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["T", "T"], "percent": 4 },
+        { "alleles": ["T", "C"], "percent": 32 },
+        { "alleles": ["C", "C"], "percent": 64 }
+      ]
+    }
+  ],
+  "citations": [
+    { "source": "pubmed", "label": "NCBI Gene 100065641", "url": "https://www.ncbi.nlm.nih.gov/gene/100065641" },
+    { "source": "pubmed", "label": "PMC11177368", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11177368/" },
+    { "source": "pubmed", "label": "PMID 21059062", "url": "https://pubmed.ncbi.nlm.nih.gov/21059062/" },
+    { "source": "other", "label": "WO2010029527A1", "url": "https://patents.google.com/patent/WO2010029527A1/en" },
+    { "source": "paper", "label": "J Equine Vet Sci", "url": "https://www.sciencedirect.com/science/article/pii/S0737080615005699" },
+    { "source": "other", "label": "Front. Genet. 11:448", "url": "https://www.frontiersin.org/journals/genetics/articles/10.3389/fgene.2020.00448/full" }
+  ]
+}

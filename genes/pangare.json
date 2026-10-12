@@ -1,0 +1,46 @@
+{
+  "format": 1,
+  "id": "pangare",
+  "species": "horse",
+  "name": "Pangare (mealy)",
+  "symbol": null,
+  "evidence": "abstracted",
+  "summary": "Mealy: the pale muzzle, eye rings, belly, flanks and inner legs of an Exmoor pony or a Fjord. It takes red pigment off the soft parts of the horse, which is why it shows brightest on a chestnut, spares a bay's black points entirely, and is invisible on a black. A dosage of two variant alleles; near-fixed in some pony and draft breeds and no confirmed mutation anywhere.",
+  "inheritance": "autosomal",
+  "affects_coat": true,
+  "alleles": [
+    { "id": "Pa2", "name": "Pangare, strong (Pa2)", "wild_type": false },
+    { "id": "Pa1", "name": "Pangare, mild (Pa1)", "wild_type": false },
+    { "id": "pa", "name": "Wild-type (pa)", "wild_type": true }
+  ],
+  "phenotypes": [
+    { "id": "wild", "name": "Wild type", "description": "No mealy lightening - the underside is the same colour as the rest of the horse.", "changes_coat": false },
+    { "id": "trace-pangare", "name": "Trace pangare", "description": "A pale lower muzzle and faint rings round the eyes, and very little else. Easy to mistake for ordinary shade variation, which is why a pale muzzle on its own does not identify the trait.", "changes_coat": true },
+    { "id": "mild-pangare", "name": "Mild pangare", "description": "A pale muzzle and clear eye rings, a light underline, and soft pale patches behind the elbows.", "changes_coat": true },
+    { "id": "pangare", "name": "Pangare", "description": "The familiar mealy horse: pale muzzle and jaw, an obviously light belly, groin and flank, and visible lightening up the inside of the legs.", "changes_coat": true },
+    { "id": "strong-pangare", "name": "Strong pangare", "description": "Broad cream soft areas - the pale lower face reaching up the cheeks, a creamy underside climbing the barrel, and the insides of the legs pale most of the way up. The outer legs and any black points stay dark.", "changes_coat": true }
+  ],
+  "genotypes": [
+    { "alleles": ["pa", "pa"], "phenotype": "wild" },
+    { "alleles": ["Pa1", "pa"], "phenotype": "trace-pangare" },
+    { "alleles": ["Pa1", "Pa1"], "phenotype": "mild-pangare" },
+    { "alleles": ["Pa2", "pa"], "phenotype": "mild-pangare" },
+    { "alleles": ["Pa2", "Pa1"], "phenotype": "pangare" },
+    { "alleles": ["Pa2", "Pa2"], "phenotype": "strong-pangare" }
+  ],
+  "frequencies": [
+    {
+      "population": "general population",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["Pa2", "Pa2"], "percent": 1 },
+        { "alleles": ["Pa2", "Pa1"], "percent": 5.2 },
+        { "alleles": ["Pa2", "pa"], "percent": 12.8 },
+        { "alleles": ["Pa1", "Pa1"], "percent": 6.76 },
+        { "alleles": ["Pa1", "pa"], "percent": 33.28 },
+        { "alleles": ["pa", "pa"], "percent": 40.96 }
+      ]
+    }
+  ],
+  "citations": []
+}

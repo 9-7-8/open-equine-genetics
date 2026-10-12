@@ -1,0 +1,178 @@
+MATP (cream / pearl) - science notes
+(Copied 2026-10-12 from the Science tab of the Procedural Horse Coats wiki page for this gene.
+Written for that project: it may mention how a game models the gene. Not yet audited.)
+
+One gene, four dilution alleles
+-------------------------------
+
+MATP - now usually called SLC45A2 - is a pigmentation gene and nothing else. The locus is multiallelic: a horse has two copies, and each may be normal N, Cream, Pearl, Sunshine, Snowdrop, or something not yet found. Cream and Pearl are not separate genes, and neither are the two newer ones.
+
+Gene | SLC45A2, older name MATP; also historically discussed under "underwhite" / OCA4 nomenclature
+Chromosome | ECA21
+Cream | c.457G>A, p.Asp153Asn (D153N), exon 2 - incompletely dominant, dosage-dependent
+Pearl | c.985G>A, p.Ala329Thr (A329T), exon 4 - recessive, with an important interaction with Cream
+Sunshine | c.568G>A, p.Gly190Arg - missense, reported 2019, recessive
+Snowdrop | c.305G>A, p.Arg102Gln - missense, reported 2020, recessive
+Disease status | None established for any of the four
+
+So "palomino", "buckskin", "cremello", "perlino" and "pearl" are phenotype labels arising from combinations of this locus with a base colour - not names of single genes. Which is exactly the structure the mod implements: five alleles at one locus, and outcomes read off the pair.
+
+Cream, which is the one with a dosage effect
+--------------------------------------------
+
+genotype | chestnut base | bay base | black base
+N/N | chestnut | bay | black
+N/Cr | palomino | buckskin | smoky black, often subtle
+Cr/Cr | cremello | perlino | smoky cream
+
+One Cr most visibly dilutes pheomelanin. A buckskin keeps dark mane, tail, legs and ear edges because those are eumelanin - and the reason is not that cream "fails" on black pigment, but that at one dose its visual effect on eumelanin is much less obvious than on red. Smoky black can be so subtle that it passes for an ordinary dark, sun-faded or seal-brown horse without a test.
+
+Two copies dilute both pigments far more. Double-cream horses characteristically have pale pink or rosy skin and pale blue eyes, and are frequently miscalled "white" - they are dilute-coloured horses, not genetically white-patterned ones. Their pale hair is hair with reduced pigment, not an absence of pigment cells the way most white spotting works. Perlino often keeps a warmer, peachier cast in mane, tail and lower legs; smoky cream can read warmer or darker than a typical cremello from residual pigment. UC Davis, cream (https://vgl.ucdavis.edu/test/cream)
+
+Pearl, and the compound heterozygote that fools everyone
+--------------------------------------------------------
+
+Pearl is autosomal recessive: N/prl is an outwardly non-pearl carrier, prl/prl shows the dilution, and Cr/prl shows a strong dilution because the horse has no normal allele at the locus at all. It is also called apricot, and historically the Barlink Factor in Quarter Horse colour discussions.
+
+Homozygous pearl gives a diluted body, mane and tail with pale skin; on chestnut, a relatively uniform pale apricot. On bay and black backgrounds the outcome varies more, because base colour and unidentified modifiers change how much residual dark pigment shows.
+
+Cr/prl is the famous one: very pale coat, pale or pinkish skin, blue or blue-green eyes - a pseudo-double-dilute that may be impossible to distinguish from cremello, perlino or smoky cream without DNA testing, despite carrying only one cream allele. UC Davis, pearl (https://vgl.ucdavis.edu/test/pearl)
+
+The mod gets this row exactly right, and gives it its own eye
+Cr/prl resolves to double-dilute in the mod, the same outcome as Cr/Cr, which is what the literature describes. Where the mod goes a step further is the eye: Cr/Cr gets the cremello blue, prl/prl a light bright gold, and Cr/prl a green - a deliberate reading of "blue or blue-green eyes" that makes the compound heterozygote identifiable in-game where a real one is not identifiable by eye at all. That is a divergence in the player's favour rather than an error, and it is worth knowing which way round it goes.
+
+Sunshine and Snowdrop
+---------------------
+
+Both are newer, rarer, and much thinner on evidence than Cream and Pearl. Both behave primarily as recessive dilutions: a carrier looks non-dilute, and two dilution alleles at the locus can give a strongly pale, double-dilute-like phenotype.
+
+Sunshine
+--------
+
+Reported in 2019 after investigation of a horse that looked like a double-cream dilute but tested as carrying only one cream allele. Glycine 190 becomes arginine - small and flexible replaced by large and positively charged, plausibly disruptive, though that is an inference from the substitution rather than a demonstrated mechanism. The allele is named Csun after Captain Sunshine, the horse in which it was recognised; he was pale cream in coat, mane and tail with blue eyes, and was Cr/sun, not Cr/Cr. The study also found the allele heterozygous in one non-dilute offspring, supporting a single copy being visually silent. Anim. Genet. 10.1111/age.12790 (https://onlinelibrary.wiley.com/doi/full/10.1111/age.12790)
+
+genotype | expected
+N/sun | carrier; no clear phenotype known
+sun/sun | expected recessive dilution - phenotype not well documented
+Cr/sun | strong dilution; pseudo-double-dilute, documented
+prl/sun, sno/sun | plausible compound dilutes; insufficient published data
+
+The biggest gap is sun/sun. There is no robust body of documented homozygotes defining the chestnut, bay or black phenotype, typical skin and eye colour, residual point pigment, or whether expression is as consistent as prl/prl or Cr/Cr. A 2026 breed-colour report described a second Cr/sun horse, a Tennessee Walking Horse colt from a carrier dam - useful evidence the allele is not confined to one family, and an emerging observation rather than a population study.
+
+Snowdrop
+--------
+
+Reported in 2020 in a Gypsy horse with a very dilute coat that carried none of the then-known explanations. Arginine 102 becomes glutamine; the allele is Csno. The reported sno/sno horse showed strong dilution of both red and black pigment and looked like a homozygous cream. In the discovery pedigree, both sire and dam carried one copy with no observable effect. bioRxiv 851246 (https://www.biorxiv.org/content/10.1101/851246v1)
+
+Snowdrop is the clearest evidence that this locus should be understood as a series of functional dilution alleles rather than a two-allele normal-versus-cream system. Cr/sno, prl/sno and sun/sno are all uncharacterised in published evidence. It is tempting to assume any two non-normal alleles here give a strong phenotype - a reasonable hypothesis given the Cream/Pearl and Cream/Sunshine observations, and not a settled fact.
+
+allele | one copy with N | two copies | compound with cream | evidence
+Cream | visible palomino / buckskin / smoky black | cremello, perlino, smoky cream | - | extensive
+Pearl | visually silent carrier | pearl dilution | pseudo-double dilute | strong
+Sunshine | no clear effect reported | expected, poorly documented | pseudo-double dilute, documented | limited
+Snowdrop | no clear effect reported | strong dilute, double-cream-like | not characterised | limited
+
+Cream is the odd one out because one copy shows. The other three are best treated as recessive or recessive-like functional alleles: a normal allele preserves enough SLC45A2 activity that the carrier is not visibly diluted, while two altered copies substantially reduce pigmentation.
+
+The mod fills in what the literature leaves blank
+The four-allele structure and the recessive behaviour of pearl, sunshine and snowdrop are all faithful. What the mod has to do that the science cannot is answer every cell of the table - sun/sun, Cr/sno, prl/sun and the rest - because a genotype in a game has to render as something. Those rows are the mod's extrapolation from the Cream/Pearl pattern, which is the same reasonable hypothesis the source flags as unproven. They are not wrong; they are simply beyond what anyone has observed.
+
+Skin and eyes
+-------------
+
+Skin is dose- and genotype-dependent: single-cream horses usually keep dark skin under coloured areas, with pink skin under ordinary white markings; double-cream horses commonly have pink or rosy skin; homozygous pearl shows paler skin; and Cr/prl commonly has pale or pinkish skin. Pink skin is not disease and does not mean a lethal-white foal - it means little visible melanin at that location.
+
+Eyes. A single cream allele generally has little obvious effect. Double-cream horses commonly have blue eyes; Cr/prl can have blue or blue-green; pearl homozygotes may have lighter eyes, less uniformly described. A light eye alone cannot diagnose the genotype - blue eyes also come from several white-pattern genes, notably splashed white. The mod handles that collision the same way, by ranking the eye contributions rather than letting the last one win.
+
+Health
+------
+
+Current references treat cream and pearl as coat-colour dilutions, not disease mutations. The breed-distribution study notes that some pigment variants do have medically important pleiotropic effects - and names silver/MCOA, frame overo/lethal white, and leopard complex/CSNB as the examples. It identifies no comparable association for cream or pearl.
+
+So: no established lethal effect, no developmental disorder, no proven eye malformation association, no CSNB association, and no adverse syndrome tied to Cr/Cr, prl/prl or Cr/prl. The same holds for sunshine and snowdrop, with the caveat that being very rare and recently recognised is not the same as having every subtle effect excluded.
+
+locus | phenotype | associated concern
+SLC45A2 | cream, pearl, sunshine, snowdrop | no confirmed inherited disease
+PMEL | silver | multiple congenital ocular anomalies, worse in homozygotes
+EDNRB | frame overo | homozygous lethal white overo syndrome
+TRPM1 | leopard complex | congenital stationary night blindness in homozygotes
+STX17 | grey | increased melanoma risk with age
+
+"Dilution" is a visual category, not a biological or health one. The one real management point is that pale skin has less natural UV screening - shade, UV fly masks, sun sheets - which follows from pigmentation generally and is not a disease phenotype of these alleles.
+
+Build, size, jumping, speed
+---------------------------
+
+None are known to be caused by any allele at this locus. No credible evidence links cream or pearl to withers height, bone circumference, head shape, muscling, frame, body mass, growth rate, adult size, hoof quality or structural soundness; nor to jumping scope, technique, carefulness, bascule, tendon durability, trainability or competition results; nor to sprint speed, race performance, stride length, aerobic capacity, fibre profile, recovery or gaitedness. The best-known single-gene association with alternate gaits is DMRT3.
+
+Where colour looks associated with performance in a real population, the candidates are breed structure (cream is common in some populations and absent from others, and breeds differ enormously in what they were selected for), founder effects (a notable stallion carrying both a colour allele and athletic traits), breeder selection for colour and type together, and plain visual bias - pale horses can look larger or finer-boned depending on light and contrast.
+
+Breeds and frequency
+--------------------
+
+Cream is widespread. In the UC Davis dataset of 11,281 horses across 28 breeds it was detected in 25 of the 28. In the relatedness-filtered sample its frequency ran from 0.42 in Lusitanos down to 0.013 in Standardbreds, and it was not detected in the sampled Hanoverian, Knabstrupper or Percheron groups - absent from those samples, not proven absent from those breeds. PMC9498372 (https://pmc.ncbi.nlm.nih.gov/articles/PMC9498372/)
+
+Pearl is much more restricted, with a strong Iberian distribution consistent with where it was first identified. It appeared in 7 of the 28 breeds:
+
+breed | pearl allele frequency
+Andalusian | 12%
+Pura Raza Española | 11%
+Lusitano | 6.4%
+Gypsy Cob | 1.7%
+Gypsy Vanner | 1.5%
+American Paint Horse | 0.7%
+American Quarter Horse | 0.031%
+
+Those are allele frequencies, not percentages of visibly pearl horses - and since pearl needs prl/prl or Cr/prl to be conspicuous, visible pearls are far rarer than carriers. The tiny Quarter Horse figure fits the historical Barlink Factor label: it exists and is uncommon. The 11-12% in Iberians makes pearl a live breeding consideration there.
+
+Sunshine and Snowdrop have no population frequency at all. Sunshine was first identified in a horse of Standardbred x Tennessee Walking Horse ancestry, with a later Tennessee Walking Horse colt and carrier dam - enough to make that ancestry worth testing, and not enough to say the allele "belongs" to either breed. No peer-reviewed survey has established a frequency, an origin breed, a founder, a geographic distribution, or whether it is genuinely rare or merely rarely tested. Snowdrop is known in Gypsy horse / Cob / Tinker ancestry, with laboratory guidance noting that presence elsewhere has not been described and cannot be excluded. "Rare" is a fair description and not a measured percentage.
+
+How common each allele is in a wild horse
+-----------------------------------------
+
+The founder numbers follow the one large survey there is: 11,281 horses from 28 breeds ("Breed Distribution and Allele Frequencies of Base Coat Color, Dilution, and White Patterning Variants across 28 Horse Breeds", 2022 (https://pmc.ncbi.nlm.nih.gov/articles/PMC9498372/)). Cream turned up in 25 of the 28 breeds, at allele frequencies from 0.013 in Standardbreds up to breeds bred for it, so one copy in 30 (0.033) is a fair middle for a mixed wild population. Pearl turned up in only seven: the Iberian breeds carry it at 0.06 to 0.12 (Andalusian 0.12, Pura Raza Española 0.11, Lusitano 0.064), and everywhere else it is scarce (Gypsy Cob 0.017, Gypsy Vanner 0.015, Paint 0.007, Quarter Horse 0.0003). A mixed population is mostly not Iberian, so the mod founds pearl at one copy in 300, about a tenth as common as cream. Sunshine and snowdrop have no measured frequency (above), so they sit an order of magnitude below pearl again, at one in 3,000 and one in 3,500: rare enough that a homozygote is bred, not met.
+
+Until 2026-09-15 pearl was one copy in 22, which made a founder horse likelier to carry pearl than cream, the reverse of real horses. The number dated from when cream and pearl were two separate genes, each tuned alone, and the comparison was not revisited when they became one locus. These numbers only reach Feral Mixed horses; each breed rolls its own sheet, below.
+
+Each breed's MATP
+-----------------
+
+Every breed sheet's MATP pool is these allele frequencies at Hardy-Weinberg shares, with any pair rarer than one founder in ten thousand left out (2026-09-15). Measured means the 28-breed survey above published that number. Everything else is an estimate: the survey's per-breed cream table is not in its text, so those numbers come from what the breed is known for, anchored to the survey's range and to which breeds it found cream in at all. The survey found none in the Hanoverian, Knabstrupper or Percheron, and no breed not listed here carries MATP. That includes the Arabian, where the survey's cream is taken to be partbreds, since purebred Arabians are not known to carry it, and the American Cream Draft, whose cream is champagne.
+
+breed | Cr | prl | basis
+Akhal-Teke | 0.15 | - | estimate: the breed is known for its creams (isabella, perlino)
+American Miniature | 0.10 | - | estimate: survey found cream; pearl not found
+American Paint | 0.06 | 0.007 | pearl measured; cream estimated from stock-horse colour shares
+Andalusian | 0.03 | 0.12 | pearl measured (sample submitted for colour testing, so possibly high); cream estimated
+Appaloosa | 0.04 | - | estimate: survey found cream
+Banker Horse | 0.02 | - | estimate
+Canadian Horse | 0.01 | - | estimate: rare in the breed
+Connemara Pony | 0.08 | - | estimate: survey found cream
+Falabella | 0.08 | - | estimate
+Norwegian Fjord | 0.02 | - | estimate: the white and yellow duns are cream
+Gypsy Vanner | 0.05 | 0.015 | pearl measured; cream estimated; snowdrop 0.002, known from Gypsy ancestry
+Icelandic Horse | 0.06 | - | estimate: survey found cream
+Irish Draught | 0.01 | - | estimate
+Karabakh | 0.02 | - | estimate
+Kiger Mustang | 0.03 | - | estimate
+Lusitano | 0.06 | 0.064 | pearl measured. The survey read cream at 0.42, from horses submitted for colour testing, which the authors warn runs high; estimated far lower
+Marwari | 0.03 | - | estimate
+Morgan | 0.04 | - | estimate: survey found cream
+Mustang | 0.07 | - | estimate: survey found cream
+New Forest Pony | 0.01 | - | estimate
+Paso Fino, Puerto Rican Paso Fino | 0.08 | - | estimate: palomino and buckskin are common
+Quarter Horse | 0.06 | 0.00031 | pearl measured; cream estimated from registry colour shares
+Shetland Pony | 0.02 | - | estimate: survey found cream
+Standardbred | 0.013 | - | cream measured
+Tennessee Walking Horse | 0.06 | - | estimate: survey found cream; sunshine 0.003, first found in the breed
+Thoroughbred | 0.002 | - | estimate: survey found cream, and it is very rare in the breed
+Welsh Pony | 0.08 | - | estimate: survey found cream
+
+What is settled, and what is not
+--------------------------------
+
+Strongly established. Cream and pearl are alleles of SLC45A2/MATP; cream is c.457G>A / p.Asp153Asn; pearl is c.985G>A / p.Ala329Thr; cream acts with a dosage-dependent, incomplete-dominance pattern; pearl is recessive alone and interacts visibly with cream in compound heterozygotes; both affect coat, skin and eye pigment; and there is no established direct effect on athletic ability, conformation or size.
+
+Still uncertain. The full molecular mechanism - SLC45A2 clearly participates in melanosome pigmentation, and the exact chain from each equine variant to each visual phenotype is unresolved. Why horses with the same colour genotype vary in shade, mane and tail colour, residual point pigment and eye tone. Which additional genes govern shade, seasonal change and flaxen-like mane effects. Whether very subtle physiological effects of altered pigmentation exist below the threshold of detection - there is no evidence for any, so none should be assumed. And essentially everything about sun/sun and the snowdrop compounds.
+
+The practical caution, and it is the one this locus exists to teach: visual colour names cannot replace genotype here. A pale blue-eyed horse can be Cr/Cr, Cr/prl, Cr/sun, sno/sno, or something at a different locus entirely.

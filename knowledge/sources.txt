@@ -1,0 +1,37 @@
+WHERE THE SCIENCE COMES FROM
+============================
+Written by the exporting session from general knowledge, 2026-10-12. Check each address
+before relying on it; none was opened while writing this.
+
+IN ORDER OF AUTHORITY FOR THIS REPO
+1. UC Davis Veterinary Genetics Laboratory (vgl.ucdavis.edu). The owner's named reference.
+   Its horse test pages give, per test: the gene, the alleles it reports, the inheritance,
+   the phenotype, the breeds it is found in, and sometimes allele frequencies. A test page
+   is the best single source for "is this allele real and what is it called".
+   Source value in a citation: "ucdavis-vgl".
+2. OMIA, Online Mendelian Inheritance in Animals (omia.org). One entry per trait per
+   species, with the causal variant table and the reference list. Best for disorders and
+   for finding the primary paper. Source value: "omia".
+3. The primary paper, through PubMed or PubMed Central. Needed for frequencies in a
+   population, for the exact variant, and whenever 1 and 2 disagree. Source value:
+   "pubmed" for an NCBI address, "paper" for a journal address.
+4. Breed registries and breed-association rules, for which colours a breed admits and for
+   height standards. Source value: "other". Say which registry in the label.
+5. Everything else (textbooks, review sites, Wikipedia): a lead to follow, not a citation.
+
+HOW FAR TO TRUST WHAT
+- A commercial test existing for an allele is strong evidence the allele is real. It says
+  nothing about how common it is.
+- A frequency from one study describes that study's sample: breed, country, year, and how
+  the horses were chosen. Tested populations are biased toward horses whose owners
+  suspected something. Record the population in the table's "population" field.
+- A dominant white (W) allele is often known from one family. Its frequency in the general
+  population is effectively zero; do not invent one.
+- Nomenclature changes. Record the name UC Davis uses as the allele name, and keep older
+  names in the summary so a search still finds them.
+
+WHAT THE MOD'S OWN NOTES CONTAIN
+- knowledge/science/ holds the mod's Science tab for each gene. These were researched
+  (the kit notes say against a 2024 review, OMIA and the per-allele papers) and are a good
+  starting point, but they are a secondary source written by AI sessions. Verify before
+  marking anything "published" on their word alone.
