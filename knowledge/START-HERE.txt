@@ -35,8 +35,9 @@ Read knowledge/known-issues.txt before trusting anything. In short:
 - No breeds. They are planned (the mod has about 120 real breeds as JSON already).
 - No LICENSE, README or CONTRIBUTING file. The owner has decided on GPL 3 with a
   contributor clause (knowledge/decisions.txt); the files are not written.
-- Not a git repository yet, and not on GitHub. Creating the public repo is the owner's
-  call.
+- A local git repository since 2026-10-12, branch main. session-logs/ and procedures/
+  are kept out of it by the owner's decision (.gitignore). Not on GitHub. Creating the
+  public repo is the owner's call.
 
 Everything left to do, in order, is in TODO.txt at the root.
 
