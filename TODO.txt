@@ -26,7 +26,6 @@ The owner is Isabel. Lines marked [OWNER] need her answer before work can start;
 
 1. MAKE IT A REPOSITORY
 =======================
-        1.2  LICENSE: the GPL 3 text, unmodified.
         1.3  README: what this is; the three evidence words explained FIRST; the format in
              brief; how to cite it; that it is unaudited.
         1.4  CONTRIBUTING and a pull-request template with the clause: "I license this

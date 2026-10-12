@@ -33,8 +33,8 @@ Read knowledge/known-issues.txt before trusting anything. In short:
 - This is a first export of what the mod models. It has NOT been audited. Every frequency
   is an estimate, and most descriptions were written for a game.
 - No breeds. They are planned (the mod has about 120 real breeds as JSON already).
-- No LICENSE, README or CONTRIBUTING file. The owner has decided on GPL 3 with a
-  contributor clause (knowledge/decisions.txt); the files are not written.
+- LICENSE is the unmodified GPL 3 text. No README or CONTRIBUTING file yet; the
+  contributor clause the owner decided on (knowledge/decisions.txt) is not written.
 - A local git repository since 2026-10-12, branch main. session-logs/ and procedures/
   are kept out of it by the owner's decision (.gitignore). Public on GitHub since the
   same day: github.com/9-7-8/open-equine-genetics. Push only when the owner says to.
