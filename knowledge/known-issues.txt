@@ -69,3 +69,12 @@ STRUCTURE
   never conceived). Check that the difference is real for each.
 - tools/validate.mjs does not check that allele order is unchanged since the last version
   (it has no earlier version to compare with until this is a git repository).
+
+THE PUBLISHED REPOSITORY (found 2026-10-12)
+- TODO.txt, knowledge/START-HERE.txt and knowledge/how-this-was-exported/README.txt point
+  readers to procedures/ and session-logs/, which are not in the repository. A reader on
+  GitHub follows those to nothing.
+- TODO.txt is public and reads as private working notes addressed to the owner.
+- There is no README, so the GitHub page shows a bare file list and nothing says the
+  data is unaudited before a reader opens a file.
+- Local file paths are in the first four commits' history. The owner said that is fine.

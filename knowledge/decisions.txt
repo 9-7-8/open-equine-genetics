@@ -46,7 +46,16 @@ LICENCE
   contribution under GPL 3 and grant the maintainer the right to relicense it." This is
   what lets outside additions flow back into the MIT-licensed mod.
 - Inside the mod's jar the data stays GPL 3.
-- Repo name: open-equine-genetics. Public, under her GitHub account. Not created yet.
+- Repo name: open-equine-genetics. Public, under her GitHub account. Created and first
+  pushed 2026-10-12: github.com/9-7-8/open-equine-genetics.
+
+THE REPOSITORY (2026-10-12)
+- Everything in the folder is committed EXCEPT session-logs/ and procedures/. Those stay
+  on the maintainer's machine. mod-map.json, knowledge/science/ and
+  knowledge/how-this-was-exported/ are published.
+- No local file path goes in anything committed. Paths already in the commit history
+  stay; history is not rewritten for them.
+- Pushes are asked for each time; there is no standing permission to push.
 
 THE MOD
 - The mod will READ this repo as its source of truth (not merely export to it), through a
