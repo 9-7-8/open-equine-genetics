@@ -15,7 +15,7 @@
   "phenotypes": [
     { "id": "wild", "name": "Wild type", "description": "Two working copies. Nothing is wrong and nothing is passed on.", "changes_coat": false },
     { "id": "plod1-carrier", "name": "PLOD1 carrier", "description": "One copy. No known clinical signs or health problems; the horse passes the copy to half its foals. A foal is affected only when both parents pass it on.", "changes_coat": false },
-    { "id": "fragile-foal-syndrome", "name": "Fragile foal syndrome", "description": "Two copies. A collagen defect present from birth: thin, fragile, over-stretchy skin and mucous membranes that tear into open wounds from friction or pressure, sometimes before birth; over-extensible leg joints; floppy ears; and swellings of blood or fluid. Foals are often premature, and are stillborn, not viable, or put down shortly after birth. There is no treatment. Some such pregnancies may be lost early instead, which is not yet shown.", "changes_coat": false }
+    { "id": "fragile-foal-syndrome", "name": "Fragile foal syndrome", "description": "Two copies. A collagen defect present from birth: thin, fragile, over-stretchy skin and mucous membranes that tear into open wounds from friction or pressure, sometimes before birth; over-extensible leg joints; floppy ears; and swellings of blood or fluid. Foals are often premature, and are stillborn, not viable, or put down shortly after birth. There is no treatment. Affected foals are typically carried to birth; that such pregnancies are routinely lost early has not been shown.", "changes_coat": false }
   ],
   "genotypes": [
     { "alleles": ["N", "N"], "phenotype": "wild" },
@@ -23,7 +23,7 @@
     { "alleles": ["ffs", "ffs"], "phenotype": "fragile-foal-syndrome", "conditions": ["fragile-foal-syndrome"] }
   ],
   "conditions": [
-    { "id": "fragile-foal-syndrome", "name": "Fragile foal syndrome", "description": "Two copies. A collagen defect present from birth: thin, fragile, over-stretchy skin and mucous membranes that tear into open wounds from friction or pressure, sometimes before birth; over-extensible leg joints; floppy ears; and swellings of blood or fluid. Foals are often premature, and are stillborn, not viable, or put down shortly after birth. There is no treatment. Some such pregnancies may be lost early instead, which is not yet shown.", "severity": "lethal_at_birth" }
+    { "id": "fragile-foal-syndrome", "name": "Fragile foal syndrome", "description": "Two copies. A collagen defect present from birth: thin, fragile, over-stretchy skin and mucous membranes that tear into open wounds from friction or pressure, sometimes before birth; over-extensible leg joints; floppy ears; and swellings of blood or fluid. Foals are often premature, and are stillborn, not viable, or put down shortly after birth. There is no treatment. Affected foals are typically carried to birth; that such pregnancies are routinely lost early has not been shown.", "severity": "lethal_at_birth" }
   ],
   "frequencies": [
     {
@@ -59,7 +59,7 @@
       ]
     },
     {
-      "population": "Knabstrupper (3 carriers in 46 tested; the share is worked out from the count)",
+      "population": "Knabstrupper (the allele in 3 of 46 horses tested; a reported count that may include affected cases and is not a random sample; the share is worked out from it)",
       "evidence": "published",
       "genotypes": [
         { "alleles": ["ffs", "N"], "percent": 6.52 },
@@ -67,7 +67,7 @@
       ]
     },
     {
-      "population": "Haflinger (2 carriers in 48 tested; the share is worked out from the count)",
+      "population": "Haflinger (the allele in 2 of 48 horses tested; a reported count that may include affected cases and is not a random sample; the share is worked out from it)",
       "evidence": "published",
       "genotypes": [
         { "alleles": ["ffs", "N"], "percent": 4.17 },
@@ -75,7 +75,7 @@
       ]
     },
     {
-      "population": "American Sport Pony (1 carrier in 12 tested; the share is worked out from the count)",
+      "population": "American Sport Pony (the allele in 1 of 12 horses tested; a reported count that may include affected cases and is not a random sample; the share is worked out from it)",
       "evidence": "published",
       "genotypes": [
         { "alleles": ["ffs", "N"], "percent": 8.33 },
@@ -106,6 +106,7 @@
     { "source": "other", "label": "UC Davis Center for Equine Health: Fragile Foal Syndrome Type 1", "url": "https://ceh.vetmed.ucdavis.edu/health-topics/warmblood-fragile-foal-syndrome-type-1-wffs", "verified": false },
     { "source": "ucdavis-vgl", "label": "UC Davis VGL: survey of the WFFS variant in 38 horse breeds", "url": "https://vgl.ucdavis.edu/research/wffs-breed-distribution", "verified": false },
     { "source": "ucdavis-vgl", "label": "UC Davis VGL: Horse Coat Color", "url": "https://vgl.ucdavis.edu/resources/horse-coat-color", "verified": false },
-    { "source": "other", "label": "MedlinePlus Genetics: PLOD1 gene", "url": "https://medlineplus.gov/genetics/gene/plod1/", "verified": false }
+    { "source": "other", "label": "MedlinePlus Genetics: PLOD1 gene", "url": "https://medlineplus.gov/genetics/gene/plod1/", "verified": false },
+    { "source": "pubmed", "label": "PMC9213567: the PLOD1 c.2032G>A variant, first associated with Warmbloods", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9213567/", "verified": false }
   ]
 }

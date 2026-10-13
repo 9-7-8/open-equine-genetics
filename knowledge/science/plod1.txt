@@ -4,6 +4,21 @@ No source was opened by the session that filed this. genes/plod1.json was change
 on the owner's word the same day; what is left over is in knowledge/known-issues.txt.
 Not yet audited.)
 
+ROUND TWO (the owner's answers to the open research questions, 2026-10-12)
+--------------------------------------------------------------------------
+These came after everything below. Where they disagree with it, this section and the gene
+file stand, unless a line says the point is unsettled. The whole answer is in
+knowledge/science/round-2-answers.txt. No address has been opened by a maintainer.
+- The chromosome could not be verified. The variant is c.2032G>A, p.Gly678Arg, recessive
+  (https://pmc.ncbi.nlm.nih.gov/articles/PMC9213567/).
+- The Knabstrupper, Haflinger and Sport Pony counts are reported carrier or affected-case
+  counts, not necessarily random-population carrier frequencies. Warmblood carrier
+  frequencies differ by studbook and year; no per-breed figures were given.
+- Affected foals are typically born with severe skin and connective-tissue fragility, not
+  routinely lost early in pregnancy. (The address for this is a breeder's tool page,
+  https://www.soloselecthorses.com/tools/genetic-health-panel, which is not cited in the
+  gene file.)
+
 PLOD1 in Horses: Complete Locus Overview
 PLOD1 (procollagen-lysine, 2-oxoglutarate 5-dioxygenase 1) is a connective-tissue gene, not a coat-color locus. In horses, its best-established disease allele causes Fragile Foal Syndrome type 1 (FFS)—formerly called Warmblood Fragile Foal Syndrome (WFFS)—a fatal autosomal-recessive collagen defect.[[ceh.vetmed.ucdavis](https://ceh.vetmed.ucdavis.edu/health-topics/warmblood-fragile-foal-syndrome-type-1-wffs)][[vgl.ucdavis](https://vgl.ucdavis.edu/research/wffs-breed-distribution)]
 
