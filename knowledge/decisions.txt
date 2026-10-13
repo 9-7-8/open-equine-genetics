@@ -55,7 +55,9 @@ THE REPOSITORY (2026-10-12)
   knowledge/how-this-was-exported/ are published.
 - No local file path goes in anything committed. Paths already in the commit history
   stay; history is not rewritten for them.
-- Pushes are asked for each time; there is no standing permission to push.
+- Push at the end of every session, as part of the end-session procedure, without asking
+  (2026-10-12; before that every push was asked for). During a session a push is still
+  asked for.
 
 THE MOD
 - The mod will READ this repo as its source of truth (not merely export to it), through a
@@ -86,7 +88,7 @@ THE AUDIT
   abstracted_jump_strength).
 - The mod will come to this repo to bridge itself once the work here is done. Nothing
   here waits on the mod, and nobody here needs to tell it of each change.
-- Commit now, often, and in small batches. Pushing is still asked for each time.
+- Commit now, often, and in small batches. Push when the session ends (above).
 - A frequency nobody has published is left out, never invented: a locus may have no
   frequency table.
 - Where the research lists two variants and the data has one allele, the two are added as
