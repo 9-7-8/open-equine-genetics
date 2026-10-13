@@ -4,8 +4,9 @@
   "species": "horse",
   "name": "Tobiano",
   "symbol": "KIT",
+  "chromosome": "3",
   "evidence": "published",
-  "summary": "Large, smooth-edged white patches that cross the topline - the shape that tells tobiano from frame overo. Patches flow unbroken from the barrel down the legs and over the back; the head stays coloured. Patch size and coverage vary per horse.",
+  "summary": "Tobiano: large, smooth-edged white patches that usually cross the topline, with white legs and often a tail of mixed white and coloured hair. It is caused by an inversion of about 43 Mb on chromosome 3 that lies near KIT and probably disturbs how KIT is regulated; the KIT protein itself is unchanged. It is dominant, and horses with two copies are viable. Expression runs from the classic pattern through minimal tobiano to cryptic tobiano, which can look nearly solid apart from ordinary-looking white on the legs. Small dark \"ink spots\" inside the white are associated with tobiano but are not explained by the genotype alone. The KIT boosters W20, W32, W34 and W35 can add white to it. Common in Paints, Pintos, Shetlands, Miniatures, Warmbloods, Gypsy horses and Paso Finos; uncommon in Quarter Horses, Thoroughbreds, Standardbreds and Arabians.",
   "inheritance": "autosomal",
   "affects_coat": true,
   "alleles": [
@@ -14,7 +15,7 @@
   ],
   "phenotypes": [
     { "id": "wild", "name": "Wild type", "description": "No white patches.", "changes_coat": false },
-    { "id": "tobiano", "name": "Tobiano", "description": "Large, smooth-edged white patches that run up and over the topline, flowing unbroken from the barrel down the legs. The legs tend to white; the head stays coloured.", "changes_coat": true }
+    { "id": "tobiano", "name": "Tobiano", "description": "Large, smooth-edged white patches that usually run up and over the topline, with white legs and often a tail of mixed white and coloured hair. How much white there is varies from horse to horse, down to a cryptic form that looks nearly solid. One copy is enough, and two copies are viable.", "changes_coat": true }
   ],
   "genotypes": [
     { "alleles": ["to", "to"], "phenotype": "wild" },
