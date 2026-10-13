@@ -8,7 +8,7 @@ WHERE THE DATA STANDS
   commit 93af89d9 plus one docs commit). On 2026-10-12 the owner supplied research
   documents and audit answers, and the loci below were changed to follow them. The three
   lists in this file are each kept on one long line, sorted, so they are easy to edit.
-RESEARCHED: abstracted_jump_strength, acan, agouti, b4galt7, brindle, champagne, ckm, dmrt3, ednrb, grey, hmga2, lama3, lamc2, lcorl, leopard, mitf, mstn, patn1, pdk4, roan, ryr1, scn4a, silver, slc5a3.
+RESEARCHED: abstracted_jump_strength, acan, agouti, b4galt7, brindle, champagne, ckm, dmrt3, dun, ednrb, grey, hmga2, lama3, lamc2, lcorl, leopard, mitf, mstn, patn1, pdk4, roan, ryr1, scn4a, silver, slc5a3.
 - NO SESSION OPENED A SOURCE. Every fact changed that day rests on the owner's documents,
   and every citation added is an address those documents gave. Some addresses were built
   from a DOI or a PubMed number the documents gave. None has been opened.
@@ -36,7 +36,11 @@ done (2026-10-12); nothing is owed to it before then. The mod still has:
 - pdk4 as a plain speed gene; hmga2 and lcorl changing speed and jump;
 - acan carriers of normal height; b4galt7 dwarfs that are slow and jump badly;
 - agouti with a as the wild type, and bay split into four shades inside the agouti
-  table.- champagne feeding removed black back as red, and an eye colour inherited with the allele (olive green among them);- ckm as a speed gene;- dmrt3 one-copy horses that cannot pace, and "the smoothest gaits" as a fixed property of two copies;
+  table.
+- champagne feeding removed black back as red, and an eye colour inherited with the allele (olive green among them);
+- ckm as a speed gene;
+- dmrt3 one-copy horses that cannot pace, and "the smoothest gaits" as a fixed property of two copies;
+- dun: d2 as the wild type, red pigment left undiluted (a red dun nearly chestnut), a certain dorsal stripe on every d1 horse, and "two dominance orders".
 mod-map.json records the structural part: "not_in_mod" (alleles) and
 "mod_outcome_unsupported" (pairs marked undocumented here on purpose).
 
@@ -85,13 +89,14 @@ STILL WRONG OR UNPROVEN IN THE RESEARCHED LOCI
 - champagne: the names gold, amber and classic champagne depend on extension and agouti; the file says so in words and has no interactions table. "Sable" (on seal brown) and "ivory" (with cream) are registry names, not alleles, and are not in the data.
 - ckm: a candidate that failed to replicate (Gu et al. 2010; no association in Quarter Horses). The file states no effect. (An earlier answer's "g.22999655C>A" for it was a slip for the DMRT3 variant; settled.) C is flagged wild_type only because the format needs one. Whether a locus with no established effect belongs in the data as published is the owner's call.
 - dmrt3: the Icelandic table's genotype shares are worked out from one allele frequency, assuming random mating. A 2026 study reports further variants in exon 2 of DMRT3, of unknown effect; none is in the data. Other gait loci (trot versus pace in Standardbreds) are known to exist and are not modelled.
+- dun: the wild-type flag moved from d2 to D (the research calls dun the ancestral state), and the d2/d2 outcome is now "non-dun", not "wild". nd1's markings are variable ("may show"), but d1/d1 and d1/d2 have one outcome that cannot say how often. The research gives no frequency figure, so the table is still the mod's. It gives no coordinate for the nd1 change. It does not mention the separate TBX3 height enhancer in the earlier note; that citation (PMC8796118) is left from the first export and nothing in the data rests on it.
 
 THE OTHER LOCI
 - "symbol" was filled from the exporting session's own knowledge. The research has since
   confirmed tiger_eye (SLC24A5), mushroom (MFSD12), patn1 (RFWD3), brindle (MBTPS2) and
   tobiano as a KIT-region locus. The rest are unchecked.
 - Published loci with no research from the owner yet:
-NOT YET RESEARCHED: dun, extension, gbe1, gys1, kit, matp, met, mushroom, myo5a, pax3, plod1, ppib, prkdc, rapgef5, shox, st14, tiger_eye, tobiano, toe1.
+NOT YET RESEARCHED: extension, gbe1, gys1, kit, matp, met, mushroom, myo5a, pax3, plod1, ppib, prkdc, rapgef5, shox, st14, tiger_eye, tobiano, toe1.
 - Game wording: the plain cases were reworded on 2026-10-12 by word search. Subtler
   cases remain: what "wild horses" or founders carry (eye_colour_left,
   eye_colour_right, manchado, pax3, plod1, rapgef5) and "no wild horse is born with
@@ -118,7 +123,7 @@ CITATIONS
 
 SCIENCE NOTES
 - These notes are the owner's research documents with the mod's wiki text kept underneath:
-NOTES FROM RESEARCH: abstracted_jump_strength, agouti, b4galt7, brindle, champagne, ckm, dmrt3, grey, lama3, lamc2, lcorl, leopard, mitf, patn1, pdk4, roan, ryr1, silver, slc5a3.
+NOTES FROM RESEARCH: abstracted_jump_strength, agouti, b4galt7, brindle, champagne, ckm, dmrt3, dun, grey, lama3, lamc2, lcorl, leopard, mitf, patn1, pdk4, roan, ryr1, silver, slc5a3.
 - 19 notes (the first 14 of those filed, and acan, ednrb, hmga2, mstn, scn4a) open
   with LATEST FINDINGS, which carries the owner's later audit answers and
   overrides the older text beneath it. The older text was corrected in place only

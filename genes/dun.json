@@ -4,22 +4,23 @@
   "species": "horse",
   "name": "Dun",
   "symbol": "TBX3",
+  "chromosome": "8",
   "evidence": "published",
-  "summary": "Real-horse TBX3, three alleles with two dominance orders. D lightens the body coat while leaving the points dark - tan on a bay, blue-grey grullo on a black, pale red on a chestnut - and adds primitive markings: a dorsal stripe into the tail, and, on some horses, leg bars, a shoulder bar and a face mask. d1 adds the dorsal stripe with no dilution at all; d2 does neither. So a horse can carry primitive markings without being a dun.",
+  "summary": "Dun is a coat dilution controlled by regulatory variants at TBX3 on chromosome 8, with three alleles in one dominance order: D over nd1 over nd2 (the ids here are D, d1 and d2). D, the ancestral allele, lightens both red and black pigment on the body while largely sparing the head, lower legs, mane and tail, and adds darker primitive markings: a dorsal stripe and, variably, leg bars, shoulder stripes, a face mask and cobwebbing on the forehead. It gives red dun on a chestnut, bay dun on a bay and grullo on a black. One copy is enough, and two copies look no different. nd1 does not dilute but may still show primitive markings; nd2, a 1,617 base-pair deletion, neither dilutes nor marks. So primitive markings alone do not prove a horse is dun. The dilution comes from pigment being laid down unevenly within each hair. The non-dun alleles change where and how much TBX3 is expressed in the hair follicle and leave the protein intact. D and nd1 both predate domestication; nd2 is thought to be more recent, and most modern domestic horses are non-dun. No effect on build, performance or health is established.",
   "inheritance": "autosomal",
   "affects_coat": true,
   "alleles": [
-    { "id": "D", "name": "Dun", "wild_type": false, "quality": "unverified" },
-    { "id": "d1", "name": "Non-dun, marked", "wild_type": false, "quality": "unverified" },
-    { "id": "d2", "name": "Non-dun, unmarked", "wild_type": true, "quality": "unverified" }
+    { "id": "D", "name": "Dun (D)", "wild_type": true, "quality": "unverified" },
+    { "id": "d1", "name": "Non-dun 1 (nd1)", "wild_type": false, "quality": "unverified" },
+    { "id": "d2", "name": "Non-dun 2 (nd2)", "wild_type": false, "quality": "unverified" }
   ],
   "phenotypes": [
-    { "id": "wild", "name": "Wild type", "description": "No dilution and no primitive markings.", "changes_coat": false },
-    { "id": "primitive-marks", "name": "Primitive markings", "description": "No real dilution - the horse is its base colour - but a dorsal stripe still runs from poll to tail, a shade darker than the body around it, and faint leg bars and a shoulder shadow may come with it on any base pale enough to show them. One d1 copy is enough; it is how a plain bay or chestnut ends up with primitive markings and no dun.", "changes_coat": true },
-    { "id": "dun", "name": "Dun", "description": "Black pigment thins while red is left alone, so a bay turns tan, a black turns blue-grey grullo, and a chestnut - which has no black to lose - stays very nearly chestnut. The points, a dorsal stripe from poll to tail, and whichever primitive markings this horse drew skip the dilution and stay dark.", "changes_coat": true }
+    { "id": "non-dun", "name": "Non-dun, unmarked", "description": "No dilution and no primitive markings from this locus. A dorsal stripe can still appear through countershading, which is not this locus.", "changes_coat": false },
+    { "id": "primitive-marks", "name": "Non-dun, may show primitive markings", "description": "No dilution: the horse is its base colour. It may still show a dorsal stripe, leg barring and other primitive markings, though not every such horse does. nd1 is dominant over nd2, so one copy is enough.", "changes_coat": true },
+    { "id": "dun", "name": "Dun", "description": "Both red and black pigment are lightened on the body, while the head, lower legs, mane and tail are largely spared. A chestnut becomes a sandy red dun with a more saturated mane and tail, a bay becomes a bay dun with dark points, and a black becomes a slate or mouse-grey grullo. Darker primitive markings come with it - a dorsal stripe and, variably, leg bars, shoulder stripes, a face mask and cobwebbing on the forehead - and their strength and completeness differ from horse to horse. One D copy gives the whole effect; two copies look the same.", "changes_coat": true }
   ],
   "genotypes": [
-    { "alleles": ["d2", "d2"], "phenotype": "wild" },
+    { "alleles": ["d2", "d2"], "phenotype": "non-dun" },
     { "alleles": ["d1", "d2"], "phenotype": "primitive-marks" },
     { "alleles": ["d1", "d1"], "phenotype": "primitive-marks" },
     { "alleles": ["D", "d2"], "phenotype": "dun" },
@@ -42,6 +43,15 @@
   ],
   "citations": [
     { "source": "pubmed", "label": "Imsland et al., PMC4731265", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4731265/", "verified": false },
-    { "source": "pubmed", "label": "PMC8796118", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8796118/", "verified": false }
+    { "source": "pubmed", "label": "PMC8796118", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8796118/", "verified": false },
+    { "source": "ucdavis-vgl", "label": "UC Davis VGL: Dun Dilution", "url": "https://vgl.ucdavis.edu/test/dun-horse", "verified": false },
+    { "source": "ucdavis-vgl", "label": "UC Davis VGL: Horse Coat Color", "url": "https://vgl.ucdavis.edu/resources/horse-coat-color", "verified": false },
+    { "source": "omia", "label": "OMIA 001972-9796: Dun", "url": "https://omia.org/OMIA001972/9796/", "verified": false },
+    { "source": "other", "label": "University of Kentucky Gluck Equine Research Center: color testing", "url": "https://gluck.mgcafe.uky.edu/color-testing", "verified": false },
+    { "source": "other", "label": "Uppsala University news (2015): genetics of camouflage and the dun pattern in horses", "url": "https://www.uu.se/en/news/2015/2015-12-21-genetics-of-camouflage-and-the-dun-pattern-in-horses", "verified": false },
+    { "source": "other", "label": "Uppsala University press release (2015): a horse of a different colour", "url": "https://www.uu.se/en/press/press-releases/2015/2015-12-21-a-horse-of-a-different-colour-genetics-of-camouflage-and-the-dun-pattern", "verified": false },
+    { "source": "other", "label": "HudsonAlpha, Barsh lab: evolution", "url": "https://www.hudsonalpha.org/faculty/greg-barsh/lab/evolution/", "verified": false },
+    { "source": "other", "label": "Mad Barn research summary: TBX3 expression in dun Mongolian horses with and without Bider markings", "url": "https://madbarn.com/research/differential-expression-and-analysis-of-tbx3-gene-in-skin-tissues-of-dun-mongolian-horses-with-and-without-bider-markings/", "verified": false },
+    { "source": "other", "label": "Equine Genetics Research Centre: dun, nd1, nd2", "url": "https://equinegeneticsresearchcentre.horse/coat-colour-and-pattern-testing-2/dun-nd1-nd2/", "verified": false }
   ]
 }
