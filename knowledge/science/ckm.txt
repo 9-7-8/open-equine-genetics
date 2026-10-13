@@ -10,7 +10,16 @@ The first answer, kept below, looked for CKM as a coat-colour gene and found non
 owner asked again about the racing claim. No address here has been opened by a maintainer.
 - CKM is a real gene on chromosome 10, highly expressed in skeletal and heart muscle
   (NCBI Gene 100065641).
-- The racing claim is Hill et al. 2010: new SNPs in ACTN3, CKM and COX4I2; three SNPs in
+- The racing claim is Gu, MacHugh, McGivney, Park, Katz and Hill 2010, Equine Veterinary
+  Journal 42(s38):569-575 (the second answer called it "Hill et al."; Hill is the last
+  author). https://pmc.ncbi.nlm.nih.gov/articles/PMC4097168/
+- The variant: g.15884567G>A, at ECA10:15,884,567 in EquCab2.0, SNP BIEC2-109575, in
+  intron 4 - not a coding change. The A allele was commoner in elite Thoroughbreds than
+  in non-winners (allelic test P = 0.02066; odds ratio given as 0.4089, which is stated
+  for the G allele). A computer analysis suggested G disrupts a binding motif that A
+  keeps; that is a hypothesis, not shown. A patent built on the work proposed a
+  several-gene model with PDK4 and COX4I2; a patent claim is not validation.
+- The study found new SNPs in ACTN3, CKM and COX4I2; three SNPs in
   CKM and COX4I2 differed between elite Thoroughbreds and horses that had never won.
   In a further independent 130 horses the CKM associations did NOT validate; only
   COX4I2 held in the combined analysis. https://pubmed.ncbi.nlm.nih.gov/21059062/
