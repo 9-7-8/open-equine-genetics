@@ -4,13 +4,14 @@
   "species": "horse",
   "name": "Silver dapple",
   "symbol": "PMEL",
+  "chromosome": "6",
   "evidence": "published",
-  "summary": "Silver dapple (PMEL17): dilutes black pigment only, toward chocolate on the body and near-flaxen on the mane and tail, while leaving red untouched. A black becomes chocolate with a pale mane, a bay becomes silver bay, and a chestnut carrying it looks unchanged - it has no black to act on.",
+  "summary": "Silver (PMEL, formerly PMEL17 or SILV), a dominant dilution of black pigment caused by one missense change in exon 11 of the gene (Arg618Cys). It lightens black toward chocolate on the body and toward flaxen or silver-grey on the mane and tail, and leaves red pigment alone: a black becomes chocolate with a pale mane, a bay keeps its red body and its black points turn silver, and a chestnut carrying it looks unchanged while still passing it on. The same variant causes multiple congenital ocular anomalies (MCOA), an eye disorder that is milder with one copy and severe with two. Also called silver dapple, taffy or chocolate.",
   "inheritance": "autosomal",
   "affects_coat": true,
   "alleles": [
-    { "id": "Z", "name": "Silver dapple (Z)", "wild_type": false },
-    { "id": "z", "name": "Wild-type (z)", "wild_type": true }
+    { "id": "Z", "name": "Silver dapple", "wild_type": false },
+    { "id": "z", "name": "Wild-type (N)", "wild_type": true }
   ],
   "phenotypes": [
     { "id": "wild", "name": "Wild type", "description": "Black pigment is left alone.", "changes_coat": false },
@@ -22,8 +23,8 @@
     { "alleles": ["Z", "Z"], "phenotype": "silver", "conditions": ["mcoa"] }
   ],
   "conditions": [
-    { "id": "mcoa-cyst", "name": "Ocular cysts (silver)", "description": "One silver copy. Small cysts sit at the back of the iris. Common in silver horses and usually harmless - but it is the same defect that disables a horse with two copies.", "severity": "informational" },
-    { "id": "mcoa", "name": "Multiple congenital ocular anomalies", "description": "Two silver copies. The eyes are malformed - cysts and a misshapen cornea - and the horse is a little frailer for it.", "severity": "impairing" }
+    { "id": "mcoa-cyst", "name": "Ocular cysts (MCOA, one copy)", "description": "One silver copy. The milder form of multiple congenital ocular anomalies: translucent cysts of the iris, the ciliary body or the retina, often with few or no clinical signs. It is present whether or not the coat shows silver.", "severity": "informational" },
+    { "id": "mcoa", "name": "Multiple congenital ocular anomalies", "description": "Two silver copies. The severe form: an enlarged cornea, an abnormal iris or retina and cataracts, with sight impaired and sometimes lost.", "severity": "impairing" }
   ],
   "frequencies": [
     {
@@ -36,5 +37,11 @@
       ]
     }
   ],
-  "citations": []
+  "citations": [
+    { "source": "ucdavis-vgl", "label": "UC Davis VGL: Silver", "url": "https://vgl.ucdavis.edu/test/silver" },
+    { "source": "ucdavis-vgl", "label": "UC Davis VGL: Multiple Congenital Ocular Anomalies (MCOA)", "url": "https://vgl.ucdavis.edu/test/mcoa" },
+    { "source": "ucdavis-vgl", "label": "UC Davis VGL: Equine Coat Color Genetics", "url": "https://vgl.ucdavis.edu/resources/horse-coat-color" },
+    { "source": "pubmed", "label": "PMID 17029645: Andersson et al. 2006, a missense mutation in PMEL17 is associated with the Silver coat color in the horse", "url": "https://pubmed.ncbi.nlm.nih.gov/17029645/" },
+    { "source": "pubmed", "label": "PMC3781063: Andersson et al. 2013, equine MCOA and silver coat colour result from the pleiotropic effects of mutant PMEL", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3781063/" }
+  ]
 }
