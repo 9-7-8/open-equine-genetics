@@ -1,6 +1,62 @@
 CKM - science notes
+(The owner's research notes, filed 2026-10-12. Its sources are given in the text as addresses in brackets.
+No source was opened by the session that filed this. genes/ckm.json was changed to match
+on the owner's word the same day; what is left over is in knowledge/known-issues.txt.
+Not yet audited.)
+
+READ THIS FIRST. The research below answered a different question from the one this locus
+poses: it looked for CKM as a coat-colour gene and, rightly, found none. It did not look
+at the racing-performance claim, which is what this locus was built on. That claim is
+examined, with its sources, in the earlier notes further down ("Speed - the claim, and
+what happened to it"): one 2010 Thoroughbred study, not replicated, and no association
+in Quarter Horses. Both agree on the conclusion the gene file now states: no effect of
+any CKM allele is established in the horse. Chromosome 10 comes from the earlier notes
+(NCBI Gene 100065641).
+
+CKM is not an established horse coat-color locus. In genetics, CKM usually refers to creatine kinase M-type (also called CKMM), a muscle-energy enzyme gene—not a gene known to control equine red/black pigment, dilution, patterning, height, speed, hoof shape, feathering, or mane/tail color. [edrn.cancer](https://edrn.cancer.gov/data-and-resources/biomarkers/ckm/)
+
+What CKM actually is
+--------------------
+
+- CKM / CKMM encodes the muscle-type subunit of creatine kinase, an enzyme that helps regenerate ATP from creatine phosphate in tissues with high, fluctuating energy demands, especially skeletal and cardiac muscle. [edrn.cancer](https://edrn.cancer.gov/data-and-resources/biomarkers/ckm/)
+- In medicine, CKM is also used as shorthand for cardiovascular-kidney-metabolic syndrome, a human-health framework linking heart disease, kidney disease, obesity, and type 2 diabetes; this is unrelated to horse coat genetics. [pubmed.ncbi.nlm.nih](https://pubmed.ncbi.nlm.nih.gov/39705194/)
+
+Why it is not a horse color gene
+--------------------------------
+
+UC Davis’s equine coat-color resources identify the core red/black-pigment system as MC1R (Extension / E locus) and ASIP (Agouti / A locus):
+
+Locus | Gene | Established alleles | Effect
+Extension | MC1R | E, e, rare ea | E permits black pigment; e/e produces chestnut/red-based coats. [vgl.ucdavis](https://vgl.ucdavis.edu/resources/horse-coat-color)
+Agouti | ASIP | A, a | A restricts black to points, producing bay on an E-based horse; a/a allows uniform black. [vgl.ucdavis](https://vgl.ucdavis.edu/resources/horse-coat-color)
+
+There is no UC Davis-listed CKM allele, phenotype, or coat-color test analogous to E, A, Cr, Dun, Champagne, Silver, Gray, or the white-pattern loci. [vgl.ucdavis](https://vgl.ucdavis.edu/resources/horse-coat-color)
+
+Possible confusion
+------------------
+
+You may be thinking of one of these:
+
+- CKM as creatine kinase M-type — relevant to muscle energy metabolism, but not a validated equine coat-color or conformation marker in mainstream horse genetics. [edrn.cancer](https://edrn.cancer.gov/data-and-resources/biomarkers/ckm/)
+- CKM syndrome — a human cardiovascular-kidney-metabolic health concept, not an equine trait. [my.clevelandclinic](https://my.clevelandclinic.org/health/diseases/cardiovascular-kidney-metabolic-syndrome)
+- A similarly abbreviated horse locus, such as KIT, MITF, PAX3, MSTN, DMRT3, or LCORL — these do have established or actively researched equine associations with white patterning, gait, muscle type, and height/body size.
+
+Bottom line for a simulator
+---------------------------
+
+For an equine-genetics simulation, I would not model CKM as a coat-color, pigment, height, speed, muscle, bone, hoof, feathering, or mane/tail-color locus. The evidence-based base-pigment model should use:
+
+- MC1R: E/_ = black pigment possible; e/e = chestnut/red base. [vgl.ucdavis](https://vgl.ucdavis.edu/resources/horse-coat-color)
+- ASIP: A/_ = bay distribution of black; a/a = black distribution when E is present. [vgl.ucdavis](https://vgl.ucdavis.edu/resources/horse-coat-color)
+
+If you meant a different abbreviation—such as CKM from a specific breed registry, paper, or another spelling—send the context and I can map it to the correct equine locus.
+
+
+EARLIER NOTES, FROM THE MOD'S WIKI
+==================================
 (Copied 2026-10-12 from the Science tab of the Procedural Horse Coats wiki page for this gene.
-Written for that project: it may mention how a game models the gene. Not yet audited.)
+Written for that project: they say how a game models the gene. Where they disagree with
+the research notes above, the notes above stand.)
 
 Read this first: the mod is more confident than the evidence is
 Of every natural gene in the mod, this is the one where the science and the implementation disagree hardest. The mod treats CKM as a real additive speed locus. The equine literature contains one performance claim for it, from a small 2010 Thoroughbred candidate-gene study, and that claim failed independent validation in the same paper's own replication sample and was explicitly non-significant in a later Quarter Horse study. The biochemistry is sound; the genotype-to-phenotype link is not established. Everything below says so in detail, and the last section says what that means for the gene.
