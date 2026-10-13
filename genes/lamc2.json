@@ -4,18 +4,19 @@
   "species": "horse",
   "name": "LAMC2",
   "symbol": "LAMC2",
+  "chromosome": "5",
   "evidence": "published",
-  "summary": "LAMC2 (JEB), junctional epidermolysis bullosa, the draft-horse variant - a recessive lethal: the skin and hoof walls have nothing anchoring them and come away. A different mutation from LAMA3, so a horse can carry one and be clear of the other.",
+  "summary": "LAMC2, junctional epidermolysis bullosa type 1 (JEB1), the form found in Belgian and related draft breeds, including the Trait Breton, Trait Comtois and Italian Draft - a recessive lethal. A single cytosine inserted in exon 10 (1368insC) cuts short the gamma-2 chain of laminin-332, the protein that anchors the outer skin to the layer beneath, so the skin and mucous membranes blister and come away. A different gene from LAMA3 (JEB2), so a horse can carry one and be clear of the other.",
   "inheritance": "autosomal",
   "affects_coat": false,
   "alleles": [
-    { "id": "jeb", "name": "Epidermolysis bullosa (jeb)", "wild_type": false },
-    { "id": "N", "name": "Wild-type (N)", "wild_type": true }
+    { "id": "jeb", "name": "Junctional epidermolysis bullosa 1 (JEB1, J)", "wild_type": false },
+    { "id": "N", "name": "Wild-type", "wild_type": true }
   ],
   "phenotypes": [
     { "id": "wild", "name": "Wild type", "description": "Two working copies. Nothing is wrong and nothing is passed on.", "changes_coat": false },
     { "id": "lamc2-carrier", "name": "LAMC2 carrier", "description": "One copy of jeb. The horse is completely normal and there is no way to see it - but half its foals inherit the copy, and two carriers bred together are the only way junctional epidermolysis bullosa (lamc2) appears.", "changes_coat": false },
-    { "id": "junctional-epidermolysis-bullosa-lamc2", "name": "Junctional epidermolysis bullosa (LAMC2)", "description": "The layer that anchors skin to the body never formed. The hoof walls separate and the skin tears away wherever the foal puts weight. It does not survive.", "changes_coat": false }
+    { "id": "junctional-epidermolysis-bullosa-lamc2", "name": "Junctional epidermolysis bullosa (LAMC2)", "description": "The layer that anchors the outer skin to the body does not hold. The skin and the lining of the mouth blister and come away, and the hoof wall may detach so that the hooves slough. The foal does not survive.", "changes_coat": false }
   ],
   "genotypes": [
     { "alleles": ["N", "N"], "phenotype": "wild" },
@@ -23,7 +24,7 @@
     { "alleles": ["jeb", "jeb"], "phenotype": "junctional-epidermolysis-bullosa-lamc2", "conditions": ["junctional-epidermolysis-bullosa-lamc2"] }
   ],
   "conditions": [
-    { "id": "junctional-epidermolysis-bullosa-lamc2", "name": "Junctional epidermolysis bullosa (LAMC2)", "description": "The layer that anchors skin to the body never formed. The hoof walls separate and the skin tears away wherever the foal puts weight. It does not survive.", "severity": "lethal_at_birth" }
+    { "id": "junctional-epidermolysis-bullosa-lamc2", "name": "Junctional epidermolysis bullosa (LAMC2)", "description": "The layer that anchors the outer skin to the body does not hold. The skin and the lining of the mouth blister and come away, and the hoof wall may detach so that the hooves slough. The foal does not survive.", "severity": "lethal_at_birth" }
   ],
   "frequencies": [
     {
@@ -35,5 +36,10 @@
       ]
     }
   ],
-  "citations": []
+  "citations": [
+    { "source": "paper", "label": "Spirito et al. 2003, a mutation in LAMC2 causes Herlitz junctional epidermolysis bullosa in two French draft horse breeds (Genetics Selection Evolution)", "url": "https://www.gse-journal.org/articles/gse/abs/2003/02/g350207/g350207.html" },
+    { "source": "ucdavis-vgl", "label": "UC Davis VGL: Junctional Epidermolysis Bullosa (JEB1) in Belgians", "url": "https://vgl.ucdavis.edu/test/jeb-belgian" },
+    { "source": "other", "label": "UC Davis Center for Equine Health: Junctional Epidermolysis Bullosa", "url": "https://ceh.vetmed.ucdavis.edu/health-topics/junctional-epidermolysis-bullosa-jeb" },
+    { "source": "omia", "label": "OMIA 001678-9796: Epidermolysis bullosa, junctional, LAMC2-related", "url": "https://omia.org/OMIA001678/9796/" }
+  ]
 }
