@@ -1,9 +1,10 @@
-RYR2 - science notes
-(The owner's research notes, filed 2026-10-12. The bracketed markers ([web:1]) point to the sources that research used; the list of
-those sources was not supplied with the document, so no address can be given here.
-No source was opened by the session that filed this. genes/ryr2.json was changed to match
-on the owner's word the same day; what is left over is in knowledge/known-issues.txt.
-Not yet audited.)
+Abstracted jump strength - science notes
+(This locus was called "ryr2" until 2026-10-12. It is an abstraction: a stand-in for
+inherited jumping ability, with invented alleles. It was renamed because the research
+below found that no variant of the real RYR2 gene is established to affect any trait in
+the horse. What follows is the owner's research on RYR1 and RYR2, kept here as the
+reason for the rename; RYR1 has its own locus, genes/ryr1.json. The bracketed markers
+point to sources the research used; their list was not supplied. Not yet audited.)
 
 Overview
 --------

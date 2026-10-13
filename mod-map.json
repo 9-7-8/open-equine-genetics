@@ -40,7 +40,7 @@
     { "locus": "mstn", "mod_key": "horsegenetics.mstn", "mod_allele_order": ["C", "T"] },
     { "locus": "pdk4", "mod_key": "horsegenetics.pdk4", "mod_allele_order": ["A", "G"] },
     { "locus": "ckm", "mod_key": "horsegenetics.ckm", "mod_allele_order": ["T", "C"] },
-    { "locus": "ryr2", "mod_key": "horsegenetics.ryr2", "mod_allele_order": ["J", "n"] },
+    { "locus": "abstracted_jump_strength", "mod_key": "horsegenetics.ryr2", "mod_allele_order": ["J", "n"] },
     { "locus": "lcorl", "mod_key": "horsegenetics.lcorl", "mod_allele_order": ["L", "n"] },
     { "locus": "hmga2", "mod_key": "horsegenetics.hmga2", "mod_allele_order": ["p", "N"] },
     { "locus": "acan", "mod_key": "horsegenetics.acan", "mod_allele_order": ["D1", "D2", "D3", "D4", "D5", "N"] },

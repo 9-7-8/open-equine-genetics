@@ -1,11 +1,11 @@
 {
   "format": 2,
-  "id": "ryr2",
+  "id": "abstracted_jump_strength",
   "species": "horse",
-  "name": "Jumping ability (abstracted; not the RYR2 gene)",
+  "name": "Abstracted jump strength",
   "symbol": null,
   "evidence": "abstracted",
-  "summary": "A stand-in for inherited jumping ability: each J copy adds jump strength. Its alleles are invented. The id is historical. The real RYR2 gene is the calcium-release channel of heart muscle, and no variant of it is established to affect jumping, performance or any other trait in the horse; research on equine heart-rhythm genetics has not produced a validated RYR2 allele.",
+  "summary": "A stand-in for inherited jumping ability: each J copy adds jump strength. Its alleles are invented. This locus had the id ryr2 until 2026-10-12, when it was renamed because it has nothing to do with that gene: the real RYR2 is the calcium-release channel of heart muscle, and no variant of that gene is established to affect jumping, performance or any other trait in the horse; research on equine heart-rhythm genetics has not produced a validated RYR2 allele.",
   "inheritance": "autosomal",
   "affects_coat": false,
   "alleles": [
