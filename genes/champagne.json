@@ -4,17 +4,18 @@
   "species": "horse",
   "name": "Champagne",
   "symbol": "SLC36A1",
+  "chromosome": "14",
   "evidence": "published",
-  "summary": "A dilution that ignores its own dose - one copy or two give the same result. It keeps most red, cuts black hard and feeds some removed black back as red, so it reads off the current colour: gold on chestnut, taupe on black, chocolate points over a gold body on bay. Invisible on white - except the eye, which it dilutes to anything from amber through hazel to a rare olive green, per horse and inherited with the allele.",
+  "summary": "Champagne, a dominant dilution caused by one missense change in SLC36A1 on chromosome 14 (c.188C>G, T63R). It lightens both pigments: red to gold and black to brown or chocolate - gold champagne on a chestnut, amber on a bay, classic on a black. One copy and two look the same; no visible double-champagne effect is established. Its surest signs are in the skin and eyes rather than the coat: pinkish or lavender skin that gains darker mottling with age, and eyes that are blue or blue-green in the foal and darken to amber, hazel or light brown. UC Davis recognises one champagne allele only.",
   "inheritance": "autosomal",
   "affects_coat": true,
   "alleles": [
     { "id": "Ch", "name": "Champagne", "wild_type": false, "quality": "unverified" },
-    { "id": "c", "name": "Wild-type", "wild_type": true, "quality": "unverified" }
+    { "id": "c", "name": "Wild-type (N)", "wild_type": true, "quality": "unverified" }
   ],
   "phenotypes": [
     { "id": "wild", "name": "Wild type", "description": "No dilution.", "changes_coat": false },
-    { "id": "champagne", "name": "Champagne", "description": "Red mostly kept and black cut hard, with some of the removed black fed back as red - gold champagne on a chestnut, classic taupe on a black, amber with chocolate points on a bay. One copy and two look the same. The eye is diluted too, landing anywhere from amber through hazel to a rare olive green, and which one is inherited with the allele.", "changes_coat": true }
+    { "id": "champagne", "name": "Champagne", "description": "Both pigments diluted: red to gold and black to brown or chocolate - gold champagne on a chestnut, amber champagne with brown points on a bay, classic champagne, a dark tan or taupe, on a black. One copy and two look the same. The skin is pinkish or lavender and mottles darker with age; the eyes are blue or blue-green in the foal and darken to amber, hazel or light brown.", "changes_coat": true }
   ],
   "genotypes": [
     { "alleles": ["c", "c"], "phenotype": "wild" },
@@ -35,6 +36,8 @@
   "citations": [
     { "source": "paper", "label": "Cook et al., PLoS Genet. 4:e1000195", "url": "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1000195", "verified": false },
     { "source": "omia", "label": "OMIA 001263", "url": "https://omia.org/OMIA001263/9796/", "verified": false },
-    { "source": "pubmed", "label": "PMC9498372", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9498372/", "verified": false }
+    { "source": "pubmed", "label": "PMC9498372", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9498372/", "verified": false },
+    { "source": "ucdavis-vgl", "label": "UC Davis VGL: Champagne", "url": "https://vgl.ucdavis.edu/test/champagne", "verified": false },
+    { "source": "other", "label": "AQHA: the unusual horse color called champagne", "url": "https://www.aqha.com/widget/-/the-unusual-horse-color-called-champagne", "verified": false }
   ]
 }
