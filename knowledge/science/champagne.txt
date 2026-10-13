@@ -4,6 +4,14 @@ No source was opened by the session that filed this. genes/champagne.json was ch
 on the owner's word the same day; what is left over is in knowledge/known-issues.txt.
 Not yet audited.)
 
+ROUND TWO (the owner's answers to the open research questions, 2026-10-12)
+--------------------------------------------------------------------------
+These came after everything below. Where they disagree with it, this section and the gene
+file stand, unless a line says the point is unsettled. The whole answer is in
+knowledge/science/round-2-answers.txt. No address has been opened by a maintainer.
+- Described as concentrated in the Tennessee Walking Horse, Missouri Fox Trotter, American
+  Cream Draft, Quarter Horse and related breeds. No figure was given.
+
 Champagne is a simple autosomal-dominant coat-color dilution caused by a missense mutation in SLC36A1 on equine chromosome 14. It lightens both red and black pigment, and its most reliable identifying traits are pinkish/lavender skin and amber eyes—not the coat color alone. [vgl.ucdavis](https://vgl.ucdavis.edu/test/champagne)
 
 Locus and alleles
