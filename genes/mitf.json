@@ -4,45 +4,68 @@
   "species": "horse",
   "name": "MITF (splash white)",
   "symbol": "MITF",
+  "chromosome": "16",
   "evidence": "published",
-  "summary": "The first of two splash-white loci (with PAX3): white rising from below in a hard-edged waterline over the legs, belly and face. Splash is really two genes, so a horse can carry a copy here and a copy on PAX3 and be markedly whiter than either alone.",
+  "summary": "The first of two splash-white loci (with PAX3): white over the legs, belly and face, often a broad blaze and blue eyes, dominant and very variable in extent. UC Davis recognises six MITF splash variants - SW1, SW3, SW5, SW6, SW7 and SW8; SW1 is the widespread one and the rest are rare or confined to a family. SW9 is a commercial laboratory's name for a variant in the Pura Raza Espanola and is not on the UC Davis list. No horse with two copies of SW3, SW5, SW6, SW7 or SW8 has been detected; UC Davis says such pairs may be lethal as embryos and advises against breeding two SW3 carriers. No outcome is published for a pair of two different variants. Splash is two genes, so a horse can carry a copy here and a copy at PAX3 and be whiter than either alone. Some splash-white horses are deaf.",
   "inheritance": "autosomal",
   "affects_coat": true,
   "alleles": [
-    { "id": "SW3", "name": "Splash white 3 (SW3)", "wild_type": false },
-    { "id": "SW1", "name": "Splash white 1 (SW1)", "wild_type": false },
-    { "id": "SW5", "name": "Splash white 5 (SW5)", "wild_type": false },
-    { "id": "SW9", "name": "Splash white 9 (SW9)", "wild_type": false },
-    { "id": "N", "name": "Wild-type (N)", "wild_type": true }
+    { "id": "SW3", "name": "Splash white 3", "wild_type": false },
+    { "id": "SW1", "name": "Splash white 1", "wild_type": false },
+    { "id": "SW5", "name": "Splash white 5", "wild_type": false },
+    { "id": "SW9", "name": "Splash white 9", "wild_type": false },
+    { "id": "N", "name": "Wild-type", "wild_type": true },
+    { "id": "SW6", "name": "Splash white 6", "wild_type": false },
+    { "id": "SW7", "name": "Splash white 7", "wild_type": false },
+    { "id": "SW8", "name": "Splash white 8", "wild_type": false }
   ],
   "phenotypes": [
     { "id": "wild", "name": "Wild type", "description": "No splash markings.", "changes_coat": false },
-    { "id": "splash-minimal", "name": "Minimal splash white", "description": "Usually no more than a star or a snip and a clean-edged sock or two - markings you would not look at twice - and sometimes a blue eye beside them. But the same single copy occasionally draws a broad blaze, high white and a belly, so two horses with this genotype need not look remotely alike.", "changes_coat": true },
-    { "id": "splash", "name": "Splash white", "description": "As if the horse had been dipped in white paint to just above the knee: high leg white with a clean, sharply bounded edge, white up the belly and a broad blaze. How much varies enormously between horses with the same genotype.", "changes_coat": true },
-    { "id": "splash-bold", "name": "Bold splash white", "description": "The same pattern carried up the barrel: white well past the elbow and stifle, a bald face, and only the topline and quarters left coloured. Two copies of SW1 land here, and so does a single SW3.", "changes_coat": true },
-    { "id": "splash-extensive", "name": "Extensive splash white", "description": "Almost the whole horse below the topline is white, with colour surviving only along the spine and over the ears. This is where two different MITF variants meet.", "changes_coat": true }
+    { "id": "splash", "name": "Splash white", "description": "One splash variant. Typically a broad blaze, white legs with a clean, sharply bounded edge, white on the belly and often blue eyes - but expression varies enormously: the same genotype can show no more than a star and a sock, or a great deal of white. No rule that one variant gives more white than another is established.", "changes_coat": true },
+    { "id": "splash-bold", "name": "Bold splash white", "description": "Two copies of the same variant, where that pair is known alive. More white than one copy gives, and such a horse may be very extensively or entirely white.", "changes_coat": true },
+    { "id": "splash-undocumented", "name": "Splash white, pair not documented", "documented": false, "description": "Two different MITF splash variants. No outcome is published for any such pair. More white than one variant gives is expected, and such a horse can be extensively white, but the exact outcome is variable and not characterised; no consistent appearance should be assumed.", "changes_coat": true },
+    { "id": "splash-homozygote-undetected", "name": "Two copies, never detected", "documented": false, "description": "No horse with two copies of this variant has been detected. UC Davis says such homozygotes may be lethal as embryos; that is not established.", "changes_coat": true }
   ],
   "genotypes": [
     { "alleles": ["N", "N"], "phenotype": "wild" },
     { "alleles": ["SW9", "N"], "phenotype": "splash" },
     { "alleles": ["SW9", "SW9"], "phenotype": "splash-bold", "conditions": ["splash-deafness"] },
-    { "alleles": ["SW5", "N"], "phenotype": "splash" },
-    { "alleles": ["SW5", "SW9"], "phenotype": "splash-bold", "conditions": ["splash-deafness"] },
-    { "alleles": ["SW5", "SW5"], "phenotype": "splash-bold", "conditions": ["splash-deafness"] },
-    { "alleles": ["SW1", "N"], "phenotype": "splash-minimal" },
-    { "alleles": ["SW1", "SW9"], "phenotype": "splash-bold", "conditions": ["splash-deafness"] },
-    { "alleles": ["SW1", "SW5"], "phenotype": "splash-bold", "conditions": ["splash-deafness"] },
+    { "alleles": ["SW5", "N"], "phenotype": "splash", "conditions": ["splash-deafness"] },
+    { "alleles": ["SW5", "SW9"], "phenotype": "splash-undocumented", "conditions": ["splash-deafness"] },
+    { "alleles": ["SW5", "SW5"], "phenotype": "splash-homozygote-undetected" },
+    { "alleles": ["SW1", "N"], "phenotype": "splash" },
+    { "alleles": ["SW1", "SW9"], "phenotype": "splash-undocumented", "conditions": ["splash-deafness"] },
+    { "alleles": ["SW1", "SW5"], "phenotype": "splash-undocumented", "conditions": ["splash-deafness"] },
     { "alleles": ["SW1", "SW1"], "phenotype": "splash-bold", "conditions": ["splash-deafness"] },
-    { "alleles": ["SW3", "N"], "phenotype": "splash-bold" },
-    { "alleles": ["SW3", "SW9"], "phenotype": "splash-extensive", "conditions": ["splash-deafness"] },
-    { "alleles": ["SW3", "SW5"], "phenotype": "splash-extensive", "conditions": ["splash-deafness"] },
-    { "alleles": ["SW3", "SW1"], "phenotype": "splash-extensive", "conditions": ["splash-deafness"] }
-  ],
-  "nonviable_genotypes": [
-    { "alleles": ["SW3", "SW3"], "phenotype": "splash-extensive" }
+    { "alleles": ["SW3", "N"], "phenotype": "splash" },
+    { "alleles": ["SW3", "SW9"], "phenotype": "splash-undocumented", "conditions": ["splash-deafness"] },
+    { "alleles": ["SW3", "SW5"], "phenotype": "splash-undocumented", "conditions": ["splash-deafness"] },
+    { "alleles": ["SW3", "SW1"], "phenotype": "splash-undocumented", "conditions": ["splash-deafness"] },
+    { "alleles": ["SW6", "N"], "phenotype": "splash" },
+    { "alleles": ["SW6", "SW3"], "phenotype": "splash-undocumented", "conditions": ["splash-deafness"] },
+    { "alleles": ["SW6", "SW1"], "phenotype": "splash-undocumented", "conditions": ["splash-deafness"] },
+    { "alleles": ["SW6", "SW5"], "phenotype": "splash-undocumented", "conditions": ["splash-deafness"] },
+    { "alleles": ["SW6", "SW9"], "phenotype": "splash-undocumented", "conditions": ["splash-deafness"] },
+    { "alleles": ["SW6", "SW6"], "phenotype": "splash-homozygote-undetected" },
+    { "alleles": ["SW7", "N"], "phenotype": "splash" },
+    { "alleles": ["SW7", "SW3"], "phenotype": "splash-undocumented", "conditions": ["splash-deafness"] },
+    { "alleles": ["SW7", "SW1"], "phenotype": "splash-undocumented", "conditions": ["splash-deafness"] },
+    { "alleles": ["SW7", "SW5"], "phenotype": "splash-undocumented", "conditions": ["splash-deafness"] },
+    { "alleles": ["SW7", "SW9"], "phenotype": "splash-undocumented", "conditions": ["splash-deafness"] },
+    { "alleles": ["SW7", "SW6"], "phenotype": "splash-undocumented", "conditions": ["splash-deafness"] },
+    { "alleles": ["SW7", "SW7"], "phenotype": "splash-homozygote-undetected" },
+    { "alleles": ["SW8", "N"], "phenotype": "splash" },
+    { "alleles": ["SW8", "SW3"], "phenotype": "splash-undocumented", "conditions": ["splash-deafness"] },
+    { "alleles": ["SW8", "SW1"], "phenotype": "splash-undocumented", "conditions": ["splash-deafness"] },
+    { "alleles": ["SW8", "SW5"], "phenotype": "splash-undocumented", "conditions": ["splash-deafness"] },
+    { "alleles": ["SW8", "SW9"], "phenotype": "splash-undocumented", "conditions": ["splash-deafness"] },
+    { "alleles": ["SW8", "SW6"], "phenotype": "splash-undocumented", "conditions": ["splash-deafness"] },
+    { "alleles": ["SW8", "SW7"], "phenotype": "splash-undocumented", "conditions": ["splash-deafness"] },
+    { "alleles": ["SW8", "SW8"], "phenotype": "splash-homozygote-undetected" },
+    { "alleles": ["SW3", "SW3"], "phenotype": "splash-homozygote-undetected" }
   ],
   "conditions": [
-    { "id": "splash-deafness", "name": "Congenital deafness", "description": "Two splash copies at one locus. The pigment cells that never reached the coat never reached the inner ear either, and the horse is deaf.", "severity": "informational" }
+    { "id": "splash-deafness", "name": "Deafness risk (assumption of this data)", "description": "Some splash-white horses, but not all, are deaf from birth: the pigment cells missing from the coat can be missing from the inner ear too. SW5 is treated here as carrying a raised risk, and so is every pair of two splash variants. That is a cautious rule of this data, not an established risk table for each genotype: UC Davis says the risk for single and combined variants still needs study, and that it is not known whether SW8 alone causes deafness.", "severity": "informational" }
   ],
   "frequencies": [
     {
@@ -56,5 +79,12 @@
       ]
     }
   ],
-  "citations": []
+  "citations": [
+    { "source": "ucdavis-vgl", "label": "UC Davis VGL: Splashed White Mutations - SW1 to SW8", "url": "https://vgl.ucdavis.edu/test/splashed-white" },
+    { "source": "ucdavis-vgl", "label": "UC Davis VGL: VGL researchers identify a novel Splashed White variant (SW8)", "url": "https://vgl.ucdavis.edu/news/vgl-researchers-identify-sw8" },
+    { "source": "ucdavis-vgl", "label": "UC Davis VGL: APHA White Pattern Registration Eligibility Panel", "url": "https://vgl.ucdavis.edu/test/apha-white-pattern-panel" },
+    { "source": "paper", "label": "Hauswirth et al. 2012, PLoS Genetics: Mutations in MITF and PAX3 cause splashed white", "url": "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1002653" },
+    { "source": "pubmed", "label": "PMC7238438: Henkel et al. 2020, a de novo MITF deletion explains a novel splashed white phenotype", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7238438/" },
+    { "source": "paper", "label": "A de novo 2.3 kb structural variant in MITF explains a novel splashed white phenotype in a Thoroughbred family (Animal Genetics, 2023)", "url": "https://onlinelibrary.wiley.com/doi/full/10.1111/age.13352" }
+  ]
 }
