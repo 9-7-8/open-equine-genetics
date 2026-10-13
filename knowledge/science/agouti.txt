@@ -7,6 +7,17 @@ No source was opened by the session that filed this. genes/agouti.json was chang
 on the owner's word the same day; what is left over is in knowledge/known-issues.txt.
 Not yet audited.)
 
+ROUND TWO (the owner's answers to the open research questions, 2026-10-12)
+--------------------------------------------------------------------------
+These came after everything below. Where they disagree with it, this section and the gene
+file stand, unless a line says the point is unsettled. The whole answer is in
+knowledge/science/round-2-answers.txt. No address has been opened by a maintainer.
+- A is very common in most breeds; a is described as common in Friesians, Morgans,
+  Standardbreds and some Iberian and gaited lines. No figure was given.
+- Seal brown is best explained by regulation in the ASIP region plus polygenic shade
+  modifiers; it is not a single accepted "brown allele". The proposed shade modifier near
+  ASIP is still under investigation. This agrees with At being marked invalid.
+
 A Complete Research Report
 --------------------------
 
