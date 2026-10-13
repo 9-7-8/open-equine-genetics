@@ -4,6 +4,16 @@ No source was opened by the session that filed this. genes/grey.json was changed
 on the owner's word the same day; what is left over is in knowledge/known-issues.txt.
 Not yet audited.)
 
+ROUND TWO (the owner's answers to the open research questions, 2026-10-12)
+--------------------------------------------------------------------------
+These came after everything below. Where they disagree with it, this section and the gene
+file stand, unless a line says the point is unsettled. The whole answer is in
+knowledge/science/round-2-answers.txt. No address has been opened by a maintainer.
+- Asked how fast a G2/G3 horse greys and its melanoma risk, the answer treats "G2/G3" as a
+  clinical grading scale, not as the two alleles, and gives no figure. It says only that
+  greying varies by lineage and age and that melanoma risk rises with age. The question is
+  still open.
+
 LATEST FINDINGS (the owner's audit answers, 2026-10-12)
 -------------------------------------------------------
 These came after the text below and correct it. Where the two disagree, this section and

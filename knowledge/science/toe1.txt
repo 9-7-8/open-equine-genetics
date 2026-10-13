@@ -3,6 +3,17 @@ TOE1 (cerebellar abiotrophy) - science notes
 No source was opened by the session that filed this. Not yet audited.
 genes/toe1.json follows the LATEST FINDINGS below.)
 
+ROUND TWO (the owner's answers to the open research questions, 2026-10-12)
+--------------------------------------------------------------------------
+These came after everything below. Where they disagree with it, this section and the gene
+file stand, unless a line says the point is unsettled. The whole answer is in
+knowledge/science/round-2-answers.txt. No address has been opened by a maintainer.
+- Two carriers have a one-in-four chance of an affected foal at each mating. The share of
+  Arabians affected was not given (https://pmc.ncbi.nlm.nih.gov/articles/PMC8701198/).
+- The variant lies in a region affecting both TOE1 and MUTYH, and what each contributes is
+  still being worked out; it is safest to describe the cause as a variant in the
+  TOE1/MUTYH region. The gene file already says so.
+
 LATEST FINDINGS (the owner's second research answer, 2026-10-12)
 -----------------------------------------------------------------
 The first answer, kept below, looked for TOE1 as a coat-colour locus, found none, and

@@ -2,6 +2,17 @@ Flaxen - science notes
 (Copied 2026-10-12 from the Science tab of the Procedural Horse Coats wiki page for this gene.
 Written for that project: it may mention how a game models the gene. Not yet audited.)
 
+ROUND TWO (the owner's answers to the open research questions, 2026-10-12)
+--------------------------------------------------------------------------
+These came after everything below. Where they disagree with it, this section and the gene
+file stand, unless a line says the point is unsettled. The whole answer is in
+knowledge/science/round-2-answers.txt. No address has been opened by a maintainer.
+- Flaxen has no single confirmed causal gene and is best modelled as polygenic. It stays
+  an abstraction.
+- A chestnut through ea can show flaxen if it carries the modifier or modifiers. The
+  flaxen interaction table already treats ea as e; that was reasoned and is now stated.
+- Mushroom is related to flaxen but is not the same thing.
+
 It is a phenotype, and this is a simulation of one
 --------------------------------------------------
 

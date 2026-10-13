@@ -5,6 +5,17 @@ No source was opened by the session that filed this. genes/lama3.json was change
 on the owner's word the same day; what is left over is in knowledge/known-issues.txt.
 Not yet audited.)
 
+ROUND TWO (the owner's answers to the open research questions, 2026-10-12)
+--------------------------------------------------------------------------
+These came after everything below. Where they disagree with it, this section and the gene
+file stand, unless a line says the point is unsettled. The whole answer is in
+knowledge/science/round-2-answers.txt. No address has been opened by a maintainer.
+- UNSETTLED: this answer's table gives LAMA3 as the form of Belgian and related draft
+  breeds and LAMC2 as the Saddlebred's. The earlier answer, and the gene files, have it
+  the other way round: LAMC2 (JEB1) in Belgian and related draft breeds, LAMA3 (JEB2) in
+  the American Saddlebred. The table gives no source, and the two rows may simply be
+  swapped. Nothing was changed.
+
 LATEST FINDINGS (the owner's audit answers, 2026-10-12)
 -------------------------------------------------------
 These came after the text below and correct it. Where the two disagree, this section and

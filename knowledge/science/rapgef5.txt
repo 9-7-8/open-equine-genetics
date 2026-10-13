@@ -3,6 +3,16 @@ RAPGEF5 - science notes
 No source was opened by the session that filed this. Not yet audited.
 genes/rapgef5.json follows the LATEST FINDINGS below.)
 
+ROUND TWO (the owner's answers to the open research questions, 2026-10-12)
+--------------------------------------------------------------------------
+These came after everything below. Where they disagree with it, this section and the gene
+file stand, unless a line says the point is unsettled. The whole answer is in
+knowledge/science/round-2-answers.txt. No address has been opened by a maintainer.
+- The 1.8% and 0.8% figures reflect different studies, sampling frames, and possibly
+  allele frequency against carrier share; the "1.4-1.6% carriers" looks like a later or
+  pooled estimate. All are to be treated as specific to their study. Nothing was settled,
+  and both tables stand.
+
 LATEST FINDINGS (the owner's second research answer, 2026-10-12)
 -----------------------------------------------------------------
 The first answer, kept below, looked for RAPGEF5 as a coat-colour gene, found none, and
