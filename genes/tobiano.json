@@ -6,16 +6,16 @@
   "symbol": "KIT",
   "chromosome": "3",
   "evidence": "published",
-  "summary": "Tobiano: large, smooth-edged white patches that usually cross the topline, with white legs and often a tail of mixed white and coloured hair. It is caused by an inversion of about 43 Mb on chromosome 3 that lies near KIT and probably disturbs how KIT is regulated; the KIT protein itself is unchanged. It is dominant, and horses with two copies are viable. Expression runs from the classic pattern through minimal tobiano to cryptic tobiano, which can look nearly solid apart from ordinary-looking white on the legs. Small dark \"ink spots\" inside the white are associated with tobiano but are not explained by the genotype alone. The KIT boosters W20, W32, W34 and W35 can add white to it. Common in Paints, Pintos, Shetlands, Miniatures, Warmbloods, Gypsy horses and Paso Finos; uncommon in Quarter Horses, Thoroughbreds, Standardbreds and Arabians.",
+  "summary": "Tobiano: large white patches with sharp, fairly regular, often vertical edges that usually cross the topline, white on all four legs, a head that normally stays coloured, and often a tail of two colours. It is caused by an inversion of about 43 Mb on chromosome 3 that lies near KIT and probably disturbs how KIT is regulated; the KIT protein itself is unchanged. It is dominant: one copy is enough, and a horse with two copies is viable, passes it to every foal, and does not reliably look different. Expression runs from the classic pattern through minimal tobiano to rare horses that look almost solid, so the pattern cannot always be told by eye. Small dark \"ink spots\" inside the white are associated with tobiano but are not explained by the genotype alone. The KIT boosters W20, W32, W34 and W35 can add white to it. It lies over any base colour and is not linked to lethal white, which belongs to frame overo. Common in Paints, Pintos, Shetlands, Miniatures, Warmbloods, Gypsy horses, Icelandic Horses and Paso Finos; uncommon in Quarter Horses, Thoroughbreds, Standardbreds and Arabians. UC Davis writes the genotypes N/N, N/TO and TO/TO. No effect on build, performance or health is established.",
   "inheritance": "autosomal",
   "affects_coat": true,
   "alleles": [
-    { "id": "To", "name": "Tobiano", "wild_type": false, "quality": "unverified" },
-    { "id": "to", "name": "Wild-type", "wild_type": true, "quality": "unverified" }
+    { "id": "To", "name": "Tobiano (TO)", "wild_type": false, "quality": "unverified" },
+    { "id": "to", "name": "Wild-type (N)", "wild_type": true, "quality": "unverified" }
   ],
   "phenotypes": [
-    { "id": "wild", "name": "Wild type", "description": "No white patches.", "changes_coat": false },
-    { "id": "tobiano", "name": "Tobiano", "description": "Large, smooth-edged white patches that usually run up and over the topline, with white legs and often a tail of mixed white and coloured hair. How much white there is varies from horse to horse, down to a cryptic form that looks nearly solid. One copy is enough, and two copies are viable.", "changes_coat": true }
+    { "id": "wild", "name": "Wild type", "description": "No tobiano pattern.", "changes_coat": false },
+    { "id": "tobiano", "name": "Tobiano", "description": "White patches with sharp, fairly regular, often vertical edges that usually cross the topline between the ears and the tail; white on all four legs, usually below the knees and hocks; a head that normally stays coloured; and often a tail of two colours. The white is white hair over pink skin. Eyes are usually brown, though one or both may be blue or partly blue. The amount of white varies from extensive to minimal, and rare horses look almost solid. One copy and two copies give the same pattern; two copies may show more white, but not reliably.", "changes_coat": true }
   ],
   "genotypes": [
     { "alleles": ["to", "to"], "phenotype": "wild" },
@@ -34,9 +34,10 @@
     }
   ],
   "citations": [
-    { "source": "ucdavis-vgl", "label": "UC Davis VGL", "url": "https://vgl.ucdavis.edu/test/tobiano", "verified": false },
+    { "source": "ucdavis-vgl", "label": "UC Davis VGL: Tobiano", "url": "https://vgl.ucdavis.edu/test/tobiano", "verified": false },
     { "source": "pubmed", "label": "PMID 18410476", "url": "https://pubmed.ncbi.nlm.nih.gov/18410476/", "verified": false },
     { "source": "pubmed", "label": "PMC9498372", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9498372/", "verified": false },
-    { "source": "other", "label": "Karger CGR 119:225", "url": "https://karger.com/cgr/article/119/3-4/225/61716/A-chromosome-inversion-near-the-KIT-gene-and-the", "verified": false }
+    { "source": "other", "label": "Karger CGR 119:225", "url": "https://karger.com/cgr/article/119/3-4/225/61716/A-chromosome-inversion-near-the-KIT-gene-and-the", "verified": false },
+    { "source": "other", "label": "Wikipedia: Tobiano", "url": "https://en.wikipedia.org/wiki/Tobiano", "verified": false }
   ]
 }
