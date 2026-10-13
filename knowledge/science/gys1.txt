@@ -4,6 +4,16 @@ No source was opened by the session that filed this. genes/gys1.json was changed
 on the owner's word the same day; what is left over is in knowledge/known-issues.txt.
 Not yet audited.)
 
+ROUND TWO (the owner's answers to the open research questions, 2026-10-12)
+--------------------------------------------------------------------------
+These came after everything below. Where they disagree with it, this section and the gene
+file stand, unless a line says the point is unsettled. The whole answer is in
+knowledge/science/round-2-answers.txt. No address has been opened by a maintainer.
+- GYS1 is on chromosome 10. The PSSM1 variant is c.925G>A, p.Arg309His.
+- Dominant with variable severity; UC Davis notes that horses with two copies may be more
+  severely affected.
+- Breeds: Quarter Horse, Paint, draft and Warmblood lines. No carrier frequency was given.
+
 GYS1 (glycogen synthase 1) is a muscle-metabolism gene, not a coat-color locus. In horses, its best-established disease allele causes PSSM1 (Type 1 Polysaccharide Storage Myopathy), an autosomal-dominant disorder of abnormal muscle glycogen handling. [vgl.ucdavis](https://vgl.ucdavis.edu/test/pssm1)
 
 Gene and function

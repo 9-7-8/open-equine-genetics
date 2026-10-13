@@ -4,12 +4,13 @@
   "species": "horse",
   "name": "GYS1 (PSSM1)",
   "symbol": "GYS1",
+  "chromosome": "10",
   "evidence": "published",
-  "summary": "GYS1, glycogen synthase 1, the muscle enzyme that builds glycogen. One missense change, p.R309H, leaves the enzyme permanently overactive and causes type 1 polysaccharide storage myopathy (PSSM1): muscle stores too much glycogen and an abnormal polysaccharide. It is dominant, so one copy is enough and there is no silent carrier state in the genetic sense, but penetrance is incomplete: a horse with the variant may show no signs, mild tying-up or serious exercise intolerance, depending on management, fitness, diet, sex, age and other genes. Two copies may be worse. Found in at least 30 breeds, most often in draft breeds and in Quarter Horses and related breeds, less often in Warmbloods, and reported absent from Thoroughbreds, Arabians and Standardbreds. \"PSSM2\" is a name for similar muscle disease in horses that test clear here; it is not an allele of GYS1. Any effect on performance comes from the disease, not from a separate effect on speed or build.",
+  "summary": "GYS1, glycogen synthase 1, on chromosome 10: the muscle enzyme that builds glycogen. One missense change, c.925G>A (p.Arg309His, also written R309H), leaves the enzyme permanently overactive and causes type 1 polysaccharide storage myopathy (PSSM1): muscle stores too much glycogen and an abnormal polysaccharide. It is dominant, so one copy is enough and there is no silent carrier state in the genetic sense, but penetrance is incomplete: a horse with the variant may show no signs, mild tying-up or serious exercise intolerance, depending on management, fitness, diet, sex, age and other genes. Two copies may be worse. Found in at least 30 breeds, most often in draft breeds and in Quarter Horses and related breeds, less often in Warmbloods, and reported absent from Thoroughbreds, Arabians and Standardbreds. \"PSSM2\" is a name for similar muscle disease in horses that test clear here; it is not an allele of GYS1. Any effect on performance comes from the disease, not from a separate effect on speed or build.",
   "inheritance": "autosomal",
   "affects_coat": false,
   "alleles": [
-    { "id": "P", "name": "PSSM1 (p.R309H)", "wild_type": false, "quality": "unverified" },
+    { "id": "P", "name": "PSSM1 (c.925G>A, p.Arg309His)", "wild_type": false, "quality": "unverified" },
     { "id": "N", "name": "Wild-type", "wild_type": true, "quality": "unverified" }
   ],
   "phenotypes": [
