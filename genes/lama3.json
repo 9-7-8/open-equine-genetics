@@ -4,18 +4,19 @@
   "species": "horse",
   "name": "LAMA3",
   "symbol": "LAMA3",
+  "chromosome": "8",
   "evidence": "published",
-  "summary": "LAMA3 (JEB), junctional epidermolysis bullosa, the American Saddlebred variant - a recessive lethal with the best-measured frequency in the mod: a random foal-crop sample found 9 carriers in 175. Separate from the draft breeds' LAMC2 form.",
+  "summary": "LAMA3, junctional epidermolysis bullosa type 2 (JEB2), the form found in the American Saddlebred and related breeds - a recessive lethal. A deletion of 6,589 base pairs spanning exons 24 to 27 leaves no working alpha-3 chain of laminin-332, the protein that anchors the outer skin to the layer beneath. A random sample of American Saddlebred foals born in 2007 found 9 carriers in 175, about 5 percent. A different gene from the draft breeds' LAMC2 form (JEB1).",
   "inheritance": "autosomal",
   "affects_coat": false,
   "alleles": [
-    { "id": "jeb", "name": "Epidermolysis bullosa (jeb)", "wild_type": false },
-    { "id": "N", "name": "Wild-type (N)", "wild_type": true }
+    { "id": "jeb", "name": "Junctional epidermolysis bullosa 2 (JEB2, J2)", "wild_type": false },
+    { "id": "N", "name": "Wild-type", "wild_type": true }
   ],
   "phenotypes": [
     { "id": "wild", "name": "Wild type", "description": "Two working copies. Nothing is wrong and nothing is passed on.", "changes_coat": false },
     { "id": "lama3-carrier", "name": "LAMA3 carrier", "description": "One copy of jeb. The horse is completely normal and there is no way to see it - but half its foals inherit the copy, and two carriers bred together are the only way junctional epidermolysis bullosa (lama3) appears.", "changes_coat": false },
-    { "id": "junctional-epidermolysis-bullosa-lama3", "name": "Junctional epidermolysis bullosa (LAMA3)", "description": "A missing piece of LAMA3, and the skin has nothing to hold on to. The hoof capsules come away and the skin splits at every pressure point. The foal does not survive.", "changes_coat": false }
+    { "id": "junctional-epidermolysis-bullosa-lama3", "name": "Junctional epidermolysis bullosa (LAMA3)", "description": "The layer that anchors the outer skin to the body does not hold. The skin and the lining of the mouth blister and come away, and the hoof wall may detach so that the hooves slough. The foal does not survive.", "changes_coat": false }
   ],
   "genotypes": [
     { "alleles": ["N", "N"], "phenotype": "wild" },
@@ -23,7 +24,7 @@
     { "alleles": ["jeb", "jeb"], "phenotype": "junctional-epidermolysis-bullosa-lama3", "conditions": ["junctional-epidermolysis-bullosa-lama3"] }
   ],
   "conditions": [
-    { "id": "junctional-epidermolysis-bullosa-lama3", "name": "Junctional epidermolysis bullosa (LAMA3)", "description": "A missing piece of LAMA3, and the skin has nothing to hold on to. The hoof capsules come away and the skin splits at every pressure point. The foal does not survive.", "severity": "lethal_at_birth" }
+    { "id": "junctional-epidermolysis-bullosa-lama3", "name": "Junctional epidermolysis bullosa (LAMA3)", "description": "The layer that anchors the outer skin to the body does not hold. The skin and the lining of the mouth blister and come away, and the hoof wall may detach so that the hooves slough. The foal does not survive.", "severity": "lethal_at_birth" }
   ],
   "frequencies": [
     {
@@ -35,5 +36,7 @@
       ]
     }
   ],
-  "citations": []
+  "citations": [
+    { "source": "pubmed", "label": "PMID 19016681: Graves et al. 2009, partial deletion of LAMA3 and junctional epidermolysis bullosa in the American Saddlebred (Animal Genetics)", "url": "https://pubmed.ncbi.nlm.nih.gov/19016681/" }
+  ]
 }
