@@ -1,18 +1,36 @@
 RAPGEF5 - science notes
 (The owner's research notes, filed 2026-10-12. Its sources are given in the text as addresses in brackets.
 No source was opened by the session that filed this. Not yet audited.
+genes/rapgef5.json follows the LATEST FINDINGS below.)
 
-THIS RESEARCH ANSWERS A DIFFERENT QUESTION, AND genes/rapgef5.json WAS NOT CHANGED.
-It asks whether RAPGEF5 is a coat-colour gene in horses and finds that it is not, which
-nothing here claimed. It then says no horse allele of RAPGEF5 with any effect is
-established. That contradicts the earlier notes kept below, which describe equine
-familial isolated hypoparathyroidism (EFIH) in Thoroughbred foals, with a named variant
-(c.2624C>A) and a paper (Rocha et al., PMC7544121). The research does not mention EFIH
-at all, so it has not weighed that paper and found it wanting; it has missed it.
-Both are recorded in knowledge/known-issues.txt. The question to ask instead: "Is
-equine familial isolated hypoparathyroidism (EFIH) in Thoroughbreds caused by a RAPGEF5
-variant, and what are its alleles, signs and frequency?"
-Most of its sources are marked by number only, and the list was not supplied.)
+LATEST FINDINGS (the owner's second research answer, 2026-10-12)
+-----------------------------------------------------------------
+The first answer, kept below, looked for RAPGEF5 as a coat-colour gene, found none, and
+said no horse allele of the gene has an established effect. It had missed the disorder
+this locus records. The owner asked again, about that disorder by name. Where this
+section and the first answer disagree, this section stands. No address here has been
+opened by a maintainer.
+- Equine familial isolated hypoparathyroidism (EFIH) in Thoroughbreds is caused by a
+  nonsense variant of RAPGEF5: c.2624C>A, p.Ser875*, EquCab 3.0 chr4:g.54108297G>T. It
+  truncates the protein and reduces its function.
+  https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1009028
+- Autosomal recessive. UC Davis writes N/N (clear), N/EFIH (a clinically normal carrier)
+  and EFIH/EFIH (affected; fatal). Colts and fillies alike. https://vgl.ucdavis.edu/test/efih
+- Signs come very early, reported up to about 35 days old: tetany, seizures, a stiff
+  gait and rigid muscles, lying down and then being unable to stand, fever, a fast
+  heart rate; low blood calcium with parathyroid hormone low or inappropriately normal
+  and phosphorus raised. Formerly called idiopathic hypocalcaemia. Invariably fatal.
+  https://ceh.vetmed.ucdavis.edu/news/uc-davis-researchers-identify-genetic-variant-equine-familial-isolated-hypoparathyroidism
+- Frequency. The first study found the allele in 3 of 82 randomly chosen unaffected
+  Thoroughbreds, an allele frequency of 1.8%, which UC Davis calls preliminary. A later
+  survey of United States Thoroughbreds born 1988-2019 found about 0.8% (95% interval
+  0.005-0.015 in the older horses, 0.005-0.012 in the recent ones) and concluded the
+  variant is old and rare. A UC Davis poster gives 0.77% for that data. The answer adds
+  that this implies 1.5-1.6% carriers, "consistent with later reports of about 1.4-1.6%".
+  https://pmc.ncbi.nlm.nih.gov/articles/PMC10073348/
+  https://www.vetmed.ucdavis.edu/sites/g/files/dgvnsk491/files/inline-files/STAR%20TG%20Poster%20-%20Elcombe.pdf
+- Found only in Thoroughbreds so far.
+- The answer calls c.2624C>A a "C-to-A transition"; C to A is a transversion.
 
 RAPGEF5 in Horses
 RAPGEF5 is not an established horse coat-color locus. In horses, it has no UC Davis-validated alleles, no known effect on red versus black pigment, and no recognized role in height, speed, muscle, bone, hooves, feathering, or mane/tail color. Its best-documented veterinary association is instead with idiopathic epilepsy risk in Belgian Shepherds (dogs).[[pubmed.ncbi.nlm.nih](https://pubmed.ncbi.nlm.nih.gov/39342265/)][[vgl.ucdavis](https://vgl.ucdavis.edu/resources/horse-coat-color)]
