@@ -1,6 +1,449 @@
-Agouti - science notes
+Agouti (ASIP) - science notes
+(The owner's research notes, filed 2026-10-12. The bracketed markers point to the sources listed at the end, which are named there
+without addresses. The owner gave these with the document:
+https://vgl.ucdavis.edu/test/agouti-horse ; https://vgl.ucdavis.edu/resources/horse-coat-color ;
+Brooks et al. 2020 (and, through it, Rieder et al. 2001): https://pmc.ncbi.nlm.nih.gov/articles/PMC7349280/
+No source was opened by the session that filed this. genes/agouti.json was changed to match
+on the owner's word the same day; what is left over is in knowledge/known-issues.txt.
+Not yet audited.)
+
+A Complete Research Report
+--------------------------
+
+Executive summary
+-----------------
+
+The agouti locus, molecularly identified as _ASIP_ (agouti-signaling protein), controls where black eumelanin pigment is distributed on a horse that is genetically capable of producing black pigment. It does not create red pigment, dilute pigment, produce white patterns, or by itself determine chestnut versus non-chestnut.
+
+- A/A or A/a: black pigment is restricted to the points — mane, tail, lower legs, and ear rims — producing bay in an otherwise black-capable horse. [cite:1]
+- a/a: black pigment is distributed uniformly over the body, producing black in an otherwise black-capable horse. [cite:1]
+- The recessive a allele is an 11-base-pair deletion in exon 2 of _ASIP_, annotated c.191_201del; it causes a frameshift and loss of function. [cite:1]
+- Agouti is inherited as an autosomal trait: one functional A copy is sufficient to produce the bay distribution of black pigment. [cite:1]
+
+UC Davis Veterinary Genetics Laboratory currently recognizes two confirmed alleles at the testable agouti locus: A and a. [cite:1]
+
+Relationship to Extension (MC1R)
+--------------------------------
+
+Agouti cannot be understood without Extension, the _MC1R_ locus. Extension controls whether a horse can produce black eumelanin; agouti controls its spatial distribution. [cite:2][cite:4]
+
+Extension genotype | Agouti genotype | Expected base phenotype
+E/E or E/e | A/A or A/a | Bay
+E/E or E/e | a/a | Black
+e/e | A/A, A/a, or a/a | Chestnut / red-based
+
+A chestnut horse is epistatic to agouti: because _MC1R_ e/e prevents normal black-pigment production, the horse’s _ASIP_ genotype is masked in the visible coat. Thus, an e/e A/a horse looks chestnut but can pass either A or a to offspring. [cite:2][cite:4]
+
+This is why agouti testing is especially useful for red-based breeding stock: a chestnut may silently carry a and, bred to another carrier, produce a black foal. UC Davis specifically notes that producing black requires both an E allele at Extension and an a allele at agouti. [cite:1]
+
+Molecular mechanism
+-------------------
+
+Melanocytes produce two broad pigment classes:
+
+- Eumelanin: black or brown pigment.
+- Pheomelanin: red, yellow, or reddish-brown pigment.
+
+The MC1R receptor promotes eumelanin synthesis when activated by melanocyte-stimulating hormone. ASIP acts as an antagonist of that signaling pathway: where functional ASIP is present, MC1R signaling is reduced and pigment production shifts toward pheomelanin or lighter eumelanin patterns. In the horse, the practical visible result of functional A is that black pigment is confined to the extremities. [cite:4]
+
+The confirmed recessive black allele is:
+
+\[
+ASIP^a = c.191\_201del
+\]
+
+This deletion removes 11 nucleotides from exon 2, shifts the reading frame, and produces a nonfunctional ASIP protein. Without functional ASIP signaling, black pigment is no longer restricted to the points and the horse becomes uniformly black. [cite:1]
+
+Confirmed alleles
+-----------------
+
+A — functional agouti / bay
+...........................
+
+Feature | Detail
+Common name | Agouti, bay allele
+Molecular status | Functional _ASIP_
+Inheritance | Dominant for the bay distribution
+Visible effect | Restricts black pigment to points
+Phenotype with E/- | Bay
+Phenotype with e/e | Chestnut; genotype masked
+
+A horse with A/A always transmits A. A horse with A/a transmits A to 50% of foals and a to 50%. [cite:1]
+
+a — recessive black / non-agouti
+................................
+
+Feature | Detail
+Common name | Recessive black, non-agouti
+Molecular status | c.191_201del, 11-bp exon-2 deletion
+Inheritance | Recessive
+Visible effect | Uniform black pigment distribution
+Phenotype with E/- | Black
+Phenotype with e/e | Chestnut; genotype masked
+
+Only a/a horses show the recessive black phenotype, and only if they possess at least one functional E allele. a/a horses transmit a to every foal. [cite:1]
+
+Genotype-to-phenotype matrix
+----------------------------
+
+Genotype | If E/E or E/e | If e/e | Breeding relevance
+A/A | Bay | Chestnut | Cannot produce a/a offspring.
+A/a | Bay | Chestnut, carrying black | Can produce black when bred to another a carrier.
+a/a | Black | Chestnut, carrying black | Always passes a; can produce black with any E/- partner.
+
+A common breeder error is assuming that a bay horse cannot carry recessive black. In fact, A/a bays are black carriers; only A/A bays are guaranteed not to pass a. [cite:1]
+
+What agouti does not control
+----------------------------
+
+Agouti is often over-credited in casual color discussions. It is a distribution gene, not a general “coat-color gene.”
+
+Trait | Does agouti control it? | Explanation
+Chestnut vs. black-capable base | No | That is primarily _MC1R_/Extension. [cite:2]
+Red pigment production | No directly | Red pigment is revealed or modified through MC1R/ASIP interaction, but agouti does not create the red base. [cite:4]
+Cream, dun, champagne, silver, pearl | No | Those are separate dilution or modifier loci.
+Gray | No | Gray is a separate progressive-depigmentation locus.
+White markings | No | White facial/leg markings and spotting patterns are largely governed elsewhere.
+Mane or tail color | Indirectly | Agouti determines whether mane and tail are black in a bay; it does not independently determine chestnut, flaxen, gray, or diluted manes. [cite:1][cite:2]
+Height | No established direct effect | No validated equine evidence shows _ASIP_ A/a determines stature.
+Speed | No established direct effect | Athletic performance is polygenic and heavily influenced by training, conformation, and many loci.
+Muscle mass | No established direct effect in horses | No confirmed equine _ASIP_ allele is known to determine muscling.
+Bone structure | No established direct effect | No confirmed association with equine skeletal conformation.
+Hoof shape | No | Hoof morphology is not an established agouti trait.
+Feathering | No | Feathering is associated with other genetic and breed-specific factors, not agouti.
+Behavior | Not established in horses | Speculative because _ASIP_ regulatory variation affects obesity and behavior in other mammals, but this is not a validated horse trait. [cite:4]
+
+The important nuance: ASIP biology can have pleiotropic effects in other species, especially through regulatory regions, including obesity-related phenotypes in mice. That makes health-related pleiotropy a legitimate future research question in horses, but it is not evidence that agouti determines height, speed, muscle, bone, hooves, or feathering. [cite:4]
+
+Mane and tail color
+-------------------
+
+Agouti affects mane and tail color only through its effect on black pigment.
+
+- A bay horse has a black mane and tail because functional A leaves black pigment at the points, including the mane and tail. [cite:1][cite:2]
+- A black horse also has a black mane and tail, but for the opposite reason: a/a distributes black pigment uniformly. [cite:1]
+- A chestnut horse’s mane and tail are red-based; agouti is visually hidden.
+- Dilutions and modifiers can change the visible mane/tail color: for example, cream on bay can produce buckskin with a black mane and tail, while silver can alter black-pigment expression in mane and tail.
+
+So the precise statement is: agouti helps determine whether the mane and tail are black on a bay versus black horse; it does not determine mane/tail color independently of Extension, dilution, gray, flaxen, or white-pattern genetics.
+
+Bay shade: a separate, incompletely solved problem
+--------------------------------------------------
+
+“Bay” is not one uniform phenotype. Bays range from bright red-bay to dark bay, mahogany bay, wild bay, and seal-brown-like phenotypes. The standard A/a system explains bay versus black, but not all variation in how much black appears on the body. [cite:4]
+
+A 2020 genome-wide association study examined 126 bay horses from Quarter Horses, Arabians, Persian Horses, Standardbreds, and a Thoroughbred. After accounting for known _ASIP_ and _MC1R_ genotypes, researchers found a strong association with a region on ECA22 just upstream of _ASIP_, near _RALY_. [cite:4]
+
+Finding | Status
+Bay shade is genetically variable | Well supported. [cite:4]
+A modifier locus near _ASIP_/_RALY_ influences bay shade | Strong GWAS evidence. [cite:4]
+The causal mutation is identified | No; the study could not conclusively identify it. [cite:4]
+It is a separate commercial “shade” test | Not established as a routine validated test.
+_MC1R_ dosage may affect darkness | Supported; E/E horses tended to be darker than E/e horses in that dataset. [cite:4]
+_ASIP_ A versus a has a large independent shade effect | Weak in that study once the new region and _MC1R_ were modeled. [cite:4]
+
+This is crucial for simulation design: bay darkness should not be modeled as simply a third allele at A unless a specific allele is validated. The better current model is:
+
+\[
+\text{Bay shade} = f(ASIP\ genotype,\ MC1R\ genotype,\ Shade\ locus,\ environment,\ age,\ nutrition,\ sun exposure)
+\]
+
+The study specifically recommends larger samples, more diverse breeds, calibrated photography or spectrophotometry, and better genome assembly in the difficult _ASIP_ regulatory region. [cite:4]
+
+The seal-brown controversy: is there an A^t allele?
+---------------------------------------------------
+
+Many older registries, breeders, and color-testing services use a three-allele model:
+
+- A+ or A: wild bay
+- A: bay
+- At: seal brown / brown
+- a: recessive black
+
+However, the UC Davis VGL agouti test recognizes only A and a. Its published explanation describes two known alleles and does not offer a validated At test. [cite:1]
+
+What “seal brown” usually means
+...............................
+
+A seal-brown-looking horse typically has:
+
+- A black or very dark brown body.
+- Black mane, tail, and lower legs.
+- Reddish or tan soft-point areas, especially around the muzzle, eyes, flank, elbow, and sometimes the groin.
+
+Historically, this phenotype led many people to propose a separate At allele that restricts black even less completely than bay A, leaving red or tan pigment at the soft points.
+
+Current scientific position
+...........................
+
+The cautious, evidence-based position is:
+
+1. A and a are firmly established and directly testable. [cite:1]
+2. Bay shade variation is real and has a genetic component near _ASIP_/_RALY_. [cite:4]
+3. A universally validated, independently inherited equine At allele has not been established by UC Davis’s current public testing framework. [cite:1]
+4. Some commercial laboratories may report an At result, but laboratories can differ in marker sets, nomenclature, and interpretation.
+5. “Seal brown” may represent one or more mechanisms: an unvalidated agouti-series allele, _ASIP_ regulatory variation, _MC1R_ dosage, other modifiers, sooty/pangaré effects, seasonal coat changes, or misclassification of very dark bay.
+
+Practical interpretation
+........................
+
+Claim | Best current assessment
+“Seal brown is definitely caused by At.” | Overstated; not established by UC Davis’s public agouti framework. [cite:1]
+“Seal brown is definitely just dark bay.” | Also overstated; shade variation has a genetic component beyond A/a. [cite:4]
+“At may exist as an agouti-series allele.” | Plausible but unproven in the UC Davis-recognized allele set.
+“All brown horses should be recorded as bay.” | Not necessarily; phenotype can be useful, but genotype testing is more reliable for breeding decisions.
+“A dark bay and seal brown are always genetically distinct.” | Unknown; current evidence does not cleanly separate them into validated alleles.
+
+For a genetics simulator, the safest implementation is to treat At as an optional, clearly labeled speculative allele—not as a confirmed UC Davis-validated allele.
+
+Wild bay: is there an A+ allele?
+--------------------------------
+
+“Wild bay” is a phenotype in which black points are unusually minimal: the black on the legs may stop higher or lower than expected, and the body may appear clearer or more primitive in outline. It is often associated with dun, but dun and wild bay are separate concepts.
+
+The idea of A+ as a distinct allele above A is common in hobby genetics, but it is not part of UC Davis’s currently published two-allele agouti test. [cite:1]
+
+Possible explanations for wild-bay-like phenotypes include:
+
+- A real additional agouti-series allele, not yet validated.
+- Regulatory variation near _ASIP_/_RALY_ affecting shade and point extent. [cite:4]
+- Dun and primitive markings changing the perceived distribution of pigment.
+- Breed-specific selection and polygenic modifiers.
+- Misclassification of ordinary bay, buckskin, dun, or bay dun.
+
+For now, A+ should be considered speculative or phenotype-based, not a confirmed molecular allele in the same category as A and a.
+
+Allele hierarchy: established versus speculative
+------------------------------------------------
+
+Allele | Status | Dominance relationship | Visible effect
+A | Confirmed by UC Davis | Dominant to a | Bay: black restricted to points. [cite:1]
+a | Confirmed by UC Davis | Recessive to A | Black: uniform black pigment. [cite:1]
+A+ | Speculative / not UC Davis-validated | Proposed above A | Proposed minimal-point “wild bay.”
+At | Controversial / not UC Davis-validated | Proposed between A and a | Proposed seal-brown distribution.
+
+A rigorous simulator can implement:
+
+  Established layer:
+  A > a
+  
+  Optional speculative layer:
+  A+ > A > At > a
+
+But it should visually and genetically flag A+ and At as unconfirmed or community/commercial nomenclature rather than established UC Davis alleles.
+
+Breeds and frequency
+--------------------
+
+UC Davis states that its agouti test is appropriate for all breeds. [cite:1]
+
+Agouti is not a breed-specific mutation; it is a core base-color locus found across domestic horse populations. Its frequency, however, differs dramatically by breed because breeders have selected for preferred colors.
+
+Breed group | Typical agouti relevance
+Quarter Horse | Both bay and black are common; A/a carriers are important in black-breeding programs.
+Thoroughbred | Bay is very common; black is less common but present.
+Arabian | Bay is common; black occurs and is actively selected for in some lines.
+Morgan | Both bay and black are historically important; black is a recognized breed color.
+Friesian | Nearly all are black; the breed is effectively fixed or near-fixed for E/- a/a, though genetic testing remains useful for unusual cases and outcrosses.
+Clydesdale | Bay and brown/black-influenced colors are common; extensive white markings and feathering are separate traits.
+Shire | Black, bay, and brown-type phenotypes occur; feathering is unrelated to agouti.
+Gypsy Cob / Gypsy Vanner | Black, bay, and dilute/black-based phenotypes occur; feathering is a breed trait, not agouti.
+Icelandic Horse | Bay and black bases are common; agouti interacts with dun, silver, and other loci.
+Welsh Pony | Bay and black bases are both represented; color diversity is high.
+Draft breeds generally | Bay and black-based colors are widespread; feathering and bone are independent of agouti.
+
+The key point is that agouti is ubiquitous, but the a allele is more visibly important in breeds where black is desired or fixed, while A remains extremely common in breeds where bay is the default.
+
+Inheritance examples
+--------------------
+
+Bay to black
+............
+
+Parent 1: E/e A/a bay  
+Parent 2: E/e a/a black
+
+Each parent contributes one Extension allele and one agouti allele.
+
+Foal Extension | Foal Agouti | Probability | Phenotype
+E/e | A/a | 25% | Bay
+E/e | a/a | 25% | Black
+e/e | A/a | 25% | Chestnut carrying black
+e/e | a/a | 25% | Chestnut carrying black
+
+The foal has a 50% chance of being black-based and a 50% chance of being red-based, before dilutions and patterns are considered.
+
+Two black carriers
+..................
+
+Parent 1: E/e A/a bay  
+Parent 2: E/e A/a bay
+
+Agouti cross | Probability | Result
+A/A | 25% | Bay, cannot produce black
+A/a | 50% | Bay, black carrier
+a/a | 25% | Black if E/-; chestnut if e/e
+
+This is why two visually bay horses can produce a black foal.
+
+Homozygous agouti
+.................
+
+Parent 1: A/A bay  
+Parent 2: a/a black
+
+All foals receive A from the bay parent and a from the black parent:
+
+\[
+100\%\ A/a
+\]
+
+If the foals inherit at least one E, every foal is bay. None can be black, even though one parent is black. [cite:1]
+
+Testing and breeder use
+-----------------------
+
+UC Davis offers an agouti test for all breeds and reports results as A/A, A/a, or a/a. [cite:1]
+
+Testing is most valuable when:
+
+- A chestnut horse is part of a black-producing breeding plan.
+- A bay horse’s black-carrier status matters.
+- A black horse’s ability to produce bay foals needs to be assessed.
+- A breeder wants to distinguish A/A from A/a bay stock.
+- A registry or buyer requires genotype verification.
+- A dark bay, brown, or seal-brown horse needs clarification for breeding predictions.
+
+A black phenotype tells you the horse is a/a, assuming it is truly black-based and not, for example, a very dark bay or a gray that has changed appearance. A bay phenotype tells you the horse has at least one A, but it does not tell you whether it is A/A or A/a without testing.
+
+Interaction with other color loci
+---------------------------------
+
+Locus | Interaction with agouti
+Extension / _MC1R_ | Required for agouti to be visible; e/e masks agouti. [cite:2][cite:4]
+Cream / _MATP_ | Bay + one cream = buckskin; black + one cream = smoky black; bay + two cream = perlino. Agouti determines the underlying black distribution.
+Dun / _TBX3_ | Bay dun, black dun/grulla, and red dun are possible; dun adds primitive markings and dilution but does not replace agouti.
+Silver / _PMEL17_ | Modifies black pigment, especially mane, tail, and points; agouti still determines the underlying distribution.
+Champagne | Dilutes both red and black pigment; agouti determines the underlying bay/black arrangement.
+Gray | Progressive graying can eventually obscure the base color, but the horse still carries its agouti genotype.
+White patterns | Independent of agouti; they affect where pigment-bearing cells or hair are present, not the agouti distribution rule itself.
+
+Controversies and open questions
+--------------------------------
+
+1. Is At real?
+..............
+
+The At / seal-brown allele remains the biggest practical controversy. The phenotype is real; the simple single-locus explanation is not settled in the UC Davis-recognized framework. [cite:1]
+
+2. Is A+ real?
+..............
+
+The wild-bay A+ allele is similarly plausible as a phenotype category but lacks the same level of public molecular validation as A and a. [cite:1]
+
+3. What causes dark bays?
+.........................
+
+The _ASIP_/_RALY_ region on ECA22 is a major lead, but the causal variant remains unidentified. The signal is robust, but high linkage disequilibrium makes it difficult to separate _ASIP_ regulatory effects from _RALY_ effects. [cite:4]
+
+4. Does agouti affect health?
+.............................
+
+Possibly, but not proven for common horse traits. In other species, _ASIP_ regulatory alleles can influence obesity and behavior. The equine shade study explicitly raises obesity and health management as future questions, but it does not establish an equine health effect. [cite:4]
+
+5. Can agouti affect performance?
+.................................
+
+There is no established direct equine evidence that A versus a affects speed, stamina, gait, muscle, bone, or hoof quality. Any apparent association in a breed is more likely caused by:
+
+- Population structure.
+- Selection for color alongside performance lines.
+- Shared ancestry.
+- Founder effects.
+- Human breeding preferences.
+
+For simulation purposes, agouti should be modeled as a coat-color locus, not an athletic-trait locus.
+
+Future science
+--------------
+
+The most important future directions are:
+
+1. Fine-mapping the bay-shade locus near _ASIP_ and _RALY_ with large, multi-breed datasets. [cite:4]
+2. Identifying the causal variant for shade, rather than relying on linked markers. [cite:4]
+3. Testing whether At is a real allele, a haplotype, regulatory variation, or a collection of distinct mechanisms.
+4. Testing whether A+ is real, especially in dun-containing and primitive-marking populations.
+5. Quantifying shade objectively with spectrophotometry or standardized calibrated imaging rather than owner photographs. [cite:4]
+6. Investigating possible pleiotropy of _ASIP_ regulatory variation on metabolism, obesity, insulin dynamics, and behavior in horses. [cite:4]
+7. Improving genome assembly in the structurally difficult _ASIP_ region, which has complicated prior analyses. [cite:4]
+
+Simulator design recommendations
+--------------------------------
+
+For a realistic horse-breeding simulation, use this hierarchy:
+
+Core genetic model
+..................
+
+  Extension:
+  E > e
+  
+  Agouti:
+  A > a
+  
+  Base phenotype:
+  e/e                  -> chestnut
+  E/- A/-              -> bay
+  E/- a/a              -> black
+
+Optional advanced shade model
+.............................
+
+  Shade locus:
+  Separate polygenic or major-gene modifier near ASIP/RALY
+  
+  Effects:
+  - Alters intensity and extent of black in bay horses
+  - Does not convert bay to black
+  - Interacts additively with MC1R dosage
+
+Optional speculative allele model
+.................................
+
+  A+ > A > At > a
+  
+  A+  = speculative wild bay
+  A   = confirmed bay
+  At  = speculative seal brown
+  a   = confirmed black
+
+Label A+ and At clearly in-game as:
+
+- “Phenotype-supported / historically used”
+- “Not currently UC Davis-validated”
+- “May represent shade modifiers rather than true alleles”
+
+That approach preserves scientific accuracy while still allowing the richer visual variety players expect.
+
+Bottom line
+-----------
+
+The agouti locus is deceptively simple at its core: A makes bay, a makes black, and chestnut hides both. But the real biology is richer: bay shade is genetically variable, the _ASIP_ regulatory region is complex, and proposed A+ and At alleles remain scientifically unresolved. For breeding decisions, the UC Davis-supported A/a test is the reliable foundation; for shade, seal brown, and wild bay, the field is still actively evolving. [cite:1][cite:4]
+
+Sources
+-------
+
+- UC Davis Veterinary Genetics Laboratory, “Agouti (Bay/Black) — Horse”: confirmed A and a alleles, the c.191_201del mutation, inheritance, and testing guidance. [cite:1]
+- UC Davis VGL, “Equine Coat Color Genetics”: interaction of _MC1R_ and _ASIP_ in producing chestnut, bay, and black. [cite:2]
+- Rieder et al., Mammalian Genome (2001), summarized through the equine shade study: original association of _ASIP_, _MC1R_, and _TYRP1_ variation with equine coat phenotypes. [cite:4]
+- Brooks et al., “An Independent Locus Upstream of ASIP Controls Variation in the Shade of the Bay Coat Colour in Horses,” Genes (2020): evidence for a shade modifier near _ASIP_/_RALY_, but no identified causal mutation. [cite:4]
+
+
+EARLIER NOTES, FROM THE MOD'S WIKI
+==================================
 (Copied 2026-10-12 from the Science tab of the Procedural Horse Coats wiki page for this gene.
-Written for that project: it may mention how a game models the gene. Not yet audited.)
+Written for that project: they say how a game models the gene. Where they disagree with
+the research notes above, the notes above stand.)
 
 Genetic identity
 ----------------
