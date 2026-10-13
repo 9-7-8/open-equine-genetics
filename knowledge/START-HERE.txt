@@ -37,7 +37,7 @@ WHAT IS NOT HERE YET
 --------------------
 Read knowledge/known-issues.txt before trusting anything. In short:
 - This began as an export of what the mod models. Since 2026-10-12 the owner's research
-  has been applied locus by locus (28 loci so far; knowledge/known-issues.txt lists
+  has been applied locus by locus (29 loci so far; knowledge/known-issues.txt lists
   them and the ones still to do). The rest is still the mod's export: unaudited, with
   estimated frequencies and descriptions written for a game.
 - Nothing has been checked against a source by a maintainer. Every allele of a published
