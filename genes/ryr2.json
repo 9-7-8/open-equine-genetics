@@ -2,20 +2,20 @@
   "format": 1,
   "id": "ryr2",
   "species": "horse",
-  "name": "RYR2 (jumping)",
-  "symbol": "RYR2",
-  "evidence": "published",
-  "summary": "RYR2: each J copy adds jump strength - the first gene in the mod to move a horse's jump at all.",
+  "name": "Jumping ability (abstracted; not the RYR2 gene)",
+  "symbol": null,
+  "evidence": "abstracted",
+  "summary": "A stand-in for inherited jumping ability: each J copy adds jump strength. Its alleles are invented. The id is historical. The real RYR2 gene is the calcium-release channel of heart muscle, and no variant of it is established to affect jumping, performance or any other trait in the horse; research on equine heart-rhythm genetics has not produced a validated RYR2 allele.",
   "inheritance": "autosomal",
   "affects_coat": false,
   "alleles": [
-    { "id": "J", "name": "Jumper (J)", "wild_type": false },
-    { "id": "n", "name": "Wild-type (n)", "wild_type": true }
+    { "id": "J", "name": "Jumper", "wild_type": false },
+    { "id": "n", "name": "Wild-type", "wild_type": true }
   ],
   "phenotypes": [
-    { "id": "jumper", "name": "Jumper", "description": "Two jumping copies. The full bonus to jump strength.", "changes_coat": false },
-    { "id": "jumper-mixed", "name": "Part jumper", "description": "One jumping copy, half the bonus.", "changes_coat": false },
-    { "id": "jumper-plain", "name": "Wild type", "description": "No jumping copy. Baseline jump strength.", "changes_coat": false }
+    { "id": "jumper", "name": "Jumper", "description": "Two jumping copies. The strongest jump this locus gives.", "changes_coat": false },
+    { "id": "jumper-mixed", "name": "Part jumper", "description": "One jumping copy, half the effect.", "changes_coat": false },
+    { "id": "jumper-plain", "name": "Wild type", "description": "No jumping copy. Ordinary jump strength.", "changes_coat": false }
   ],
   "genotypes": [
     { "alleles": ["n", "n"], "phenotype": "jumper-plain" },
