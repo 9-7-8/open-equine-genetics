@@ -6,7 +6,7 @@
   "symbol": "PRKDC",
   "chromosome": "9",
   "evidence": "published",
-  "summary": "PRKDC, on chromosome 9, encodes the catalytic subunit of DNA-dependent protein kinase (DNA-PKcs), which repairs double-strand breaks in DNA and is needed for the DNA rearrangement that builds antibodies and T-cell receptors. A five base-pair deletion shifts the reading frame, truncates the protein and removes its kinase activity. Two copies cause severe combined immunodeficiency (SCID): a foal with no adaptive immune system that dies of infection, generally within four to six months. It is recessive; carriers are clinically normal. It is a disease of Arabian and part-Arabian horses. A suggested link between carrier status and sarcoids is not settled. UC Davis writes the genotypes N/N, N/SCID and SCID/SCID. No effect on coat, build or performance is established.",
+  "summary": "PRKDC, on chromosome 9, encodes the catalytic subunit of DNA-dependent protein kinase (DNA-PKcs), which repairs double-strand breaks in DNA and is needed for the DNA rearrangement that builds antibodies and T-cell receptors. A five base-pair deletion shifts the reading frame, truncates the protein and removes its kinase activity. Two copies cause severe combined immunodeficiency (SCID): a foal with no adaptive immune system that dies of infection, generally within four to six months. It is recessive; carriers are clinically normal. It is a disease of Arabian and part-Arabian horses. No link between carrier status and sarcoids is established. UC Davis writes the genotypes N/N, N/SCID and SCID/SCID. No effect on coat, build or performance is established.",
   "inheritance": "autosomal",
   "affects_coat": false,
   "alleles": [

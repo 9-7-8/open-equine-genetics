@@ -5,6 +5,16 @@ No source was opened by the session that filed this. genes/prkdc.json was change
 on the owner's word the same day; what is left over is in knowledge/known-issues.txt.
 Not yet audited.)
 
+ROUND TWO (the owner's answers to the open research questions, 2026-10-12)
+--------------------------------------------------------------------------
+These came after everything below. Where they disagree with it, this section and the gene
+file stand, unless a line says the point is unsettled. The whole answer is in
+knowledge/science/round-2-answers.txt. No address has been opened by a maintainer.
+- The coordinates of the five base-pair deletion could not be verified; the answer points
+  to the original SCID publication and the UC Davis SCID page.
+- No established evidence shows that SCID carriers are more prone to sarcoids.
+- Arabian and Arabian-derived populations. No present-day carrier frequency was given.
+
 PRKDC (protein kinase, DNA-activated, catalytic polypeptide; formerly DNA-PKcs) is best known in horses as the gene behind Severe Combined Immunodeficiency (SCID), a fatal autosomal-recessive immune defect concentrated in Arabian and part-Arabian horses. It is not a coat-color locus: it does not produce red, black, dilution, white-pattern, mane/tail-color, feathering, or conformational effects. [cite:23][cite:14]
 
 Gene and locus
