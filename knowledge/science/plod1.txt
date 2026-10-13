@@ -1,6 +1,156 @@
 PLOD1 - science notes
+(The owner's research notes, filed 2026-10-12. Its sources are given in the text as addresses in brackets.
+No source was opened by the session that filed this. genes/plod1.json was changed to match
+on the owner's word the same day; what is left over is in knowledge/known-issues.txt.
+Not yet audited.)
+
+PLOD1 in Horses: Complete Locus Overview
+PLOD1 (procollagen-lysine, 2-oxoglutarate 5-dioxygenase 1) is a connective-tissue gene, not a coat-color locus. In horses, its best-established disease allele causes Fragile Foal Syndrome type 1 (FFS)—formerly called Warmblood Fragile Foal Syndrome (WFFS)—a fatal autosomal-recessive collagen defect.[[ceh.vetmed.ucdavis](https://ceh.vetmed.ucdavis.edu/health-topics/warmblood-fragile-foal-syndrome-type-1-wffs)][[vgl.ucdavis](https://vgl.ucdavis.edu/research/wffs-breed-distribution)]
+
+What PLOD1 does
+---------------
+
+PLOD1 encodes lysyl hydroxylase 1, an enzyme that hydroxylates lysine residues in collagen. Those hydroxylysine sites are needed for stable collagen cross-links, which give skin, tendons, ligaments, blood vessels, and other connective tissues their strength and elasticity. [18][2]
+
+In horses, the clinically important variant is:
+
+Allele | Molecular change | Effect
+N / normal | Wild-type PLOD1 | Normal collagen cross-linking
+FFS / WFFS | c.2032G>A, p.Gly678Arg | Impaired enzyme function; two copies cause Fragile Foal Syndrome type 1
+
+The variant is inherited autosomal recessively: one copy generally produces no known clinical signs, while two copies produce a severe, untreatable neonatal connective-tissue disorder. [16][18]
+
+Effect on red and black pigment
+-------------------------------
+
+PLOD1 has no established effect on red or black pigment. It does not determine whether a horse makes eumelanin (black/brown pigment) or pheomelanin (red/yellow pigment), nor does it dilute, restrict, or pattern either pigment type. [16][12]
+
+Base coat color is governed primarily by:
+
+- MC1R / Extension: E permits black pigment; e results in chestnut/red base color. [12]
+- ASIP / Agouti: A restricts black pigment to the points, producing bay on an E-based horse; a allows uniform black expression. [12]
+
+A PLOD1 carrier or affected foal can therefore occur on any genetically possible base color—black, bay, chestnut, or any color produced by dilution or white-pattern genes. Coat color and PLOD1 status should be treated as independent traits in a breeding simulator.
+
+Known alleles and speculation
+-----------------------------
+
+Well established
+................
+
+- N (normal): The ordinary functional allele.
+- FFS (c.2032G>A): A pathogenic missense variant associated with FFS/WFFS. UC Davis offers a direct DNA test for it. [16][18]
+
+What is not established
+.......................
+
+There is no validated menu of multiple PLOD1 “coat” or “conformation” alleles in horses analogous to, for example, cream, dun, or agouti alleles. The equine PLOD1 story is dominated by one pathogenic variant rather than a polymorphic visual trait system. [16][18]
+
+Speculative or unresolved possibilities include:
+
+- Early embryonic loss in homozygotes: UC Davis notes that homozygosity may contribute to early pregnancy loss, but says more research is needed. [16]
+- Subclinical effects in carriers: Current UC Davis guidance states that carriers have an excellent prognosis and no known health problems associated with carrier status. [16]
+- Other PLOD1 variants: Other variants may exist, but they are not established equine coat-color, performance, or conformation alleles. Any claim that PLOD1 produces a visible “type” should be treated as unsupported.
+
+Effect on body structure and performance
+----------------------------------------
+
+Because PLOD1 affects collagen cross-linking, its major proven effect is on connective-tissue integrity, especially in homozygous affected foals. [16][18]
+
+Trait | Established PLOD1 effect? | Notes
+Skin | Yes, in FFS/FFS foals | Thin, hyperextensible, fragile skin and mucous membranes; open lesions. [16]
+Joints / ligaments | Yes, in FFS foals | Hyperextensible limb joints. [16]
+Ears | Yes, in FFS foals | Floppy ears have been described. [16]
+Fetal/neonatal development | Yes, in FFS foals | Hydrops, hematomas, seromas, subcutaneous emphysema, premature birth, and nonviability can occur. [16]
+Height | No established effect | No evidence that PLOD1 genotype determines equine height.
+Speed | No established effect | A Thoroughbred study found the FFS allele was not associated with catastrophic breakdown; it does not establish a speed effect either. [14]
+Muscle mass or function | No established direct effect | PLOD1 acts through collagen, not muscle pigment or muscle-fiber type.
+Bone structure | No established equine phenotype | Collagen is important to bone, but the equine FFS variant is characterized as a connective-tissue/dermal and joint defect, not a validated bone-shape locus. [16][18]
+Hoof shape or quality | No established effect | Not a recognized cause of hoof conformation traits.
+Feathering | No effect | Feathering is unrelated to PLOD1.
+Mane or tail color | No effect | Mane and tail pigment follow the same pigment-genetic systems as body coat, not PLOD1.
+White markings or patterns | No established effect | PLOD1 is not a white-pattern or spotting locus.
+
+Clinical signs of two copies
+----------------------------
+
+Foals with FFS/FFS are abnormal from birth. UC Davis describes:
+
+- Abnormally thin, fragile, hyperextensible skin and mucous membranes.
+- Skin lesions, often developing from friction or pressure, sometimes in utero.
+- Hyperextensible limb joints.
+- Floppy ears.
+- Hematomas, seromas, hydrops, and subcutaneous emphysema.
+- Premature birth; affected foals may be stillborn, nonviable, or euthanized shortly after birth. [16]
+
+There is no treatment or cure; the prognosis for affected foals is grave. [16]
+
+Inheritance and breeding
+------------------------
+
+Mating | Expected foal outcomes
+N/N × N/N | 100% N/N
+N/N × N/FFS | 50% N/N, 50% N/FFS
+N/FFS × N/FFS | 25% N/N, 50% N/FFS, 25% FFS/FFS
+N/FFS × FFS/FFS | 50% N/FFS, 50% FFS/FFS
+FFS/FFS × FFS/FFS | 100% FFS/FFS
+
+Two carrier parents have a 25% chance of producing an affected foal per pregnancy. Breeding a carrier to a normal horse will not produce an affected foal, but can produce carriers 50% of the time. [16]
+
+Breeds where it is found
+------------------------
+
+FFS was first recognized in Warmbloods, and the allele is most common in Warmblood/sport-horse populations. UC Davis reports an average carrier frequency of about 11% across Warmbloods tested, with estimates of 9–11% in Warmblood horses more broadly. [16][18]
+
+Breed group | Finding
+Warmbloods | Primary affected population; allele detected in 17 of 19 tested Warmblood breeds. [18]
+Hanoverian | Among the highest reported carrier frequencies, about 17.3%. [18]
+Danish Warmblood | Also about 17.3% carrier frequency. [18]
+Thoroughbred | Low frequency: 17 of 716 horses were carriers, or 2.4%; allele frequency about 1.2%. [18][14]
+Knabstrupper | Allele detected: 3 of 46 tested. [18]
+Haflinger | Allele detected: 2 of 48 tested. [18]
+American Sport Pony | Allele detected: 1 of 12 tested. [18]
+Arabian | Not detected in 302 tested Arabians; evidence does not support an Arabian origin. [18]
+
+UC Davis recommends testing all Warmblood/sport-horse populations and non-Warmblood breeds in which the allele has been detected. [16]
+
+Controversy and future science
+------------------------------
+
+The main historical controversy involved whether the PLOD1 FFS allele contributed to catastrophic breakdown injuries in Thoroughbreds. A study of 716 Thoroughbreds found the allele at low frequency and concluded it was not a genetic risk factor for catastrophic breakdown; only one breakdown case carried the allele. [14]
+
+Other open questions include:
+
+- Whether homozygous FFS pregnancies sometimes end in early embryonic loss rather than a recognizable affected foal. [16]
+- The exact historical origin and founder spread of c.2032G>A; UC Davis reports that its origin remains unknown and that an Arabian origin is unlikely. [18]
+- Whether other PLOD1 or collagen-pathway variants contribute to subtle differences in skin, tendon, or joint quality. This remains a research question, not an established breeding trait.
+
+Simulator design notes
+----------------------
+
+For a horse-breeding simulation, model PLOD1 as a health/structural trait, not a color modifier:
+
+- Use two alleles: N and FFS.
+- N/FFS: visually normal carrier; no coat, height, speed, hoof, feathering, mane, or tail-color effect.
+- FFS/FFS: lethal or nonviable neonatal phenotype, with fragile skin, joint laxity, and possible fetal loss.
+- Keep PLOD1 independent of MC1R, ASIP, dilution loci, white-pattern loci, and quantitative conformation traits unless you deliberately add a house-rule mechanic.
+- If modeling real-world prevalence, make the allele uncommon outside Warmblood-derived populations and rare in Thoroughbreds. [16][18]
+
+Sources
+-------
+
+* UC Davis CEH, Fragile Foal Syndrome Type 1 (FFS): clinical signs, inheritance, testing, carrier frequency, and breed distribution.[[ceh.vetmed.ucdavis](https://ceh.vetmed.ucdavis.edu/health-topics/warmblood-fragile-foal-syndrome-type-1-wffs)]
+* UC Davis VGL, Survey Describes Prevalence of WFFS Variant in 38 Horse Breeds: breed survey, allele frequency, and Arabian-origin findings.[[vgl.ucdavis](https://vgl.ucdavis.edu/research/wffs-breed-distribution)]
+* Bellone et al., Equine Veterinary Journal: PLOD1 c.2032G>A is not associated with catastrophic breakdown and has low Thoroughbred allele frequency.[[pmc.ncbi.nlm.nih](https://pmc.ncbi.nlm.nih.gov/articles/PMC7062577/)]
+* UC Davis VGL, Equine Coat Color Genetics: baseline red/black pigment genetics via MC1R and Agouti.[[vgl.ucdavis](https://vgl.ucdavis.edu/resources/horse-coat-color)]
+* MedlinePlus Genetics, PLOD1: general function of PLOD1 in collagen cross-linking.[[medlineplus](https://medlineplus.gov/genetics/gene/plod1/)]
+
+
+EARLIER NOTES, FROM THE MOD'S WIKI
+==================================
 (Copied 2026-10-12 from the Science tab of the Procedural Horse Coats wiki page for this gene.
-Written for that project: it may mention how a game models the gene. Not yet audited.)
+Written for that project: they say how a game models the gene. Where they disagree with
+the research notes above, the notes above stand.)
 
 At a glance
 -----------

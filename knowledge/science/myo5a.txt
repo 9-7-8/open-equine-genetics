@@ -1,6 +1,92 @@
 MYO5A (lavender foal) - science notes
+(The owner's research notes, filed 2026-10-12. Its sources are given in the text as addresses in brackets.
+No source was opened by the session that filed this. genes/myo5a.json was changed to match
+on the owner's word the same day; what is left over is in knowledge/known-issues.txt.
+Not yet audited.)
+
+MYO5A is not a routine “dilution gene” for viable coat colors in horses. Its known equine role is as the causative gene for Lavender Foal Syndrome (LFS)—also called Coat Color Dilution Lethal (CCDL)—a rare, fatal autosomal-recessive neurological disease seen chiefly in Arabian horses, especially Egyptian-bloodline Arabians. [vgl.ucdavis](https://vgl.ucdavis.edu/test/lfs)
+
+Gene and protein function
+-------------------------
+
+MYO5A encodes myosin Va, an actin-based motor protein that moves vesicles and organelles within cells. In melanocytes, myosin Va works with MLPH (melanophilin) and RAB27A to transport melanosomes—the pigment-producing organelles—to the cell periphery, where pigment can be transferred into developing hair. [medlineplus](https://medlineplus.gov/genetics/gene/myo5a/)
+
+When MYO5A is nonfunctional, melanosomes cluster near the center of melanocytes rather than being delivered outward. The result is abnormal pigment distribution and a visibly diluted coat, but in horses the more important consequence is severe disruption of neuronal vesicle transport and signaling. [ceh.vetmed.ucdavis](https://ceh.vetmed.ucdavis.edu/health-topics/lavender-foal-syndrome-lfs)
+
+Equine mutation and alleles
+---------------------------
+
+The established horse allele is a single-base deletion in exon 30 of MYO5A, reported as g.138235715del by UC Davis and as c.4249del in some nomenclature. It causes a frameshift and premature stop codon, producing a nonfunctional myosin Va protein. [vgl.ucdavis](https://vgl.ucdavis.edu/test/lfs)
+
+Genotype | UC Davis-style result | Expected outcome
+N/N | Negative / clear | Normal myosin Va; not an LFS carrier
+N/LFS or N/L | Carrier | Healthy horse; can transmit the LFS allele
+LFS/LFS or L/L | Affected | Lavender Foal Syndrome; fatal or requires euthanasia shortly after birth
+
+LFS is autosomal recessive: two carrier parents have a 25% chance of an affected foal, a 50% chance of a carrier foal, and a 25% chance of a clear foal per pregnancy. [ceh.vetmed.ucdavis](https://ceh.vetmed.ucdavis.edu/health-topics/lavender-foal-syndrome-lfs)
+
+Effect on red and black pigment
+-------------------------------
+
+MYO5A affects the intracellular trafficking of melanosomes, not the biochemical production of melanin itself. Therefore, it can alter the visible distribution and intensity of both eumelanin (black/brown pigment) and phaeomelanin (red/yellow pigment), producing a pale, silvery, lavender, or pinkish coat in affected foals. [vgl.ucdavis](https://vgl.ucdavis.edu/test/lfs)
+
+It is not the same as cream (SLC45A2), dun (TBX3), champagne (SLC36A1), pearl (SLC45A2), or silver (PMEL17). Those are viable dilution loci with established allele systems; UC Davis specifically identifies cream as a SLC45A2 variant and lists silver, dun, champagne, and pearl as separate tests. [vgl.ucdavis](https://vgl.ucdavis.edu/test/cream)
+
+What it does not establish
+--------------------------
+
+There is no good evidence that MYO5A status affects viable horses’ height, speed, muscle type, bone structure, hoof shape, feathering, mane/tail length, or mane/tail color as a selectable trait. The equine MYO5A variant is lethal in homozygotes, so it cannot be maintained as a breeding phenotype in affected adults. [vgl.ucdavis](https://vgl.ucdavis.edu/test/lfs)
+
+- Mane and tail color: Only indirectly and pathologically—affected foals have diluted body hair, including mane and tail; carriers are phenotypically normal. [vgl.ucdavis](https://vgl.ucdavis.edu/test/lfs)
+- Height, speed, muscle, bone, hooves, feathering: No established association with the equine LFS allele. MYO5A’s known functions concern intracellular transport in melanocytes and neurons, not skeletal conformation or athletic traits. [ceh.vetmed.ucdavis](https://ceh.vetmed.ucdavis.edu/health-topics/lavender-foal-syndrome-lfs)
+- Viable dilution phenotypes: No verified MYO5A allele in horses produces a healthy lavender, silver, or “dilute” adult coat. Claims of a benign MYO5A dilution allele should be treated as speculation unless supported by a published variant, genotype–phenotype data, and a DNA test.
+
+Clinical presentation
+---------------------
+
+Affected foals are born with a diluted coat often described as lavender, pale pink, silver, or pale grey, though the exact shade varies. They show severe neurological dysfunction: seizures, nystagmus, inability to stand or nurse properly, stiff paddling limbs, and opisthotonos—abnormal hyperextension of the neck, back, and limbs. [vgl.ucdavis](https://vgl.ucdavis.edu/test/lfs)
+
+The prognosis is grave; affected foals die or are euthanized shortly after birth. UC Davis describes the condition as lethal and offers a definitive DNA test. [vgl.ucdavis](https://vgl.ucdavis.edu/test/lfs)
+
+Breeds and frequency
+--------------------
+
+LFS is primarily an Arabian disease, with the highest risk in Egyptian Arabian bloodlines. UC Davis reports the LFS allele at about 10.3% in Arabians of Egyptian descent and about 1.6% in non-Egyptian Arabians; the original mapping study similarly found 10.3% carriers among unrelated Egyptian Arabians and 1.8% among non-Egyptian Arabians. [vgl.ucdavis](https://vgl.ucdavis.edu/test/lfs)
+
+Other studies and breed-screening reports have found carriers in broader Arabian populations and in some Arab-derived or Arabian-cross populations, but it remains strongly concentrated in Arabian ancestry. UC Davis includes LFS in its Arabian health panel alongside other Arabian-specific genetic disease tests. [pmc.ncbi.nlm.nih](https://pmc.ncbi.nlm.nih.gov/articles/PMC8701198/)
+
+Testing and breeder use
+-----------------------
+
+UC Davis Veterinary Genetics Laboratory offers a direct LFS test and includes it in the Arabian Health Panel. Testing is most useful before breeding Arabians or Arabian crosses, particularly animals with Egyptian pedigree influence. [vgl.ucdavis](https://vgl.ucdavis.edu/test/lfs)
+
+A practical breeding rule is:
+
+- Clear × clear: no affected foals from this locus.
+- Clear × carrier: no affected foals; approximately 50% carriers.
+- Carrier × carrier: 25% affected, 50% carriers, 25% clear.
+- Avoid carrier × carrier matings if the goal is to eliminate LFS risk.
+
+Controversy and open questions
+------------------------------
+
+The core genetics are settled: the exon-30 deletion causes LFS, inheritance is autosomal recessive, and carrier testing is available. The open questions concern population monitoring and allele-frequency precision, because estimates differ by sampling frame, country, bloodline, and whether horses were selected because of family history. [vgl.ucdavis](https://vgl.ucdavis.edu/test/lfs)
+
+There is also occasional confusion in fancier horse-genetics spaces between:
+
+- LFS / MYO5A: a lethal dilution-plus-neurologic disease.
+- Silver dapple / PMEL17: a viable mane-and-tail-focused black-pigment dilution.
+- Cream / SLC45A2: a viable dilution with dosage effects on red and black pigment.
+- Lavender or “silvery” coat descriptions: descriptive terms that do not by themselves identify a gene.
+
+For a simulator, model MYO5A as a lethal recessive health allele, not as a cosmetic dilution locus: N/N and N/L are viable, while L/L should either be nonviable, die neonatally, or be excluded from the breeding pool with an appropriate lethal outcome. [vgl.ucdavis](https://vgl.ucdavis.edu/test/lfs)
+
+
+EARLIER NOTES, FROM THE MOD'S WIKI
+==================================
 (Copied 2026-10-12 from the Science tab of the Procedural Horse Coats wiki page for this gene.
-Written for that project: it may mention how a game models the gene. Not yet audited.)
+Written for that project: they say how a game models the gene. Where they disagree with
+the research notes above, the notes above stand.)
 
 At a glance
 -----------

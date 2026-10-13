@@ -1,6 +1,98 @@
 PPIB (HERDA) - science notes
+(The owner's research notes, filed 2026-10-12. Its sources are given in the text as addresses in brackets.
+No source was opened by the session that filed this. genes/ppib.json was changed to match
+on the owner's word the same day; what is left over is in knowledge/known-issues.txt.
+Not yet audited.)
+
+PPIB (peptidylprolyl isomerase B, also called cyclophilin B) is not a coat-color locus. In horses, its well-established relevance is as the gene carrying the causal mutation for HERDA—hereditary equine regional dermal asthenia—a recessive connective-tissue/skin disease concentrated in Quarter Horse–related breeds. [ncbi.nlm.nih](https://www.ncbi.nlm.nih.gov/gene/100066834)
+
+What PPIB does
+--------------
+
+PPIB encodes cyclophilin B, an enzyme in the endoplasmic reticulum that assists proper folding and processing of collagen—especially type I collagen, the major structural protein of skin, tendon, ligament, and bone. It works with CRTAP and P3H1 in a collagen-modification complex. [uniprot](https://www.uniprot.org/uniprotkb/P23284/entry)
+
+In horses, the disease-associated variant is a missense mutation in exon 1, commonly reported as c.115G>A, changing an amino acid near the N-terminus of the protein. This impairs normal collagen maturation rather than eliminating the gene outright. [labgenvet](https://labgenvet.ca/en/disease/hereditary-equine-regional-dermal-asthenia-herda/)
+
+Alleles and inheritance
+-----------------------
+
+Genotype | Usual label | Expected outcome
+N/N | Clear / non-carrier | No HERDA risk from this variant
+N/HR or N/H | Carrier / heterozygote | Typically clinically normal; can pass the variant to 50% of foals
+HR/HR or H/H | Affected / homozygous | HERDA; fragile, hyperelastic skin and severe lesioning, usually becoming apparent around age 1.5–2 years
+
+HERDA is autosomal recessive: two carrier parents can produce affected foals, while carriers themselves generally do not show disease. [aqha](https://www.aqha.com/widget/-/genetic-test-roundup)
+
+The exact allele notation varies by laboratory; UC Davis and AQHA commonly report HERDA status as N/N, N/HR, or HR/HR (or equivalent carrier/affected wording), so use the laboratory’s notation rather than assuming a universal symbol. UC Davis’s Veterinary Genetics Laboratory includes HERDA in Quarter Horse and related-breed disease panels. [aqha](https://www.aqha.com/widget/-/genetic-test-roundup)
+
+Effects on the horse
+--------------------
+
+Skin and connective tissue — established
+........................................
+
+HERDA affects the dermis: skin becomes loose, hyperextensible, thin, and poorly attached to underlying tissue. Minor trauma—especially along the back, saddle area, mane, and withers—can cause splitting, seromas, open wounds, slow healing, and scarring. [aqha](https://www.aqha.com/widget/-/genetic-test-roundup)
+
+Because collagen is structural throughout the body, the mutation plausibly affects more than skin, but in horses the dominant, well-documented phenotype is cutaneous. The severe bone disease seen with human PPIB mutations is not the characteristic presentation of equine HERDA. [pmc.ncbi.nlm.nih](https://pmc.ncbi.nlm.nih.gov/articles/PMC3063987/)
+
+Coat, mane, and tail color — no established effect
+..................................................
+
+PPIB does not determine base color, dilution, white patterning, gray, roaning, mane/tail color, or feathering. Red versus black pigment is governed by loci such as MC1R (e) and ASIP (A), not PPIB. [vgl.ucdavis](https://vgl.ucdavis.edu/test/horse-embryo)
+
+Any apparent association with color in a pedigree is usually population structure: HERDA is common in Quarter Horse bloodlines that may also carry particular color alleles, but that is correlation, not causation.
+
+Height, speed, muscle, bone, hooves — no proven direct effects
+..............................................................
+
+There is no good evidence that the HERDA variant improves or determines height, racing speed, muscle mass, hoof shape, feathering, or bone structure. Its primary demonstrated consequence is defective dermal connective tissue. [pmc.ncbi.nlm.nih](https://pmc.ncbi.nlm.nih.gov/articles/PMC3063987/)
+
+That said, affected horses’ recurrent wounds, pain, scarring, and inability to tolerate normal riding tack can indirectly reduce athletic usability. That is a management consequence of disease, not a performance allele.
+
+Breeds and prevalence
+---------------------
+
+PPIB-associated HERDA is most associated with the American Quarter Horse and breeds with substantial Quarter Horse ancestry, including American Paint Horses and Appaloosas. [labgenvet](https://labgenvet.ca/en/disease/hereditary-equine-regional-dermal-asthenia-herda/)
+
+Reported carrier frequencies include roughly 3.5% in U.S. Quarter Horses and 1.6% in French Quarter Horses; other estimates place Quarter Horse carrier frequency around 1.8–6.5%. Within cutting and cow-horse lines, carrier frequency has been reported much higher—around 28%—which is why pedigree alone is unreliable. [pubmed.ncbi.nlm.nih](https://pubmed.ncbi.nlm.nih.gov/21118319/)
+
+Speculation versus established science
+--------------------------------------
+
+Claim | Status
+PPIB variant causes HERDA in Quarter Horse-related horses | Established  [jbc](https://www.jbc.org/article/S0021-9258(20)49754-6/fulltext)
+Inheritance is autosomal recessive | Established  [labgenvet](https://labgenvet.ca/en/disease/hereditary-equine-regional-dermal-asthenia-herda/)
+Carriers are usually clinically normal | Established  [aqha](https://www.aqha.com/widget/-/genetic-test-roundup)
+PPIB affects collagen folding/maturation | Established  [uniprot](https://www.uniprot.org/uniprotkb/P23284/entry)
+PPIB changes coat color, mane/tail color, or white patterns | Not established
+PPIB determines height, speed, muscle, hooves, or feathering | Not established
+Other PPIB variants may cause additional equine connective-tissue diseases | Plausible but not established as recognized horse tests/phenotypes
+The equine mutation should cause bone disease like human PPIB mutations | Uncertain; equine HERDA is mainly skin-limited, and the reason is not fully resolved  [pmc.ncbi.nlm.nih](https://pmc.ncbi.nlm.nih.gov/articles/PMC3063987/)
+
+Breeding and testing
+--------------------
+
+For a simulator or breeding program, model PPIB/HERDA as a simple two-allele autosomal recessive health trait, not a color or conformation trait:
+
+- N/N: unaffected, non-carrier  
+- N/HR: unaffected carrier  
+- HR/HR: affected; severe skin fragility, poor wound healing, and substantially reduced suitability for riding or showing  
+
+Avoid pairing two carriers: each foal from N/HR × N/HR has a 25% chance of being affected and a 50% chance of being a carrier. AQHA recommends testing breeding stock to minimize production of affected foals. [aqha](https://www.aqha.com/widget/-/genetic-test-roundup)
+
+UC Davis’s VGL offers horse DNA testing and includes HERDA in its Quarter Horse and related-breed disease panel offerings; its horse test catalog is the appropriate primary reference for current test availability and reporting. [vgl.ucdavis](https://vgl.ucdavis.edu/dna-tests/horse)
+
+Bottom line
+-----------
+
+Think of PPIB = HERDA, not a pigment gene. It is a medically important recessive collagen-folding variant with a major effect on skin integrity, concentrated in Quarter Horse-derived populations, with no established role in coat color, mane/tail color, height, speed, muscle, hoof shape, or feathering. [ncbi.nlm.nih](https://www.ncbi.nlm.nih.gov/gene/100066834)
+
+
+EARLIER NOTES, FROM THE MOD'S WIKI
+==================================
 (Copied 2026-10-12 from the Science tab of the Procedural Horse Coats wiki page for this gene.
-Written for that project: it may mention how a game models the gene. Not yet audited.)
+Written for that project: they say how a game models the gene. Where they disagree with
+the research notes above, the notes above stand.)
 
 At a glance
 -----------
