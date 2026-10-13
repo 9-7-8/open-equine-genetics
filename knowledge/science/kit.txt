@@ -4,6 +4,39 @@ No source was opened by the session that filed this. genes/kit.json was changed 
 on the owner's word the same day; what is left over is in knowledge/known-issues.txt.
 Not yet audited.)
 
+LATEST FINDINGS (the owner's second research answer, 2026-10-12)
+-----------------------------------------------------------------
+The first answer, kept below, gives the series as W1 to W35. The owner asked whether W36
+to W39 and anything higher are published. Where this section and the text below
+disagree, this section stands. No address here has been opened by a maintainer.
+- W37, W38 and W39 are real: three KIT variants described in 2025 and named "per
+  convention", skipping W36. https://pubmed.ncbi.nlm.nih.gov/40218308/
+  https://pmc.ncbi.nlm.nih.gov/articles/PMC11987815/
+- The series is therefore W1 to W28, W30 to W35 and W37 to W39. W29 and W36 are not
+  assigned. There is no W40 or higher; W39 is the highest. The answer counts this as 35
+  W alleles plus SB1, 36 variants, the same total the first answer gave for W1 to W35;
+  the two counts do not agree with each other and neither was checked.
+- W37: a 1 bp insertion giving a frameshift and a truncated protein, from an Anglo-Arabian
+  family. Carriers have bold white on the legs, belly and face, up to nearly all white
+  with small black patches on the face; a blue eye is possible. Every W37 horse reported
+  also had W35, in phase, so it may be a compound haplotype rather than an allele
+  inherited on its own.
+- W38: a splice-donor variant in exon 15, from a European Warmblood (Polish Sporthorse)
+  family. Sabino-like white to fully white, pink skin with small pigmented spots; blue
+  eyes possible. A candidate; wider validation is still needed.
+- W39: a nonsense variant found in a single stock-type mare. Nearly all white, with
+  coloured hairs scattered through the body and head.
+  https://m.etalondx.com/news-media/etalon-discovers-three-new-KIT-mutations-w37-w38-w39/
+- All three are predicted to cut short or disrupt the kinase domain. The study calls them
+  likely causes and says larger populations are needed.
+- No horse with two copies of W37, W38 or W39 is reported. Lethality is plausible and
+  not demonstrated.
+- "More than 40 variants affect white spotting" is true of all genes together and does
+  not mean W alleles above 40: splashed white is MITF and PAX3, frame overo EDNRB,
+  leopard spotting TRPM1. https://pmc.ncbi.nlm.nih.gov/articles/PMC9367399/
+- Nothing suggests W37 to W39 affect height, speed, muscle, bone, hooves, feathering or
+  the colour of the mane and tail.
+
 The horse KIT locus is not one simple “white gene”—it is a major developmental signaling gene on equine chromosome 3 (ECA3) whose variants control where melanocytes successfully migrate and survive. Its best-established effects are white spotting, sabino patterning, tobiano patterning, and roan-like ticking; it does not create red versus black pigment itself, but it determines whether pigment-producing cells are present in particular skin and hair regions. [pmc.ncbi.nlm.nih](https://pmc.ncbi.nlm.nih.gov/articles/PMC10854722/)
 
 For a simulator, treat KIT as a white-patterning / melanocyte-migration system, not as a base-color dilution system.
