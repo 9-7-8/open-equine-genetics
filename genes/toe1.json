@@ -4,18 +4,19 @@
   "species": "horse",
   "name": "TOE1 (cerebellar abiotrophy)",
   "symbol": "TOE1",
+  "chromosome": "2",
   "evidence": "published",
-  "summary": "TOE1, cerebellar abiotrophy - a recessive disorder of balance. The horse survives but has no idea where its feet are and cannot judge a jump. The condition is progressive.",
+  "summary": "Cerebellar abiotrophy (CA) of Arabian horses, an inherited loss of the cerebellum's Purkinje cells that leaves the horse unable to coordinate its movements. It is associated with one variant on chromosome 2, TOE1 g.2171G>A, which changes an amino acid in TOE1 (R95H) and also lies in the regulatory region of the neighbouring gene MUTYH, read from the opposite strand; which of the two matters is not settled. It is recessive: carriers are clinically normal, and a horse with two copies is affected, mildly or severely. It occurs almost only in Arabians, where about one horse in five was found to be a carrier, and in breeds with Arabian ancestry. UC Davis writes the genotypes N/N, N/CA and CA/CA. No effect on coat or build is established.",
   "inheritance": "autosomal",
   "affects_coat": false,
   "alleles": [
-    { "id": "ca", "name": "Cerebellar abiotrophy", "wild_type": false, "quality": "unverified" },
+    { "id": "ca", "name": "Cerebellar abiotrophy (CA; TOE1 g.2171G>A, R95H)", "wild_type": false, "quality": "unverified" },
     { "id": "N", "name": "Wild-type", "wild_type": true, "quality": "unverified" }
   ],
   "phenotypes": [
     { "id": "wild", "name": "Wild type", "description": "Two working copies. Nothing is wrong and nothing is passed on.", "changes_coat": false },
-    { "id": "toe1-carrier", "name": "TOE1 (cerebellar abiotrophy) carrier", "description": "One copy of ca. The horse is completely normal and there is no way to see it - but half its foals inherit the copy, and two carriers bred together are the only way cerebellar abiotrophy appears.", "changes_coat": false },
-    { "id": "cerebellar-abiotrophy", "name": "Cerebellar abiotrophy", "description": "The part of the brain that governs balance wastes away after birth. The horse has no sense of where its feet are: it moves in a wide, over-reaching stagger and cannot judge a jump at all.", "changes_coat": false }
+    { "id": "toe1-carrier", "name": "TOE1 (cerebellar abiotrophy) carrier", "description": "One copy. The horse is clinically normal and passes the copy to half its foals. A foal is affected only when both parents pass it on.", "changes_coat": false },
+    { "id": "cerebellar-abiotrophy", "name": "Cerebellar abiotrophy", "description": "Two copies. The Purkinje cells of the cerebellum, which coordinate balance and movement, degenerate after birth. The foal may look normal at first; signs usually begin at about six weeks, anywhere from birth to four months. The horse keeps its strength but cannot coordinate it: a head tremor on purposeful movement, staggering, a wide stance, an exaggerated high action of the forelegs, a poor blink response to a threat, easy startling, falls, and in severe cases being unable to rise. Severity runs from a mild head tremor to disabling. There is no cure, and severely affected foals are often put down.", "changes_coat": false }
   ],
   "genotypes": [
     { "alleles": ["N", "N"], "phenotype": "wild" },
@@ -23,9 +24,17 @@
     { "alleles": ["ca", "ca"], "phenotype": "cerebellar-abiotrophy", "conditions": ["cerebellar-abiotrophy"] }
   ],
   "conditions": [
-    { "id": "cerebellar-abiotrophy", "name": "Cerebellar abiotrophy", "description": "The part of the brain that governs balance wastes away after birth. The horse has no sense of where its feet are: it moves in a wide, over-reaching stagger and cannot judge a jump at all.", "severity": "impairing" }
+    { "id": "cerebellar-abiotrophy", "name": "Cerebellar abiotrophy", "description": "Two copies. The Purkinje cells of the cerebellum, which coordinate balance and movement, degenerate after birth. The foal may look normal at first; signs usually begin at about six weeks, anywhere from birth to four months. The horse keeps its strength but cannot coordinate it: a head tremor on purposeful movement, staggering, a wide stance, an exaggerated high action of the forelegs, a poor blink response to a threat, easy startling, falls, and in severe cases being unable to rise. Severity runs from a mild head tremor to disabling. There is no cure, and severely affected foals are often put down.", "severity": "impairing" }
   ],
   "frequencies": [
+    {
+      "population": "Arabian (about 20% carriers on average, from screening nearly 11,000 horses; the share of affected horses is not given, and it differs widely between families)",
+      "evidence": "published",
+      "genotypes": [
+        { "alleles": ["ca", "N"], "percent": 20 },
+        { "alleles": ["N", "N"], "percent": 80 }
+      ]
+    },
     {
       "population": "general population",
       "evidence": "estimated",
@@ -38,6 +47,10 @@
   "citations": [
     { "source": "pubmed", "label": "Scott et al., PMC5336519", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5336519/", "verified": false },
     { "source": "omia", "label": "OMIA 000175", "url": "https://omia.org/OMIA000175/9796/", "verified": false },
-    { "source": "ucdavis-vgl", "label": "UC Davis VGL", "url": "https://vgl.ucdavis.edu/test/ca", "verified": false }
+    { "source": "ucdavis-vgl", "label": "UC Davis VGL: Cerebellar Abiotrophy (CA)", "url": "https://vgl.ucdavis.edu/test/ca", "verified": false },
+    { "source": "paper", "label": "Genomics, S0888754310002430: mapping of cerebellar abiotrophy in Arabians", "url": "https://www.sciencedirect.com/science/article/pii/S0888754310002430", "verified": false },
+    { "source": "pubmed", "label": "PMC5905334: the CA variant, TOE1 and MUTYH regulation", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5905334/", "verified": false },
+    { "source": "pubmed", "label": "PMC3671216: the TOE1 g.2171G>A variant and cerebellar abiotrophy", "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3671216/", "verified": false },
+    { "source": "other", "label": "Kentucky Equine Research: Arabian mutation linked to cerebellar abiotrophy", "url": "https://ker.com/equinews/arabian-horse-mutation-linked-cerebellar-abiotrophy/", "verified": false }
   ]
 }

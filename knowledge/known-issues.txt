@@ -8,7 +8,7 @@ WHERE THE DATA STANDS
   commit 93af89d9 plus one docs commit). On 2026-10-12 the owner supplied research
   documents and audit answers, and the loci below were changed to follow them. The three
   lists in this file are each kept on one long line, sorted, so they are easy to edit.
-RESEARCHED: abstracted_jump_strength, acan, agouti, b4galt7, brindle, champagne, ckm, dmrt3, dun, ednrb, extension, gbe1, grey, gys1, hmga2, kit, lama3, lamc2, lcorl, leopard, matp, met, mitf, mstn, mushroom, myo5a, patn1, pax3, pdk4, plod1, ppib, prkdc, rapgef5, roan, ryr1, scn4a, shox, silver, slc5a3, st14, tiger_eye, tobiano.
+RESEARCHED: abstracted_jump_strength, acan, agouti, b4galt7, brindle, champagne, ckm, dmrt3, dun, ednrb, extension, gbe1, grey, gys1, hmga2, kit, lama3, lamc2, lcorl, leopard, matp, met, mitf, mstn, mushroom, myo5a, patn1, pax3, pdk4, plod1, ppib, prkdc, rapgef5, roan, ryr1, scn4a, shox, silver, slc5a3, st14, tiger_eye, tobiano, toe1.
 - NO SESSION OPENED A SOURCE. Every fact changed that day rests on the owner's documents,
   and every citation added is an address those documents gave. Some addresses were built
   from a DOI or a PubMed number the documents gave. None has been opened.
@@ -57,6 +57,7 @@ done (2026-10-12); nothing is owed to it before then. The mod still has:
 - st14 as lethal at birth, at one carrier rate for every breed.
 - prkdc as lethal at birth, at one carrier rate for every breed.
 - rapgef5 as lethal at birth, at one carrier rate for every breed.
+- toe1 at one carrier rate for every breed, where the disorder is almost confined to Arabians.
 mod-map.json records the structural part: "not_in_mod" (alleles) and
 "mod_outcome_unsupported" (pairs marked undocumented here on purpose).
 
@@ -91,7 +92,8 @@ STILL WRONG OR UNPROVEN IN THE RESEARCHED LOCI
 - Frequencies: brindle has none, on purpose. Published tables exist only for slc5a3
   (Fell, Dales), ryr1 (Quarter Horse), grey (Andalusian), b4galt7 (Friesian), dmrt3
   (Icelandic), gbe1 (Quarter Horse, Paint, Thoroughbred), myo5a (Arabian), plod1 (eight
-  breeds), ppib (Quarter Horse), pax3 (Paint, Quarter Horse) and st14 (Akhal-Teke).
+  breeds), ppib (Quarter Horse), pax3 (Paint, Quarter Horse), st14 (Akhal-Teke),
+  rapgef5 (Thoroughbred) and toe1 (Arabian).
 - agouti: At (seal brown) and A+ (wild bay) are in the data marked "invalid" (owner,
   2026-10-12). The research calls them plausible but unproven rather than wrong, and
   some commercial laboratories report At; "invalid" is the nearest tag the format has.
@@ -136,19 +138,17 @@ STILL WRONG OR UNPROVEN IN THE RESEARCHED LOCI
 - st14: the severity changed from "lethal_at_birth" to "lethal_in_early_life": the research says most affected foals died between a few weeks and three years old. That is longer than the format's "first weeks or months", and one horse was alive at nearly three; it is the nearest value, chosen by the session, not the owner. The locus is still "affects_coat": false, since it removes hair and does not change colour or pattern. The Akhal-Teke table rests on 191 horses and may not be a random sample. No chromosome was given. Most of the answer's sources are marked by number only.
 - prkdc: the severity changed from "lethal_at_birth" to "lethal_in_early_life": the research says affected foals generally do not survive beyond about four to six months. No frequency table was made: the research gives roughly 0.2% of Arabians affected, says carrier figures differ widely, and advises against using the old percentages; the mod's "general population" table stands. The research marks its sources by number and lists them by name only, so no citation was added; the three it already had are from the first export. The variant has no coordinates or c. name.
 - rapgef5: the owner's first answer found no horse allele of RAPGEF5 at all; her second, asked about EFIH by name, confirms the variant and the disorder, and the locus follows the second. The severity changed from "lethal_at_birth" to "lethal_in_early_life": signs are reported up to about 35 days old. Two Thoroughbred tables are given because the two studies disagree (1.8% and about 0.8% allele frequency); the answer also quotes carrier figures of 1.4-1.6% without a source of their own. The answer calls the change a "C-to-A transition"; C to A is a transversion, which changes nothing here.
+- toe1: the owner's first answer looked for a coat-colour locus and found none; her second, asked about cerebellar abiotrophy by name, confirms the disorder, and the locus follows the second. The locus is named for TOE1, but the research says the variant may act through MUTYH and that the mechanism is not settled. The Arabian table gives carriers only (about 20%); living affected horses are counted with the clear ones. The severity stays "impairing". The journal name in one citation label was read off the address.
 
 THE OTHER LOCI
 - "symbol" was filled from the exporting session's own knowledge. The research has since
   confirmed tiger_eye (SLC24A5), mushroom (MFSD12), patn1 (RFWD3), brindle (MBTPS2) and
   tobiano as a KIT-region locus. The rest are unchecked.
 - Published loci with no research from the owner yet:
-NOT YET RESEARCHED: toe1.
-- toe1 is still on that list although the owner sent research for it (2026-10-12): the answer looked for a coat-colour
-  locus, found none, and took the name for a slip for extension. It never mentions
-  cerebellar abiotrophy in Arabians, which is what the locus records (Scott et al.,
-  PMC5336519; OMIA 000175; a UC Davis test). The gene file was left as the mod's export;
-  the note carries the answer with a warning at the top. Ask about cerebellar abiotrophy
-  by name; the same thing happened to rapgef5, and asking about EFIH by name settled it.
+NOT YET RESEARCHED: none. Every published locus has had research from the owner.
+- Two answers (rapgef5, toe1) first looked for a coat-colour gene and missed the disorder
+  the locus records; asking again about the disorder by name settled both. A locus whose
+  name is a gene symbol should be asked about by its disorder.
 - Game wording: the plain cases were reworded on 2026-10-12 by word search. Subtler
   cases remain: what "wild horses" or founders carry (eye_colour_left,
   eye_colour_right, manchado) and "no wild horse is born with
