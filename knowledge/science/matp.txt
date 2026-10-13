@@ -7,6 +7,22 @@ Three answers, in the order she sent them; the later ones add snowdrop and sunsh
 three "ANSWER" headings were added when filing. The first answer marks most of its sources
 by number only, and the list those numbers point to was not supplied.)
 
+ROUND TWO (the owner's answers to the open research questions, 2026-10-12)
+--------------------------------------------------------------------------
+These came after everything below. Where they disagree with it, this section and the gene
+file stand, unless a line says the point is unsettled. The whole answer is in
+knowledge/science/round-2-answers.txt. No address has been opened by a maintainer.
+- Cream is described as common in Quarter Horses, Paints, Palominos, American Cream Draft,
+  Icelandic, Welsh and many gaited breeds
+  (https://labgenvet.ca/en/horse-genetics-2-0-colours/). Pearl is most often reported in
+  Iberian horses, Quarter Horses, Paints and related lines. No figure was given.
+- Sunshine is not a standard allele name in UC Davis's panel; no evidence shows it reduces
+  pigment on its own, and any per-breed frequency is unverified. It stays disputed.
+- Snowdrop: confirmation in more horses, and what Cr/sno and Prl/sno look like, are not
+  established.
+- The answer cites a game's wiki (horsereality) for pearl; that address is not cited in
+  the gene file.
+
 FIRST ANSWER: MATP / SLC45A2, the Cream–Pearl locus in horses
 -------------------------------------------------------------
 
