@@ -4,6 +4,20 @@ No source was opened by the session that filed this. genes/myo5a.json was change
 on the owner's word the same day; what is left over is in knowledge/known-issues.txt.
 Not yet audited.)
 
+ROUND TWO (the owner's answers to the open research questions, 2026-10-12)
+--------------------------------------------------------------------------
+These came after everything below. Where they disagree with it, this section and the gene
+file stand, unless a line says the point is unsettled. The whole answer is in
+knowledge/science/round-2-answers.txt. No address has been opened by a maintainer.
+- The chromosome could not be verified.
+- A study of the allele's origin among Egyptian Arabians reports an overall allele
+  frequency of 0.08 and a carrier share of 16%
+  (https://scholars.uky.edu/en/publications/evidence-for-origin-of-lavender-foal-syndrome-among-egyptian-arab/).
+  The answer does not describe the sample.
+- It says 10.3% and 1.6-1.8% are not interchangeable with those figures and likely come
+  from different studies, subpopulations or definitions. Whether they are allele
+  frequencies or carrier shares was NOT settled.
+
 MYO5A is not a routine “dilution gene” for viable coat colors in horses. Its known equine role is as the causative gene for Lavender Foal Syndrome (LFS)—also called Coat Color Dilution Lethal (CCDL)—a rare, fatal autosomal-recessive neurological disease seen chiefly in Arabian horses, especially Egyptian-bloodline Arabians. [vgl.ucdavis](https://vgl.ucdavis.edu/test/lfs)
 
 Gene and protein function
