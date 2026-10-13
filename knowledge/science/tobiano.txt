@@ -4,6 +4,19 @@ No source was opened by the session that filed this. genes/tobiano.json was chan
 on the owner's word the same day; what is left over is in knowledge/known-issues.txt.
 Not yet audited.)
 
+ROUND TWO (the owner's answers to the open research questions, 2026-10-12)
+--------------------------------------------------------------------------
+These came after everything below. Where they disagree with it, this section and the gene
+file stand, unless a line says the point is unsettled. The whole answer is in
+knowledge/science/round-2-answers.txt. No address has been opened by a maintainer.
+- Confirmed: a paracentric inversion of about 43 Mb upstream of KIT on chromosome 3.
+  Breakpoints are given as chr3:42,737,476-79,471,993 "in the cited review's coordinates"
+  (https://pmc.ncbi.nlm.nih.gov/articles/PMC10854722/).
+- Those two positions are about 36.7 Mb apart, not 43. The answer does not explain the
+  difference; both figures are in the gene file as given.
+- Described as high in Paint, Icelandic and many European pony and draft breeds, and
+  absent from closed studbooks that exclude spotted horses. No figure was given.
+
 Tobiano is one of the best-established white-spotting patterns in horses: an autosomal-dominant pattern of large, usually vertically oriented white patches that commonly cross the topline. It is caused by a large inversion on horse chromosome 3 (ECA3) that likely alters regulation of the pigmentation gene KIT; UC Davis tests it as N (non-tobiano) versus TO (tobiano). [vgl.ucdavis](https://vgl.ucdavis.edu/test/tobiano)
 
 Established genetics
