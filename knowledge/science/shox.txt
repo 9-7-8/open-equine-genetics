@@ -4,6 +4,16 @@ No source was opened by the session that filed this. genes/shox.json was changed
 on the owner's word the same day; what is left over is in knowledge/known-issues.txt.
 Not yet audited.)
 
+ROUND TWO (the owner's answers to the open research questions, 2026-10-12)
+--------------------------------------------------------------------------
+These came after everything below. Where they disagree with it, this section and the gene
+file stand, unless a line says the point is unsettled. The whole answer is in
+knowledge/science/round-2-answers.txt. No address has been opened by a maintainer.
+- Affected foals have severe limb deformities and are usually nonviable or euthanized
+  shortly after birth.
+- Carriers are not reliably shorter; any effect on height is subtle and not established.
+- Breeds: Miniature Horses and Shetland-related ponies. No carrier frequency was given.
+
 SHOX (short stature homeobox) is a developmental regulatory gene in horses, best known for its role in skeletal atavism, a severe limb-development disorder seen especially in Shetland Ponies. It is not a coat-color locus: it does not determine red versus black pigment, mane/tail color, or white patterning. [vgl.ucdavis](https://vgl.ucdavis.edu/test/skeletal-atavism)
 
 Gene and locus

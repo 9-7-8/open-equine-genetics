@@ -5,7 +5,7 @@
   "name": "SHOX (skeletal atavism)",
   "symbol": "SHOX",
   "evidence": "published",
-  "summary": "SHOX, the short stature homeobox gene, a regulator of limb and skeletal development. It lies in the pseudoautosomal region shared by the X and Y chromosomes, so it is inherited like an autosomal gene. Two deletions cause skeletal atavism, known in Shetland Ponies for more than 60 years: Del1, the larger, removes all of the SHOX coding sequence and part of the neighbouring gene CRLF2; Del2 removes part of CRLF2 downstream of SHOX. It is recessive. A horse with one deletion is a normal carrier; a horse with two, alike or different, has severely deformed legs. How much of the disorder is due to SHOX and how much to CRLF2 is not settled. Carriers were no shorter than other ponies in a study of 130, which was too small to rule an effect out. The single allele this locus first had, sa, is kept only as an invalid id. No effect on coat or performance is established.",
+  "summary": "SHOX, the short stature homeobox gene, a regulator of limb and skeletal development. It lies in the pseudoautosomal region shared by the X and Y chromosomes, so it is inherited like an autosomal gene. Two deletions cause skeletal atavism, known in Shetland Ponies for more than 60 years and also reported in Miniature Horses: Del1, the larger, removes all of the SHOX coding sequence and part of the neighbouring gene CRLF2; Del2 removes part of CRLF2 downstream of SHOX. It is recessive. A horse with one deletion is a normal carrier; a horse with two, alike or different, has severely deformed legs. How much of the disorder is due to SHOX and how much to CRLF2 is not settled. Carriers were no shorter than other ponies in a study of 130, which was too small to rule an effect out. The single allele this locus first had, sa, is kept only as an invalid id. No effect on coat or performance is established.",
   "inheritance": "autosomal",
   "affects_coat": false,
   "alleles": [
@@ -17,7 +17,7 @@
   "phenotypes": [
     { "id": "wild", "name": "Wild type", "description": "Two working copies. Nothing is wrong and nothing is passed on.", "changes_coat": false },
     { "id": "shox-carrier", "name": "SHOX (skeletal atavism) carrier", "description": "One deletion, Del1 or Del2. The horse is unaffected and passes the deletion to half its foals. A foal is affected only when it receives a deletion from each parent.", "changes_coat": false },
-    { "id": "skeletal-atavism", "name": "Skeletal atavism", "description": "Two deletions, in any combination. The ulna and fibula grow on past the knee and hock, the upper leg bones are short, and the legs are short and crooked. Movement worsens, with marked lameness, pain and rotation of the hooves. The foal is born alive, and its quality of life is described as nonviable or ethically untenable.", "changes_coat": false },
+    { "id": "skeletal-atavism", "name": "Skeletal atavism", "description": "Two deletions, in any combination. The ulna and fibula grow on past the knee and hock, the upper leg bones are short, and the legs are short and crooked. Movement worsens, with marked lameness, pain and rotation of the hooves. The foal is born alive; its quality of life is described as nonviable or ethically untenable, and affected foals are usually put down shortly after birth.", "changes_coat": false },
     { "id": "invalid-allele", "name": "Pair with an invalid allele", "documented": false, "description": "A pair that includes sa. The disorder is caused by two distinct deletions, Del1 and Del2, which are separate alleles here. The undivided sa is kept, marked invalid, so that stored data still lines up and nobody adds it back. No outcome is given for it.", "changes_coat": false }
   ],
   "genotypes": [
@@ -33,7 +33,7 @@
     { "alleles": ["Del2", "Del2"], "phenotype": "skeletal-atavism", "conditions": ["skeletal-atavism"] }
   ],
   "conditions": [
-    { "id": "skeletal-atavism", "name": "Skeletal atavism", "description": "Two deletions, in any combination. The ulna and fibula grow on past the knee and hock, the upper leg bones are short, and the legs are short and crooked. Movement worsens, with marked lameness, pain and rotation of the hooves. The foal is born alive, and its quality of life is described as nonviable or ethically untenable.", "severity": "impairing" }
+    { "id": "skeletal-atavism", "name": "Skeletal atavism", "description": "Two deletions, in any combination. The ulna and fibula grow on past the knee and hock, the upper leg bones are short, and the legs are short and crooked. Movement worsens, with marked lameness, pain and rotation of the hooves. The foal is born alive; its quality of life is described as nonviable or ethically untenable, and affected foals are usually put down shortly after birth.", "severity": "impairing" }
   ],
   "frequencies": [
     {
