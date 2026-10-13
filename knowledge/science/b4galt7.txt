@@ -1,6 +1,105 @@
-B4GALT7 - science notes
+B4GALT7 (Friesian dwarfism) - science notes
+(The owner's research notes, filed 2026-10-12. The bracketed markers point to the sources that research used; the list of
+those sources was not supplied with the document, so no address can be given here.
+No source was opened by the session that filed this. genes/b4galt7.json was changed to match
+on the owner's word the same day; what is left over is in knowledge/known-issues.txt.
+Not yet audited.)
+
+What B4GALT7 does
+-----------------
+
+B4GALT7 encodes beta-1,4-galactosyltransferase 7, a Golgi enzyme needed to build the carbohydrate “linker” that attaches glycosaminoglycan chains to proteoglycans. Those proteoglycans are important structural components of extracellular matrix, cartilage, tendon, ligament, and developing bone. [4][9]
+
+The horse mutation associated with Friesian dwarfism is c.50G>A, producing p.Arg17Lys. It affects the final nucleotide of exon 1 and disrupts normal splicing of B4GALT7 transcripts, reducing normal gene function. [10][13]
+
+Alleles and inheritance
+-----------------------
+
+Genotype | UC Davis notation | Phenotype | Breeding meaning
+Normal homozygote | N/N | Unaffected | Cannot pass on this dwarfism variant. [11]
+Carrier | D/N or N/D | Unaffected carrier | Can pass D to 50% of foals. [11]
+Affected | D/D | Friesian dwarfism | Has two copies of the disease-associated variant. [11]
+
+This is autosomal recessive, not dominant and not sex-linked. A cross of two carriers, D/N × D/N, produces a 25% chance of an affected D/D foal, a 50% chance of a carrier, and a 25% chance of N/N. [11]
+
+Effect on the horse
+-------------------
+
+Affected Friesians have disproportionate dwarfism: limb and rib bones are shortened, while head size and back length remain comparatively normal. They also show hyperextension/laxity of the fetlock joints, with severity varying among individuals. [11]
+
+The underlying defect interferes with normal extracellular-matrix and collagen-related development. Reported features include poor growth, short limbs, rib deformity, joint hypermobility, and poorly developed musculature. [11][12]
+
+Does it affect coat color?
+--------------------------
+
+No established effect on coat color has been demonstrated.
+
+- It does not control red versus black pigment; that is primarily the MC1R / ASIP system. [14]
+- It does not act like cream, dun, silver, champagne, pearl, or gray dilution genes.
+- It does not establish a mane/tail color, white-marking, feather-color, or hair-texture effect.
+- The Friesian breed’s black coat and feathering are separate traits and should not be attributed to B4GALT7. [16]
+
+A D/N carrier can be black, bay, chestnut, or carry any other color genotype; the dwarfism allele is independent of those loci in the evidence currently available.
+
+Body systems: established vs. speculative
+-----------------------------------------
+
+Trait | Evidence for B4GALT7 D/D | Status
+Height / limb length | Markedly reduced limb length; disproportionate dwarfism | Established [11]
+Bone structure | Shortened limbs and ribs; defective extracellular-matrix development | Established [11]
+Joints / tendons / ligaments | Fetlock hyperextension and joint laxity | Established [11]
+Muscle | Poorly developed musculature reported in affected horses | Established clinically, mechanism less precisely defined [12]
+Hoof shape | No specific primary hoof-shape allele effect established | Not established
+Feathering | No evidence that the allele causes or changes feathering | Not established [16]
+Mane / tail color | No evidence of effect | Not established
+Red / black pigment | No evidence of effect | Not established [14]
+Speed / athletic performance | No direct evidence for an effect in N/N or D/N horses | Speculative; do not model as established
+Subtle size reduction in carriers | Sometimes suggested informally, but UC Davis states carriers are unaffected | Not established [11]
+
+Breeds affected
+---------------
+
+The known disease-associated variant is primarily a Friesian issue. UC Davis lists Friesians and Friesian crosses as the appropriate testing population. [11]
+
+At the time of UC Davis’s summary, approximately 12% of Friesians were estimated to be carriers (D/N). That figure can change over time as breeders use testing and avoid carrier-to-carrier matings. [11]
+
+Testing and breeder use
+-----------------------
+
+UC Davis offers a direct DNA test for the B4GALT7 Friesian dwarfism variant. Its purpose is to identify carriers before breeding, especially to prevent D/N × D/N pairings that can produce affected D/D foals. [11]
+
+For a simulation, the clean implementation is:
+
+- Locus: B4GALT7
+- Alleles: N, D
+- Inheritance: autosomal recessive
+- Expression: D/D = affected; D/N = unaffected carrier; N/N = clear
+- Coat-color module: no linkage or phenotypic effect
+- Optional realism setting: do not give carriers a visible height penalty unless future research demonstrates one
+
+Controversy and open questions
+------------------------------
+
+The core association between the B4GALT7 variant and Friesian dwarfism is well supported, but several practical questions remain open:
+
+- Whether D/N carriers have any measurable reduction in stature, bone quality, joint resilience, or athletic durability.
+- Whether other B4GALT7 variants exist in horses or whether the same phenotype can arise from other genes in the proteoglycan-linker pathway.
+- How variable D/D severity is, and how much management, nutrition, hoof care, and veterinary support modify the visible phenotype.
+- Whether the allele occurs outside Friesians or Friesian crosses at meaningful frequency.
+
+Human medicine shows that pathogenic B4GALT7 variants can cause spondylodysplastic Ehlers-Danlos syndrome, with short stature, hypotonia, joint hypermobility, skeletal anomalies, and connective-tissue signs. That supports the biological plausibility of a skeletal/connective-tissue effect in horses, but human variants and phenotypes should not be treated as identical to the equine Friesian variant. [1][3][8]
+
+Bottom line
+-----------
+
+Treat B4GALT7 as a health-and-conformation locus, not a color gene. N is normal, D is the Friesian dwarfism allele, D/N horses are healthy carriers, and D/D horses have disproportionate dwarfism with joint laxity. There is no good evidence that it changes red/black pigment, mane or tail color, feathering, hoof shape, or speed. [11][14][16]
+
+
+EARLIER NOTES, FROM THE MOD'S WIKI
+==================================
 (Copied 2026-10-12 from the Science tab of the Procedural Horse Coats wiki page for this gene.
-Written for that project: it may mention how a game models the gene. Not yet audited.)
+Written for that project: they say how a game models the gene. Where they disagree with
+the research notes above, the notes above stand.)
 
 The locus
 ---------
