@@ -78,8 +78,9 @@ THE AUDIT
 - An outcome nobody has described is marked as undocumented, never guessed.
 - Every allele carries a quality tag: verified, unverified, abstracted or invalid. An
   allele the science does not support is kept and marked invalid, so that nobody adds
-  it back thinking it was overlooked. (mitf SW9 is the first; agouti's At and A+,
-  proposed but never validated, are tagged the same way.)
+  it back thinking it was overlooked. (agouti's At and A+, proposed but never validated,
+  are tagged this way. mitf SW9 was the first, until a laboratory was found that lists
+  an SW9; see the ruling on it below.)
 - Citations are not all to be opened and checked for now; each is marked verified or
   not. None is verified yet.
 - A condition goes on a genotype only where a source confirms it for that pair. (mitf:
@@ -98,8 +99,17 @@ THE AUDIT
   "disputed" with quality "unverified" and no outcome; it is not marked invalid
   (2026-10-12: kit W37-W39, since confirmed by a second answer; matp sunshine). pax3
   SW10 was treated the same way by the session, without asking.
-- The severity of skeletal atavism (shox) is "impairing" (2026-10-12): a severity claims
-  only what the research states.
+- A severity claims only what the research states, and follows the research when it
+  says more (all 2026-10-12). Skeletal atavism (shox) was "impairing" while the research
+  stated no death; it is "lethal_at_birth" since her round-two answer said affected foals
+  are usually nonviable or put down shortly after birth. ACAN D1/D1 is
+  "lethal_in_early_life", not the mod's "lethal_at_birth": the same answer said its
+  survival time varies.
+- An allele marked invalid because nothing was found for it becomes "unconfirmed" once a
+  source is found that lists it, even without a published report (2026-10-12: mitf SW9,
+  after round two found European laboratories listing an SW9 and an SW10). acan D5, for
+  which round two found no report at all, was made "unconfirmed" by the session on the
+  earlier ruling, without asking.
 
 MADE BY THE EXPORTING SESSION, NOT ASKED (change freely, tell the owner)
 - The file layout and every field name in knowledge/format.txt.

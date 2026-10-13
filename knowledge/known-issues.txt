@@ -2,7 +2,8 @@ KNOWN ISSUES IN THE DATA
 ========================
 Rewritten 2026-10-12, when the owner's research began to be applied. Remove a line
 here when it is fixed, and say so in the session log. The questions that still need
-research are listed at the end, under OPEN RESEARCH QUESTIONS.
+research are listed at the end, under OPEN RESEARCH QUESTIONS. Brought up to date the
+same day for her round-two answers to those questions.
 
 WHERE THE DATA STANDS
 - genes/ began as an export of what a game models (knowledge/how-this-was-exported/, mod
@@ -10,6 +11,8 @@ WHERE THE DATA STANDS
   documents and audit answers, and the loci below were changed to follow them. The three
   lists in this file are each kept on one long line, sorted, so they are easy to edit.
 RESEARCHED: abstracted_jump_strength, acan, agouti, b4galt7, brindle, champagne, ckm, dmrt3, dun, ednrb, extension, gbe1, grey, gys1, hmga2, kit, lama3, lamc2, lcorl, leopard, matp, met, mitf, mstn, mushroom, myo5a, patn1, pax3, pdk4, plod1, ppib, prkdc, rapgef5, roan, ryr1, scn4a, shox, silver, slc5a3, st14, tiger_eye, tobiano, toe1.
+- Later the same day she answered the 54 open research questions in one document, kept
+  whole as knowledge/science/round-2-answers.txt ("round two" below). It was applied too.
 - NO SESSION OPENED A SOURCE. Every fact changed that day rests on the owner's documents,
   and every citation added is an address those documents gave. Some addresses were built
   from a DOI or a PubMed number the documents gave. None has been opened.
@@ -18,7 +21,7 @@ RESEARCHED: abstracted_jump_strength, acan, agouti, b4galt7, brindle, champagne,
 - Every other locus is still the mod's export, unaudited.
 - Since format 2 every allele says how far to trust it ("quality") and every citation
   says whether a maintainer has opened it ("verified"). As of 2026-10-12: no citation
-  is verified, no allele is "verified", five alleles are "invalid" (mitf SW9, agouti At
+  is verified, no allele is "verified", four alleles are "invalid" (agouti At
   and A+, kit W17, shox sa), and every
   allele of an abstracted locus is "abstracted". The owner said not to spend effort
   opening every citation for now.
@@ -35,7 +38,7 @@ done (2026-10-12); nothing is owed to it before then. The mod still has:
 - scn4a: two copies killing the foal;
 - ryr1: a severe living two-copy form; a real jumping gene it calls ryr2;
 - pdk4 as a plain speed gene; hmga2 and lcorl changing speed and jump;
-- acan carriers of normal height; b4galt7 dwarfs that are slow and jump badly;
+- acan carriers of normal height, D5 as an established allele, and D1/D1 as lethal at birth; b4galt7 dwarfs that are slow and jump badly;
 - agouti with a as the wild type, and bay split into four shades inside the agouti
   table.
 - champagne feeding removed black back as red, and an eye colour inherited with the allele (olive green among them);
@@ -52,7 +55,7 @@ done (2026-10-12); nothing is owed to it before then. The mod still has:
 - plod1 foals always born alive, and one carrier rate for every breed;
 - ppib at one carrier rate for every breed, where it belongs to Quarter Horse lines.
 - extension without ea.
-- shox with one allele, sa, and skeletal atavism as lethal at birth;
+- shox with one allele, sa;
 - pax3: SW10 as a splash allele; SW4/SW4 and SW10/SW10 as certainly nonviable; SW2/SW4 as a living bold splash; certain deafness on two copies.
 - tiger_eye at one rate for every breed, and two TE2 copies as a settled paler yellow.
 - st14 as lethal at birth, at one carrier rate for every breed.
@@ -63,9 +66,7 @@ mod-map.json records the structural part: "not_in_mod" (alleles) and
 "mod_outcome_unsupported" (pairs marked undocumented here on purpose).
 
 STILL WRONG OR UNPROVEN IN THE RESEARCHED LOCI
-- mitf SW9 is marked "invalid" (owner, 2026-10-12): no published allele, laboratory or
-  paper was found for it, and the name may be a mix-up with W9 of KIT. The id is kept so
-  nobody adds it back. Its eight pairs have the outcome "invalid-allele".
+- mitf SW9 is "unconfirmed", quality "unverified" (owner, 2026-10-12, changing her "invalid" of the same day): round two found that some European laboratories list an SW9 and an SW10, with definitions unconfirmed and no published report. Its eight pairs have the undocumented outcome "unconfirmed-allele". Which gene a laboratory's SW9 lies in is not known; it sits at mitf because the mod put it there.
 - mitf: 18 pairs of two different variants are "splash-undocumented" and 5 homozygotes
   (SW3, SW5, SW6, SW7, SW8) are "splash-homozygote-undetected". Nothing is published
   for them. No genotype carries a deafness condition any more (owner, 2026-10-12: only
@@ -75,20 +76,14 @@ STILL WRONG OR UNPROVEN IN THE RESEARCHED LOCI
   for jumping, this and abstracted_jump; whether both are wanted is open.
 - roan: the symbol stays KIT. The science says KIT region, causal variant unknown;
   RN1, RN2 and RN3 are haplotype markers, named in the summary only.
-- acan: D5 has only a genomic coordinate, and the research flags it unverified. The
-  UC Davis page for the ACAN test was not found (the Friesian dwarfism page is a
-  different test). That D1/D1 is lethal at birth and the rest survive is the mod's.
-- ryr1: two papers are cited as the first description (2004 and 2009); the research
-  says the 2004 one is the primary and the 2009 reference may have been a confusion.
+- acan: D5 is "unconfirmed" with no outcome. Round two found no published report or laboratory page naming a fifth allele; the session applied the owner's ruling for such alleles without asking her again. The mod's estimated frequency table still gives D5 a share. Whether UC Davis has an ACAN test page was not answered. D1/D1 is "lethal_in_early_life" (owner, 2026-10-12): round two says survival time varies and gives no ages. That every other dwarf pair survives is still the mod's.
+- ryr1: two papers are cited as the first description (2004 and 2009). The owner's answers disagree: the first says the 2004 paper is the primary one and 2009 may be a confusion; round two says the variant was reported in 2009 and 2004 was earlier or other work. Neither gives a source for the claim. Both stay cited.
 - grey: G2/G3 is given the same outcome as G3/N; the research says its pace and risk
   are not quantified. The Andalusian table's genotype shares are worked out from
   allele frequencies, assuming random mating. So is ryr1's Quarter Horse table.
-- silver: chromosome 6 comes from a commercial laboratory's page. That a chestnut
-  carrier has the same eye risk is reasoned from the genotype, not from a study that
-  compared them. That silver is hidden on a chestnut is in words only.
-- leopard still depends on patn2, an abstraction; no real second modifier was found.
-- pdk4: G is flagged wild_type because the format needs one; no source says which
-  allele is ancestral.
+- silver: chromosome 6 now also rests on a university page. The one-copy eye condition (mcoa-cyst) still sits on every Z/z pair, because the format cannot tell a chestnut carrier from a bay one; round two says the risk is not established for a chestnut carrier, and the condition's text says so. That silver is hidden on a chestnut is in words only.
+- leopard still depends on patn2, an abstraction; no real second modifier was found. Round two confirms that more than PATN1 modifies the pattern and names nothing.
+- pdk4: G is flagged wild_type because the format needs one; no source says which allele is ancestral. Round two answered a different question: it calls PDK4 a "PSSM modifier" with an ancestral "non-risk C allele", and the variant here (A>G) has no C. Nothing was changed.
 - slc5a3, ryr1, grey: the "general population" tables are still the mod's.
 - Frequencies: brindle has none, on purpose. Published tables exist only for slc5a3
   (Fell, Dales), ryr1 (Quarter Horse), grey (Andalusian), b4galt7 (Friesian), dmrt3
@@ -101,45 +96,50 @@ STILL WRONG OR UNPROVEN IN THE RESEARCHED LOCI
 - Bay shade is now stated nowhere as a table: agouti gives bay or black, and the
   abstracted shade locus describes its effect in its summary only. The research
   supports a real shade modifier upstream of ASIP near RALY (chromosome 22), cause
-  unidentified, with E/E bays tending darker than E/e.
-- b4galt7: no chromosome was given. Its research names its sources by number only, so
+  unidentified. Round two says no dosage effect of E on bay shade is established.
+- b4galt7: no chromosome was given, and round two could not verify one. Its research names its sources by number only, so
   no citation was added; the two it already had (UC Davis, Leegwater et al.) are from
   the first export. The Friesian table omits d/d horses, which the 12 percent carrier
   estimate does not count.
-- ednrb and hmga2 had one correction each and are otherwise unresearched.
+- ednrb and hmga2 each had an overview in round two, without addresses: chromosome, what the gene does, breeds. hmga2's overview names no tested variant and calls the gene a candidate region with a polygenic effect; the p allele rests on the earlier answer. Neither has a published frequency.
 - champagne: the names gold, amber and classic champagne depend on extension and agouti; the file says so in words and has no interactions table. "Sable" (on seal brown) and "ivory" (with cream) are registry names, not alleles, and are not in the data.
-- ckm: a candidate that failed to replicate (Gu et al. 2010; no association in Quarter Horses). The file states no effect. (An earlier answer's "g.22999655C>A" for it was a slip for the DMRT3 variant; settled.) C is flagged wild_type only because the format needs one. Whether a locus with no established effect belongs in the data as published is the owner's call.
-- dmrt3: the Icelandic table's genotype shares are worked out from one allele frequency, assuming random mating. A 2026 study reports further variants in exon 2 of DMRT3, of unknown effect; none is in the data. Other gait loci (trot versus pace in Standardbreds) are known to exist and are not modelled.
-- dun: the wild-type flag moved from d2 to D (the research calls dun the ancestral state), and the d2/d2 outcome is now "non-dun", not "wild". nd1's markings are variable ("may show"), but d1/d1 and d1/d2 have one outcome that cannot say how often. The research gives no frequency figure, so the table is still the mod's. It gives no coordinate for the nd1 change. It does not mention the separate TBX3 height enhancer in the earlier note; that citation (PMC8796118) is left from the first export and nothing in the data rests on it.
-- gbe1: the research says G/G foals are aborted late, stillborn or die as newborns. The format has one severity per condition, so it stays "lethal_at_birth" and the pair stays a living genotype, not a nonviable one. The breed tables give carriers as twice the allele frequency, among living horses; the research names the 2006 study only through the Merck manual and says later summaries put carriers at roughly 8-9%. No chromosome was given.
+- ckm: a candidate that failed to replicate (Gu et al. 2010; no association in Quarter Horses). The file states no effect. (An earlier answer's "g.22999655C>A" for it was a slip for the DMRT3 variant; settled.) C is flagged wild_type only because the format needs one. Whether a locus with no established effect belongs in the data as published is the owner's call. Round two called CKM a "tying-up risk" locus with a derived risk allele, which matches nothing in the earlier research; nothing was changed.
+- dmrt3: the Icelandic table's genotype shares are worked out from one allele frequency, assuming random mating. A 2026 study reports six variants in exon 2 of DMRT3, three of them new, the new ones mainly in non-gaited breeds and of unknown effect; none is in the data. Other gait loci (trot versus pace in Standardbreds) are known to exist and are not modelled.
+- dun: the wild-type flag moved from d2 to D (the research calls dun the ancestral state), and the d2/d2 outcome is now "non-dun", not "wild". nd1's markings are variable ("may show"), but d1/d1 and d1/d2 have one outcome that cannot say how often. The research gives no frequency figure, so the table is still the mod's. It gives no coordinate for the nd1 change, and round two could not verify one. Round two says d1/d1 may show markings more consistently than d1/d2, unmeasured; the two still share one outcome. It does not mention the separate TBX3 height enhancer in the earlier note; that citation (PMC8796118) is left from the first export and nothing in the data rests on it.
+- gbe1: the research says G/G foals are aborted late, stillborn or die as newborns. The format has one severity per condition, so it stays "lethal_at_birth" and the pair stays a living genotype, not a nonviable one. The Quarter Horse and Paint tables give UC Davis's carrier estimates (8.3% and 7.1%, round two), which agree with twice the 2006 allele frequencies. The first answer names the 2006 study only through the Merck manual; round two calls it "Ward et al." and gives no address for it. Chromosome 26 is from round two.
 - kit: homozygotes. The 30 pairs the mod's export listed as nonviable, and W4/W4, are now living-table rows with the undocumented outcome "homozygote-not-observed": the research says none has been observed and that lethality is suspected (most for W1 to W4) but unproven. There is no nonviable list at this locus any more.
 - kit: 601 pairs of two different variants are "compound-undocumented". Only booster pairs are given an outcome. That an all-white variant stays all white beside a booster is reasoned, not stated.
-- kit: W37, W38 and W39 are published (2025; the owner's second answer) and now have outcomes, each resting on one family or one horse; the study calls them likely causes. W37 has only been seen on the same chromosome as W35, so W37/W35 is given the W37 outcome and W37/N is in the data as if it could occur. W36 is not assigned, like W29, and there is nothing above W39. The two answers both count 36 variants, for W1-W35 and for W1-W39; the counts were not reconciled.
-- kit: W17 was split into W17a and W17b (owner, 2026-10-12), which the research lists as two missense variants. They are new alleles the mod lacks (mod-map.json, "not_in_mod"). The old W17 id is kept and marked "invalid"; its 41 pairs have the outcome "invalid-allele". The research does not say whether W17a and W17b are alternatives or sit together on one chromosome; they are treated as alternatives, and W17a/W17b is undocumented.
-- kit: the research says a horse can carry several variants on one chromosome (W20 with W22, W19 with W34 and W35, W32 with W35, SB1 with W32), and that W22 has only been found with W20. The format has two alleles per locus and cannot say this; W22/N is in the data as if it could occur. The research also suggests SB1 as a locus of its own.
-- kit: the mod named W4 "Camarillo white". The research ties Camarillo White lines to W1-W4 without saying which, so the name was dropped. The frequency table is still the mod's; no figure was given. tobiano was given what this research says about it; it has since had research of its own.
-- matp: sunshine (sun) is kept as a disputed candidate, quality "unverified", not "invalid" (owner, 2026-10-12). Its five pairs have the undocumented outcome "sunshine-disputed". The research says the variant is at allele frequencies above 0.86 in Arabians, Belgians, Morgans, Thoroughbreds and Quarter Horses; no table was made, because the figure is a lower bound and the other alleles' shares were not given. The mod's "general population" table still has sunshine as very rare, which the research contradicts.
+- kit: W37, W38 and W39 are published (2025; the owner's second answer) and now have outcomes, each resting on one family or one horse; the study calls them likely causes. W37 has only been seen on the same chromosome as W35, so W37/W35 is given the W37 outcome and W37/N is in the data as if it could occur. W36 is not assigned, like W29, and there is nothing above W39. The first two answers both count 36 variants, for W1-W35 and for W1-W39; round two says the count has no stable answer.
+- kit: W17 was split into W17a and W17b (owner, 2026-10-12), which the research lists as two missense variants. They are new alleles the mod lacks (mod-map.json, "not_in_mod"). The old W17 id is kept and marked "invalid"; its 41 pairs have the outcome "invalid-allele". The research does not say whether W17a and W17b are alternatives or sit together on one chromosome; they are treated as alternatives, and W17a/W17b is undocumented. Round two says they are best treated as two distinct variants and cannot say whether a horse has had both.
+- kit: the research says a horse can carry several variants on one chromosome (W20 with W22, W19 with W34 and W35, W32 with W35, SB1 with W32), and that W22 has only been found with W20; round two says, without a source, that W22 can occur without W20. Not reconciled: W22's name still says "found only with W20". The format has two alleles per locus and cannot say this; W22/N is in the data as if it could occur. The research also suggests SB1 as a locus of its own.
+- kit: W4 is named Camarillo White again: round two says so, citing a laboratory's page, where the first answer had tied Camarillo White lines to W1-W4 without saying which. Round two gives W20 as chr3:7948220T>C, which looks a digit short and is not in the data. The frequency table is still the mod's; no figure was given. tobiano was given what this research says about it; it has since had research of its own.
+- matp: sunshine (sun) is kept as a disputed candidate, quality "unverified", not "invalid" (owner, 2026-10-12). Its five pairs have the undocumented outcome "sunshine-disputed". The research says the variant is at allele frequencies above 0.86 in Arabians, Belgians, Morgans, Thoroughbreds and Quarter Horses; no table was made, because the figure is a lower bound and the other alleles' shares were not given. The mod's "general population" table still has sunshine as very rare, which the research contradicts. Round two adds only that sunshine is not a UC Davis allele name and that no pigment effect of its own is established.
 - matp: snowdrop (sno) is a published candidate known from very few horses; UC Davis does not test for it. sno/sno and the silent carrier are given outcomes on that report alone. Cr/sno and prl/sno are "compound-undocumented".
 - matp: the names palomino, buckskin, cremello and the rest depend on extension and agouti; the file says so in words and has no interactions table. The first of the three research answers marks its sources by number only, with no addresses; the citations added are the addresses in the other two. The wild type is written N here; the research also gives n and C.
-- gys1: one copy can show nothing at all (incomplete penetrance), but the format has one outcome per pair, so N/PSSM1 carries the condition and its description gives the range. No frequency table was made: the figures given (87% of affected draft-related horses, 72% of affected Quarter Horse-related horses, 18% of affected Warmbloods) are shares of diagnosed cases that carry the variant, not population frequencies. No chromosome was given. The allele id is P; UC Davis writes PSSM1.
+- gys1: one copy can show nothing at all (incomplete penetrance), but the format has one outcome per pair, so N/PSSM1 carries the condition and its description gives the range. No frequency table was made: the figures given (87% of affected draft-related horses, 72% of affected Quarter Horse-related horses, 18% of affected Warmbloods) are shares of diagnosed cases that carry the variant, not population frequencies. Chromosome 10 is from round two. The allele id is P; UC Davis writes PSSM1.
 - mushroom: the outcome depends on extension and agouti (clear on chestnut, uncertain on bay, none expected on black); the file says so in words and has no interactions table. Its link to flaxen is unresolved. No frequency was given, so the table is still the mod's "general population", though the research places the allele in Shetland Ponies and, rarely, Miniature Horses. The allele ids are Mu and mu; UC Davis writes Mu and N.
 - met: met/met stays a nonviable pair. The research supports it as a recessive embryonic lethal, on indirect evidence: about 25 per cent lower insemination success in carrier-to-carrier matings. It is reported in Friesians only; the frequency table is still the mod's "general population". The research gave the UniProt record at two addresses; one is cited.
-- myo5a: the locus now says it affects the coat, and the affected foal's outcome changes the coat, because the research describes the foal as diluted; the mod's export had both false. The Arabian tables use the mapping study's carrier shares (10.3% and 1.8%). The research also quotes UC Davis giving 10.3% and 1.6% as the allele's frequency; the two readings differ by a factor of two and were not reconciled. No chromosome was given.
-- plod1: affected foals may be stillborn, and the research says some pregnancies may be lost early (unproven); the single severity stays "lethal_at_birth". The breed tables are carrier shares among horses tested; the small ones (Sport Pony, Haflinger, Knabstrupper) rest on 12 to 48 horses and assume "allele detected in n" means n carriers. No chromosome was given.
-- ppib: the three Quarter Horse tables give carriers only; living affected horses exist and their share was not given, so they are counted with the clear horses. The research gives one address for all the frequency figures and does not say which study each comes from. The allele id is herda; laboratories write HR or H. No chromosome was given.
-- extension: ea was added (the research: UC Davis recognises E, e and ea). It is a new allele the mod lacks (mod-map.json, "not_in_mod"). The interaction tables of agouti and flaxen gained its three pairs: ea/E as E/e, and ea/e and ea/ea as e/e. For flaxen that is reasoned from ea being a second red allele; no source describes flaxen on an ea horse. The frequency table is the mod's and has no ea; no figure was given. No chromosome and no variant coordinates were given.
-- extension: the research says E/E bays may tend to be darker than E/e bays and that this is not established; it is in the summary only. It treats blood bay and liver bay as shades and seal brown (At) as unresolved, which agrees with agouti and the abstracted shade locus as they stand.
+- myo5a: the locus now says it affects the coat, and the affected foal's outcome changes the coat, because the research describes the foal as diluted; the mod's export had both false. The Arabian tables use the mapping study's carrier shares (10.3% and 1.8%). The research also quotes UC Davis giving 10.3% and 1.6% as the allele's frequency; the two readings differ by a factor of two and were not reconciled; round two did not settle it, and adds a third table from another study (allele frequency 0.08, 16% carriers, sample not described). No chromosome was given, and round two could not verify one.
+- plod1: affected foals may be stillborn, and the research says some pregnancies may be lost early (unproven); the single severity stays "lethal_at_birth". The breed tables are carrier shares among horses tested; the small ones (Sport Pony, Haflinger, Knabstrupper) rest on 12 to 48 horses and assume "allele detected in n" means n carriers; round two says those counts may include affected cases and are not random samples, and the tables' names say so. No chromosome was given, and round two could not verify one.
+- ppib: the three Quarter Horse tables give carriers only; living affected horses exist and their share was not given, so they are counted with the clear horses. The research gives one address for all the frequency figures and does not say which study each comes from. Round two says the 28% is for affected families or high-risk lines, names no study, and gives UC Davis's PSSM1 page as its address, which is not cited. The allele id is herda; laboratories write HR or H. No chromosome was given, and round two could not verify one.
+- extension: ea was added (the research: UC Davis recognises E, e and ea). It is a new allele the mod lacks (mod-map.json, "not_in_mod"). The interaction tables of agouti and flaxen gained its three pairs: ea/E as E/e, and ea/e and ea/ea as e/e. For flaxen, round two says a chestnut through ea can show flaxen. The frequency table is the mod's and has no ea; no figure was given. Chromosome 3 is from round two; no variant coordinates were given.
+- extension: round two says no dosage effect of E on bay shade is established, and the summary says so; the first answer had said E/E bays may tend to be darker. It treats blood bay and liver bay as shades and seal brown (At) as unresolved, which agrees with agouti and the abstracted shade locus as they stand.
 - shox: sa was split into Del1 and Del2 (owner, 2026-10-12), new alleles the mod lacks. The old sa id is kept and marked "invalid"; its four pairs have the outcome "invalid-allele", so the mod's own allele has no outcome here. The frequency table is the mod's and is still written for sa; no figure was given.
 - shox has no "chromosome": the format takes a number, X or Y, and X or Y would make the locus sex-linked. It lies in the pseudoautosomal region of both and is inherited as autosomal; the summary says so.
-- shox: the severity of skeletal atavism is "impairing", not "lethal_at_birth" (owner, 2026-10-12): the research describes foals born alive with severe deformity and never says they die at birth. Its phrase "nonviable or ethically untenable quality of life" is in the description.
+- shox: the severity of skeletal atavism is "lethal_at_birth" (owner, 2026-10-12, changing her "impairing" of the same day): round two says affected foals are usually nonviable or put down shortly after birth. "Usually" is not "always"; the format has one severity.
 - pax3: there is no nonviable list any more. SW4/SW4 is "splash-homozygote-undetected" (may be lethal, not demonstrated) and SW2/SW4 is "splash-undocumented" (never detected). No genotype carries a deafness condition: the research says SW2/SW2 horses "may be deaf" and that deafness is variable, which is the same rule mitf follows (only pairs a source confirms). The risk is in the descriptions.
-- pax3: SW10 is in the data from the mod. The research says only that third-party sources mention further PAX3 variants outside UC Davis's SW1-SW8. It is named "unconfirmed", keeps quality "unverified" and has no outcome, as W37-W39 were treated before they were confirmed; whether it should be "invalid" like mitf SW9 is the owner's call. The two breed tables are worked out from one allele frequency each. The "general population" table is the mod's. The journal names in two citation labels were read off the addresses, not given by the research.
-- tobiano: its own research and the kit research are both applied. The breeds in the summary are the two lists joined. The size of the inversion (about 43 Mb) and the ink spots come from the kit research; the tobiano answer gives neither. The frequency table is the mod's; no figure was given. The allele ids are To and to; UC Davis writes TO and N.
+- pax3: SW10 is "unconfirmed", quality "unverified", with no outcome. Round two: it is not among UC Davis's SW1-SW8, but some European laboratories list an SW9 and an SW10 with unconfirmed definitions; which gene a laboratory's SW10 lies in is not known. The two breed tables are worked out from one allele frequency each. The "general population" table is the mod's. The journal names in two citation labels were read off the addresses, not given by the research.
+- tobiano: its own research and the kit research are both applied. The breeds in the summary are the two lists joined. Round two confirms about 43 Mb and gives breakpoints (chr3:42,737,476 and 79,471,993) that are about 36.7 Mb apart; both are in the summary as given, unexplained. The ink spots come from the kit research. The frequency table is the mod's; no figure was given. The allele ids are To and to; UC Davis writes TO and N.
 - tiger_eye: the research says tiger eye changes the iris and never the coat. The locus still says "affects_coat": true and its eye outcomes "changes_coat": true, because the eight eye-colour loci use those flags for anything drawn on the horse; what the flags should mean for eyes is a format question for the owner. TE2/TE2 rests on one horse. The frequency table is the mod's "general population", though the variants are known only from Puerto Rican Paso Finos; no figure was given.
-- st14: the severity changed from "lethal_at_birth" to "lethal_in_early_life": the research says most affected foals died between a few weeks and three years old. That is longer than the format's "first weeks or months", and one horse was alive at nearly three; it is the nearest value, chosen by the session, not the owner. The locus is still "affects_coat": false, since it removes hair and does not change colour or pattern. The Akhal-Teke table rests on 191 horses and may not be a random sample. No chromosome was given. Most of the answer's sources are marked by number only.
-- prkdc: the severity changed from "lethal_at_birth" to "lethal_in_early_life": the research says affected foals generally do not survive beyond about four to six months. No frequency table was made: the research gives roughly 0.2% of Arabians affected, says carrier figures differ widely, and advises against using the old percentages; the mod's "general population" table stands. The research marks its sources by number and lists them by name only, so no citation was added; the three it already had are from the first export. The variant has no coordinates or c. name.
-- rapgef5: the owner's first answer found no horse allele of RAPGEF5 at all; her second, asked about EFIH by name, confirms the variant and the disorder, and the locus follows the second. The severity changed from "lethal_at_birth" to "lethal_in_early_life": signs are reported up to about 35 days old. Two Thoroughbred tables are given because the two studies disagree (1.8% and about 0.8% allele frequency); the answer also quotes carrier figures of 1.4-1.6% without a source of their own. The answer calls the change a "C-to-A transition"; C to A is a transversion, which changes nothing here.
+- st14: the severity changed from "lethal_at_birth" to "lethal_in_early_life": the research says most affected foals died between a few weeks and three years old. That is longer than the format's "first weeks or months", and one horse was alive at nearly three; it is the nearest value, chosen by the session, not the owner. The locus is still "affects_coat": false, since it removes hair and does not change colour or pattern. The Akhal-Teke table rests on 191 horses and may not be a random sample. No chromosome was given, and round two could not verify one. Most of the answer's sources are marked by number only. Round two says, without a source, that foals die within days to weeks of skin-barrier failure and infection; that contradicts the first answer and was not applied.
+- prkdc: the severity changed from "lethal_at_birth" to "lethal_in_early_life": the research says affected foals generally do not survive beyond about four to six months. No frequency table was made: the research gives roughly 0.2% of Arabians affected, says carrier figures differ widely, and advises against using the old percentages; the mod's "general population" table stands. The research marks its sources by number and lists them by name only, so no citation was added; the three it already had are from the first export. The variant has no coordinates or c. name; round two could not verify any.
+- rapgef5: the owner's first answer found no horse allele of RAPGEF5 at all; her second, asked about EFIH by name, confirms the variant and the disorder, and the locus follows the second. The severity changed from "lethal_at_birth" to "lethal_in_early_life": signs are reported up to about 35 days old. Two Thoroughbred tables are given because the two studies disagree (1.8% and about 0.8% allele frequency); the answer also quotes carrier figures of 1.4-1.6% without a source of their own. The answer calls the change a "C-to-A transition"; C to A is a transversion, which changes nothing here. Round two settled none of the figures: it calls them all specific to their study.
 - toe1: the owner's first answer looked for a coat-colour locus and found none; her second, asked about cerebellar abiotrophy by name, confirms the disorder, and the locus follows the second. The locus is named for TOE1, but the research says the variant may act through MUTYH and that the mechanism is not settled. The Arabian table gives carriers only (about 20%); living affected horses are counted with the clear ones. The severity stays "impairing". The journal name in one citation label was read off the address.
+- mstn: chromosome 18 is from round two, which calls g.66493737C>T "EquCab3-style coordinates"; which assembly the position belongs to was not checked. No frequency was given.
+- scn4a: no chromosome; round two could not verify one. No frequency was given.
+- lama3, lamc2: round two's table swaps the breeds (LAMA3 for Belgian drafts, LAMC2 for Saddlebreds) against the first answers and the gene files. It gives no source and may be a slip; nothing was changed.
+- Breed names added to summaries in round two (dun, extension, agouti, matp, champagne, silver, roan, leopard, patn1, lcorl, mstn) are the answer's descriptions, which it says to treat as estimates. None has a figure, and no frequency table was made from them.
+- Round two gave three addresses that are in no gene file: a game's wiki (horsereality) for pearl, a breeder's tool page (soloselecthorses) for fragile foal, and UC Davis's PSSM1 page for the HERDA figures.
 
 THE OTHER LOCI
 - "symbol" was filled from the exporting session's own knowledge. The research has since
@@ -180,6 +180,8 @@ NOTES FROM RESEARCH: abstracted_jump_strength, agouti, b4galt7, brindle, champag
   overrides the older text beneath it. The older text was corrected in place only
   where it flatly contradicted them; elsewhere it stands as written.
 - Every other note is an untouched copy of the mod's wiki page.
+- knowledge/science/round-2-answers.txt is the owner's round-two answer, kept whole. 42 notes
+  open with a ROUND TWO section that says what it means for that locus and points to it.
 - 14 loci have no note: the five abstracted body loci, the eight eye loci, patn2.
 
 INTERACTIONS
@@ -208,105 +210,97 @@ THE PUBLISHED REPOSITORY
 
 OPEN RESEARCH QUESTIONS
 =======================
-Written 2026-10-12, when every published locus had had one research answer. These need
-RESEARCH, not a decision from the owner. Each is phrased to be asked as it stands. Delete
-a question when its answer has been taken in. Two lessons from this round: ask about a
-disorder by its name, not only the gene symbol (rapgef5, toe1), and ask for the address
-of every source.
+Rewritten 2026-10-12 after the owner's round-two answers (knowledge/science/round-2-answers.txt)
+to the 54 questions that stood here. What that answer settled is gone from this list. What
+is left it could not verify, answered about something else, or answered against her
+earlier research. These need RESEARCH, not a decision from the owner. Delete a question
+when its answer has been taken in. Lessons so far:
+- ask about a disorder by its name, not only the gene symbol (rapgef5, toe1);
+- ask for the address of every source;
+- name the variant and its alleles in the question: asked which PDK4 and CKM allele is
+  ancestral, the answer wrote about a "risk allele" neither has, and it read grey's G2 and
+  G3 as a grading scale;
+- one long list gets thin answers: nearly every frequency question came back as "needs a
+  breed survey". Ask a few at a time, by locus.
 
-CHROMOSOMES AND COORDINATES NOT YET GIVEN
- 1. Which horse chromosome is each of these genes on, and what are the coordinates of its
-    tested variant: B4GALT7, EDNRB, MC1R (the e and ea alleles), GBE1, GYS1, HMGA2, MSTN,
-    MYO5A, PLOD1, PPIB, SCN4A, ST14?
- 2. Is PMEL (silver) on chromosome 6? The only source so far is a commercial laboratory.
+CHROMOSOMES AND COORDINATES
+ 1. Which horse chromosome is each of these genes on: B4GALT7 (Friesian dwarfism), MYO5A
+    (lavender foal), PLOD1 (fragile foal), PPIB (HERDA), SCN4A (HYPP), ST14 (naked foal)?
+    Round two could not verify any of them.
+ 2. What are the coordinates of the tested variant of each of those, and of MC1R e and ea
+    and the EDNRB p.Ile118Lys change?
  3. What is the nd1 variant of dun (TBX3): its position and base change?
  4. What are the coordinates or c. name of the five base-pair PRKDC deletion (SCID)?
- 5. Is the fifth ACAN dwarfism variant (D5) real, and what is its verified coordinate? Is
-    there a UC Davis page for the ACAN dwarfism test?
- 6. Is the tobiano inversion about 43 Mb, and where are its breakpoints?
+ 5. MSTN g.66493737C>T: is that position on EquCab2 or EquCab3?
+ 6. KIT W20: round two gives chr3:7948220T>C, which looks a digit short beside W22 at
+    chr3:79548925. What is the right position?
+ 7. Tobiano: the inversion is given as about 43 Mb, and its breakpoints as chr3:42,737,476
+    and 79,471,993, which are about 36.7 Mb apart. Which is right, and on which assembly?
+ 8. HMGA2: what is the tested height variant in Shetland ponies (name and position)?
+ 9. Is there a UC Davis page for an ACAN dwarfism test, and which variants does it name?
 
-FREQUENCIES NOT YET PUBLISHED IN THE DATA (the table is still the mod's estimate)
- 7. What allele or carrier frequencies, by breed, are published for the coat loci: dun
+FREQUENCIES (the table is still the mod's estimate; round two found no figures)
+10. What allele or carrier frequencies, by breed, are published for the coat loci: dun
     (D, nd1, nd2), extension (e and ea), agouti (a), cream and pearl, champagne, silver,
     roan, tobiano, leopard complex (LP), PATN1, mushroom (Shetland, Miniature), tiger eye
-    (Puerto Rican Paso Fino)?
- 8. What allele frequencies, by breed, are published for the KIT variants (SB1, W5, W10,
+    (Puerto Rican Paso Fino)? Round two gave breed names only.
+11. What allele frequencies, by breed, are published for the KIT variants (SB1, W5, W10,
     W13, W20, W22, W32, W34, W35) and the MITF splash alleles (SW1, SW3, SW5 to SW8)?
- 9. What carrier frequencies, by breed, are published for the disease loci: PSSM1 (GYS1),
+12. What carrier frequencies, by breed, are published for the disease loci: PSSM1 (GYS1),
     HYPP (SCN4A), frame overo (EDNRB), SCID in Arabians (PRKDC) today, skeletal atavism
     in Shetlands (SHOX Del1, Del2), the MET lethal in Friesians, JEB (LAMA3, LAMC2),
-    ACAN dwarfism?
-10. What allele frequencies, by breed, are published for LCORL, HMGA2, MSTN, PDK4 and the
-    CKM variant?
-11. Is there any published frequency for brindle (MBTPS2)? The data has none.
-12. Lavender foal (MYO5A): are 10.3% and 1.6% (or 1.8%) the allele frequency or the
-    carrier share in Egyptian and other Arabians? The two readings differ by two.
-13. GBED (GBE1): which 2006 study gave 4.1% (Quarter Horse) and 3.6% (Paint), what are
-    its carrier percentages, and what is its address?
-14. HERDA (PPIB): which studies give 3.5% (United States), 1.6% (France) and about 28%
+    ACAN dwarfism (D1 to D4)?
+13. What allele frequencies, by breed, are published for LCORL (BIEC2-808543), HMGA2, MSTN
+    (g.66493737C>T), PDK4 (g.38973231A>G) and CKM (g.15884567G>A)?
+14. Lavender foal (MYO5A): in the study that mapped the variant, are 10.3% (Egyptian
+    Arabians) and 1.8% or 1.6% (other Arabians) allele frequencies or carrier shares?
+    What sample lies behind the other study's 0.08 allele frequency and 16% carriers?
+15. GBED (GBE1): which 2006 study gave allele frequencies of 4.1% (Quarter Horse) and
+    3.6% (Paint), and what is its address? Round two named "Ward et al." without one.
+16. HERDA (PPIB): which studies give 3.5% (United States), 1.6% (France) and about 28%
     (cutting lines), and what share of horses is affected (HR/HR)?
-15. EFIH (RAPGEF5): is the Thoroughbred allele frequency 1.8% or about 0.8%, and what is
-    the source of "1.4-1.6% carriers"?
-16. Fragile foal (PLOD1): in Knabstrupper (3 of 46), Haflinger (2 of 48) and American
-    Sport Pony (1 of 12), are those carriers? What are the figures for each Warmblood
-    breed?
-17. Naked foal (ST14): were the 191 Akhal-Tekes (26 carriers) a random sample? Is there a
-    breed-wide carrier figure?
-18. Friesian dwarfism (B4GALT7): how was the 12% carrier figure sampled, and what is it
+17. EFIH (RAPGEF5): which study gives a Thoroughbred allele frequency of 1.8% and which
+    0.8%, and what is the source of "1.4-1.6% carriers"?
+18. Fragile foal (PLOD1): what are the carrier figures for each Warmblood breed? Are the
+    Knabstrupper (3 of 46), Haflinger (2 of 48) and American Sport Pony (1 of 12) counts
+    carriers or cases, and from which study?
+19. Naked foal (ST14): is there a breed-wide carrier figure for the Akhal-Teke?
+20. Friesian dwarfism (B4GALT7): how was the 12% carrier figure sampled, and what is it
     now?
-19. Cerebellar abiotrophy (TOE1): what share of Arabians is affected (CA/CA), beside the
+21. Cerebellar abiotrophy (TOE1): what share of Arabians is affected (CA/CA), beside the
     20% carriers?
-20. Sunshine (SLC45A2 c.568G>A): what is its exact allele frequency in each breed, and
+22. Sunshine (SLC45A2 c.568G>A): what is its exact allele frequency in each breed, and
     with them the frequencies of cream and pearl?
 
 ALLELES AND VARIANTS
-21. Is there a published PAX3 allele called SW10, or any splash-white allele beyond SW8?
-22. KIT W17a and W17b: are they two alternative alleles, or two changes on one
-    chromosome of one horse family?
-23. Which of W1 to W4 is the Camarillo White variant?
-24. Has W22 ever been found without W20 on the same chromosome, or W37 without W35?
-25. How many KIT white variants are named? One answer counted 36 for W1-W35 with SB1,
-    the next 36 for W1-W39 with SB1.
-26. Is there evidence, beyond none being seen, that any W homozygote dies as an embryo?
-27. What do horses with two copies of W15, W19, W20, W32, W34 or W35 look like?
-28. Snowdrop (SLC45A2 c.305G>A): has it been confirmed in more horses? What do Cr/sno
+23. Splash white: which variants are the "SW9" and "SW10" that some European laboratories
+    (Genomia) list - gene, change, and the paper that describes each?
+24. KIT W17a and W17b: has any horse been found with both?
+25. KIT W22: has it been found without W20 on the same chromosome? The first answer says
+    never, round two says yes, and neither gives a source. And W37 without W35?
+26. Snowdrop (SLC45A2 c.305G>A): has it been confirmed in more horses? What do Cr/sno
     and Prl/sno look like?
-29. Does the sunshine variant reduce pigment at all, alone or beside cream?
-30. Extension: does a flaxen mane show on a horse that is chestnut through ea? Are E/E
-    bays darker than E/e bays?
-31. What causes seal brown, and is "At" an allele? What is the bay-shade modifier near
-    ASIP and RALY on chromosome 22?
-32. Roan: what is the causal variant, and are RN/RN horses viable?
-33. Leopard complex: is there a second pattern modifier besides PATN1?
-34. PDK4 and CKM: which allele of each is ancestral?
-35. Malignant hyperthermia (RYR1): was it first described in 2004 or 2009?
-36. Grey: how fast does a G2/G3 horse grey, and what is its melanoma risk?
-37. Silver: does a chestnut that carries silver have the same eye disease (MCOA) risk?
-38. DMRT3: what do the further exon 2 variants reported in 2026 do? Which loci decide
-    trot versus pace in Standardbreds?
-39. Is there a known genetic basis for flaxen, sooty, pangare, ordinary white markings,
-    eye colour apart from tiger eye, and twinning? The data models these as abstractions.
-40. EDNRB (frame overo, lethal white) and HMGA2: a full locus overview of each. Both had
-    one correction and no research answer of their own.
+27. PDK4 g.38973231A>G and CKM g.15884567G>A (racing candidates, not disease variants):
+    which allele of each is ancestral?
+28. Malignant hyperthermia (RYR1 c.7360C>G): which paper first reports it in horses,
+    Aleman et al. 2004 (Muscle and Nerve) or the 2009 paper (J Vet Intern Med)? The two
+    answers disagree.
+29. Grey (STX17 duplication; alleles G2 with two copies and G3 with three): how fast does
+    a horse with one G2 and one G3 grey, and what is its melanoma risk?
+30. Junctional epidermolysis bullosa: which gene carries the Belgian draft form and which
+    the American Saddlebred form? The first answers say LAMC2 and LAMA3; round two's
+    table has them the other way round.
+31. DMRT3: what do the further exon 2 variants reported in 2026 do? Which named loci
+    decide trot versus pace in Standardbreds?
 
-WHAT TWO COPIES, OR AN UNUSUAL PAIR, DO
-41. Dun: how often do nd1/nd1 and nd1/nd2 horses show primitive markings?
-42. Mushroom: does every Mu/Mu bay show it? How is it related to flaxen?
-43. Tiger eye: what does TE2/TE2 look like without cream?
-44. MITF: has any horse with two copies of SW3, SW5, SW6, SW7 or SW8, or with two
-    different MITF variants, been found? PAX3: any SW4/SW4 or SW2/SW4 horse?
-45. Splash white: which genotypes are confirmed deaf, and how often?
-46. ACAN: is D1/D1 lethal at birth, and do the other dwarf pairs survive?
-47. GBED: are G/G foals lost before birth more often than born? PLOD1: are FFS/FFS
-    pregnancies lost early?
-48. Skeletal atavism: what becomes of affected foals, and at what age?
-49. Naked foal: why do affected foals die, and at what age typically?
-50. MET (Friesian): is there direct evidence of embryo loss, beyond lower insemination
-    success?
-51. Cerebellar abiotrophy: does the variant act through TOE1, MUTYH or both?
-52. SCID: are carriers more prone to sarcoids?
-53. SHOX: are carriers of Del1 or Del2 shorter?
+WHAT TWO COPIES DO
+32. Naked foal (ST14): at what age do affected foals die, and of what? The first answer
+    (from the paper that found the variant) says a few weeks to three years, cause
+    unresolved; round two says days to weeks, of skin-barrier failure and infection.
+33. ACAN: how long do D1/D1 foals live? Do the other dwarf pairs (D2, D3, D4 in any
+    combination, or with D1) survive to adulthood?
 
 SOURCES NOT SUPPLIED
-54. What are the addresses of the numbered sources in the answers for B4GALT7, PRKDC,
-    ST14, PLOD1 and the first MATP answer? They were cited by number or by name only.
+34. What are the addresses of the numbered sources in the answers for B4GALT7, PRKDC,
+    ST14, PLOD1 and the first MATP answer? Round two could not reconstruct them; they
+    would have to be asked for in the conversations that gave those answers.
