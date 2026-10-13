@@ -1,6 +1,87 @@
 GBE1 (GBED) - science notes
+(The owner's research notes, filed 2026-10-12. Its sources are given in the text as addresses in brackets.
+No source was opened by the session that filed this. genes/gbe1.json was changed to match
+on the owner's word the same day; what is left over is in knowledge/known-issues.txt.
+Not yet audited.)
+
+GBE1 is not a coat-color locus. In horses, it is best known for glycogen branching enzyme deficiency (GBED), a fatal autosomal-recessive metabolic disease concentrated in Quarter Horse–related breeds. UC Davis lists the normal allele as N and the disease allele as G; a foal needs two copies of G to be affected. [vgl.ucdavis](https://vgl.ucdavis.edu/test/gbed)
+
+Locus and function
+------------------
+
+GBE1 encodes glycogen branching enzyme, which creates branch points in glycogen—the body’s compact, rapidly mobilizable glucose-storage molecule. Without functional GBE1, tissues cannot form normally branched glycogen, so energy storage and release are severely impaired. [vgl.ucdavis](https://vgl.ucdavis.edu/test/gbed)
+
+The equine disease allele is a single-base substitution, c.102C>A, in exon 1. It creates a premature stop codon, p.Tyr34Ter (Y34*), so no functional glycogen-branching enzyme is produced. [vgl.ucdavis](https://vgl.ucdavis.edu/test/gbed)
+
+Alleles and inheritance
+-----------------------
+
+UC Davis genotype | Meaning | Breeding outcome
+N/N | Normal; not a carrier | Cannot pass GBED to offspring.  [vgl.ucdavis](https://vgl.ucdavis.edu/test/gbed)
+N/G | Carrier; clinically unaffected | Passes G to about 50% of foals.  [vgl.ucdavis](https://vgl.ucdavis.edu/test/gbed)
+G/G | Affected | GBED is fatal; no viable adult affected horses.  [vgl.ucdavis](https://vgl.ucdavis.edu/test/gbed)
+
+Two carriers produce, on average, 25% affected, 50% carriers, and 25% N/N foals. Because affected foals die before breeding, the disease allele is maintained only through clinically normal carriers. [vgl.ucdavis](https://vgl.ucdavis.edu/test/gbed)
+
+Clinical effects
+----------------
+
+GBED affects the fetus or newborn foal rather than producing a survivable adult phenotype. Reported outcomes include late-term abortion, stillbirth, weakness, seizures, muscle weakness, and early neonatal death; the abnormal glycogen storage especially compromises skeletal muscle, heart muscle, liver, and brain. [ceh.vetmed.ucdavis](https://ceh.vetmed.ucdavis.edu/health-topics/glycogen-branching-enzyme-deficiency-gbed)
+
+Carrier horses (N/G) have roughly half normal GBE activity but are otherwise asymptomatic; there is no evidence that carrying one copy causes a visible coat, conformational, or performance phenotype. [pmc.ncbi.nlm.nih](https://pmc.ncbi.nlm.nih.gov/articles/PMC7198616/)
+
+What it does not affect
+-----------------------
+
+GBE1 is a metabolic enzyme gene, not a pigment, structural, or performance-selection locus. There are no well-established equine GBE1 effects on:
+
+- Red versus black pigment, bay/black/chestnut expression, mane or tail color, or dilution/pattern phenotypes.
+- Height, speed, muscle mass, bone structure, hoof shape, or feathering.
+- Any adult-onset visible trait; homozygous G/G foals do not survive to display adult traits. [vgl.ucdavis](https://vgl.ucdavis.edu/test/gbed)
+
+For a simulator, model GBE1 as a hidden health/lethality allele, not a visible trait: N/G is invisible, while G/G should result in abortion, stillbirth, or neonatal death rather than an adult horse.
+
+Breeds and frequency
+--------------------
+
+GBED is found primarily in American Quarter Horses, American Paint Horses, and related Quarter Horse-lineage breeds; mixed-breed horses with Quarter Horse ancestry can also carry it. [vgl.ucdavis](https://vgl.ucdavis.edu/test/gbed)
+
+A major 2006 frequency study found mutant-allele frequencies of about 4.1% in registered Quarter Horses, 3.6% in Paint Horses, and 0% in Thoroughbreds. Carrier percentages are therefore much higher than allele frequencies—roughly 8–9% in Quarter Horse and Paint populations in later summaries. [merckvetmanual](https://www.merckvetmanual.com/musculoskeletal-system/myopathies-in-horses/hereditary-and-congenital-myopathies-in-horses)
+
+Established vs. speculative
+---------------------------
+
+Well established:
+
+- Equine GBED is caused by GBE1 c.102C>A / p.Y34*. [vgl.ucdavis](https://vgl.ucdavis.edu/test/gbed)
+- Inheritance is autosomal recessive. [vgl.ucdavis](https://vgl.ucdavis.edu/test/gbed)
+- G/G is lethal in fetuses or neonates. [ceh.vetmed.ucdavis](https://ceh.vetmed.ucdavis.edu/health-topics/glycogen-branching-enzyme-deficiency-gbed)
+- The mutation traces to a single founder and is especially relevant to Quarter Horse-related breeding programs. [pubmed.ncbi.nlm.nih](https://pubmed.ncbi.nlm.nih.gov/17063718/)
+
+Not established / should not be assumed:
+
+- Additional pathogenic equine GBE1 alleles analogous to the many human GSD IV variants have not been established as routine equine disease alleles; the c.102C>A variant is the recognized equine test target. [vgl.ucdavis](https://vgl.ucdavis.edu/test/gbed)
+- Claims that GBE1 carrier status changes athletic ability, muscle type, temperament, coat color, or conformation are speculation rather than validated phenotype associations. [vgl.ucdavis](https://vgl.ucdavis.edu/test/gbed)
+- Gene-editing research has demonstrated correction of the mutation in equine cells, but this is experimental science, not an established breeding or clinical treatment. [pmc.ncbi.nlm.nih](https://pmc.ncbi.nlm.nih.gov/articles/PMC7198616/)
+
+Testing and breeding use
+------------------------
+
+UC Davis offers a direct DNA test reporting N/N, N/G, or G/G. The practical breeding rule is simple: avoid N/G × N/G matings, because each such cross has a 25% chance of an affected foal. [vgl.ucdavis](https://vgl.ucdavis.edu/test/gbed)
+
+For a genetics simulation, use:
+
+- Alleles: N (functional), G (GBED).
+- Zygosity: N/N normal; N/G unaffected carrier; G/G embryonic/fetal or neonatal lethal.
+- Visibility: none for carriers; no coat-color interaction.
+- Population structure: founder effect in Quarter Horse-derived lines, with reduced but nonzero carrier frequency in related breeds and mixes. [vgl.ucdavis](https://vgl.ucdavis.edu/test/gbed)
+
+
+EARLIER NOTES, FROM THE MOD'S WIKI
+==================================
 (Copied 2026-10-12 from the Science tab of the Procedural Horse Coats wiki page for this gene.
-Written for that project: it may mention how a game models the gene. Not yet audited.)
+Written for that project: they say how a game models the gene. Where they disagree with
+the research notes above, the notes above stand.)
 
 What the enzyme does
 --------------------
