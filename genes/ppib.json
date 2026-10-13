@@ -5,17 +5,17 @@
   "name": "PPIB (HERDA)",
   "symbol": "PPIB",
   "evidence": "published",
-  "summary": "PPIB (HERDA), fragile skin - a recessive disorder the horse lives with rather than dies of: it splits where a saddle sits and never heals cleanly. The commonest survivable recessive here, because the real thing hides inside exactly the working lines a breeder would choose.",
+  "summary": "PPIB encodes cyclophilin B, an enzyme that helps fold and process collagen. A missense change in exon 1, c.115G>A, impairs that and causes hereditary equine regional dermal asthenia (HERDA): fragile, over-stretchy skin that tears and scars. It is recessive; carriers are normally healthy. Signs in a horse with two copies usually appear at about a year and a half to two years old. The disease as documented is of the skin; the bone disease that PPIB mutations cause in people is not the picture in horses. Found in the American Quarter Horse and breeds with Quarter Horse ancestry, including Paint Horses and Appaloosas, and far commoner in cutting and cow-horse lines. Laboratories usually write the genotypes N/N, N/HR and HR/HR. No effect on coat, height, speed or build is established.",
   "inheritance": "autosomal",
   "affects_coat": false,
   "alleles": [
-    { "id": "herda", "name": "HERDA", "wild_type": false, "quality": "unverified" },
+    { "id": "herda", "name": "HERDA (HR; c.115G>A)", "wild_type": false, "quality": "unverified" },
     { "id": "N", "name": "Wild-type", "wild_type": true, "quality": "unverified" }
   ],
   "phenotypes": [
     { "id": "wild", "name": "Wild type", "description": "Two working copies. Nothing is wrong and nothing is passed on.", "changes_coat": false },
-    { "id": "ppib-carrier", "name": "PPIB (HERDA) carrier", "description": "One copy of herda. The horse is completely normal and there is no way to see it - but half its foals inherit the copy, and two carriers bred together are the only way herda (fragile skin) appears.", "changes_coat": false },
-    { "id": "herda", "name": "HERDA (fragile skin)", "description": "A collagen defect in the skin. It splits and scars where a saddle sits and never heals cleanly, and the horse is sore enough that it will not work properly. It survives; it is just never sound.", "changes_coat": false }
+    { "id": "ppib-carrier", "name": "PPIB (HERDA) carrier", "description": "One copy. Typically healthy, with nothing to see; the horse passes the copy to half its foals. A foal is affected only when both parents pass it on.", "changes_coat": false },
+    { "id": "herda", "name": "HERDA (fragile skin)", "description": "Two copies. The skin is loose, thin, over-stretchy and poorly attached to the tissue beneath. Minor knocks, above all along the back, withers and saddle area, split it open, with fluid swellings, wounds that heal slowly and scarring. Signs usually appear at about a year and a half to two years old. The horse lives, but often cannot tolerate tack, which limits riding and showing.", "changes_coat": false }
   ],
   "genotypes": [
     { "alleles": ["N", "N"], "phenotype": "wild" },
@@ -23,9 +23,33 @@
     { "alleles": ["herda", "herda"], "phenotype": "herda", "conditions": ["herda"] }
   ],
   "conditions": [
-    { "id": "herda", "name": "HERDA (fragile skin)", "description": "A collagen defect in the skin. It splits and scars where a saddle sits and never heals cleanly, and the horse is sore enough that it will not work properly. It survives; it is just never sound.", "severity": "impairing" }
+    { "id": "herda", "name": "HERDA (fragile skin)", "description": "Two copies. The skin is loose, thin, over-stretchy and poorly attached to the tissue beneath. Minor knocks, above all along the back, withers and saddle area, split it open, with fluid swellings, wounds that heal slowly and scarring. Signs usually appear at about a year and a half to two years old. The horse lives, but often cannot tolerate tack, which limits riding and showing.", "severity": "impairing" }
   ],
   "frequencies": [
+    {
+      "population": "American Quarter Horse in the United States (about 3.5% carriers; other estimates run from 1.8% to 6.5%, and the share of affected horses is not given)",
+      "evidence": "published",
+      "genotypes": [
+        { "alleles": ["herda", "N"], "percent": 3.5 },
+        { "alleles": ["N", "N"], "percent": 96.5 }
+      ]
+    },
+    {
+      "population": "Quarter Horse in France (about 1.6% carriers; the share of affected horses is not given)",
+      "evidence": "published",
+      "genotypes": [
+        { "alleles": ["herda", "N"], "percent": 1.6 },
+        { "alleles": ["N", "N"], "percent": 98.4 }
+      ]
+    },
+    {
+      "population": "American Quarter Horse, cutting and cow-horse lines (about 28% carriers reported; the share of affected horses is not given)",
+      "evidence": "published",
+      "genotypes": [
+        { "alleles": ["herda", "N"], "percent": 28 },
+        { "alleles": ["N", "N"], "percent": 72 }
+      ]
+    },
     {
       "population": "general population",
       "evidence": "estimated",
@@ -37,6 +61,15 @@
   ],
   "citations": [
     { "source": "pubmed", "label": "Tryon et al., PMID 17498917", "url": "https://pubmed.ncbi.nlm.nih.gov/17498917/", "verified": false },
-    { "source": "other", "label": "UC Davis CEH", "url": "https://ceh.vetmed.ucdavis.edu/health-topics/hereditary-equine-regional-dermal-asthenia-herda", "verified": false }
+    { "source": "other", "label": "UC Davis Center for Equine Health: HERDA", "url": "https://ceh.vetmed.ucdavis.edu/health-topics/hereditary-equine-regional-dermal-asthenia-herda", "verified": false },
+    { "source": "other", "label": "NCBI Gene 100066834: PPIB, horse", "url": "https://www.ncbi.nlm.nih.gov/gene/100066834", "verified": false },
+    { "source": "other", "label": "UniProt P23284: cyclophilin B", "url": "https://www.uniprot.org/uniprotkb/P23284/entry", "verified": false },
+    { "source": "other", "label": "Labgenvet: HERDA", "url": "https://labgenvet.ca/en/disease/hereditary-equine-regional-dermal-asthenia-herda/", "verified": false },
+    { "source": "other", "label": "AQHA: genetic test round-up", "url": "https://www.aqha.com/widget/-/genetic-test-roundup", "verified": false },
+    { "source": "pubmed", "label": "PMC3063987: the HERDA mutation and collagen", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3063987/", "verified": false },
+    { "source": "pubmed", "label": "PMID 21118319: HERDA carrier frequencies", "url": "https://pubmed.ncbi.nlm.nih.gov/21118319/", "verified": false },
+    { "source": "paper", "label": "Journal of Biological Chemistry, S0021-9258(20)49754-6", "url": "https://www.jbc.org/article/S0021-9258(20)49754-6/fulltext", "verified": false },
+    { "source": "ucdavis-vgl", "label": "UC Davis VGL: horse embryo testing", "url": "https://vgl.ucdavis.edu/test/horse-embryo", "verified": false },
+    { "source": "ucdavis-vgl", "label": "UC Davis VGL: horse DNA tests", "url": "https://vgl.ucdavis.edu/dna-tests/horse", "verified": false }
   ]
 }
