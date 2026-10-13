@@ -2,19 +2,20 @@
   "format": 1,
   "id": "roan",
   "species": "horse",
-  "name": "Roan",
+  "name": "Roan (KIT region)",
   "symbol": "KIT",
+  "chromosome": "3",
   "evidence": "published",
-  "summary": "Classic roan: an even salt-and-pepper of white hairs through the whole trunk - shoulder, barrel, back, flank and hip alike - over a base colour it does not change, so a black goes blue roan and a chestnut strawberry. The head stays dark (the roan mask), the mane and tail stay solid, and the dark lower leg rises into the roaning in a point. Not the leopard complex's varnish roan, which is patchy and whitens the face. The density varies per horse and is inherited whole.",
+  "summary": "Classic roan: white hairs mixed evenly with coloured ones over the body, on a base colour it does not change, so a black goes blue roan and a chestnut red roan. The head, lower legs, mane and tail stay fully coloured. Dominant, present from birth, and it does not lighten with age as grey does. It is strongly associated with the KIT region of chromosome 3, but the mutation that causes it has not been identified: laboratories test for linked haplotypes (reported as RN1, RN2 and RN3), which are markers and not proven alleles of KIT, so a roan-looking horse can test negative. Two copies are not lethal - healthy Rn/Rn horses are documented - despite an old claim from Belgian draught records. Not the leopard complex's varnish roan, nor rabicano or sabino roaning, which can look like it.",
   "inheritance": "autosomal",
   "affects_coat": true,
   "alleles": [
-    { "id": "Rn", "name": "Roan (Rn)", "wild_type": false },
-    { "id": "rn", "name": "Wild-type (rn)", "wild_type": true }
+    { "id": "Rn", "name": "Roan", "wild_type": false },
+    { "id": "rn", "name": "Wild-type (N)", "wild_type": true }
   ],
   "phenotypes": [
     { "id": "wild", "name": "Wild type", "description": "No white hairs mixed in.", "changes_coat": false },
-    { "id": "roan", "name": "Roan", "description": "An even salt-and-pepper of white hairs through the whole trunk - barrel, shoulder, back, flank and hip alike - over a base colour it does not change: blue roan on a black, strawberry on a chestnut. The head stays dark, giving the mask classic roan is known by, the mane and tail stay solid, and the dark lower leg rises into the roaning in a point.", "changes_coat": true }
+    { "id": "roan", "name": "Roan", "description": "White hairs mixed evenly with coloured ones over the body, on a base colour it does not change: blue roan on a black, bay roan on a bay, red roan on a chestnut. The head, lower legs, mane and tail stay fully coloured. How much white shows varies between horses and with the season, and one copy looks the same as two.", "changes_coat": true }
   ],
   "genotypes": [
     { "alleles": ["rn", "rn"], "phenotype": "wild" },
@@ -32,5 +33,10 @@
       ]
     }
   ],
-  "citations": []
+  "citations": [
+    { "source": "ucdavis-vgl", "label": "UC Davis VGL: Roan Zygosity Test", "url": "https://vgl.ucdavis.edu/test/roan" },
+    { "source": "pubmed", "label": "PMC7348759: Voss et al. 2020, coat color roan shows association with KIT variants and no evidence of lethality in Icelandic Horses (Genes)", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7348759/" },
+    { "source": "ucdavis-vgl", "label": "UC Davis VGL: Equine Coat Color Genetics", "url": "https://vgl.ucdavis.edu/resources/horse-coat-color" },
+    { "source": "omia", "label": "OMIA 001216-9796: Coat colour, roan", "url": "https://omia.org/OMIA001216/9796/" }
+  ]
 }
