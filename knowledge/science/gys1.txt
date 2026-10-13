@@ -1,6 +1,98 @@
 GYS1 (PSSM1) - science notes
+(The owner's research notes, filed 2026-10-12. Its sources are given in the text as addresses in brackets.
+No source was opened by the session that filed this. genes/gys1.json was changed to match
+on the owner's word the same day; what is left over is in knowledge/known-issues.txt.
+Not yet audited.)
+
+GYS1 (glycogen synthase 1) is a muscle-metabolism gene, not a coat-color locus. In horses, its best-established disease allele causes PSSM1 (Type 1 Polysaccharide Storage Myopathy), an autosomal-dominant disorder of abnormal muscle glycogen handling. [vgl.ucdavis](https://vgl.ucdavis.edu/test/pssm1)
+
+Gene and function
+-----------------
+
+GYS1 encodes muscle glycogen synthase, the enzyme that adds glucose units to growing glycogen chains. Glycogen is the main short-term carbohydrate fuel stored in skeletal and cardiac muscle, so GYS1 is central to exercise metabolism. [medlineplus](https://medlineplus.gov/genetics/gene/gys1/)
+
+In horses, the clinically important variant is a missense mutation that changes amino acid 309 from arginine to histidine: p.R309H (often written GYS1-R309H). UC Davis identifies this as the mutation responsible for PSSM1. [vgl.ucdavis](https://vgl.ucdavis.edu/test/pssm1)
+
+Alleles and inheritance
+-----------------------
+
+Genotype | UC Davis notation | Expected result
+Normal / normal | N/N | Does not have PSSM1 and cannot transmit the PSSM1 variant.  [vgl.ucdavis](https://vgl.ucdavis.edu/test/pssm1)
+Normal / mutant | N/PSSM1 | Has the variant; may show clinical signs, from none to severe. Transmits it to about 50% of foals.  [vgl.ucdavis](https://vgl.ucdavis.edu/test/pssm1)
+Mutant / mutant | PSSM1/PSSM1 | Has two copies; may be more severely affected than heterozygotes. Transmits the variant to 100% of foals.  [vgl.ucdavis](https://vgl.ucdavis.edu/test/pssm1)
+
+The mutation is autosomal dominant: one copy is sufficient to produce the disease genotype. Penetrance and severity are incomplete and variable, meaning a genetically positive horse can be asymptomatic, mildly “tying up,” or seriously exercise-intolerant depending on management, fitness, diet, sex, age, and other genetic modifiers. [vgl.ucdavis](https://vgl.ucdavis.edu/test/pssm1)
+
+What it does to muscle
+----------------------
+
+PSSM1 causes muscle cells to accumulate excessive glycogen and abnormal, amylase-resistant polysaccharide inclusions. The R309H change makes glycogen synthase constitutively overactive, driving inappropriate glycogen synthesis even when the muscle should not be storing more fuel. [pmc.ncbi.nlm.nih](https://pmc.ncbi.nlm.nih.gov/articles/PMC5148651/)
+
+Typical signs include:
+
+- Stiffness, soreness, muscle cramping, or “tying-up” after exercise
+- Exercise intolerance and reluctance to move forward
+- Firm, painful back, hindquarter, or shoulder muscles
+- Sweating, elevated heart rate, and dark urine in severe rhabdomyolysis episodes
+- In some horses, progressive loss of muscle condition or difficulty with collection and engagement [pmc.ncbi.nlm.nih](https://pmc.ncbi.nlm.nih.gov/articles/PMC5148651/)
+
+Effects on pigment and conformation
+-----------------------------------
+
+GYS1 has no established effect on red or black pigment, base coat color, dilution, dun, roan, gray, white markings, mane or tail color, or eye color. It is a metabolic muscle-disease locus, not a pigmentation locus. [vgl.ucdavis](https://vgl.ucdavis.edu/test/pssm1)
+
+There is also no good evidence that GYS1 directly determines height, speed, bone structure, hoof shape, or feathering. It can indirectly affect athletic performance because painful muscle episodes, poor recovery, and exercise intolerance reduce usable athleticism—but that is a consequence of disease, not a conformational or “speed gene” effect. [vgl.ucdavis](https://vgl.ucdavis.edu/test/pssm1)
+
+PSSM1 versus PSSM2
+------------------
+
+Feature | PSSM1 | PSSM2
+Cause | Known GYS1-R309H mutation.  [vgl.ucdavis](https://vgl.ucdavis.edu/test/pssm1) | No single validated GYS1 mutation; a heterogeneous clinical grouping.  [ceh.vetmed.ucdavis](https://ceh.vetmed.ucdavis.edu/health-topics/polysaccharide-storage-myopathy-pssm)
+Genetic test | Direct DNA test available.  [vgl.ucdavis](https://vgl.ucdavis.edu/test/pssm1) | No equivalent validated single-gene test for all suspected cases.  [ceh.vetmed.ucdavis](https://ceh.vetmed.ucdavis.edu/health-topics/polysaccharide-storage-myopathy-pssm)
+Muscle pathology | Excess glycogen and abnormal polysaccharide inclusions.  [pmc.ncbi.nlm.nih](https://pmc.ncbi.nlm.nih.gov/articles/PMC5148651/) | Variable; diagnosis generally requires clinical evaluation and muscle biopsy rather than GYS1 testing alone.  [ceh.vetmed.ucdavis](https://ceh.vetmed.ucdavis.edu/health-topics/polysaccharide-storage-myopathy-pssm)
+Inheritance | Autosomal dominant.  [vgl.ucdavis](https://vgl.ucdavis.edu/test/pssm1) | Not established as one simple Mendelian trait.  [ceh.vetmed.ucdavis](https://ceh.vetmed.ucdavis.edu/health-topics/polysaccharide-storage-myopathy-pssm)
+
+“PSSM2” should not be treated as a confirmed GYS1 allele. UC Davis specifically distinguishes PSSM1 as the GYS1-caused form; horses that test N/N for GYS1 may still have muscle disease, but it is not PSSM1. [ceh.vetmed.ucdavis](https://ceh.vetmed.ucdavis.edu/health-topics/polysaccharide-storage-myopathy-pssm)
+
+Breed distribution
+------------------
+
+UC Davis lists appropriate testing breeds as Quarter Horses and related breeds—Paints, Appaloosas, and Pony of the Americas—plus draft breeds including Belgian, Percheron, Shire, Haflinger, and Cob Normand. It also lists Exmoor Ponies, Missouri Fox Trotters, Morgans, Mustangs, Norikers, Rhenish German Coldbloods, Rocky Mountain Horses, Tennessee Walking Horses, Saxon-Thuringian and South German Coldbloods, and several Warmblood breeds. [vgl.ucdavis](https://vgl.ucdavis.edu/test/pssm1)
+
+The variant has been documented in at least 30 breeds, with generally higher frequency in some draft breeds and lower frequency in Warmbloods.  A major survey found the GYS1 mutant allele in 87% of PSSM-affected draft-related horses and 72% of Quarter Horse-related cases, compared with 18% in Warmbloods under that study’s diagnostic criteria. [vgl.ucdavis](https://vgl.ucdavis.edu/test/pssm1)
+
+Breeds such as Thoroughbreds, Arabians, and Standardbreds are reported not to carry the PSSM1 GYS1 mutation, though individual horses of mixed ancestry can still inherit it. [ker](https://ker.com/nmdl/resources/pssm-1/)
+
+Speculation and controversy
+---------------------------
+
+The well-supported part is narrow: GYS1-R309H causes PSSM1 and is inherited dominantly. [vgl.ucdavis](https://vgl.ucdavis.edu/test/pssm1)
+
+The controversial part is the broader “PSSM” label. Some horses with PSSM-like signs test N/N for GYS1; these cases are often called PSSM2, but the genetics, diagnostic criteria, and even the boundaries of that category remain less settled than PSSM1.  Owners and some commercial testing services sometimes use broader or nonstandard allele names, so results should be interpreted against the exact variant and laboratory. [ceh.vetmed.ucdavis](https://ceh.vetmed.ucdavis.edu/health-topics/polysaccharide-storage-myopathy-pssm)
+
+There is no credible evidence for multiple common GYS1 “coat” or “performance” alleles in horses. The scientifically established equine GYS1 allele of major concern is the R309H PSSM1 variant; other GYS1 variation may exist, but it is not established as a routine breeding-test locus. [vgl.ucdavis](https://vgl.ucdavis.edu/test/pssm1)
+
+Future science
+--------------
+
+Likely advances include better definition of modifier genes that explain why one N/PSSM1 horse is asymptomatic while another is severely affected, improved understanding of diet-and-exercise interactions, and clearer separation of true myopathies currently grouped under PSSM2. The underlying biology is active research because GYS1-mediated glycogen storage is also relevant to human glycogen-storage diseases. [medlineplus](https://medlineplus.gov/genetics/gene/gys1/)
+
+Practical breeding guidance
+---------------------------
+
+- Test breeding stock in breeds where PSSM1 is relevant, especially Quarter Horse-related and draft-influenced lines. [vgl.ucdavis](https://vgl.ucdavis.edu/test/pssm1)
+- Avoid mating two PSSM1-positive horses: that can produce PSSM1/PSSM1 foals, which may be more severely affected. [vgl.ucdavis](https://vgl.ucdavis.edu/test/pssm1)
+- A positive horse is not automatically unusable, but breeding decisions should account for the 50% or 100% transmission risk and the possibility of clinical disease. [vgl.ucdavis](https://vgl.ucdavis.edu/test/pssm1)
+- A negative GYS1 test rules out PSSM1, not every cause of tying-up or muscle disease. [ceh.vetmed.ucdavis](https://ceh.vetmed.ucdavis.edu/health-topics/polysaccharide-storage-myopathy-pssm)
+
+For a simulator, model GYS1 as a health/metabolic trait, not a color locus: N/N, N/PSSM1, and PSSM1/PSSM1, with dominant inheritance and variable expressivity for clinical severity. [vgl.ucdavis](https://vgl.ucdavis.edu/test/pssm1)
+
+
+EARLIER NOTES, FROM THE MOD'S WIKI
+==================================
 (Copied 2026-10-12 from the Science tab of the Procedural Horse Coats wiki page for this gene.
-Written for that project: it may mention how a game models the gene. Not yet audited.)
+Written for that project: they say how a game models the gene. Where they disagree with
+the research notes above, the notes above stand.)
 
 At a glance
 -----------
