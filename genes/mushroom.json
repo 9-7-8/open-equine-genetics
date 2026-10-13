@@ -4,18 +4,19 @@
   "species": "horse",
   "name": "Mushroom",
   "symbol": "MFSD12",
+  "chromosome": "7",
   "evidence": "published",
-  "summary": "The mirror of silver: dilutes red pigment only, and only with two copies, walking a chestnut's red body toward a flat sepia. A black or bay horse carries it almost invisibly, having little red to lose.",
+  "summary": "Mushroom, a recessive dilution of red pigment caused by a frameshift in MFSD12 on chromosome 7 (c.600dupC, p.Asp201fs). Two copies turn a chestnut into a flat sepia, beige or taupe, often with a flaxen mane and tail, though the flaxen may come with it and not from it. On a bay the red areas may be diluted while the black points stay black, which is less well characterised; a black horse is not expected to show it. One copy shows nothing. Best documented in Shetland Ponies, where the variant matched the colour in all 96 ponies tested, and found at low frequency in Miniature Horses. UC Davis reports the genotypes as N/N, N/Mu and Mu/Mu. No effect on build or performance is established.",
   "inheritance": "autosomal",
   "affects_coat": true,
   "alleles": [
-    { "id": "Mu", "name": "Mushroom", "wild_type": false, "quality": "unverified" },
-    { "id": "mu", "name": "Wild-type", "wild_type": true, "quality": "unverified" }
+    { "id": "Mu", "name": "Mushroom (Mu; c.600dupC, p.Asp201fs)", "wild_type": false, "quality": "unverified" },
+    { "id": "mu", "name": "Wild-type (N)", "wild_type": true, "quality": "unverified" }
   ],
   "phenotypes": [
     { "id": "wild", "name": "Wild type", "description": "Red pigment is left alone.", "changes_coat": false },
-    { "id": "mushroom-carrier", "name": "Mushroom carrier", "description": "One copy shows nothing. The allele passes on invisibly - two carriers bred together are how mushroom appears.", "changes_coat": false },
-    { "id": "mushroom", "name": "Mushroom", "description": "Red pigment cut hard and partly traded for black, so a chestnut becomes a flat sepia-khaki. A black or bay horse has little red to lose and looks much the same.", "changes_coat": true }
+    { "id": "mushroom-carrier", "name": "Mushroom carrier", "description": "One copy. No visible dilution; the horse passes the copy to about half its foals.", "changes_coat": false },
+    { "id": "mushroom", "name": "Mushroom", "description": "Two copies. Red pigment is diluted: a chestnut becomes a flat sepia, beige or taupe, often with a lighter or flaxen mane and tail. On a bay the red body may be diluted while the black mane, tail and points stay black, and how reliably that shows is not settled. A black horse has little or no red to dilute and is not expected to show it.", "changes_coat": true }
   ],
   "genotypes": [
     { "alleles": ["mu", "mu"], "phenotype": "wild" },
@@ -35,6 +36,10 @@
   ],
   "citations": [
     { "source": "pubmed", "label": "Tanaka et al., PMC6827053", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6827053/", "verified": false },
-    { "source": "paper", "label": "Nature s41586-020-2937-x", "url": "https://www.nature.com/articles/s41586-020-2937-x", "verified": false }
+    { "source": "paper", "label": "Nature s41586-020-2937-x", "url": "https://www.nature.com/articles/s41586-020-2937-x", "verified": false },
+    { "source": "ucdavis-vgl", "label": "UC Davis VGL: Mushroom", "url": "https://vgl.ucdavis.edu/test/mushroom", "verified": false },
+    { "source": "ucdavis-vgl", "label": "UC Davis VGL: Horse Coat Color", "url": "https://vgl.ucdavis.edu/resources/horse-coat-color", "verified": false },
+    { "source": "pubmed", "label": "PMID 31635058: MFSD12 frameshift and mushroom in Shetland Ponies", "url": "https://pubmed.ncbi.nlm.nih.gov/31635058/", "verified": false },
+    { "source": "other", "label": "Animal Genetics: Mushroom test", "url": "https://animalgenetics.com/horse-tests/equine-color-tests/194-mushroom/", "verified": false }
   ]
 }
