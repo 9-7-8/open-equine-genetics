@@ -5,17 +5,17 @@
   "name": "B4GALT7",
   "symbol": "B4GALT7",
   "evidence": "published",
-  "summary": "B4GALT7, Friesian dwarfism - a disorder the horse lives with: reduced size and health, but survivable. Recessive; a carrier is unaffected.",
+  "summary": "B4GALT7, Friesian dwarfism - a recessive disorder of the Friesian and its crosses. One change in the gene (c.50G>A, p.Arg17Lys), at the last base of exon 1, disrupts splicing of an enzyme needed to build the proteoglycans of cartilage, tendon and growing bone. A horse with two copies is a disproportionate dwarf with lax joints. A carrier is unaffected. UC Davis estimated about 12 percent of Friesians to be carriers.",
   "inheritance": "autosomal",
   "affects_coat": false,
   "alleles": [
-    { "id": "d", "name": "Dwarfism", "wild_type": false, "quality": "unverified" },
+    { "id": "d", "name": "Friesian dwarfism (D; c.50G>A)", "wild_type": false, "quality": "unverified" },
     { "id": "N", "name": "Wild-type", "wild_type": true, "quality": "unverified" }
   ],
   "phenotypes": [
     { "id": "wild", "name": "Wild type", "description": "Two working copies. Nothing is wrong and nothing is passed on.", "changes_coat": false },
-    { "id": "b4galt7-carrier", "name": "B4GALT7 carrier", "description": "One copy of d. The horse is completely normal and there is no way to see it - but half its foals inherit the copy, and two carriers bred together are the only way friesian dwarfism appears.", "changes_coat": false },
-    { "id": "friesian-dwarfism", "name": "Friesian dwarfism", "description": "Short, splayed limbs and a weak ribcage on a normal-sized head. The horse lives, but it is small, slow, jumps badly and is in noticeably poorer health.", "changes_coat": false }
+    { "id": "b4galt7-carrier", "name": "B4GALT7 carrier", "description": "One copy of d. The horse is unaffected, and nothing shows - but half its foals inherit the copy, and two carriers bred together are the only way Friesian dwarfism appears.", "changes_coat": false },
+    { "id": "friesian-dwarfism", "name": "Friesian dwarfism", "description": "Disproportionate dwarfism: the limb and rib bones are shortened while the head and the length of the back stay comparatively normal. The fetlocks are lax and over-extend, growth is poor, and the muscles are poorly developed. How severe it is varies from horse to horse.", "changes_coat": false }
   ],
   "genotypes": [
     { "alleles": ["N", "N"], "phenotype": "wild" },
@@ -23,9 +23,17 @@
     { "alleles": ["d", "d"], "phenotype": "friesian-dwarfism", "conditions": ["friesian-dwarfism"] }
   ],
   "conditions": [
-    { "id": "friesian-dwarfism", "name": "Friesian dwarfism", "description": "Short, splayed limbs and a weak ribcage on a normal-sized head. The horse lives, but it is small, slow, jumps badly and is in noticeably poorer health.", "severity": "impairing" }
+    { "id": "friesian-dwarfism", "name": "Friesian dwarfism", "description": "Disproportionate dwarfism: the limb and rib bones are shortened while the head and the length of the back stay comparatively normal. The fetlocks are lax and over-extend, growth is poor, and the muscles are poorly developed. How severe it is varies from horse to horse.", "severity": "impairing" }
   ],
   "frequencies": [
+    {
+      "population": "Friesian (UC Davis's estimate of carriers; how it was sampled is not stated, and it may have fallen since testing began)",
+      "evidence": "published",
+      "genotypes": [
+        { "alleles": ["d", "N"], "percent": 12 },
+        { "alleles": ["N", "N"], "percent": 88 }
+      ]
+    },
     {
       "population": "general population",
       "evidence": "estimated",
