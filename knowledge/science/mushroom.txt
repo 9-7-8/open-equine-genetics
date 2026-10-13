@@ -1,6 +1,82 @@
 Mushroom - science notes
+(The owner's research notes, filed 2026-10-12. Its sources are given in the text as addresses in brackets.
+No source was opened by the session that filed this. genes/mushroom.json was changed to match
+on the owner's word the same day; what is left over is in knowledge/known-issues.txt.
+Not yet audited.)
+
+Mushroom is a recessive red-pigment dilution in horses, best documented in Shetland Ponies. It turns a chestnut base coat into a distinctive sepia, taupe, or “mushroom” color, often with a flaxen mane and tail. [vgl.ucdavis](https://vgl.ucdavis.edu/test/mushroom)
+
+Established facts
+-----------------
+
+Item | Established status
+Gene | MFSD12 (major facilitator superfamily domain containing 12), on equine chromosome 7 (ECA7).  [pubmed.ncbi.nlm.nih](https://pubmed.ncbi.nlm.nih.gov/31635058/)
+Mutation | A frameshift variant, historically reported as p.Asp201fs / c.600dupC; OMIA lists it as a duplication causing a frameshift.  [pubmed.ncbi.nlm.nih](https://pubmed.ncbi.nlm.nih.gov/31635058/)
+Inheritance | Autosomal recessive: two copies are required for the visible phenotype.  [vgl.ucdavis](https://vgl.ucdavis.edu/test/mushroom)
+Alleles | N = normal/non-mushroom; Mu = mushroom variant.  [vgl.ucdavis](https://vgl.ucdavis.edu/test/mushroom)
+Pigment affected | Red pigment / pheomelanin; it visibly dilutes chestnut-based coats.  [vgl.ucdavis](https://vgl.ucdavis.edu/resources/horse-coat-color)
+Main breeds | Shetland Pony; the variant has also been detected at low frequency in Miniature Horses.  [pubmed.ncbi.nlm.nih](https://pubmed.ncbi.nlm.nih.gov/31635058/)
+
+Phenotype
+---------
+
+A chestnut horse with Mu/Mu is diluted to a flat sepia, beige, or taupe body color. The mane and tail are often lighter or flaxen, though UC Davis describes flaxen mane/tail as commonly accompanying—not necessarily caused by—the mushroom dilution. [vgl.ucdavis](https://vgl.ucdavis.edu/test/mushroom)
+
+Because mushroom acts on red pigment, it is most obvious on chestnut. A bay-based Mu/Mu horse may show dilution of the red/pheomelanin areas, but the black points remain black; UC Davis’s core description specifically frames the visible mushroom phenotype as a chestnut-coat dilution. [vgl.ucdavis](https://vgl.ucdavis.edu/resources/horse-coat-color)
+
+Red vs. black pigment
+---------------------
+
+- Chestnut (e/e): The entire coat is red pigment, so Mu/Mu produces the classic mushroom appearance. [vgl.ucdavis](https://vgl.ucdavis.edu/test/mushroom)
+- Bay (E/_ A/_): Red body pigment can be diluted, while black mane, tail, and points are expected to remain black; visible expression is therefore more variable and less fully characterized than in chestnuts. [vgl.ucdavis](https://vgl.ucdavis.edu/resources/horse-coat-color)
+- Black (E/_ a/a): With little or no red body pigment to dilute, a Mu/Mu black horse is not expected to show the mushroom phenotype. [animalgenetics](https://animalgenetics.com/horse-tests/equine-color-tests/194-mushroom/)
+- Mu/N: A carrier; no visible mushroom dilution, but it can pass Mu to about half of its foals. [vgl.ucdavis](https://vgl.ucdavis.edu/test/mushroom)
+
+For a simulator, treat mushroom as a recessive modifier of pheomelanin, not as a base-color locus: it should be evaluated after Extension, Agouti, and the major dilution loci, with strongest and most reliable visual expression on chestnut.
+
+Inheritance examples
+--------------------
+
+Parent genotypes | Expected foal outcomes
+Mu/Mu × Mu/Mu | 100% Mu/Mu
+Mu/Mu × N/Mu | 50% Mu/Mu, 50% N/Mu
+Mu/Mu × N/N | 100% N/Mu carriers
+N/Mu × N/Mu | 25% Mu/Mu, 50% N/Mu, 25% N/N
+N/Mu × N/N | 50% N/Mu, 50% N/N
+
+A Mu/Mu horse passes one Mu allele to every foal, but its foals will only look mushroom if they also inherit a second Mu allele. [vgl.ucdavis](https://vgl.ucdavis.edu/test/mushroom)
+
+What it does not establish
+--------------------------
+
+There is currently no good evidence that mushroom affects height, speed, muscle mass, bone structure, hoof shape, feathering, or other conformational or performance traits. The published work identifies it as a melanocyte/pigmentation variant; MFSD12 is highly expressed in melanocytes, and comparable variants affect pigmentation in humans, mice, and dogs. [pubmed.ncbi.nlm.nih](https://pubmed.ncbi.nlm.nih.gov/31635058/)
+
+It also should not be assumed to determine mane or tail color by itself. Flaxen mane and tail are frequently seen in mushroom Shetlands, but the precise genetic relationship between mushroom, flaxen, and other mane/tail-lightening factors remains an area for further study. [vgl.ucdavis](https://vgl.ucdavis.edu/test/mushroom)
+
+Speculation and open questions
+------------------------------
+
+- Bay expression: Whether every Mu/Mu bay shows a clear, recognizable mushroom phenotype is less settled than the chestnut case; more phenotype-controlled bay samples would help. [vgl.ucdavis](https://vgl.ucdavis.edu/resources/horse-coat-color)
+- Other breeds: The causal variant was found in Miniature Horses, but broader breed screening is limited; reports of mushroom-like coloring in other breeds should be treated as unverified unless DNA-tested for the MFSD12 variant. [pubmed.ncbi.nlm.nih](https://pubmed.ncbi.nlm.nih.gov/31635058/)
+- Modifier effects: The extent to which flaxen, sooty, pangaré, gray, or other dilutions modify the final mushroom appearance is not fully resolved. [vgl.ucdavis](https://vgl.ucdavis.edu/test/mushroom)
+- Exact pigment mechanism: MFSD12 is implicated in melanogenesis, but the precise cellular mechanism by which the equine frameshift reduces visible red pigment is still an active area of inference rather than a fully settled mechanism. [pubmed.ncbi.nlm.nih](https://pubmed.ncbi.nlm.nih.gov/31635058/)
+
+Future science
+--------------
+
+Useful next steps would include large-scale genotyping across Shetland Ponies, Miniature Horses, and related British pony populations; controlled phenotype scoring of bay Mu/Mu horses; and functional work on how the MFSD12 frameshift alters melanin production or melanosome biology. The original study found the variant perfectly concordant with phenotype in 96 Shetland Ponies and absent from 252 individuals across seven breeds not reported to have mushroom, providing strong but still breed-limited evidence. [pubmed.ncbi.nlm.nih](https://pubmed.ncbi.nlm.nih.gov/31635058/)
+
+Testing
+-------
+
+UC Davis Veterinary Genetics Laboratory offers a mushroom DNA test with results reported as N/N, N/Mu, or Mu/Mu. This is the practical way to distinguish a true mushroom horse from visually similar sepia, silver, champagne, pearl, or flaxen-influenced chestnuts. [vgl.ucdavis](https://vgl.ucdavis.edu/test/mushroom)
+
+
+EARLIER NOTES, FROM THE MOD'S WIKI
+==================================
 (Copied 2026-10-12 from the Science tab of the Procedural Horse Coats wiki page for this gene.
-Written for that project: it may mention how a game models the gene. Not yet audited.)
+Written for that project: they say how a game models the gene. Where they disagree with
+the research notes above, the notes above stand.)
 
 Genetic identity
 ----------------

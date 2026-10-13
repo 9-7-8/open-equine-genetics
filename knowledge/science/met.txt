@@ -1,6 +1,59 @@
 MET - science notes
+(The owner's research notes, filed 2026-10-12. Its sources are given in the text as addresses in brackets.
+No source was opened by the session that filed this. genes/met.json was changed to match
+on the owner's word the same day; what is left over is in knowledge/known-issues.txt.
+Not yet audited.)
+
+Yes—MET is a real horse gene. In Equus caballus, MET (MET proto-oncogene, receptor tyrosine kinase) encodes the hepatocyte growth factor receptor, is protein-coding, and is located on horse chromosome 4.[[omia](https://omia.org/gene398299112/)][[uniprot](https://www.uniprot.org/uniprot/Q2QLA9)]
+
+What it does
+------------
+
+MET is a cell-surface receptor tyrosine kinase. When activated by its ligand, hepatocyte growth factor (HGF), it helps regulate cell proliferation, survival, migration (“scattering”), and morphogenesis—the organization of cells into tissues during development and repair.[[uniprot](https://www.uniprot.org/uniprot/Q2QLA9)][[uniprot](https://www.uniprot.org/uniprotkb/Q2QLA9/entry)][[pmc.ncbi.nlm.nih](https://pmc.ncbi.nlm.nih.gov/articles/PMC5344233/)]
+In plain terms, it is part of a signaling system involved in:
+
+* Embryonic development
+* Tissue growth and repair
+* Cell movement and tissue organization
+* Epithelial–mesenchymal interactions during development and homeostasis[[pmc.ncbi.nlm.nih](https://pmc.ncbi.nlm.nih.gov/articles/PMC5344233/)][[pmc.ncbi.nlm.nih](https://pmc.ncbi.nlm.nih.gov/articles/PMC11597589/)]
+
+It is not primarily a pigment gene. Its known role is cellular signaling and development, not switching between red and black melanin or distributing black pigment across the coat.[[uniprot](https://www.uniprot.org/uniprot/Q2QLA9)][[uniprot](https://www.uniprot.org/uniprotkb/Q2QLA9/entry)]
+
+Known horse phenotype
+---------------------
+
+A significant recent equine finding is a MET-related recessive embryonic lethality, reported in Friesian horses. OMIA records a 14-base-pair deletion in MET—NC_009147.3:g.74041982_74041995del—associated with the FH2, FH3, and/or FH4 haplotypes on chromosome 4.[[omia](https://omia.org/OMIA003064/9796/)]
+The reported effect is reproductive, not visual:
+
+* Carrier-by-carrier matings showed about a 25% reduction in insemination success, consistent with recessive embryonic loss.[[omia](https://omia.org/OMIA003064/9796/)]
+* The variant is a frameshift deletion and is listed as a naturally occurring MET variant in Friesians.[[omia](https://omia.org/OMIA003064/9796/)]
+* This means MET can matter strongly in horse breeding, but through embryo viability, not coat color.[[omia](https://omia.org/OMIA003064/9796/)]
+
+What it does not establish
+--------------------------
+
+The Friesian lethal variant does not show that MET controls:
+
+* Chestnut, bay, or black base color
+* Red versus black pigment
+* Dilution
+* White patterning
+* Height, speed, muscle, bone, hooves, feathering, or mane/tail color
+
+Those remain unsupported for MET in horses. The established equine coat-color system instead centers on genes such as MC1R and ASIP for base color and black-pigment distribution.
+
+For your project
+----------------
+
+MET is best modeled as a real equine gene with a documented fertility/embryonic-viability role, especially relevant to Friesian breeding simulations—not as a coat-color locus. A cautious simulator entry would be:
+MET: Real horse gene on ECA4; HGF receptor involved in cell growth, survival, migration, and tissue development. A reported Friesian MET frameshift deletion is associated with recessive embryonic lethality. No validated coat-color, conformation, performance, or feathering effect.[[omia](https://omia.org/gene398299112/)][[uniprot](https://www.uniprot.org/uniprot/Q2QLA9)][[omia](https://omia.org/OMIA003064/9796/)]
+
+
+EARLIER NOTES, FROM THE MOD'S WIKI
+==================================
 (Copied 2026-10-12 from the Science tab of the Procedural Horse Coats wiki page for this gene.
-Written for that project: it may mention how a game models the gene. Not yet audited.)
+Written for that project: they say how a game models the gene. Where they disagree with
+the research notes above, the notes above stand.)
 
 The variant
 -----------
