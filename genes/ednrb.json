@@ -9,13 +9,13 @@
   "inheritance": "autosomal",
   "affects_coat": true,
   "alleles": [
-    { "id": "O", "name": "Frame overo (O)", "wild_type": false },
-    { "id": "N", "name": "Wild-type (N)", "wild_type": true }
+    { "id": "O", "name": "Frame overo", "wild_type": false },
+    { "id": "N", "name": "Wild-type", "wild_type": true }
   ],
   "phenotypes": [
     { "id": "wild", "name": "Wild type", "description": "No white patches.", "changes_coat": false },
     { "id": "frame-overo", "name": "Frame overo", "description": "Big, sharp-edged splotches of white across the middle of the side - barrel, flank, shoulder and lower neck - that never cross the back and rarely reach the belly, so the coloured coat is left framing them above and below, which is where the name comes from. The face is broadly white, often bald, and the legs stay dark but for the occasional coronet. The two sides need not match. Some carriers are marked so little you would never guess, which is why frame is tested for and not eyeballed.", "changes_coat": true },
-    { "id": "lethal-white", "name": "Lethal white", "description": "An all-white foal with pink skin - Overo Lethal White Syndrome, which two frame carriers produce one time in four. In a real horse the gut has no nerve supply and the foal dies within a day or two; this mod paints the coat and does not yet model the death.", "changes_coat": true }
+    { "id": "lethal-white", "name": "Lethal white", "description": "An all-white foal with pink skin - Overo Lethal White Syndrome, which two frame carriers produce one time in four. The gut lacks its nerve supply, which is fatal: the foal is typically colicky within its first 12 hours and dies, or is put down, within the first few days.", "changes_coat": true }
   ],
   "genotypes": [
     { "alleles": ["N", "N"], "phenotype": "wild" },
