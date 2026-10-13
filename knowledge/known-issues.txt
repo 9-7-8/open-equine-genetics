@@ -1,20 +1,20 @@
 KNOWN ISSUES IN THE DATA
 ========================
-Rewritten 2026-10-12, after the owner's research was applied to 21 loci. Remove a line
+Rewritten 2026-10-12, when the owner's research began to be applied. Remove a line
 here when it is fixed, and say so in the session log.
 
 WHERE THE DATA STANDS
 - genes/ began as an export of what a game models (knowledge/how-this-was-exported/, mod
   commit 93af89d9 plus one docs commit). On 2026-10-12 the owner supplied research
-  documents and audit answers, and 21 loci were changed to follow them:
-  abstracted_jump_strength (then ryr2), acan, agouti, b4galt7, brindle, ednrb, grey, hmga2, lama3, lamc2,
-  lcorl, leopard, mitf, mstn, patn1, pdk4, roan, ryr1, scn4a, silver, slc5a3.
+  documents and audit answers, and the loci below were changed to follow them. The three
+  lists in this file are each kept on one long line, sorted, so they are easy to edit.
+RESEARCHED: abstracted_jump_strength, acan, agouti, b4galt7, brindle, ednrb, grey, hmga2, lama3, lamc2, lcorl, leopard, mitf, mstn, patn1, pdk4, roan, ryr1, scn4a, silver, slc5a3.
 - NO SESSION OPENED A SOURCE. Every fact changed that day rests on the owner's documents,
   and every citation added is an address those documents gave. Some addresses were built
   from a DOI or a PubMed number the documents gave. None has been opened.
 - The owner's rule (knowledge/decisions.txt): the science wins. Where it contradicts
   what a locus said before, the locus is changed.
-- The other 47 loci are still the mod's export, unaudited.
+- Every other locus is still the mod's export, unaudited.
 - Since format 2 every allele says how far to trust it ("quality") and every citation
   says whether a maintainer has opened it ("verified"). As of 2026-10-12: no citation
   is verified, no allele is "verified", three alleles are "invalid" (mitf SW9, agouti At
@@ -40,7 +40,7 @@ done (2026-10-12); nothing is owed to it before then. The mod still has:
 mod-map.json records the structural part: "not_in_mod" (alleles) and
 "mod_outcome_unsupported" (pairs marked undocumented here on purpose).
 
-STILL WRONG OR UNPROVEN IN THE 21
+STILL WRONG OR UNPROVEN IN THE RESEARCHED LOCI
 - mitf SW9 is marked "invalid" (owner, 2026-10-12): no published allele, laboratory or
   paper was found for it, and the name may be a mix-up with W9 of KIT. The id is kept so
   nobody adds it back. Its eight pairs have the outcome "invalid-allele".
@@ -83,13 +83,12 @@ STILL WRONG OR UNPROVEN IN THE 21
   estimate does not count.
 - ednrb and hmga2 had one correction each and are otherwise unresearched.
 
-THE OTHER 47 LOCI
+THE OTHER LOCI
 - "symbol" was filled from the exporting session's own knowledge. The research has since
   confirmed tiger_eye (SLC24A5), mushroom (MFSD12), patn1 (RFWD3), brindle (MBTPS2) and
   tobiano as a KIT-region locus. The rest are unchecked.
-- Published loci with no research from the owner yet (22): champagne,
-  ckm, dmrt3, dun, extension, gbe1, gys1, kit, matp, met, mushroom, myo5a, pax3, plod1,
-  ppib, prkdc, rapgef5, shox, st14, tiger_eye, tobiano, toe1.
+- Published loci with no research from the owner yet:
+NOT YET RESEARCHED: champagne, ckm, dmrt3, dun, extension, gbe1, gys1, kit, matp, met, mushroom, myo5a, pax3, plod1, ppib, prkdc, rapgef5, shox, st14, tiger_eye, tobiano, toe1.
 - Game wording: the plain cases were reworded on 2026-10-12 by word search. Subtler
   cases remain: what "wild horses" or founders carry (eye_colour_left,
   eye_colour_right, manchado, pax3, plod1, rapgef5) and "no wild horse is born with
@@ -107,7 +106,7 @@ THE OTHER 47 LOCI
 - Every frequency table is the mod's wild-horse founder rate, marked "estimated".
 
 CITATIONS
-- 43 of 68 loci have citations; every published locus now has at least one.
+- Every published locus has at least one citation; no abstracted locus has any.
 - For the 29 loci cited by the first export, the citations are every external link in
   that gene's wiki page, attached to the whole locus, with "source" guessed from the
   host name. For the 14 cited on 2026-10-12 they are the owner's addresses, unopened.
@@ -115,13 +114,13 @@ CITATIONS
 - tools/validate.mjs does not check that a published locus has a citation.
 
 SCIENCE NOTES
-- 16 notes are the owner's research documents with the mod's wiki text kept underneath:
-  abstracted_jump_strength, agouti, b4galt7, brindle, grey, lama3, lamc2, lcorl, leopard, mitf, patn1,
-  pdk4, roan, ryr1, silver, slc5a3. 19 notes (those, and acan, ednrb, hmga2, mstn,
-  scn4a) open with LATEST FINDINGS, which carries the owner's later audit answers and
+- These notes are the owner's research documents with the mod's wiki text kept underneath:
+NOTES FROM RESEARCH: abstracted_jump_strength, agouti, b4galt7, brindle, grey, lama3, lamc2, lcorl, leopard, mitf, patn1, pdk4, roan, ryr1, silver, slc5a3.
+- 19 notes (the first 14 of those filed, and acan, ednrb, hmga2, mstn, scn4a) open
+  with LATEST FINDINGS, which carries the owner's later audit answers and
   overrides the older text beneath it. The older text was corrected in place only
   where it flatly contradicted them; elsewhere it stands as written.
-- The other 32 notes are untouched copies of the mod's wiki pages.
+- Every other note is an untouched copy of the mod's wiki page.
 - 14 loci have no note: the five abstracted body loci, the eight eye loci, patn2.
 
 INTERACTIONS
@@ -131,9 +130,8 @@ INTERACTIONS
   cream on red versus black, silver showing only on black pigment.
 
 STRUCTURE
-- "chromosome" is on 15 loci (acan 1, agouti 22, brindle X, grey 25, lama3 8, lamc2 5, lcorl 3,
-  leopard 1, mitf 16, patn1 3, pdk4 4, roan 3, ryr1 10, silver 6, slc5a3 26). The
-  other 27 published loci lack it.
+- "chromosome" is only on loci whose research gave one. To list them:
+  grep -l '"chromosome"' genes/*.json
 - "sex" is not a locus here. brindle is x_linked and uses a placeholder allele "Y".
 - The left-eye loci in the mod usually copy the right eye; that is not expressed here.
 - tools/validate.mjs does not check that allele order is unchanged since the last
