@@ -4,18 +4,19 @@
   "species": "horse",
   "name": "MET",
   "symbol": "MET",
+  "chromosome": "4",
   "evidence": "published",
-  "summary": "MET, lethal at conception: when two carriers would produce an affected foal, the pairing simply yields no foal at all. The opposite of Overo Lethal White, which is at least born.",
+  "summary": "MET, on chromosome 4, encodes the receptor for hepatocyte growth factor, a signalling protein involved in cell growth, survival and movement during development and repair. In Friesian horses a 14 base-pair frameshift deletion (g.74041982_74041995del), associated with the FH2, FH3 and FH4 haplotypes, is reported as a recessive embryonic lethal: matings of two carriers had about 25 per cent lower insemination success, as expected if embryos with two copies are lost. Carriers are normal. Nothing is seen in the coat, and no effect on build or performance is established.",
   "inheritance": "autosomal",
   "affects_coat": false,
   "alleles": [
-    { "id": "met", "name": "Embryonic lethal", "wild_type": false, "quality": "unverified" },
+    { "id": "met", "name": "Embryonic lethal (14 bp deletion, frameshift)", "wild_type": false, "quality": "unverified" },
     { "id": "N", "name": "Wild-type", "wild_type": true, "quality": "unverified" }
   ],
   "phenotypes": [
     { "id": "wild", "name": "Wild type", "description": "Two working copies. Nothing is wrong and nothing is passed on.", "changes_coat": false },
-    { "id": "met-carrier", "name": "MET carrier", "description": "One copy of met. The horse is completely normal and there is no way to see it - but half its foals inherit the copy, and two carriers bred together are the only way embryonic lethal (met) appears.", "changes_coat": false },
-    { "id": "met-embryonic-lethal", "name": "Embryonic lethal (MET)", "description": "Two non-functional copies of MET. The embryo never develops, so the pairing produces no foal at all.", "changes_coat": false }
+    { "id": "met-carrier", "name": "MET carrier", "description": "One copy of the deletion. The horse is normal and nothing shows; half its foals inherit the copy. Two carriers bred together are how an embryo with two copies arises.", "changes_coat": false },
+    { "id": "met-embryonic-lethal", "name": "Embryonic lethal (MET)", "description": "Two copies of the deletion. The embryo is lost early, so the mating appears not to have taken. This is inferred from the lower insemination success of carrier-to-carrier matings, about 25 per cent.", "changes_coat": false }
   ],
   "genotypes": [
     { "alleles": ["N", "N"], "phenotype": "wild" },
@@ -36,6 +37,10 @@
   ],
   "citations": [
     { "source": "omia", "label": "OMIA 003064", "url": "https://omia.org/OMIA003064/9796/", "verified": false },
-    { "source": "pubmed", "label": "PMC7403398", "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7403398/", "verified": false }
+    { "source": "pubmed", "label": "PMC7403398", "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7403398/", "verified": false },
+    { "source": "omia", "label": "OMIA: the horse MET gene", "url": "https://omia.org/gene398299112/", "verified": false },
+    { "source": "other", "label": "UniProt Q2QLA9: MET, horse", "url": "https://www.uniprot.org/uniprotkb/Q2QLA9/entry", "verified": false },
+    { "source": "pubmed", "label": "PMC5344233: MET and hepatocyte growth factor signalling", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5344233/", "verified": false },
+    { "source": "pubmed", "label": "PMC11597589: MET in development and homeostasis", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11597589/", "verified": false }
   ]
 }
