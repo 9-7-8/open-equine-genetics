@@ -4,6 +4,25 @@ No source was opened by the session that filed this. genes/mitf.json was changed
 on the owner's word the same day; what is left over is in knowledge/known-issues.txt.
 Not yet audited.)
 
+ROUND TWO (the owner's answers to the open research questions, 2026-10-12)
+--------------------------------------------------------------------------
+These came after everything below. Where they disagree with it, this section and the gene
+file stand. The whole answer is in knowledge/science/round-2-answers.txt. No address has
+been opened by a maintainer.
+- UC Davis names eight splash alleles, SW1 to SW8: SW1, SW3 and SW5 to SW8 in MITF, SW2
+  and SW4 in PAX3.
+- Some European laboratory pages list an SW9 and an SW10
+  (https://www.genomia.cz/en/test/splashed-wh-horse/). They are not equivalent to UC
+  Davis's set, and the answer says to confirm the laboratory's definitions before using
+  them. The owner ruled the same day that SW9 is therefore "unconfirmed", not "invalid".
+- SW3/SW3 has not been identified and is considered lethal to the embryo by at least one
+  testing source. SW1/SW1 is documented and tends to give more white than SW1/N.
+  Homozygotes for SW5 to SW8 and pairs of two different variants are rare or
+  undocumented; the absence of a report is not proof of lethality.
+- Deafness goes most clearly with severe genotypes that leave extensive white and blue
+  eyes. A rule of "this genotype is deaf" is not supported.
+- SW1 is broad across breeds. No allele frequency was given.
+
 LATEST FINDINGS (the owner's audit answers, 2026-10-12)
 -------------------------------------------------------
 These came after the text below and correct it. Where the two disagree, this section and
