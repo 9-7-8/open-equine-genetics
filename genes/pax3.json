@@ -4,39 +4,56 @@
   "species": "horse",
   "name": "PAX3 (splash white)",
   "symbol": "PAX3",
+  "chromosome": "6",
   "evidence": "published",
-  "summary": "The second splash-white locus (with MITF), carrying SW2 and SW4. Same hard-edged waterline of white from below; because it is a separate gene from MITF, splash stacks on splash with no special rule. A large majority of wild horses carry one SW2 copy, so a little splash is close to the baseline look.",
+  "summary": "PAX3, on chromosome 6, a transcription factor needed by the pigment cells of the embryo; it also helps regulate MITF. It is the second splash-white locus, with two confirmed alleles: SW2 (c.209G>A, p.Cys70Tyr), from a Quarter Horse line and found in Quarter Horses and Paint Horses, and SW4 (p.Pro32Arg), a rare variant from one Appaloosa family. Both are dominant and very variable: a broad blaze or bald face, high white on the legs, some white on the belly, and often blue eyes. The white is skin with no pigment cells; the horse's colour is unchanged elsewhere, and chestnuts tend to show more white on the face than bays with the same genotype. Deafness occurs in some splash-white horses and is not certain in any. Horses with two copies of SW2 have been identified; none with two of SW4, or with SW2 and SW4 together, has been reported. SW10 is a name from third-party sources that no laboratory recognises. Ordinary stars, blazes and socks are not caused by this locus. No effect on build or performance is established.",
   "inheritance": "autosomal",
   "affects_coat": true,
   "alleles": [
-    { "id": "SW2", "name": "Splash white 2", "wild_type": false, "quality": "unverified" },
-    { "id": "SW4", "name": "Splash white 4", "wild_type": false, "quality": "unverified" },
-    { "id": "SW10", "name": "Splash white 10", "wild_type": false, "quality": "unverified" },
+    { "id": "SW2", "name": "Splash white 2 (c.209G>A, p.Cys70Tyr)", "wild_type": false, "quality": "unverified" },
+    { "id": "SW4", "name": "Splash white 4 (p.Pro32Arg)", "wild_type": false, "quality": "unverified" },
+    { "id": "SW10", "name": "Splash white 10 (unconfirmed)", "wild_type": false, "quality": "unverified" },
     { "id": "N", "name": "Wild-type", "wild_type": true, "quality": "unverified" }
   ],
   "phenotypes": [
-    { "id": "wild", "name": "Wild type", "description": "No splash markings.", "changes_coat": false },
-    { "id": "splash", "name": "Splash white", "description": "Splash-type white: leg white with a clean edge, white up the belly and a bold face marking. On its own it is hard to tell from the MITF kind - the two loci make the same pattern, which is why they were long taken for one gene.", "changes_coat": true },
-    { "id": "splash-bold", "name": "Bold splash white", "description": "White carried well up the barrel and over the face. Two copies of SW2 are viable and land here - and, like any doubled splash, deaf: the pigment cells that never reached the coat never reached the inner ear either.", "changes_coat": true }
+    { "id": "wild", "name": "Wild type", "description": "No splash white from this locus.", "changes_coat": false },
+    { "id": "splash", "name": "Splash white", "description": "One copy of SW2 or SW4. A broad blaze or bald face, high white on the legs, variable white on the belly, and often blue or partly blue eyes; white hair grows over pink skin. Very variable: a carrier may show little white, and SW4 may give no more than a broad blaze. Some splash-white horses are deaf; most are not known to be.", "changes_coat": true },
+    { "id": "splash-bold", "name": "Two copies of SW2", "description": "Two copies of SW2. Such horses have been identified and are viable, which the first description of SW2 had doubted. They may be deaf, and a hearing check is advised. How much white they show is not described.", "changes_coat": true },
+    { "id": "splash-undocumented", "name": "SW2 with SW4, not detected", "documented": false, "description": "One copy of SW2 and one of SW4. No such horse has been detected, and whether it would be viable is unknown.", "changes_coat": true },
+    { "id": "splash-homozygote-undetected", "name": "Two copies of SW4, never detected", "documented": false, "description": "No horse with two copies of SW4 has been reported. UC Davis says the pair may be lethal to the embryo; that is not demonstrated.", "changes_coat": true },
+    { "id": "unconfirmed-allele", "name": "Pair with an unconfirmed variant", "documented": false, "description": "A pair that includes SW10. The name comes from third-party sources; it is not among the splash-white alleles UC Davis tests for, and nothing is given for it.", "changes_coat": true }
   ],
   "genotypes": [
     { "alleles": ["N", "N"], "phenotype": "wild" },
-    { "alleles": ["SW10", "N"], "phenotype": "splash" },
+    { "alleles": ["SW10", "N"], "phenotype": "unconfirmed-allele" },
     { "alleles": ["SW4", "N"], "phenotype": "splash" },
-    { "alleles": ["SW4", "SW10"], "phenotype": "splash-bold", "conditions": ["splash-deafness"] },
+    { "alleles": ["SW4", "SW10"], "phenotype": "unconfirmed-allele" },
     { "alleles": ["SW2", "N"], "phenotype": "splash" },
-    { "alleles": ["SW2", "SW10"], "phenotype": "splash-bold", "conditions": ["splash-deafness"] },
-    { "alleles": ["SW2", "SW4"], "phenotype": "splash-bold", "conditions": ["splash-deafness"] },
-    { "alleles": ["SW2", "SW2"], "phenotype": "splash-bold", "conditions": ["splash-deafness"] }
-  ],
-  "nonviable_genotypes": [
-    { "alleles": ["SW4", "SW4"], "phenotype": "splash-bold" },
-    { "alleles": ["SW10", "SW10"], "phenotype": "splash-bold" }
-  ],
-  "conditions": [
-    { "id": "splash-deafness", "name": "Congenital deafness", "description": "Two splash copies at one locus. The pigment cells that never reached the coat never reached the inner ear either, and the horse is deaf.", "severity": "informational" }
+    { "alleles": ["SW2", "SW10"], "phenotype": "unconfirmed-allele" },
+    { "alleles": ["SW2", "SW4"], "phenotype": "splash-undocumented" },
+    { "alleles": ["SW2", "SW2"], "phenotype": "splash-bold" },
+    { "alleles": ["SW4", "SW4"], "phenotype": "splash-homozygote-undetected" },
+    { "alleles": ["SW10", "SW10"], "phenotype": "unconfirmed-allele" }
   ],
   "frequencies": [
+    {
+      "population": "American Paint Horse (SW2 allele frequency about 0.0078 with related horses removed; genotype shares worked out from it, assuming random mating)",
+      "evidence": "published",
+      "genotypes": [
+        { "alleles": ["SW2", "SW2"], "percent": 0.0061 },
+        { "alleles": ["SW2", "N"], "percent": 1.5478 },
+        { "alleles": ["N", "N"], "percent": 98.4461 }
+      ]
+    },
+    {
+      "population": "American Quarter Horse (SW2 allele frequency about 0.0083 with related horses removed; genotype shares worked out from it, assuming random mating)",
+      "evidence": "published",
+      "genotypes": [
+        { "alleles": ["SW2", "SW2"], "percent": 0.0069 },
+        { "alleles": ["SW2", "N"], "percent": 1.6462 },
+        { "alleles": ["N", "N"], "percent": 98.3469 }
+      ]
+    },
     {
       "population": "general population",
       "evidence": "estimated",
@@ -49,6 +66,12 @@
   ],
   "citations": [
     { "source": "pubmed", "label": "Hauswirth et al., PMC3325211", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3325211/", "verified": false },
-    { "source": "pubmed", "label": "PMC9498372", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9498372/", "verified": false }
+    { "source": "pubmed", "label": "PMC9498372: coat colour alleles across 28 breeds", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9498372/", "verified": false },
+    { "source": "ucdavis-vgl", "label": "UC Davis VGL: Splashed White", "url": "https://vgl.ucdavis.edu/test/splashed-white", "verified": false },
+    { "source": "other", "label": "eScholarship: multi-breed survey of white-pattern allele frequencies", "url": "https://escholarship.org/content/qt4tv6j5qn/qt4tv6j5qn.pdf", "verified": false },
+    { "source": "paper", "label": "Livestock Science, S1871141319313125: white markings in Quarter Horses", "url": "https://www.sciencedirect.com/science/article/pii/S1871141319313125", "verified": false },
+    { "source": "paper", "label": "Journal of Equine Veterinary Science, S0737080623003660", "url": "https://www.sciencedirect.com/science/article/pii/S0737080623003660", "verified": false },
+    { "source": "pubmed", "label": "PMC10854722: review of equine white spotting", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10854722/", "verified": false },
+    { "source": "pubmed", "label": "PMC10854588: horses with several KIT variants", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10854588/", "verified": false }
   ]
 }
