@@ -4,12 +4,13 @@
   "species": "horse",
   "name": "EDNRB (frame overo)",
   "symbol": "EDNRB",
+  "chromosome": "17",
   "evidence": "published",
-  "summary": "Frame overo: big, sharp-edged white splotches across the middle of the side - barrel, flank, shoulder and lower neck - that never cross the back and rarely reach the belly, so colour is left framing them above and below. Broad white face, dark legs, and two sides that need not match; some carriers show almost nothing, which is why frame is tested for. Two copies (O/O) is Overo Lethal White - an all-white foal that does not survive. It has its locus to itself, so it stacks freely with every other white pattern.",
+  "summary": "EDNRB, endothelin receptor type B, on chromosome 17: part of a signalling pathway that both the pigment cells and the nerve cells of the gut depend on in the embryo. One missense change, p.Ile118Lys, causes frame overo: big, sharp-edged white splotches across the middle of the side - barrel, flank, shoulder and lower neck - that never cross the back and rarely reach the belly, so colour is left framing them above and below. Broad white face, dark legs, and two sides that need not match; some carriers show almost nothing, which is why frame is tested for. The pattern is incompletely dominant and the lethal effect recessive: two copies (O/O) is Overo Lethal White - an all-white foal whose gut lacks its nerve supply and that does not survive. Found in Paint Horses, Quarter Horses, Thoroughbreds and other breeds with Paint ancestry. It has its locus to itself, so it stacks freely with every other white pattern.",
   "inheritance": "autosomal",
   "affects_coat": true,
   "alleles": [
-    { "id": "O", "name": "Frame overo", "wild_type": false, "quality": "unverified" },
+    { "id": "O", "name": "Frame overo (O; p.Ile118Lys)", "wild_type": false, "quality": "unverified" },
     { "id": "N", "name": "Wild-type", "wild_type": true, "quality": "unverified" }
   ],
   "phenotypes": [
@@ -23,7 +24,7 @@
     { "alleles": ["O", "O"], "phenotype": "lethal-white", "conditions": ["overo-lethal-white"] }
   ],
   "conditions": [
-    { "id": "overo-lethal-white", "name": "Overo lethal white syndrome", "description": "Two frame copies. The foal is born pure white with an unformed gut and cannot survive its first day.", "severity": "lethal_at_birth" }
+    { "id": "overo-lethal-white", "name": "Overo lethal white syndrome", "description": "Two frame copies. The foal is born almost wholly white, its gut lacks its nerve supply, and it dies of colic or is put down shortly after birth.", "severity": "lethal_at_birth" }
   ],
   "frequencies": [
     {

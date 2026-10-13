@@ -2,6 +2,21 @@ EDNRB (frame overo) - science notes
 (Copied 2026-10-12 from the Science tab of the Procedural Horse Coats wiki page for this gene.
 Written for that project: it may mention how a game models the gene. Not yet audited.)
 
+ROUND TWO (the owner's answers to the open research questions, 2026-10-12)
+--------------------------------------------------------------------------
+These came after everything below. Where they disagree with it, this section and the gene
+file stand, unless a line says the point is unsettled. The whole answer is in
+knowledge/science/round-2-answers.txt. No address has been opened by a maintainer.
+- EDNRB is on chromosome 17. It encodes endothelin receptor type B, part of a signalling
+  pathway that pigment cells and the nerve cells of the gut both need.
+- The frame overo and lethal white variant is a missense change, p.Ile118Lys.
+- One copy: frame overo. Two copies: lethal white foal syndrome - almost no pigment, a gut
+  without nerve supply, colic, and death or euthanasia shortly after birth. Incompletely
+  dominant for the pattern, recessive for the lethal effect.
+- Breeds: Paint Horse, Quarter Horse, Thoroughbred and others with Paint ancestry. No
+  carrier frequency was given.
+- The overview gave no address of its own.
+
 LATEST FINDINGS (the owner's audit answers, 2026-10-12)
 -------------------------------------------------------
 These came after the text below and correct it. Where the two disagree, this section and
