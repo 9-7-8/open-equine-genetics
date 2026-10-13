@@ -2,6 +2,17 @@ SCN4A (HYPP) - science notes
 (Copied 2026-10-12 from the Science tab of the Procedural Horse Coats wiki page for this gene.
 Written for that project: it may mention how a game models the gene. Not yet audited.)
 
+ROUND TWO (the owner's answers to the open research questions, 2026-10-12)
+--------------------------------------------------------------------------
+These came after everything below. Where they disagree with it, this section and the gene
+file stand, unless a line says the point is unsettled. The whole answer is in
+knowledge/science/round-2-answers.txt. No address has been opened by a maintainer.
+- The chromosome could not be verified.
+- A dominant sodium-channel variant traced to the stallion Impressive; it causes episodic
+  muscle weakness or paralysis (https://vgl.ucdavis.edu/test/hypp).
+- Breeds: Quarter Horse and related breeds descended from Impressive. No carrier frequency
+  was given.
+
 LATEST FINDINGS (the owner's audit answers, 2026-10-12)
 -------------------------------------------------------
 These came after the text below and correct it. Where the two disagree, this section and
