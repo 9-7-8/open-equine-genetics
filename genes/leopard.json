@@ -6,7 +6,7 @@
   "symbol": "TRPM1",
   "chromosome": "1",
   "evidence": "published",
-  "summary": "The leopard complex (TRPM1), caused by a 1,378 base-pair retroviral insertion in intron 1 of the gene. Incompletely dominant for the coat, and two copies also cause night blindness and raise the risk of recurrent uveitis. What it shows depends on two other loci. LP alone gives the appaloosa characteristics - roaning that spares the bony parts, a scatter of white spots, striped hooves, a white-rimmed eye. The bold patterns - leopard, fewspot, blanket, snowcap - come from the PATN1 and PATN2 modifiers, which do nothing at all on a horse without LP.",
+  "summary": "The leopard complex (TRPM1), caused by a 1,378 base-pair retroviral insertion in intron 1 of the gene. Incompletely dominant for the coat, and two copies also cause night blindness and raise the risk of recurrent uveitis. What it shows depends on two other loci. LP alone gives the appaloosa characteristics - roaning that spares the bony parts, a scatter of white spots, striped hooves, a white-rimmed eye. The bold patterns - leopard, fewspot, blanket, snowcap - come from the PATN1 and PATN2 modifiers, which do nothing at all on a horse without LP. Found in the Appaloosa, Knabstrupper, Noriker and related spotted breeds. More than PATN1 modifies the pattern - further modifiers and polygenic background - but no second modifier has been identified, which is what the abstracted PATN2 stands in for.",
   "inheritance": "autosomal",
   "affects_coat": true,
   "alleles": [
@@ -82,6 +82,7 @@
     { "source": "paper", "label": "Bellone et al. 2013, PLoS ONE: retroviral insertion in TRPM1", "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0078280", "verified": false },
     { "source": "pubmed", "label": "PMID 20353955: Bellone et al. 2010, fine-mapping of TRPM1", "url": "https://pubmed.ncbi.nlm.nih.gov/20353955/", "verified": false },
     { "source": "omia", "label": "OMIA 002139-9796: leopard complex spotting", "url": "https://omia.org/OMIA002139/9796/", "verified": false },
-    { "source": "omia", "label": "OMIA 001341-9796: congenital stationary night blindness", "url": "https://omia.org/OMIA001341/9796/", "verified": false }
+    { "source": "omia", "label": "OMIA 001341-9796: congenital stationary night blindness", "url": "https://omia.org/OMIA001341/9796/", "verified": false },
+    { "source": "other", "label": "Mad Barn: horse coat colour genetics", "url": "https://madbarn.com/horse-coat-color-genetics/", "verified": false }
   ]
 }
