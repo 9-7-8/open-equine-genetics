@@ -1,6 +1,163 @@
 Dun - science notes
+(The owner's research notes, filed 2026-10-12. Its sources are given in the text as addresses in brackets.
+No source was opened by the session that filed this. genes/dun.json was changed to match
+on the owner's word the same day; what is left over is in knowledge/known-issues.txt.
+Not yet audited.)
+
+Dun is a dominant, ancestral coat-color dilution controlled by the TBX3 gene on horse chromosome 8. One copy of the dun allele (D) lightens both red and black body pigment while leaving the mane, tail, lower legs, and head relatively undiluted, and it produces darker “primitive markings.” [vgl.ucdavis](https://vgl.ucdavis.edu/test/dun-horse)
+
+Locus and alleles
+-----------------
+
+The locus is commonly called the D locus or Dun locus, but its underlying gene is TBX3 (T-box transcription factor 3), mapped to equine chromosome 8. Three well-established alleles explain the major dun/non-dun phenotypes. [vgl.ucdavis](https://vgl.ucdavis.edu/test/dun-horse)
+
+Allele | Also written | Dilution? | Primitive markings? | Inheritance behavior
+D | Dun | Yes | Yes, typically | Dominant over nd1 and nd2; one copy is enough for dun  [vgl.ucdavis](https://vgl.ucdavis.edu/test/dun-horse)
+nd1 | Non-dun 1 | No | Often yes, variable | Dominant over nd2; can produce a dorsal stripe, leg barring, etc. without body dilution  [vgl.ucdavis](https://vgl.ucdavis.edu/test/dun-horse)
+nd2 | Non-dun 2 | No | No | Recessive to D and nd1; a 1,617-bp regulatory deletion  [vgl.ucdavis](https://vgl.ucdavis.edu/test/dun-horse)
+
+Genotypes and phenotypes
+........................
+
+Genotype | Visual result | Breeding note
+D/D | Dun, with primitive markings | Always passes D; every foal receives one dun allele  [vgl.ucdavis](https://vgl.ucdavis.edu/test/dun-horse)
+D/nd1 | Dun, with primitive markings | 50% chance of passing D; 50% chance of passing nd1  [vgl.ucdavis](https://vgl.ucdavis.edu/test/dun-horse)
+D/nd2 | Dun, with primitive markings | 50% chance of passing D; 50% chance of passing nd2  [vgl.ucdavis](https://vgl.ucdavis.edu/test/dun-horse)
+nd1/nd1 | Non-dun, but may show primitive markings | Always passes nd1  [vgl.ucdavis](https://vgl.ucdavis.edu/test/dun-horse)
+nd1/nd2 | Non-dun, but may show primitive markings | 50% chance of passing nd1; 50% chance of passing nd2  [vgl.ucdavis](https://vgl.ucdavis.edu/test/dun-horse)
+nd2/nd2 | Non-dun, no primitive markings from this locus | Always passes nd2; cannot produce a dun foal unless the other parent contributes D  [vgl.ucdavis](https://vgl.ucdavis.edu/test/dun-horse)
+
+There is no established dosage effect: D/D and D/nd1 or D/nd2 horses are described as having the same dun phenotype, unlike dilution genes where two copies can produce a stronger effect. [gluck.mgcafe.uky](https://gluck.mgcafe.uky.edu/color-testing)
+
+Effect on red and black pigment
+-------------------------------
+
+Dun acts on the distribution of pigment within individual hairs, not by converting one base color into another. In a dun hair, pigment is deposited asymmetrically, leaving a lighter central zone and darker edges; this creates the diluted body color and dark primitive markings. [pmc.ncbi.nlm.nih](https://pmc.ncbi.nlm.nih.gov/articles/PMC4731265/)
+
+Base color | Dun expression | Common name
+Chestnut / red base (ee) | Red body diluted to a sandy or reddish tone; red mane and tail remain relatively saturated | Red dun
+Bay base (E_ A_) | Red body diluted; black points, mane, and tail remain dark | Bay dun, classic dun, or zebra dun
+Black base (E_ aa) | Black body diluted to slate, mouse-gray, or smoky blue-gray; black mane and tail remain dark | Grullo / grulla, blue dun, or mouse dun
+
+UC Davis summarizes the effect as lightening both red and black pigment while sparing the head, lower legs, mane, and tail from full dilution.  Thus, dun does not create a new base color: it modifies chestnut, bay, or black after the MC1R and ASIP base-color system has determined them. [vgl.ucdavis](https://vgl.ucdavis.edu/resources/horse-coat-color)
+
+Primitive markings
+------------------
+
+The classic dun phenotype includes darker markings against the diluted body:
+
+- Dorsal stripe along the spine  
+- Leg barring, often called “zebra stripes”  
+- Shoulder stripes or transverse markings  
+- Facial masking or darker facial areas  
+- Cobwebbing on the forehead  
+- Darker mane/tail guard hairs in some horses  
+
+These markings are part of the D phenotype, but their intensity and completeness vary substantially between individuals. [vgl.ucdavis](https://vgl.ucdavis.edu/test/dun-horse)
+
+Importantly, primitive markings alone do not prove dun. Horses with nd1 are not dun-diluted but may show a dorsal stripe, leg barring, and other primitive markings; conversely, nd2/nd2 horses generally lack them. [vgl.ucdavis](https://vgl.ucdavis.edu/test/dun-horse)
+
+How the mutation works
+----------------------
+
+TBX3 is a transcription factor expressed in developing hair follicles. In dun horses, localized TBX3 expression changes the distribution of melanocytes and pigment granules within the growing hair, producing radial asymmetry: one side of the hair shaft receives more pigment than the other. [pmc.ncbi.nlm.nih](https://pmc.ncbi.nlm.nih.gov/articles/PMC4731265/)
+
+The non-dun alleles do not destroy TBX3 protein function. Instead, they are regulatory mutations that alter where and how much TBX3 is expressed in the hair follicle, resulting in more circumferential pigment distribution and a more saturated, non-diluted coat. [uu](https://www.uu.se/en/news/2015/2015-12-21-genetics-of-camouflage-and-the-dun-pattern-in-horses)
+
+- nd1: a single-nucleotide regulatory change; no dilution, but primitive markings may remain visible. [omia](https://omia.org/OMIA001972/9796/)
+- nd2: a 1,617-bp deletion; no dilution and generally no primitive markings. [vgl.ucdavis](https://vgl.ucdavis.edu/test/dun-horse)
+
+Evolutionary status
+-------------------
+
+Dun is considered the ancestral wild-type state in horses. Ancient DNA from a horse living roughly 43,000 years ago—long before domestication—carried both D and nd1, showing that the dun/non-dun polymorphism predates domestication. [hudsonalpha](https://www.hudsonalpha.org/faculty/greg-barsh/lab/evolution/)
+
+nd2 is inferred to be more recent and likely arose after domestication. Most modern domestic horses are non-dun, which is why intensely pigmented coats are common while dun is comparatively less frequent in many breeds. [hudsonalpha](https://www.hudsonalpha.org/faculty/greg-barsh/lab/evolution/)
+
+Effects outside coat color
+--------------------------
+
+There is no robust evidence that the dun locus affects height, speed, athletic ability, muscle mass, bone structure, hoof shape, feathering, or mane/tail length. Its demonstrated effects are confined to hair-follicle pigmentation and the visible coat pattern. [pmc.ncbi.nlm.nih](https://pmc.ncbi.nlm.nih.gov/articles/PMC4731265/)
+
+Trait | Effect of dun locus
+Red pigment | Diluted on the body; mane/tail and points largely spared  [vgl.ucdavis](https://vgl.ucdavis.edu/resources/horse-coat-color)
+Black pigment | Diluted on the body; mane/tail and points largely spared  [vgl.ucdavis](https://vgl.ucdavis.edu/resources/horse-coat-color)
+Primitive markings | Produced by D; may also occur with nd1  [vgl.ucdavis](https://vgl.ucdavis.edu/test/dun-horse)
+Mane/tail color | Not independently changed; they remain the underlying base color’s undiluted or minimally diluted shade  [vgl.ucdavis](https://vgl.ucdavis.edu/resources/horse-coat-color)
+Height, speed, muscle, bone, hooves | No established direct effect  [pmc.ncbi.nlm.nih](https://pmc.ncbi.nlm.nih.gov/articles/PMC4731265/)
+Feathering | No established direct effect; feathering is controlled by other loci/polygenic factors
+Health | No established dun-associated disorder; the identified variants are regulatory coat-color variants, not known loss-of-function disease mutations  [uu](https://www.uu.se/en/news/2015/2015-12-21-genetics-of-camouflage-and-the-dun-pattern-in-horses)
+
+For a simulator, model dun as a pigment-distribution modifier, not as a structural or performance gene: it changes the visual expression of chestnut, bay, and black bases and adds primitive markings, but should not alter conformation, gait, speed, or health.
+
+Breed distribution
+------------------
+
+Dun occurs across many breeds, but it is especially visible where dun is historically common or selected for. UC Davis’s test is breed-general and identifies D, nd1, and nd2 in any horse. [vgl.ucdavis](https://vgl.ucdavis.edu/test/dun-horse)
+
+Breeds and populations where dun is commonly seen include:
+
+- Norwegian Fjord — dun is nearly universal and central to the breed’s appearance  
+- Icelandic Horse  
+- Przewalski’s horse and other wild/feral equid populations  
+- Mongolian horses  
+- Quarter Horses and related stock-horse breeds  
+- Paint Horses and Appaloosas  
+- Mustangs  
+- Andalusians and Lusitanos  
+- Welsh Ponies and Shetland Ponies  
+- Morgans, Paso Finos, Peruvian Pasos, and Bashkir Curlies [equinegeneticsresearchcentre](https://equinegeneticsresearchcentre.horse/coat-colour-and-pattern-testing-2/dun-nd1-nd2/)
+
+The frequency differs sharply by breed. In breeds such as the Fjord, dun is a breed-defining trait; in many mainstream sport-horse and Thoroughbred populations, nd2 and non-dun phenotypes are much more prevalent. [omia](https://omia.org/OMIA001972/9796/)
+
+Speculation, controversy, and open questions
+--------------------------------------------
+
+The core genetics are settled, but several details remain active research areas:
+
+- Modifier genes for marking intensity. D reliably produces primitive markings, but the strength, number, and placement of stripes vary. Upstream regulators of TBX3 expression are not fully identified. [madbarn](https://madbarn.com/research/differential-expression-and-analysis-of-tbx3-gene-in-skin-tissues-of-dun-mongolian-horses-with-and-without-bider-markings/)
+- Bider markings. Recent work on Mongolian horses suggests TBX3 expression may be involved in symmetrical shoulder patches called Bider markings, but the regulatory mechanism remains unresolved. [madbarn](https://madbarn.com/research/differential-expression-and-analysis-of-tbx3-gene-in-skin-tissues-of-dun-mongolian-horses-with-and-without-bider-markings/)
+- Zebra-stripe relevance. Researchers have speculated that the developmental signals governing TBX3 expression may help explain stripe formation in zebras, though this remains an evolutionary and developmental-biology question rather than a proven horse-trait mechanism. [uu](https://www.uu.se/en/press/press-releases/2015/2015-12-21-a-horse-of-a-different-colour-genetics-of-camouflage-and-the-dun-pattern)
+- Visual misclassification. A dorsal stripe can occur in nd1 horses and can also result from countershading, so phenotype alone cannot reliably distinguish D, nd1, or unrelated marking variation. DNA testing resolves the locus genotype. [vgl.ucdavis](https://vgl.ucdavis.edu/test/dun-horse)
+- Possible additional alleles. No additional widely validated alleles at this locus are currently part of standard UC Davis-style dun testing; claims of new “dun types” should be treated cautiously unless supported by published variant discovery, segregation data, and functional evidence. The three-allele model—D, nd1, nd2—is the established framework. [vgl.ucdavis](https://vgl.ucdavis.edu/test/dun-horse)
+
+Testing and breeder use
+-----------------------
+
+UC Davis’s Veterinary Genetics Laboratory offers a direct Dun Dilution test and includes it in its broader horse coat-color panel. The test distinguishes D, nd1, and nd2, allowing breeders to identify homozygous dun horses and predict whether a non-dun horse can still produce dun offspring. [vgl.ucdavis](https://vgl.ucdavis.edu/test/dun-horse)
+
+Practical breeding rules:
+
+- A D/D horse will produce a dun foal with any mate, because every foal inherits D. [vgl.ucdavis](https://vgl.ucdavis.edu/test/dun-horse)
+- A D/nd1 or D/nd2 horse has a 50% chance of passing D to each foal. [vgl.ucdavis](https://vgl.ucdavis.edu/test/dun-horse)
+- Two non-dun parents can produce a dun foal only if at least one parent carries D; nd1 alone does not create dun dilution. [vgl.ucdavis](https://vgl.ucdavis.edu/test/dun-horse)
+- A non-dun horse with primitive markings may be nd1/nd1 or nd1/nd2, not necessarily dun. [vgl.ucdavis](https://vgl.ucdavis.edu/test/dun-horse)
+
+Simulator implementation notes
+------------------------------
+
+For a horse-genetics simulation, represent dun as a three-allele locus with this dominance order:
+
+\[
+D > nd1 > nd2
+\]
+
+Use these rules:
+
+- D/_ → apply dun dilution to the resolved base coat and enable primitive markings.  
+- nd1/nd1 or nd1/nd2 → no dilution, but optionally render variable primitive markings.  
+- nd2/nd2 → no dilution and no primitive markings.  
+- Do not make D/D visually darker, lighter, or more marked than D/nd1 or D/nd2; current evidence supports no meaningful dosage effect. [vgl.ucdavis](https://vgl.ucdavis.edu/test/dun-horse)
+- Apply dun after resolving MC1R/ASIP base color, but before or alongside independent white-patterning genes depending on how your rendering pipeline prioritizes pattern visibility.  
+
+The most accurate visual outputs are red dun from chestnut, bay/classic dun from bay, and grullo from black. [vgl.ucdavis](https://vgl.ucdavis.edu/resources/horse-coat-color)
+
+
+EARLIER NOTES, FROM THE MOD'S WIKI
+==================================
 (Copied 2026-10-12 from the Science tab of the Procedural Horse Coats wiki page for this gene.
-Written for that project: it may mention how a game models the gene. Not yet audited.)
+Written for that project: they say how a game models the gene. Where they disagree with
+the research notes above, the notes above stand.)
 
 The gene, and two different things near it
 ------------------------------------------
