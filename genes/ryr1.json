@@ -4,29 +4,37 @@
   "species": "horse",
   "name": "RYR1",
   "symbol": "RYR1",
+  "chromosome": "10",
   "evidence": "published",
-  "summary": "RYR1 (MH), malignant hyperthermia - a dominant disorder, so every copy shows and there is no silent carrier. It costs the horse nothing day to day: the real condition is episodic, triggered by anaesthesia or hard stress, and a horse between episodes is an ordinary horse.",
+  "summary": "RYR1, malignant hyperthermia (MH) - a dominant disorder of the calcium-release channel of skeletal muscle (c.7360C>G, p.R2454G), so one copy is enough and there is no silent carrier. The horse may seem normal until a trigger, chiefly certain anaesthetics, sets off a life-threatening crisis of overheating and muscle breakdown. Found in the Quarter Horse and related breeds - Paint Horse, Appaloosa and Quarter Horse crosses - at about one allele in a thousand. No living horse with two copies has been confirmed. It can make PSSM1 (GYS1) worse in a horse that has both.",
   "inheritance": "autosomal",
   "affects_coat": false,
   "alleles": [
-    { "id": "MH", "name": "Malignant hyperthermia (MH)", "wild_type": false },
-    { "id": "N", "name": "Wild-type (N)", "wild_type": true }
+    { "id": "MH", "name": "Malignant hyperthermia", "wild_type": false },
+    { "id": "N", "name": "Wild-type", "wild_type": true }
   ],
   "phenotypes": [
     { "id": "wild", "name": "Wild type", "description": "Two working copies. Nothing is wrong and nothing is passed on.", "changes_coat": false },
-    { "id": "malignant-hyperthermia", "name": "Malignant hyperthermia", "description": "One copy of the RYR1 variant. The horse is completely normal to look at and to ride - the fault only shows under anaesthesia or extreme stress, which is why the condition is screened for rather than spotted.", "changes_coat": false },
-    { "id": "malignant-hyperthermia-severe", "name": "Malignant hyperthermia (two copies)", "description": "Two copies of the RYR1 variant, and no normal calcium channel left. The horse overheats and stiffens under any real exertion, and has fewer hearts for it.", "changes_coat": false }
+    { "id": "malignant-hyperthermia", "name": "Malignant hyperthermia", "description": "One copy of the RYR1 variant. The horse can look and work normally until a trigger - a halogenated anaesthetic, succinylcholine, or sometimes stress, illness or excitement - sets off a crisis: very high temperature, rigid muscles, muscle breakdown, an irregular heartbeat, and in severe episodes death.", "changes_coat": false },
+    { "id": "malignant-hyperthermia-severe", "name": "Two copies (not documented)", "documented": false, "description": "No living horse with two copies has been confirmed in large-scale testing. The pair may be lethal before or soon after birth, but that is unproven, and what such a horse would be like is unknown.", "changes_coat": false }
   ],
   "genotypes": [
     { "alleles": ["N", "N"], "phenotype": "wild" },
     { "alleles": ["MH", "N"], "phenotype": "malignant-hyperthermia", "conditions": ["malignant-hyperthermia"] },
-    { "alleles": ["MH", "MH"], "phenotype": "malignant-hyperthermia-severe", "conditions": ["malignant-hyperthermia-severe"] }
+    { "alleles": ["MH", "MH"], "phenotype": "malignant-hyperthermia-severe" }
   ],
   "conditions": [
-    { "id": "malignant-hyperthermia", "name": "Malignant hyperthermia", "description": "One copy of the RYR1 variant. The horse is completely normal to look at and to ride - the fault only shows under anaesthesia or extreme stress, which is why the condition is screened for rather than spotted.", "severity": "informational" },
-    { "id": "malignant-hyperthermia-severe", "name": "Malignant hyperthermia (two copies)", "description": "Two copies of the RYR1 variant, and no normal calcium channel left. The horse overheats and stiffens under any real exertion, and has fewer hearts for it.", "severity": "impairing" }
+    { "id": "malignant-hyperthermia", "name": "Malignant hyperthermia", "description": "One copy of the RYR1 variant. The horse can look and work normally until a trigger - a halogenated anaesthetic, succinylcholine, or sometimes stress, illness or excitement - sets off a crisis: very high temperature, rigid muscles, muscle breakdown, an irregular heartbeat, and in severe episodes death.", "severity": "impairing" }
   ],
   "frequencies": [
+    {
+      "population": "American Quarter Horse (allele frequency 0.0013, Aleman et al. 2025; the carrier share is worked out from it, and no horse with two copies was found)",
+      "evidence": "published",
+      "genotypes": [
+        { "alleles": ["MH", "N"], "percent": 0.26 },
+        { "alleles": ["N", "N"], "percent": 99.74 }
+      ]
+    },
     {
       "population": "general population",
       "evidence": "estimated",
@@ -36,5 +44,12 @@
       ]
     }
   ],
-  "citations": []
+  "citations": [
+    { "source": "ucdavis-vgl", "label": "UC Davis VGL: Malignant Hyperthermia (MH)", "url": "https://vgl.ucdavis.edu/test/mh" },
+    { "source": "pubmed", "label": "PMC12038935: Aleman, McCue and Bellone 2025, frequency of the RYR1 MH allele in over 159,000 horses", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12038935/" },
+    { "source": "ucdavis-vgl", "label": "UC Davis VGL: MH found to be low frequency and clinically significant in Quarter Horses", "url": "https://vgl.ucdavis.edu/news/mh-found-be-low-frequency-and-clinically-significant-in-qh" },
+    { "source": "pubmed", "label": "PMID 19220734: Malignant hyperthermia associated with ryanodine receptor 1 (C7360G) mutation in Quarter Horses (J Vet Intern Med 2009)", "url": "https://pubmed.ncbi.nlm.nih.gov/19220734/" },
+    { "source": "omia", "label": "OMIA 000621-9796: Malignant hyperthermia", "url": "https://omia.org/OMIA000621/9796/" },
+    { "source": "pubmed", "label": "PMID 15318347: Aleman et al. 2004, association of a mutation in the ryanodine receptor 1 gene with equine malignant hyperthermia (Muscle and Nerve)", "url": "https://pubmed.ncbi.nlm.nih.gov/15318347/" }
+  ]
 }
