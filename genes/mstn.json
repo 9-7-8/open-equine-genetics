@@ -5,17 +5,17 @@
   "name": "MSTN (myostatin)",
   "symbol": "MSTN",
   "evidence": "published",
-  "summary": "MSTN (myostatin), the sprint / stamina trade-off. Codominant: each C copy adds a little speed and costs two hearts of health. Endurance is paid for in hearts because there is no separate stamina bar.",
+  "summary": "MSTN (myostatin), the best predictor of a Thoroughbred's best racing distance. At the variant g.66493737C>T, C/C horses are suited to short sprints, C/T to middle distances, and T/T to longer ones, with more stamina. The effect has been traced to an insertion in the gene. Shown in Thoroughbreds; it is a statistical tendency, not a guarantee for one horse.",
   "inheritance": "autosomal",
   "affects_coat": false,
   "alleles": [
-    { "id": "C", "name": "Sprint (C)", "wild_type": false },
-    { "id": "T", "name": "Stayer (T)", "wild_type": true }
+    { "id": "C", "name": "Sprint", "wild_type": false },
+    { "id": "T", "name": "Stayer", "wild_type": true }
   ],
   "phenotypes": [
-    { "id": "sprinter", "name": "Sprinter", "description": "Two sprint copies. The fastest horse this locus can make, and the one with the fewest hearts to show for it.", "changes_coat": false },
-    { "id": "middle-distance", "name": "Middle distance", "description": "One of each. Half a sprinter's speed for half a sprinter's hearts - the alleles do not hide each other, they add.", "changes_coat": false },
-    { "id": "stayer", "name": "Stayer", "description": "Two stayer copies - the baseline horse. No speed bonus, and no hearts given up for one.", "changes_coat": false }
+    { "id": "sprinter", "name": "Sprinter", "description": "Two C copies. Best suited to short sprint races.", "changes_coat": false },
+    { "id": "middle-distance", "name": "Middle distance", "description": "One of each. Best suited to middle distances - the alleles do not hide each other.", "changes_coat": false },
+    { "id": "stayer", "name": "Stayer", "description": "Two T copies. Best suited to longer races, with greater stamina.", "changes_coat": false }
   ],
   "genotypes": [
     { "alleles": ["T", "T"], "phenotype": "stayer" },
@@ -40,6 +40,8 @@
     { "source": "pubmed", "label": "PMID 25160752", "url": "https://pubmed.ncbi.nlm.nih.gov/25160752/" },
     { "source": "pubmed", "label": "PMC11177368", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11177368/" },
     { "source": "pubmed", "label": "PMC12995546", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12995546/" },
-    { "source": "other", "label": "Anim. Behav. Genet. 54(2)", "url": "https://www.jstage.jst.go.jp/article/abgri/54/2/54_25/_article/-char/en" }
+    { "source": "other", "label": "Anim. Behav. Genet. 54(2)", "url": "https://www.jstage.jst.go.jp/article/abgri/54/2/54_25/_article/-char/en" },
+    { "source": "paper", "label": "Hill et al. 2010, a genome-wide SNP-association study confirms g.66493737C>T in MSTN as the most powerful predictor of optimum racing distance (BMC Genomics 11:552)", "url": "https://doi.org/10.1186/1471-2164-11-552" },
+    { "source": "paper", "label": "The speed gene effect of myostatin arises in Thoroughbred horses (PLoS ONE, 2018)", "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0205664" }
   ]
 }
