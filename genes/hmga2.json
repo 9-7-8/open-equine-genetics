@@ -4,8 +4,9 @@
   "species": "horse",
   "name": "HMGA2 (pony)",
   "symbol": "HMGA2",
+  "chromosome": "7",
   "evidence": "published",
-  "summary": "HMGA2, a height gene: each p copy makes the horse shorter. Found in Shetland ponies and other small horses. No effect on speed or jumping is established.",
+  "summary": "HMGA2, on chromosome 7, encodes a transcription factor (high-mobility group AT-hook 2) that regulates growth and body size. Variation at it is associated with height and overall skeletal proportions: each p copy here makes the horse shorter. It is found in Shetland ponies and other small horses. Height is highly polygenic - LCORL, HMGA2 and many other loci contribute, and breed and nutrition change the outcome - so this is one additive part of size, not a switch. Allele frequencies differ sharply between pony breeds, Thoroughbreds, Warmbloods and drafts, and no general frequency table is published. It does not affect coat colour, white pattern, feathering, hooves or eye colour, and no effect on speed or jumping is established.",
   "inheritance": "autosomal",
   "affects_coat": false,
   "alleles": [
