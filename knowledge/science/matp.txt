@@ -1,6 +1,260 @@
 MATP (cream / pearl) - science notes
+(The owner's research notes, filed 2026-10-12. Its sources are given in the text as addresses in brackets.
+No source was opened by the session that filed this. genes/matp.json was changed to match
+on the owner's word the same day; what is left over is in knowledge/known-issues.txt.
+Not yet audited.
+Three answers, in the order she sent them; the later ones add snowdrop and sunshine. The
+three "ANSWER" headings were added when filing. The first answer marks most of its sources
+by number only, and the list those numbers point to was not supplied.)
+
+FIRST ANSWER: MATP / SLC45A2, the Cream–Pearl locus in horses
+-------------------------------------------------------------
+
+MATP is the older name for the equine SLC45A2 gene, the locus behind Cream dilution and Pearl dilution. It alters pigment processing in melanocytes but does not create a new base color; it dilutes the red and/or black pigment produced by the horse’s underlying MC1R/ASIP base coat.[[vgl.ucdavis](https://vgl.ucdavis.edu/test/cream)][[vgl.ucdavis](https://vgl.ucdavis.edu/test/pearl)][[omia](https://www.omia.org/OMIA001344/9796/)]
+
+Gene identity
+-------------
+
+MATP stands for membrane-associated transporter protein. The gene is now formally called SLC45A2 (solute carrier family 45 member 2), and it lies on equine chromosome 21. UC Davis identifies the cream mutation as SLC45A2 c.457G>A in exon 2; the pearl mutation is SLC45A2 c.985G>A in exon 4. [13][16][14]
+
+SLC45A2 is thought to help traffic pigment-related molecules to developing melanocytes. When that transport is disrupted, melanin is produced less effectively or distributed differently, producing diluted hair, skin, and eye pigment. [13][16]
+
+Established alleles
+-------------------
+
+Allele | Common notation | Inheritance | Effect
+Wild type | N, n, or C | Normal | No MATP/SLC45A2 dilution
+Cream | Cr | Incomplete dominant | One copy dilutes red strongly and black minimally; two copies dilute both red and black strongly. [13]
+Pearl | Prl | Recessive alone | One copy usually has no visible coat effect; two copies dilute coat, mane, tail, and skin. [16]
+Cream + Pearl compound heterozygote | Cr/Prl | Compound heterozygous | Produces a pseudo-double-cream phenotype resembling a double dilute, often with pale skin and blue/green eyes. [16]
+
+UC Davis currently lists N and Cr for its Cream test and N and Prl for its Pearl test. [13][16]
+
+Effect on red pigment
+---------------------
+
+Cream has a strong, dosage-dependent effect on phaeomelanin—the reddish/yellow pigment in chestnut-based coats. [13]
+
+Base coat | One Cream allele | Two Cream alleles
+Chestnut | Palomino: gold body, flaxen or pale mane/tail | Cremello: pale cream body, mane, and tail; pink skin; blue eyes. [13]
+Bay | Buckskin: tan/gold body with black points largely retained | Perlino: very pale body with diluted points. [13]
+Black | Smoky black: often black or nearly black; cream may be subtle or invisible | Smoky cream: pale cream double dilute. [13]
+
+A single Cream allele dilutes red to yellow or gold, while its effect on black pigment is usually subtle. Two Cream alleles dilute both pigment types substantially, although black-based double dilutes may retain somewhat more pigment than chestnut-based double dilutes. [13]
+
+Effect on black pigment
+-----------------------
+
+Cream’s effect on eumelanin—black pigment—is weak in single dose. A bay with one Cream copy usually remains clearly buckskin because the black mane, tail, and lower legs remain dark; a black horse with one Cream copy may be called smoky black and can be difficult or impossible to identify visually. [13]
+
+With two Cream alleles, black pigment is strongly diluted. On a bay base this gives perlino; on a black base it gives smoky cream. [13]
+
+Pearl, by contrast, is not visibly expressed in one copy on black, bay, or chestnut bases. In two copies, it dilutes both red and black pigment, and on chestnut it creates a pale, uniform apricot body, mane, and tail with pale skin. [16]
+
+Cream × Pearl interaction
+-------------------------
+
+A horse with one Cream allele and one Pearl allele is a compound heterozygote: it carries two different dilution variants at the same SLC45A2 locus. This combination can mimic a true double cream, producing a pale coat, pale skin, and blue or green eyes; UC Davis calls these “pseudo-double cream” phenotypes. [16]
+
+This matters for breeding because Cr/Prl is not Cr/Cr. The foal may look like a double dilute, but it carries only one Cream allele and one Pearl allele rather than two Cream alleles. [16]
+
+Genotypes and expected phenotypes
+---------------------------------
+
+SLC45A2 genotype | Typical visible result
+N/N | No Cream or Pearl dilution from this locus
+N/Cr | Palomino, buckskin, or smoky black, depending on base color
+Cr/Cr | Cremello, perlino, or smoky cream, depending on base color
+N/Prl | No visible Pearl effect; carrier
+Prl/Prl | Pearl dilution, often apricot on chestnut base
+Cr/Prl | Pseudo-double-cream phenotype; pale coat, skin, and often blue/green eyes
+
+The phenotype also depends on the base color genes MC1R and ASIP, plus any additional dilutions or white patterns. Cream does not override chestnut/bay/black genetics; it modifies the pigment those genes produce. [15][13]
+
+What MATP does not do
+---------------------
+
+There is no well-established evidence that MATP/SLC45A2 determines height, speed, muscle mass, bone structure, hoof shape, feathering, or other structural traits. Its documented role is pigment dilution: hair, skin, and eye color. [13][16]
+
+A few practical distinctions:
+
+- Mane and tail color: Cream changes their color as part of the coat—for example, a palomino’s light mane and tail, or the pale mane and tail of a cremello or pearl. It does not independently control mane/tail length or texture. [13][16]
+- Eye color: Cream and Cream/Pearl can produce blue or pale eyes; this is a pigment effect, not a vision or conformation trait. [13][16]
+- Skin: Double cream and Pearl phenotypes have pale skin, but this is not the same as a white-spotting gene or a health condition caused by the dilution itself. [13][16]
+- White markings: Genes such as those causing sabino, frame overo, tobiano, or dominant white are separate from SLC45A2. Cream can make a coat look near-white, but it is not a white-spotting allele. [13]
+
+Breeds where it is common
+-------------------------
+
+Cream is appropriate for testing in many breeds and is widespread wherever palominos, buckskins, cremellos, perlinos, and smoky blacks are bred. UC Davis notes that its Cream test applies to “many breeds.” [13]
+
+Pearl is much rarer. UC Davis specifically identifies it in:
+
+- Andalusians
+- Lusitanos
+- Quarter Horses
+- Paint Horses [16]
+
+In Quarter Horses and Paints, Pearl was historically called Barlink Factor. UC Davis concludes that the same mutation occurs in Spanish breeds and Quarter Horse/Paint populations, likely reflecting Spanish ancestry in the latter breeds; therefore “Pearl” is the preferred name. [16]
+
+Speculation and uncertainty
+---------------------------
+
+The core Cream and Pearl mutations are well established, but the locus still has open questions:
+
+- Additional SLC45A2 variants: Research has identified Pearl as a separate missense variant in the same gene as Cream, and scientific discussion notes that multiple SLC45A2 variants can produce dilution phenotypes. This makes it plausible that additional rare alleles or modifiers exist, but they should not be assumed to exist without validation. [11][14]
+- “Sunshine” and other named phenotypes: Some dilution-like phenotypes have been investigated in connection with SLC45A2 compound heterozygotes. Their inheritance and exact molecular classification are less settled than Cream and Pearl, so simulator designs should treat them as research-in-progress rather than confirmed standard alleles. [23]
+- Phenotype overlap: Cream, Pearl, Champagne, Dun, Silver, and mushroom can resemble one another in some combinations. UC Davis explicitly cautions that its Cream test detects only the exon-2 Cream mutation and will not detect other dilution genes or mutations that resemble Cream. [13]
+- Exact visual boundaries: A single Cream allele’s slight effect on black pigment can be inconsistent and hard to see, especially on smoky black. Coat-color naming is therefore phenotype-based and can be ambiguous without genetic testing. [13]
+
+Future science
+--------------
+
+Likely future work includes searching for additional functional SLC45A2 variants, refining genotype-to-phenotype prediction in compound dilution horses, and distinguishing true double Cream horses from Cream/Pearl compound heterozygotes. The 2019 Pearl study provided direct evidence for the exon-4 mutation and clarified why Cream/Pearl horses resemble double dilutes. [11][14]
+
+For a breeding simulator, the most defensible model is:
+
+- Treat SLC45A2 as one locus with at least N, Cr, and Prl.
+- Use incomplete dominance for Cr.
+- Use recessive expression for Prl/Prl.
+- Add a special Cr/Prl phenotype rule.
+- Keep all structural traits—height, speed, muscle, bone, hooves, feathering—on separate genetic systems unless future evidence shows a link.
+
+Key sources
+-----------
+
+- UC Davis Veterinary Genetics Laboratory, Cream test: alleles, inheritance, genotypes, and pigment effects. [13]
+- UC Davis Veterinary Genetics Laboratory, Pearl test: Pearl inheritance, breeds, and Cream/Pearl interaction. [16]
+- Mariat et al., 2003: original identification of MATP/SLC45A2 as the Cream locus. [18]
+- Sevane et al., 2019: evidence that SLC45A2 exon 4 causes Pearl. [11]
+- OMIA: consolidated record of MATP/SLC45A2, Cream, and Pearl variants. [14]
+
+Quick simulator rule
+For your horse-genetics project, implement MATP/SLC45A2 as a single locus with alleles N, Cr, and Prl:
+
+* N/Cr → single cream
+* Cr/Cr → double cream
+* N/Prl → invisible carrier
+* Prl/Prl → pearl
+* Cr/Prl → pseudo-double cream
+
+Then apply the result to the MC1R/ASIP-derived base color, rather than treating Cream as a base color itself.[[vgl.ucdavis](https://vgl.ucdavis.edu/test/cream)][[vgl.ucdavis](https://vgl.ucdavis.edu/test/pearl)][[vgl.ucdavis](https://vgl.ucdavis.edu/resources/horse-coat-color)]
+
+SECOND ANSWER: snowdrop and sunshine
+------------------------------------
+
+Yes—you’re thinking of “snowdrop,” not “low snow.” Gypsy horses have a proposed third MATP/SLC45A2 dilution allele called snowdrop (C^sno), and a separate proposed variant called sunshine (C^sun) has also been associated with SLC45A2. But their evidence strength and current test availability differ substantially. [biorxiv](https://www.biorxiv.org/content/10.1101/851246v1)
+
+The three proposed non-standard alleles
+---------------------------------------
+
+Proposed allele | Main breed association | Inheritance as reported | Current status
+Snowdrop (C^sno) | Gypsy horses / Gypsy Vanners | Recessive; C^sno/C^sno dilutes both red and black; carrier reportedly no visible effect | Published as a novel SLC45A2 missense variant, but not a routine UC Davis commercial test.  [biorxiv](https://www.biorxiv.org/content/10.1101/851246v1)
+Sunshine (C^sun) | Initially reported in compound-heterozygote dilute horses | Proposed recessive or compound-heterozygote effect | Its causality is now uncertain: a 2024 survey found the variant extremely common in many breeds, including horses without the reported dilution phenotype.  [visualize.jove](https://visualize.jove.com/31006892-a-candidate-gene-approach-identifies-variants-in-slc45a2-that-explain-dilute-phenotypes-pearl-and-sunshine-in-compound-heterozygote-horses)
+Pearl (Prl) | Andalusians, Lusitanos, Quarter Horses, Paints; also occurs in Gypsy-related populations | Recessive alone; visible with Prl/Prl or Cr/Prl | Well established and commercially testable through UC Davis.
+
+Snowdrop in Gypsy Vanners
+-------------------------
+
+The snowdrop report sequenced a dilute Gypsy horse that was negative for known dilution genotypes and identified SLC45A2:c.305G>A, named snowdrop (C^sno). In the reported homozygous horse, it produced a pale phenotype similar to homozygous Cream, diluting both red and black pigment; relatives carrying one copy reportedly showed no visible effect. [biorxiv](https://www.biorxiv.org/content/10.1101/851246v1)
+
+So for a Gypsy Vanner, the plausible MATP allele set is:
+
+- N — no MATP dilution
+- Cr — Cream
+- Prl — Pearl
+- C^sno — Snowdrop, proposed/unconfirmed commercially
+
+It would be premature to treat snowdrop as fully validated in the same sense as Cream or Pearl, because the original evidence came from a small Gypsy-horse sample and UC Davis does not currently list it among its standard equine color tests. [biorxiv](https://www.biorxiv.org/content/10.1101/851246v1)
+
+Sunshine is more doubtful
+-------------------------
+
+Sunshine was proposed when researchers studied “false double dilutes”—horses that looked homozygous Cream but carried only one detectable Cream allele. The study reported a new C^sun variant that might explain some recessive or compound-heterozygote dilution phenotypes. [visualize.jove](https://visualize.jove.com/31006892-a-candidate-gene-approach-identifies-variants-in-slc45a2-that-explain-dilute-phenotypes-pearl-and-sunshine-in-compound-heterozygote-horses)
+
+However, later population data found the sunshine-associated variant at very high frequency across many breeds—over 0.86 in Arabians, Belgians, Morgans, Thoroughbreds, and Quarter Horses—and concluded that more work is needed to determine whether it actually reduces pigmentation. That high frequency is inconsistent with a simple rare recessive dilution allele. [pmc.ncbi.nlm.nih](https://pmc.ncbi.nlm.nih.gov/articles/PMC11006912/)
+
+Practical takeaway: do not add C^sun as a confirmed MATP allele in a simulator yet. If you include it, mark it as speculative or as a modifier with unresolved causality. [pmc.ncbi.nlm.nih](https://pmc.ncbi.nlm.nih.gov/articles/PMC11006912/)
+
+What this means for your model
+------------------------------
+
+A defensible current model is:
+
+  SLC45A2 / MATP locus:
+  N        normal
+  Cr       Cream — confirmed, incomplete dominant
+  Prl      Pearl — confirmed, recessive; Cr/Prl pseudo-double cream
+  C^sno    Snowdrop — proposed Gypsy-horse recessive dilution
+  C^sun    Sunshine — proposed, causality currently uncertain
+
+For gameplay, I’d implement Cr and Prl as fully deterministic, add C^sno as a rare Gypsy-lineage allele with recessive expression, and either omit C^sun or implement it behind a “research/disputed” flag. The key distinction is that snowdrop is a real published Gypsy-associated candidate allele, while sunshine is a candidate whose link to dilution is now questioned. [biorxiv](https://www.biorxiv.org/content/10.1101/851246v1)
+
+THIRD ANSWER: every proposed allele
+-----------------------------------
+
+Yes—beyond the well-established Cream (Cr) and Pearl (Prl) alleles, the main additional proposed SLC45A2/MATP alleles are Sunshine (C^sun) and Snowdrop (C^sno). I would not treat either as being on the same evidentiary level as Cream or Pearl, and I found no credible evidence for additional named equine SLC45A2 dilution alleles beyond these. [pubmed.ncbi.nlm.nih](https://pubmed.ncbi.nlm.nih.gov/31006892/)
+
+Proposed allele inventory
+-------------------------
+
+Allele | Variant | First proposed | Claimed inheritance | Evidence status
+Cream (Cr) | SLC45A2:c.457G>A | 2003 | Incomplete dominant | Confirmed; UC Davis offers testing.
+Pearl (Prl) | SLC45A2:c.985G>A, p.Ala329Thr | 2019 | Recessive; Cr/Prl gives pseudo-double cream | Confirmed; UC Davis offers testing.  [pubmed.ncbi.nlm.nih](https://pubmed.ncbi.nlm.nih.gov/31006892/)
+Sunshine (C^sun) | SLC45A2:c.568G>A, p.Gly190Arg | 2019 | Proposed recessive, pearl-like | Disputed / unresolved; originally proposed from a “false double dilute,” but later population data found the variant too common to fit that model cleanly.  [pubmed.ncbi.nlm.nih](https://pubmed.ncbi.nlm.nih.gov/31006892/)
+Snowdrop (C^sno) | SLC45A2:c.305G>A, p.Arg102Gln | 2020 | Recessive; two copies dilute red and black | Published candidate, especially in Gypsy/Tinker/Irish Cob horses; commercial tests exist, but it remains much less broadly validated than Cream and Pearl.  [pubmed.ncbi.nlm.nih](https://pubmed.ncbi.nlm.nih.gov/31961951/)
+
+Sunshine: proposed but shaky
+----------------------------
+
+Sunshine was named after the horse in which it was first investigated. The 2019 study found c.568G>A in a horse that looked like a double Cream but did not have two Cream alleles, leading the authors to propose C^sun as another recessive SLC45A2 dilution allele. [pubmed.ncbi.nlm.nih](https://pubmed.ncbi.nlm.nih.gov/31006892/)
+
+The problem is frequency: a 2024 review/population study reported the sunshine variant as extremely common in several breeds—over 86% allele frequency in Arabians, Belgians, Morgans, Thoroughbreds, and Quarter Horses—while many carriers showed no dilution. That makes a simple “sunshine is a recessive dilution allele” explanation difficult to support. 
+
+So, for your simulator: do not make C^sun a confirmed recessive dilution allele. If you include it, use a “candidate/disputed” status or omit it. [pubmed.ncbi.nlm.nih](https://pubmed.ncbi.nlm.nih.gov/31006892/)
+
+Snowdrop: stronger, but still a candidate
+-----------------------------------------
+
+Snowdrop was identified in a Gypsy-breed mare that looked cremello-like but tested negative for Cream, Pearl, and major white-spotting variants. The reported variant is SLC45A2:c.305G>A; the authors proposed the name snowdrop (C^sno) and described it as autosomal recessive. [omia](https://omia.org/OMIA001344/9796/)
+
+In the reported homozygote, it dilutes both red and black pigment, producing a very pale, Cream-like coat. One copy is generally described as a silent carrier. [laboklin](https://laboklin.com/en/products/genetics/coat-colour-coat-structure-coat-length/horse/snowdrop/)
+
+Unlike sunshine, snowdrop has a more coherent rare-recessive story and is now offered by at least some commercial laboratories. Still, the original publication was based on a very small number of affected horses, and UC Davis does not appear to list Snowdrop among its standard equine coat-color tests. That makes it a well-supported candidate, not a fully settled allele like Cream or Pearl. [pubmed.ncbi.nlm.nih](https://pubmed.ncbi.nlm.nih.gov/31961951/)
+
+Are there more?
+---------------
+
+I did not find credible published proposals for additional named equine SLC45A2 dilution alleles beyond Cream, Pearl, Sunshine, and Snowdrop. The literature instead emphasizes that multiple variants at this one gene can produce dilution-like phenotypes, and that some “false double dilutes” may still have unexplained genetics. [pubmed.ncbi.nlm.nih](https://pubmed.ncbi.nlm.nih.gov/31006892/)
+
+A few important non-alleles to keep separate:
+
+- Mushroom is not SLC45A2; it is associated with a different dilution mechanism and is mainly studied in Shetlands and related breeds.
+- Champagne, Dun, and Silver are separate dilution loci, not MATP alleles. [docta.ucm](https://docta.ucm.es/bitstreams/460e9be0-d9bb-4e69-b222-4bc15e526aa5/download)
+- “Pseudo-double cream” is a phenotype, not an allele; it can result from Cr/Prl, potentially C^sno combinations, or other unresolved genetics. [pubmed.ncbi.nlm.nih](https://pubmed.ncbi.nlm.nih.gov/31006892/)
+
+Simulator recommendation
+------------------------
+
+Use this tiered implementation:
+
+  Confirmed:
+  N, Cr, Prl
+  
+  Strong candidate:
+  C^sno  — recessive; Gypsy/Tinker/Irish Cob association
+  
+  Disputed:
+  C^sun  — do not implement as a confirmed dilution allele
+
+For inheritance, I’d model Cr as incomplete dominant, while Prl/Prl and C^sno/C^sno are recessive dilutions. The uncertain part is compound genotypes: Cr/Prl is well documented, but interactions such as Cr/C^sno, Prl/C^sno, or C^sno/C^sun are not sufficiently characterized to hard-code precise phenotypes. [pubmed.ncbi.nlm.nih](https://pubmed.ncbi.nlm.nih.gov/31006892/)
+
+
+EARLIER NOTES, FROM THE MOD'S WIKI
+==================================
 (Copied 2026-10-12 from the Science tab of the Procedural Horse Coats wiki page for this gene.
-Written for that project: it may mention how a game models the gene. Not yet audited.)
+Written for that project: they say how a game models the gene. Where they disagree with
+the research notes above, the notes above stand.)
 
 One gene, four dilution alleles
 -------------------------------
