@@ -43,7 +43,7 @@
       ]
     },
     {
-      "population": "American Quarter Horse, cutting and cow-horse lines (about 28% carriers reported; the share of affected horses is not given)",
+      "population": "American Quarter Horse, cutting and cow-horse lines (about 28% carriers reported; a figure for affected families or selected high-risk lines, not for the breed; the share of affected horses is not given)",
       "evidence": "published",
       "genotypes": [
         { "alleles": ["herda", "N"], "percent": 28 },
@@ -70,6 +70,7 @@
     { "source": "pubmed", "label": "PMID 21118319: HERDA carrier frequencies", "url": "https://pubmed.ncbi.nlm.nih.gov/21118319/", "verified": false },
     { "source": "paper", "label": "Journal of Biological Chemistry, S0021-9258(20)49754-6", "url": "https://www.jbc.org/article/S0021-9258(20)49754-6/fulltext", "verified": false },
     { "source": "ucdavis-vgl", "label": "UC Davis VGL: horse embryo testing", "url": "https://vgl.ucdavis.edu/test/horse-embryo", "verified": false },
-    { "source": "ucdavis-vgl", "label": "UC Davis VGL: horse DNA tests", "url": "https://vgl.ucdavis.edu/dna-tests/horse", "verified": false }
+    { "source": "ucdavis-vgl", "label": "UC Davis VGL: horse DNA tests", "url": "https://vgl.ucdavis.edu/dna-tests/horse", "verified": false },
+    { "source": "ucdavis-vgl", "label": "UC Davis VGL: Quarter Horse disease panel", "url": "https://vgl.ucdavis.edu/panel/quarter-horse-disease-panel", "verified": false }
   ]
 }

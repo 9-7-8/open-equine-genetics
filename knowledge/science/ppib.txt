@@ -4,6 +4,21 @@ No source was opened by the session that filed this. genes/ppib.json was changed
 on the owner's word the same day; what is left over is in knowledge/known-issues.txt.
 Not yet audited.)
 
+ROUND TWO (the owner's answers to the open research questions, 2026-10-12)
+--------------------------------------------------------------------------
+These came after everything below. Where they disagree with it, this section and the gene
+file stand, unless a line says the point is unsettled. The whole answer is in
+knowledge/science/round-2-answers.txt. No address has been opened by a maintainer.
+- The chromosome could not be verified.
+- The 3.5%, 1.6% and 28% figures come from different studies and populations and must not
+  be merged. The 28% is a carrier share within a selected affected family or high-risk
+  line, not the breed.
+- Only horses with two copies are affected. The share of affected horses was not given,
+  and the studies were not named.
+- The address the answer gives for these figures is UC Davis's PSSM1 page, which is the
+  wrong page; it is not cited. UC Davis lists HERDA in its Quarter Horse disease panel
+  (https://vgl.ucdavis.edu/panel/quarter-horse-disease-panel).
+
 PPIB (peptidylprolyl isomerase B, also called cyclophilin B) is not a coat-color locus. In horses, its well-established relevance is as the gene carrying the causal mutation for HERDA—hereditary equine regional dermal asthenia—a recessive connective-tissue/skin disease concentrated in Quarter Horse–related breeds. [ncbi.nlm.nih](https://www.ncbi.nlm.nih.gov/gene/100066834)
 
 What PPIB does
