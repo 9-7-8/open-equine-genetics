@@ -4,6 +4,21 @@ No source was opened by the session that filed this. genes/extension.json was ch
 on the owner's word the same day; what is left over is in knowledge/known-issues.txt.
 Not yet audited.)
 
+ROUND TWO (the owner's answers to the open research questions, 2026-10-12)
+--------------------------------------------------------------------------
+These came after everything below. Where they disagree with it, this section and the gene
+file stand, unless a line says the point is unsettled. The whole answer is in
+knowledge/science/round-2-answers.txt. No address has been opened by a maintainer.
+- MC1R is on chromosome 3. No coordinate was given for e or ea: the answer says the ea
+  coordinate varies by assay and should be taken from the laboratory's variant sheet.
+- There is no established MC1R dosage effect making an E/E bay darker than an E/e bay.
+  Apparent differences are put down to polygenic shade, sooty, nutrition, season and age.
+- A chestnut through ea can show a flaxen mane if it carries the flaxen modifier or
+  modifiers; flaxen has no confirmed causal variant.
+- e is described as common in Haflinger, Suffolk, Belgian, many pony breeds and some
+  gaited breeds, and rare in breeds selected for bay or black; ea as much rarer, with
+  sparse reporting. No figure was given.
+
 Extension—more formally the melanocortin 1 receptor (MC1R) locus, often called Red Factor—is the master switch that determines whether a horse can make black pigment at all. A horse with at least one functional E allele can be black, bay, brown/seal, or any black-pigment-based color; a horse with two recessive red alleles is chestnut/sorrel, regardless of its Agouti genotype. [vgl.ucdavis](https://vgl.ucdavis.edu/resources/horse-coat-color)
 
 Established facts

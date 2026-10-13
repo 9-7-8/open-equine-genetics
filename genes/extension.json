@@ -4,8 +4,9 @@
   "species": "horse",
   "name": "Extension",
   "symbol": "MC1R",
+  "chromosome": "3",
   "evidence": "published",
-  "summary": "Extension, the melanocortin 1 receptor (MC1R), also called red factor: whether the horse can make black pigment at all. One working copy, E, is enough: the horse is black, bay or another black-based colour, as agouti decides. Two recessive copies - e, the common red allele, or the rarer ea, in any combination - leave only red pigment in the coat, a chestnut (sorrel), and hide the agouti genotype, which is still passed on. An E/E horse cannot have a chestnut foal. The red allele e was found in all 28 breeds of one large survey; ea was found in the Knabstrupper, Paint Horse, Percheron and Quarter Horse. Blood bay, liver bay and seal brown are shades or looks of black-based horses, not alleles of this locus; E/E bays may tend to be darker than E/e bays, which is not established. No effect on build or performance is established.",
+  "summary": "Extension, the melanocortin 1 receptor (MC1R), also called red factor: whether the horse can make black pigment at all. One working copy, E, is enough: the horse is black, bay or another black-based colour, as agouti decides. Two recessive copies - e, the common red allele, or the rarer ea, in any combination - leave only red pigment in the coat, a chestnut (sorrel), and hide the agouti genotype, which is still passed on. An E/E horse cannot have a chestnut foal. The red allele e was found in all 28 breeds of one large survey; ea was found in the Knabstrupper, Paint Horse, Percheron and Quarter Horse. e is described as common in Haflingers, Suffolks, Belgians, many pony breeds and some gaited breeds, and ea as much rarer; no per-breed figure was given. Blood bay, liver bay and seal brown are shades or looks of black-based horses, not alleles of this locus; no dosage effect of E is established - an E/E bay is not reliably darker than an E/e bay, and such differences are put down to polygenic shade, sooty, nutrition, season and age. No effect on build or performance is established.",
   "inheritance": "autosomal",
   "affects_coat": true,
   "alleles": [
@@ -46,6 +47,7 @@
     { "source": "other", "label": "Equine Tapestry: base colour variation, mealy and seal brown", "url": "https://www.equinetapestry.blog/base-color-variation-mealy-and-seal-brown/", "verified": false },
     { "source": "other", "label": "BAPSH: agouti locus and bay, black, seal brown", "url": "https://bapsh.co.uk/pre-coat-colours-their-genetic-inheritance/agouti-locus-and-bay-black-seal-brown/", "verified": false },
     { "source": "other", "label": "Breeding-back blog: wild horses, bay, wild-type bay and seal brown", "url": "http://breedingback.blogspot.com/2021/12/wild-horses-bay-wildtype-bay-seal-brown.html", "verified": false },
-    { "source": "other", "label": "Joyful Equestrian: blood bay", "url": "https://www.joyfulequestrian.com/blood-bay-horse/", "verified": false }
+    { "source": "other", "label": "Joyful Equestrian: blood bay", "url": "https://www.joyfulequestrian.com/blood-bay-horse/", "verified": false },
+    { "source": "ucdavis-vgl", "label": "UC Davis VGL: horse DNA tests", "url": "https://vgl.ucdavis.edu/dna-tests/horse", "verified": false }
   ]
 }
