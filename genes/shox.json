@@ -4,7 +4,6 @@
   "species": "horse",
   "name": "SHOX (skeletal atavism)",
   "symbol": "SHOX",
-  "chromosome": "X and Y (pseudoautosomal region)",
   "evidence": "published",
   "summary": "SHOX, the short stature homeobox gene, a regulator of limb and skeletal development. It lies in the pseudoautosomal region shared by the X and Y chromosomes, so it is inherited like an autosomal gene. Two deletions cause skeletal atavism, known in Shetland Ponies for more than 60 years: Del1, the larger, removes all of the SHOX coding sequence and part of the neighbouring gene CRLF2; Del2 removes part of CRLF2 downstream of SHOX. It is recessive. A horse with one deletion is a normal carrier; a horse with two, alike or different, has severely deformed legs. How much of the disorder is due to SHOX and how much to CRLF2 is not settled. Carriers were no shorter than other ponies in a study of 130, which was too small to rule an effect out. The single allele this locus first had, sa, is kept only as an invalid id. No effect on coat or performance is established.",
   "inheritance": "autosomal",
