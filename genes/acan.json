@@ -49,7 +49,7 @@
   ],
   "conditions": [
     { "id": "chondrodysplastic-dwarfism", "name": "Chondrodysplastic dwarfism", "description": "No working copy of ACAN. The horse is markedly small, with shortened limbs.", "severity": "impairing" },
-    { "id": "chondrodysplastic-dwarfism-lethal", "name": "Lethal dwarfism (D1/D1)", "description": "Two copies of the severe D1 variant. The most severe form: profound skeletal malformation, generally incompatible with normal life. How long such a foal survives varies.", "severity": "lethal_at_birth" }
+    { "id": "chondrodysplastic-dwarfism-lethal", "name": "Lethal dwarfism (D1/D1)", "description": "Two copies of the severe D1 variant. The most severe form: profound skeletal malformation, generally incompatible with normal life. How long such a foal survives varies.", "severity": "lethal_in_early_life" }
   ],
   "frequencies": [
     {
