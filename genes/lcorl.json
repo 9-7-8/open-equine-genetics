@@ -6,7 +6,7 @@
   "symbol": "LCORL",
   "chromosome": "3",
   "evidence": "published",
-  "summary": "LCORL / NCAPG on chromosome 3, the best-established major locus for height at the withers and overall body size. Each L copy makes the horse taller than like-bred horses without it, roughly additively. The marker laboratories test (BIEC2-808543, near LCORL) is reported as T for the smaller allele and C for the taller, or as n and H1; L here is the taller allele. It shifts the expected height within a breed and does not set a height: a horse with no L copy is not thereby a pony. No direct effect on speed, muscle, jumping or any coat trait is established.",
+  "summary": "LCORL / NCAPG on chromosome 3, the best-established major locus for height at the withers and overall body size. Each L copy makes the horse taller than like-bred horses without it, roughly additively. The marker laboratories test (BIEC2-808543, near LCORL) is reported as T for the smaller allele and C for the taller, or as n and H1; L here is the taller allele. It shifts the expected height within a breed and does not set a height: a horse with no L copy is not thereby a pony. No direct effect on speed, muscle, jumping or any coat trait is established. The tall allele is described as commoner in Warmbloods, Thoroughbreds and many sport breeds; published frequencies are specific to each study.",
   "inheritance": "autosomal",
   "affects_coat": false,
   "alleles": [
