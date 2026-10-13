@@ -6,7 +6,7 @@
   "symbol": "PMEL",
   "chromosome": "6",
   "evidence": "published",
-  "summary": "Silver (PMEL, formerly PMEL17 or SILV), a dominant dilution of black pigment caused by one missense change in exon 11 of the gene (Arg618Cys). It lightens black toward chocolate on the body and toward flaxen or silver-grey on the mane and tail, and leaves red pigment alone: a black becomes chocolate with a pale mane, a bay keeps its red body and its black points turn silver, and a chestnut carrying it looks unchanged while still passing it on. The same variant causes multiple congenital ocular anomalies (MCOA), an eye disorder that is milder with one copy and severe with two. Also called silver dapple, taffy or chocolate.",
+  "summary": "Silver (PMEL, formerly PMEL17 or SILV), a dominant dilution of black pigment caused by one missense change in exon 11 of the gene (Arg618Cys). It lightens black toward chocolate on the body and toward flaxen or silver-grey on the mane and tail, and leaves red pigment alone: a black becomes chocolate with a pale mane, a bay keeps its red body and its black points turn silver, and a chestnut carrying it looks unchanged while still passing it on. The same variant causes multiple congenital ocular anomalies (MCOA), an eye disorder that is milder with one copy and severe with two. Whether a chestnut carrier, whose coat shows no silver, runs the same eye risk is not established. Reported in Rocky Mountain and Kentucky Mountain horses, Icelandic Horses, Shetland and Welsh ponies, Morgans and some European draft lines. Also called silver dapple, taffy or chocolate.",
   "inheritance": "autosomal",
   "affects_coat": true,
   "alleles": [
@@ -23,7 +23,7 @@
     { "alleles": ["Z", "Z"], "phenotype": "silver", "conditions": ["mcoa"] }
   ],
   "conditions": [
-    { "id": "mcoa-cyst", "name": "Ocular cysts (MCOA, one copy)", "description": "One silver copy. The milder form of multiple congenital ocular anomalies: translucent cysts of the iris, the ciliary body or the retina, often with few or no clinical signs. It is present whether or not the coat shows silver.", "severity": "informational" },
+    { "id": "mcoa-cyst", "name": "Ocular cysts (MCOA, one copy)", "description": "One silver copy. The milder form of multiple congenital ocular anomalies: translucent cysts of the iris, the ciliary body or the retina, often with few or no clinical signs. It was described in horses whose coats show silver; whether a chestnut carrier, whose coat does not, has the same risk is not established.", "severity": "informational" },
     { "id": "mcoa", "name": "Multiple congenital ocular anomalies", "description": "Two silver copies. The severe form: an enlarged cornea, an abnormal iris or retina and cataracts, with sight impaired and sometimes lost.", "severity": "impairing" }
   ],
   "frequencies": [
@@ -42,6 +42,7 @@
     { "source": "ucdavis-vgl", "label": "UC Davis VGL: Multiple Congenital Ocular Anomalies (MCOA)", "url": "https://vgl.ucdavis.edu/test/mcoa", "verified": false },
     { "source": "ucdavis-vgl", "label": "UC Davis VGL: Equine Coat Color Genetics", "url": "https://vgl.ucdavis.edu/resources/horse-coat-color", "verified": false },
     { "source": "pubmed", "label": "PMID 17029645: Andersson et al. 2006, a missense mutation in PMEL17 is associated with the Silver coat color in the horse", "url": "https://pubmed.ncbi.nlm.nih.gov/17029645/", "verified": false },
-    { "source": "pubmed", "label": "PMC3781063: Andersson et al. 2013, equine MCOA and silver coat colour result from the pleiotropic effects of mutant PMEL", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3781063/", "verified": false }
+    { "source": "pubmed", "label": "PMC3781063: Andersson et al. 2013, equine MCOA and silver coat colour result from the pleiotropic effects of mutant PMEL", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3781063/", "verified": false },
+    { "source": "other", "label": "University of Kentucky: Equine Coat Color Genetics 101", "url": "https://equine.mgcafe.uky.edu/news-story/equine-coat-color-genetics-101", "verified": false }
   ]
 }
