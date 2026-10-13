@@ -4,6 +4,34 @@ No source was opened by the session that filed this. genes/kit.json was changed 
 on the owner's word the same day; what is left over is in knowledge/known-issues.txt.
 Not yet audited.)
 
+ROUND TWO (the owner's answers to the open research questions, 2026-10-12)
+--------------------------------------------------------------------------
+These came after everything below. Where they disagree with it, this section and the gene
+file stand, unless a line says the point is unsettled. The whole answer is in
+knowledge/science/round-2-answers.txt. No address has been opened by a maintainer.
+- Camarillo White is W4
+  (https://laboklin.com/en/products/genetics/coat-colour-coat-structure-coat-length/horse/camarillo-white-w4/).
+  W4/W4 has not been observed and is suspected to die as an embryo.
+- W17a and W17b are best treated as two distinct reported variants, not as two changes
+  necessarily on one chromosome; whether they occur together in one horse is not known.
+- UNSETTLED: this answer says W22 can occur without W20, with no source. The earlier
+  answer says W22 has only been found with W20. The gene file is unchanged (W22/N already
+  has an outcome; W22's name still says "found only with W20").
+- W37 without W35: no confirmed observation could be found.
+- How many W variants are named has no stable answer; it depends on whether
+  laboratory-reported variants are counted.
+- Embryonic death of homozygotes is suspected most strongly for W4; no direct evidence was
+  given for any. For mild variants such as W20, W32 and W35, homozygosity is not
+  established as lethal, and such horses are expected to be sabino-like or modestly white.
+  Documentation for W15 and W19 homozygotes is limited.
+- Breed associations: SB1 - Quarter Horse, Paint, Shetland, Miniature. W5 - Thoroughbred.
+  W10 - Quarter Horse
+  (https://animalgenetics.com/horse-tests/equine-pattern-tests/111-dw/). W13 and W22 -
+  Quarter Horse-related. W20, W32, W35 - widespread. No allele frequency was given.
+- W22 is a 1,898 bp deletion at chr3:79548925_79550822. W20 is given as chr3:7948220T>C,
+  which looks a digit short beside W22's position on the same gene; it is not in the gene
+  file.
+
 LATEST FINDINGS (the owner's second research answer, 2026-10-12)
 -----------------------------------------------------------------
 The first answer, kept below, gives the series as W1 to W35. The owner asked whether W36
