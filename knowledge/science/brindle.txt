@@ -5,6 +5,22 @@ No source was opened by the session that filed this. genes/brindle.json was chan
 on the owner's word the same day; what is left over is in knowledge/known-issues.txt.
 Not yet audited.)
 
+LATEST FINDINGS (the owner's audit answers, 2026-10-12)
+-------------------------------------------------------
+These came after the text below and correct it. Where the two disagree, this section and
+the gene file stand. No address here has been opened by a maintainer.
+- Confirmed: Brindle 1 (BR1) is a real, published allele that UC Davis tests for: an
+  X-linked, semi-dominant trait of coat texture caused by an intronic MBTPS2 variant. It
+  is one inherited form of brindle and does not explain every brindle-looking horse;
+  chimerism and mosaicism cause others.
+- A BR1/BR1 mare has a sparse mane and tail and not the striped coat (UC Davis).
+- The variant c.1437+4T>C was restated as c.1340+4T>C under a later transcript (OMIA).
+- It co-segregated with brindle in the family studied and was absent from 457 control
+  horses. No carrier frequency has been published; it is rare and known from one
+  Quarter Horse and Paint Horse family. The gene file therefore has no frequency table.
+- Sources: https://vgl.ucdavis.edu/test/brindle-1-horse ; Murgiano et al. 2016, G3,
+  https://pubmed.ncbi.nlm.nih.gov/27449517/ ; https://www.omia.org/OMIA002021/9796/
+
 Overview
 --------
 

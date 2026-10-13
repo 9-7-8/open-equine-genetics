@@ -4,6 +4,15 @@ No source was opened by the session that filed this. genes/roan.json was changed
 on the owner's word the same day; what is left over is in knowledge/known-issues.txt.
 Not yet audited.)
 
+LATEST FINDINGS (the owner's audit answers, 2026-10-12)
+-------------------------------------------------------
+These came after the text below and correct it. Where the two disagree, this section and
+the gene file stand. No address here has been opened by a maintainer.
+- Roan is NOT a proven allele of KIT. It maps to the KIT region and OMIA says the key
+  variant is unpublished. A 2025 study named two haplotypes, RN1 and RN2, and a later
+  report a third, RN3, in Quarter Horses. These are markers, not causal mutations.
+- Source: https://omia.org/OMIA001216/9796/
+
 Overview
 --------
 

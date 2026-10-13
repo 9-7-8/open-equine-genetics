@@ -5,6 +5,23 @@ No source was opened by the session that filed this. genes/ryr1.json was changed
 on the owner's word the same day; what is left over is in knowledge/known-issues.txt.
 Not yet audited.)
 
+LATEST FINDINGS (the owner's audit answers, 2026-10-12)
+-------------------------------------------------------
+These came after the text below and correct it. Where the two disagree, this section and
+the gene file stand. No address here has been opened by a maintainer.
+- Chromosome 10 (OMIA; an older paper placed RYR1 markers there too).
+- First description: Aleman et al. 2004, Muscle and Nerve 30:356-365,
+  https://pubmed.ncbi.nlm.nih.gov/15318347/ . A 2009 paper in J Vet Intern Med (PubMed
+  19220734) is also cited in the gene file; the audit thought that reference might be
+  a confusion, so check it before relying on it.
+- MH/MH: UC Davis's test page says such a horse "will have malignant hyperthermia", but
+  no homozygote was found among more than 159,000 horses, and UC Davis says two copies
+  may possibly be lethal before birth. Suspected, not established.
+- Frequency: allele frequency 0.0013 in Quarter Horses and 0.0012 in Paints and
+  Appaloosas (the Appaloosa sample was very small); found in no other breed tested.
+- Sources: https://vgl.ucdavis.edu/test/mh ;
+  https://pmc.ncbi.nlm.nih.gov/articles/PMC12038935/ ; https://omia.org/OMIA000621/9796/
+
 Overview
 --------
 

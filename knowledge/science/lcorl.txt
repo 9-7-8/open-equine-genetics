@@ -5,6 +5,13 @@ No source was opened by the session that filed this. genes/lcorl.json was change
 on the owner's word the same day; what is left over is in knowledge/known-issues.txt.
 Not yet audited.)
 
+LATEST FINDINGS (the owner's audit answers, 2026-10-12)
+-------------------------------------------------------
+These came after the text below and correct it. Where the two disagree, this section and
+the gene file stand. No address here has been opened by a maintainer.
+- Source with an address: Metzger et al. 2013, PLoS ONE,
+  https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0056497
+
 LCORL/NCAPG is the best-established major locus for withers height and overall body size in horses. It is not a coat-color gene: it does not determine red versus black pigment, mane/tail color, white markings, or pattern. Its main confirmed effect is skeletal growth—especially stature—with possible secondary effects on body proportions and conformation. [web:11][web:14][web:12]
 
 Quick facts

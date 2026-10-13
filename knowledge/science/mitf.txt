@@ -4,6 +4,28 @@ No source was opened by the session that filed this. genes/mitf.json was changed
 on the owner's word the same day; what is left over is in knowledge/known-issues.txt.
 Not yet audited.)
 
+LATEST FINDINGS (the owner's audit answers, 2026-10-12)
+-------------------------------------------------------
+These came after the text below and correct it. Where the two disagree, this section and
+the gene file stand. No address here has been opened by a maintainer.
+- Chromosome 16.
+- SW9 DOES NOT EXIST as far as any source shows: no published allele, laboratory test or
+  paper. The name may be a confusion with W9, a dominant white allele of KIT. The gene
+  file keeps the id and marks it invalid so it is not added again. The lines below that
+  call it a commercial laboratory's variant are superseded.
+- HOMOZYGOTES: UC Davis says horses with two copies of SW3, SW4, SW5, SW6, SW7 or SW8
+  have not been detected and may be lethal as embryos; it advises against SW3 to SW3
+  matings. (SW4 is at PAX3.) SW1/SW1 is known alive and can be more extensively or
+  completely white.
+- ONE COPY: there is no established rule that one SW3 gives more white than one SW1.
+  All are dominant with variable expression.
+- PAIRS OF TWO DIFFERENT VARIANTS: no outcome is published for any of them.
+- DEAFNESS: "some, but not all" splash horses are deaf. Whether SW8 alone causes it is
+  unknown: the deaf foal also carried W20 and W22. No genotype is confirmed to cause
+  deafness, so the gene file marks none.
+- SW6 is an 8.7 kb deletion found new in an American Paint Horse.
+- Source: https://vgl.ucdavis.edu/test/splashed-white
+
 MITF (microphthalmia-associated transcription factor) is best known in horses as a white-spotting gene: several of its variants cause splashed white patterns. It does not determine base coat color (red versus black), but by disrupting melanocyte development or function it can remove pigment from the base coat, producing extensive white markings or an almost-white horse. [cite:15][cite:13]
 
 What MITF does
@@ -56,7 +78,7 @@ N/N | No tested MITF splashed-white variant detected. [cite:15]
 N/SW1, N/SW3, etc. | One MITF splashed-white allele; variable white pattern, often broad blaze, white legs, possible blue eyes. [cite:15][cite:18]
 SW1/SW1 | Two copies of SW1; often more extensive white than one copy, though expression remains variable. [cite:19]
 SW1/SW2 or SW1/SW4 | One MITF variant plus one PAX3 variant; possible stronger/more extensive depigmentation because two different spotting loci are involved. [cite:15][cite:13]
-SW3/SW3, SW5/SW5, etc. | Biologically possible in principle, but rare or poorly documented for most non-SW1 MITF variants; avoid assuming a consistent phenotype. [cite:19]
+SW3/SW3, SW5/SW5, etc. | Never detected; UC Davis says they may be lethal as embryos (see LATEST FINDINGS).
 
 The original MITF/PAX3 study found that carrying both MITF^prom1 (now commonly called SW1) and PAX3^C70Y (SW2) produced more facial depigmentation on average than either allele alone. [cite:13]
 

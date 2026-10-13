@@ -2,6 +2,15 @@ SCN4A (HYPP) - science notes
 (Copied 2026-10-12 from the Science tab of the Procedural Horse Coats wiki page for this gene.
 Written for that project: it may mention how a game models the gene. Not yet audited.)
 
+LATEST FINDINGS (the owner's audit answers, 2026-10-12)
+-------------------------------------------------------
+These came after the text below and correct it. Where the two disagree, this section and
+the gene file stand. No address here has been opened by a maintainer.
+- H/H HORSES ARE VIABLE. UC Davis says they can have episodes of hyperkalemic periodic
+  paralysis and are typically more severely affected; it does not call them nonviable.
+  The AQHA has not registered H/H horses since 2007. The gene file was changed to match.
+- Source: https://vgl.ucdavis.edu/test/hypp
+
 The one place this page contradicts the mod outright
 The mod makes H/H lethal at birth. In the real world it is not: homozygous HYPP horses live, are generally more severely affected than heterozygotes, and transmit the allele to 100% of their foals. What actually happens to them is a registry rule, not a death - the AQHA has made H/H foals born on or after 1 January 2007 ineligible for registration. See the section below for why the mod made the change and what it costs.
 

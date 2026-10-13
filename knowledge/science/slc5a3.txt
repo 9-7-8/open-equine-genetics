@@ -4,6 +4,16 @@ No source was opened by the session that filed this. genes/slc5a3.json was chang
 on the owner's word the same day; what is left over is in knowledge/known-issues.txt.
 Not yet audited.)
 
+LATEST FINDINGS (the owner's audit answers, 2026-10-12)
+-------------------------------------------------------
+These came after the text below and correct it. Where the two disagree, this section and
+the gene file stand. No address here has been opened by a maintainer.
+- The Fell and Dales figures are counts from one tested sample (82 of 214, 16 of 87),
+  not a census of either breed. The gene file gives them as published tables naming
+  the sample.
+- The gene file uses the severity "lethal_in_early_life": the foal is born looking
+  normal and dies within about three months.
+
 SLC5A3 is not a coat-color locus in horses. It is best known in the horse as the gene containing the mutation that causes Foal Immunodeficiency Syndrome (FIS), a fatal autosomal-recessive immune and blood disorder primarily associated with Fell and Dales Ponies. [25][24]
 
 Locus overview

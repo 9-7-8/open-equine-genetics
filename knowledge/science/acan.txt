@@ -2,6 +2,20 @@ ACAN - science notes
 (Copied 2026-10-12 from the Science tab of the Procedural Horse Coats wiki page for this gene.
 Written for that project: it may mention how a game models the gene. Not yet audited.)
 
+LATEST FINDINGS (the owner's audit answers, 2026-10-12)
+-------------------------------------------------------
+These came after the text below and correct it. Where the two disagree, this section and
+the gene file stand. No address here has been opened by a maintainer.
+- Chromosome 1 (OMIA).
+- Variants: D1 c.245del (exon 2); D2 c.1270G>A (exon 6); D3 c.6700delC (exon 11);
+  D4 c.7299_7319del (exon 15). D5 is given only as a genomic position,
+  g.95258999C>T, and is flagged unverified; one commercial source lists D1 to D4 only.
+- CARRIERS ARE NOT UNAFFECTED: a 2020 paper reports that heterozygotes have reduced
+  stature. The gene file was changed to say so.
+- The UC Davis page for an ACAN test was not found. Its Friesian dwarfism page is a
+  different test (B4GALT7) and must not be cited for ACAN.
+- Sources: https://omia.org/OMIA001271/9796/ ; https://pubmed.ncbi.nlm.nih.gov/32065671/
+
 Why this is not "is it homozygous?"
 -----------------------------------
 

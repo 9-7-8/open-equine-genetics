@@ -2,6 +2,19 @@ MSTN (myostatin) - science notes
 (Copied 2026-10-12 from the Science tab of the Procedural Horse Coats wiki page for this gene.
 Written for that project: it may mention how a game models the gene. Not yet audited.)
 
+LATEST FINDINGS (the owner's audit answers, 2026-10-12)
+-------------------------------------------------------
+These came after the text below and correct it. Where the two disagree, this section and
+the gene file stand. No address here has been opened by a maintainer.
+- The sprint, middle-distance and stayer genotypes are supported: at g.66493737C>T, C/C
+  suits short sprints, C/T middle distances, T/T longer ones (Hill et al. 2010, PLoS
+  ONE 5:e8645; confirmed genome-wide in BMC Genomics 11:552). A 2018 paper traces the
+  effect to an insertion in the gene. Shown in Thoroughbreds; a tendency, not a rule
+  for one horse.
+- Sources: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0008645 ;
+  https://doi.org/10.1186/1471-2164-11-552 ;
+  https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0205664
+
 What myostatin does
 -------------------
 

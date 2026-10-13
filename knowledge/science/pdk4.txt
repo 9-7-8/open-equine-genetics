@@ -5,6 +5,23 @@ No source was opened by the session that filed this. genes/pdk4.json was changed
 on the owner's word the same day; what is left over is in knowledge/known-issues.txt.
 Not yet audited.)
 
+LATEST FINDINGS (the owner's audit answers, 2026-10-12)
+-------------------------------------------------------
+These came after the text below and correct it. Where the two disagree, this section and
+the gene file stand. No address here has been opened by a maintainer.
+- Chromosome 4. The frequency study writes the variant "g.38973231A>G:ECA4". The
+  mention of chromosome 22 below is treated as an error or an older assembly.
+- The performance association: Hill, Gu, McGivney and MacHugh 2010, "Targets of
+  selection in the Thoroughbred genome contain exercise-relevant gene SNPs associated
+  with elite racecourse performance", Animal Genetics 41 Suppl 2:56-63. A/A and A/G
+  horses were over-represented among elite Thoroughbreds and rated 16.2 to 16.6 lb
+  higher on the handicap scale than G/G. A Quarter Horse study did not find the same
+  difference. The authors said the causal variant was still to be found: it is a marker
+  association, not a proven speed allele.
+- Sources: https://pubmed.ncbi.nlm.nih.gov/21070277/ ;
+  https://www.sciencedirect.com/science/article/abs/pii/S0737080616301149 ;
+  expression after exercise: https://doi.org/10.1111/j.2042-3306.2010.00206.x
+
 PDK4 (pyruvate dehydrogenase kinase 4) is a metabolic-performance gene in horses, not a coat-color locus. It encodes a mitochondrial kinase that helps regulate whether cells burn glucose or fatty acids, and equine research has examined PDK4 variants mainly in relation to exercise metabolism and racing performance—not red/black pigment.
 
 Gene and locus

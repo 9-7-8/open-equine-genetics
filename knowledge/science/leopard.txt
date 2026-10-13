@@ -4,6 +4,13 @@ No source was opened by the session that filed this. genes/leopard.json was chan
 on the owner's word the same day; what is left over is in knowledge/known-issues.txt.
 Not yet audited.)
 
+LATEST FINDINGS (the owner's audit answers, 2026-10-12)
+-------------------------------------------------------
+These came after the text below and correct it. Where the two disagree, this section and
+the gene file stand. No address here has been opened by a maintainer.
+- No second mapped pattern modifier (a "PATN2") was found in the literature. patn2 in
+  this data is an abstraction and is marked as one.
+
 TRPM1 (Transient Receptor Potential Cation Channel, Subfamily M, Member 1) is the gene underlying the Leopard Complex (LP) in horses. It produces a variable white-spotting phenotype and, when a horse inherits two copies of the LP allele, congenital stationary night blindness (CSNB). UC Davis Veterinary Genetics Laboratory recognizes two reportable alleles: N (normal/non-leopard) and LP (leopard complex/Appaloosa spotting). [13]
 
 Locus and mutation

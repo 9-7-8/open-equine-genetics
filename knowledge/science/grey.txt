@@ -4,6 +4,22 @@ No source was opened by the session that filed this. genes/grey.json was changed
 on the owner's word the same day; what is left over is in knowledge/known-issues.txt.
 Not yet audited.)
 
+LATEST FINDINGS (the owner's audit answers, 2026-10-12)
+-------------------------------------------------------
+These came after the text below and correct it. Where the two disagree, this section and
+the gene file stand. No address here has been opened by a maintainer.
+- Chromosome 25: the STX17 duplication lies at ECA25:6,625,371-6,625,493.
+- AGOUTI IS NOT A MELANOMA MODIFIER. The audit found no direct study for a higher risk
+  in a/a horses; the supported association is with the number of G3 copies. The
+  sentence that said otherwise below has been corrected.
+- G2/G3: neither the greying rate nor the melanoma risk is quantified. STX17 explains a
+  large but incomplete share of the variation, so other modifiers exist.
+- Frequencies from the 2024 study (1,400 horses, 78 breeds; a study sample, not a
+  census): G3 in 62 breeds, G2 in only eight - Andalusian, Connemara Pony, Miniature
+  Horse, Mangalarga Marchador, Mustang, Quarter Horse, Tennessee Walking Horse, Welsh
+  Pony. Andalusian: G2 0.05, G3 0.36. No other breed's figures were given.
+- Source: https://pmc.ncbi.nlm.nih.gov/articles/PMC11362437/
+
 At a glance
 -----------
 
@@ -96,7 +112,7 @@ UC Davis notes that many Grey horses become almost completely white by 6–12 ye
 Melanoma and health effects
 ---------------------------
 
-The most important non-coat effect of Grey is predisposition to melanoma, particularly dermal melanomas around the tail head, perianal region, genital area, and head. UC Davis reports that more than 70% of Grey horses older than 15 develop melanoma, and that Grey horses homozygous for black at Agouti—genetically a/a—have higher melanoma risk. [web:16]
+The most important non-coat effect of Grey is predisposition to melanoma, particularly dermal melanomas around the tail head, perianal region, genital area, and head. UC Davis reports that more than 70% of Grey horses older than 15 develop melanoma. (An earlier version of this note added that a/a horses at agouti are at higher risk; the audit found no direct study for that. See LATEST FINDINGS.)
 
 Key points:
 

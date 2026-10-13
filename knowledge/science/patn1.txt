@@ -4,6 +4,13 @@ No source was opened by the session that filed this. genes/patn1.json was change
 on the owner's word the same day; what is left over is in knowledge/known-issues.txt.
 Not yet audited.)
 
+LATEST FINDINGS (the owner's audit answers, 2026-10-12)
+-------------------------------------------------------
+These came after the text below and correct it. Where the two disagree, this section and
+the gene file stand. No address here has been opened by a maintainer.
+- RFWD3 stands as the gene, on Holl et al. 2016.
+- No second mapped pattern modifier (a "PATN2") was found in the literature.
+
 PATN1 (Pattern-1) is the first well-established major modifier of the Leopard Complex (LP) in horses. It is associated with a variant in RFWD3 (RING Finger and WD Repeat Domain 3) and substantially increases the amount of white in horses that also carry at least one copy of LP (TRPM1). UC Davis describes PATN1 as a modifier that “controls the amount of white in the coat pattern.” [29][30]
 
 Locus and variant

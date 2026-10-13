@@ -2,6 +2,14 @@ EDNRB (frame overo) - science notes
 (Copied 2026-10-12 from the Science tab of the Procedural Horse Coats wiki page for this gene.
 Written for that project: it may mention how a game models the gene. Not yet audited.)
 
+LATEST FINDINGS (the owner's audit answers, 2026-10-12)
+-------------------------------------------------------
+These came after the text below and correct it. Where the two disagree, this section and
+the gene file stand. No address here has been opened by a maintainer.
+- Timing (UC Davis): an affected foal is typically colicky within its first 12 hours
+  and dies, or is put down, within the first few days. No exact number of days should
+  be stated.
+
 Genetic identity
 ----------------
 

@@ -4,6 +4,15 @@ No source was opened by the session that filed this. genes/silver.json was chang
 on the owner's word the same day; what is left over is in knowledge/known-issues.txt.
 Not yet audited.)
 
+LATEST FINDINGS (the owner's audit answers, 2026-10-12)
+-------------------------------------------------------
+These came after the text below and correct it. Where the two disagree, this section and
+the gene file stand. No address here has been opened by a maintainer.
+- Chromosome 6 (from a commercial laboratory's page; not yet from a primary source).
+- A chestnut carrying Z shows no silver but still carries the eye risk, and a chestnut
+  Z/Z is expected to be at risk of the severe form. This follows from the genotype; no
+  study has compared chestnut carriers with others directly.
+
 Silver is a dominant dilution of black pigment caused by a mutation in PMEL (formerly PMEL17, also called SILV). It is often called silver dapple, taffy, or chocolate, but it does not affect red pigment—so chestnuts can silently carry it. [13][26][27]
 
 Core facts

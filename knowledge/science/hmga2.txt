@@ -2,6 +2,16 @@ HMGA2 (pony) - science notes
 (Copied 2026-10-12 from the Science tab of the Procedural Horse Coats wiki page for this gene.
 Written for that project: it may mention how a game models the gene. Not yet audited.)
 
+LATEST FINDINGS (the owner's audit answers, 2026-10-12)
+-------------------------------------------------------
+These came after the text below and correct it. Where the two disagree, this section and
+the gene file stand. No address here has been opened by a maintainer.
+- The established effect is on height only: Frischknecht et al. 2015, "A non-synonymous
+  HMGA2 variant decreases height in Shetland ponies and other small horses", PLoS ONE.
+  No effect on speed or jumping was found in the literature; the gene file no longer
+  claims one.
+- Source: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0140749
+
 Gene and locus
 --------------
 

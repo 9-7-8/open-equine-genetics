@@ -6,6 +6,12 @@ the horse. What follows is the owner's research on RYR1 and RYR2, kept here as t
 reason for the rename; RYR1 has its own locus, genes/ryr1.json. The bracketed markers
 point to sources the research used; their list was not supplied. Not yet audited.)
 
+LATEST FINDINGS (the owner's audit answers, 2026-10-12)
+-------------------------------------------------------
+These came after the text below and correct it. Where the two disagree, this section and
+the gene file stand. No address here has been opened by a maintainer.
+- No published work gives the real RYR2 gene any allele in the horse. See the header.
+
 Overview
 --------
 

@@ -5,6 +5,21 @@ No source was opened by the session that filed this. genes/lamc2.json was change
 on the owner's word the same day; what is left over is in knowledge/known-issues.txt.
 Not yet audited.)
 
+LATEST FINDINGS (the owner's audit answers, 2026-10-12)
+-------------------------------------------------------
+These came after the text below and correct it. Where the two disagree, this section and
+the gene file stand. No address here has been opened by a maintainer.
+- Chromosome 5 (OMIA).
+- HOOVES: affected foals can slough their hooves. UC Davis describes blistering of the
+  skin and mouth and sloughing of hooves in newborn foals, and says that in severe cases
+  the hoof wall may detach; OMIA describes coronary-band lesions with sloughing. It is
+  not universal, so "may". The cautious lines below are superseded.
+- The variant is also written c.1571_1572insC on the UC Davis page.
+- Sources: https://vgl.ucdavis.edu/test/jeb-belgian ;
+  https://ceh.vetmed.ucdavis.edu/health-topics/junctional-epidermolysis-bullosa-jeb ;
+  https://omia.org/OMIA001678/9796/ ; Spirito et al. 2003,
+  https://www.gse-journal.org/articles/gse/abs/2003/02/g350207/g350207.html
+
 LAMC2 is a structural skin gene, not a horse coat-color locus. It encodes the gamma-2 chain of laminin-332 (formerly laminin-5), a basement-membrane protein that helps anchor the epidermis to the dermis. The best-established equine LAMC2 variant, JEB1, causes fatal autosomal-recessive junctional epidermolysis bullosa in Belgian Draft Horses and related draft breeds. It does not control red versus black pigment. [26][29][31]
 
 Gene and protein function

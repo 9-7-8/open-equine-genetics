@@ -5,6 +5,16 @@ No source was opened by the session that filed this. genes/lama3.json was change
 on the owner's word the same day; what is left over is in knowledge/known-issues.txt.
 Not yet audited.)
 
+LATEST FINDINGS (the owner's audit answers, 2026-10-12)
+-------------------------------------------------------
+These came after the text below and correct it. Where the two disagree, this section and
+the gene file stand. No address here has been opened by a maintainer.
+- Chromosome 8 (OMIA).
+- HOOVES: as in the LAMC2 form, the hoof wall may detach and the hooves slough (UC
+  Davis). The line below calling this only "plausible" is superseded.
+- Sources: Graves et al. 2009, https://pubmed.ncbi.nlm.nih.gov/19016681/ ;
+  https://ceh.vetmed.ucdavis.edu/health-topics/junctional-epidermolysis-bullosa-jeb
+
 LAMA3 is not a classical horse coat-color locus. It encodes the alpha-3 chain of laminin-332 (historically called laminin-5), a basement-membrane protein that anchors the epidermis to the underlying dermis. In horses, the best-established LAMA3 variant causes junctional epidermolysis bullosa type 2 (JEB2), a recessive, fatal blistering disease primarily associated with American Saddlebreds and related breeds. It does not have a validated role in producing red versus black pigment. [11][14]
 
 Gene and protein function
