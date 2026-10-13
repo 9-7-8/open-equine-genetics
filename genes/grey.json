@@ -4,35 +4,47 @@
   "species": "horse",
   "name": "Grey",
   "symbol": "STX17",
+  "chromosome": "25",
   "evidence": "published",
-  "summary": "Progressive dapple grey, adults only - it lightens the coat toward neutral without shifting hue. How far along the greying is, the dapple size and how long the mane, tail and legs hold colour all vary per horse and are fixed for life (there is no aging). A foal is born its base colour.",
+  "summary": "Progressive loss of pigment from the hair with age, caused by extra copies of a 4.6 kb sequence in intron 6 of STX17. A foal is born its base colour and whitens over the years, often to nearly white; the genes for its base colour are unchanged underneath. Dominant: one G2 or G3 allele is enough. G3 carries three copies of the sequence, greys fast and raises the risk of melanoma. G2 carries two, greys slowly, and in the one study that separated them showed a melanoma incidence like that of non-grey horses. UC Davis calls the wild-type allele G1.",
   "inheritance": "autosomal",
   "affects_coat": true,
   "alleles": [
-    { "id": "G3", "name": "Grey, triplication (G3)", "wild_type": false },
-    { "id": "G2", "name": "Grey, duplication (G2)", "wild_type": false },
-    { "id": "N", "name": "Wild-type (N)", "wild_type": true }
+    { "id": "G3", "name": "Fast grey, three copies of the sequence", "wild_type": false },
+    { "id": "G2", "name": "Slow grey, two copies of the sequence", "wild_type": false },
+    { "id": "N", "name": "Wild-type (G1)", "wild_type": true }
   ],
   "phenotypes": [
     { "id": "wild", "name": "Wild type", "description": "The coat keeps its colour for life.", "changes_coat": false },
-    { "id": "grey-slow", "name": "Slow grey (N/G2)", "description": "One duplication, and the slowest greying there is: this horse spends its life as a dark steel or mid dapple grey with its base colour still legible under the white hairs. A foal is born its base colour and greys on reaching adulthood; the head goes first, the legs and the long hair last.", "changes_coat": true },
-    { "id": "grey", "name": "Grey (N/G3, G2/G2)", "description": "The ordinary grey - a dappled mid grey with the head already pale, the legs and the long hair holding their colour longest. A foal is born its base colour and greys on reaching adulthood; the head goes first, the legs and the long hair last.", "changes_coat": true },
-    { "id": "grey-fast", "name": "Fast grey (G2/G3)", "description": "Three copies between the two alleles. A light grey: dapples fading out, base colour left mostly on the legs and around the flank. A foal is born its base colour and greys on reaching adulthood; the head goes first, the legs and the long hair last.", "changes_coat": true },
-    { "id": "grey-rapid", "name": "Rapid grey (G3/G3)", "description": "Two triplications, the fastest greying and the highest melanoma risk. Very nearly white - the dark skin and dark eyes are what still say grey rather than white. A foal is born its base colour and greys on reaching adulthood; the head goes first, the legs and the long hair last.", "changes_coat": true }
+    { "id": "grey-slow", "name": "Slow grey (G2 without G3)", "description": "Greys slowly. Born its base colour, the horse gains white hairs gradually and is typically still a moderate grey in middle age.", "changes_coat": true },
+    { "id": "grey-fast", "name": "Fast grey (one G3)", "description": "Greys quickly. Born its base colour, noticeably grey or dappled as a young adult, and usually white or nearly white in later life. Where the second allele is G2 the pace is less well characterised.", "changes_coat": true },
+    { "id": "grey-rapid", "name": "Fastest grey (G3/G3)", "description": "Two G3 alleles: the fastest greying and the highest melanoma incidence.", "changes_coat": true }
   ],
   "genotypes": [
     { "alleles": ["N", "N"], "phenotype": "wild" },
-    { "alleles": ["G2", "N"], "phenotype": "grey-slow", "conditions": ["melanoma-risk-2"] },
-    { "alleles": ["G2", "G2"], "phenotype": "grey", "conditions": ["melanoma-risk-2"] },
-    { "alleles": ["G3", "N"], "phenotype": "grey", "conditions": ["melanoma-risk-2"] },
-    { "alleles": ["G3", "G2"], "phenotype": "grey-fast", "conditions": ["melanoma-risk-3"] },
+    { "alleles": ["G2", "N"], "phenotype": "grey-slow" },
+    { "alleles": ["G2", "G2"], "phenotype": "grey-slow" },
+    { "alleles": ["G3", "N"], "phenotype": "grey-fast", "conditions": ["melanoma-risk-2"] },
+    { "alleles": ["G3", "G2"], "phenotype": "grey-fast", "conditions": ["melanoma-risk-2"] },
     { "alleles": ["G3", "G3"], "phenotype": "grey-rapid", "conditions": ["melanoma-risk-3"] }
   ],
   "conditions": [
-    { "id": "melanoma-risk-2", "name": "Melanoma risk (high)", "description": "Carries three or four grey copies, or a grey allele on a black-based coat. High lifetime risk of dermal melanoma. No effect on this horse's body.", "severity": "informational" },
-    { "id": "melanoma-risk-3", "name": "Melanoma risk (highest)", "description": "Three or four grey copies on a black-based coat - the highest-risk combination there is. No effect on this horse's body.", "severity": "informational" }
+    { "id": "melanoma-risk-2", "name": "Melanoma risk (raised)", "description": "One G3 allele. A raised incidence of melanoma, mostly tumours in the skin under the tail, around the anus and genitals, and on the head. With G2 as the second allele the size of the risk is less well characterised.", "severity": "informational" },
+    { "id": "melanoma-risk-3", "name": "Melanoma risk (highest)", "description": "Two G3 alleles: the highest melanoma incidence of any genotype at this locus.", "severity": "informational" }
   ],
   "frequencies": [
+    {
+      "population": "Andalusian (allele frequencies G2 0.05 and G3 0.36 in the 2024 copy-number study's sample; genotype shares worked out from them)",
+      "evidence": "published",
+      "genotypes": [
+        { "alleles": ["G3", "G3"], "percent": 12.96 },
+        { "alleles": ["G3", "G2"], "percent": 3.6 },
+        { "alleles": ["G3", "N"], "percent": 42.48 },
+        { "alleles": ["G2", "G2"], "percent": 0.25 },
+        { "alleles": ["G2", "N"], "percent": 5.9 },
+        { "alleles": ["N", "N"], "percent": 34.81 }
+      ]
+    },
     {
       "population": "general population",
       "evidence": "estimated",
@@ -46,5 +58,14 @@
       ]
     }
   ],
-  "citations": []
+  "citations": [
+    { "source": "ucdavis-vgl", "label": "UC Davis VGL: Gray Copy Number", "url": "https://vgl.ucdavis.edu/test/gray_copy_number" },
+    { "source": "ucdavis-vgl", "label": "UC Davis VGL: Gray Presence/Absence", "url": "https://vgl.ucdavis.edu/test/gray_presence_absence" },
+    { "source": "ucdavis-vgl", "label": "UC Davis VGL: New study identifies distinct gray alleles", "url": "https://vgl.ucdavis.edu/news/new-study-identifies-distinct-gray-alleles-contributing-difference-rate-depigmentation" },
+    { "source": "ucdavis-vgl", "label": "UC Davis VGL: Equine Coat Color Genetics", "url": "https://vgl.ucdavis.edu/resources/horse-coat-color" },
+    { "source": "paper", "label": "An intronic copy number variation in Syntaxin 17 determines speed of greying and melanoma susceptibility in horses (Nature Communications, 2024)", "url": "https://www.nature.com/articles/s41467-024-51898-2" },
+    { "source": "pubmed", "label": "PMC3443021: Copy number expansion of the STX17 duplication in melanoma", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3443021/" },
+    { "source": "pubmed", "label": "PMC3567150: Complex Inheritance of Melanoma and Pigmentation", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3567150/" },
+    { "source": "omia", "label": "OMIA 001356-9796: Coat colour, grey", "url": "https://omia.org/OMIA001356/9796/" }
+  ]
 }
