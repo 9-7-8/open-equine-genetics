@@ -4,6 +4,21 @@ No source was opened by the session that filed this. genes/dmrt3.json was change
 on the owner's word the same day; what is left over is in knowledge/known-issues.txt.
 Not yet audited.)
 
+ROUND TWO (the owner's answers to the open research questions, 2026-10-12)
+--------------------------------------------------------------------------
+These came after everything below. Where they disagree with it, this section and the gene
+file stand, unless a line says the point is unsettled. The whole answer is in
+knowledge/science/round-2-answers.txt. No address has been opened by a maintainer.
+- The gait variant is c.902C>A, p.Ser301Stop, and remains the major gait-associated
+  change.
+- A 2026 study identified six polymorphisms in exon 2, three of them new; the new missense
+  and synonymous variants were mainly found in non-gaited breeds
+  (https://madbarn.com/research/dmrt3-gene-variations-in-horse-breeds-selected-for-gaited-movement-established-research-and-novel-findings/).
+  What they do was not said.
+- The A allele permits ambling but does not by itself decide trot versus pace, which also
+  depends on breed, training, conformation and other loci
+  (https://ask.ifas.ufl.edu/publication/AN332). No such locus was named.
+
 DMRT3 is the major known genetic modifier of gaitedness in horses—not coat color. Its derived A allele, also called the “Gait Keeper” mutation, makes lateral ambling gaits and pace more likely by altering spinal locomotor circuitry; UC Davis markets the test as SynchroGait (DMRT3). [vgl.ucdavis](https://vgl.ucdavis.edu/test/synchrogait)
 
 Locus and mutation
