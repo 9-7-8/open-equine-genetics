@@ -4,7 +4,7 @@
   "note": "Repo locus and allele ids to the mod's saved gene keys and allele tokens. The allele order is the order the mod requires and must never change.",
   "loci": [
     { "locus": "fertility", "mod_key": "horsegenetics.fertility", "mod_allele_order": ["tw", "n", "sf"] },
-    { "locus": "extension", "mod_key": "horsegenetics.extension", "mod_allele_order": ["E", "e"] },
+    { "locus": "extension", "mod_key": "horsegenetics.extension", "mod_allele_order": ["E", "e"], "not_in_mod": ["ea"] },
     { "locus": "agouti", "mod_key": "horsegenetics.agouti", "mod_allele_order": ["A", "a"], "not_in_mod": ["At", "A+"] },
     { "locus": "silver", "mod_key": "horsegenetics.silver", "mod_allele_order": ["Z", "z"] },
     { "locus": "flaxen", "mod_key": "horsegenetics.flaxen", "mod_allele_order": ["Fl2", "Fl1", "f"] },

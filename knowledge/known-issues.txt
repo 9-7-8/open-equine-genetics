@@ -8,7 +8,7 @@ WHERE THE DATA STANDS
   commit 93af89d9 plus one docs commit). On 2026-10-12 the owner supplied research
   documents and audit answers, and the loci below were changed to follow them. The three
   lists in this file are each kept on one long line, sorted, so they are easy to edit.
-RESEARCHED: abstracted_jump_strength, acan, agouti, b4galt7, brindle, champagne, ckm, dmrt3, dun, ednrb, gbe1, grey, gys1, hmga2, kit, lama3, lamc2, lcorl, leopard, matp, met, mitf, mstn, mushroom, myo5a, patn1, pdk4, plod1, ppib, roan, ryr1, scn4a, silver, slc5a3.
+RESEARCHED: abstracted_jump_strength, acan, agouti, b4galt7, brindle, champagne, ckm, dmrt3, dun, ednrb, extension, gbe1, grey, gys1, hmga2, kit, lama3, lamc2, lcorl, leopard, matp, met, mitf, mstn, mushroom, myo5a, patn1, pdk4, plod1, ppib, roan, ryr1, scn4a, silver, slc5a3.
 - NO SESSION OPENED A SOURCE. Every fact changed that day rests on the owner's documents,
   and every citation added is an address those documents gave. Some addresses were built
   from a DOI or a PubMed number the documents gave. None has been opened.
@@ -50,6 +50,7 @@ done (2026-10-12); nothing is owed to it before then. The mod still has:
 - myo5a with no coat effect on the affected foal, and one carrier rate for every breed;
 - plod1 foals always born alive, and one carrier rate for every breed;
 - ppib at one carrier rate for every breed, where it belongs to Quarter Horse lines.
+- extension without ea.
 mod-map.json records the structural part: "not_in_mod" (alleles) and
 "mod_outcome_unsupported" (pairs marked undocumented here on purpose).
 
@@ -117,13 +118,15 @@ STILL WRONG OR UNPROVEN IN THE RESEARCHED LOCI
 - myo5a: the locus now says it affects the coat, and the affected foal's outcome changes the coat, because the research describes the foal as diluted; the mod's export had both false. The Arabian tables use the mapping study's carrier shares (10.3% and 1.8%). The research also quotes UC Davis giving 10.3% and 1.6% as the allele's frequency; the two readings differ by a factor of two and were not reconciled. No chromosome was given.
 - plod1: affected foals may be stillborn, and the research says some pregnancies may be lost early (unproven); the single severity stays "lethal_at_birth". The breed tables are carrier shares among horses tested; the small ones (Sport Pony, Haflinger, Knabstrupper) rest on 12 to 48 horses and assume "allele detected in n" means n carriers. No chromosome was given.
 - ppib: the three Quarter Horse tables give carriers only; living affected horses exist and their share was not given, so they are counted with the clear horses. The research gives one address for all the frequency figures and does not say which study each comes from. The allele id is herda; laboratories write HR or H. No chromosome was given.
+- extension: ea was added (the research: UC Davis recognises E, e and ea). It is a new allele the mod lacks (mod-map.json, "not_in_mod"). The interaction tables of agouti and flaxen gained its three pairs: ea/E as E/e, and ea/e and ea/ea as e/e. For flaxen that is reasoned from ea being a second red allele; no source describes flaxen on an ea horse. The frequency table is the mod's and has no ea; no figure was given. No chromosome and no variant coordinates were given.
+- extension: the research says E/E bays may tend to be darker than E/e bays and that this is not established; it is in the summary only. It treats blood bay and liver bay as shades and seal brown (At) as unresolved, which agrees with agouti and the abstracted shade locus as they stand.
 
 THE OTHER LOCI
 - "symbol" was filled from the exporting session's own knowledge. The research has since
   confirmed tiger_eye (SLC24A5), mushroom (MFSD12), patn1 (RFWD3), brindle (MBTPS2) and
   tobiano as a KIT-region locus. The rest are unchecked.
 - Published loci with no research from the owner yet:
-NOT YET RESEARCHED: extension, pax3, prkdc, rapgef5, shox, st14, tiger_eye, tobiano, toe1.
+NOT YET RESEARCHED: pax3, prkdc, rapgef5, shox, st14, tiger_eye, tobiano, toe1.
 - Game wording: the plain cases were reworded on 2026-10-12 by word search. Subtler
   cases remain: what "wild horses" or founders carry (eye_colour_left,
   eye_colour_right, manchado, pax3, rapgef5) and "no wild horse is born with
@@ -132,7 +135,6 @@ NOT YET RESEARCHED: extension, pax3, prkdc, rapgef5, shox, st14, tiger_eye, tobi
   mod each allele copy carries its own inherited strength; that idea is not in this
   format. Owner's decision.
 - Collapsed loci: kit (the W series and sabino 1 as one locus) is in the mod's shape.
-  Real alleles are missing, e.g. "ea" at extension.
 - Dosage loci (shade, flaxen, sooty, pangare, markings) are the mod's model.
 - Lethal pairs: pax3 lists its own as nonviable; check it against a source.
   The research says no horse with two copies of SW4 (pax3) has been detected either.
@@ -150,7 +152,7 @@ CITATIONS
 
 SCIENCE NOTES
 - These notes are the owner's research documents with the mod's wiki text kept underneath:
-NOTES FROM RESEARCH: abstracted_jump_strength, agouti, b4galt7, brindle, champagne, ckm, dmrt3, dun, gbe1, grey, gys1, kit, lama3, lamc2, lcorl, leopard, matp, met, mitf, mushroom, myo5a, patn1, pdk4, plod1, ppib, roan, ryr1, silver, slc5a3.
+NOTES FROM RESEARCH: abstracted_jump_strength, agouti, b4galt7, brindle, champagne, ckm, dmrt3, dun, extension, gbe1, grey, gys1, kit, lama3, lamc2, lcorl, leopard, matp, met, mitf, mushroom, myo5a, patn1, pdk4, plod1, ppib, roan, ryr1, silver, slc5a3.
 - 19 notes (the first 14 of those filed, and acan, ednrb, hmga2, mstn, scn4a) open
   with LATEST FINDINGS, which carries the owner's later audit answers and
   overrides the older text beneath it. The older text was corrected in place only

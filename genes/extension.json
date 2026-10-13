@@ -5,21 +5,25 @@
   "name": "Extension",
   "symbol": "MC1R",
   "evidence": "published",
-  "summary": "Whether the horse can make black pigment at all. E lets black through; e/e removes it entirely, leaving only red - a chestnut - on which every gene that merely moves black pigment is invisible.",
+  "summary": "Extension, the melanocortin 1 receptor (MC1R), also called red factor: whether the horse can make black pigment at all. One working copy, E, is enough: the horse is black, bay or another black-based colour, as agouti decides. Two recessive copies - e, the common red allele, or the rarer ea, in any combination - leave only red pigment in the coat, a chestnut (sorrel), and hide the agouti genotype, which is still passed on. An E/E horse cannot have a chestnut foal. The red allele e was found in all 28 breeds of one large survey; ea was found in the Knabstrupper, Paint Horse, Percheron and Quarter Horse. Blood bay, liver bay and seal brown are shades or looks of black-based horses, not alleles of this locus; E/E bays may tend to be darker than E/e bays, which is not established. No effect on build or performance is established.",
   "inheritance": "autosomal",
   "affects_coat": true,
   "alleles": [
-    { "id": "E", "name": "Extension", "wild_type": true, "quality": "unverified" },
-    { "id": "e", "name": "Non-extension / red", "wild_type": false, "quality": "unverified" }
+    { "id": "E", "name": "Extension (E)", "wild_type": true, "quality": "unverified" },
+    { "id": "e", "name": "Red factor (e)", "wild_type": false, "quality": "unverified" },
+    { "id": "ea", "name": "Alternate red factor (ea)", "wild_type": false, "quality": "unverified" }
   ],
   "phenotypes": [
-    { "id": "wild", "name": "Wild type", "description": "Black pigment is produced normally. Whether it is visible is agouti's business.", "changes_coat": false },
-    { "id": "chestnut", "name": "Chestnut", "description": "No black pigment anywhere - the horse is red, from liver to flaxen chestnut, and every gene that only moves black pigment is invisible on it.", "changes_coat": true }
+    { "id": "wild", "name": "Wild type", "description": "At least one E. Black pigment can be made; whether it covers the body or only the points is agouti's business.", "changes_coat": false },
+    { "id": "chestnut", "name": "Chestnut", "description": "Two recessive red alleles, e or ea in any combination. No black pigment in the coat: the horse is chestnut (sorrel) with a red mane and tail, whatever its agouti genotype.", "changes_coat": true }
   ],
   "genotypes": [
     { "alleles": ["e", "e"], "phenotype": "chestnut" },
     { "alleles": ["E", "e"], "phenotype": "wild" },
-    { "alleles": ["E", "E"], "phenotype": "wild" }
+    { "alleles": ["E", "E"], "phenotype": "wild" },
+    { "alleles": ["ea", "E"], "phenotype": "wild" },
+    { "alleles": ["ea", "e"], "phenotype": "chestnut" },
+    { "alleles": ["ea", "ea"], "phenotype": "chestnut" }
   ],
   "frequencies": [
     {
@@ -33,8 +37,15 @@
     }
   ],
   "citations": [
-    { "source": "ucdavis-vgl", "label": "UC Davis VGL", "url": "https://vgl.ucdavis.edu/resources/horse-coat-color", "verified": false },
-    { "source": "pubmed", "label": "PMC9498372", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9498372/", "verified": false },
-    { "source": "pubmed", "label": "PMC7349280", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7349280/", "verified": false }
+    { "source": "ucdavis-vgl", "label": "UC Davis VGL: Horse Coat Color", "url": "https://vgl.ucdavis.edu/resources/horse-coat-color", "verified": false },
+    { "source": "pubmed", "label": "PMC9498372: coat colour alleles across 28 breeds", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9498372/", "verified": false },
+    { "source": "pubmed", "label": "PMC7349280", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7349280/", "verified": false },
+    { "source": "ucdavis-vgl", "label": "UC Davis VGL: Red Factor", "url": "https://vgl.ucdavis.edu/test/red-factor-horse", "verified": false },
+    { "source": "ucdavis-vgl", "label": "UC Davis VGL: Agouti", "url": "https://vgl.ucdavis.edu/test/agouti-horse", "verified": false },
+    { "source": "other", "label": "Equine Colors: bay", "url": "https://equinecolors.com/bay/", "verified": false },
+    { "source": "other", "label": "Equine Tapestry: base colour variation, mealy and seal brown", "url": "https://www.equinetapestry.blog/base-color-variation-mealy-and-seal-brown/", "verified": false },
+    { "source": "other", "label": "BAPSH: agouti locus and bay, black, seal brown", "url": "https://bapsh.co.uk/pre-coat-colours-their-genetic-inheritance/agouti-locus-and-bay-black-seal-brown/", "verified": false },
+    { "source": "other", "label": "Breeding-back blog: wild horses, bay, wild-type bay and seal brown", "url": "http://breedingback.blogspot.com/2021/12/wild-horses-bay-wildtype-bay-seal-brown.html", "verified": false },
+    { "source": "other", "label": "Joyful Equestrian: blood bay", "url": "https://www.joyfulequestrian.com/blood-bay-horse/", "verified": false }
   ]
 }
