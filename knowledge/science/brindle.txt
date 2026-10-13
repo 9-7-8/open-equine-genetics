@@ -5,6 +5,16 @@ No source was opened by the session that filed this. genes/brindle.json was chan
 on the owner's word the same day; what is left over is in knowledge/known-issues.txt.
 Not yet audited.)
 
+ROUND TWO (the owner's answers to the open research questions, 2026-10-12)
+--------------------------------------------------------------------------
+These came after everything below. Where they disagree with it, this section and the gene
+file stand, unless a line says the point is unsettled. The whole answer is in
+knowledge/science/round-2-answers.txt. No address has been opened by a maintainer.
+- No robust published allele frequency exists for brindle. The data has none, which
+  stands.
+- Brindle is exceptionally rare and has more than one cause; some cases are chimeras or
+  mosaics and not an inherited allele.
+
 LATEST FINDINGS (the owner's audit answers, 2026-10-12)
 -------------------------------------------------------
 These came after the text below and correct it. Where the two disagree, this section and
