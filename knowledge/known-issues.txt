@@ -89,7 +89,7 @@ STILL WRONG OR UNPROVEN IN THE RESEARCHED LOCI
 - Frequencies: brindle has none, on purpose. Published tables exist only for slc5a3
   (Fell, Dales), ryr1 (Quarter Horse), grey (Andalusian), b4galt7 (Friesian), dmrt3
   (Icelandic), gbe1 (Quarter Horse, Paint, Thoroughbred), myo5a (Arabian), plod1 (eight
-  breeds) and ppib (Quarter Horse).
+  breeds), ppib (Quarter Horse), pax3 (Paint, Quarter Horse) and st14 (Akhal-Teke).
 - agouti: At (seal brown) and A+ (wild bay) are in the data marked "invalid" (owner,
   2026-10-12). The research calls them plausible but unproven rather than wrong, and
   some commercial laboratories report At; "invalid" is the nearest tag the format has.
