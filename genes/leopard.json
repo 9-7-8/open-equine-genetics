@@ -4,13 +4,14 @@
   "species": "horse",
   "name": "Leopard complex (appaloosa)",
   "symbol": "TRPM1",
+  "chromosome": "1",
   "evidence": "published",
-  "summary": "The leopard complex (TRPM1), and the only gene in the model that reads other loci to decide what it paints. LP alone gives the appaloosa characteristics - roaning that spares the bony parts, a scatter of white spots, striped hooves, a white-rimmed eye. The bold patterns - leopard, fewspot, blanket, snowcap - come from the PATN1 and PATN2 modifiers, which do nothing at all on a horse without LP.",
+  "summary": "The leopard complex (TRPM1), caused by a 1,378 base-pair retroviral insertion in intron 1 of the gene. Incompletely dominant for the coat, and two copies also cause night blindness and raise the risk of recurrent uveitis. What it shows depends on two other loci. LP alone gives the appaloosa characteristics - roaning that spares the bony parts, a scatter of white spots, striped hooves, a white-rimmed eye. The bold patterns - leopard, fewspot, blanket, snowcap - come from the PATN1 and PATN2 modifiers, which do nothing at all on a horse without LP.",
   "inheritance": "autosomal",
   "affects_coat": true,
   "alleles": [
-    { "id": "LP", "name": "Leopard complex (LP)", "wild_type": false },
-    { "id": "lp", "name": "Wild-type (lp)", "wild_type": true }
+    { "id": "LP", "name": "Leopard complex", "wild_type": false },
+    { "id": "lp", "name": "Wild-type (N)", "wild_type": true }
   ],
   "phenotypes": [
     { "id": "wild", "name": "Wild type", "description": "No leopard complex - a solid-coloured coat.", "changes_coat": false },
@@ -25,10 +26,11 @@
   "genotypes": [
     { "alleles": ["lp", "lp"], "phenotype": "wild" },
     { "alleles": ["LP", "lp"], "phenotype": "varnish-roan" },
-    { "alleles": ["LP", "LP"], "phenotype": "varnish-roan", "conditions": ["csnb"] }
+    { "alleles": ["LP", "LP"], "phenotype": "varnish-roan", "conditions": ["csnb", "uveitis-risk"] }
   ],
   "conditions": [
-    { "id": "csnb", "name": "Congenital stationary night blindness", "description": "Two leopard-complex copies. The horse sees poorly in the dark from birth - it does not get better or worse, and in daylight the horse is unaffected.", "severity": "informational" }
+    { "id": "csnb", "name": "Congenital stationary night blindness", "description": "Two leopard-complex copies. The horse sees poorly in the dark from birth - it does not get better or worse, and in daylight the horse is unaffected.", "severity": "informational" },
+    { "id": "uveitis-risk", "name": "Equine recurrent uveitis risk", "description": "Two leopard-complex copies. A raised risk of equine recurrent uveitis, an inflammatory disease of the eye that can threaten sight.", "severity": "informational" }
   ],
   "interactions": {
     "depends_on": ["patn1", "patn2"],
@@ -74,5 +76,12 @@
       ]
     }
   ],
-  "citations": []
+  "citations": [
+    { "source": "ucdavis-vgl", "label": "UC Davis VGL: Leopard Complex, Congenital Stationary Night Blindness, and Uveitis", "url": "https://vgl.ucdavis.edu/test/leopard-complex" },
+    { "source": "other", "label": "UC Davis Center for Equine Health: Congenital Stationary Night Blindness", "url": "https://ceh.vetmed.ucdavis.edu/health-topics/congenital-stationary-night-blindness-csnb" },
+    { "source": "paper", "label": "Bellone et al. 2013, PLoS ONE: retroviral insertion in TRPM1", "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0078280" },
+    { "source": "pubmed", "label": "PMID 20353955: Bellone et al. 2010, fine-mapping of TRPM1", "url": "https://pubmed.ncbi.nlm.nih.gov/20353955/" },
+    { "source": "omia", "label": "OMIA 002139-9796: leopard complex spotting", "url": "https://omia.org/OMIA002139/9796/" },
+    { "source": "omia", "label": "OMIA 001341-9796: congenital stationary night blindness", "url": "https://omia.org/OMIA001341/9796/" }
+  ]
 }
