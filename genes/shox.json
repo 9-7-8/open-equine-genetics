@@ -4,26 +4,37 @@
   "species": "horse",
   "name": "SHOX (skeletal atavism)",
   "symbol": "SHOX",
+  "chromosome": "X and Y (pseudoautosomal region)",
   "evidence": "published",
-  "summary": "SHOX, skeletal atavism - a recessive lethal at birth. It sits on the pseudoautosomal region, so it is inherited like an ordinary autosomal gene.",
+  "summary": "SHOX, the short stature homeobox gene, a regulator of limb and skeletal development. It lies in the pseudoautosomal region shared by the X and Y chromosomes, so it is inherited like an autosomal gene. Two deletions cause skeletal atavism, known in Shetland Ponies for more than 60 years: Del1, the larger, removes all of the SHOX coding sequence and part of the neighbouring gene CRLF2; Del2 removes part of CRLF2 downstream of SHOX. It is recessive. A horse with one deletion is a normal carrier; a horse with two, alike or different, has severely deformed legs. How much of the disorder is due to SHOX and how much to CRLF2 is not settled. Carriers were no shorter than other ponies in a study of 130, which was too small to rule an effect out. The single allele this locus first had, sa, is kept only as an invalid id. No effect on coat or performance is established.",
   "inheritance": "autosomal",
   "affects_coat": false,
   "alleles": [
-    { "id": "sa", "name": "Skeletal atavism", "wild_type": false, "quality": "unverified" },
-    { "id": "N", "name": "Wild-type", "wild_type": true, "quality": "unverified" }
+    { "id": "sa", "name": "Skeletal atavism (invalid: superseded by Del1 and Del2)", "wild_type": false, "quality": "invalid" },
+    { "id": "N", "name": "Wild-type", "wild_type": true, "quality": "unverified" },
+    { "id": "Del1", "name": "Skeletal atavism deletion 1 (Del1; all of SHOX and part of CRLF2)", "wild_type": false, "quality": "unverified" },
+    { "id": "Del2", "name": "Skeletal atavism deletion 2 (Del2; part of CRLF2)", "wild_type": false, "quality": "unverified" }
   ],
   "phenotypes": [
     { "id": "wild", "name": "Wild type", "description": "Two working copies. Nothing is wrong and nothing is passed on.", "changes_coat": false },
-    { "id": "shox-carrier", "name": "SHOX (skeletal atavism) carrier", "description": "One copy of sa. The horse is completely normal and there is no way to see it - but half its foals inherit the copy, and two carriers bred together are the only way skeletal atavism appears.", "changes_coat": false },
-    { "id": "skeletal-atavism", "name": "Skeletal atavism", "description": "The splint bones grow out to their full ancestral length and the limbs come out malformed. The foal cannot stand and does not survive.", "changes_coat": false }
+    { "id": "shox-carrier", "name": "SHOX (skeletal atavism) carrier", "description": "One deletion, Del1 or Del2. The horse is unaffected and passes the deletion to half its foals. A foal is affected only when it receives a deletion from each parent.", "changes_coat": false },
+    { "id": "skeletal-atavism", "name": "Skeletal atavism", "description": "Two deletions, in any combination. The ulna and fibula grow on past the knee and hock, the upper leg bones are short, and the legs are short and crooked. Movement worsens, with marked lameness, pain and rotation of the hooves. The foal is born alive, and its quality of life is described as nonviable or ethically untenable.", "changes_coat": false },
+    { "id": "invalid-allele", "name": "Pair with an invalid allele", "documented": false, "description": "A pair that includes sa. The disorder is caused by two distinct deletions, Del1 and Del2, which are separate alleles here. The undivided sa is kept, marked invalid, so that stored data still lines up and nobody adds it back. No outcome is given for it.", "changes_coat": false }
   ],
   "genotypes": [
     { "alleles": ["N", "N"], "phenotype": "wild" },
-    { "alleles": ["sa", "N"], "phenotype": "shox-carrier" },
-    { "alleles": ["sa", "sa"], "phenotype": "skeletal-atavism", "conditions": ["skeletal-atavism"] }
+    { "alleles": ["sa", "N"], "phenotype": "invalid-allele" },
+    { "alleles": ["sa", "sa"], "phenotype": "invalid-allele" },
+    { "alleles": ["Del1", "sa"], "phenotype": "invalid-allele" },
+    { "alleles": ["Del1", "N"], "phenotype": "shox-carrier" },
+    { "alleles": ["Del1", "Del1"], "phenotype": "skeletal-atavism", "conditions": ["skeletal-atavism"] },
+    { "alleles": ["Del2", "sa"], "phenotype": "invalid-allele" },
+    { "alleles": ["Del2", "N"], "phenotype": "shox-carrier" },
+    { "alleles": ["Del2", "Del1"], "phenotype": "skeletal-atavism", "conditions": ["skeletal-atavism"] },
+    { "alleles": ["Del2", "Del2"], "phenotype": "skeletal-atavism", "conditions": ["skeletal-atavism"] }
   ],
   "conditions": [
-    { "id": "skeletal-atavism", "name": "Skeletal atavism", "description": "The splint bones grow out to their full ancestral length and the limbs come out malformed. The foal cannot stand and does not survive.", "severity": "lethal_at_birth" }
+    { "id": "skeletal-atavism", "name": "Skeletal atavism", "description": "Two deletions, in any combination. The ulna and fibula grow on past the knee and hock, the upper leg bones are short, and the legs are short and crooked. Movement worsens, with marked lameness, pain and rotation of the hooves. The foal is born alive, and its quality of life is described as nonviable or ethically untenable.", "severity": "impairing" }
   ],
   "frequencies": [
     {
@@ -39,6 +50,10 @@
     { "source": "pubmed", "label": "Rafati et al., PMC4938674", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4938674/", "verified": false },
     { "source": "omia", "label": "OMIA 002013", "url": "https://omia.org/OMIA002013/9796/", "verified": false },
     { "source": "pubmed", "label": "PMID 15373256", "url": "https://pubmed.ncbi.nlm.nih.gov/15373256/", "verified": false },
-    { "source": "ucdavis-vgl", "label": "UC Davis VGL", "url": "https://vgl.ucdavis.edu/test/skeletal-atavism", "verified": false }
+    { "source": "ucdavis-vgl", "label": "UC Davis VGL: Skeletal Atavism", "url": "https://vgl.ucdavis.edu/test/skeletal-atavism", "verified": false },
+    { "source": "other", "label": "Labgenvet: skeletal atavism", "url": "https://labgenvet.ca/en/disease/skeletal-atavism/", "verified": false },
+    { "source": "other", "label": "MedlinePlus Genetics: SHOX gene", "url": "https://medlineplus.gov/genetics/gene/shox/", "verified": false },
+    { "source": "ucdavis-vgl", "label": "UC Davis VGL: Red Factor", "url": "https://vgl.ucdavis.edu/test/red-factor-horse", "verified": false },
+    { "source": "other", "label": "ScienceDirect topic page: short stature homeobox gene", "url": "https://www.sciencedirect.com/topics/biochemistry-genetics-and-molecular-biology/short-stature-homeobox-gene", "verified": false }
   ]
 }

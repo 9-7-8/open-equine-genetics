@@ -48,7 +48,7 @@
     { "locus": "plod1", "mod_key": "horsegenetics.plod1", "mod_allele_order": ["ffs", "N"] },
     { "locus": "rapgef5", "mod_key": "horsegenetics.rapgef5", "mod_allele_order": ["efih", "N"] },
     { "locus": "st14", "mod_key": "horsegenetics.st14", "mod_allele_order": ["nfs", "N"] },
-    { "locus": "shox", "mod_key": "horsegenetics.shox", "mod_allele_order": ["sa", "N"] },
+    { "locus": "shox", "mod_key": "horsegenetics.shox", "mod_allele_order": ["sa", "N"], "not_in_mod": ["Del1", "Del2"], "mod_outcome_unsupported": [["sa", "N"], ["sa", "sa"]] },
     { "locus": "met", "mod_key": "horsegenetics.met", "mod_allele_order": ["met", "N"] },
     { "locus": "patn1", "mod_key": "horsegenetics.patn1", "mod_allele_order": ["PATN1", "n"] },
     { "locus": "scn4a", "mod_key": "horsegenetics.scn4a", "mod_allele_order": ["H", "N"] },
