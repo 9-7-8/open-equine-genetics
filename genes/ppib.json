@@ -1,5 +1,5 @@
 {
-  "format": 1,
+  "format": 2,
   "id": "ppib",
   "species": "horse",
   "name": "PPIB (HERDA)",
@@ -9,8 +9,8 @@
   "inheritance": "autosomal",
   "affects_coat": false,
   "alleles": [
-    { "id": "herda", "name": "HERDA", "wild_type": false },
-    { "id": "N", "name": "Wild-type", "wild_type": true }
+    { "id": "herda", "name": "HERDA", "wild_type": false, "quality": "unverified" },
+    { "id": "N", "name": "Wild-type", "wild_type": true, "quality": "unverified" }
   ],
   "phenotypes": [
     { "id": "wild", "name": "Wild type", "description": "Two working copies. Nothing is wrong and nothing is passed on.", "changes_coat": false },
@@ -36,7 +36,7 @@
     }
   ],
   "citations": [
-    { "source": "pubmed", "label": "Tryon et al., PMID 17498917", "url": "https://pubmed.ncbi.nlm.nih.gov/17498917/" },
-    { "source": "other", "label": "UC Davis CEH", "url": "https://ceh.vetmed.ucdavis.edu/health-topics/hereditary-equine-regional-dermal-asthenia-herda" }
+    { "source": "pubmed", "label": "Tryon et al., PMID 17498917", "url": "https://pubmed.ncbi.nlm.nih.gov/17498917/", "verified": false },
+    { "source": "other", "label": "UC Davis CEH", "url": "https://ceh.vetmed.ucdavis.edu/health-topics/hereditary-equine-regional-dermal-asthenia-herda", "verified": false }
   ]
 }

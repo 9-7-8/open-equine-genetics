@@ -1,5 +1,5 @@
 {
-  "format": 1,
+  "format": 2,
   "id": "eye_sector_colour_left",
   "species": "horse",
   "name": "Left eye sector colour",
@@ -9,14 +9,14 @@
   "inheritance": "autosomal",
   "affects_coat": true,
   "alleles": [
-    { "id": "MBl", "name": "Mid blue", "wild_type": true },
-    { "id": "Grn", "name": "Green", "wild_type": false },
-    { "id": "Gld", "name": "Gold", "wild_type": false },
-    { "id": "DBl", "name": "Dark blue", "wild_type": false },
-    { "id": "Brn", "name": "Brown", "wild_type": false },
-    { "id": "LBl", "name": "Light blue", "wild_type": false },
-    { "id": "Wht", "name": "White", "wild_type": false },
-    { "id": "Cha", "name": "Chaos", "wild_type": false }
+    { "id": "MBl", "name": "Mid blue", "wild_type": true, "quality": "abstracted" },
+    { "id": "Grn", "name": "Green", "wild_type": false, "quality": "abstracted" },
+    { "id": "Gld", "name": "Gold", "wild_type": false, "quality": "abstracted" },
+    { "id": "DBl", "name": "Dark blue", "wild_type": false, "quality": "abstracted" },
+    { "id": "Brn", "name": "Brown", "wild_type": false, "quality": "abstracted" },
+    { "id": "LBl", "name": "Light blue", "wild_type": false, "quality": "abstracted" },
+    { "id": "Wht", "name": "White", "wild_type": false, "quality": "abstracted" },
+    { "id": "Cha", "name": "Chaos", "wild_type": false, "quality": "abstracted" }
   ],
   "phenotypes": [
     { "id": "wild", "name": "Wild type", "description": "A mid-blue sector, if this eye has a sector at all.", "changes_coat": false },

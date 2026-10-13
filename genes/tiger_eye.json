@@ -1,5 +1,5 @@
 {
-  "format": 1,
+  "format": 2,
   "id": "tiger_eye",
   "species": "horse",
   "name": "Tiger eye (SLC24A5)",
@@ -9,9 +9,9 @@
   "inheritance": "autosomal",
   "affects_coat": true,
   "alleles": [
-    { "id": "TE1", "name": "Tiger eye 1", "wild_type": false },
-    { "id": "TE2", "name": "Tiger eye 2", "wild_type": false },
-    { "id": "N", "name": "Wild-type", "wild_type": true }
+    { "id": "TE1", "name": "Tiger eye 1", "wild_type": false, "quality": "unverified" },
+    { "id": "TE2", "name": "Tiger eye 2", "wild_type": false, "quality": "unverified" },
+    { "id": "N", "name": "Wild-type", "wild_type": true, "quality": "unverified" }
   ],
   "phenotypes": [
     { "id": "wild", "name": "Wild type", "description": "Ordinary dark eyes.", "changes_coat": false },
@@ -42,6 +42,6 @@
     }
   ],
   "citations": [
-    { "source": "pubmed", "label": "Mack et al., PMC5555483", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5555483/" }
+    { "source": "pubmed", "label": "Mack et al., PMC5555483", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5555483/", "verified": false }
   ]
 }

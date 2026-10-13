@@ -1,5 +1,5 @@
 {
-  "format": 1,
+  "format": 2,
   "id": "eye_sector_right",
   "species": "horse",
   "name": "Right eye sector",
@@ -9,17 +9,17 @@
   "inheritance": "autosomal",
   "affects_coat": true,
   "alleles": [
-    { "id": "WT", "name": "Wild type", "wild_type": true },
-    { "id": "UL", "name": "Upper left", "wild_type": false },
-    { "id": "Top", "name": "Top", "wild_type": false },
-    { "id": "UR", "name": "Upper right", "wild_type": false },
-    { "id": "Rt", "name": "Right", "wild_type": false },
-    { "id": "LR", "name": "Lower right", "wild_type": false },
-    { "id": "Bot", "name": "Bottom", "wild_type": false },
-    { "id": "LL", "name": "Lower left", "wild_type": false },
-    { "id": "Lf", "name": "Left", "wild_type": false },
-    { "id": "URLL", "name": "Upper right + lower left", "wild_type": false },
-    { "id": "ULLR", "name": "Upper left + lower right", "wild_type": false }
+    { "id": "WT", "name": "Wild type", "wild_type": true, "quality": "abstracted" },
+    { "id": "UL", "name": "Upper left", "wild_type": false, "quality": "abstracted" },
+    { "id": "Top", "name": "Top", "wild_type": false, "quality": "abstracted" },
+    { "id": "UR", "name": "Upper right", "wild_type": false, "quality": "abstracted" },
+    { "id": "Rt", "name": "Right", "wild_type": false, "quality": "abstracted" },
+    { "id": "LR", "name": "Lower right", "wild_type": false, "quality": "abstracted" },
+    { "id": "Bot", "name": "Bottom", "wild_type": false, "quality": "abstracted" },
+    { "id": "LL", "name": "Lower left", "wild_type": false, "quality": "abstracted" },
+    { "id": "Lf", "name": "Left", "wild_type": false, "quality": "abstracted" },
+    { "id": "URLL", "name": "Upper right + lower left", "wild_type": false, "quality": "abstracted" },
+    { "id": "ULLR", "name": "Upper left + lower right", "wild_type": false, "quality": "abstracted" }
   ],
   "phenotypes": [
     { "id": "wild", "name": "Wild type", "description": "One colour, the whole iris.", "changes_coat": false },

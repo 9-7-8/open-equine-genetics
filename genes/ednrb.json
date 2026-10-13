@@ -1,5 +1,5 @@
 {
-  "format": 1,
+  "format": 2,
   "id": "ednrb",
   "species": "horse",
   "name": "EDNRB (frame overo)",
@@ -9,8 +9,8 @@
   "inheritance": "autosomal",
   "affects_coat": true,
   "alleles": [
-    { "id": "O", "name": "Frame overo", "wild_type": false },
-    { "id": "N", "name": "Wild-type", "wild_type": true }
+    { "id": "O", "name": "Frame overo", "wild_type": false, "quality": "unverified" },
+    { "id": "N", "name": "Wild-type", "wild_type": true, "quality": "unverified" }
   ],
   "phenotypes": [
     { "id": "wild", "name": "Wild type", "description": "No white patches.", "changes_coat": false },
@@ -36,9 +36,9 @@
     }
   ],
   "citations": [
-    { "source": "pubmed", "label": "Metallinos et al., PMID 9585428", "url": "https://pubmed.ncbi.nlm.nih.gov/9585428/?dopt=Abstract" },
-    { "source": "ucdavis-vgl", "label": "UC Davis VGL", "url": "https://vgl.ucdavis.edu/test/lethal-white-overo" },
-    { "source": "paper", "label": "JAVMA 235(10):1204", "url": "https://avmajournals.avma.org/view/journals/javma/235/10/javma.235.10.1204.xml" },
-    { "source": "pubmed", "label": "PMID 11197568", "url": "https://pubmed.ncbi.nlm.nih.gov/11197568/" }
+    { "source": "pubmed", "label": "Metallinos et al., PMID 9585428", "url": "https://pubmed.ncbi.nlm.nih.gov/9585428/?dopt=Abstract", "verified": false },
+    { "source": "ucdavis-vgl", "label": "UC Davis VGL", "url": "https://vgl.ucdavis.edu/test/lethal-white-overo", "verified": false },
+    { "source": "paper", "label": "JAVMA 235(10):1204", "url": "https://avmajournals.avma.org/view/journals/javma/235/10/javma.235.10.1204.xml", "verified": false },
+    { "source": "pubmed", "label": "PMID 11197568", "url": "https://pubmed.ncbi.nlm.nih.gov/11197568/", "verified": false }
   ]
 }

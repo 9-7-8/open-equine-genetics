@@ -1,5 +1,5 @@
 {
-  "format": 1,
+  "format": 2,
   "id": "ryr2",
   "species": "horse",
   "name": "Jumping ability (abstracted; not the RYR2 gene)",
@@ -9,8 +9,8 @@
   "inheritance": "autosomal",
   "affects_coat": false,
   "alleles": [
-    { "id": "J", "name": "Jumper", "wild_type": false },
-    { "id": "n", "name": "Wild-type", "wild_type": true }
+    { "id": "J", "name": "Jumper", "wild_type": false, "quality": "abstracted" },
+    { "id": "n", "name": "Wild-type", "wild_type": true, "quality": "abstracted" }
   ],
   "phenotypes": [
     { "id": "jumper", "name": "Jumper", "description": "Two jumping copies. The strongest jump this locus gives.", "changes_coat": false },

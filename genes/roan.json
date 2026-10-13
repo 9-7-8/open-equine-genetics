@@ -1,5 +1,5 @@
 {
-  "format": 1,
+  "format": 2,
   "id": "roan",
   "species": "horse",
   "name": "Roan (KIT region)",
@@ -10,8 +10,8 @@
   "inheritance": "autosomal",
   "affects_coat": true,
   "alleles": [
-    { "id": "Rn", "name": "Roan", "wild_type": false },
-    { "id": "rn", "name": "Wild-type (N)", "wild_type": true }
+    { "id": "Rn", "name": "Roan", "wild_type": false, "quality": "unverified" },
+    { "id": "rn", "name": "Wild-type (N)", "wild_type": true, "quality": "unverified" }
   ],
   "phenotypes": [
     { "id": "wild", "name": "Wild type", "description": "No white hairs mixed in.", "changes_coat": false },
@@ -34,9 +34,9 @@
     }
   ],
   "citations": [
-    { "source": "ucdavis-vgl", "label": "UC Davis VGL: Roan Zygosity Test", "url": "https://vgl.ucdavis.edu/test/roan" },
-    { "source": "pubmed", "label": "PMC7348759: Voss et al. 2020, coat color roan shows association with KIT variants and no evidence of lethality in Icelandic Horses (Genes)", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7348759/" },
-    { "source": "ucdavis-vgl", "label": "UC Davis VGL: Equine Coat Color Genetics", "url": "https://vgl.ucdavis.edu/resources/horse-coat-color" },
-    { "source": "omia", "label": "OMIA 001216-9796: Coat colour, roan", "url": "https://omia.org/OMIA001216/9796/" }
+    { "source": "ucdavis-vgl", "label": "UC Davis VGL: Roan Zygosity Test", "url": "https://vgl.ucdavis.edu/test/roan", "verified": false },
+    { "source": "pubmed", "label": "PMC7348759: Voss et al. 2020, coat color roan shows association with KIT variants and no evidence of lethality in Icelandic Horses (Genes)", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7348759/", "verified": false },
+    { "source": "ucdavis-vgl", "label": "UC Davis VGL: Equine Coat Color Genetics", "url": "https://vgl.ucdavis.edu/resources/horse-coat-color", "verified": false },
+    { "source": "omia", "label": "OMIA 001216-9796: Coat colour, roan", "url": "https://omia.org/OMIA001216/9796/", "verified": false }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "format": 1,
+  "format": 2,
   "id": "shade",
   "species": "horse",
   "name": "Shade (ASIP/RALY)",
@@ -9,9 +9,9 @@
   "inheritance": "autosomal",
   "affects_coat": false,
   "alleles": [
-    { "id": "ShD", "name": "Shade, dark haplotype", "wild_type": false },
-    { "id": "Sh", "name": "Shade, neutral haplotype", "wild_type": true },
-    { "id": "ShL", "name": "Shade, light haplotype", "wild_type": false }
+    { "id": "ShD", "name": "Shade, dark haplotype", "wild_type": false, "quality": "abstracted" },
+    { "id": "Sh", "name": "Shade, neutral haplotype", "wild_type": true, "quality": "abstracted" },
+    { "id": "ShL", "name": "Shade, light haplotype", "wild_type": false, "quality": "abstracted" }
   ],
   "phenotypes": [
     { "id": "lightest", "name": "Restricting (ShL/ShL)", "description": "Carried, and silent on its own. On a bay it holds black to the points and keeps the body its reddest - a blood bay. On anything else it does nothing at all.", "changes_coat": false },

@@ -1,5 +1,5 @@
 {
-  "format": 1,
+  "format": 2,
   "id": "lamc2",
   "species": "horse",
   "name": "LAMC2",
@@ -10,8 +10,8 @@
   "inheritance": "autosomal",
   "affects_coat": false,
   "alleles": [
-    { "id": "jeb", "name": "Junctional epidermolysis bullosa 1 (JEB1, J)", "wild_type": false },
-    { "id": "N", "name": "Wild-type", "wild_type": true }
+    { "id": "jeb", "name": "Junctional epidermolysis bullosa 1 (JEB1, J)", "wild_type": false, "quality": "unverified" },
+    { "id": "N", "name": "Wild-type", "wild_type": true, "quality": "unverified" }
   ],
   "phenotypes": [
     { "id": "wild", "name": "Wild type", "description": "Two working copies. Nothing is wrong and nothing is passed on.", "changes_coat": false },
@@ -37,9 +37,9 @@
     }
   ],
   "citations": [
-    { "source": "paper", "label": "Spirito et al. 2003, a mutation in LAMC2 causes Herlitz junctional epidermolysis bullosa in two French draft horse breeds (Genetics Selection Evolution)", "url": "https://www.gse-journal.org/articles/gse/abs/2003/02/g350207/g350207.html" },
-    { "source": "ucdavis-vgl", "label": "UC Davis VGL: Junctional Epidermolysis Bullosa (JEB1) in Belgians", "url": "https://vgl.ucdavis.edu/test/jeb-belgian" },
-    { "source": "other", "label": "UC Davis Center for Equine Health: Junctional Epidermolysis Bullosa", "url": "https://ceh.vetmed.ucdavis.edu/health-topics/junctional-epidermolysis-bullosa-jeb" },
-    { "source": "omia", "label": "OMIA 001678-9796: Epidermolysis bullosa, junctional, LAMC2-related", "url": "https://omia.org/OMIA001678/9796/" }
+    { "source": "paper", "label": "Spirito et al. 2003, a mutation in LAMC2 causes Herlitz junctional epidermolysis bullosa in two French draft horse breeds (Genetics Selection Evolution)", "url": "https://www.gse-journal.org/articles/gse/abs/2003/02/g350207/g350207.html", "verified": false },
+    { "source": "ucdavis-vgl", "label": "UC Davis VGL: Junctional Epidermolysis Bullosa (JEB1) in Belgians", "url": "https://vgl.ucdavis.edu/test/jeb-belgian", "verified": false },
+    { "source": "other", "label": "UC Davis Center for Equine Health: Junctional Epidermolysis Bullosa", "url": "https://ceh.vetmed.ucdavis.edu/health-topics/junctional-epidermolysis-bullosa-jeb", "verified": false },
+    { "source": "omia", "label": "OMIA 001678-9796: Epidermolysis bullosa, junctional, LAMC2-related", "url": "https://omia.org/OMIA001678/9796/", "verified": false }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "format": 1,
+  "format": 2,
   "id": "leopard",
   "species": "horse",
   "name": "Leopard complex (appaloosa)",
@@ -10,8 +10,8 @@
   "inheritance": "autosomal",
   "affects_coat": true,
   "alleles": [
-    { "id": "LP", "name": "Leopard complex", "wild_type": false },
-    { "id": "lp", "name": "Wild-type (N)", "wild_type": true }
+    { "id": "LP", "name": "Leopard complex", "wild_type": false, "quality": "unverified" },
+    { "id": "lp", "name": "Wild-type (N)", "wild_type": true, "quality": "unverified" }
   ],
   "phenotypes": [
     { "id": "wild", "name": "Wild type", "description": "No leopard complex - a solid-coloured coat.", "changes_coat": false },
@@ -77,11 +77,11 @@
     }
   ],
   "citations": [
-    { "source": "ucdavis-vgl", "label": "UC Davis VGL: Leopard Complex, Congenital Stationary Night Blindness, and Uveitis", "url": "https://vgl.ucdavis.edu/test/leopard-complex" },
-    { "source": "other", "label": "UC Davis Center for Equine Health: Congenital Stationary Night Blindness", "url": "https://ceh.vetmed.ucdavis.edu/health-topics/congenital-stationary-night-blindness-csnb" },
-    { "source": "paper", "label": "Bellone et al. 2013, PLoS ONE: retroviral insertion in TRPM1", "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0078280" },
-    { "source": "pubmed", "label": "PMID 20353955: Bellone et al. 2010, fine-mapping of TRPM1", "url": "https://pubmed.ncbi.nlm.nih.gov/20353955/" },
-    { "source": "omia", "label": "OMIA 002139-9796: leopard complex spotting", "url": "https://omia.org/OMIA002139/9796/" },
-    { "source": "omia", "label": "OMIA 001341-9796: congenital stationary night blindness", "url": "https://omia.org/OMIA001341/9796/" }
+    { "source": "ucdavis-vgl", "label": "UC Davis VGL: Leopard Complex, Congenital Stationary Night Blindness, and Uveitis", "url": "https://vgl.ucdavis.edu/test/leopard-complex", "verified": false },
+    { "source": "other", "label": "UC Davis Center for Equine Health: Congenital Stationary Night Blindness", "url": "https://ceh.vetmed.ucdavis.edu/health-topics/congenital-stationary-night-blindness-csnb", "verified": false },
+    { "source": "paper", "label": "Bellone et al. 2013, PLoS ONE: retroviral insertion in TRPM1", "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0078280", "verified": false },
+    { "source": "pubmed", "label": "PMID 20353955: Bellone et al. 2010, fine-mapping of TRPM1", "url": "https://pubmed.ncbi.nlm.nih.gov/20353955/", "verified": false },
+    { "source": "omia", "label": "OMIA 002139-9796: leopard complex spotting", "url": "https://omia.org/OMIA002139/9796/", "verified": false },
+    { "source": "omia", "label": "OMIA 001341-9796: congenital stationary night blindness", "url": "https://omia.org/OMIA001341/9796/", "verified": false }
   ]
 }

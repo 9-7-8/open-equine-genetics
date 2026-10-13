@@ -18,6 +18,7 @@ const INHERITANCE = ["autosomal", "x_linked", "y_linked"];
 const SEVERITY = ["informational", "impairing", "lethal_in_early_life", "lethal_at_birth", "lethal_at_conception"];
 // The horse has 31 pairs of autosomes.
 const CHROMOSOMES = [...Array.from({ length: 31 }, (_, i) => String(i + 1)), "X", "Y"];
+const QUALITY = ["verified", "unverified", "abstracted", "invalid"];
 const SOURCES = ["ucdavis-vgl", "omia", "pubmed", "paper", "other"];
 const key = (pair) => [...pair].sort().join("/");
 
@@ -32,7 +33,7 @@ for (const file of readdirSync(join(root, "genes")).filter((f) => f.endsWith(".j
     continue;
   }
   genes.set(g.id, g);
-  if (g.format !== 1) bad(`format is ${g.format}, expected 1`);
+  if (g.format !== 2) bad(`format is ${g.format}, expected 2`);
   if (`${g.id}.json` !== file) bad(`id "${g.id}" does not match the file name`);
   if (g.species !== "horse") bad(`species is "${g.species}"`);
   if (!EVIDENCE.includes(g.evidence)) bad(`evidence is "${g.evidence}"`);
@@ -49,6 +50,12 @@ for (const file of readdirSync(join(root, "genes")).filter((f) => f.endsWith(".j
   const ids = (g.alleles ?? []).map((a) => a.id);
   if (new Set(ids).size !== ids.length) bad("duplicate allele id");
   if ((g.alleles ?? []).filter((a) => a.wild_type).length !== 1) bad("not exactly one wild_type allele");
+  for (const a of g.alleles ?? []) {
+    if (a.placeholder) continue;
+    if (!QUALITY.includes(a.quality)) bad(`allele "${a.id}": quality is "${a.quality}"`);
+    if (g.evidence === "abstracted" && a.quality !== "abstracted") bad(`allele "${a.id}" of an abstracted locus is not marked abstracted`);
+    if (a.wild_type && a.quality === "invalid") bad(`the wild-type allele "${a.id}" is marked invalid`);
+  }
   const placeholder = (g.alleles ?? []).find((a) => a.placeholder)?.id;
   if ((g.inheritance !== "autosomal") !== (placeholder !== undefined)) bad("placeholder allele and inheritance disagree");
 
@@ -119,6 +126,7 @@ for (const file of readdirSync(join(root, "genes")).filter((f) => f.endsWith(".j
   for (const c of g.citations ?? []) {
     if (!SOURCES.includes(c.source)) bad(`citation source "${c.source}"`);
     if (!/^https?:\/\//.test(c.url ?? "")) bad(`citation url "${c.url}"`);
+    if (typeof c.verified !== "boolean") bad(`citation "${c.label}" does not say whether it was verified`);
   }
 }
 

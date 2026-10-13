@@ -1,5 +1,5 @@
 {
-  "format": 1,
+  "format": 2,
   "id": "ryr1",
   "species": "horse",
   "name": "RYR1",
@@ -10,8 +10,8 @@
   "inheritance": "autosomal",
   "affects_coat": false,
   "alleles": [
-    { "id": "MH", "name": "Malignant hyperthermia", "wild_type": false },
-    { "id": "N", "name": "Wild-type", "wild_type": true }
+    { "id": "MH", "name": "Malignant hyperthermia", "wild_type": false, "quality": "unverified" },
+    { "id": "N", "name": "Wild-type", "wild_type": true, "quality": "unverified" }
   ],
   "phenotypes": [
     { "id": "wild", "name": "Wild type", "description": "Two working copies. Nothing is wrong and nothing is passed on.", "changes_coat": false },
@@ -45,11 +45,11 @@
     }
   ],
   "citations": [
-    { "source": "ucdavis-vgl", "label": "UC Davis VGL: Malignant Hyperthermia (MH)", "url": "https://vgl.ucdavis.edu/test/mh" },
-    { "source": "pubmed", "label": "PMC12038935: Aleman, McCue and Bellone 2025, frequency of the RYR1 MH allele in over 159,000 horses", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12038935/" },
-    { "source": "ucdavis-vgl", "label": "UC Davis VGL: MH found to be low frequency and clinically significant in Quarter Horses", "url": "https://vgl.ucdavis.edu/news/mh-found-be-low-frequency-and-clinically-significant-in-qh" },
-    { "source": "pubmed", "label": "PMID 19220734: Malignant hyperthermia associated with ryanodine receptor 1 (C7360G) mutation in Quarter Horses (J Vet Intern Med 2009)", "url": "https://pubmed.ncbi.nlm.nih.gov/19220734/" },
-    { "source": "omia", "label": "OMIA 000621-9796: Malignant hyperthermia", "url": "https://omia.org/OMIA000621/9796/" },
-    { "source": "pubmed", "label": "PMID 15318347: Aleman et al. 2004, association of a mutation in the ryanodine receptor 1 gene with equine malignant hyperthermia (Muscle and Nerve)", "url": "https://pubmed.ncbi.nlm.nih.gov/15318347/" }
+    { "source": "ucdavis-vgl", "label": "UC Davis VGL: Malignant Hyperthermia (MH)", "url": "https://vgl.ucdavis.edu/test/mh", "verified": false },
+    { "source": "pubmed", "label": "PMC12038935: Aleman, McCue and Bellone 2025, frequency of the RYR1 MH allele in over 159,000 horses", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12038935/", "verified": false },
+    { "source": "ucdavis-vgl", "label": "UC Davis VGL: MH found to be low frequency and clinically significant in Quarter Horses", "url": "https://vgl.ucdavis.edu/news/mh-found-be-low-frequency-and-clinically-significant-in-qh", "verified": false },
+    { "source": "pubmed", "label": "PMID 19220734: Malignant hyperthermia associated with ryanodine receptor 1 (C7360G) mutation in Quarter Horses (J Vet Intern Med 2009)", "url": "https://pubmed.ncbi.nlm.nih.gov/19220734/", "verified": false },
+    { "source": "omia", "label": "OMIA 000621-9796: Malignant hyperthermia", "url": "https://omia.org/OMIA000621/9796/", "verified": false },
+    { "source": "pubmed", "label": "PMID 15318347: Aleman et al. 2004, association of a mutation in the ryanodine receptor 1 gene with equine malignant hyperthermia (Muscle and Nerve)", "url": "https://pubmed.ncbi.nlm.nih.gov/15318347/", "verified": false }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "format": 1,
+  "format": 2,
   "id": "megaesophagus",
   "species": "horse",
   "name": "Megaesophagus",
@@ -9,8 +9,8 @@
   "inheritance": "autosomal",
   "affects_coat": false,
   "alleles": [
-    { "id": "meg", "name": "Megaesophagus", "wild_type": false },
-    { "id": "N", "name": "Wild-type", "wild_type": true }
+    { "id": "meg", "name": "Megaesophagus", "wild_type": false, "quality": "abstracted" },
+    { "id": "N", "name": "Wild-type", "wild_type": true, "quality": "abstracted" }
   ],
   "phenotypes": [
     { "id": "wild", "name": "Wild type", "description": "Two working copies. Nothing is wrong and nothing is passed on.", "changes_coat": false },

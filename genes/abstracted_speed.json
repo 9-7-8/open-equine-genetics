@@ -1,5 +1,5 @@
 {
-  "format": 1,
+  "format": 2,
   "id": "abstracted_speed",
   "species": "horse",
   "name": "Abstracted speed",
@@ -9,9 +9,9 @@
   "inheritance": "autosomal",
   "affects_coat": false,
   "alleles": [
-    { "id": "Swift", "name": "Swiftness", "wild_type": false },
-    { "id": "Sluggish", "name": "Sluggishness", "wild_type": false },
-    { "id": "n", "name": "Wild-type", "wild_type": true }
+    { "id": "Swift", "name": "Swiftness", "wild_type": false, "quality": "abstracted" },
+    { "id": "Sluggish", "name": "Sluggishness", "wild_type": false, "quality": "abstracted" },
+    { "id": "n", "name": "Wild-type", "wild_type": true, "quality": "abstracted" }
   ],
   "phenotypes": [
     { "id": "wild", "name": "Wild type", "description": "Ordinary speed for whatever the horse's own speed genes say - which, since most horses carry a copy of this one, is itself slightly unusual.", "changes_coat": false },

@@ -1,5 +1,5 @@
 {
-  "format": 1,
+  "format": 2,
   "id": "shox",
   "species": "horse",
   "name": "SHOX (skeletal atavism)",
@@ -9,8 +9,8 @@
   "inheritance": "autosomal",
   "affects_coat": false,
   "alleles": [
-    { "id": "sa", "name": "Skeletal atavism", "wild_type": false },
-    { "id": "N", "name": "Wild-type", "wild_type": true }
+    { "id": "sa", "name": "Skeletal atavism", "wild_type": false, "quality": "unverified" },
+    { "id": "N", "name": "Wild-type", "wild_type": true, "quality": "unverified" }
   ],
   "phenotypes": [
     { "id": "wild", "name": "Wild type", "description": "Two working copies. Nothing is wrong and nothing is passed on.", "changes_coat": false },
@@ -36,9 +36,9 @@
     }
   ],
   "citations": [
-    { "source": "pubmed", "label": "Rafati et al., PMC4938674", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4938674/" },
-    { "source": "omia", "label": "OMIA 002013", "url": "https://omia.org/OMIA002013/9796/" },
-    { "source": "pubmed", "label": "PMID 15373256", "url": "https://pubmed.ncbi.nlm.nih.gov/15373256/" },
-    { "source": "ucdavis-vgl", "label": "UC Davis VGL", "url": "https://vgl.ucdavis.edu/test/skeletal-atavism" }
+    { "source": "pubmed", "label": "Rafati et al., PMC4938674", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4938674/", "verified": false },
+    { "source": "omia", "label": "OMIA 002013", "url": "https://omia.org/OMIA002013/9796/", "verified": false },
+    { "source": "pubmed", "label": "PMID 15373256", "url": "https://pubmed.ncbi.nlm.nih.gov/15373256/", "verified": false },
+    { "source": "ucdavis-vgl", "label": "UC Davis VGL", "url": "https://vgl.ucdavis.edu/test/skeletal-atavism", "verified": false }
   ]
 }

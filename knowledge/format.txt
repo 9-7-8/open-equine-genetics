@@ -1,4 +1,4 @@
-THE GENE FILE FORMAT (format 1)
+THE GENE FILE FORMAT (format 2)
 ===============================
 One file per locus: genes/<id>.json. UTF-8 JSON, nothing else. Any language with a JSON
 parser can read it. No field depends on a game, an engine or a programming language.
@@ -8,7 +8,8 @@ by the owner. Change it if it is wrong, bump "format", and say so in the session
 
 FIELDS
 ------
-format        integer. 1.
+format        integer. 2. (Format 2, 2026-10-12, added "quality" on every allele and
+              "verified" on every citation, both required.)
 id            the locus id, lower case with underscores. The file name without .json.
 species       "horse".
 name          a readable name.
@@ -25,6 +26,17 @@ alleles       list, IN A FIXED ORDER that must never be changed (append only).
   id            the allele's short token, unique within the locus ("E", "e", "W20").
   name          a readable name.
   wild_type     true for the one allele that is the population's ordinary copy.
+  quality       how far to trust that this allele is real. One of:
+                "verified"    a maintainer opened a cited source and it describes this
+                              allele.
+                "unverified"  believed real, from research or from the first export, but
+                              no maintainer has opened a source for it. The default.
+                "abstracted"  invented, as every allele of an abstracted locus is.
+                "invalid"     looked for and not found: no source supports it. It is
+                              kept ON PURPOSE, so that the id is never reused and nobody
+                              adds it back thinking it was overlooked. A consumer should
+                              not create horses with it.
+                The placeholder "Y" carries none.
   placeholder   present only on the stand-in "Y" of an x_linked locus: the missing second
                 copy in a male.
 
@@ -67,6 +79,8 @@ citations     list.
   source        "ucdavis-vgl", "omia", "pubmed", "paper" or "other".
   label         short text.
   url
+  verified      true once a maintainer has opened the address and found it says what it
+                is cited for. false until then - which is nearly all of them.
 
 EVIDENCE
 --------

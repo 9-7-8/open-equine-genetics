@@ -1,5 +1,5 @@
 {
-  "format": 1,
+  "format": 2,
   "id": "lcorl",
   "species": "horse",
   "name": "LCORL / NCAPG (height)",
@@ -10,8 +10,8 @@
   "inheritance": "autosomal",
   "affects_coat": false,
   "alleles": [
-    { "id": "L", "name": "Tall (C, H1)", "wild_type": false },
-    { "id": "n", "name": "Wild-type (T)", "wild_type": true }
+    { "id": "L", "name": "Tall (C, H1)", "wild_type": false, "quality": "unverified" },
+    { "id": "n", "name": "Wild-type (T)", "wild_type": true, "quality": "unverified" }
   ],
   "phenotypes": [
     { "id": "lcorl-tall", "name": "Tall", "description": "Two tall copies. The strongest tendency toward a taller, larger frame.", "changes_coat": false },
@@ -35,6 +35,6 @@
     }
   ],
   "citations": [
-    { "source": "paper", "label": "Metzger et al. 2013, expression levels of LCORL are associated with body size in horses (PLoS ONE)", "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0056497" }
+    { "source": "paper", "label": "Metzger et al. 2013, expression levels of LCORL are associated with body size in horses (PLoS ONE)", "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0056497", "verified": false }
   ]
 }

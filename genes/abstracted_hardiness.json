@@ -1,5 +1,5 @@
 {
-  "format": 1,
+  "format": 2,
   "id": "abstracted_hardiness",
   "species": "horse",
   "name": "Abstracted hardiness",
@@ -9,9 +9,9 @@
   "inheritance": "autosomal",
   "affects_coat": false,
   "alleles": [
-    { "id": "Hardy", "name": "Hardiness", "wild_type": false },
-    { "id": "Frail", "name": "Frailty", "wild_type": false },
-    { "id": "n", "name": "Wild-type", "wild_type": true }
+    { "id": "Hardy", "name": "Hardiness", "wild_type": false, "quality": "abstracted" },
+    { "id": "Frail", "name": "Frailty", "wild_type": false, "quality": "abstracted" },
+    { "id": "n", "name": "Wild-type", "wild_type": true, "quality": "abstracted" }
   ],
   "phenotypes": [
     { "id": "wild", "name": "Wild type", "description": "Ordinary constitution for whatever the horse's own genes say - which, since most horses carry a copy of this one, is itself slightly unusual.", "changes_coat": false },

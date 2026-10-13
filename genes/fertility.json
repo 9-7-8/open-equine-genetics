@@ -1,5 +1,5 @@
 {
-  "format": 1,
+  "format": 2,
   "id": "fertility",
   "species": "horse",
   "name": "Fertility",
@@ -9,9 +9,9 @@
   "inheritance": "autosomal",
   "affects_coat": false,
   "alleles": [
-    { "id": "tw", "name": "Twinning", "wild_type": false },
-    { "id": "n", "name": "Ordinary fertility", "wild_type": true },
-    { "id": "sf", "name": "Subfertile", "wild_type": false }
+    { "id": "tw", "name": "Twinning", "wild_type": false, "quality": "abstracted" },
+    { "id": "n", "name": "Ordinary fertility", "wild_type": true, "quality": "abstracted" },
+    { "id": "sf", "name": "Subfertile", "wild_type": false, "quality": "abstracted" }
   ],
   "phenotypes": [
     { "id": "wild", "name": "Wild type", "description": "Ordinary fertility. A mare conceives at the usual odds and nearly always carries one foal.", "changes_coat": false },

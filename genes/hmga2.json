@@ -1,5 +1,5 @@
 {
-  "format": 1,
+  "format": 2,
   "id": "hmga2",
   "species": "horse",
   "name": "HMGA2 (pony)",
@@ -9,8 +9,8 @@
   "inheritance": "autosomal",
   "affects_coat": false,
   "alleles": [
-    { "id": "p", "name": "Pony", "wild_type": false },
-    { "id": "N", "name": "Wild-type", "wild_type": true }
+    { "id": "p", "name": "Pony", "wild_type": false, "quality": "unverified" },
+    { "id": "N", "name": "Wild-type", "wild_type": true, "quality": "unverified" }
   ],
   "phenotypes": [
     { "id": "pony", "name": "Pony", "description": "Two pony copies. A visibly smaller horse.", "changes_coat": false },
@@ -34,8 +34,8 @@
     }
   ],
   "citations": [
-    { "source": "pubmed", "label": "Frischknecht et al., PMC4608717", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4608717/" },
-    { "source": "pubmed", "label": "PMC10229368", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10229368/" },
-    { "source": "pubmed", "label": "PMC6430908", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6430908/" }
+    { "source": "pubmed", "label": "Frischknecht et al., PMC4608717", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4608717/", "verified": false },
+    { "source": "pubmed", "label": "PMC10229368", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10229368/", "verified": false },
+    { "source": "pubmed", "label": "PMC6430908", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6430908/", "verified": false }
   ]
 }

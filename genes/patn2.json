@@ -1,5 +1,5 @@
 {
-  "format": 1,
+  "format": 2,
   "id": "patn2",
   "species": "horse",
   "name": "PATN2 (blanket pattern)",
@@ -9,8 +9,8 @@
   "inheritance": "autosomal",
   "affects_coat": false,
   "alleles": [
-    { "id": "PATN2", "name": "Leopard pattern-2", "wild_type": false },
-    { "id": "n", "name": "Wild-type", "wild_type": true }
+    { "id": "PATN2", "name": "Leopard pattern-2", "wild_type": false, "quality": "abstracted" },
+    { "id": "n", "name": "Wild-type", "wild_type": true, "quality": "abstracted" }
   ],
   "phenotypes": [
     { "id": "wild", "name": "Wild type", "description": "Carried, but silent on its own - it only shapes the pattern of a horse that also carries the leopard complex.", "changes_coat": false }

@@ -1,5 +1,5 @@
 {
-  "format": 1,
+  "format": 2,
   "id": "pax3",
   "species": "horse",
   "name": "PAX3 (splash white)",
@@ -9,10 +9,10 @@
   "inheritance": "autosomal",
   "affects_coat": true,
   "alleles": [
-    { "id": "SW2", "name": "Splash white 2", "wild_type": false },
-    { "id": "SW4", "name": "Splash white 4", "wild_type": false },
-    { "id": "SW10", "name": "Splash white 10", "wild_type": false },
-    { "id": "N", "name": "Wild-type", "wild_type": true }
+    { "id": "SW2", "name": "Splash white 2", "wild_type": false, "quality": "unverified" },
+    { "id": "SW4", "name": "Splash white 4", "wild_type": false, "quality": "unverified" },
+    { "id": "SW10", "name": "Splash white 10", "wild_type": false, "quality": "unverified" },
+    { "id": "N", "name": "Wild-type", "wild_type": true, "quality": "unverified" }
   ],
   "phenotypes": [
     { "id": "wild", "name": "Wild type", "description": "No splash markings.", "changes_coat": false },
@@ -48,7 +48,7 @@
     }
   ],
   "citations": [
-    { "source": "pubmed", "label": "Hauswirth et al., PMC3325211", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3325211/" },
-    { "source": "pubmed", "label": "PMC9498372", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9498372/" }
+    { "source": "pubmed", "label": "Hauswirth et al., PMC3325211", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3325211/", "verified": false },
+    { "source": "pubmed", "label": "PMC9498372", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9498372/", "verified": false }
   ]
 }

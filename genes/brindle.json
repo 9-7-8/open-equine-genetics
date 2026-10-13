@@ -1,5 +1,5 @@
 {
-  "format": 1,
+  "format": 2,
   "id": "brindle",
   "species": "horse",
   "name": "Brindle (MBTPS2)",
@@ -10,8 +10,8 @@
   "inheritance": "x_linked",
   "affects_coat": true,
   "alleles": [
-    { "id": "Brn", "name": "Brindle 1 (BR1)", "wild_type": false },
-    { "id": "n", "name": "Wild-type", "wild_type": true },
+    { "id": "Brn", "name": "Brindle 1 (BR1)", "wild_type": false, "quality": "unverified" },
+    { "id": "n", "name": "Wild-type", "wild_type": true, "quality": "unverified" },
     { "id": "Y", "name": "No copy (Y chromosome)", "wild_type": false, "placeholder": "the missing second copy in the hemizygous sex" }
   ],
   "phenotypes": [
@@ -28,8 +28,8 @@
   ],
   "frequencies": [],
   "citations": [
-    { "source": "ucdavis-vgl", "label": "UC Davis VGL: Brindle 1", "url": "https://vgl.ucdavis.edu/test/brindle-1-horse" },
-    { "source": "pubmed", "label": "PMID 27449517: Murgiano et al. 2016, an intronic MBTPS2 variant results in a splicing defect in horses with brindle coat texture (G3)", "url": "https://pubmed.ncbi.nlm.nih.gov/27449517/" },
-    { "source": "omia", "label": "OMIA 002021-9796: Brindle 1", "url": "https://www.omia.org/OMIA002021/9796/" }
+    { "source": "ucdavis-vgl", "label": "UC Davis VGL: Brindle 1", "url": "https://vgl.ucdavis.edu/test/brindle-1-horse", "verified": false },
+    { "source": "pubmed", "label": "PMID 27449517: Murgiano et al. 2016, an intronic MBTPS2 variant results in a splicing defect in horses with brindle coat texture (G3)", "url": "https://pubmed.ncbi.nlm.nih.gov/27449517/", "verified": false },
+    { "source": "omia", "label": "OMIA 002021-9796: Brindle 1", "url": "https://www.omia.org/OMIA002021/9796/", "verified": false }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "format": 1,
+  "format": 2,
   "id": "markings",
   "species": "horse",
   "name": "Markings",
@@ -9,9 +9,9 @@
   "inheritance": "autosomal",
   "affects_coat": true,
   "alleles": [
-    { "id": "M2", "name": "Markings, strong", "wild_type": false },
-    { "id": "M1", "name": "Markings, mild", "wild_type": false },
-    { "id": "m", "name": "Wild-type", "wild_type": true }
+    { "id": "M2", "name": "Markings, strong", "wild_type": false, "quality": "abstracted" },
+    { "id": "M1", "name": "Markings, mild", "wild_type": false, "quality": "abstracted" },
+    { "id": "m", "name": "Wild-type", "wild_type": true, "quality": "abstracted" }
   ],
   "phenotypes": [
     { "id": "wild", "name": "Wild type", "description": "No ordinary white - a clean face and four coloured legs, unless a pattern gene puts white somewhere itself.", "changes_coat": false },

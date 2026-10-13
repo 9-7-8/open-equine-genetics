@@ -1,5 +1,5 @@
 {
-  "format": 1,
+  "format": 2,
   "id": "scn4a",
   "species": "horse",
   "name": "SCN4A (HYPP)",
@@ -9,8 +9,8 @@
   "inheritance": "autosomal",
   "affects_coat": false,
   "alleles": [
-    { "id": "H", "name": "HYPP", "wild_type": false },
-    { "id": "N", "name": "Wild-type", "wild_type": true }
+    { "id": "H", "name": "HYPP", "wild_type": false, "quality": "unverified" },
+    { "id": "N", "name": "Wild-type", "wild_type": true, "quality": "unverified" }
   ],
   "phenotypes": [
     { "id": "wild", "name": "Wild type", "description": "Two working copies. Nothing is wrong and nothing is passed on.", "changes_coat": false },
@@ -37,9 +37,9 @@
     }
   ],
   "citations": [
-    { "source": "ucdavis-vgl", "label": "UC Davis VGL", "url": "https://vgl.ucdavis.edu/test/hypp" },
-    { "source": "other", "label": "Vetlexicon", "url": "https://www.vetlexicon.com/equis/internal-medicine/articles/muscle-hyperkalemic-periodic-paralysis/" },
-    { "source": "other", "label": "AQHA", "url": "https://www.aqha.com/hypp" },
-    { "source": "omia", "label": "OMIA 000785", "url": "https://omia.org/OMIA000785/9796/" }
+    { "source": "ucdavis-vgl", "label": "UC Davis VGL", "url": "https://vgl.ucdavis.edu/test/hypp", "verified": false },
+    { "source": "other", "label": "Vetlexicon", "url": "https://www.vetlexicon.com/equis/internal-medicine/articles/muscle-hyperkalemic-periodic-paralysis/", "verified": false },
+    { "source": "other", "label": "AQHA", "url": "https://www.aqha.com/hypp", "verified": false },
+    { "source": "omia", "label": "OMIA 000785", "url": "https://omia.org/OMIA000785/9796/", "verified": false }
   ]
 }

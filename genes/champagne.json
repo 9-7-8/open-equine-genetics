@@ -1,5 +1,5 @@
 {
-  "format": 1,
+  "format": 2,
   "id": "champagne",
   "species": "horse",
   "name": "Champagne",
@@ -9,8 +9,8 @@
   "inheritance": "autosomal",
   "affects_coat": true,
   "alleles": [
-    { "id": "Ch", "name": "Champagne", "wild_type": false },
-    { "id": "c", "name": "Wild-type", "wild_type": true }
+    { "id": "Ch", "name": "Champagne", "wild_type": false, "quality": "unverified" },
+    { "id": "c", "name": "Wild-type", "wild_type": true, "quality": "unverified" }
   ],
   "phenotypes": [
     { "id": "wild", "name": "Wild type", "description": "No dilution.", "changes_coat": false },
@@ -33,8 +33,8 @@
     }
   ],
   "citations": [
-    { "source": "paper", "label": "Cook et al., PLoS Genet. 4:e1000195", "url": "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1000195" },
-    { "source": "omia", "label": "OMIA 001263", "url": "https://omia.org/OMIA001263/9796/" },
-    { "source": "pubmed", "label": "PMC9498372", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9498372/" }
+    { "source": "paper", "label": "Cook et al., PLoS Genet. 4:e1000195", "url": "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1000195", "verified": false },
+    { "source": "omia", "label": "OMIA 001263", "url": "https://omia.org/OMIA001263/9796/", "verified": false },
+    { "source": "pubmed", "label": "PMC9498372", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9498372/", "verified": false }
   ]
 }

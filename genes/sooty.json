@@ -1,5 +1,5 @@
 {
-  "format": 1,
+  "format": 2,
   "id": "sooty",
   "species": "horse",
   "name": "Sooty",
@@ -9,9 +9,9 @@
   "inheritance": "autosomal",
   "affects_coat": true,
   "alleles": [
-    { "id": "S2", "name": "Sooty, strong", "wild_type": false },
-    { "id": "S1", "name": "Sooty, mild", "wild_type": false },
-    { "id": "s", "name": "Wild-type", "wild_type": true }
+    { "id": "S2", "name": "Sooty, strong", "wild_type": false, "quality": "abstracted" },
+    { "id": "S1", "name": "Sooty, mild", "wild_type": false, "quality": "abstracted" },
+    { "id": "s", "name": "Wild-type", "wild_type": true, "quality": "abstracted" }
   ],
   "phenotypes": [
     { "id": "wild", "name": "Wild type", "description": "No dark overlay - whatever the base colour and the dilutions made, that is what shows.", "changes_coat": false },

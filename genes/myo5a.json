@@ -1,5 +1,5 @@
 {
-  "format": 1,
+  "format": 2,
   "id": "myo5a",
   "species": "horse",
   "name": "MYO5A (lavender foal)",
@@ -9,8 +9,8 @@
   "inheritance": "autosomal",
   "affects_coat": false,
   "alleles": [
-    { "id": "lfs", "name": "Lavender foal", "wild_type": false },
-    { "id": "N", "name": "Wild-type", "wild_type": true }
+    { "id": "lfs", "name": "Lavender foal", "wild_type": false, "quality": "unverified" },
+    { "id": "N", "name": "Wild-type", "wild_type": true, "quality": "unverified" }
   ],
   "phenotypes": [
     { "id": "wild", "name": "Wild type", "description": "Two working copies. Nothing is wrong and nothing is passed on.", "changes_coat": false },
@@ -36,8 +36,8 @@
     }
   ],
   "citations": [
-    { "source": "pubmed", "label": "Brooks et al., PMC2855325", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2855325/" },
-    { "source": "omia", "label": "OMIA 001501", "url": "https://omia.org/OMIA001501/9796/" },
-    { "source": "paper", "label": "EVJ 13604", "url": "https://beva.onlinelibrary.wiley.com/doi/10.1111/evj.13604?af=R" }
+    { "source": "pubmed", "label": "Brooks et al., PMC2855325", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2855325/", "verified": false },
+    { "source": "omia", "label": "OMIA 001501", "url": "https://omia.org/OMIA001501/9796/", "verified": false },
+    { "source": "paper", "label": "EVJ 13604", "url": "https://beva.onlinelibrary.wiley.com/doi/10.1111/evj.13604?af=R", "verified": false }
   ]
 }

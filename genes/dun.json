@@ -1,5 +1,5 @@
 {
-  "format": 1,
+  "format": 2,
   "id": "dun",
   "species": "horse",
   "name": "Dun",
@@ -9,9 +9,9 @@
   "inheritance": "autosomal",
   "affects_coat": true,
   "alleles": [
-    { "id": "D", "name": "Dun", "wild_type": false },
-    { "id": "d1", "name": "Non-dun, marked", "wild_type": false },
-    { "id": "d2", "name": "Non-dun, unmarked", "wild_type": true }
+    { "id": "D", "name": "Dun", "wild_type": false, "quality": "unverified" },
+    { "id": "d1", "name": "Non-dun, marked", "wild_type": false, "quality": "unverified" },
+    { "id": "d2", "name": "Non-dun, unmarked", "wild_type": true, "quality": "unverified" }
   ],
   "phenotypes": [
     { "id": "wild", "name": "Wild type", "description": "No dilution and no primitive markings.", "changes_coat": false },
@@ -41,7 +41,7 @@
     }
   ],
   "citations": [
-    { "source": "pubmed", "label": "Imsland et al., PMC4731265", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4731265/" },
-    { "source": "pubmed", "label": "PMC8796118", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8796118/" }
+    { "source": "pubmed", "label": "Imsland et al., PMC4731265", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4731265/", "verified": false },
+    { "source": "pubmed", "label": "PMC8796118", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8796118/", "verified": false }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "format": 1,
+  "format": 2,
   "id": "acan",
   "species": "horse",
   "name": "ACAN",
@@ -10,12 +10,12 @@
   "inheritance": "autosomal",
   "affects_coat": false,
   "alleles": [
-    { "id": "D1", "name": "Dwarfism D1 (c.245del, severe)", "wild_type": false },
-    { "id": "D2", "name": "Dwarfism D2 (c.1270G>A)", "wild_type": false },
-    { "id": "D3", "name": "Dwarfism D3 (c.6700delC)", "wild_type": false },
-    { "id": "D4", "name": "Dwarfism D4 (c.7299_7319del)", "wild_type": false },
-    { "id": "D5", "name": "Dwarfism D5 (g.95258999C>T)", "wild_type": false },
-    { "id": "N", "name": "Wild-type", "wild_type": true }
+    { "id": "D1", "name": "Dwarfism D1 (c.245del, severe)", "wild_type": false, "quality": "unverified" },
+    { "id": "D2", "name": "Dwarfism D2 (c.1270G>A)", "wild_type": false, "quality": "unverified" },
+    { "id": "D3", "name": "Dwarfism D3 (c.6700delC)", "wild_type": false, "quality": "unverified" },
+    { "id": "D4", "name": "Dwarfism D4 (c.7299_7319del)", "wild_type": false, "quality": "unverified" },
+    { "id": "D5", "name": "Dwarfism D5 (g.95258999C>T)", "wild_type": false, "quality": "unverified" },
+    { "id": "N", "name": "Wild-type", "wild_type": true, "quality": "unverified" }
   ],
   "phenotypes": [
     { "id": "wild", "name": "Wild type", "description": "Two working copies of ACAN. Normal skeletal growth.", "changes_coat": false },
@@ -65,7 +65,7 @@
     }
   ],
   "citations": [
-    { "source": "omia", "label": "OMIA 001271-9796: Dwarfism, ACAN-related", "url": "https://omia.org/OMIA001271/9796/" },
-    { "source": "pubmed", "label": "PMID 32065671: Heterozygotes for ACAN dwarfism alleles in horses have reduced stature (2020)", "url": "https://pubmed.ncbi.nlm.nih.gov/32065671/" }
+    { "source": "omia", "label": "OMIA 001271-9796: Dwarfism, ACAN-related", "url": "https://omia.org/OMIA001271/9796/", "verified": false },
+    { "source": "pubmed", "label": "PMID 32065671: Heterozygotes for ACAN dwarfism alleles in horses have reduced stature (2020)", "url": "https://pubmed.ncbi.nlm.nih.gov/32065671/", "verified": false }
   ]
 }

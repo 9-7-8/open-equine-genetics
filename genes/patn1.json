@@ -1,5 +1,5 @@
 {
-  "format": 1,
+  "format": 2,
   "id": "patn1",
   "species": "horse",
   "name": "PATN1 (leopard pattern)",
@@ -10,8 +10,8 @@
   "inheritance": "autosomal",
   "affects_coat": false,
   "alleles": [
-    { "id": "PATN1", "name": "Leopard pattern-1", "wild_type": false },
-    { "id": "n", "name": "Wild-type", "wild_type": true }
+    { "id": "PATN1", "name": "Leopard pattern-1", "wild_type": false, "quality": "unverified" },
+    { "id": "n", "name": "Wild-type", "wild_type": true, "quality": "unverified" }
   ],
   "phenotypes": [
     { "id": "wild", "name": "Wild type", "description": "Carried, but silent on its own - it only shapes the pattern of a horse that also carries the leopard complex.", "changes_coat": false }
@@ -40,9 +40,9 @@
     }
   ],
   "citations": [
-    { "source": "ucdavis-vgl", "label": "UC Davis VGL: Appaloosa Pattern-1 (PATN1)", "url": "https://vgl.ucdavis.edu/test/appaloosa-pattern-1" },
-    { "source": "pubmed", "label": "PMID 26568529: Holl et al. 2016, variant in RFWD3 associated with PATN1 (Animal Genetics)", "url": "https://pubmed.ncbi.nlm.nih.gov/26568529/" },
-    { "source": "ucdavis-vgl", "label": "UC Davis VGL: Bellone research page", "url": "https://vgl.ucdavis.edu/research/bellone" },
-    { "source": "ucdavis-vgl", "label": "UC Davis VGL: Leopard Complex, Congenital Stationary Night Blindness, and Uveitis", "url": "https://vgl.ucdavis.edu/test/leopard-complex" }
+    { "source": "ucdavis-vgl", "label": "UC Davis VGL: Appaloosa Pattern-1 (PATN1)", "url": "https://vgl.ucdavis.edu/test/appaloosa-pattern-1", "verified": false },
+    { "source": "pubmed", "label": "PMID 26568529: Holl et al. 2016, variant in RFWD3 associated with PATN1 (Animal Genetics)", "url": "https://pubmed.ncbi.nlm.nih.gov/26568529/", "verified": false },
+    { "source": "ucdavis-vgl", "label": "UC Davis VGL: Bellone research page", "url": "https://vgl.ucdavis.edu/research/bellone", "verified": false },
+    { "source": "ucdavis-vgl", "label": "UC Davis VGL: Leopard Complex, Congenital Stationary Night Blindness, and Uveitis", "url": "https://vgl.ucdavis.edu/test/leopard-complex", "verified": false }
   ]
 }

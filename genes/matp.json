@@ -1,5 +1,5 @@
 {
-  "format": 1,
+  "format": 2,
   "id": "matp",
   "species": "horse",
   "name": "MATP (cream / pearl)",
@@ -9,11 +9,11 @@
   "inheritance": "autosomal",
   "affects_coat": true,
   "alleles": [
-    { "id": "Cr", "name": "Cream", "wild_type": false },
-    { "id": "prl", "name": "Pearl", "wild_type": false },
-    { "id": "sun", "name": "Sunshine", "wild_type": false },
-    { "id": "sno", "name": "Snowdrop", "wild_type": false },
-    { "id": "N", "name": "Wild-type", "wild_type": true }
+    { "id": "Cr", "name": "Cream", "wild_type": false, "quality": "unverified" },
+    { "id": "prl", "name": "Pearl", "wild_type": false, "quality": "unverified" },
+    { "id": "sun", "name": "Sunshine", "wild_type": false, "quality": "unverified" },
+    { "id": "sno", "name": "Snowdrop", "wild_type": false, "quality": "unverified" },
+    { "id": "N", "name": "Wild-type", "wild_type": true, "quality": "unverified" }
   ],
   "phenotypes": [
     { "id": "wild", "name": "Wild type", "description": "No dilution.", "changes_coat": false },
@@ -65,10 +65,10 @@
     }
   ],
   "citations": [
-    { "source": "ucdavis-vgl", "label": "UC Davis, cream", "url": "https://vgl.ucdavis.edu/test/cream" },
-    { "source": "ucdavis-vgl", "label": "UC Davis, pearl", "url": "https://vgl.ucdavis.edu/test/pearl" },
-    { "source": "paper", "label": "Anim. Genet. 10.1111/age.12790", "url": "https://onlinelibrary.wiley.com/doi/full/10.1111/age.12790" },
-    { "source": "other", "label": "bioRxiv 851246", "url": "https://www.biorxiv.org/content/10.1101/851246v1" },
-    { "source": "pubmed", "label": "PMC9498372", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9498372/" }
+    { "source": "ucdavis-vgl", "label": "UC Davis, cream", "url": "https://vgl.ucdavis.edu/test/cream", "verified": false },
+    { "source": "ucdavis-vgl", "label": "UC Davis, pearl", "url": "https://vgl.ucdavis.edu/test/pearl", "verified": false },
+    { "source": "paper", "label": "Anim. Genet. 10.1111/age.12790", "url": "https://onlinelibrary.wiley.com/doi/full/10.1111/age.12790", "verified": false },
+    { "source": "other", "label": "bioRxiv 851246", "url": "https://www.biorxiv.org/content/10.1101/851246v1", "verified": false },
+    { "source": "pubmed", "label": "PMC9498372", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9498372/", "verified": false }
   ]
 }

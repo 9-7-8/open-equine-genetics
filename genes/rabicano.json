@@ -1,5 +1,5 @@
 {
-  "format": 1,
+  "format": 2,
   "id": "rabicano",
   "species": "horse",
   "name": "Rabicano",
@@ -9,8 +9,8 @@
   "inheritance": "autosomal",
   "affects_coat": true,
   "alleles": [
-    { "id": "Rb", "name": "Rabicano", "wild_type": false },
-    { "id": "rb", "name": "Wild-type", "wild_type": true }
+    { "id": "Rb", "name": "Rabicano", "wild_type": false, "quality": "abstracted" },
+    { "id": "rb", "name": "Wild-type", "wild_type": true, "quality": "abstracted" }
   ],
   "phenotypes": [
     { "id": "wild", "name": "Wild type", "description": "No white ticking.", "changes_coat": false },
@@ -34,7 +34,7 @@
     }
   ],
   "citations": [
-    { "source": "other", "label": "AQHA", "url": "https://www.aqha.com/-/five-major-variations-in-horse-color" },
-    { "source": "other", "label": "eScholarship 95w0q51r", "url": "https://escholarship.org/uc/item/95w0q51r" }
+    { "source": "other", "label": "AQHA", "url": "https://www.aqha.com/-/five-major-variations-in-horse-color", "verified": false },
+    { "source": "other", "label": "eScholarship 95w0q51r", "url": "https://escholarship.org/uc/item/95w0q51r", "verified": false }
   ]
 }

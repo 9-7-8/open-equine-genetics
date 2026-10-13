@@ -1,5 +1,5 @@
 {
-  "format": 1,
+  "format": 2,
   "id": "grey",
   "species": "horse",
   "name": "Grey",
@@ -10,9 +10,9 @@
   "inheritance": "autosomal",
   "affects_coat": true,
   "alleles": [
-    { "id": "G3", "name": "Fast grey, three copies of the sequence", "wild_type": false },
-    { "id": "G2", "name": "Slow grey, two copies of the sequence", "wild_type": false },
-    { "id": "N", "name": "Wild-type (G1)", "wild_type": true }
+    { "id": "G3", "name": "Fast grey, three copies of the sequence", "wild_type": false, "quality": "unverified" },
+    { "id": "G2", "name": "Slow grey, two copies of the sequence", "wild_type": false, "quality": "unverified" },
+    { "id": "N", "name": "Wild-type (G1)", "wild_type": true, "quality": "unverified" }
   ],
   "phenotypes": [
     { "id": "wild", "name": "Wild type", "description": "The coat keeps its colour for life.", "changes_coat": false },
@@ -59,13 +59,13 @@
     }
   ],
   "citations": [
-    { "source": "ucdavis-vgl", "label": "UC Davis VGL: Gray Copy Number", "url": "https://vgl.ucdavis.edu/test/gray_copy_number" },
-    { "source": "ucdavis-vgl", "label": "UC Davis VGL: Gray Presence/Absence", "url": "https://vgl.ucdavis.edu/test/gray_presence_absence" },
-    { "source": "ucdavis-vgl", "label": "UC Davis VGL: New study identifies distinct gray alleles", "url": "https://vgl.ucdavis.edu/news/new-study-identifies-distinct-gray-alleles-contributing-difference-rate-depigmentation" },
-    { "source": "ucdavis-vgl", "label": "UC Davis VGL: Equine Coat Color Genetics", "url": "https://vgl.ucdavis.edu/resources/horse-coat-color" },
-    { "source": "paper", "label": "An intronic copy number variation in Syntaxin 17 determines speed of greying and melanoma susceptibility in horses (Nature Communications, 2024)", "url": "https://www.nature.com/articles/s41467-024-51898-2" },
-    { "source": "pubmed", "label": "PMC3443021: Copy number expansion of the STX17 duplication in melanoma", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3443021/" },
-    { "source": "pubmed", "label": "PMC3567150: Complex Inheritance of Melanoma and Pigmentation", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3567150/" },
-    { "source": "omia", "label": "OMIA 001356-9796: Coat colour, grey", "url": "https://omia.org/OMIA001356/9796/" }
+    { "source": "ucdavis-vgl", "label": "UC Davis VGL: Gray Copy Number", "url": "https://vgl.ucdavis.edu/test/gray_copy_number", "verified": false },
+    { "source": "ucdavis-vgl", "label": "UC Davis VGL: Gray Presence/Absence", "url": "https://vgl.ucdavis.edu/test/gray_presence_absence", "verified": false },
+    { "source": "ucdavis-vgl", "label": "UC Davis VGL: New study identifies distinct gray alleles", "url": "https://vgl.ucdavis.edu/news/new-study-identifies-distinct-gray-alleles-contributing-difference-rate-depigmentation", "verified": false },
+    { "source": "ucdavis-vgl", "label": "UC Davis VGL: Equine Coat Color Genetics", "url": "https://vgl.ucdavis.edu/resources/horse-coat-color", "verified": false },
+    { "source": "paper", "label": "An intronic copy number variation in Syntaxin 17 determines speed of greying and melanoma susceptibility in horses (Nature Communications, 2024)", "url": "https://www.nature.com/articles/s41467-024-51898-2", "verified": false },
+    { "source": "pubmed", "label": "PMC3443021: Copy number expansion of the STX17 duplication in melanoma", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3443021/", "verified": false },
+    { "source": "pubmed", "label": "PMC3567150: Complex Inheritance of Melanoma and Pigmentation", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3567150/", "verified": false },
+    { "source": "omia", "label": "OMIA 001356-9796: Coat colour, grey", "url": "https://omia.org/OMIA001356/9796/", "verified": false }
   ]
 }

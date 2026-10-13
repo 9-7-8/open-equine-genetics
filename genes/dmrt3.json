@@ -1,5 +1,5 @@
 {
-  "format": 1,
+  "format": 2,
   "id": "dmrt3",
   "species": "horse",
   "name": "DMRT3 (gait)",
@@ -9,8 +9,8 @@
   "inheritance": "autosomal",
   "affects_coat": false,
   "alleles": [
-    { "id": "A", "name": "Gait", "wild_type": false },
-    { "id": "C", "name": "Wild-type", "wild_type": true }
+    { "id": "A", "name": "Gait", "wild_type": false, "quality": "unverified" },
+    { "id": "C", "name": "Wild-type", "wild_type": true, "quality": "unverified" }
   ],
   "phenotypes": [
     { "id": "dmrt3-gaited", "name": "Gaited", "description": "Two gait copies. The horse can amble and pace, and has the smoothest four-beat gaits, at some cost to its trot and canter. (The gait is not animated yet.)", "changes_coat": false },
@@ -34,6 +34,6 @@
     }
   ],
   "citations": [
-    { "source": "paper", "label": "Andersson et al. (2012)", "url": "https://www.nature.com/articles/nature11399" }
+    { "source": "paper", "label": "Andersson et al. (2012)", "url": "https://www.nature.com/articles/nature11399", "verified": false }
   ]
 }
