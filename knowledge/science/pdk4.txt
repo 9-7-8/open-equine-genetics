@@ -1,6 +1,174 @@
 PDK4 - science notes
+(The owner's research notes, filed 2026-10-12. The bracketed markers point to the sources listed at the end, which are named there
+without addresses.
+No source was opened by the session that filed this. genes/pdk4.json was changed to match
+on the owner's word the same day; what is left over is in knowledge/known-issues.txt.
+Not yet audited.)
+
+PDK4 (pyruvate dehydrogenase kinase 4) is a metabolic-performance gene in horses, not a coat-color locus. It encodes a mitochondrial kinase that helps regulate whether cells burn glucose or fatty acids, and equine research has examined PDK4 variants mainly in relation to exercise metabolism and racing performance—not red/black pigment.
+
+Gene and locus
+--------------
+
+PDK4 belongs to the PDK/BCKDK kinase family. Its protein product is located in the mitochondrial matrix, where it phosphorylates and inhibits the pyruvate dehydrogenase complex (PDC). [web:1]
+
+Inhibition of PDC reduces conversion of pyruvate into acetyl-CoA, thereby decreasing glucose oxidation through the tricarboxylic-acid cycle and favoring fatty-acid oxidation. This makes PDK4 especially relevant to endurance, fasting adaptation, and skeletal-muscle fuel selection. [web:7]
+
+In the horse, published equine studies place PDK4 on equine chromosome 4 (ECA4), although at least one Quarter Horse racing-line study describes the gene as mapped to ECA22. This discrepancy should be treated as a mapping/reporting inconsistency rather than evidence of two independent horse PDK4 loci; the functional gene is a single PDK4 ortholog. [web:11][web:18]
+
+Item | Established interpretation
+Gene symbol | PDK4 [web:1]
+Protein | Pyruvate dehydrogenase kinase 4 [web:1]
+Primary role | Phosphorylates/inhibits pyruvate dehydrogenase, shifting metabolism away from glucose oxidation and toward fatty-acid oxidation. [web:7]
+Equine chromosome | ECA4 in at least one equine polymorphism study; another racing-line paper reports ECA22. [web:18][web:11]
+Coat-color role | None established. [web:17]
+Commercial UC Davis coat-color test | No. UC Davis’s horse test catalog focuses on established color, pattern, health, and parentage markers; PDK4 is not presented as a coat-color test. [web:13][web:16]
+
+What PDK4 actually controls
+---------------------------
+
+PDK4 is a metabolic switch. When PDK4 activity is higher, pyruvate dehydrogenase is more inhibited, so less pyruvate enters aerobic glucose metabolism as acetyl-CoA; the cell relies more heavily on beta-oxidation of fatty acids. [web:7][web:18]
+
+This matters in equine skeletal muscle because fatty-acid oxidation is an efficient ATP-generating pathway during sustained exercise. Equine PDK4 expression has been studied in Thoroughbred skeletal muscle after moderate- and high-intensity sprint exercise, indicating that its regulation is exercise-responsive. [web:12]
+
+In practical terms, PDK4 is best understood as part of the horse’s fuel-use and exercise-metabolism machinery, not as a gene that “makes” a horse fast by itself.
+
+Known and reported equine alleles
+---------------------------------
+
+The best-documented horse PDK4 variant in the accessible literature is a single-nucleotide polymorphism reported as g.38973231A>G on ECA4. It has been genotyped as alleles A and G, producing AA, AG, and GG genotypes. [web:18]
+
+Genotype | Status | Interpretation
+AA | Reported | Common genotype reported in Quarter Horses; the A allele was more frequent in Quarter Horses than Arabians in one study. [web:18]
+AG | Reported | Heterozygous genotype observed in both Arabian and Quarter Horse samples. [web:18]
+GG | Reported | The G allele was more frequent in Arabians than Quarter Horses in one study. It has been proposed to reduce PDC formation/function and thereby favor fatty-acid beta-oxidation. [web:18]
+
+Important caution
+.................
+
+These are association-study variants, not validated, causative “speed alleles.” A SNP may be linked to a performance trait because it affects metabolism directly, because it tags another nearby causal variant, or because breed structure and selection create a statistical association. The available evidence does not establish a simple Mendelian inheritance rule or a reliable genotype-to-race-result prediction.
+
+Speed, muscle, and performance
+------------------------------
+
+PDK4 is plausibly relevant to stamina and fuel partitioning because of its role in glucose-versus-fat oxidation. [web:7][web:18]
+
+However, the evidence for a direct effect on racing speed is limited and mixed:
+
+- A Quarter Horse study compared PDK4 and COX4I2 variants between racing and cutting lines and examined associations with speed index. [web:11]
+- A separate Arabian/Quarter Horse study found breed-level allele-frequency differences and proposed a metabolic mechanism involving fatty-acid oxidation. [web:18]
+- Neither result establishes that PDK4 genotype determines sprint speed, endurance, or racing success.
+
+For a breeding simulator, model PDK4 as a polygenic or minor-effect performance modifier, not a deterministic speed gene.
+
+Coat color: red and black pigment
+---------------------------------
+
+PDK4 does not have an established role in equine red or black pigment.
+
+Horse base coat color is governed primarily by MC1R/Extension and ASIP/Agouti:
+
+- MC1R determines whether eumelanin, the black/brown pigment, can be produced. The recessive e alleles produce red-based chestnut coloring. [web:17]
+- ASIP controls the distribution of black pigment. The dominant A allele restricts black to points, producing bay; recessive a permits black across the body. [web:17]
+- Other loci such as cream, champagne, dun, and mushroom modify pigment expression or distribution, but PDK4 is not among UC Davis’s listed base-color or dilution loci. [web:17]
+
+Therefore, a PDK4 AA, AG, or GG horse may be chestnut, bay, black, palomino, buckskin, gray, or any other color depending on its actual pigment genotype. PDK4 genotype should not be used to predict mane, tail, body, skin, or hoof pigment.
+
+What PDK4 does not affect
+-------------------------
+
+There is no robust evidence that PDK4 determines any of the following:
+
+Trait | Evidence for PDK4 effect
+Red versus black base pigment | None; base pigment is MC1R/ASIP biology. [web:17]
+Mane or tail color | None established. [web:17]
+Height | No established equine association.
+Bone structure | No established equine association.
+Hoof shape or hoof quality | No established equine association.
+Feathering | No established equine association.
+Muscle mass or conformation | No established direct association; possible indirect metabolic relevance only. [web:7][web:18]
+Speed | Plausible but unproven as a direct causal effect; studied as a performance-associated candidate gene. [web:11][web:18]
+Coat pattern or white markings | None established. [web:16][web:17]
+
+Breeds where variants have been studied
+---------------------------------------
+
+Published equine PDK4 allele-frequency work has focused especially on:
+
+- Arabians, which showed a higher frequency of the G allele than Quarter Horses in one study. [web:18]
+- Quarter Horses, which showed a higher frequency of the A allele and more AG genotypes in that study. [web:18]
+- Thoroughbreds, where PDK4 skeletal-muscle expression has been examined in exercise studies. [web:12]
+- Quarter Horse racing and cutting lines, where PDK4 sequence variation was compared in relation to speed index. [web:11]
+
+That does not mean PDK4 variants are breed-exclusive. Arabians, Quarter Horses, and Thoroughbreds are simply the breeds represented in the accessible candidate-gene literature.
+
+Speculation, controversy, and open questions
+--------------------------------------------
+
+What is reasonably established
+..............................
+
+- PDK4 regulates pyruvate dehydrogenase and therefore glucose/fatty-acid metabolism. [web:1][web:7]
+- Equine PDK4 has at least one commonly studied SNP with A and G alleles. [web:18]
+- Allele frequencies differ between Arabian and Quarter Horse samples in the cited study. [web:18]
+- PDK4 expression responds to exercise in Thoroughbred skeletal muscle. [web:12]
+
+What remains speculative
+........................
+
+- That the g.38973231A>G variant directly causes meaningful differences in racing speed.
+- That GG horses are consistently more endurance-oriented or AA horses consistently more sprint-oriented.
+- That PDK4 variants have useful predictive value outside the populations and environmental/training conditions in which they were studied.
+- That additional functional PDK4 alleles exist in horses. They may, but they have not been established as validated coat, conformation, or performance alleles.
+
+Why claims should be treated carefully
+......................................
+
+Candidate-gene studies in athletic breeds are vulnerable to population stratification: breeds differ in many genes, training systems, selection histories, and race formats. A difference in allele frequency between Arabians and Quarter Horses does not prove that the allele causes the breeds’ different performance profiles. [web:18]
+
+Future science
+--------------
+
+Useful next steps would include:
+
+- Independent replication of the ECA4 PDK4 SNP in large, well-phenotyped cohorts.
+- Whole-genome sequencing to identify all equine PDK4 coding, regulatory, and splice variants.
+- Functional work measuring PDK4 protein activity, PDC inhibition, and muscle fiber fuel use by genotype.
+- Genome-wide association studies that account for breed structure, sex, age, training, and race distance.
+- Clear separation of metabolic traits, such as fat oxidation and recovery, from race outcomes such as speed index or earnings.
+
+Simulator design recommendation
+-------------------------------
+
+For an equine-genetics game, do not implement PDK4 as a color allele.
+
+A defensible model would be:
+
+Field | Suggested implementation
+Locus type | Metabolic/performance modifier
+Alleles | A and G, with AA/AG/GG genotypes
+Phenotype | Small, probabilistic modifier to stamina, aerobic efficiency, or fat oxidation
+Inheritance | Simple autosomal codominant/additive model, if desired
+Coat effect | None
+Speed effect | Optional minor modifier; not deterministic
+Breed frequency | Arabian skew toward G; Quarter Horse skew toward A, based on the cited association study rather than as a universal rule. [web:18]
+
+Sources
+-------
+
+- NCBI Gene: PDK4 pyruvate dehydrogenase kinase 4. [web:1]
+- UniProt / Human Protein Atlas functional summary of PDK4’s role in glucose and fatty-acid metabolism. [web:5][web:7]
+- Equine study comparing PDK4 and COX4I2 variants in Quarter Horse racing and cutting lines. [web:11]
+- NCBI equine PDK4 record and Thoroughbred skeletal-muscle exercise-expression reference. [web:12]
+- UC Davis Veterinary Genetics Laboratory horse DNA-test catalog and equine coat-color genetics resource. [web:13][web:16][web:17]
+- Equine polymorphism study reporting the PDK4 g.38973231A>G SNP and Arabian versus Quarter Horse allele frequencies. [web:18]
+
+
+EARLIER NOTES, FROM THE MOD'S WIKI
+==================================
 (Copied 2026-10-12 from the Science tab of the Procedural Horse Coats wiki page for this gene.
-Written for that project: it may mention how a game models the gene. Not yet audited.)
+Written for that project: they say how a game models the gene. Where they disagree with
+the research notes above, the notes above stand.)
 
 Why one gene and not a marker set
 ---------------------------------

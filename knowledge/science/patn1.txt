@@ -1,0 +1,138 @@
+PATN1 (RFWD3) - science notes
+(The owner's research notes, filed 2026-10-12. The bracketed markers point to the sources listed at the end, with their addresses.
+No source was opened by the session that filed this. genes/patn1.json was changed to match
+on the owner's word the same day; what is left over is in knowledge/known-issues.txt.
+Not yet audited.)
+
+PATN1 (Pattern-1) is the first well-established major modifier of the Leopard Complex (LP) in horses. It is associated with a variant in RFWD3 (RING Finger and WD Repeat Domain 3) and substantially increases the amount of white in horses that also carry at least one copy of LP (TRPM1). UC Davis describes PATN1 as a modifier that “controls the amount of white in the coat pattern.” [29][30]
+
+Locus and variant
+-----------------
+
+- Trait name: Appaloosa Pattern-1, abbreviated PATN1. [29]
+- Candidate gene: RFWD3, on equine chromosome 3 (ECA3p). [27][28]
+- Associated variant: ECA3:23,658,447 T>G, located in the 3′ untranslated region (3′ UTR) of RFWD3. [27]
+- Discovery: linkage and fine-mapping studies identified the variant at extremely strong association with high-white LP patterning; no PATN1-specific coding mutation was found in RFWD3. [27]
+- Inheritance: autosomal dominant in its visible effect on LP horses—one copy is generally sufficient to increase white coverage. [29][36]
+
+Alleles
+-------
+
+PATN1 genotype | Meaning | Effect without LP | Effect with N/LP | Effect with LP/LP
+N/N | No PATN1 variant | No PATN1-driven white increase | Usually less white than a PATN1 carrier; pattern may be blanket, varnish, or minimal | Usually less white than a PATN1 carrier; may retain more pigmented spots [29][30]
+N/PATN1 | One copy of PATN1 | No visible leopard-complex pattern; can transmit PATN1 | Often leopard or near-leopard | Often few-spot or near few-spot [29][36]
+PATN1/PATN1 | Two copies of PATN1 | No visible leopard-complex pattern; transmits PATN1 to every foal | Often extensive white, commonly leopard or near-leopard | Often few-spot or near few-spot [32][36]
+
+PATN1 does not create LP spotting by itself. A horse can carry PATN1 and appear solid because the white-increasing effect requires the LP allele. [29][36]
+
+Relationship to TRPM1/LP
+------------------------
+
+TRPM1/LP determines whether a horse has Leopard Complex spotting and whether it can be affected by CSNB. PATN1 determines how much white is likely to be expressed when LP is present. [29][30]
+
+- LP without PATN1: can still show LP traits, but the white area is often smaller or more variable.
+- N/LP + PATN1: often produces a leopard or near-leopard pattern—large white coverage with pigmented spots. [29]
+- LP/LP + PATN1: often produces few-spot or near few-spot—very extensive white with few pigmented spots. [29]
+- PATN1 alone: no visible LP pattern, but the allele can be hidden and passed to offspring. [36]
+
+Effect on red and black pigment
+-------------------------------
+
+PATN1 does not determine whether pigment is red or black. It modifies the extent of white created by LP, while the horse’s base-color genes determine the color of any remaining pigmented areas. [29][30]
+
+- A chestnut N/LP PATN1 horse may be a red-based leopard: white body with red/chestnut spots.
+- A bay or black N/LP PATN1 horse may be a black-based leopard: white body with black or bay-derived pigmented spots.
+- A LP/LP PATN1 horse may be nearly white, with few spots; the concealed base color can still be red-based or black-based.
+
+For simulation purposes, treat base color, LP/TRPM1, and PATN1/RFWD3 as separate layers: base color sets pigment hue; LP enables leopard-complex white patterning; PATN1 increases expected white coverage.
+
+Visible patterns
+----------------
+
+PATN1 is most associated with large white coverage, but it does not guarantee one exact phenotype. UC Davis gives the following typical expectations:
+
+LP genotype | PATN1 status | Common outcome
+N/LP | PATN1 present | Leopard or near-leopard [29]
+LP/LP | PATN1 present | Few-spot or near few-spot [29]
+N/LP or LP/LP | PATN1 absent | More variable white coverage; may be blanket, varnish roan, or lightly marked [29][30]
+
+Other LP-associated traits—mottled skin, striped hooves, white sclera, and progressive roaning—come from the LP background rather than PATN1 itself. [13][29]
+
+Health effects
+--------------
+
+There is no evidence that PATN1 directly causes congenital stationary night blindness. CSNB requires two copies of LP (TRPM1), not PATN1. [13][20][29]
+
+However, PATN1 is relevant to breeding-risk discussions because it is associated with high-white LP phenotypes, and LP/LP horses have elevated risk of equine recurrent uveitis. UC Davis currently identifies testing for the LP locus as the recommended genetic test for insidious uveitis risk in Appaloosas and closely related breeds; PATN1 is not presented as a standalone uveitis-risk test. [13][31]
+
+Older risk estimates reported a high probability of uveitis in horses homozygous for both LP and PATN1, but that work showed association rather than proving PATN1 as a direct cause. [33]
+
+What PATN1 does not affect
+--------------------------
+
+PATN1 is not established as a direct influence on:
+
+- Height or body size.
+- Speed, gait, or athletic performance.
+- Muscle mass, muscle type, or strength.
+- Bone structure, joint conformation, or skeletal development.
+- Hoof shape, hoof color, or hoof quality.
+- Feathering.
+- Mane or tail color, except that white-patterned regions may include mane or tail hair.
+- Red-versus-black base pigment.
+
+Its established role is limited to modifying the quantity of white in horses that carry LP. [27][29][30]
+
+Breeds where it is found
+------------------------
+
+PATN1 has been identified in several LP-carrying breeds and populations, including:
+
+- Appaloosa
+- British Spotted Pony
+- Knabstrupper
+- Miniature Horse
+- Pony of the Americas
+- Other spotted breeds and Appaloosa-derived populations [29][35][37]
+
+Because PATN1 can be carried silently by solid horses, it may persist in breeds or lines where LP is rare or absent. [36]
+
+Established facts vs. speculation
+---------------------------------
+
+Topic | Status
+PATN1 is associated with RFWD3 | Established: the ECA3:23,658,447 T>G 3′-UTR variant is strongly associated with PATN1. [27]
+PATN1 increases white in LP horses | Established: UC Davis and the original association study support this role. [27][29]
+One PATN1 copy is enough for a large-white effect | Well supported: PATN1 behaves dominantly in combination with LP. [29][36]
+PATN1 causes leopard spots without LP | Not established: PATN1 has no visible LP effect without LP. [29][36]
+PATN1 causes CSNB | Not established: CSNB requires LP/LP. [13][20][29]
+PATN1 directly causes uveitis | Not established: it may mark high-risk LP backgrounds, but causation has not been shown. [31][33]
+PATN1 fully predicts the exact pattern | Not established: additional modifiers and developmental variation remain likely. [27][30]
+PATN1 affects height, speed, muscle, bone, hooves, feathering, or mane/tail color | Not established as direct effects. [27][29][30]
+
+Future science
+--------------
+
+The major open question is the mechanism: the associated variant lies in the RFWD3 3′ UTR rather than in the protein-coding sequence, so researchers have not identified a PATN1-specific coding mutation. This leaves open questions about how the variant alters RFWD3 expression or regulation and how that translates into expanded melanocyte-free white areas. [27]
+
+Additional likely directions include:
+
+- Identifying further pattern modifiers beyond PATN1.
+- Explaining why some N/LP PATN1 horses are not full leopards.
+- Separating the effects of LP dosage, PATN1 dosage, and unknown modifiers on white coverage.
+- Clarifying whether PATN1 has any independent health relevance or is only a marker linked to high-white LP lines. [27][30][31]
+
+For a breeding simulator, use PATN1 as a dominant white-coverage modifier, but keep its effect probabilistic and conditional on at least one LP allele.
+
+References
+----------
+
+- UC Davis VGL, “Appaloosa Pattern-1 (PATN1)”: https://vgl.ucdavis.edu/test/appaloosa-pattern-1 [29]
+- UC Davis VGL, Rebecca Bellone research page: https://vgl.ucdavis.edu/research/bellone [30]
+- Holl et al., “Variant in the RFWD3 gene associated with PATN1, a modifier of leopard complex spotting,” Animal Genetics (2016): https://pubmed.ncbi.nlm.nih.gov/26568529/ [27]
+- UC Davis VGL, “Leopard Complex, Congenital Stationary Night Blindness, and Uveitis”: https://vgl.ucdavis.edu/test/leopard-complex [13]
+- UC Davis Center for Equine Health, “Congenital Stationary Night Blindness”: https://ceh.vetmed.ucdavis.edu/health-topics/congenital-stationary-night-blindness-csnb [20]
+
+
+(The mod's wiki has no page of its own for this locus; what it says about PATN1 is in
+knowledge/science/leopard.txt.)

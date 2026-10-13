@@ -1,6 +1,207 @@
 Brindle (MBTPS2) - science notes
+(The owner's research notes, filed 2026-10-12. The bracketed markers ([web:1]) point to the sources that research used; the list of
+those sources was not supplied with the document, so no address can be given here.
+No source was opened by the session that filed this. genes/brindle.json was changed to match
+on the owner's word the same day; what is left over is in knowledge/known-issues.txt.
+Not yet audited.)
+
+Overview
+--------
+
+BR1 is an X-linked horse hair-coat trait associated with a splice-altering variant in MBTPS2. Its defining feature is irregular striping in hair texture, sometimes accompanied by conspicuous differences in pigmentation. The classic striped phenotype occurs in heterozygous females; males carrying the variant and females with two copies are described as having sparse manes and tails without the classic striped texture. It is not a universal genetic explanation for every horse called brindle. [web:2]
+
+MBTPS2 stands for membrane-bound transcription factor peptidase, site 2. The gene is on the X chromosome and encodes a zinc metalloprotease involved in processing proteins that regulate lipid metabolism. Its established equine coat association is BR1, rather than a conventional red-versus-black base-color allele series. [web:1][web:3]
+
+1. Locus and molecular variant
+------------------------------
+
+Feature | Established description
+Gene | MBTPS2
+Chromosome | X
+Trait name | Brindle 1; BR1; brindle coat texture
+Laboratory allele labels | N = normal/non-BR1; BR1 = the tested brindle variant
+Inheritance | X-linked semidominant; also described as X-linked incomplete dominant
+Original variant notation | c.1437+4T>C, referenced to XM_005614038.2
+Updated transcript notation | XM_023634090.1:c.1340+4T>C
+EquCab3.0 genomic notation | NC_009175.3:g.17286855T>C
+dbSNP identifier reported by OMIA | rs3434246715
+
+These details come from UC Davis VGL, the discovery paper, and OMIA. The original and updated coding-coordinate descriptions refer to the same reported variant, not two different brindle alleles. Coordinates depend on the reference transcript or genome assembly. [web:1][web:2][web:3]
+
+The mutation lies in an intron, near a splice boundary, rather than directly replacing an amino acid in a coding exon. Researchers found an abnormal RNA transcript missing 96 nucleotides: all of exon 10 and the first 20 nucleotides of exon 11 under the original transcript annotation. This predicts an in-frame deletion of 32 amino acids, reported as p.422_453del. [web:1]
+
+In the skin samples from one heterozygous mare, the abnormal transcript represented approximately 20% of measured transcripts: 23% in a visibly affected area and 19% in an apparently unaffected area. These values are measurements from that animal, not a universal dosage rule for all BR1 horses. The authors explicitly cautioned that the significance of the difference between skin areas was unclear. [web:1]
+
+2. Known alleles—and what the names do not mean
+-----------------------------------------------
+
+The practical, tested allele system is N versus BR1. N means absence of the tested BR1 variant; it does not certify that every other position in MBTPS2 is identical or that a horse cannot have a different cause of brindle-like markings. [web:2]
+
+The reviewed UC Davis and OMIA resources identify one equine MBTPS2 brindle variant. They do not establish a validated MBTPS2 series of BR2, BR3, stronger brindle, weaker brindle, or recessive pigment-only brindle alleles. The numeral in BR1 distinguishes this particular form of brindle; it is not evidence that additional numbered MBTPS2 alleles have been discovered. [web:1][web:2][web:3]
+
+Additional functional MBTPS2 variants in horses are biologically possible, but an individual striped horse, an unusual photograph, or a BR1-negative result would not by itself prove their existence. Different causes of brindle-like appearances must first be distinguished. The discovery paper specifically notes that “brindle” has been applied to genetically different phenotypes, including chimeras. [web:1]
+
+3. Genotypes and inheritance
+----------------------------
+
+Sex | Genotype | Expected expression | Transmission of BR1
+Female | N/N | No BR1-associated phenotype | None
+Female | BR1/N | Classic striped coat texture; pigmentation differences may accompany it | 50% of offspring, independently of sex
+Female | BR1/BR1 | Sparse mane and tail; no classic striped coat texture | All offspring
+Male | N/Y | No BR1-associated phenotype | None
+Male | BR1/Y | Sparse mane and tail; no classic striped coat texture | All daughters; no sons
+
+Phenotype expectations follow UC Davis. The male notation explicitly includes Y to clarify X-linked transmission; laboratories may report simply N or BR1 for males. [web:2]
+
+Important correction to the UC Davis result wording
+...................................................
+
+UC Davis's results section says a BR1 male transmits the variant to “all of their offspring.” Read literally, that conflicts with ordinary X-linked inheritance and with the discovery pedigree. A sire passes his X chromosome to daughters and his Y to sons. Therefore, a BR1 sire passes this variant to all daughters and no sons. The discovery paper observed affected daughters and normal sons when a variant-bearing stallion was bred to normal mares. [web:1][web:2]
+
+Representative crosses
+......................
+
+The following outcomes are Mendelian deductions from the documented X-linked system. Percentages within daughters or sons are conditional on offspring sex, not percentages of all foals. [web:1][web:2]
+
+Cross | Daughters | Sons
+BR1/N mare × N/Y stallion | 50% BR1/N; 50% N/N | 50% BR1/Y; 50% N/Y
+N/N mare × BR1/Y stallion | 100% BR1/N | 100% N/Y
+BR1/N mare × BR1/Y stallion | 50% BR1/BR1; 50% BR1/N | 50% BR1/Y; 50% N/Y
+BR1/BR1 mare × N/Y stallion | 100% BR1/N | 100% BR1/Y
+
+There is no established BR1 homozygous-lethal rule in these sources. UC Davis describes a phenotype for BR1/BR1 females, although the original study's genotyped family contained no homozygous mutant females. Thus the discovery evidence for males and heterozygous mares was more direct than its evidence for homozygous mares. [web:1][web:2]
+
+4. Why one-copy mares stripe but one-copy males do not
+------------------------------------------------------
+
+The proposed explanation is X-chromosome inactivation. In a heterozygous female, different skin-cell populations predominantly express different X chromosomes. Regions expressing the normal allele and regions expressing the variant can therefore develop different hair characteristics. Their arrangement follows developmental skin patterns called the lines of Blaschko, producing irregular streaks rather than a uniformly altered coat. [web:1]
+
+A male with BR1 has no second, normal X chromosome to generate the same alternating normal-versus-variant pattern. A BR1/BR1 female likewise lacks the normal allele. This explains the predicted loss of classic striping in those genotypes without treating them as unaffected. Sparse mane and tail are the principal reported expression instead. [web:1][web:2]
+
+This is functional mosaicism arising through X-inactivation within one inherited genotype. It should not be confused with a chimera containing genetically distinct cell lineages. The visible resemblance does not make these mechanisms equivalent. [web:1]
+
+5. Effects on red and black pigment
+-----------------------------------
+
+What is established
+...................
+
+BR1 can occur on any base-color background. Texture differences are central, but pigment striping can be the dominant visible feature in some mares. The discovery paper documented a horse with pronounced alternating eumelanin and pheomelanin stripes, as well as mares with subtler pigmentation differences. Eumelanin refers to black/brown pigment and pheomelanin to red/yellow pigment. [web:1][web:2]
+
+The observations mean BR1-associated striping can involve pigmentation as well as hair structure. They do not establish a simple formula such as “BR1 turns all red areas black” or “BR1 dilutes black but not red.” In sampled hairs, the study found no consistent difference in pigmentation, length, or diameter between visibly affected and unaffected areas. Hair sampling involved four mares, and skin histology involved one mare, limiting generalization. [web:1]
+
+What remains unresolved
+.......................
+
+The exact connection between altered MBTPS2 activity and local pigment production is not established. The paper supports a splice defect and a hair/skin phenotype, but it does not demonstrate a universal pigment-switching pathway or quantify the effect separately across all base-color genotypes. [web:1]
+
+For chestnut, bay, and black horses, the defensible generalization is that the underlying base color remains the background on which BR1-associated texture and possible pigment differences appear. The evidence does not justify assigning guaranteed black stripes to every chestnut or guaranteed red stripes to every black horse. [web:1][web:2]
+
+Interaction with white markings
+...............................
+
+One affected bay frame-overo mare showed fine lines of pigmented skin in regions that would normally lack pigmentation in a nonbrindle frame-overo horse. This is an interesting documented observation, not a validated universal interaction rule for all white-pattern loci. It also does not establish that BR1 consistently overrides white spotting. [web:1]
+
+6. Appearance, seasonality, mane, and tail
+------------------------------------------
+
+The stripes generally run from the back down the sides and may involve the neck, back, hindquarters, and upper legs. Hair in the affected streaks can be less straight and more unruly than adjacent hair. Expression varies substantially between horses. [web:1][web:2]
+
+Summer and winter coats can look different; winter coats may appear “moth-eaten.” Seasonal coat change can therefore alter the visibility of BR1 without changing the horse's genotype. Some horses show primarily textural striping, while others show more conspicuous pigment striping. [web:1][web:2]
+
+The established mane/tail association concerns sparseness rather than a dedicated mane/tail color change. Some affected horses have sparse mane and tail hair, and this is the characteristic reported phenotype of variant-bearing males and homozygous females. The sources do not establish a separate BR1 rule for mane/tail color, flaxen expression, or pigment dilution specifically in those hairs. [web:1][web:2]
+
+7. Effects on other parts of the horse
+--------------------------------------
+
+Trait or body system | Evidence for the equine BR1 variant
+Height or body size | No established effect reported in the reviewed BR1 sources
+Speed, endurance, or athletic ability | No established effect reported
+Muscle size or muscle disease | No established effect reported
+Bone structure or skeletal disease | No established effect reported
+Hoof shape or hoof abnormalities | Discovery study specifically reported no BR1-associated hoof abnormalities
+Teeth | Discovery study specifically reported no BR1-associated tooth abnormalities
+Leg feathering | No established BR1-specific feathering effect reported
+Body hair | Established altered texture and variable striping; subtle changes in males/homozygous females remained an open question in the discovery paper
+Mane/tail quantity | Established association with sparse hair
+Mane/tail color | No independently established color-specific effect
+Fertility or reproductive disease | No established BR1-specific effect reported
+Severe inflammatory skin disease | Not the reported defining BR1 phenotype; distinguish from incontinentia pigmenti
+
+The “no established effect” entries describe the limits of the reviewed evidence, not proof that a carefully designed study could never find a subtle association. The initial paper focused on coat phenotype, segregation, and RNA splicing rather than comprehensive performance, skeletal, or long-term health testing. [web:1][web:2][web:3]
+
+MBTPS2 has important biological functions, and human variants in the same gene can cause substantially more severe disorders. Those human findings do not establish that the specific equine BR1 splice variant causes the same syndromes. The authors suggested that the horse phenotype's relative mildness might reflect its particular variant and continued production of a high proportion of normal transcript. [web:1]
+
+8. Breeds and frequency
+-----------------------
+
+The strongest original evidence comes from a related family descended from one Quarter Horse mare, UKH22, born in 1985. Most sampled horses were registered American Quarter Horses or American Paint Horses; some were registered warmbloods. Registration in multiple breed categories should not be mistaken for independent origins of the mutation. [web:1]
+
+UC Davis lists Quarter Horse and Paint Horse as breeds appropriate for testing. OMIA documents Quarter Horse and Warmblood and notes that breed information can be incomplete. These lists serve different purposes and need not be identical. [web:2][web:3]
+
+It is most accurately described as documented in these populations, especially the original Quarter Horse/Paint-associated family—not as common throughout either breed. The discovery study found no copies in 457 unrelated control horses from 17 diverse horse and pony breeds. That supports rarity outside the investigated family but does not provide representative breed-wide allele frequencies. [web:1]
+
+9. Brindle is a description, not one universal locus
+----------------------------------------------------
+
+BR1 versus chimeric brindle
+...........................
+
+UC Davis distinguishes heritable BR1 coat texture from spontaneous brindle associated with chimerism. Consequently, a BR1-negative striped horse is not automatically a testing error, and a brindle-looking horse is not automatically an MBTPS2 carrier. A test for this variant answers a specific molecular question, not whether every possible cause of striping is present. [web:1][web:2]
+
+BR1 versus incontinentia pigmenti
+.................................
+
+The original family also segregated a separate X-linked disorder, incontinentia pigmenti, associated with IKBKG. That condition can produce streaky pigmentation together with pruritic, exudative skin lesions, later wart-like lesions and hair loss, and tooth, hoof, or ocular abnormalities. The paper explicitly distinguishes the milder BR1 phenotype from this disorder. Two heterozygous BR1 mares had their BR1 appearance obscured by concurrent incontinentia pigmenti. [web:1]
+
+Hoof defects, abnormal teeth, severe lesions, or eye abnormalities should therefore not be attributed to MBTPS2 brindle merely because an affected horse has streaks. The discovery evidence separates these conditions rather than combining them under one “brindle syndrome.” [web:1]
+
+10. Evidence strength, controversy, and unresolved science
+----------------------------------------------------------
+
+Strongly supported and used in testing
+......................................
+
+- X-linked segregation and sex-dependent expression. [web:1][web:2]
+- Association of the reported intronic MBTPS2 variant with BR1 in the original family. [web:1]
+- Experimentally verified abnormal MBTPS2 splicing in affected skin. [web:1]
+- Variable coat texture/pigmentation and seasonal appearance. [web:1][web:2]
+- Sparse mane/tail phenotype in variant-bearing males. [web:1][web:2]
+
+Important qualifications
+........................
+
+The discovery paper explicitly states that its data did not definitively prove causality. The evidence was nevertheless strong: perfect family cosegregation, absence from the control cohort, altered RNA splicing, and a gene with known skin/hair relevance. UC Davis now presents the variant as the molecular basis used for testing. These are different evidentiary levels, not necessarily a dispute between sources. [web:1][web:2]
+
+The original analysis was also limited by gaps in the reference genome and by the possibility of missed linked variants. Its RNA work used skin biopsies from one mare, and its phenotype characterization was preliminary. The extent to which the shortened protein is actually produced, correctly localized, or biologically active remained unresolved. [web:1]
+
+The authors considered two mechanisms: a stable altered protein might interfere with normal function, whereas an unstable altered protein might be degraded and leave insufficient functional MBTPS2. Neither mechanism was experimentally resolved in that study. [web:1]
+
+Most useful future research
+...........................
+
+Research directly addressing those limitations would include:
+
+1. Protein-expression, localization, and activity studies to distinguish reduced function from interference by the altered protein.
+2. Larger, standardized studies of hair shape, pigment quantity, skin histology, and seasonal changes.
+3. More direct study of homozygous females and subtle body-coat changes in variant-bearing males.
+4. X-inactivation mapping in affected and unaffected skin to test the proposed regional mechanism.
+5. Representative population screening to establish breed frequencies and identify unrelated carriers.
+6. Sequencing of unexplained BR1-negative brindle phenotypes to distinguish additional MBTPS2 variants from different genes or noninherited cellular mechanisms.
+
+These are research directions motivated by the documented evidence gaps, not claims that new alleles or additional body effects already exist. [web:1][web:3]
+
+11. Practical interpretation
+----------------------------
+
+A BR1 result should be read together with sex, genotype, and phenotype. A positive male need not show stripes, and a strongly striped mare need not show equally strong pigment differences in every season. Absence of the tested variant does not exclude a different cause of brindle-like appearance. Most importantly, BR1 is a specific hair/skin phenotype with possible pigment involvement, not an established height, performance, skeletal, or feathering modifier. [web:1][web:2]
+
+
+EARLIER NOTES, FROM THE MOD'S WIKI
+==================================
 (Copied 2026-10-12 from the Science tab of the Procedural Horse Coats wiki page for this gene.
-Written for that project: it may mention how a game models the gene. Not yet audited.)
+Written for that project: they say how a game models the gene. Where they disagree with
+the research notes above, the notes above stand.)
 
 Not modelled
 ------------

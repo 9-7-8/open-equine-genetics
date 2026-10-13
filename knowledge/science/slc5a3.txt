@@ -1,6 +1,138 @@
-SLC5A3 - science notes
+SLC5A3 (foal immunodeficiency syndrome) - science notes
+(The owner's research notes, filed 2026-10-12. The bracketed markers point to the sources listed at the end, with their addresses.
+No source was opened by the session that filed this. genes/slc5a3.json was changed to match
+on the owner's word the same day; what is left over is in knowledge/known-issues.txt.
+Not yet audited.)
+
+SLC5A3 is not a coat-color locus in horses. It is best known in the horse as the gene containing the mutation that causes Foal Immunodeficiency Syndrome (FIS), a fatal autosomal-recessive immune and blood disorder primarily associated with Fell and Dales Ponies. [25][24]
+
+Locus overview
+--------------
+
+Item | Established information
+Gene symbol | SLC5A3
+Protein | Sodium/myo-inositol cotransporter, also called SMIT or SMIT1
+Function | Transports myo-inositol across the cell membrane together with sodium ions; important for osmotic regulation and cellular inositol supply. [24][5]
+Horse chromosome | ECA26
+Reported critical region | Approximately 29.8–30.8 Mb on ECA26; the FIS-associated SNP was mapped at ECA26:30,660,224 in the original study. [24]
+FIS variant | c.1337G>T, producing p.P446L — proline replaced by leucine at amino-acid position 446. [25][24]
+Inheritance | Autosomal recessive. [25]
+Main affected breeds | Fell Pony and Dales Pony, including crosses. [25][31]
+UC Davis test alleles | N = normal; FIS = FIS-associated variant. [25]
+
+What SLC5A3 does
+----------------
+
+SLC5A3 encodes a membrane transporter that cotransports sodium and myo-inositol. Myo-inositol is an osmolyte and signaling-related molecule, and the transporter helps cells maintain volume and fluid balance under osmotic stress, particularly in tissues such as the nervous system, kidney, and fetoplacental unit. [5][24]
+
+In the original FIS study, the equine variant was a single-nucleotide change within the single exon of SLC5A3. It changes a highly conserved proline at position 446 to leucine, and the authors proposed that this alters transporter function. [24]
+
+Alleles in horses
+-----------------
+
+UC Davis recognizes two reportable alleles for the FIS test:
+
+Genotype | Interpretation | Breeding outcome
+N/N | No FIS variant detected. | Does not produce FIS-affected foals with any mate. [25]
+N/FIS | Carrier; clinically normal. | Can pass FIS to about 50% of foals; mating two carriers gives a 25% chance of an affected foal. [25]
+FIS/FIS | Affected. | Develops FIS, which is invariably fatal. [25]
+
+There is currently no well-established third allele at the equine SLC5A3 FIS test locus. The validated clinical test distinguishes normal from the FIS-associated variant; it is not a documented coat-color, dilution, or performance allele system. [25]
+
+Effect on red and black pigment
+-------------------------------
+
+SLC5A3 does not control red versus black pigment. The core equine pigment switches are:
+
+- MC1R / Extension (E): determines whether black pigment can be produced; recessive e/e horses are chestnut/red-based. [20][21]
+- ASIP / Agouti (A): in an E-based horse, determines whether black is restricted to points, producing bay, or distributed over the body, producing black. [20][21]
+
+Thus, a Fell or Dales Pony’s FIS genotype has no direct expected effect on whether it is chestnut, bay, black, palomino, buckskin, gray, or any other coat color. FIS is a health/immune-system locus, not a pigment locus. [25][20]
+
+Clinical effects: FIS
+---------------------
+
+Foals with FIS/FIS may look normal at birth, but within weeks develop severe, progressive anemia and immunodeficiency. They have low red blood cells and impaired B-lymphocyte function, leading to poor antibody production and vulnerability to infections such as diarrhea and pneumonia. [24][31]
+
+Affected foals do not respond effectively to treatment and die or are euthanized, typically before three months of age in the original description. [24] UC Davis describes FIS as invariably fatal and notes that there is no effective treatment. [25][31]
+
+Breeds and carrier history
+--------------------------
+
+FIS was identified in the Fell Pony and subsequently in the related Dales Pony, both rare native British pony breeds. [24][25]
+
+In the 2011 population screen reported with the gene discovery:
+
+Breed | Carriers identified | Sample size | Carrier frequency
+Fell Pony | 82 | 214 | 38% [24]
+Dales Pony | 16 | 87 | 18% [24]
+
+Those carrier frequencies were consistent with reported disease prevalence of roughly 10% in Fell foals and 1% in Dales foals at the time. [24][25] Because affected foals do not survive to breeding age, affected foals arise specifically from carrier-to-carrier matings. [25]
+
+Speculation, controversy, and uncertainty
+-----------------------------------------
+
+The association between the SLC5A3 p.P446L variant and FIS is extremely strong: all available affected foals in the discovery study were homozygous for the variant, and obligate carriers were heterozygous. [24] UC Davis likewise states that the SNP was perfectly correlated with FIS. [25]
+
+The main uncertainty is mechanistic, not whether the variant is associated with disease. UC Davis notes that exactly how the amino-acid substitution produces the immune and erythroid phenotypes is not yet fully understood; it may involve partial loss of function or altered function in osmotic-stress response. [25]
+
+Reasonable open questions include:
+
+- Whether p.P446L reduces myo-inositol transport, changes transporter regulation, or has tissue-specific effects.
+- Why the defect particularly compromises B lymphocytes and red-blood-cell production.
+- Whether modifier genes, developmental timing, or environmental infection pressure influence the severity or timing of disease.
+- Whether other rare SLC5A3 variants exist in horses, and whether any have functional effects.
+
+Those are research questions, not established allele categories for breeding or simulation purposes. [25][24]
+
+What it does not establish
+--------------------------
+
+There is no credible evidence that the horse FIS variant affects:
+
+- Base coat color, red/black pigment switching, or dilution.
+- Mane or tail color.
+- Height, speed, athletic performance, muscle mass, or bone structure.
+- Hoof shape or feathering.
+- White patterning or marking genetics.
+
+Those traits are governed by other loci or polygenic architecture. For example, equine base color depends on MC1R and ASIP, while cream and pearl are alleles of SLC45A2. [20][21] Any simulator should therefore treat SLC5A3 as a health/lethal recessive trait, not as a visual coat trait.
+
+Future science
+--------------
+
+Future work could directly measure the transport activity of normal versus p.P446L equine SLC5A3, characterize inositol levels and osmotic stress responses in affected tissues, and investigate why the mutation causes B-cell and erythroid failure. [25][24]
+
+For breed conservation, the practical science is already clear: DNA-test breeding stock, avoid pairing two carriers, and use carrier-to-normal matings where appropriate to reduce variant frequency while preserving genetic diversity. UC Davis specifically recommends avoiding carrier-to-carrier matings and notes that carrier-to-N/N or N/N-to-N/N matings will not produce affected foals. [25]
+
+Simulator implementation note
+-----------------------------
+
+For a horse-genetics simulator, model SLC5A3 as:
+
+- Locus name: FIS / SLC5A3
+- Alleles: N, FIS
+- Inheritance: autosomal recessive
+- Phenotype:
+  - N/N: healthy
+  - N/FIS: healthy carrier
+  - FIS/FIS: fatal FIS phenotype
+- Visual expression: none
+- Breed weighting: elevated allele frequency in Fell Pony and Dales Pony populations; low or absent elsewhere unless explicitly introduced through ancestry. [25][24]
+
+Primary sources
+---------------
+
+- UC Davis Veterinary Genetics Laboratory — Foal Immunodeficiency Syndrome (FIS): https://vgl.ucdavis.edu/test/fis [25]
+- Fox-Clipsham et al., PLoS Genetics, 2011 — Identification of a Mutation Associated with Fatal Foal Immunodeficiency Syndrome in the Fell and Dales Pony: https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1002133 [24]
+- UC Davis Veterinary Genetics Laboratory — Horse DNA tests: https://vgl.ucdavis.edu/dna-tests/horse [27]
+
+
+EARLIER NOTES, FROM THE MOD'S WIKI
+==================================
 (Copied 2026-10-12 from the Science tab of the Procedural Horse Coats wiki page for this gene.
-Written for that project: it may mention how a game models the gene. Not yet audited.)
+Written for that project: they say how a game models the gene. Where they disagree with
+the research notes above, the notes above stand.)
 
 At a glance
 -----------

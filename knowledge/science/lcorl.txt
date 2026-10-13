@@ -1,6 +1,194 @@
-LCORL / NCAPG (height) - science notes
+LCORL / NCAPG - science notes
+(The owner's research notes, filed 2026-10-12. The bracketed markers point to the sources listed at the end, which are named there
+without addresses.
+No source was opened by the session that filed this. genes/lcorl.json was changed to match
+on the owner's word the same day; what is left over is in knowledge/known-issues.txt.
+Not yet audited.)
+
+LCORL/NCAPG is the best-established major locus for withers height and overall body size in horses. It is not a coat-color gene: it does not determine red versus black pigment, mane/tail color, white markings, or pattern. Its main confirmed effect is skeletal growth—especially stature—with possible secondary effects on body proportions and conformation. [web:11][web:14][web:12]
+
+Quick facts
+-----------
+
+Item | Established understanding
+Common name | LCORL/NCAPG height locus
+Chromosome | Equine chromosome 3 (ECA3)
+Genes involved | LCORL (ligand-dependent nuclear receptor corepressor-like) and nearby NCAPG (non-SMC condensin I complex subunit G)
+Primary trait | Withers height / overall skeletal body size
+Inheritance | Autosomal; the best-known commercial marker behaves approximately as incompletely dominant, with heterozygotes intermediate between the two homozygotes
+Coat effect | None established — does not control red/black pigment, agouti, dilution, white patterns, mane/tail color, or feathering
+Main commercial alleles | Often reported as T (smaller/normal) and C (taller/larger), based on marker BIEC2-808543 near/upstream of LCORL
+Best-supported breeds | Warmbloods, Thoroughbreds, Iberian breeds, and other breeds where size selection has produced meaningful allele-frequency differences
+
+The locus is on ECA3, and genome-wide association studies repeatedly place the strongest height signal near LCORL, with the adjacent NCAPG region included because the genes are physically close and historically analyzed together. [web:11][web:12][web:14]
+
+What LCORL and NCAPG do
+-----------------------
+
+LCORL encodes a transcriptional regulator/corepressor. In horses, variation in or near LCORL is associated with differences in LCORL expression and adult body size: one study found lower LCORL expression in larger-genotype horses relative to smaller-genotype horses. [web:14]
+
+NCAPG is involved in the condensin I complex and mitotic cell division. Because it lies in the same linkage block as LCORL, early studies often described the region as “NCAPG-LCORL.” However, horse-specific evidence favors LCORL as the stronger candidate for the height effect; one Hanoverian study concluded that NCAPG and DCAF16 could be eliminated as the main candidates. [web:5][web:14]
+
+Alleles and genotypes
+---------------------
+
+The most widely used horse test targets a regulatory variant, commonly called BIEC2-808543, near LCORL on ECA3. Laboratories may label the result differently—for example, T/C, n/H1, or “small/tall”—but the biological interpretation is broadly similar. [web:14][web:23]
+
+Genotype | Common label | Expected effect relative to like-bred peers
+T/T | Small / normal / n/n | Smaller or average height for the breed; strongly represented in pony breeds and many mid-sized breeds
+T/C | Medium / heterozygous / n/H1 | Intermediate height; usually taller than T/T horses of comparable breeding
+C/C | Tall / large / H1/H1 | Greatest tendency toward larger stature; common in selection lines for tall sport horses
+
+In the key Hanoverian and cross-breed study, T/T was nearly perfectly associated with pony breeds up to about 148 cm at the withers, while C-containing genotypes were associated with progressively larger horses. In Hanoverians, C/T horses had about 40% lower LCORL expression and C/C horses about 56% lower expression than T/T horses. [web:14]
+
+Important: “T” does not mean tiny
+.................................
+
+A T/T horse is not automatically a pony. The allele’s effect is statistical and breed-dependent: a 16-hand Quarter Horse and a 14-hand Arabian can both be T/T, while a 17-hand Warmblood may be C/C. The genotype shifts expected height within a population, rather than assigning a universal height to all horses. [web:14][web:18][web:19]
+
+How much height does it explain?
+--------------------------------
+
+LCORL is a major height locus, but it is not the whole explanation for height.
+
+- A broad horse study found that four loci—including LCORL—explained a large share of size variation across breeds. [web:11]
+- In Warmblood-focused work, LCORL alone has been estimated to account for roughly 8 cm of height variation, or about ±4 cm around a population mean. [web:15]
+- Commercial estimates for Warmblood-type horses often describe approximately 5 cm per allele copy, with an overall predictive accuracy around 70% ± 5 cm. [web:18][web:19]
+- One commercial summary reports that the marker explained 68.5% of measured height variation in the population studied, with C/C horses averaging about 2.9 inches / 7.4 cm taller than T/T horses. [web:23]
+
+For a breeding simulator, model LCORL as a strong additive/incomplete-dominant height modifier, not as an absolute height-setting gene.
+
+Effects on the horse
+--------------------
+
+Height and frame
+................
+
+This is the core, well-supported effect. LCORL/NCAPG influences withers height, body size, and overall skeletal growth. In Tennessee Walking Horses, fine-mapping associated the region with a principal component representing overall body size across 32 body measurements. [web:12]
+
+Bone structure and conformation
+...............................
+
+The locus plausibly affects skeletal proportions because its phenotype is body size and skeletal growth. However, “better bone,” heavier bone density, specific limb angles, hoof shape, or a particular neck/back conformation are not established direct effects of the tested LCORL marker. Larger horses may simply have larger measurements overall. [web:12][web:15]
+
+Muscle and speed
+................
+
+There is no robust evidence that the common horse LCORL height allele directly increases muscle mass, sprint speed, endurance, or racing ability. Any performance association is likely indirect: taller, larger horses may be selected for certain disciplines, and height itself can influence stride and biomechanics. Do not treat LCORL as a “speed gene.”
+
+Hooves and feathering
+.....................
+
+No established direct effect on hoof shape, hoof quality, feathering, or feather length. Feathering is chiefly associated with other loci and polygenic factors, not LCORL.
+
+Mane, tail, and coat color
+..........................
+
+No established effect on:
+
+- Red/black pigment
+- Agouti distribution
+- Cream, dun, champagne, silver, pearl, or other dilution/modifier loci
+- Gray progression
+- White markings or white patterning
+- Mane or tail color
+
+A C/C tall horse and a T/T short horse can have identical coat-color genotypes and visually identical pigment. [web:11][web:14]
+
+Breed distribution
+------------------
+
+Breed group | Typical LCORL/NCAPG pattern
+Pony breeds | Strongly enriched for T/T, consistent with small stature. The Hanoverian/cross-breed study found T/T nearly perfectly associated with pony breeds up to 148 cm. [web:14]
+Warmbloods | Considerable frequency of C, especially in selection lines for tall sport horses; Holsteiner, Westphalian, and Hanoverian populations have been reported with substantial C/T frequencies. [web:22]
+Thoroughbreds | The locus is associated with withers height, but allele frequencies and height outcomes vary by breeding population. [web:12]
+Iberian breeds | The taller/larger allele occurs and can contribute to height prediction, though breed-specific accuracy is lower than in Warmbloods. [web:19]
+Quarter Horses, Arabians, many gaited breeds | Often predominantly T/T, but individual breed lines can differ; T/T does not prevent a horse from being over 15 hands. [web:19]
+Draft horses | Large size can occur with LCORL variation, but draft phenotype is polygenic; LCORL should not be treated as the sole “draft size” gene. [web:11][web:14]
+
+Speculation versus established science
+--------------------------------------
+
+Well established
+................
+
+- LCORL/NCAPG on ECA3 is a major horse height/body-size locus. [web:11][web:12]
+- The commonly tested LCORL regulatory variant has three genotypes: T/T, T/C, and C/C. [web:14][web:15]
+- C is associated with taller/larger horses; T is associated with smaller/normal height. [web:14][web:23]
+- The effect is incomplete-dominant or approximately additive: one C copy produces an intermediate phenotype. [web:18][web:19]
+- LCORL expression differs by genotype and correlates with body size. [web:14]
+- The locus affects height in multiple breeds, including Hanoverians, Franches-Montagnes, German Warmbloods, Thoroughbreds, and Tennessee Walking Horses. [web:12]
+
+Reasonable but still incomplete
+...............................
+
+- The exact causal DNA change has not been definitively proven for all horse populations.
+- Different studies have pointed to regulatory variation upstream of LCORL, variation in the LCORL transcript/3′ UTR, and possible coding candidates; this indicates that the causal architecture may be more complex than one universal SNP. [web:12][web:21]
+- Breed-specific prediction is more reliable in Warmblood-type populations than across all breeds. [web:18][web:19]
+
+Not supported / avoid claiming
+..............................
+
+- That LCORL determines coat color, red/black pigment, mane or tail color, or white patterns.
+- That it directly determines speed, athletic ability, muscle mass, hoof shape, or feathering.
+- That C/C guarantees a tall horse regardless of breed, nutrition, sex, management, or other size genes.
+- That T/T guarantees a small horse or pony.
+
+Testing availability
+--------------------
+
+UC Davis Veterinary Genetics Laboratory provides an extensive horse DNA-test catalog, including coat-color, white-pattern, and breed-specific health panels. [page:16] However, the UC Davis VGL horse-test listing reviewed here does not show an LCORL/NCAPG height test among its listed offerings; equine LCORL height testing is more commonly offered by other commercial equine genetics laboratories. [page:16][web:18][web:23]
+
+For a project requiring UC Davis citations, the safest wording is:
+
+  UC Davis VGL is a primary reference for equine genetic testing, but its published horse-test catalog does not list an LCORL/NCAPG height test; LCORL height testing is available through other commercial laboratories. [page:16][web:18]
+
+Simulator implementation
+------------------------
+
+A practical model:
+
+Gene | Alleles | Phenotype model
+LCORL/NCAPG | T, C | Base breed height + 0 for T/T, +2.5 cm for T/C, +5 cm for C/C, then apply noise, nutrition, sex, and other size loci
+Alternative labels | n, H1 | n/n = T/T; n/H1 = T/C; H1/H1 = C/C
+
+Recommended simulator rules:
+
+- Make LCORL a continuous height modifier, not a binary “tall gene.”
+- Apply its effect within breed baseline, so a T/T Warmblood can still be taller than a C/C pony.
+- Keep coat color entirely separate.
+- If modeling conformation, use LCORL to scale general frame measurements rather than assigning specific hoof, limb, neck, or feather traits.
+- Include other size loci and polygenic background if realistic breed-size variation matters.
+
+Future science
+--------------
+
+Future work is likely to refine the causal variant, test whether different haplotypes act in different breeds, and separate height from related traits such as body length, limb proportions, and weight. A 2024 cattle study illustrates the broader point: even in a species where the LCORL-NCAPG growth association is strong, researchers were still working to identify the true causative mutation within a large haplotype block. [web:1]
+
+For horses, the most useful next questions are:
+
+- Which exact variant or haplotype causes the height effect in each breed?
+- Are there additional rare LCORL/NCAPG alleles not captured by the common T/C test?
+- Does the locus affect body proportions independently of final height?
+- How much does it interact with other size loci, such as HMGA2 and ZFAT? [web:11]
+
+Sources
+-------
+
+- Makvandi-Nejad et al., Four Loci Explain 83% of Size Variation in the Horse, PLOS ONE: LCORL on ECA3 is a top horse-size locus. [web:11]
+- Metzger et al., Expression Levels of LCORL Are Associated with Body Size in Horses: BIEC2-808543, T/C genotypes, expression, and pony association. [web:14]
+- Skeletal variation in Tennessee Walking Horses maps to the LCORL/NCAPG gene region: fine-mapping, body-size association, and breed evidence. [web:12]
+- IFCE Équipédia: LCORL as a major withers-height gene and approximately 8 cm variation in sport horses. [web:15]
+- Generatio and CombiBreed: commercial genotype interpretation, approximate height effects, and breed limitations. [web:18][web:19]
+- Etalon: H1/n naming and reported percentage of height variation explained. [web:23]
+- UC Davis VGL horse-test catalog: current listed equine tests; no LCORL/NCAPG height test shown in the reviewed catalog. [page:16]
+
+
+EARLIER NOTES, FROM THE MOD'S WIKI
+==================================
 (Copied 2026-10-12 from the Science tab of the Procedural Horse Coats wiki page for this gene.
-Written for that project: it may mention how a game models the gene. Not yet audited.)
+Written for that project: they say how a game models the gene. Where they disagree with
+the research notes above, the notes above stand.)
 
 Why it also moves speed and jump
 --------------------------------

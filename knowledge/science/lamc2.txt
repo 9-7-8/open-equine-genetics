@@ -1,6 +1,156 @@
 LAMC2 - science notes
+(The owner's research notes, filed 2026-10-12. The bracketed markers point to the sources listed at the end, which are named there
+without addresses.
+No source was opened by the session that filed this. genes/lamc2.json was changed to match
+on the owner's word the same day; what is left over is in knowledge/known-issues.txt.
+Not yet audited.)
+
+LAMC2 is a structural skin gene, not a horse coat-color locus. It encodes the gamma-2 chain of laminin-332 (formerly laminin-5), a basement-membrane protein that helps anchor the epidermis to the dermis. The best-established equine LAMC2 variant, JEB1, causes fatal autosomal-recessive junctional epidermolysis bullosa in Belgian Draft Horses and related draft breeds. It does not control red versus black pigment. [26][29][31]
+
+Gene and protein function
+-------------------------
+
+- LAMC2 encodes laminin subunit gamma-2, one of the three chains of laminin-332. The other chains are encoded by LAMA3 and LAMB3. [26][28]
+- Laminin-332 is concentrated at the dermal–epidermal junction, where it contributes to adhesion between epithelium and underlying connective tissue. [26][29]
+- Loss of a functional gamma-2 chain disrupts this adhesion. The result is fragile skin and mucous membranes, blistering after minor friction, progressive erosions, and severe secondary infection risk. [29][31][35]
+
+Established alleles
+-------------------
+
+Allele / test name | Molecular change | Inheritance | Phenotype
+N (normal) | No pathogenic JEB1 insertion | Dominant normal allele | Normal epidermal adhesion
+J / JEB1 | 1368insC: insertion of cytosine in exon 10 of LAMC2 | Autosomal recessive | Homozygotes develop Herlitz-type junctional epidermolysis bullosa
+N/J (carrier) | One copy of the insertion | Carrier | Clinically normal; transmits JEB1 to 50% of foals
+J/J | Two copies of the insertion | Affected | Severe blistering, mucosal ulceration, poor viability; generally euthanized or dies
+
+The JEB1 variant is a single-cytosine insertion, 1368insC, in exon 10 of LAMC2. It creates a frameshift and premature stop codon, producing a truncated gamma-2 chain and disrupting laminin-332 function. [29][30]
+
+Inheritance
+-----------
+
+JEB1 is autosomal recessive. A foal must receive one JEB1 allele from each parent to be affected; carriers are clinically normal. [31][35]
+
+Mating | Expected foals
+N/N × N/N | 100% N/N
+N/N × N/J | 50% N/N, 50% N/J
+N/J × N/J | 25% N/N, 50% N/J, 25% J/J
+N/J × J/J | 50% N/J, 50% J/J
+J/J × J/J | 100% J/J
+
+UC Davis states that affected animals receive one JEB mutation from each parent and recommends DNA testing of sires and dams before breeding to avoid producing affected foals. [31]
+
+Relationship to red and black pigment
+-------------------------------------
+
+LAMC2 is not a pigment-switching gene and has no validated effect on red versus black base color.
+
+- Red pigment is pheomelanin and black pigment is eumelanin.
+- The central switch is Extension (MC1R): recessive e and rare e^a alleles allow only red pigment, while functional E permits black pigment. [13][18]
+- Agouti (ASIP) controls where black pigment appears on an E- horse, distinguishing bay from black. [19]
+- LAMC2 variants can make a foal’s coat look abnormal because blistering, hair loss, scarring, and skin ulceration can remove or damage pigmented tissue. This is secondary tissue damage, not a change in melanin-production genetics.
+
+For a breeding simulator, treat LAMC2 as a recessive lethal/structural-health locus, not as a color locus. It should not modify E/e, A/a, cream, dun, silver, champagne, gray, or white-pattern genotypes.
+
+Clinical effects
+----------------
+
+JEB1/JEB1 foals develop severe junctional epidermolysis bullosa. UC Davis describes progressive blistering and skin lesions, especially at pressure points, with worsening lesions and susceptibility to serious infection; there is no treatment, and most affected foals are euthanized. [31][35]
+
+Expected consequences include:
+
+- Skin blisters and erosions, particularly where tack, limbs, or bedding create friction. [31][35]
+- Ulceration of oral and other mucous membranes. [29][30]
+- Hoof and coronary-band epithelial damage is consistent with severe epithelial fragility, but JEB1 is not a validated allele for normal hoof-shape variation. [29][31]
+- Failure to thrive and death or humane euthanasia in affected foals. [31][35]
+
+Does LAMC2 affect other traits?
+-------------------------------
+
+Trait | Established LAMC2 effect? | Assessment
+Red vs. black pigment | No | No validated LAMC2 allele changes eumelanin/pheomelanin production; Extension/MC1R controls that switch. [13][18]
+Bay vs. black distribution | No | Primarily Agouti/ASIP. [19]
+Dilution genes | No | Cream, champagne, dun, silver, and pearl are separate loci. [13]
+Mane or tail color | No direct evidence | Mane/tail pigment follows the same melanin pathways as body coat; LAMC2 is not a known mane/tail-color gene.
+Height | No established effect | No credible evidence links JEB1/LAMC2 genotype to height.
+Speed or performance | No established effect | Apparent differences would be confounded by breed, health, and the lethality of J/J.
+Muscle mass or conformation | No established effect | LAMC2 is an epithelial-adhesion gene, not a muscle-development or conformation gene.
+Bone structure | No established effect | No validated association with skeletal morphology.
+Hoof shape | No established effect on normal variation | Severe disease can damage hoof epithelium in J/J foals, but JEB1 is not a hoof-shape allele. [29][31]
+Feathering | No | Feathering is not attributed to LAMC2.
+Skin and mucosal integrity | Yes | This is the core established function. [29][31]
+Neonatal viability | Yes | J/J is severe and generally fatal or requires euthanasia. [31][35]
+
+Breed distribution
+------------------
+
+- Belgian Draft Horse is the breed most strongly associated with LAMC2 JEB1. UC Davis identifies JEB1 in Belgians and related breeds and notes that JEB1 testing is mandatory for breeding Belgian Draft Horse Corporation of America registration. [31]
+- The same 1368insC LAMC2 mutation was found to be fully associated with JEB in the French draft breeds Trait Breton and Trait Comtois. [29]
+- The variant has also been documented in an Italian Draft Horse foal, whose parents were carriers and whose LAMA3 test was negative—supporting a shared draft-horse origin or dissemination of the JEB1 allele. [30]
+- American Saddlebred JEB is genetically distinct: it is JEB2, caused by a deletion in LAMA3, not by the LAMC2 JEB1 insertion. [14][35]
+
+Speculation and controversy
+---------------------------
+
+The causal role of 1368insC in LAMC2 for Belgian and related draft-breed JEB is well established. Uncertainty concerns scope, not the basic finding:
+
+- Allele naming: “JEB1,” “J,” and “JEB-LAMC2” are used somewhat inconsistently in breeder and commercial-testing contexts. They refer to the same established LAMC2 disease allele in this context.
+- Additional LAMC2 variants: Human junctional epidermolysis bullosa can result from many variants in LAMA3, LAMB3, or LAMC2. Additional equine variants may exist, but they are not established horse alleles until independently validated and offered through a reliable diagnostic test. [26][29]
+- Modifier speculation: Online discussion sometimes speculates that JEB carriers have poorer hoof quality, weaker skin, or altered markings. There is no strong evidence that N/J carriers have a clinically meaningful phenotype; UC Davis describes carriers as clinically normal in the recessive-disease framework. [31]
+- JEB1 versus JEB2 confusion: Both diseases look similar clinically, but they involve different laminin-332 genes and breed populations. JEB1 is LAMC2 in Belgians and related drafts; JEB2 is LAMA3 in American Saddlebreds. [14][35]
+- Pigment claims: Claims that LAMC2 changes red/black pigment are unsupported. The established base-color pathways are MC1R/Extension and ASIP/Agouti. [13][18][19]
+
+Future science
+--------------
+
+Likely directions include:
+
+- Expanded carrier screening across Belgian-related, French draft, Italian draft, and other coldblood populations to refine allele frequency and identify at-risk lines.
+- Whole-genome sequencing of unexplained neonatal blistering cases to discover additional LAMC2, LAMA3, or LAMB3 variants.
+- Carrier-phenotype studies to test whether N/J horses have measurable differences in wound healing, hoof-wall quality, or mucosal resilience; currently, there is no established carrier phenotype. [31]
+- Therapeutic research remains speculative for horses. Practical prevention relies on DNA testing and avoiding carrier-to-carrier matings. [31]
+
+Practical breeding guidance
+---------------------------
+
+- Test Belgian Draft Horses and related draft breeding stock for JEB1/LAMC2 before mating.
+- Avoid N/J × N/J matings, which produce a 25% risk of an affected J/J foal per pregnancy. [31]
+- An N/J carrier bred to N/N will not produce affected foals, but about half of offspring will be carriers. [31]
+- Keep JEB1/LAMC2 and JEB2/LAMA3 separate in pedigrees and testing; a horse can carry one without carrying the other. [14][35]
+
+Simulator implementation notes
+------------------------------
+
+  LAMC2 locus
+  N  = normal, dominant
+  J  = JEB1, recessive disease allele
+  
+  N/N  -> normal
+  N/J  -> normal carrier
+  J/J  -> lethal or nonviable JEB1 foal
+
+Recommended model behavior:
+
+- Apply LAMC2 after base color, dilution, and white-pattern genes.
+- Do not allow J to alter pigment genotype or visible coat-color categories.
+- Implement J/J as prenatal loss, neonatal death, or a clearly marked nonviable affected foal.
+- Track LAMC2/JEB1 and LAMA3/JEB2 as independent loci.
+
+Sources
+-------
+
+- Spirito et al., “A mutation in the LAMC2 gene causes the Herlitz junctional epidermolysis bullosa in two French draft horse breeds,” Genetics Selection Evolution, 2003. [26][29]
+- UC Davis Veterinary Genetics Laboratory / Center for Equine Health, “Junctional Epidermolysis Bullosa (JEB).” [31]
+- UC Davis Center for Equine Health, “A Growing List — Research Advances Lead to New Genetic Tests,” distinguishing JEB1 in Belgians from JEB2 in American Saddlebreds. [35]
+- Murgiano et al., “First report of junctional epidermolysis bullosa (JEB) in the Italian draft horse,” 2015. [30]
+- UC Davis Veterinary Genetics Laboratory, “Equine Coat Color Genetics,” for the established Extension and dilution framework. [13]
+- UC Davis Veterinary Genetics Laboratory, “Red Factor – Horse,” for the role of MC1R/Extension in red versus black pigment. [18]
+
+
+EARLIER NOTES, FROM THE MOD'S WIKI
+==================================
 (Copied 2026-10-12 from the Science tab of the Procedural Horse Coats wiki page for this gene.
-Written for that project: it may mention how a game models the gene. Not yet audited.)
+Written for that project: they say how a game models the gene. Where they disagree with
+the research notes above, the notes above stand.)
 
 At a glance
 -----------

@@ -1,6 +1,236 @@
-Grey - science notes
+Grey (STX17) - science notes
+(The owner's research notes, filed 2026-10-12. The bracketed markers point to the sources listed at the end, with their addresses.
+No source was opened by the session that filed this. genes/grey.json was changed to match
+on the owner's word the same day; what is left over is in knowledge/known-issues.txt.
+Not yet audited.)
+
+At a glance
+-----------
+
+Item | Established understanding
+Locus / gene | Grey, at STX17 (Syntaxin 17)
+Primary effect | Progressive, age-related loss of pigment from the hair coat
+Inheritance | Autosomal dominant: one Grey allele is enough for a horse to grey
+Wild-type allele | G1 — no Grey-associated duplication
+Known Grey alleles | G2 — two copies of a 4.6 kb duplicated sequence; slow greying
+Known Grey alleles | G3 — three copies of the 4.6 kb duplicated sequence; fast greying
+Health association | Grey horses are predisposed to melanoma; risk is much higher with G3, especially G3/G3
+Main coat effect | The underlying base color remains genetically present beneath the greying process
+
+Grey is not a base coat color in the same sense as black, bay, or chestnut. It is a progressive depigmentation process that acts over the horse’s lifetime and can occur on any base color and in combination with other coat-color modifiers. UC Davis describes the phenotype as progressive hair depigmentation that often becomes nearly white by 6–12 years of age. [web:16]
+
+The gene and mutation
+---------------------
+
+The Grey phenotype is caused by variation in intron 6 of STX17. The original discovery was a 4.6 kilobase duplication in that intron; later work refined the picture by showing that the relevant variant is better understood as a copy-number variant. [web:14][web:17]
+
+The modern allele framework is:
+
+Allele | Structure of the 4.6 kb sequence | Common older notation | Phenotypic effect
+G1 | No duplication | g / non-grey | No progressive greying
+G2 | Two copies | Historically grouped as “G” | Slow greying; low detected melanoma excess
+G3 | Three copies | Historically grouped as “G” | Fast greying; substantially increased melanoma risk
+
+UC Davis states that a single copy of either Grey allele, G2 or G3, is sufficient to cause greying. [web:14] The 2024 Uppsala–UC Davis work found that G3 is associated with rapid depigmentation and elevated melanoma incidence, while G2 greys more slowly and was not associated with an obvious increase in melanoma incidence. [web:15]
+
+How Grey affects pigment
+------------------------
+
+Grey progressively removes pigment from the hair shafts, not necessarily from the horse’s underlying genetic coat-color genotype.
+
+- A genetically bay Grey horse may be born bay, then pass through steel grey, dappled grey, and eventually near-white stages.
+- A genetically black Grey horse may appear grey or “iron grey” early in life and eventually become white or near-white.
+- A genetically chestnut Grey horse also greys, although the early intermediate appearance may differ from bay or black horses.
+- The base genotype at loci such as Extension (MC1R) and Agouti (ASIP) is still relevant for the horse’s birth color and for some health associations.
+
+Grey is therefore best modeled as an overlay or developmental process: it does not replace the base-color genotype, but it changes the visible coat over time. UC Davis notes that Grey can act on any base coat color. [web:19]
+
+Red and black pigment
+---------------------
+
+Grey affects both red and black pigment in the hair, because the process is not limited to one pigment type. A chestnut horse’s phaeomelanin-rich red coat and a bay or black horse’s eumelanin-rich coat can both progressively lose pigment.
+
+Important distinctions:
+
+- Grey is not cream. Cream (MATP/SLC45A2) dilutes red pigment more strongly than black pigment and creates palomino, buckskin, smoky black, and related phenotypes.
+- Grey is not roan. Classic roan causes a stable mixture of white and pigmented hairs from a young age; Grey is progressive and age-dependent.
+- Grey is not dominant white. Dominant white variants typically produce white coat and often affect skin or eye pigmentation from birth; Grey horses are usually fully pigmented at birth and whiten with age.
+- Grey does not erase the genotype. A “white” aged Grey horse may still carry bay, black, chestnut, dun, cream, silver, or other alleles that matter for breeding predictions.
+
+Alleles and inheritance
+-----------------------
+
+Under the current three-allele model:
+
+Genotype | Expected greying outcome | Melanoma-risk pattern
+G1/G1 | No Grey; remains its base color | Lowest studied incidence
+G1/G2 | Greys slowly | Low detected melanoma incidence, similar to non-Grey horses
+G2/G2 | Greys slowly | Low detected melanoma incidence, similar to non-Grey horses
+G1/G3 | Greys quickly | Increased melanoma incidence
+G2/G3 | Greys; exact pace depends on allele dosage and likely other modifiers | Intermediate or variable; less characterized than G1/G3 and G3/G3
+G3/G3 | Greys fastest | Highest melanoma incidence and risk
+
+UC Davis reports that G1/G3 horses grey quickly and have increased melanoma incidence, while G3/G3 horses show the fastest greying and highest melanoma incidence. Horses with G2, whether heterozygous or homozygous, showed melanoma incidence similar to non-Grey horses in that study. [web:15]
+
+For breeding simulations, the practical minimum is:
+
+  Grey visible = horse carries G2 or G3
+  G3 dosage increases greying speed and melanoma risk
+  G2 produces slow greying with little or no detected melanoma excess
+  Base coat color is retained genetically beneath the Grey overlay
+
+Age progression
+---------------
+
+Grey horses are generally born with a normal pigmented coat. The visible progression varies by allele, individual, breed, and probably additional genetic modifiers.
+
+A typical G3-associated course may be:
+
+1. Birth to foalhood: Fully pigmented base coat, though grey may already be detectable around the eyes or face in some individuals.
+2. Young adulthood: Increasing white hairs, often first visible on the face and body; the horse may look steel grey, rose grey, or dappled.
+3. Middle age: Strong dappled or near-white appearance.
+4. Older adulthood: Often nearly white, though some horses retain darker hairs, especially in the mane, tail, or points.
+
+UC Davis notes that many Grey horses become almost completely white by 6–12 years of age, although this is a general description rather than a fixed schedule. [web:16]
+
+Melanoma and health effects
+---------------------------
+
+The most important non-coat effect of Grey is predisposition to melanoma, particularly dermal melanomas around the tail head, perianal region, genital area, and head. UC Davis reports that more than 70% of Grey horses older than 15 develop melanoma, and that Grey horses homozygous for black at Agouti—genetically a/a—have higher melanoma risk. [web:16]
+
+Key points:
+
+- The STX17 Grey variant affects melanocyte biology and is associated with melanoma susceptibility. [web:14]
+- Risk is not simply “Grey versus non-Grey.” Copy number matters: G3 carries substantially more risk than G2. [web:15]
+- Homozygosity for G3 is associated with the highest risk. [web:15]
+- Melanomas in Grey horses may begin benign but can become malignant; veterinary monitoring is important.
+- The old simple G/G versus G/g model is still useful historically, but it is incomplete because it collapses G2 and G3 into one allele.
+
+What Grey does not establish
+----------------------------
+
+The following traits are not well-established direct effects of the Grey/STX17 locus:
+
+Trait | Status
+Height | No established direct effect of Grey on height
+Speed or racing performance | No established direct effect of Grey on speed
+Muscle mass or muscle fiber type | No established direct effect
+Bone structure | No established direct effect
+Hoof shape or hoof quality | No established direct effect
+Feathering | No established direct effect
+Mane or tail color | Grey can lighten mane and tail hairs over time, but this is part of general coat depigmentation, not a separate mane/tail locus
+Eye color | Grey is not established as a primary blue-eye or wall-eye locus
+Skin color | Grey horses may develop vitiligo-like depigmentation, but this is variable and not the defining effect
+Temperament | No established direct behavioral effect
+
+Grey can indirectly affect appearance in ways that people may misread as structural or performance traits—for example, an aged white Grey may visually obscure primitive markings, socks, blaze, or body markings. That does not mean Grey removes those genetic traits.
+
+Speculation and open questions
+------------------------------
+
+Several areas remain active or incompletely resolved:
+
+- Modifier genes: Why do some G3 horses grey faster or slower than others? The G3/G2 genotype, age, sex, breed, and polygenic background are plausible contributors.
+- G2/G3 outcomes: The interaction between one slow-grey allele and one fast-grey allele is less thoroughly characterized than G1/G2, G1/G3, and G3/G3.
+- Mechanism: Exactly how the intronic copy-number expansion alters melanocyte regulation is still being worked out. The variant appears to influence expression of STX17 and nearby NR4A3. [web:18]
+- Melanoma progression: Why some Grey horses develop only small benign-like masses while others develop aggressive malignant disease remains an important clinical and genetic question.
+- Breed-specific risks: Breed history, founder effects, and selection for Grey may influence both allele frequency and observed melanoma rates.
+
+It would be speculative to claim that Grey directly changes athleticism, conformation, hoof shape, feathering, or behavior. Those claims should not be treated as established genetics.
+
+Breeds where Grey is common
+---------------------------
+
+Grey occurs across many breeds, but it is especially visible or historically selected in:
+
+- Lipizzaner
+- Andalusian / PRE
+- Lusitano
+- Camargue
+- Connemara Pony
+- Thoroughbred
+- Arabian
+- Welsh Pony and Cob
+- Irish Sport Horse and many Warmblood populations
+- Shetland Pony and other British native breeds, where Grey occurs but is less uniformly fixed than in Lipizzaners
+
+The 2024 study reported that the fast-grey G3 allele was found across 62 breeds, whereas the slow-grey G2 allele was found in only eight breeds. [web:21] This suggests that G3 is by far the more widespread Grey allele, while G2 is rarer and may be breed- or lineage-associated.
+
+Testing
+-------
+
+UC Davis offers two relevant tests:
+
+Test | What it tells you
+Grey Presence/Absence | Whether the horse carries a Grey allele, but does not distinguish G2 from G3. [web:16]
+Grey Copy Number | Distinguishes G1, G2, and G3 and is therefore more informative for greying speed and melanoma-risk modeling. [web:14]
+
+For a breeding program or simulator that needs realistic age-based coat transitions and health risk, the copy-number test is the more useful result.
+
+Simulation implementation
+-------------------------
+
+A practical model:
+
+  Alleles:
+  G1 = wild type, no Grey
+  G2 = slow Grey
+  G3 = fast Grey
+  
+  Visible Grey:
+  G2 or G3 present = Grey phenotype develops with age
+  
+  Greying speed:
+  G1/G1 = none
+  G1/G2 = slow
+  G2/G2 = slow
+  G1/G3 = fast
+  G2/G3 = fast or intermediate; use a cautious intermediate value
+  G3/G3 = very fast
+  
+  Melanoma risk:
+  G1/G1 = baseline
+  G1/G2 = baseline-like
+  G2/G2 = baseline-like
+  G1/G3 = elevated
+  G2/G3 = elevated but uncertain; model cautiously
+  G3/G3 = highest
+  
+  Base coat:
+  Retain MC1R, ASIP, dun, cream, silver, and other genotypes.
+  Apply Grey as a progressive visual overlay.
+
+For visual stages, a simple age-based scale could be:
+
+Life stage | G2-associated appearance | G3-associated appearance
+Foal | Base color | Base color, sometimes early face greying
+Young adult | Light greying | Noticeable grey or dappled grey
+Mature adult | Moderate grey | Heavy dapple or near-white
+Older adult | Grey to light grey | Usually white or near-white
+
+Bottom line
+-----------
+
+The horse Grey locus is a well-established STX17 copy-number system with at least three alleles: G1, G2, and G3. Grey is dominant, acts progressively on both red and black hair pigment, and can eventually make almost any base coat appear white. Its major established health consequence is melanoma predisposition, with G3—and especially G3/G3—carrying the highest risk. There is no strong evidence that Grey directly affects height, speed, muscle, bone, hooves, feathering, or temperament.
+
+Sources
+-------
+
+- UC Davis Veterinary Genetics Laboratory, Gray Presence/Absence: https://vgl.ucdavis.edu/test/gray_presence_absence [web:16]
+- UC Davis Veterinary Genetics Laboratory, Gray Copy Number: https://vgl.ucdavis.edu/test/gray_copy_number [web:14]
+- UC Davis Veterinary Genetics Laboratory, New study identifies distinct gray alleles: https://vgl.ucdavis.edu/news/new-study-identifies-distinct-gray-alleles-contributing-difference-rate-depigmentation [web:15]
+- UC Davis Veterinary Genetics Laboratory, Equine Coat Color Genetics: https://vgl.ucdavis.edu/resources/horse-coat-color [web:19]
+- Nature Communications, An intronic copy number variation in Syntaxin 17 determines speed of greying and melanoma susceptibility in horses: https://www.nature.com/articles/s41467-024-51898-2 [web:11]
+- PMC, Copy number expansion of the STX17 duplication in melanoma: https://pmc.ncbi.nlm.nih.gov/articles/PMC3443021/ [web:17]
+- PMC, Complex Inheritance of Melanoma and Pigmentation: https://pmc.ncbi.nlm.nih.gov/articles/PMC3567150/ [web:20]
+- OMIA, Coat colour, grey/gray in Equus caballus: https://omia.org/OMIA001356/9796/ [web:18]
+
+
+EARLIER NOTES, FROM THE MOD'S WIKI
+==================================
 (Copied 2026-10-12 from the Science tab of the Procedural Horse Coats wiki page for this gene.
-Written for that project: it may mention how a game models the gene. Not yet audited.)
+Written for that project: they say how a game models the gene. Where they disagree with
+the research notes above, the notes above stand.)
 
 What grey is not
 ----------------

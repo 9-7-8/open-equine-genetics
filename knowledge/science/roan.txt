@@ -1,6 +1,177 @@
-Roan - science notes
+Roan (KIT region) - science notes
+(The owner's research notes, filed 2026-10-12. The bracketed markers point to the sources listed at the end, with their addresses.
+No source was opened by the session that filed this. genes/roan.json was changed to match
+on the owner's word the same day; what is left over is in knowledge/known-issues.txt.
+Not yet audited.)
+
+Overview
+--------
+
+Classic roan is an autosomal-dominant white-pattern trait in horses: white hairs are intermixed with pigmented hairs over the body, while the head, lower legs, mane, and tail remain fully pigmented. It is strongly associated with the KIT region on equine chromosome 3 (ECA3), but the exact causative mutation has not yet been identified. [15][13]
+
+Roan is not a dilution gene. It does not change the underlying pigment chemistry; instead, it adds white hairs among normally pigmented hairs. Therefore, it can sit on top of nearly any base color or dilution: black + roan = blue roan, bay + roan = bay roan, chestnut + roan = red roan. [13][15]
+
+Established facts
+-----------------
+
+Feature | Established understanding
+Locus / gene region | KIT region, ECA3 [13][15]
+Inheritance | Autosomal dominant [15]
+Alleles tested by UC Davis | N (normal) and Rn (classic roan) [15]
+Phenotype | Intermixed white and colored body hairs; dark head, lower legs, mane, and tail [15]
+Effect on red pigment | Red hairs remain red; white hairs are added among them, producing red roan [13][15]
+Effect on black pigment | Black hairs remain black; white hairs are added among them, producing blue roan [13][15]
+Age change | Present from birth, though often more visible after the foal coat sheds; does not progressively lighten like gray [13][15]
+Seasonality | Often appears lighter or more silvery during seasonal coat changes because the undercoat contains white hairs [13]
+Homozygous lethality | Not supported by current UC Davis and Icelandic Horse evidence; viable Rn/Rn horses are documented [15][13]
+Causative mutation | Not yet identified; commercial testing uses linked DNA markers/haplotypes, not a direct mutation test [15]
+
+Alleles and genotypes
+---------------------
+
+UC Davis currently reports the classic roan allele as Rn, with N as the non-roan wild-type allele. [15]
+
+Genotype | Expected phenotype | Transmission
+N/N | Non-roan | Cannot transmit the tested classic roan haplotype [15]
+N/Rn | Classic roan | Transmits Rn to about 50% of foals [15]
+Rn/Rn | Classic roan | Transmits Rn to all foals [15]
+
+A practical Punnett square for two heterozygous roans:
+
+ | N | Rn
+N | N/N non-roan | N/Rn roan
+Rn | N/Rn roan | Rn/Rn roan
+
+This predicts 75% roan and 25% non-roan offspring if roan is fully viable and penetrant. [15][13]
+
+How roan affects pigment
+------------------------
+
+Roan modifies the distribution of pigment-producing cells or the survival/function of melanocytes in the body coat, producing interspersed white hairs. It does not convert red pigment to black, black pigment to red, or eliminate pigment in the same way as gray. [13][15]
+
+Base coat | Roan expression | Common name
+Chestnut / red | White hairs mixed with red body hairs | Red roan
+Bay | White hairs mixed with red body hairs; black points remain | Bay roan
+Black | White hairs mixed with black body hairs | Blue roan
+Palomino | White hairs mixed with diluted red body hairs | Red-based roan
+Buckskin | White hairs mixed with diluted red body hairs; black points remain | Buckskin roan
+Grullo | White hairs mixed with diluted black body hairs | Blue-based roan
+
+Because roan is epistatic to base color in the visual sense—meaning it overlays rather than replaces the base color—the underlying MC1R, ASIP, DUN, and dilution genotype still determines whether the horse is red roan, bay roan, blue roan, etc. [13][15]
+
+What roan does not affect
+-------------------------
+
+There is no well-established evidence that classic roan affects:
+
+- Height or body size
+- Speed or athletic performance
+- Muscle mass or muscle fiber type
+- Bone structure or density
+- Hoof shape or hoof quality
+- Feathering
+- Mane or tail color, which remain pigmented in classic roan
+- Eye color
+- Internal organ function or fertility in heterozygous horses
+
+Its established visible effect is limited to the body coat pattern: intermixed white and pigmented hairs, with characteristic sparing of the head, lower legs, mane, and tail. [15][13]
+
+The homozygous-lethality controversy
+------------------------------------
+
+The old claim that Rn/Rn is embryonic lethal came largely from a 1979 study of Belgian Draught breeding records. Researchers observed a roan-to-non-roan offspring ratio near 2:1 from roan × roan matings, rather than the expected 3:1, and inferred that homozygous roan embryos did not survive. [13]
+
+Modern evidence contradicts a universal lethal effect:
+
+- UC Davis reports healthy, DNA-confirmed homozygous classic roan Quarter Horses that consistently produce roan foals, concluding that classic roan is not homozygous lethal. [15]
+- A large Icelandic Horse study found a 4.6:1 roan-to-non-roan ratio from roan × roan matings, significantly different from the 2:1 ratio expected under homozygous lethality. [13]
+- Viable homozygous roans have also been reported in Quarter Horses, Norikers, Hokkaido Native horses, and other populations. [13]
+
+The most defensible current position is: classic roan is not inherently homozygous lethal in horses generally. Historical breed-specific data may have reflected phenotype misclassification, incomplete records, a different roan-causing variant, or another linked genetic effect rather than a universal Rn/Rn lethal allele. [15][13]
+
+Speculation and unresolved science
+----------------------------------
+
+The major unresolved question is the actual causative variant. UC Davis explicitly notes that the specific mutation has not been identified, so its roan test detects an associated haplotype rather than the causal DNA change itself. [15]
+
+Current and plausible areas of investigation include:
+
+- Allelic heterogeneity: Different breeds may carry different roan-associated KIT haplotypes. Icelandic Horses showed KIT association, but not the same variants reported in other breeds. [13]
+- Regulatory rather than coding mutation: The causal change may lie in a noncoding regulatory region affecting KIT expression during melanocyte development, rather than in an exon. [13]
+- More than one roan locus: It remains possible that some visually “roan” horses have a genetically distinct condition. UC Davis notes that horses can appear roan without carrying the tested classic roan haplotype. [15]
+- Phenotype overlap: Rabicano, varnish roan from leopard complex, sabino-related roaning, frost, gray, and other white-pattern influences can mimic roan and complicate research. [15][13]
+- Variable expression: The amount and distribution of white hairs vary between individuals, and roan may become more or less visually obvious with season, age, body condition, and other white-pattern genes. [13][15]
+
+Relationship to other KIT traits
+--------------------------------
+
+KIT is a major coat-color gene region in horses and is associated with several white-pattern phenotypes, including tobiano, sabino-type spotting, and many dominant white variants. [13][18]
+
+However, roan should not be treated as interchangeable with those alleles:
+
+- Tobiano is a distinct KIT-region rearrangement and produces large, smooth-edged white patches. [13]
+- Sabino and dominant white variants are separate KIT mutations with different visual effects and, for some dominant white alleles, different breeding considerations. [13][18]
+- Classic roan produces diffuse ticking across the body rather than discrete white patches, and preserves pigment on the head, lower legs, mane, and tail. [15]
+
+A horse can carry roan plus other white-pattern alleles, but the resulting phenotype may be difficult to classify visually because the patterns overlap. [15]
+
+Breeds where classic roan occurs
+--------------------------------
+
+UC Davis reports that its classic roan haplotype has been found in:
+
+- American Quarter Horse
+- Paint Horse
+- Peruvian Paso
+- Paso Fino
+- Welsh Pony
+- Miniature Horse
+- Belgian
+
+It has not been detected in Thoroughbreds or Arabians in UC Davis testing. [15]
+
+Roan has also been studied or reported in Icelandic Horses, Norikers, Belgian Draught Horses, Shetland Ponies, Hokkaido Native horses, and other breeds, though the genetic variant or haplotype involved may differ between populations. [13]
+
+Testing limitations
+-------------------
+
+UC Davis’s Roan Zygosity Test is a marker/haplotype-based test, not a direct mutation test. It is appropriate for many breeds, but a horse with a roan-like coat may test negative if its white pattern is caused by a different genetic mechanism. [15]
+
+For the most reliable interpretation, UC Davis recommends submitting:
+
+- A hair sample from at least one parent
+- A labeled color photo of the horse
+- A three-generation pedigree with colors and patterns noted [15]
+
+Simulation design notes
+-----------------------
+
+For a horse-breeding simulator, the cleanest evidence-based model is:
+
+Model element | Recommended implementation
+Locus | Treat classic roan as a KIT-linked locus, but keep it separate from tobiano, sabino, and dominant white alleles
+Alleles | N and Rn
+Dominance | Rn dominant over N
+Homozygote | Allow viable Rn/Rn; do not implement embryonic lethality as a universal rule
+Phenotype | Overlay white ticking on the body only; retain pigmented head, lower legs, mane, and tail
+Base-color interaction | Apply after base color, dun, cream, champagne, silver, and other pigment-modifying loci
+Visual variation | Use a continuous “roan expression” value for realism, but inherit it as a modifier rather than as a separate simple allele unless designing a speculative mechanic
+Look-alikes | Implement rabicano, varnish roan, gray, and sabino-type roaning separately to avoid conflating genetically distinct patterns
+
+Sources
+-------
+
+- UC Davis Veterinary Genetics Laboratory, Roan Zygosity Test: https://vgl.ucdavis.edu/test/roan [15]
+- UC Davis Veterinary Genetics Laboratory, Equine Coat Color Genetics: https://vgl.ucdavis.edu/resources/horse-coat-color [14]
+- Voß et al. (2020), Coat Color Roan Shows Association with KIT Variants and No Evidence of Lethality in Icelandic Horses, Genes 11(6):680: https://pmc.ncbi.nlm.nih.gov/articles/PMC7348759/ [13]
+- UC Davis Veterinary Genetics Laboratory, Dominant White Mutations: https://vgl.ucdavis.edu/test/dominant-white-horse [18]
+
+
+EARLIER NOTES, FROM THE MOD'S WIKI
+==================================
 (Copied 2026-10-12 from the Science tab of the Procedural Horse Coats wiki page for this gene.
-Written for that project: it may mention how a game models the gene. Not yet audited.)
+Written for that project: they say how a game models the gene. Where they disagree with
+the research notes above, the notes above stand.)
 
 What is not modelled, and is not a gap
 --------------------------------------

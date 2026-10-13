@@ -1,6 +1,145 @@
-Silver dapple - science notes
+Silver (PMEL) - science notes
+(The owner's research notes, filed 2026-10-12. The bracketed markers point to the sources listed at the end, with their addresses.
+No source was opened by the session that filed this. genes/silver.json was changed to match
+on the owner's word the same day; what is left over is in knowledge/known-issues.txt.
+Not yet audited.)
+
+Silver is a dominant dilution of black pigment caused by a mutation in PMEL (formerly PMEL17, also called SILV). It is often called silver dapple, taffy, or chocolate, but it does not affect red pigment—so chestnuts can silently carry it. [13][26][27]
+
+Core facts
+----------
+
+- Gene: PMEL (premelanosome protein; historically PMEL17 / SILV).
+- Locus / allele symbol: Z.
+- Mutation: A missense variant in exon 11, Arg618Cys, is the established silver-causing variant. [13][26]
+- Inheritance: Autosomal dominant. One copy produces visible silver on any horse with black-based pigment. [13][26]
+- Pigment effect: Dilutes eumelanin (black/brown pigment); it has little to no effect on pheomelanin (red/yellow pigment). [11][13][27]
+- Major health association: The same PMEL variant is associated with Multiple Congenital Ocular Anomalies (MCOA), with severity increasing in Z/Z horses. [12][13][21]
+
+Genotypes
+---------
+
+Genotype | Coat expression | Breeding transmission | Eye risk
+N/N | No silver dilution; cannot produce silver foals without another silver parent | 0% silver allele | No PMEL-associated MCOA risk [13]
+N/Z | Silver visible on black or bay base; hidden on chestnut | 50% chance per foal | Often cyst-type/milder MCOA signs; some may be clinically subtle [13][21]
+Z/Z | Silver visible on black or bay base; hidden on chestnut | 100% silver allele | Highest MCOA risk; corneal enlargement, abnormal iris/retina, vision impairment, and possible blindness can occur [13][21]
+
+Effect on base colors
+---------------------
+
+Base phenotype | Visual effect of at least one Z allele
+Black | Body diluted to chocolate, liver-brown, taupe, or silvery dark brown; mane and tail commonly flaxen to silver-gray; dappling may occur. [13][27][31]
+Bay / brown | Red body remains essentially unchanged, while black mane, tail, lower legs, ear rims, and other points become silver or flaxen. [13][27][29]
+Chestnut / sorrel | No visible coat change because the coat is red-pigmented; the horse can still carry and transmit Z. [13][21][27]
+Buckskin, palomino, cremello-like combinations | Silver changes only the black component; its visibility depends heavily on the other dilution and base-color genes. [27]
+
+What silver does not do
+-----------------------
+
+There is no good evidence that PMEL silver affects:
+
+- Height or body size.
+- Speed, athletic ability, or stamina.
+- Muscle mass, muscle fiber type, or performance phenotype.
+- Bone structure, conformation, or skeletal development.
+- Hoof shape, hoof quality, or hoof pigmentation as a primary genetic effect.
+- Feathering amount or texture.
+- White markings, such as blaze, socks, or sabino-type patterning.
+
+Its confirmed effects are pigmentary—black-pigment dilution—and ocular development through the MCOA association. Claims that silver changes conformation, gait, temperament, size, or performance are not supported by the established genetic literature. [11][13][21][26]
+
+Mane and tail
+-------------
+
+Silver commonly lightens black mane and tail hair to flaxen, silver-gray, or near-white, especially on black-based horses. The effect can be less obvious on bay horses, and some horses’ manes and tails darken with age. [13][27][31]
+
+This is distinct from the flaxen trait of chestnuts: flaxen affects red pigment in chestnut manes and tails, whereas silver affects black pigment and is invisible on a chestnut coat. [13][27]
+
+Eye disease: MCOA
+-----------------
+
+MCOA is the most important non-cosmetic issue tied to silver. It is a pleiotropic effect: the same PMEL variant that dilutes black pigment is associated with developmental abnormalities of the eye. [12][13][21]
+
+- N/Z horses: Often have the milder “cyst phenotype,” including translucent cysts of the iris, ciliary body, or retina; some have few or no obvious clinical signs. [21]
+- Z/Z horses: At greater risk of severe abnormalities, including corneal enlargement, abnormal iris and/or retina, cataracts, glaucoma-like changes, impaired vision, and blindness. [13][21]
+- Chestnut carriers: May show no silver coat but can still carry Z and produce affected offspring; DNA testing is therefore important in breeds where silver occurs. [13][21]
+
+Established vs. speculative
+---------------------------
+
+Well established
+................
+
+- PMEL exon 11 Arg618Cys causes silver dilution. [13][26]
+- Silver is dominant and affects eumelanin, not pheomelanin. [11][13][27]
+- Z/Z horses have more severe MCOA than N/Z horses; the ocular effect is dosage-related. [13][21]
+- Chestnuts can carry silver without expressing it visually. [13][21][27]
+- Genetic testing can distinguish N/N, N/Z, and Z/Z. [13][21]
+
+Speculative or unresolved
+.........................
+
+- Whether additional functional PMEL alleles exist in horses. The equine silver phenotype is currently well explained by the known Z variant; no widely validated second silver-dilution allele is part of standard UC Davis-style testing. [13][26]
+- Whether modifier genes explain why some silver horses appear much lighter or darker than others. Body shade varies, but the precise modifiers have not been fully resolved. [25][29]
+- Whether all N/Z horses develop clinically meaningful eye disease. Many have cysts, but expressivity varies; “carrier but healthy-looking” does not mean free of ocular findings. [21][22]
+- Whether PMEL variation contributes to other pigmentary traits outside the recognized silver phenotype. This remains an area for further research rather than an established fact. [26]
+
+Breeds where silver is found
+----------------------------
+
+Silver occurs across many breeds but is especially associated with:
+
+- Rocky Mountain Horse
+- Kentucky Mountain Saddle Horse
+- Mountain Pleasure Horse
+- Icelandic Horse
+- Shetland Pony / American Shetland
+- American Miniature Horse
+- Morgan
+- Missouri Fox Trotter
+- Ardennes and Comtois draft breeds
+- Gypsy Cob / Gypsy Vanner
+- Welsh Pony
+- Quarter Horse, Paint Horse, Appaloosa, Saddlebred, and related breeds [21][28][29][33]
+
+The Rocky Mountain Horse and Icelandic Horse are particularly well known for silver, while Shetlands, Miniatures, and Comtois are also important populations. [22][33][34]
+
+Practical breeder guidance
+--------------------------
+
+- Test black-based breeding stock in silver-prone breeds, especially before planning Z/Z matings. [13][21]
+- Do not assume a chestnut is N/N based on appearance; chestnut masks silver. [13][21]
+- Avoid deliberately breeding Z/Z to Z/Z: all foals will inherit Z, and severe MCOA risk is dosage-related. [13][21]
+- Use ophthalmologic examination in addition to DNA testing, because genotype identifies risk but does not replace clinical eye assessment. [21][22]
+
+Simulator design notes
+----------------------
+
+For a horse-breeding simulation, model silver as:
+
+- Locus: PMEL
+- Alleles: N and Z
+- Dominance: Z dominant for visible black-pigment dilution
+- Expression gate: Visible only if the horse has at least some eumelanin; hidden on ee chestnut
+- Dosage effect: Use Z dosage for MCOA severity, not for a stronger coat dilution
+- Health trait: Link Z/Z to high severe-ocular-risk and N/Z to milder cyst-type risk
+- Non-traits: Do not tie silver to height, speed, muscle, bone, hoof shape, feathering, or white-marking genes.
+
+Key references
+--------------
+
+- UC Davis Veterinary Genetics Laboratory — Silver test: https://vgl.ucdavis.edu/test/silver
+- UC Davis Veterinary Genetics Laboratory — MCOA test: https://vgl.ucdavis.edu/test/mcoa
+- UC Davis Veterinary Genetics Laboratory — Equine coat-color genetics: https://vgl.ucdavis.edu/resources/horse-coat-color
+- Andersson et al. (2006), A missense mutation in PMEL17 is associated with the Silver coat color in the horse: https://pubmed.ncbi.nlm.nih.gov/17029645/
+- Andersson et al. (2013), Equine Multiple Congenital Ocular Anomalies and Silver Coat Colour Result from the Pleiotropic Effects of Mutant PMEL: https://pmc.ncbi.nlm.nih.gov/articles/PMC3781063/
+
+
+EARLIER NOTES, FROM THE MOD'S WIKI
+==================================
 (Copied 2026-10-12 from the Science tab of the Procedural Horse Coats wiki page for this gene.
-Written for that project: it may mention how a game models the gene. Not yet audited.)
+Written for that project: they say how a game models the gene. Where they disagree with
+the research notes above, the notes above stand.)
 
 Why it runs after agouti
 ------------------------

@@ -1,6 +1,139 @@
-Leopard complex (appaloosa) - science notes
+Leopard complex (TRPM1) - science notes
+(The owner's research notes, filed 2026-10-12. The bracketed markers point to the sources listed at the end, with their addresses.
+No source was opened by the session that filed this. genes/leopard.json was changed to match
+on the owner's word the same day; what is left over is in knowledge/known-issues.txt.
+Not yet audited.)
+
+TRPM1 (Transient Receptor Potential Cation Channel, Subfamily M, Member 1) is the gene underlying the Leopard Complex (LP) in horses. It produces a variable white-spotting phenotype and, when a horse inherits two copies of the LP allele, congenital stationary night blindness (CSNB). UC Davis Veterinary Genetics Laboratory recognizes two reportable alleles: N (normal/non-leopard) and LP (leopard complex/Appaloosa spotting). [13]
+
+Locus and mutation
+------------------
+
+- Gene: TRPM1, a calcium-permeable ion-channel gene expressed in melanocytes and retinal ON-bipolar cells. [1][13]
+- Equine chromosome: ECA1. [4][5]
+- Causal variant: a 1,378-bp endogenous-retroviral long terminal repeat (LTR) insertion in intron 1 of TRPM1. It disrupts normal TRPM1 transcription through premature polyadenylation. [2][23]
+- Inheritance: autosomal incomplete dominance for the white-spotting phenotype; the same allele is autosomal recessive for CSNB, because two copies are required for night blindness. [5][13]
+
+Alleles and phenotypes
+----------------------
+
+Genotype | UC Davis interpretation | Expected phenotype | Night vision
+N/N | No leopard-complex allele | No LP-based white pattern; cannot transmit LP | Normal for this locus [13]
+N/LP | One copy of leopard complex | Variable white patterning, usually with pigmented spots within the white areas; expression is strongly modifier-dependent | Not CSNB-affected [13]
+LP/LP | Two copies of leopard complex | Minimal to extensive white patterning with few or no pigmented spots; often “few-spot” or near-white | CSNB: inability to see in low light [13]
+
+The LP allele is necessary but not sufficient to determine the final visible pattern. The amount, placement, and contrast of white depend heavily on other loci—especially PATN1 (RFWD3)—and likely additional modifiers. [6][9]
+
+Effect on red and black pigment
+-------------------------------
+
+TRPM1/LP does not change the underlying base color genes such as MC1R (red/black extension) or ASIP (agouti). Instead, it changes where pigment-producing melanocytes function normally during development, creating white-haired, often pink-skinned regions while leaving pigmented regions intact. [1][13]
+
+- Red pigment: A chestnut N/LP horse can show leopard-complex white patterning over a red base; the spots or residual pigmented areas remain red/chestnut.
+- Black pigment: A black, bay, or buckskin N/LP horse can show the same white pattern over black-based pigment; residual spots are black or black-based according to the horse’s base-color genotype.
+- LP/LP: The white area tends to be larger and pigmented “leopard spots” are fewer or absent, regardless of whether the concealed base color is red or black. [13]
+
+Thus, LP is best modeled as a white-patterning/distribution locus, not a red-versus-black pigment-switch locus.
+
+Pattern modifiers
+-----------------
+
+The classic visible outcomes include:
+
+- Few-spot / near-leopard: usually associated with LP/LP, especially with patterning modifiers; extensive white with few spots. [13]
+- Leopard: white body with rounded pigmented spots; typically N/LP with appropriate modifiers. [13]
+- Blanket / spotted blanket: white over the hips or a larger area, with pigmented spots possible. [13]
+- Varnish roan / marbled appearance: progressive roaning and mottling associated with LP, highly variable among individuals. [13]
+- Mottled skin, striped hooves, white sclera: characteristic LP-associated traits, though none is individually diagnostic. [13]
+
+PATN1 is the best-established major modifier of white-pattern extent. Horses carrying LP plus PATN1 are more likely to show large blankets or leopard-like coverage than LP horses without it. [6][9]
+
+Health effects
+--------------
+
+Congenital stationary night blindness
+.....................................
+
+Horses with LP/LP have CSNB from birth. The TRPM1 insertion impairs signaling in retinal ON-bipolar cells, which are essential for transmitting rod-mediated visual information in dim light. [13][20]
+
+CSNB is stationary: it does not usually progress like degenerative retinal disease, but affected horses have permanently reduced low-light vision. UC Davis notes that the LP test provides a definitive diagnosis at any age. [20]
+
+Equine recurrent uveitis
+........................
+
+UC Davis also identifies LP/LP horses as being at elevated risk for equine recurrent uveitis (ERU), a potentially vision-threatening inflammatory eye disease. Testing therefore has management value beyond coat-pattern prediction. [13]
+
+What it does not affect
+-----------------------
+
+There is no well-established evidence that TRPM1/LP directly determines:
+
+- Height or overall body size.
+- Speed, racing performance, or athletic ability.
+- Muscle mass, muscle fiber type, or strength.
+- Bone structure, conformation, or skeletal development.
+- Hoof shape or hoof quality.
+- Feathering on the lower legs.
+- Mane or tail color, beyond the ordinary consequence that white-patterned regions can include mane/tail hair.
+- Base coat color, i.e., whether the horse is red-based or black-based.
+
+Its confirmed direct effects are melanocyte patterning and retinal ON-bipolar-cell function. Claims that leopard complex inherently creates superior or inferior athletic ability are not supported as direct effects of TRPM1. [1][13]
+
+Breeds where it occurs
+----------------------
+
+UC Davis lists appropriate breeds for LP testing as:
+
+- Appaloosa
+- British Spotted Pony
+- Australian Spotted Pony
+- Knabstrupper
+- Noriker
+- Miniature Horse
+- Pony of the Americas
+- Other spotted or Appaloosa-derived populations [13]
+
+The mutation has also been documented across multiple breeds in the original association study, and ancient-DNA evidence indicates the LP-associated insertion has existed in the horse gene pool for at least roughly 17,000 years. [2][23]
+
+Established facts vs. speculation
+---------------------------------
+
+Topic | Status
+TRPM1 causes LP spotting | Established: a 1,378-bp LTR insertion is completely associated with LP in tested horses. [2][13]
+LP/LP causes CSNB | Established: UC Davis and peer-reviewed studies identify homozygous LP as CSNB-causing. [13][20]
+LP is incompletely dominant for spotting | Established: one versus two copies produce different pattern severity. [13]
+PATN1 modifies pattern extent | Well supported: it is a major known modifier, but it does not explain every pattern. [6][9]
+Additional pattern modifiers exist | Likely but incompletely resolved: pattern expression remains variable beyond LP and PATN1. [6][9]
+LP directly affects height, speed, muscle, bone, hooves, feathering, or mane/tail color | Not established as direct effects. [1][13]
+Every visually “Appaloosa-looking” horse carries LP | Not established: some white patterns can resemble leopard complex; DNA testing is needed for genotype. [13]
+
+Future science
+--------------
+
+Important open questions include:
+
+- Identifying the full set of modifiers that determine whether an N/LP horse is minimally marked, blanket-spotted, varnish-roan, or leopard.
+- Clarifying why LP/LP horses vary so widely in the amount of white despite sharing the same TRPM1 genotype.
+- Better quantifying the relationship between LP, PATN1, and ERU risk.
+- Understanding whether other rare TRPM1 or pathway variants could alter pigmentation or vision; currently, the horse LP test is based on the known LTR insertion rather than a broad family of validated TRPM1 alleles. [2][13][20]
+
+For a genetics simulation, the practical model is: TRPM1 = LP presence and dosage, PATN1 = major white-coverage modifier, base-color genes = pigment color within pigmented regions, and LP/LP = mandatory CSNB plus elevated ERU risk.
+
+References
+----------
+
+- UC Davis VGL, “Leopard Complex, Congenital Stationary Night Blindness, and Uveitis”: https://vgl.ucdavis.edu/test/leopard-complex [13]
+- UC Davis Center for Equine Health, “Congenital Stationary Night Blindness”: https://ceh.vetmed.ucdavis.edu/health-topics/congenital-stationary-night-blindness-csnb [20]
+- Bellone et al., PLoS ONE (2013), retroviral insertion in TRPM1: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0078280 [2]
+- Bellone et al., fine-mapping of TRPM1 (2010): https://pubmed.ncbi.nlm.nih.gov/20353955/ [12]
+- OMIA entries for leopard complex spotting and CSNB: https://omia.org/OMIA002139/9796/ and https://omia.org/OMIA001341/9796/ [4][5]
+
+
+EARLIER NOTES, FROM THE MOD'S WIKI
+==================================
 (Copied 2026-10-12 from the Science tab of the Procedural Horse Coats wiki page for this gene.
-Written for that project: it may mention how a game models the gene. Not yet audited.)
+Written for that project: they say how a game models the gene. Where they disagree with
+the research notes above, the notes above stand.)
 
 Why the modifiers are separate genes
 ------------------------------------

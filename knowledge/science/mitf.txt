@@ -1,6 +1,166 @@
 MITF (splash white) - science notes
+(The owner's research notes, filed 2026-10-12. The bracketed markers point to the sources listed at the end, with their addresses.
+No source was opened by the session that filed this. genes/mitf.json was changed to match
+on the owner's word the same day; what is left over is in knowledge/known-issues.txt.
+Not yet audited.)
+
+MITF (microphthalmia-associated transcription factor) is best known in horses as a white-spotting gene: several of its variants cause splashed white patterns. It does not determine base coat color (red versus black), but by disrupting melanocyte development or function it can remove pigment from the base coat, producing extensive white markings or an almost-white horse. [cite:15][cite:13]
+
+What MITF does
+--------------
+
+MITF encodes a basic helix-loop-helix leucine-zipper transcription factor that regulates melanocyte survival, differentiation, and melanosome/pigment production. In practical terms, it helps pigment cells develop and function; harmful variants can reduce or eliminate pigment in patches of the coat. [cite:10][cite:4]
+
+In horses, the important phenotype associated with MITF is splashed white: a variable white pattern often including a broad/blunt facial blaze, white legs, white on the belly, and blue eyes. [cite:15][cite:18]
+
+MITF and red/black pigment
+--------------------------
+
+MITF is not the horse extension locus and does not decide whether the underlying coat is chestnut/red or black-based. It acts downstream of, or alongside, the pigment-cell machinery: a horse can carry MITF white-spotting variants over any base color, including chestnut, bay, black, buckskin, palomino, gray, and so on. [cite:15][cite:13]
+
+- Red pigment: MITF variants can leave red areas intact while adding white facial, leg, and body spotting.
+- Black pigment: The same principle applies; black-based horses with MITF variants may show black remaining on the ears, mane/tail roots, or other residual pigmented areas.
+- White areas: These are unpigmented skin/hair caused by loss or malfunction of melanocytes in those regions, not by dilution of red or black pigment. [cite:13][cite:15]
+
+Known MITF alleles
+------------------
+
+UC Davis recognizes eight splashed-white variants, SW1–SW8. Of these, SW1, SW3, SW5, SW6, SW7, and SW8 are MITF variants; SW2 and SW4 are PAX3 variants and therefore belong to a different locus despite producing a similar phenotype. [cite:15]
+
+Allele | Gene | Main known population | Notes
+SW1 | MITF | Widespread: Quarter Horse, Paint, Appaloosa, Morgan, Miniature Horse, Icelandic, Welsh, Shetland, Gypsy Cob, Dutch Warmblood, Knabstrupper, Trakehner, Thoroughbred, Pony of the Americas | A 10-bp insertion in the melanocyte-specific promoter; the most widespread SW variant. [cite:15][cite:17]
+SW3 | MITF | Quarter Horse / Paint Horse families | Frameshift variant in exon 5; rare and family-limited. [cite:15][cite:17]
+SW5 | MITF | Paint Horse | 63-kb deletion involving exons 6–9; reported with increased deafness risk. [cite:17][cite:19]
+SW6 | MITF | Originally identified in a de novo case | Reported as a novel de novo MITF variant causing splashed white. [cite:17]
+SW7 | MITF | Quarter Horse / Paint Horse | Recognized by UC Davis as an MITF splashed-white variant. [cite:15]
+SW8 | MITF | Thoroughbred | A de novo 2.3-kb deletion affecting exon 9 and part of the helix-loop-helix DNA-binding domain; documented in a Thoroughbred family and associated with an almost-white, deaf foal in the reported family. [cite:12][cite:16]
+
+UC Davis lists the inheritance of splashed white as autosomal dominant with variable expression: one copy can produce spotting, but the amount of white varies substantially between individuals. [cite:15]
+
+Possible but unconfirmed alleles
+--------------------------------
+
+The allele list is still expanding, and naming can vary between laboratories.
+
+- SW9 has been described commercially as an MITF variant in Pura Raza Española (PRE) horses, with a “dipped-in-paint” appearance and sharp-edged white markings. It is not part of UC Davis’s current SW1–SW8 test list in the materials cited here, so treat it as a newer or laboratory-specific designation pending broad peer-reviewed/registry consensus. [cite:25][cite:15]
+- Additional rare MITF or MITF-pathway variants may exist but remain unpublished, breed-limited, or insufficiently validated for routine genetic testing.
+- Some white patterns historically called “splashed” may instead be caused by other white-spotting genes, including KIT dominant white variants or PAX3 variants. [cite:21][cite:15]
+
+Homozygosity and combinations
+-----------------------------
+
+Because SW1, SW3, SW5, SW6, SW7, and SW8 are all at MITF, a horse normally carries at most one of these MITF splashed-white alleles on each of its two chromosome copies. However, it can carry an MITF variant and also carry a PAX3 variant, because those genes are different loci. [cite:15]
+
+Genotype pattern | Expected interpretation
+N/N | No tested MITF splashed-white variant detected. [cite:15]
+N/SW1, N/SW3, etc. | One MITF splashed-white allele; variable white pattern, often broad blaze, white legs, possible blue eyes. [cite:15][cite:18]
+SW1/SW1 | Two copies of SW1; often more extensive white than one copy, though expression remains variable. [cite:19]
+SW1/SW2 or SW1/SW4 | One MITF variant plus one PAX3 variant; possible stronger/more extensive depigmentation because two different spotting loci are involved. [cite:15][cite:13]
+SW3/SW3, SW5/SW5, etc. | Biologically possible in principle, but rare or poorly documented for most non-SW1 MITF variants; avoid assuming a consistent phenotype. [cite:19]
+
+The original MITF/PAX3 study found that carrying both MITF^prom1 (now commonly called SW1) and PAX3^C70Y (SW2) produced more facial depigmentation on average than either allele alone. [cite:13]
+
+Deafness and health
+-------------------
+
+Some splashed-white horses—especially those with certain MITF variants or combinations of white-spotting variants—can be deaf. This occurs because the same melanocyte-development pathway is important in parts of the inner ear. [cite:12][cite:17]
+
+- UC Davis notes that splashed white “may be accompanied by deafness,” rather than claiming every SW horse is deaf. [cite:15]
+- SW5 has been specifically reported as carrying increased deafness risk. [cite:19]
+- The SW8 Thoroughbred study reported a nearly all-white SW8 foal that was confirmed deaf; that foal also carried dominant-white KIT variants, illustrating that multiple spotting variants can complicate phenotype and health risk. [cite:12]
+- Deafness risk should be treated as variant-, combination-, and individual-dependent—not as a universal consequence of every MITF carrier.
+
+What MITF does not affect
+-------------------------
+
+There is no well-established evidence that MITF splashed-white variants directly control:
+
+- Height
+- Speed or athletic ability
+- Muscle mass or muscle fiber type
+- Bone structure
+- Hoof shape or hoof quality
+- Feathering
+- Mane or tail color, except that white spotting can make portions of mane or tail white where the underlying skin/hair is depigmented
+- Temperament
+
+MITF’s established equine role is pigment-cell development and white patterning. Claims that it improves performance, changes conformation, or creates a distinct “type” are not supported by the cited equine genetic literature. [cite:15][cite:13]
+
+Breeds where MITF variants occur
+--------------------------------
+
+SW1 is by far the broadest MITF splashed-white variant. UC Davis reports it in Quarter Horses, Appaloosas, Paint Horses, Morgans, Trakehners, Miniature Horses, Shetland Ponies, Dutch Warmbloods, Gypsy Cobs, Welsh Ponies, Knabstruppers, and Icelandic Horses, among others. [cite:15]
+
+Variant | Breeds most associated with it
+SW1 | Many breeds; especially Quarter Horse-related breeds, Paints, Appaloosas, Morgans, Miniature Horses, Icelandic Horses, Welsh and Shetland Ponies, Gypsy Cobs, warmbloods, and Knabstruppers. [cite:15]
+SW3 | Quarter Horse and Paint Horse. [cite:15]
+SW5 | Paint Horse. [cite:15][cite:17]
+SW6 | Originally a de novo finding; breed association is limited by the small number of reported cases. [cite:17]
+SW7 | Quarter Horse and Paint Horse. [cite:15]
+SW8 | Thoroughbred. [cite:15][cite:16]
+SW9, if validated | Pura Raza Española, according to a commercial testing description; not included in the UC Davis SW1–SW8 list cited here. [cite:25][cite:15]
+
+Established facts vs. speculation
+---------------------------------
+
+Well established
+................
+
+- MITF is a transcription factor central to melanocyte development and pigmentation. [cite:10]
+- SW1, SW3, SW5, SW6, SW7, and SW8 are MITF variants associated with splashed white in horses. [cite:15]
+- Splashed white is inherited dominantly with variable expression. [cite:15]
+- The phenotype commonly includes broad facial white, leg white, belly white, and blue eyes. [cite:15][cite:18]
+- Some MITF-related splashed-white horses can be deaf. [cite:12][cite:15]
+- MITF variants can occur across many base colors and do not determine red versus black pigment. [cite:13][cite:15]
+
+Speculative or unresolved
+.........................
+
+- Exactly how much white each genotype will produce: expression is highly variable. [cite:15]
+- The precise deafness risk for every MITF allele and every combination of white-spotting alleles. [cite:12]
+- Whether SW9 and other proposed variants will receive universal nomenclature and routine UC Davis testing. [cite:25][cite:15]
+- Whether as-yet-undiscovered MITF variants explain additional “splashy” phenotypes in other breeds. [cite:11][cite:12]
+
+Future science
+--------------
+
+Future work is likely to focus on:
+
+1. Discovering additional MITF variants, particularly in breeds with unexplained splash-like patterns. More than 40 white-spotting alleles across multiple genes had already been associated with increased white spotting by early 2023. [cite:11]
+2. Clarifying genotype–phenotype relationships, especially why two horses with the same SW allele can look very different.
+3. Quantifying deafness risk by allele, zygosity, and combinations with PAX3 or KIT variants. [cite:12]
+4. Resolving nomenclature, since commercial laboratories may introduce labels such as SW9 before they are broadly adopted by academic and registry testing panels. [cite:25][cite:15]
+5. Breeding guidance, especially avoiding combinations known or suspected to raise deafness risk while recognizing that most SW1 carriers are viable and visually variable. [cite:15][cite:19]
+
+Simulator design notes
+----------------------
+
+For a horse-breeding simulator, model MITF as a white-pattern locus, not as a base-color locus.
+
+- Use MITF alleles such as N, SW1, SW3, SW5, SW6, SW7, and optionally SW8.
+- Treat each as dominant/incompletely dominant for white expression.
+- Let SW1 have a dosage effect: SW1/SW1 generally produces more white than N/SW1. [cite:19]
+- Allow one MITF SW allele per chromosome, but allow an MITF allele to coexist with a PAX3 SW allele. [cite:15]
+- Apply a separate randomized “white expression” modifier so genetically identical SW carriers can range from ordinary broad markings to extensive body white.
+- Add a small, variant-specific deafness probability, with higher risk for SW5 and for certain multi-locus white combinations; do not make every SW horse deaf. [cite:19][cite:12]
+- Keep MITF visually independent of chestnut/black, but render white over whatever base color and dilution genes are present.
+
+Sources
+-------
+
+- UC Davis Veterinary Genetics Laboratory, Splashed White Mutations – SW1, SW2, SW3, SW4, SW5, SW6, SW7, SW8: https://vgl.ucdavis.edu/test/splashed-white [cite:15]
+- UC Davis VGL, VGL researchers identify a novel Splashed White variant (SW8): https://vgl.ucdavis.edu/news/vgl-researchers-identify-sw8 [cite:16]
+- UC Davis VGL, APHA White Pattern Registration Eligibility Panel: https://vgl.ucdavis.edu/test/apha-white-pattern-panel [cite:18]
+- Hauswirth et al., Mutations in MITF and PAX3 Cause “Splashed White” and Other White Spotting Phenotypes in Horses, PLOS Genetics, 2012: https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1002653 [cite:13]
+- Henkel et al., A De Novo MITF Deletion Explains a Novel Splashed White Phenotype, 2020: https://pmc.ncbi.nlm.nih.gov/articles/PMC7238438/ [cite:17]
+- A de novo 2.3 kb structural variant in MITF explains a novel splashed white phenotype in a Thoroughbred family, Animal Genetics, 2023: https://onlinelibrary.wiley.com/doi/full/10.1111/age.13352 [cite:12]
+
+
+EARLIER NOTES, FROM THE MOD'S WIKI
+==================================
 (Copied 2026-10-12 from the Science tab of the Procedural Horse Coats wiki page for this gene.
-Written for that project: it may mention how a game models the gene. Not yet audited.)
+Written for that project: they say how a game models the gene. Where they disagree with
+the research notes above, the notes above stand.)
 
 Why splash is two genes
 -----------------------

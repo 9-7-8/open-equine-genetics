@@ -1,6 +1,228 @@
-RYR2 (jumping) - science notes
+RYR2 - science notes
+(The owner's research notes, filed 2026-10-12. The bracketed markers ([web:1]) point to the sources that research used; the list of
+those sources was not supplied with the document, so no address can be given here.
+No source was opened by the session that filed this. genes/ryr2.json was changed to match
+on the owner's word the same day; what is left over is in knowledge/known-issues.txt.
+Not yet audited.)
+
+Overview
+--------
+
+RYR1 (ryanodine receptor 1) encodes a calcium-release channel in skeletal muscle. When a nerve signals a muscle fiber to contract, RYR1 releases calcium from the sarcoplasmic reticulum; that calcium rise drives contraction. [2][4]
+
+RYR2 (ryanodine receptor 2) is the corresponding calcium-release channel in cardiac muscle. It coordinates calcium release during each heartbeat and is central to normal cardiac rhythm. [4][12][16]
+
+In horses, RYR1 has one clinically established disease allele, reported by UC Davis as MH. RYR2 is not currently associated with a validated horse-specific coat, conformation, performance, or disease allele, although equine cardiac-genetics research is actively investigating inherited arrhythmia risk. [17][18][26][38]
+
+RYR1: established facts
+-----------------------
+
+Gene function
+.............
+
+RYR1 is the predominant ryanodine-receptor isoform in mammalian skeletal muscle. It sits in the membrane of the sarcoplasmic reticulum and releases stored calcium into the muscle-cell cytoplasm during excitation–contraction coupling. [2][4]
+
+The equine disease variant is a missense change conventionally described as:
+
+- Gene: RYR1
+- Variant: c.7360C>G
+- Protein change: p.Arg2454Gly / p.R2454G
+- UC Davis allele name: MH
+- Inheritance: autosomal dominant
+
+One copy of MH is sufficient to create risk; affected horses can experience life-threatening reactions under anesthesia or, less predictably, during major stress, illness, breeding, or excitement. [11][14][17][19]
+
+Known alleles
+.............
+
+Allele | Status | Molecular effect | Clinical effect
+N | Normal / wild type | Normal RYR1 calcium-channel function | No MH risk attributable to RYR1
+MH | Pathogenic, established | Arginine-to-glycine substitution at RYR1 position 2454; excessive skeletal-muscle calcium release | Malignant hyperthermia; muscle contracture, hyperthermia, rhabdomyolysis, irregular heart rhythm, and possible death after triggers such as halogenated anesthetics or succinylcholine [11][17][19]
+
+No other equine RYR1 allele is currently offered as a validated UC Davis diagnostic test. Rare RYR1 variation may exist across the genome, but “variant exists” is not the same as “allele is validated as causal or clinically actionable.”
+
+Genotypes and risk
+..................
+
+Genotype | Practical interpretation
+N/N | No MH allele detected; routine anesthesia planning still depends on the individual horse’s health and veterinary assessment.
+N/MH | Heterozygous; at risk for malignant hyperthermia and stress/exertion-associated rhabdomyolysis with hyperthermia. [17][19]
+MH/MH | No confirmed live homozygote has been reported in large-scale testing. UC Davis notes that homozygotes remain undetected, raising the possibility that two copies may be embryonic or early lethal, but this remains unproven. [18]
+
+What RYR1-MH does
+.................
+
+MH is a hypermetabolic skeletal-muscle crisis. The mutant channel releases too much calcium, increasing muscle metabolism, heat production, contracture, and muscle damage. UC Davis identifies halogenated anesthetics and succinylcholine as major triggers, with stress or excitement occasionally triggering episodes as well. [17][19]
+
+Reported signs include:
+
+- Markedly elevated body temperature
+- Muscle rigidity or contracture
+- Muscle breakdown / rhabdomyolysis
+- Irregular heart rhythm
+- Collapse or death in severe episodes [17][19]
+
+In the 2025 large-scale study, more than half of clinically evaluated N/MH horses had died from anesthesia-induced MH or severe acute rhabdomyolysis with hyperthermia. [11][25]
+
+Breeds where RYR1-MH occurs
+...........................
+
+The MH allele is concentrated in the American Quarter Horse family and related stock-horse breeds:
+
+Breed / population | Finding
+American Quarter Horse | Primary source population; allele frequency about 0.0013, or roughly 1 in 1,000 alleles. [11][18]
+American Paint Horse | MH detected; frequency about 0.0012. [11][18]
+Appaloosa | MH detected at very low frequency, about 0.0012. [11][18]
+Quarter Horse crosses | Detected, including a reported QH-Clydesdale cross; risk follows Quarter Horse ancestry rather than the other parent breed. [11]
+
+In a study of more than 159,000 horses across 16 breeds, MH was found only in Quarter Horses, Paints, Appaloosas, and a Quarter Horse cross—not in the other breeds tested. [18]
+
+RYR1 and PSSM
+.............
+
+RYR1-MH can occur alongside PSSM1, the common equine muscle-disease allele in GYS1. Research indicates that RYR1-MH can worsen the clinical phenotype in some PSSM1-affected horses, but RYR1 is not the cause of PSSM1. [20][23]
+
+For a simulator, treat these as separate loci:
+
+- GYS1 / PSSM1: glycogen-storage myopathy
+- RYR1 / MH: calcium-channel myopathy and anesthesia/stress crisis risk
+- Combined presence: possible more severe muscle-disease presentation in some individuals [20][23]
+
+RYR1: what it does not do
+-------------------------
+
+There is no good evidence that RYR1-MH determines:
+
+- Red or black pigment: RYR1 is not a pigment gene. Red versus black base color is governed by MC1R and its interaction with ASIP, not RYR1.
+- Mane or tail color: No established effect.
+- White patterning: No established effect.
+- Height: No established direct effect.
+- Bone structure: No established direct effect.
+- Hoof shape: No established direct effect.
+- Feathering: No established effect.
+- Coat texture or curl: No established effect.
+
+RYR1 affects skeletal-muscle calcium handling, so its meaningful visible or performance-related effects are muscle-cramping, heat intolerance under trigger conditions, rhabdomyolysis, and potentially exercise intolerance or poor recovery—not a predictable “speed gene,” body-type gene, or pigment modifier. [2][4][17][19]
+
+Speed and athletic performance
+..............................
+
+RYR1 is not a validated “speed allele” in horses. Its relevance to performance is chiefly negative or conditional: an N/MH horse may be apparently normal until anesthesia, illness, breeding stress, excitement, or another trigger precipitates an episode. [17][19]
+
+Do not model MH as a bonus to speed, stamina, muscle mass, or power. A more accurate simulation is:
+
+- N/N: no RYR1-MH risk
+- N/MH: normal-looking horse, but high-risk medical event under specified triggers
+- MH/MH: unknown because no confirmed living homozygote has been reported; if included, label it speculative rather than established [18]
+
+RYR2: established facts
+-----------------------
+
+Gene function
+.............
+
+RYR2 encodes the cardiac ryanodine receptor, the main calcium-release channel in cardiomyocytes. It enables the calcium-induced calcium release needed for coordinated heart contraction. [4][12][16]
+
+In humans, pathogenic RYR2 variants are strongly associated with catecholaminergic polymorphic ventricular tachycardia (CPVT), an exercise- or stress-triggered arrhythmia, and with some cardiomyopathies. [12][16][27]
+
+Equine status: no validated allele
+..................................
+
+For horses, there is currently no established RYR2 allele equivalent to RYR1-MH—no widely accepted causal variant, breed-associated allele name, inheritance model, or UC Davis diagnostic test. UC Davis’s horse test catalog includes RYR1-MH in Quarter Horse-related disease testing, but not an equine RYR2 disease test. [17][19][28][32]
+
+That does not mean RYR2 is irrelevant in horses. It means the horse-specific evidence is incomplete.
+
+Equine arrhythmia research
+..........................
+
+Cardiac arrhythmias are considered an important contributor to sudden death in racehorses, and researchers are working to identify genetic risk factors and develop screening tools. [26][38]
+
+Current equine findings should be described cautiously:
+
+- Researchers have identified variants in arrhythmia-associated genes in small groups of Standardbred racehorses with atrial fibrillation. [38]
+- These variants are candidate variants, not established causal equine RYR2 alleles.
+- A genetic screening test for equine arrhythmia risk is still a research goal rather than a settled commercial diagnostic standard. [26][38]
+- The University of Minnesota has reported that roughly half of healthy racing Thoroughbreds experience some arrhythmia during exercise, illustrating why genetics alone cannot yet predict cardiac risk. [26]
+
+RYR2: speculation and future science
+------------------------------------
+
+The reasonable scientific expectation is that RYR2 variation could influence equine cardiac rhythm, exercise tolerance, recovery, and susceptibility to arrhythmia or sudden cardiac death. But the evidence does not yet support assigning horses a specific RYR2 phenotype or breeding value.
+
+Important open questions include:
+
+- Are there horse-specific RYR2 variants that cause CPVT-like exercise-induced arrhythmias?
+- Do variants explain a subset of atrial fibrillation in Standardbreds, Thoroughbreds, or other racehorses?
+- Are some variants breed-specific, de novo, rare, or polygenic in effect?
+- Can RYR2-related risk be separated from training, electrolyte status, cardiac structure, and other genetic factors?
+- Would a RYR2 variant be dominant, recessive, additive, or variable in penetrance?
+
+For a genetics simulator, the defensible approach is to keep RYR2 as either:
+
+1. Absent from gameplay genetics, or  
+2. A research/hidden-risk trait, clearly labeled as speculative, with no established allele names or inheritance rules.
+
+Pigment, conformation, and traits
+---------------------------------
+
+Trait | RYR1 effect | RYR2 effect
+Red / black pigment | None established | None established
+Mane or tail color | None established | None established
+White markings or patterns | None established | None established
+Height | None established | None established
+Muscle mass | No established conformational effect; MH affects muscle function, not predictable size | None established
+Speed | No established positive effect; risk of exercise-associated crisis in N/MH horses | Not established in horses
+Stamina | No established direct effect; severe episodes can be fatal | Plausibly relevant to cardiac performance, but unproven in horses
+Bone structure | None established | None established
+Hoof shape | None established | None established
+Feathering | None established | None established
+Coat color modifiers | None established | None established
+
+Testing and breeding guidance
+-----------------------------
+
+UC Davis offers RYR1-MH testing and includes it in Quarter Horse and related-breed disease panels; the test is also part of AQHA five-panel requirements for breeding animals. [17][19][32]
+
+Practical recommendations:
+
+- Test Quarter Horses, Paints, Appaloosas, and horses with relevant Quarter Horse ancestry before breeding or anesthesia planning.
+- Treat N/MH as a serious health-risk genotype, not merely a “carrier” state, because one copy can cause disease. [17][19]
+- Avoid mating two N/MH horses unless a veterinarian and genetic counselor-equivalent expertise are involved; a MH/MH foal is theoretically possible but no confirmed live homozygote has been reported. [18]
+- Do not use RYR1 status to select for speed, muscle, color, height, or conformation.
+- Do not present RYR2 as a known equine disease allele until a validated horse-specific variant and test exist.
+
+Simulator implementation notes
+------------------------------
+
+For a horse-breeding simulation, use this model:
+
+  RYR1 locus
+    N   = normal
+    MH  = malignant hyperthermia allele
+  
+  N/N     -> no MH risk
+  N/MH    -> affected-risk; anesthesia/stress crisis possible
+  MH/MH   -> unknown; either exclude, mark lethal/speculative,
+             or require an explicit alternate-universe setting
+  
+  RYR2 locus
+    No established equine allele
+    Best modeled as absent, or as a clearly labeled
+    speculative cardiac-risk modifier
+
+RYR1 belongs in the health and medical-risk category, not the coat-color or conformation category. RYR2 belongs in future cardiac-genetics research, not yet in a factual allele catalog.
+
+Key distinction
+---------------
+
+RYR1-MH is real, testable, dangerous, and Quarter Horse-family associated. RYR2 is real and important to heart function, but no validated equine RYR2 allele has been established. The strongest current sources are UC Davis for RYR1-MH testing and recent large-scale equine genotyping work; equine RYR2 remains an active research frontier. [17][18][19][26][38]
+
+
+EARLIER NOTES, FROM THE MOD'S WIKI
+==================================
 (Copied 2026-10-12 from the Science tab of the Procedural Horse Coats wiki page for this gene.
-Written for that project: it may mention how a game models the gene. Not yet audited.)
+Written for that project: they say how a game models the gene. Where they disagree with
+the research notes above, the notes above stand.)
 
 Why jump strength exists now and did not before
 -----------------------------------------------

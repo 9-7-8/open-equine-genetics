@@ -1,6 +1,157 @@
 LAMA3 - science notes
+(The owner's research notes, filed 2026-10-12. The bracketed markers point to the sources listed at the end, which are named there
+without addresses.
+No source was opened by the session that filed this. genes/lama3.json was changed to match
+on the owner's word the same day; what is left over is in knowledge/known-issues.txt.
+Not yet audited.)
+
+LAMA3 is not a classical horse coat-color locus. It encodes the alpha-3 chain of laminin-332 (historically called laminin-5), a basement-membrane protein that anchors the epidermis to the underlying dermis. In horses, the best-established LAMA3 variant causes junctional epidermolysis bullosa type 2 (JEB2), a recessive, fatal blistering disease primarily associated with American Saddlebreds and related breeds. It does not have a validated role in producing red versus black pigment. [11][14]
+
+Gene and protein function
+-------------------------
+
+- LAMA3 encodes the alpha-3 subunit of laminin-332, one of three chains in the laminin-332 heterotrimer; the beta-3 and gamma-2 chains are encoded by LAMB3 and LAMC2, respectively. [11]
+- Laminin-332 is a major component of the dermal–epidermal basement membrane. It helps maintain adhesion between the epidermis and dermis, particularly in skin and mucosal tissues. [11][14]
+- Because the protein is structural rather than enzymatic or pigment-regulatory, pathogenic variants tend to affect skin integrity, mucous membranes, hooves, and neonatal survival, rather than melanin synthesis directly. [11][14]
+
+Established alleles
+-------------------
+
+Allele / test name | Molecular change | Inheritance | Phenotype
+N (normal / wild type) | No pathogenic JEB2 deletion | Dominant normal allele | Normal skin and mucosal integrity
+J2 (JEB2; also called JEB-LAMA3) | 6,589-bp deletion spanning exons 24–27 of LAMA3 | Autosomal recessive | Homozygotes develop fatal junctional epidermolysis bullosa
+J2/J2 | Two copies of the deletion | Recessive disease genotype | Severe skin and mucosal blistering; affected foals are not viable long-term
+N/J2 | One copy of the deletion | Carrier | Clinically normal carrier; can transmit J2 to 50% of offspring
+
+The J2 allele was identified in American Saddlebred foals with epitheliogenesis imperfecta/hereditary junctional epidermolysis bullosa. The deletion removes exons 24–27 and produces a nonfunctional laminin-332 protein. [11][15][23]
+
+Inheritance
+-----------
+
+JEB2 is autosomal recessive: a foal must inherit one J2 allele from each parent to be affected. [14][15]
+
+mating | expected foals
+N/N × N/N | 100% N/N
+N/N × N/J2 | 50% N/N, 50% N/J2
+N/J2 × N/J2 | 25% N/N, 50% N/J2, 25% J2/J2
+N/J2 × J2/J2 | 50% N/J2, 50% J2/J2
+J2/J2 × J2/J2 | 100% J2/J2
+
+UC Davis notes that N/J2 carriers are clinically normal, while J2/J2 foals develop the fatal disease; two carriers produce a 25% affected-foal risk per pregnancy. [14]
+
+Relationship to red and black pigment
+-------------------------------------
+
+LAMA3 is not the Extension/MC1R locus and is not currently a validated determinant of red versus black pigment.
+
+- Red pigment is pheomelanin; black pigment is eumelanin.
+- The principal base-color switch is governed by Extension (MC1R): recessive e and rare e^a alleles permit red pigment only, while functional E permits black pigment production. [13][18]
+- Agouti (ASIP) then controls the distribution of black pigment, producing bay rather than uniform black in horses with at least one functional A allele. [19]
+- LAMA3 variants can indirectly make pigment appear altered in affected foals because blistering, ulceration, hair loss, and poor hoof/skin development can damage or remove pigmented tissue. That is a secondary tissue-integrity effect, not a pigment-switching allele.
+
+For a breeding-simulation model, represent LAMA3 as a health/structural trait, not as a base-color locus. A J2/J2 foal may have compromised skin, mucosa, and hooves, but LAMA3 should not be coded as changing E/e, A/a, cream, dun, silver, champagne, or white-spotting genotype expression.
+
+Clinical effects
+----------------
+
+JEB2/J2 homozygosity causes fragile skin and mucous membranes. Reported signs include blisters or erosions of skin and oral mucosa; the condition is fatal, and affected foals do not survive to adulthood. [11][14][15]
+
+Potential/expected structural consequences of loss of laminin-332 function include:
+
+- Skin blistering and ulceration after minor friction or trauma. [11][15]
+- Oral, nasal, and other mucosal lesions. [14][15]
+- Hoof-wall and coronary-band involvement is plausible because laminin-332 is important for epithelial–dermal adhesion, but the defining, well-documented presentation is severe neonatal JEB rather than a mild hoof-shape trait. [11][14]
+- Failure to thrive and death in affected foals. [14]
+
+Does LAMA3 affect other traits?
+-------------------------------
+
+Trait | Established LAMA3 effect? | Assessment
+Red vs. black base pigment | No | No validated LAMA3 allele switches eumelanin/pheomelanin production; Extension/MC1R performs that role. [13][18]
+Bay vs. black distribution | No | That is primarily Agouti/ASIP. [19]
+Coat-color dilution | No | Cream, champagne, dun, silver, and related dilutions are governed by other loci. [13]
+Mane or tail color | No direct evidence | Mane/tail color follows the same melanin pathways as body coat; LAMA3 is not a known mane/tail-color gene.
+Height | No established effect | No credible evidence links JEB2/LAMA3 genotype to equine height.
+Speed or athletic performance | No established effect | Any apparent performance effect would be confounded by breed, training, and the lethality of J2/J2.
+Muscle mass or conformation | No established effect | LAMA3 is a basement-membrane/adhesion gene, not a known muscle-development or conformation gene.
+Bone structure | No established effect | No validated association with skeletal morphology.
+Hoof shape | No established effect on normal variation | Severe disease can damage hooves/epithelial structures in J2/J2 foals, but J2 is not a validated hoof-shape allele. [11][14]
+Feathering | No | Feathering is not attributed to LAMA3.
+Skin and mucosal integrity | Yes | This is the core, established function. [11][14]
+Neonatal viability | Yes | J2/J2 is fatal. [14]
+
+Breed distribution
+------------------
+
+- American Saddlebred is the breed most clearly associated with the LAMA3 J2 deletion. The original molecular study identified the 6,589-bp deletion in affected Saddlebred foals and found carriers among randomly tested 2007 Saddlebred foals. [11]
+- UC Davis describes the J2 variant as found in Saddlebreds and related breeds, while the separate Belgian JEB variant is in LAMC2, not LAMA3. [14]
+- The disease is often called JEB2 in American Saddlebreds; JEB1 is the analogous recessive disease of Belgians and related draft breeds caused by a LAMC2 variant. [14][23]
+- Carrier frequency estimates are historical and population-specific. The original study reported 9 carriers among 175 randomly selected 2007 American Saddlebred foals, approximately 5.1%; UC Davis’s test page emphasizes that carrier status, not breed alone, determines risk. [11][14]
+
+Speculation and controversy
+---------------------------
+
+There is little scientific controversy about the core finding: the Saddlebred JEB2 deletion in LAMA3 is causal for that form of junctional epidermolysis bullosa. The uncertainty lies mainly in scope and annotation:
+
+- “LAMA3 locus” terminology: Some lay and commercial sources loosely call this a “locus,” but in coat-color genetics “locus” usually implies a recognized allelic series affecting phenotype. LAMA3 is better described as a disease-associated gene with one major validated pathogenic equine variant.
+- Possible additional LAMA3 variants: Human JEB can arise from many variants in LAMA3, LAMB3, or LAMC2. It is plausible that additional equine LAMA3 variants exist or will be discovered, but they are not established horse alleles unless independently validated and made available through a diagnostic test. [11][14]
+- Modifier speculation: Breeders and online communities sometimes speculate that skin-fragility genes could modify white markings, hoof quality, or coat appearance. There is no robust evidence that J2 modifies normal white-pattern genes, feathering, or coat-color dilutions.
+- Naming confusion: JEB1 and JEB2 are sometimes conflated because both produce clinically similar fatal blistering disease. They are genetically distinct: JEB1 is LAMC2, while JEB2 is LAMA3. [14][23]
+- Pigment claims: Claims that LAMA3 changes red/black pigment should be treated as unsupported. The established pigment pathways are MC1R/Extension and ASIP/Agouti, with dilution and white-pattern genes acting separately. [13][18][19]
+
+Future science
+--------------
+
+Likely future directions include:
+
+- Broader breed screening to determine whether J2 occurs outside Saddlebred-related populations and to refine carrier-frequency estimates.
+- Discovery of additional equine laminin-pathogen variants, especially in LAMA3, LAMB3, and LAMC2, using whole-genome sequencing of unexplained neonatal blistering or hoof/skin fragility cases.
+- Genotype–phenotype studies to test whether carrier status has any subtle effects on wound healing, hoof-wall quality, or mucosal resilience. At present, carriers are considered clinically normal. [14]
+- Gene therapy or assisted-reproductive applications remain speculative for horses; genetic testing and avoiding carrier-to-carrier matings are the practical current controls. [14]
+
+Practical breeding guidance
+---------------------------
+
+- Test breeding stock for JEB2/LAMA3 when American Saddlebred or related ancestry is present.
+- Avoid mating N/J2 × N/J2, which gives a 25% chance of an affected J2/J2 foal. [14]
+- A carrier can safely be bred to an N/N horse without producing affected foals, though half the foals will be carriers. [14]
+- Do not use LAMA3/J2 as a coat-color predictor in a simulator; code it separately as a recessive lethal/health allele.
+
+Simulator implementation notes
+------------------------------
+
+For an equine-genetics simulation:
+
+  LAMA3 locus
+  N   = normal, dominant
+  J2  = JEB2, recessive disease allele
+  
+  N/N  -> normal
+  N/J2 -> normal carrier
+  J2/J2 -> lethal or nonviable JEB2 foal
+
+Recommended model behavior:
+
+- Apply LAMA3 after base color, dilution, and pattern genes.
+- Do not let J2 alter pigment genotype or visible coat-color categories.
+- If the simulation permits live J2/J2 foals for educational purposes, label them clearly as affected and nonviable; otherwise implement prenatal/neonatal loss.
+- Keep JEB1/LAMC2 and JEB2/LAMA3 as separate loci, because a horse can be a carrier for one without being a carrier for the other. [14][23]
+
+Sources
+-------
+
+- Graves et al., “Partial deletion of the LAMA3 gene is responsible for hereditary junctional epidermolysis bullosa in the American Saddlebred Horse,” Animal Genetics, 2009. [11]
+- UC Davis Veterinary Genetics Laboratory, “Junctional Epidermolysis Bullosa (JEB1) in Belgians,” which explains the LAMA3 J2/Saddlebred variant, inheritance, and breed associations. [14]
+- UC Davis Veterinary Genetics Laboratory, “Equine Coat Color Genetics,” for the established Extension/red-factor and dilution framework. [13]
+- UC Davis Veterinary Genetics Laboratory, “Red Factor – Horse,” for the role of MC1R/Extension in red versus black pigment. [18]
+- EquiSeq, “Junctional Epidermolysis Bullosa (JEB1 and JEB2),” for the J1/LAMC2 versus J2/LAMA3 distinction and inheritance tables. [23]
+
+
+EARLIER NOTES, FROM THE MOD'S WIKI
+==================================
 (Copied 2026-10-12 from the Science tab of the Procedural Horse Coats wiki page for this gene.
-Written for that project: it may mention how a game models the gene. Not yet audited.)
+Written for that project: they say how a game models the gene. Where they disagree with
+the research notes above, the notes above stand.)
 
 At a glance
 -----------
