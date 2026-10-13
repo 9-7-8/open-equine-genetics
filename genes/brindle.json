@@ -4,45 +4,32 @@
   "species": "horse",
   "name": "Brindle (MBTPS2)",
   "symbol": "MBTPS2",
+  "chromosome": "X",
   "evidence": "published",
-  "summary": "The one X-linked locus. Irregular white streaks running down from the topline over the barrel, quarters and neck, turning crosswise on the upper legs, and deliberately not matching from one side of the horse to the other - they are a record of which X chromosome each patch of skin silenced. It takes two copies, and a stallion's single X is one, so every brindle horse is a mare and every stallion who has it is a carrier who gives it to all his daughters.",
+  "summary": "Brindle 1 (BR1), an X-linked variant in MBTPS2 that alters how the gene's transcript is spliced. A mare with one copy has irregular stripes of altered hair texture, sometimes with visible differences in pigment, running from the back down the sides and over the neck, hindquarters and upper legs; they follow which X chromosome each patch of skin uses. A stallion with the variant, and a mare with two copies, have a sparse mane and tail and no classic stripes. A stallion passes it to every daughter and to no son. It is one validated, inherited form of brindle, not the explanation for every brindle-looking horse. It is rare and known from one Quarter Horse and Paint Horse family; no carrier frequency has been published, so none is given here.",
   "inheritance": "x_linked",
   "affects_coat": true,
   "alleles": [
-    { "id": "Brn", "name": "Brindle (Brn)", "wild_type": false },
-    { "id": "n", "name": "Wild-type (n)", "wild_type": true },
+    { "id": "Brn", "name": "Brindle 1 (BR1)", "wild_type": false },
+    { "id": "n", "name": "Wild-type", "wild_type": true },
     { "id": "Y", "name": "No copy (Y chromosome)", "wild_type": false, "placeholder": "the missing second copy in the hemizygous sex" }
   ],
   "phenotypes": [
     { "id": "wild", "name": "Wild type", "description": "No brindle striping.", "changes_coat": false },
-    { "id": "brindle-carrier", "name": "Brindle carrier", "description": "One brindle copy and nothing showing - a mare with it on one of her two X chromosomes, or any stallion who has it at all, since his single X is one copy and it takes two. He passes it to every daughter he ever gets.", "changes_coat": false },
-    { "id": "brindle", "name": "Brindle", "description": "Irregular white streaks, soft-edged and broken, running down from the topline over the barrel, quarters and neck and turning crosswise on the upper legs. They are white on any base colour, and they do not match from one side of the horse to the other. It takes two copies, so every brindle horse is a mare.", "changes_coat": true }
+    { "id": "sparse-mane-tail", "name": "Sparse mane and tail", "description": "No normal copy: a stallion with the variant on his one X, or a mare with it on both. The mane and tail are sparse and the coat has no classic stripes. The evidence for mares with two copies is thinner than for stallions: the family the variant was found in had none.", "changes_coat": false },
+    { "id": "brindle", "name": "Brindle", "description": "A mare with one copy. Irregular stripes of altered hair texture, less straight and more unruly than the hair beside them, running from the back down the sides and over the neck, hindquarters and upper legs. Some mares also show stripes of differing pigment. How much shows varies widely between horses and between the summer and winter coat, and can come on any base colour.", "changes_coat": true }
   ],
   "genotypes": [
     { "alleles": ["n", "Y"], "phenotype": "wild" },
     { "alleles": ["n", "n"], "phenotype": "wild" },
-    { "alleles": ["Brn", "Y"], "phenotype": "brindle-carrier" },
-    { "alleles": ["Brn", "n"], "phenotype": "brindle-carrier" },
-    { "alleles": ["Brn", "Brn"], "phenotype": "brindle" }
+    { "alleles": ["Brn", "Y"], "phenotype": "sparse-mane-tail" },
+    { "alleles": ["Brn", "n"], "phenotype": "brindle" },
+    { "alleles": ["Brn", "Brn"], "phenotype": "sparse-mane-tail" }
   ],
-  "frequencies": [
-    {
-      "population": "stallions",
-      "evidence": "estimated",
-      "genotypes": [
-        { "alleles": ["Brn", "Y"], "percent": 10 },
-        { "alleles": ["n", "Y"], "percent": 90 }
-      ]
-    },
-    {
-      "population": "mares",
-      "evidence": "estimated",
-      "genotypes": [
-        { "alleles": ["Brn", "Brn"], "percent": 1 },
-        { "alleles": ["Brn", "n"], "percent": 18 },
-        { "alleles": ["n", "n"], "percent": 81 }
-      ]
-    }
-  ],
-  "citations": []
+  "frequencies": [],
+  "citations": [
+    { "source": "ucdavis-vgl", "label": "UC Davis VGL: Brindle 1", "url": "https://vgl.ucdavis.edu/test/brindle-1-horse" },
+    { "source": "pubmed", "label": "PMID 27449517: Murgiano et al. 2016, an intronic MBTPS2 variant results in a splicing defect in horses with brindle coat texture (G3)", "url": "https://pubmed.ncbi.nlm.nih.gov/27449517/" },
+    { "source": "omia", "label": "OMIA 002021-9796: Brindle 1", "url": "https://www.omia.org/OMIA002021/9796/" }
+  ]
 }
