@@ -5,17 +5,17 @@
   "name": "ST14",
   "symbol": "ST14",
   "evidence": "published",
-  "summary": "ST14, naked foal syndrome - a recessive lethal at birth. The bald coat it causes in life is not drawn (the pipeline can only remove pigment, and a bald mane would read as a white one); the lethality is.",
+  "summary": "ST14 encodes matriptase, an enzyme of the skin needed for a sound outer layer and for hair follicles to form. A nonsense change, c.388G>T (p.Glu130*), cuts off more than four fifths of the protein and causes naked foal syndrome in the Akhal-Teke: a foal with almost no hair and dry, scaly skin, most of which have died between a few weeks and three years old. It is recessive, and carriers are normal. In the study that found it, all five affected horses had two copies, 26 of 191 other Akhal-Tekes were carriers, and none of 400 horses of other breeds had it. Why affected foals die early is unresolved; a heart defect and other findings in one foal may be coincidental. The colour of the coat is not affected, only whether hair grows. No effect on build or performance is established.",
   "inheritance": "autosomal",
   "affects_coat": false,
   "alleles": [
-    { "id": "nfs", "name": "Naked foal", "wild_type": false, "quality": "unverified" },
+    { "id": "nfs", "name": "Naked foal (NFS; c.388G>T, p.Glu130*)", "wild_type": false, "quality": "unverified" },
     { "id": "N", "name": "Wild-type", "wild_type": true, "quality": "unverified" }
   ],
   "phenotypes": [
     { "id": "wild", "name": "Wild type", "description": "Two working copies. Nothing is wrong and nothing is passed on.", "changes_coat": false },
-    { "id": "st14-carrier", "name": "ST14 carrier", "description": "One copy of nfs. The horse is completely normal and there is no way to see it - but half its foals inherit the copy, and two carriers bred together are the only way naked foal syndrome appears.", "changes_coat": false },
-    { "id": "naked-foal-syndrome", "name": "Naked foal syndrome", "description": "The foal is born with almost no hair and cannot hold its own temperature. It does not survive. (The bare coat itself is not drawn yet.)", "changes_coat": false }
+    { "id": "st14-carrier", "name": "ST14 carrier", "description": "One copy. The horse is normal, with nothing to see, and passes the copy to half its foals. A foal is affected only when both parents pass it on.", "changes_coat": false },
+    { "id": "naked-foal-syndrome", "name": "Naked foal syndrome", "description": "Two copies. The foal is born with almost no body hair, a sparse or missing mane and tail, short curly whiskers and no eyelashes, over dry, scaly skin. Without hair the skin is easily injured and scarred, and the eyes water. Teeth and hooves were normal in the cases examined. Most known foals died between a few weeks and three years of age, and why is not known; one was alive at nearly three.", "changes_coat": false }
   ],
   "genotypes": [
     { "alleles": ["N", "N"], "phenotype": "wild" },
@@ -23,9 +23,24 @@
     { "alleles": ["nfs", "nfs"], "phenotype": "naked-foal-syndrome", "conditions": ["naked-foal-syndrome"] }
   ],
   "conditions": [
-    { "id": "naked-foal-syndrome", "name": "Naked foal syndrome", "description": "The foal is born with almost no hair and cannot hold its own temperature. It does not survive. (The bare coat itself is not drawn yet.)", "severity": "lethal_at_birth" }
+    { "id": "naked-foal-syndrome", "name": "Naked foal syndrome", "description": "Two copies. The foal is born with almost no body hair, a sparse or missing mane and tail, short curly whiskers and no eyelashes, over dry, scaly skin. Without hair the skin is easily injured and scarred, and the eyes water. Teeth and hooves were normal in the cases examined. Most known foals died between a few weeks and three years of age, and why is not known; one was alive at nearly three.", "severity": "lethal_in_early_life" }
   ],
   "frequencies": [
+    {
+      "population": "Akhal-Teke (26 carriers among 191 horses outside the affected families; the share is worked out from the count)",
+      "evidence": "published",
+      "genotypes": [
+        { "alleles": ["nfs", "N"], "percent": 13.61 },
+        { "alleles": ["N", "N"], "percent": 86.39 }
+      ]
+    },
+    {
+      "population": "Horses of other breeds (not found in 400 control horses)",
+      "evidence": "published",
+      "genotypes": [
+        { "alleles": ["N", "N"], "percent": 100 }
+      ]
+    },
     {
       "population": "general population",
       "evidence": "estimated",
@@ -37,6 +52,8 @@
   ],
   "citations": [
     { "source": "pubmed", "label": "Bärtschi et al., PMC5386879", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5386879/", "verified": false },
-    { "source": "ucdavis-vgl", "label": "UC Davis VGL", "url": "https://vgl.ucdavis.edu/test/naked-foal-syndrome", "verified": false }
+    { "source": "ucdavis-vgl", "label": "UC Davis VGL: Naked Foal Syndrome", "url": "https://vgl.ucdavis.edu/test/naked-foal-syndrome", "verified": false },
+    { "source": "paper", "label": "G3 7(4):1315: an ST14 nonsense variant and naked foal syndrome in the Akhal-Teke", "url": "https://academic.oup.com/g3journal/article/7/4/1315/6031816", "verified": false },
+    { "source": "ucdavis-vgl", "label": "UC Davis VGL: Horse Coat Color", "url": "https://vgl.ucdavis.edu/resources/horse-coat-color", "verified": false }
   ]
 }
