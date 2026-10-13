@@ -74,6 +74,18 @@ THE AUDIT
   becomes of an allele or locus the science does not support (ids are never removed),
   the mod, and commits.
 - An outcome nobody has described is marked as undocumented, never guessed.
+- Every allele carries a quality tag: verified, unverified, abstracted or invalid. An
+  allele the science does not support is kept and marked invalid, so that nobody adds
+  it back thinking it was overlooked. (mitf SW9 is the first.)
+- Citations are not all to be opened and checked for now; each is marked verified or
+  not. None is verified yet.
+- A condition goes on a genotype only where a source confirms it for that pair. (mitf:
+  no deafness on any pair.)
+- A locus named for a gene it has nothing to do with is renamed (ryr2 became
+  abstracted_jump_strength).
+- The mod will come to this repo to bridge itself once the work here is done. Nothing
+  here waits on the mod, and nobody here needs to tell it of each change.
+- Commit now, often, and in small batches. Pushing is still asked for each time.
 - A frequency nobody has published is left out, never invented: a locus may have no
   frequency table.
 

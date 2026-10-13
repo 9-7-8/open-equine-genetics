@@ -16,6 +16,10 @@ primary papers. Every entry says how far to trust it, in one of three words:
 | `estimated` | A number of ours for something real. **Every frequency is estimated today**: they were tuned for a game, not measured. |
 | `abstracted` | A stand-in of ours for something real that is polygenic or not understood (height, sooty, flaxen). Its alleles are invented. It is not a real gene. |
 
+Each allele also carries a `quality`: `verified`, `unverified`, `abstracted`, or
+`invalid` (kept on purpose so a discredited allele is not added back). Each citation says
+whether a maintainer has `verified` it. Today almost nothing is verified.
+
 What is known to be wrong or unproven is listed in
 [knowledge/known-issues.txt](knowledge/known-issues.txt).
 
