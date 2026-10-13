@@ -4,13 +4,14 @@
   "species": "horse",
   "name": "PATN1 (leopard pattern)",
   "symbol": "RFWD3",
+  "chromosome": "3",
   "evidence": "published",
-  "summary": "A pure modifier of the leopard complex: it pushes an LP horse toward the spotted end - one LP copy plus PATN1 gives a full-body leopard, and LP/LP plus PATN1 a nearly white fewspot. On a horse with no LP it does nothing whatever and cannot be seen, and no founder rolls it unless it already rolled LP.",
+  "summary": "Pattern-1, the first established modifier of the leopard complex, associated with a variant in the 3' untranslated region of RFWD3 on chromosome 3. It sets how much white an LP horse shows and is dominant in that: one LP copy plus PATN1 is usually a leopard or near-leopard, and LP/LP plus PATN1 a fewspot or near-fewspot. On a horse with no LP it does nothing and cannot be seen, so a solid horse can carry it and pass it on. It does not cause night blindness, which needs two copies of LP.",
   "inheritance": "autosomal",
   "affects_coat": false,
   "alleles": [
-    { "id": "PATN1", "name": "Leopard pattern-1 (PATN1)", "wild_type": false },
-    { "id": "n", "name": "Wild-type (n)", "wild_type": true }
+    { "id": "PATN1", "name": "Leopard pattern-1", "wild_type": false },
+    { "id": "n", "name": "Wild-type", "wild_type": true }
   ],
   "phenotypes": [
     { "id": "wild", "name": "Wild type", "description": "Carried, but silent on its own - it only shapes the pattern of a horse that also carries the leopard complex.", "changes_coat": false }
@@ -38,5 +39,10 @@
       ]
     }
   ],
-  "citations": []
+  "citations": [
+    { "source": "ucdavis-vgl", "label": "UC Davis VGL: Appaloosa Pattern-1 (PATN1)", "url": "https://vgl.ucdavis.edu/test/appaloosa-pattern-1" },
+    { "source": "pubmed", "label": "PMID 26568529: Holl et al. 2016, variant in RFWD3 associated with PATN1 (Animal Genetics)", "url": "https://pubmed.ncbi.nlm.nih.gov/26568529/" },
+    { "source": "ucdavis-vgl", "label": "UC Davis VGL: Bellone research page", "url": "https://vgl.ucdavis.edu/research/bellone" },
+    { "source": "ucdavis-vgl", "label": "UC Davis VGL: Leopard Complex, Congenital Stationary Night Blindness, and Uveitis", "url": "https://vgl.ucdavis.edu/test/leopard-complex" }
+  ]
 }
