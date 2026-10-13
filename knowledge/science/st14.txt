@@ -4,6 +4,20 @@ No source was opened by the session that filed this. genes/st14.json was changed
 on the owner's word the same day; what is left over is in knowledge/known-issues.txt.
 Not yet audited.)
 
+ROUND TWO (the owner's answers to the open research questions, 2026-10-12)
+--------------------------------------------------------------------------
+These came after everything below. Where they disagree with it, this section and the gene
+file stand, unless a line says the point is unsettled. The whole answer is in
+knowledge/science/round-2-answers.txt. No address has been opened by a maintainer.
+- The chromosome could not be verified.
+- The 191 Akhal-Tekes were a study sample; selection, relatedness and where the horses
+  came from can bias the figure. No breed-wide carrier figure was given.
+- UNSETTLED: this answer says affected foals die "typically within days to weeks, from
+  complications related to skin barrier failure and infection", with no source. The
+  earlier answer, citing the paper that found the variant, says most died between a few
+  weeks and three years old and that the cause is unresolved. The gene file still follows
+  the earlier answer.
+
 ST14 in Horses — Complete Locus Overview
 ST14 is not a coat-color locus. In horses, its established role is hair and skin development: a recessive loss-of-function allele causes Naked Foal Syndrome (NFS), a severe congenital hair-and-skin disorder reported in the Akhal-Teke breed. It does not determine red versus black pigment, dilution, white patterning, or any confirmed performance trait.[[academic.oup](https://academic.oup.com/g3journal/article/7/4/1315/6031816)]
 

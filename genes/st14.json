@@ -27,7 +27,7 @@
   ],
   "frequencies": [
     {
-      "population": "Akhal-Teke (26 carriers among 191 horses outside the affected families; the share is worked out from the count)",
+      "population": "Akhal-Teke (26 carriers among 191 horses outside the affected families; a study sample, not shown to be random or breed-wide; the share is worked out from the count)",
       "evidence": "published",
       "genotypes": [
         { "alleles": ["nfs", "N"], "percent": 13.61 },
