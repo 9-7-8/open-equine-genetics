@@ -5,16 +5,16 @@
   "name": "HMGA2 (pony)",
   "symbol": "HMGA2",
   "evidence": "published",
-  "summary": "HMGA2, the pony gene: each p copy makes the horse smaller and slower with less jump, but adds two hearts of health - small has to buy something.",
+  "summary": "HMGA2, a height gene: each p copy makes the horse shorter. Found in Shetland ponies and other small horses. No effect on speed or jumping is established.",
   "inheritance": "autosomal",
   "affects_coat": false,
   "alleles": [
-    { "id": "p", "name": "Pony (p)", "wild_type": false },
-    { "id": "N", "name": "Wild-type (N)", "wild_type": true }
+    { "id": "p", "name": "Pony", "wild_type": false },
+    { "id": "N", "name": "Wild-type", "wild_type": true }
   ],
   "phenotypes": [
-    { "id": "pony", "name": "Pony", "description": "Two pony copies. A visibly smaller, slower, lower-jumping horse - and the hardiest one this locus makes.", "changes_coat": false },
-    { "id": "pony-mixed", "name": "Part pony", "description": "One pony copy. Half the loss of height and half the gain in hearts.", "changes_coat": false },
+    { "id": "pony", "name": "Pony", "description": "Two pony copies. A visibly smaller horse.", "changes_coat": false },
+    { "id": "pony-mixed", "name": "Part pony", "description": "One pony copy. Half the loss of height.", "changes_coat": false },
     { "id": "pony-plain", "name": "Wild type", "description": "No pony copy. Ordinary height.", "changes_coat": false }
   ],
   "genotypes": [
