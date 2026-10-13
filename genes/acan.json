@@ -4,22 +4,23 @@
   "species": "horse",
   "name": "ACAN",
   "symbol": "ACAN",
+  "chromosome": "1",
   "evidence": "published",
-  "summary": "ACAN, a dwarfism locus with five alleles. A horse is affected when it has no working copy left, so two different variant alleles together still count. One pairing (D1/D1) is lethal at birth; every other affected combination is a surviving dwarf with reduced health. No wild horse is ever born affected - only two carriers bred together.",
+  "summary": "ACAN (aggrecan) on chromosome 1, a dwarfism locus with five variant alleles. A horse is a dwarf when it has no working copy left, so two different variant alleles together still count. One pairing (D1/D1) is lethal at birth; every other such combination is a surviving dwarf. A horse with one variant copy is not a dwarf, but heterozygotes are reported to be shorter than horses with none.",
   "inheritance": "autosomal",
   "affects_coat": false,
   "alleles": [
-    { "id": "D1", "name": "Dwarfism D1 (severe)", "wild_type": false },
-    { "id": "D2", "name": "Dwarfism D2", "wild_type": false },
-    { "id": "D3", "name": "Dwarfism D3", "wild_type": false },
-    { "id": "D4", "name": "Dwarfism D4", "wild_type": false },
-    { "id": "D5", "name": "Dwarfism D5", "wild_type": false },
-    { "id": "N", "name": "Wild-type (N)", "wild_type": true }
+    { "id": "D1", "name": "Dwarfism D1 (c.245del, severe)", "wild_type": false },
+    { "id": "D2", "name": "Dwarfism D2 (c.1270G>A)", "wild_type": false },
+    { "id": "D3", "name": "Dwarfism D3 (c.6700delC)", "wild_type": false },
+    { "id": "D4", "name": "Dwarfism D4 (c.7299_7319del)", "wild_type": false },
+    { "id": "D5", "name": "Dwarfism D5 (g.95258999C>T)", "wild_type": false },
+    { "id": "N", "name": "Wild-type", "wild_type": true }
   ],
   "phenotypes": [
     { "id": "wild", "name": "Wild type", "description": "Two working copies of ACAN. Normal skeletal growth.", "changes_coat": false },
-    { "id": "acan-carrier", "name": "ACAN carrier", "description": "One broken copy and one working one. The horse is a normal size and there is no way to see it. Two carriers bred together throw a dwarf one time in four - and it does not matter whether they carry the same variant.", "changes_coat": false },
-    { "id": "acan-dwarf", "name": "Chondrodysplastic dwarfism", "description": "No working copy of ACAN. The horse is markedly small with shortened limbs, moves badly, jumps badly, and has far fewer hearts than it should.", "changes_coat": false },
+    { "id": "acan-carrier", "name": "ACAN carrier", "description": "One variant copy and one working one. Not a dwarf, but reported to be shorter than a horse with two working copies. Two carriers bred together throw a dwarf one time in four, whether or not they carry the same variant.", "changes_coat": false },
+    { "id": "acan-dwarf", "name": "Chondrodysplastic dwarfism", "description": "No working copy of ACAN. The horse is markedly small, with shortened limbs.", "changes_coat": false },
     { "id": "acan-lethal", "name": "Lethal dwarfism (D1/D1)", "description": "Two copies of the severe D1 variant. The foal is born profoundly malformed and does not survive.", "changes_coat": false }
   ],
   "genotypes": [
@@ -46,7 +47,7 @@
     { "alleles": ["D1", "D1"], "phenotype": "acan-lethal", "conditions": ["chondrodysplastic-dwarfism-lethal"] }
   ],
   "conditions": [
-    { "id": "chondrodysplastic-dwarfism", "name": "Chondrodysplastic dwarfism", "description": "No working copy of ACAN. The horse is markedly small with shortened limbs, moves badly, jumps badly, and has far fewer hearts than it should.", "severity": "impairing" },
+    { "id": "chondrodysplastic-dwarfism", "name": "Chondrodysplastic dwarfism", "description": "No working copy of ACAN. The horse is markedly small, with shortened limbs.", "severity": "impairing" },
     { "id": "chondrodysplastic-dwarfism-lethal", "name": "Lethal dwarfism (D1/D1)", "description": "Two copies of the severe D1 variant. The foal is born profoundly malformed and does not survive.", "severity": "lethal_at_birth" }
   ],
   "frequencies": [
@@ -63,5 +64,8 @@
       ]
     }
   ],
-  "citations": []
+  "citations": [
+    { "source": "omia", "label": "OMIA 001271-9796: Dwarfism, ACAN-related", "url": "https://omia.org/OMIA001271/9796/" },
+    { "source": "pubmed", "label": "PMID 32065671: Heterozygotes for ACAN dwarfism alleles in horses have reduced stature (2020)", "url": "https://pubmed.ncbi.nlm.nih.gov/32065671/" }
+  ]
 }
