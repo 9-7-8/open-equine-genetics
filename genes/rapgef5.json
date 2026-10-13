@@ -4,18 +4,19 @@
   "species": "horse",
   "name": "RAPGEF5",
   "symbol": "RAPGEF5",
+  "chromosome": "4",
   "evidence": "published",
-  "summary": "RAPGEF5 (EFIH), the most severe and rarest of the foal lethals - recessive, lethal at birth, carried silently by a small fraction of wild horses.",
+  "summary": "RAPGEF5, on chromosome 4. A nonsense variant, c.2624C>A (p.Ser875*; g.54108297G>T on EquCab 3.0), truncates the protein and causes equine familial isolated hypoparathyroidism (EFIH), formerly called idiopathic hypocalcaemia: a Thoroughbred foal that cannot regulate its blood calcium and dies young. It is recessive; carriers show no signs, and colts and fillies are affected alike. It has been found only in Thoroughbreds, at a low allele frequency of about 0.8 per cent in a United States survey, after a first estimate of 1.8 per cent. UC Davis writes the genotypes N/N, N/EFIH and EFIH/EFIH. No effect on coat, build or performance is established.",
   "inheritance": "autosomal",
   "affects_coat": false,
   "alleles": [
-    { "id": "efih", "name": "EFIH", "wild_type": false, "quality": "unverified" },
+    { "id": "efih", "name": "EFIH (c.2624C>A, p.Ser875*)", "wild_type": false, "quality": "unverified" },
     { "id": "N", "name": "Wild-type", "wild_type": true, "quality": "unverified" }
   ],
   "phenotypes": [
     { "id": "wild", "name": "Wild type", "description": "Two working copies. Nothing is wrong and nothing is passed on.", "changes_coat": false },
-    { "id": "rapgef5-carrier", "name": "RAPGEF5 carrier", "description": "One copy of efih. The horse is completely normal and there is no way to see it - but half its foals inherit the copy, and two carriers bred together are the only way hypoparathyroidism (efih) appears.", "changes_coat": false },
-    { "id": "efih", "name": "Hypoparathyroidism (EFIH)", "description": "The foal is born with no parathyroid glands and cannot hold its calcium. It seizes and does not survive.", "changes_coat": false }
+    { "id": "rapgef5-carrier", "name": "RAPGEF5 carrier", "description": "One copy. The horse is clinically normal and passes the copy to half its foals. A foal is affected only when both parents pass it on.", "changes_coat": false },
+    { "id": "efih", "name": "Hypoparathyroidism (EFIH)", "description": "Two copies. The foal cannot keep its blood calcium up: parathyroid hormone is low, or only normal when it should be high, and phosphorus is raised. Signs appear early, reported up to about 35 days old: sustained muscle contractions, a stiff gait, seizures, fever, a fast heart rate, lying down and finally being unable to stand. It is invariably fatal.", "changes_coat": false }
   ],
   "genotypes": [
     { "alleles": ["N", "N"], "phenotype": "wild" },
@@ -23,9 +24,25 @@
     { "alleles": ["efih", "efih"], "phenotype": "efih", "conditions": ["efih"] }
   ],
   "conditions": [
-    { "id": "efih", "name": "Hypoparathyroidism (EFIH)", "description": "The foal is born with no parathyroid glands and cannot hold its calcium. It seizes and does not survive.", "severity": "lethal_at_birth" }
+    { "id": "efih", "name": "Hypoparathyroidism (EFIH)", "description": "Two copies. The foal cannot keep its blood calcium up: parathyroid hormone is low, or only normal when it should be high, and phosphorus is raised. Signs appear early, reported up to about 35 days old: sustained muscle contractions, a stiff gait, seizures, fever, a fast heart rate, lying down and finally being unable to stand. It is invariably fatal.", "severity": "lethal_in_early_life" }
   ],
   "frequencies": [
+    {
+      "population": "Thoroughbred, United States, born 1988-2019 (allele frequency about 0.8%; the carrier share is worked out from it)",
+      "evidence": "published",
+      "genotypes": [
+        { "alleles": ["efih", "N"], "percent": 1.6 },
+        { "alleles": ["N", "N"], "percent": 98.4 }
+      ]
+    },
+    {
+      "population": "Thoroughbred, first estimate (3 carriers among 82 randomly chosen unaffected horses, allele frequency 1.8%; UC Davis calls it preliminary)",
+      "evidence": "published",
+      "genotypes": [
+        { "alleles": ["efih", "N"], "percent": 3.66 },
+        { "alleles": ["N", "N"], "percent": 96.34 }
+      ]
+    },
     {
       "population": "general population",
       "evidence": "estimated",
@@ -37,6 +54,10 @@
   ],
   "citations": [
     { "source": "pubmed", "label": "Rocha et al., PMC7544121", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7544121/", "verified": false },
-    { "source": "pubmed", "label": "PMC10073348", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10073348/", "verified": false }
+    { "source": "pubmed", "label": "PMC10073348: prevalence of the EFIH variant in United States Thoroughbreds", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10073348/", "verified": false },
+    { "source": "paper", "label": "PLoS Genetics, 10.1371/journal.pgen.1009028: a RAPGEF5 nonsense variant and EFIH", "url": "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1009028", "verified": false },
+    { "source": "ucdavis-vgl", "label": "UC Davis VGL: Equine Familial Isolated Hypoparathyroidism (EFIH)", "url": "https://vgl.ucdavis.edu/test/efih", "verified": false },
+    { "source": "other", "label": "UC Davis Center for Equine Health: news on the EFIH variant", "url": "https://ceh.vetmed.ucdavis.edu/news/uc-davis-researchers-identify-genetic-variant-equine-familial-isolated-hypoparathyroidism", "verified": false },
+    { "source": "other", "label": "UC Davis School of Veterinary Medicine: student poster on EFIH frequency", "url": "https://www.vetmed.ucdavis.edu/sites/g/files/dgvnsk491/files/inline-files/STAR%20TG%20Poster%20-%20Elcombe.pdf", "verified": false }
   ]
 }

@@ -8,7 +8,7 @@ WHERE THE DATA STANDS
   commit 93af89d9 plus one docs commit). On 2026-10-12 the owner supplied research
   documents and audit answers, and the loci below were changed to follow them. The three
   lists in this file are each kept on one long line, sorted, so they are easy to edit.
-RESEARCHED: abstracted_jump_strength, acan, agouti, b4galt7, brindle, champagne, ckm, dmrt3, dun, ednrb, extension, gbe1, grey, gys1, hmga2, kit, lama3, lamc2, lcorl, leopard, matp, met, mitf, mstn, mushroom, myo5a, patn1, pax3, pdk4, plod1, ppib, prkdc, roan, ryr1, scn4a, shox, silver, slc5a3, st14, tiger_eye, tobiano.
+RESEARCHED: abstracted_jump_strength, acan, agouti, b4galt7, brindle, champagne, ckm, dmrt3, dun, ednrb, extension, gbe1, grey, gys1, hmga2, kit, lama3, lamc2, lcorl, leopard, matp, met, mitf, mstn, mushroom, myo5a, patn1, pax3, pdk4, plod1, ppib, prkdc, rapgef5, roan, ryr1, scn4a, shox, silver, slc5a3, st14, tiger_eye, tobiano.
 - NO SESSION OPENED A SOURCE. Every fact changed that day rests on the owner's documents,
   and every citation added is an address those documents gave. Some addresses were built
   from a DOI or a PubMed number the documents gave. None has been opened.
@@ -56,6 +56,7 @@ done (2026-10-12); nothing is owed to it before then. The mod still has:
 - tiger_eye at one rate for every breed, and two TE2 copies as a settled paler yellow.
 - st14 as lethal at birth, at one carrier rate for every breed.
 - prkdc as lethal at birth, at one carrier rate for every breed.
+- rapgef5 as lethal at birth, at one carrier rate for every breed.
 mod-map.json records the structural part: "not_in_mod" (alleles) and
 "mod_outcome_unsupported" (pairs marked undocumented here on purpose).
 
@@ -134,29 +135,23 @@ STILL WRONG OR UNPROVEN IN THE RESEARCHED LOCI
 - tiger_eye: the research says tiger eye changes the iris and never the coat. The locus still says "affects_coat": true and its eye outcomes "changes_coat": true, because the eight eye-colour loci use those flags for anything drawn on the horse; what the flags should mean for eyes is a format question for the owner. TE2/TE2 rests on one horse. The frequency table is the mod's "general population", though the variants are known only from Puerto Rican Paso Finos; no figure was given.
 - st14: the severity changed from "lethal_at_birth" to "lethal_in_early_life": the research says most affected foals died between a few weeks and three years old. That is longer than the format's "first weeks or months", and one horse was alive at nearly three; it is the nearest value, chosen by the session, not the owner. The locus is still "affects_coat": false, since it removes hair and does not change colour or pattern. The Akhal-Teke table rests on 191 horses and may not be a random sample. No chromosome was given. Most of the answer's sources are marked by number only.
 - prkdc: the severity changed from "lethal_at_birth" to "lethal_in_early_life": the research says affected foals generally do not survive beyond about four to six months. No frequency table was made: the research gives roughly 0.2% of Arabians affected, says carrier figures differ widely, and advises against using the old percentages; the mod's "general population" table stands. The research marks its sources by number and lists them by name only, so no citation was added; the three it already had are from the first export. The variant has no coordinates or c. name.
+- rapgef5: the owner's first answer found no horse allele of RAPGEF5 at all; her second, asked about EFIH by name, confirms the variant and the disorder, and the locus follows the second. The severity changed from "lethal_at_birth" to "lethal_in_early_life": signs are reported up to about 35 days old. Two Thoroughbred tables are given because the two studies disagree (1.8% and about 0.8% allele frequency); the answer also quotes carrier figures of 1.4-1.6% without a source of their own. The answer calls the change a "C-to-A transition"; C to A is a transversion, which changes nothing here.
 
 THE OTHER LOCI
 - "symbol" was filled from the exporting session's own knowledge. The research has since
   confirmed tiger_eye (SLC24A5), mushroom (MFSD12), patn1 (RFWD3), brindle (MBTPS2) and
   tobiano as a KIT-region locus. The rest are unchecked.
 - Published loci with no research from the owner yet:
-NOT YET RESEARCHED: rapgef5, toe1.
-- rapgef5 is still on that list although the owner sent research for it (2026-10-12): the
-  answer looked for a coat-colour gene, found none, and said no horse allele of RAPGEF5
-  has an established effect. It never mentions equine familial isolated
-  hypoparathyroidism (EFIH), which is what the locus records, with a named variant and a
-  paper (Rocha et al., PMC7544121) in the earlier note. The two disagree and neither was
-  checked. The gene file was left as the mod's export; the note carries the answer with
-  a warning at the top. To settle it, ask about EFIH in Thoroughbreds by name.
-- toe1 is on that list for the same reason (2026-10-12): the answer looked for a coat-colour
+NOT YET RESEARCHED: toe1.
+- toe1 is still on that list although the owner sent research for it (2026-10-12): the answer looked for a coat-colour
   locus, found none, and took the name for a slip for extension. It never mentions
   cerebellar abiotrophy in Arabians, which is what the locus records (Scott et al.,
   PMC5336519; OMIA 000175; a UC Davis test). The gene file was left as the mod's export;
   the note carries the answer with a warning at the top. Ask about cerebellar abiotrophy
-  by name.
+  by name; the same thing happened to rapgef5, and asking about EFIH by name settled it.
 - Game wording: the plain cases were reworded on 2026-10-12 by word search. Subtler
   cases remain: what "wild horses" or founders carry (eye_colour_left,
-  eye_colour_right, manchado, rapgef5) and "no wild horse is born with
+  eye_colour_right, manchado) and "no wild horse is born with
   two" in the five abstracted body loci.
 - The five abstracted body loci describe "the percentage written on that copy". In the
   mod each allele copy carries its own inherited strength; that idea is not in this
