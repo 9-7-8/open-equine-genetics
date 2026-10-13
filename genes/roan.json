@@ -6,7 +6,7 @@
   "symbol": "KIT",
   "chromosome": "3",
   "evidence": "published",
-  "summary": "Classic roan: white hairs mixed evenly with coloured ones over the body, on a base colour it does not change, so a black goes blue roan and a chestnut red roan. The head, lower legs, mane and tail stay fully coloured. Dominant, present from birth, and it does not lighten with age as grey does. It is strongly associated with the KIT region of chromosome 3, but the mutation that causes it has not been identified: laboratories test for linked haplotypes (reported as RN1, RN2 and RN3), which are markers and not proven alleles of KIT, so a roan-looking horse can test negative. Two copies are not lethal - healthy Rn/Rn horses are documented - despite an old claim from Belgian draught records. Not the leopard complex's varnish roan, nor rabicano or sabino roaning, which can look like it.",
+  "summary": "Classic roan: white hairs mixed evenly with coloured ones over the body, on a base colour it does not change, so a black goes blue roan and a chestnut red roan. The head, lower legs, mane and tail stay fully coloured. Dominant, present from birth, and it does not lighten with age as grey does. It is strongly associated with the KIT region of chromosome 3, but the mutation that causes it has not been identified: laboratories test for linked haplotypes (reported as RN1, RN2 and RN3), which are markers and not proven alleles of KIT, so a roan-looking horse can test negative. Two copies are not lethal - healthy Rn/Rn horses are documented - despite an old claim from Belgian draught records. Described as common in Quarter Horses, Paint Horses, Belgians, Welsh ponies and some other pony and draft breeds, without published figures. Not the leopard complex's varnish roan, nor rabicano or sabino roaning, which can look like it.",
   "inheritance": "autosomal",
   "affects_coat": true,
   "alleles": [
@@ -37,6 +37,7 @@
     { "source": "ucdavis-vgl", "label": "UC Davis VGL: Roan Zygosity Test", "url": "https://vgl.ucdavis.edu/test/roan", "verified": false },
     { "source": "pubmed", "label": "PMC7348759: Voss et al. 2020, coat color roan shows association with KIT variants and no evidence of lethality in Icelandic Horses (Genes)", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7348759/", "verified": false },
     { "source": "ucdavis-vgl", "label": "UC Davis VGL: Equine Coat Color Genetics", "url": "https://vgl.ucdavis.edu/resources/horse-coat-color", "verified": false },
-    { "source": "omia", "label": "OMIA 001216-9796: Coat colour, roan", "url": "https://omia.org/OMIA001216/9796/", "verified": false }
+    { "source": "omia", "label": "OMIA 001216-9796: Coat colour, roan", "url": "https://omia.org/OMIA001216/9796/", "verified": false },
+    { "source": "other", "label": "Mad Barn: horse coat colour genetics", "url": "https://madbarn.com/horse-coat-color-genetics/", "verified": false }
   ]
 }

@@ -4,6 +4,18 @@ No source was opened by the session that filed this. genes/roan.json was changed
 on the owner's word the same day; what is left over is in knowledge/known-issues.txt.
 Not yet audited.)
 
+ROUND TWO (the owner's answers to the open research questions, 2026-10-12)
+--------------------------------------------------------------------------
+These came after everything below. Where they disagree with it, this section and the gene
+file stand, unless a line says the point is unsettled. The whole answer is in
+knowledge/science/round-2-answers.txt. No address has been opened by a maintainer.
+- The causal mutation has not been definitively identified; a "KIT roan allele" is a
+  working model (https://madbarn.com/horse-coat-color-genetics/).
+- Roan is generally treated as viable with two copies; claims of a lethal homozygote are
+  not well supported.
+- Described as common in Quarter Horse, Paint, Belgian, Welsh and some pony and draft
+  breeds. No figure was given.
+
 LATEST FINDINGS (the owner's audit answers, 2026-10-12)
 -------------------------------------------------------
 These came after the text below and correct it. Where the two disagree, this section and
