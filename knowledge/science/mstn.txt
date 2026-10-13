@@ -2,6 +2,18 @@ MSTN (myostatin) - science notes
 (Copied 2026-10-12 from the Science tab of the Procedural Horse Coats wiki page for this gene.
 Written for that project: it may mention how a game models the gene. Not yet audited.)
 
+ROUND TWO (the owner's answers to the open research questions, 2026-10-12)
+--------------------------------------------------------------------------
+These came after everything below. Where they disagree with it, this section and the gene
+file stand, unless a line says the point is unsettled. The whole answer is in
+knowledge/science/round-2-answers.txt. No address has been opened by a maintainer.
+- MSTN is on chromosome 18. The commonly tested variant is g.66493737C>T; the answer calls
+  that "EquCab3-style coordinates", which is not checked.
+- C goes with the sprint and muscling haplotype, T with stamina; performance is strongly
+  polygenic.
+- C is described as commoner in Quarter Horses and sprint-bred Thoroughbred lines, T in
+  endurance and many European sport breeds. No figure was given.
+
 LATEST FINDINGS (the owner's audit answers, 2026-10-12)
 -------------------------------------------------------
 These came after the text below and correct it. Where the two disagree, this section and

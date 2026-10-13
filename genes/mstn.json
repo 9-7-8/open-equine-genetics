@@ -4,8 +4,9 @@
   "species": "horse",
   "name": "MSTN (myostatin)",
   "symbol": "MSTN",
+  "chromosome": "18",
   "evidence": "published",
-  "summary": "MSTN (myostatin), the best predictor of a Thoroughbred's best racing distance. At the variant g.66493737C>T, C/C horses are suited to short sprints, C/T to middle distances, and T/T to longer ones, with more stamina. The effect has been traced to an insertion in the gene. Shown in Thoroughbreds; it is a statistical tendency, not a guarantee for one horse.",
+  "summary": "MSTN (myostatin), on chromosome 18, the best predictor of a Thoroughbred's best racing distance. At the variant g.66493737C>T, C/C horses are suited to short sprints, C/T to middle distances, and T/T to longer ones, with more stamina. The effect has been traced to an insertion in the gene. Shown in Thoroughbreds; it is a statistical tendency, not a guarantee for one horse. The C allele is described as commoner in Quarter Horses and sprint-bred Thoroughbred lines and T in endurance and many European sport breeds, without published figures; performance is strongly polygenic.",
   "inheritance": "autosomal",
   "affects_coat": false,
   "alleles": [
