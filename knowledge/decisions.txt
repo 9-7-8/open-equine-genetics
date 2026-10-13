@@ -76,7 +76,8 @@ THE AUDIT
 - An outcome nobody has described is marked as undocumented, never guessed.
 - Every allele carries a quality tag: verified, unverified, abstracted or invalid. An
   allele the science does not support is kept and marked invalid, so that nobody adds
-  it back thinking it was overlooked. (mitf SW9 is the first.)
+  it back thinking it was overlooked. (mitf SW9 is the first; agouti's At and A+,
+  proposed but never validated, are tagged the same way.)
 - Citations are not all to be opened and checked for now; each is marked verified or
   not. None is verified yet.
 - A condition goes on a genotype only where a source confirms it for that pair. (mitf:

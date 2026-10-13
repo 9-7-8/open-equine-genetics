@@ -1,23 +1,24 @@
 KNOWN ISSUES IN THE DATA
 ========================
-Rewritten 2026-10-12, after the owner's research was applied to 19 loci. Remove a line
+Rewritten 2026-10-12, after the owner's research was applied to 20 loci. Remove a line
 here when it is fixed, and say so in the session log.
 
 WHERE THE DATA STANDS
 - genes/ began as an export of what a game models (knowledge/how-this-was-exported/, mod
   commit 93af89d9 plus one docs commit). On 2026-10-12 the owner supplied research
-  documents and audit answers, and 19 loci were changed to follow them:
-  abstracted_jump_strength (then ryr2), acan, brindle, ednrb, grey, hmga2, lama3, lamc2,
+  documents and audit answers, and 20 loci were changed to follow them:
+  abstracted_jump_strength (then ryr2), acan, agouti, brindle, ednrb, grey, hmga2, lama3, lamc2,
   lcorl, leopard, mitf, mstn, patn1, pdk4, roan, ryr1, scn4a, silver, slc5a3.
 - NO SESSION OPENED A SOURCE. Every fact changed that day rests on the owner's documents,
   and every citation added is an address those documents gave. Some addresses were built
   from a DOI or a PubMed number the documents gave. None has been opened.
 - The owner's rule (knowledge/decisions.txt): the science wins. Where it contradicts
   what a locus said before, the locus is changed.
-- The other 49 loci are still the mod's export, unaudited.
+- The other 48 loci are still the mod's export, unaudited.
 - Since format 2 every allele says how far to trust it ("quality") and every citation
   says whether a maintainer has opened it ("verified"). As of 2026-10-12: no citation
-  is verified, no allele is "verified", one allele is "invalid" (mitf SW9), and every
+  is verified, no allele is "verified", three alleles are "invalid" (mitf SW9, agouti At
+  and A+), and every
   allele of an abstracted locus is "abstracted". The owner said not to spend effort
   opening every citation for now.
 - tools/validate.mjs passes on all 68 files. It checks structure, not science.
@@ -33,11 +34,13 @@ done (2026-10-12); nothing is owed to it before then. The mod still has:
 - scn4a: two copies killing the foal;
 - ryr1: a severe living two-copy form; a real jumping gene it calls ryr2;
 - pdk4 as a plain speed gene; hmga2 and lcorl changing speed and jump;
-- acan carriers of normal height.
+- acan carriers of normal height;
+- agouti with a as the wild type, and bay split into four shades inside the agouti
+  table.
 mod-map.json records the structural part: "not_in_mod" (alleles) and
 "mod_outcome_unsupported" (pairs marked undocumented here on purpose).
 
-STILL WRONG OR UNPROVEN IN THE 19
+STILL WRONG OR UNPROVEN IN THE 20
 - mitf SW9 is marked "invalid" (owner, 2026-10-12): no published allele, laboratory or
   paper was found for it, and the name may be a mix-up with W9 of KIT. The id is kept so
   nobody adds it back. Its eight pairs have the outcome "invalid-allele".
@@ -67,13 +70,20 @@ STILL WRONG OR UNPROVEN IN THE 19
 - slc5a3, ryr1, grey: the "general population" tables are still the mod's.
 - Frequencies: brindle has none, on purpose. Published tables exist only for slc5a3
   (Fell, Dales), ryr1 (Quarter Horse) and grey (Andalusian).
+- agouti: At (seal brown) and A+ (wild bay) are in the data marked "invalid" (owner,
+  2026-10-12). The research calls them plausible but unproven rather than wrong, and
+  some commercial laboratories report At; "invalid" is the nearest tag the format has.
+- Bay shade is now stated nowhere as a table: agouti gives bay or black, and the
+  abstracted shade locus describes its effect in its summary only. The research
+  supports a real shade modifier upstream of ASIP near RALY (chromosome 22), cause
+  unidentified, with E/E bays tending darker than E/e.
 - ednrb and hmga2 had one correction each and are otherwise unresearched.
 
-THE OTHER 49 LOCI
+THE OTHER 48 LOCI
 - "symbol" was filled from the exporting session's own knowledge. The research has since
   confirmed tiger_eye (SLC24A5), mushroom (MFSD12), patn1 (RFWD3), brindle (MBTPS2) and
   tobiano as a KIT-region locus. The rest are unchecked.
-- Published loci with no research from the owner yet (24): agouti, b4galt7, champagne,
+- Published loci with no research from the owner yet (23): b4galt7, champagne,
   ckm, dmrt3, dun, extension, gbe1, gys1, kit, matp, met, mushroom, myo5a, pax3, plod1,
   ppib, prkdc, rapgef5, shox, st14, tiger_eye, tobiano, toe1.
 - Game wording: the plain cases were reworded on 2026-10-12 by word search. Subtler
@@ -101,25 +111,25 @@ CITATIONS
 - tools/validate.mjs does not check that a published locus has a citation.
 
 SCIENCE NOTES
-- 14 notes are the owner's research documents with the mod's wiki text kept underneath:
-  abstracted_jump_strength, brindle, grey, lama3, lamc2, lcorl, leopard, mitf, patn1,
+- 15 notes are the owner's research documents with the mod's wiki text kept underneath:
+  abstracted_jump_strength, agouti, brindle, grey, lama3, lamc2, lcorl, leopard, mitf, patn1,
   pdk4, roan, ryr1, silver, slc5a3. 19 notes (those, and acan, ednrb, hmga2, mstn,
   scn4a) open with LATEST FINDINGS, which carries the owner's later audit answers and
   overrides the older text beneath it. The older text was corrected in place only
   where it flatly contradicted them; elsewhere it stands as written.
-- The other 34 notes are untouched copies of the mod's wiki pages.
+- The other 33 notes are untouched copies of the mod's wiki pages.
 - 14 loci have no note: the five abstracted body loci, the eight eye loci, patn2.
 
 INTERACTIONS
-- Only agouti, leopard and flaxen carry an interactions table. agouti's includes the
-  mod's split of bay into shades by the abstracted "shade" locus.
+- Only agouti, leopard and flaxen carry an interactions table. agouti's is with
+  extension alone since 2026-10-12.
 - Real epistasis NOT stated in the data: grey and dominant white hiding other colours,
   cream on red versus black, silver showing only on black pigment.
 
 STRUCTURE
-- "chromosome" is on 14 loci (acan 1, brindle X, grey 25, lama3 8, lamc2 5, lcorl 3,
+- "chromosome" is on 15 loci (acan 1, agouti 22, brindle X, grey 25, lama3 8, lamc2 5, lcorl 3,
   leopard 1, mitf 16, patn1 3, pdk4 4, roan 3, ryr1 10, silver 6, slc5a3 26). The
-  other 28 published loci lack it.
+  other 27 published loci lack it.
 - "sex" is not a locus here. brindle is x_linked and uses a placeholder allele "Y".
 - The left-eye loci in the mod usually copy the right eye; that is not expressed here.
 - tools/validate.mjs does not check that allele order is unchanged since the last
