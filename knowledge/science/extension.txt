@@ -1,6 +1,217 @@
 Extension - science notes
+(The owner's research notes, filed 2026-10-12. Its sources are given in the text as addresses in brackets.
+No source was opened by the session that filed this. genes/extension.json was changed to match
+on the owner's word the same day; what is left over is in knowledge/known-issues.txt.
+Not yet audited.)
+
+Extension—more formally the melanocortin 1 receptor (MC1R) locus, often called Red Factor—is the master switch that determines whether a horse can make black pigment at all. A horse with at least one functional E allele can be black, bay, brown/seal, or any black-pigment-based color; a horse with two recessive red alleles is chestnut/sorrel, regardless of its Agouti genotype. [vgl.ucdavis](https://vgl.ucdavis.edu/resources/horse-coat-color)
+
+Established facts
+-----------------
+
+Genotype | Pigment capability | Usual base phenotype
+E/E | Black pigment produced | Black, bay, or brown depending on ASIP
+E/e | Black pigment produced | Black, bay, or brown depending on ASIP
+E/ea | Black pigment produced | Black, bay, or brown depending on ASIP
+e/e | No black coat pigment | Chestnut/sorrel
+e/ea | No black coat pigment | Chestnut/sorrel
+ea/ea | No black coat pigment | Chestnut/sorrel
+
+UC Davis identifies three molecularly characterized alleles: E, e, and the rarer ea. The recessive e and ea alleles are loss-of-function MC1R variants; when a horse has two recessive copies, it produces only red/yellow phaeomelanin in the coat. [vgl.ucdavis](https://vgl.ucdavis.edu/resources/horse-coat-color)
+
+- E is dominant and permits production of black eumelanin. [vgl.ucdavis](https://vgl.ucdavis.edu/test/red-factor-horse)
+- e is the common recessive red allele. In homozygous form it produces chestnut. [vgl.ucdavis](https://vgl.ucdavis.edu/resources/horse-coat-color)
+- ea is an alternate recessive red allele, identified in breeds including the Knabstrupper, Paint Horse, Percheron, and Quarter Horse. [pmc.ncbi.nlm.nih](https://pmc.ncbi.nlm.nih.gov/articles/PMC9498372/)
+- Extension is epistatic to Agouti: an e/e, e/ea, or ea/ea horse cannot express bay or black because it makes no black hair pigment, even if it carries bay or black Agouti alleles. [vgl.ucdavis](https://vgl.ucdavis.edu/test/red-factor-horse)
+
+How Extension makes red versus black
+------------------------------------
+
+Melanocytes can produce two pigment classes:
+
+- Eumelanin: black/brown pigment, responsible for black bodies, black points, black manes and tails.
+- Phaeomelanin: red/yellow pigment, responsible for chestnut, sorrel, and the red body of bay.
+
+Functional MC1R signaling allows pigment cells to respond to melanocyte-stimulating hormone and produce eumelanin. Recessive e or ea disrupts that pathway, so the coat is red-based. [vgl.ucdavis](https://vgl.ucdavis.edu/test/red-factor-horse)
+
+The usual interaction is:
+
+\[
+E\_ + A\_ = \text{bay}
+\]
+
+\[
+E\_ + a/a = \text{black}
+\]
+
+\[
+e/e,\ e/ea,\ \text{or}\ ea/ea = \text{chestnut}
+\]
+
+UC Davis describes A as restricting black pigment to the points—mane, tail, lower legs, and ear rims—while a distributes black pigment across the whole body. [vgl.ucdavis](https://vgl.ucdavis.edu/resources/horse-coat-color)
+
+Alleles and inheritance
+-----------------------
+
+Allele | Name | Effect | Inheritance
+E | Wild-type Extension | Allows black pigment | Dominant
+e | Red factor | Prevents black coat pigment | Recessive
+ea | Alternate red factor | Prevents black coat pigment | Recessive
+
+A horse only needs one E to have a black-pigment-capable base. Two recessive alleles—whether e/e, e/ea, or ea/ea—produce chestnut. [vgl.ucdavis](https://vgl.ucdavis.edu/test/red-factor-horse)
+
+For breeding predictions:
+
+- E/E × anything: no chestnut foal unless the other parent contributes a red allele and the foal inherits it—actually, an E/E parent cannot transmit e or ea, so it cannot produce a chestnut foal with any partner. [vgl.ucdavis](https://vgl.ucdavis.edu/test/red-factor-horse)
+- E/e × E/e: 25% E/E, 50% E/e, 25% e/e.
+- E/e × chestnut e/e: 50% black-capable, 50% chestnut.
+- Two chestnuts (e/e × e/e): 100% chestnut.
+
+UC Davis notes that appearance alone cannot always determine whether a chestnut can produce black offspring; Agouti and Red Factor testing resolves this. [vgl.ucdavis](https://vgl.ucdavis.edu/resources/horse-coat-color)
+
+What Extension does not do
+--------------------------
+
+Extension is primarily a pigment-type switch, not a general body-conformation gene. There is no well-established evidence that MC1R genotype determines height, speed, muscle mass, bone structure, hoof shape, feathering, or mane/tail length.
+
+It does indirectly influence visible color traits:
+
+Trait | Extension effect
+Body color | Determines whether black pigment can appear; e/e horses are red-based.  [vgl.ucdavis](https://vgl.ucdavis.edu/test/red-factor-horse)
+Mane/tail color | On E_ bay horses, mane and tail are black; on e/e chestnuts, they are red/shades of chestnut.  [vgl.ucdavis](https://vgl.ucdavis.edu/resources/horse-coat-color)
+Lower legs and ear rims | Black points require at least one E.  [vgl.ucdavis](https://vgl.ucdavis.edu/resources/horse-coat-color)
+Hooves | Hoof wall may be dark where the underlying skin/hair is pigmented, but Extension is not a known “hoof shape” gene.
+Feathering | Feathering is controlled by other genetic and breed-specific factors; Extension only determines whether the feathering can contain black pigment.
+Height, speed, muscle, bone | No established direct coat-color effect; these are polygenic performance/conformation traits.
+
+Some coat-color loci do have health or structural pleiotropy—for example, Silver is associated with MCOA eye disease and Appaloosa leopard complex with night blindness—but Extension itself is not established as one of those loci. [vgl.ucdavis](https://vgl.ucdavis.edu/resources/horse-coat-color)
+
+Bay versus liver bay versus blood bay versus seal bay
+-----------------------------------------------------
+
+This is where the genetics becomes much less settled. All four labels require at least one functional E allele, but they are not four clean Extension alleles.
+
+Visual label | What it usually means | Best-supported genetic explanation
+Bay | Red/brown body with black points | E_ plus at least one dominant Agouti A.  [vgl.ucdavis](https://vgl.ucdavis.edu/resources/horse-coat-color)
+Blood bay | Bright, clear red/mahogany bay | A shade variant of ordinary bay, not a proven separate allele.  [joyfulequestrian](https://www.joyfulequestrian.com/blood-bay-horse/)
+Liver bay | Very dark, brown-black bay | Usually a dark bay shade; may overlap with sooty, smoky, brown, or seal-brown phenotypes.
+Seal bay / seal brown | Near-black body with tan/red mealy areas at muzzle, eyes, flank, and soft points | Often tested as Agouti A_; a proposed At allele remains unresolved or incompletely validated.  [bapsh.co](https://bapsh.co.uk/pre-coat-colours-their-genetic-inheritance/agouti-locus-and-bay-black-seal-brown/)
+
+UC Davis currently recognizes A and a at Agouti in its standard test and does not offer a validated separate At test; it explicitly says the genetics of shade variation in horses remains incompletely understood. [vgl.ucdavis](https://vgl.ucdavis.edu/resources/horse-coat-color)
+
+Blood bay
+.........
+
+Blood bay is best treated as a phenotypic shade of standard bay, not a distinct allele. A blood bay is typically E_ A_, just like any other bay; the vivid red body likely reflects modifier genes, pigment-cell regulation, environmental/seasonal effects, or unrecognized variants. [joyfulequestrian](https://www.joyfulequestrian.com/blood-bay-horse/)
+
+There is no reliable DNA test that says “this horse is blood bay.” For a simulator, model it as a bay shade modifier, not as an independent Mendelian allele.
+
+Liver bay
+.........
+
+“Liver bay” is even less standardized than blood bay. It generally describes a very dark bay whose body reads brown or nearly black, while the points remain black.
+
+Possible contributors include:
+
+- Sooty or smutty expression: dark hairs distributed through the coat.
+- Seal-brown-like expression: dark body with residual red/tan in soft areas.
+- Cream or other dilution interactions: a bay carrying cream is buckskin, but poorly expressed or confusingly named horses can complicate visual classification.
+- Season, sun exposure, nutrition, and age: these can alter apparent depth of color but are not genetic alleles.
+- Unidentified polygenic modifiers: UC Davis notes that more than 300 genes contribute to mammalian pigmentation, but many equine shade effects remain unknown. [vgl.ucdavis](https://vgl.ucdavis.edu/resources/horse-coat-color)
+
+So “liver bay” should be modeled as a dark-bay shade category, not a proven genetic genotype.
+
+Seal bay / seal brown
+.....................
+
+Seal brown is the most genetically interesting of these labels. Historically, breeders proposed a third Agouti allele, At, with a hierarchy such as:
+
+\[
+A > A^t > a
+\]
+
+Under that model, At/At or At/a would produce seal brown, while A_ produces bay and a/a produces black. [bapsh.co](https://bapsh.co.uk/pre-coat-colours-their-genetic-inheritance/agouti-locus-and-bay-black-seal-brown/)
+
+However, the evidence is mixed:
+
+- Seal-brown horses often test as Agouti A_, not a/a, which supports the idea that they are not simply black horses. [equinetapestry](https://www.equinetapestry.blog/base-color-variation-mealy-and-seal-brown/)
+- UC Davis’s public Agouti test currently recognizes only A and a, and describes A/a and A/A as bay when black pigment is present. [vgl.ucdavis](https://vgl.ucdavis.edu/test/agouti-horse)
+- Some researchers have proposed that seal brown may instead arise from particular combinations of standard Agouti alleles, Extension dosage, or nearby modifier loci rather than a universally accepted At allele. [breedingback.blogspot](http://breedingback.blogspot.com/2021/12/wild-horses-bay-wildtype-bay-seal-brown.html)
+
+For a game or breeding simulator, the safest implementation is:
+
+- Treat seal bay/seal brown as a distinct visual phenotype.
+- Do not present At to users as a fully proven allele unless your simulation deliberately uses a speculative model.
+- A defensible mechanic is: E_ + A_ can produce bay or seal-brown depending on a separate “shade/brown modifier” locus or polygenic score.
+
+What may control bay shade?
+---------------------------
+
+The best current answer is: ordinary Agouti plus unknown modifiers, with possible contributions from Extension genotype and regions near ASIP.
+
+Research summarized in recent reviews and color-genetics discussions suggests:
+
+- E/E bays may tend to be darker than E/e bays, suggesting Extension may have a dosage or quantitative effect on shade in some populations. [equinecolors](https://equinecolors.com/bay/)
+- A DNA region near the Agouti gene may influence bay shade, but this is not yet a validated standalone “blood bay” or “liver bay” test. [equinecolors](https://equinecolors.com/bay/)
+- Sooty-type darkening, seasonal coat changes, and other pigment modifiers likely contribute to the perceived difference between light bay, standard bay, blood bay, mahogany bay, and liver bay. [vgl.ucdavis](https://vgl.ucdavis.edu/resources/horse-coat-color)
+
+A practical model:
+
+Trait layer | Genetic implementation
+Can make black pigment | E_ vs e/e, e/ea, ea/ea
+Bay versus black | A_ vs a/a
+Seal-brown tendency | Separate speculative modifier or polygenic trait; optionally an At allele only if clearly labeled speculative
+Blood bay | Polygenic red-intensity modifier
+Liver/dark bay | Polygenic darkening modifier, potentially interacting with sooty
+Sun-bleached or seasonal shade | Environmental modifier, not inherited allele
+
+Breeds and frequency
+--------------------
+
+Extension alleles occur across essentially all horse breeds, because red-based and black-based horses are both widespread. A large multi-breed study found recessive chestnut e and recessive black Agouti a alleles in all 28 breeds examined; ea was detected in Knabstrupper, Paint Horse, Percheron, and Quarter Horse. [pmc.ncbi.nlm.nih](https://pmc.ncbi.nlm.nih.gov/articles/PMC9498372/)
+
+Bay itself is common in many breeds because E_ A_ is both ancestrally common and historically favored. Breeds where bay and its dark shades are especially familiar include:
+
+- Quarter Horse: bay, dark bay, brown, and seal-like phenotypes are common; ea has been reported there. [pmc.ncbi.nlm.nih](https://pmc.ncbi.nlm.nih.gov/articles/PMC9498372/)
+- Thoroughbred: bay, dark bay, and brown are historically prominent racing colors.
+- Arabian: bay is common, while chestnut, black, and gray also occur.
+- Warmbloods: bay and dark bay are frequent, with brown/seal phenotypes sometimes visually important in registration or inspection contexts.
+- Morgan: bay, brown, and dark bay are traditional and common.
+- Iberian breeds: bay and black are both prominent; dark bay/brown phenotypes can be difficult to distinguish visually.
+- Draft breeds: bay, bay roan, and dark bay are widespread; feathering, when present, is breed- and locus-specific rather than an Extension effect.
+
+Controversy and future science
+------------------------------
+
+The major controversy is not whether Extension makes red versus black—that is settled. The controversy is how much of bay shade and seal brown is controlled by Agouti alleles versus separate modifiers.
+
+Key open questions:
+
+1. Is At real? The seal-brown At hypothesis is widely used informally, but UC Davis does not currently list it among its validated Agouti test alleles. [vgl.ucdavis](https://vgl.ucdavis.edu/test/agouti-horse)
+2. Is Extension dosage real? Some data suggest E/E bays may be darker than E/e bays, but this is not established as a universal rule. [equinecolors](https://equinecolors.com/bay/)
+3. Where do blood bay and liver bay come from? No validated single-gene tests distinguish them; they are likely shade phenotypes shaped by modifiers. [vgl.ucdavis](https://vgl.ucdavis.edu/resources/horse-coat-color)
+4. Can “brown” be separated from dark bay? Phenotypically, yes; genetically, the boundary remains blurry because many seal/brown horses test as Agouti A_. [vgl.ucdavis](https://vgl.ucdavis.edu/test/agouti-horse)
+5. What modifier genes set red intensity? Candidates probably include genes affecting melanosome environment, pigment switching, hair-cycle timing, and regional pigment production, but they have not been definitively identified in horses. [vgl.ucdavis](https://vgl.ucdavis.edu/resources/horse-coat-color)
+
+Future work will likely use large genotype-phenotype datasets, whole-genome sequencing, and standardized photographic scoring to identify variants associated with bay shade, seal brown, sooty expression, and seasonal darkening. UC Davis likewise notes that researchers are actively working to identify additional variants behind equine coat-color variation. [vgl.ucdavis](https://vgl.ucdavis.edu/resources/horse-coat-color)
+
+Simulator design recommendation
+-------------------------------
+
+For a realistic but not overclaimed horse-genetics simulator:
+
+- Implement Extension as: E, e, ea.
+- Implement Agouti as: A, a; optionally add At behind an explicit “speculative genetics” toggle.
+- Treat blood bay, liver bay, mahogany bay, and light bay as continuous or polygenic shade traits.
+- Treat seal brown/seal bay as a separate phenotype layer, preferably controlled by a modifier rather than by Extension itself.
+- Do not tie height, speed, muscle, bone, hoof shape, or feathering to Extension unless you are intentionally adding a game-specific linkage.
+
+
+EARLIER NOTES, FROM THE MOD'S WIKI
+==================================
 (Copied 2026-10-12 from the Science tab of the Procedural Horse Coats wiki page for this gene.
-Written for that project: it may mention how a game models the gene. Not yet audited.)
+Written for that project: they say how a game models the gene. Where they disagree with
+the research notes above, the notes above stand.)
 
 Genetic identity
 ----------------
