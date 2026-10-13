@@ -1,6 +1,219 @@
 KIT (white spotting) - science notes
+(The owner's research notes, filed 2026-10-12. Its sources are given in the text as addresses in brackets.
+No source was opened by the session that filed this. genes/kit.json was changed to match
+on the owner's word the same day; what is left over is in knowledge/known-issues.txt.
+Not yet audited.)
+
+The horse KIT locus is not one simple “white gene”—it is a major developmental signaling gene on equine chromosome 3 (ECA3) whose variants control where melanocytes successfully migrate and survive. Its best-established effects are white spotting, sabino patterning, tobiano patterning, and roan-like ticking; it does not create red versus black pigment itself, but it determines whether pigment-producing cells are present in particular skin and hair regions. [pmc.ncbi.nlm.nih](https://pmc.ncbi.nlm.nih.gov/articles/PMC10854722/)
+
+For a simulator, treat KIT as a white-patterning / melanocyte-migration system, not as a base-color dilution system.
+
+What KIT actually does
+----------------------
+
+KIT encodes a transmembrane receptor tyrosine kinase. When KIT ligand binds it, KIT activates signaling that supports melanoblast survival, migration, and maturation into melanocytes; those melanocytes then make pigment in skin and hair follicles. [pmc.ncbi.nlm.nih](https://pmc.ncbi.nlm.nih.gov/articles/PMC10854722/)
+
+- Red vs. black pigment is set primarily by MC1R and ASIP; KIT does not decide whether the pigment is red or black.
+- KIT variants remove or reduce pigment by preventing melanocytes from populating an area, producing white hair over pink skin.
+- White areas from KIT are present from birth; this distinguishes true dominant white/sabino/tobiano from gray, which progressively whitens with age. [pmc.ncbi.nlm.nih](https://pmc.ncbi.nlm.nih.gov/articles/PMC10854722/)
+- KIT also functions in hematopoiesis, stem-cell maintenance, and gametogenesis, which is why some severe variants are suspected to affect fertility or viability. [pmc.ncbi.nlm.nih](https://pmc.ncbi.nlm.nih.gov/articles/PMC10854588/)
+
+Established KIT-region alleles
+------------------------------
+
+There are 36 documented depigmentation-associated KIT variants in the current literature: Sabino 1 (SB1) plus W1–W35, with W29 not assigned in the published series.  In addition, Tobiano (TO) is functionally part of the KIT regulatory story but is a large inversion outside the KIT coding sequence, and Roan (RN) maps to the KIT region but has no confirmed causal mutation. [pmc.ncbi.nlm.nih](https://pmc.ncbi.nlm.nih.gov/articles/PMC10854722/)
+
+Allele | Mutation class | Typical phenotype in one copy | Homozygous status
+SB1 | KIT splice-site variant | Jagged white legs/face/body; often roaning | Viable; usually ≥90% white, “sabino-white”  [vgl.ucdavis](https://vgl.ucdavis.edu/test/sabino-1)
+TO | ~43 Mb paracentric inversion near KIT | Large smooth-edged white patches crossing the topline; white legs; mixed white/pigmented tail | Viable and documented  [pmc.ncbi.nlm.nih](https://pmc.ncbi.nlm.nih.gov/articles/PMC10854722/)
+RN | Unknown; KIT-region marker association | White hairs intermixed through body; head and lower legs remain dark | Inheritance and homozygosity not conclusively established  [pmc.ncbi.nlm.nih](https://pmc.ncbi.nlm.nih.gov/articles/PMC10854722/)
+W1 | Nonsense | All white | Not observed; suspected lethal  [pmc.ncbi.nlm.nih](https://pmc.ncbi.nlm.nih.gov/articles/PMC10854722/)
+W2 | Missense | All white | Not observed; suspected lethal  [pmc.ncbi.nlm.nih](https://pmc.ncbi.nlm.nih.gov/articles/PMC10854722/)
+W3 | Nonsense | All white | Not observed; suspected lethal  [pmc.ncbi.nlm.nih](https://pmc.ncbi.nlm.nih.gov/articles/PMC10854722/)
+W4 | Missense | All white | Not observed; suspected lethal  [pmc.ncbi.nlm.nih](https://pmc.ncbi.nlm.nih.gov/articles/PMC10854722/)
+W5 | Small deletion | Sabino-like; can be extensive | Not observed homozygous  [pmc.ncbi.nlm.nih](https://pmc.ncbi.nlm.nih.gov/articles/PMC10854722/)
+W6 | Missense | Sabino-like to all white | Not observed homozygous  [pmc.ncbi.nlm.nih](https://pmc.ncbi.nlm.nih.gov/articles/PMC10854722/)
+W7 | Splice-site | All white | Not observed homozygous  [pmc.ncbi.nlm.nih](https://pmc.ncbi.nlm.nih.gov/articles/PMC10854722/)
+W8 | Splice-site | Sabino-like | Not observed homozygous  [pmc.ncbi.nlm.nih](https://pmc.ncbi.nlm.nih.gov/articles/PMC10854722/)
+W9 | Missense | All white | Not observed homozygous  [pmc.ncbi.nlm.nih](https://pmc.ncbi.nlm.nih.gov/articles/PMC10854722/)
+W10 | Small deletion | Sabino-like to all white | Not observed homozygous  [pmc.ncbi.nlm.nih](https://pmc.ncbi.nlm.nih.gov/articles/PMC10854722/)
+W11 | Splice-site | All white | Not observed homozygous  [pmc.ncbi.nlm.nih](https://pmc.ncbi.nlm.nih.gov/articles/PMC10854722/)
+W12 | Small deletion | Sabino-like | Not observed homozygous  [pmc.ncbi.nlm.nih](https://pmc.ncbi.nlm.nih.gov/articles/PMC10854722/)
+W13 | Splice-site | All white | Not observed homozygous; often treated as high-risk  [pmc.ncbi.nlm.nih](https://pmc.ncbi.nlm.nih.gov/articles/PMC10854722/)
+W14 | Gross deletion | All white | Not observed homozygous  [pmc.ncbi.nlm.nih](https://pmc.ncbi.nlm.nih.gov/articles/PMC10854722/)
+W15 | Missense | Sabino-like to all white | Observed homozygous; viable  [pmc.ncbi.nlm.nih](https://pmc.ncbi.nlm.nih.gov/articles/PMC10854722/)
+W16 | Missense | All white | Not observed homozygous  [pmc.ncbi.nlm.nih](https://pmc.ncbi.nlm.nih.gov/articles/PMC10854722/)
+W17a | Missense | All white | Not observed homozygous  [pmc.ncbi.nlm.nih](https://pmc.ncbi.nlm.nih.gov/articles/PMC10854722/)
+W17b | Missense | All white | Not observed homozygous  [pmc.ncbi.nlm.nih](https://pmc.ncbi.nlm.nih.gov/articles/PMC10854722/)
+W18 | Splice-site | Sabino-like | Not observed homozygous  [pmc.ncbi.nlm.nih](https://pmc.ncbi.nlm.nih.gov/articles/PMC10854722/)
+W19 | Missense | Sabino-like | Observed homozygous; viable  [pmc.ncbi.nlm.nih](https://pmc.ncbi.nlm.nih.gov/articles/PMC10854722/)
+W20 | Missense | No markings to sabino-like; boosts other white alleles | Observed homozygous; viable  [pmc.ncbi.nlm.nih](https://pmc.ncbi.nlm.nih.gov/articles/PMC10854722/)
+W21 | Small deletion | Sabino-like | Not observed homozygous  [pmc.ncbi.nlm.nih](https://pmc.ncbi.nlm.nih.gov/articles/PMC10854722/)
+W22 | 1,898-bp gross deletion | Sabino-like; usually much whiter with W20 | Not observed alone; found on a W20 background  [pmc.ncbi.nlm.nih](https://pmc.ncbi.nlm.nih.gov/articles/PMC10854722/)
+W23 | Splice-site | All white | Not observed homozygous  [pmc.ncbi.nlm.nih](https://pmc.ncbi.nlm.nih.gov/articles/PMC10854722/)
+W24 | Splice-site | All white | Not observed homozygous  [pmc.ncbi.nlm.nih](https://pmc.ncbi.nlm.nih.gov/articles/PMC10854722/)
+W25 | Missense | All white | Not observed homozygous  [pmc.ncbi.nlm.nih](https://pmc.ncbi.nlm.nih.gov/articles/PMC10854722/)
+W26 | Small deletion | Sabino-like | Not observed homozygous  [pmc.ncbi.nlm.nih](https://pmc.ncbi.nlm.nih.gov/articles/PMC10854722/)
+W27 | Missense | All white | Not observed homozygous  [pmc.ncbi.nlm.nih](https://pmc.ncbi.nlm.nih.gov/articles/PMC10854722/)
+W28 | Gross deletion | Sabino-like | Not observed homozygous  [pmc.ncbi.nlm.nih](https://pmc.ncbi.nlm.nih.gov/articles/PMC10854722/)
+W29 | No published W29 allele | — | Do not treat W29 as an established equine allele  [pmc.ncbi.nlm.nih](https://pmc.ncbi.nlm.nih.gov/articles/PMC10854722/)
+W30 | Missense | All white | Not observed homozygous  [pmc.ncbi.nlm.nih](https://pmc.ncbi.nlm.nih.gov/articles/PMC10854722/)
+W31 | Frameshift/nonsense insertion | Sabino-like | Not observed homozygous  [pmc.ncbi.nlm.nih](https://pmc.ncbi.nlm.nih.gov/articles/PMC10854722/)
+W32 | Missense | Often minimal or no white alone; boosts other variants | Observed homozygous; viable  [pmc.ncbi.nlm.nih](https://pmc.ncbi.nlm.nih.gov/articles/PMC10854722/)
+W33 | Missense | Sabino-like | Not observed homozygous  [pmc.ncbi.nlm.nih](https://pmc.ncbi.nlm.nih.gov/articles/PMC10854722/)
+W34 | Missense | No markings to sabino-like; boosts other variants | Observed homozygous; viable  [pmc.ncbi.nlm.nih](https://pmc.ncbi.nlm.nih.gov/articles/PMC10854722/)
+W35 | UTR variant | No markings to sabino-like; boosts other variants | Observed homozygous; viable  [pmc.ncbi.nlm.nih](https://pmc.ncbi.nlm.nih.gov/articles/PMC10854722/)
+
+Important correction: “Dominant white” is a poor name
+-----------------------------------------------------
+
+The old label “lethal dominant white” is misleading. Some KIT variants do appear embryonic-lethal when homozygous, but others—including SB1, W15, W19, W20, W32, W34, and W35—have documented homozygotes. [pmc.ncbi.nlm.nih](https://pmc.ncbi.nlm.nih.gov/articles/PMC10854722/)
+
+- SB1/SB1 horses are viable and are typically at least 90% white. [vgl.ucdavis](https://vgl.ucdavis.edu/test/sabino-1)
+- W15/W15, W19/W19, W20/W20, W32/W32, W34/W34, and W35/W35 have all been observed. [pmc.ncbi.nlm.nih](https://pmc.ncbi.nlm.nih.gov/articles/PMC10854588/)
+- For rare, severe variants such as W1–W14, W16–W18, W21–W28, W30, W31, and W33, homozygotes have not been observed; lethality is plausible but not experimentally proven for every one. [pmc.ncbi.nlm.nih](https://pmc.ncbi.nlm.nih.gov/articles/PMC10854722/)
+- W22 is especially confusing: it has only been observed in phase with W20, so a report of “W22” may conceal a compound haplotype rather than represent a simple single-allele genotype. [pmc.ncbi.nlm.nih](https://pmc.ncbi.nlm.nih.gov/articles/PMC10854588/)
+
+How KIT affects red and black pigment
+-------------------------------------
+
+KIT is pigment-location genetics, not pigment-color genetics.
+
+Base color | With a KIT white allele
+Chestnut/red | Red hairs remain red where melanocytes exist; white areas have no pigment.
+Black | Black hairs remain black where melanocytes exist; white areas have no pigment.
+Bay | Red body and black points remain intact in pigmented zones; white areas lack both.
+Diluted bases | Cream, dun, champagne, silver, etc. still act normally; KIT merely overlays white spotting.
+
+A chestnut tobiano is still genetically chestnut; a black sabino is still genetically black. KIT does not convert red to black or black to red. [pmc.ncbi.nlm.nih](https://pmc.ncbi.nlm.nih.gov/articles/PMC10854722/)
+
+Effects beyond coat color
+-------------------------
+
+Well supported
+..............
+
+- White hair and pink skin beneath white areas are the core KIT phenotype. [pmc.ncbi.nlm.nih](https://pmc.ncbi.nlm.nih.gov/articles/PMC10854722/)
+- Tobiano can produce the distinctive mixed white-and-pigmented tail. [pmc.ncbi.nlm.nih](https://pmc.ncbi.nlm.nih.gov/articles/PMC10854722/)
+- Blue eyes can occur when facial depigmentation reaches the eye region, but KIT is not a general “blue-eye gene.” [pmc.ncbi.nlm.nih](https://pmc.ncbi.nlm.nih.gov/articles/PMC10854722/)
+- Sun sensitivity is a practical concern for horses with extensive pink skin, especially sabino-white or extensively white horses. [pmc.ncbi.nlm.nih](https://pmc.ncbi.nlm.nih.gov/articles/PMC10854722/)
+- Severe KIT disruption could plausibly affect fertility or development because KIT participates in gametogenesis and other developmental pathways, but direct equine evidence is limited. [pmc.ncbi.nlm.nih](https://pmc.ncbi.nlm.nih.gov/articles/PMC10854588/)
+
+Not established for KIT
+.......................
+
+There is no good evidence that KIT alleles determine:
+
+- Height or body size
+- Speed or athletic ability
+- Muscle mass or muscle fiber type
+- Bone structure
+- Hoof shape or hoof quality
+- Feathering
+- Mane or tail color beyond producing white hairs in white-patterned regions
+- Temperament, intelligence, or trainability
+
+Those traits are either polygenic, controlled by other loci, or simply not demonstrated to be KIT-linked in horses. KIT’s known non-pigment roles make broad developmental effects biologically possible for severe variants, but that is not the same as proven effects on conformation or performance. [pmc.ncbi.nlm.nih](https://pmc.ncbi.nlm.nih.gov/articles/PMC10854588/)
+
+Tobiano: KIT regulation, not a KIT coding mutation
+--------------------------------------------------
+
+Tobiano (TO) produces large, smooth-bordered white patches that usually cross the topline, plus white legs and often a two-toned tail. It is caused by a roughly 43 Mb paracentric inversion upstream of KIT that likely disrupts KIT regulation rather than damaging the KIT protein itself. [pmc.ncbi.nlm.nih](https://pmc.ncbi.nlm.nih.gov/articles/PMC10854722/)
+
+- Inheritance is dominant; TO/TO horses are viable and documented. [pmc.ncbi.nlm.nih](https://pmc.ncbi.nlm.nih.gov/articles/PMC10854722/)
+- Expression ranges from classic tobiano to minimal tobiano and even cryptic tobiano, which may look nearly solid except for ordinary-looking leg white. [pmc.ncbi.nlm.nih](https://pmc.ncbi.nlm.nih.gov/articles/PMC10854722/)
+- “Ink spots”—small dark spots inside white areas—are associated with tobiano but are not explained by TO genotype alone. [pmc.ncbi.nlm.nih](https://pmc.ncbi.nlm.nih.gov/articles/PMC10854722/)
+- TO is common in Paints, Pintos, Shetlands, Miniatures, Warmbloods, Gypsies, and Paso Finos; it is uncommon in Quarter Horses, Thoroughbreds, Standardbreds, and Arabians. [pmc.ncbi.nlm.nih](https://pmc.ncbi.nlm.nih.gov/articles/PMC10854722/)
+
+Sabino 1: the classic KIT spotting allele
+-----------------------------------------
+
+SB1 is a true KIT splice-site mutation that causes partial loss of exon 17, part of the kinase domain. One copy commonly gives bold white leg markings, a wide blaze, belly spotting, and roaned or jagged edges; two copies usually produce a sabino-white horse. [pmc.ncbi.nlm.nih](https://pmc.ncbi.nlm.nih.gov/articles/PMC10854722/)
+
+- SB1/n: variable, often flashy but not necessarily all white. [vgl.ucdavis](https://vgl.ucdavis.edu/test/sabino-1)
+- SB1/SB1: at least 90% white; viable. [vgl.ucdavis](https://vgl.ucdavis.edu/test/sabino-1)
+- It is especially associated with American Saddlebreds, Paints, and other breeds selected for white; however, a sabino-looking Clydesdale does not necessarily carry SB1, showing that similar phenotypes can have different genetic causes. [pmc.ncbi.nlm.nih](https://pmc.ncbi.nlm.nih.gov/articles/PMC10854722/)
+- UC Davis notes that SB1 is incompletely dominant and that homozygotes are “sabino-white.” [vgl.ucdavis](https://vgl.ucdavis.edu/test/sabino-1)
+
+Roan: KIT-linked but genetically unresolved
+-------------------------------------------
+
+Roan (RN) produces white hairs evenly mixed through the body while the head, lower legs, mane, and tail remain solid. Despite being repeatedly mapped near KIT, no causal mutation has been identified, and different studies find different best-associated markers in different breeds. [pmc.ncbi.nlm.nih](https://pmc.ncbi.nlm.nih.gov/articles/PMC10854722/)
+
+- Pedigrees support dominant inheritance, but the exact allele and homozygous viability remain unresolved. [pmc.ncbi.nlm.nih](https://pmc.ncbi.nlm.nih.gov/articles/PMC10854722/)
+- The old claim that RN/RN is always embryonic lethal is not securely established; some data suggest homozygous roans may exist. [pmc.ncbi.nlm.nih](https://pmc.ncbi.nlm.nih.gov/articles/PMC10854722/)
+- Breed-specific marker tests may fail outside the populations in which they were developed, so roan testing should be interpreted cautiously. [pmc.ncbi.nlm.nih](https://pmc.ncbi.nlm.nih.gov/articles/PMC10854722/)
+
+Breed distribution
+------------------
+
+KIT variants are not confined to one breed. Some are old and widespread; others trace to a single founder and remain family- or breed-specific. [pmc.ncbi.nlm.nih](https://pmc.ncbi.nlm.nih.gov/articles/PMC10854722/)
+
+Allele/group | Commonly associated breeds/populations
+TO | Paint, Pinto, Shetland, Miniature, Warmblood, Gypsy, Paso Fino  [pmc.ncbi.nlm.nih](https://pmc.ncbi.nlm.nih.gov/articles/PMC10854722/)
+SB1 | American Saddlebred, Paint, many Spanish-origin and white-marking-selected breeds  [pmc.ncbi.nlm.nih](https://pmc.ncbi.nlm.nih.gov/articles/PMC10854722/)
+W20 | Found across at least 25 breeds in UC Davis-reported research; often present without obvious white  [vgl.ucdavis](https://vgl.ucdavis.edu/vgl-article/new-publication-vgl-researchers-sheds-light-breed-distribution-and-allele-frequencies)
+W32, W34, W35 | Broadly distributed mild/booster variants; often occur in multi-variant haplotypes  [pmc.ncbi.nlm.nih](https://pmc.ncbi.nlm.nih.gov/articles/PMC10854588/)
+W5, W10, W13, W22 | Notable in Stock-type breeds and other populations; UC Davis routinely tests these five common dominant-white variants.  [vgl.ucdavis](https://vgl.ucdavis.edu/test/dominant-white-horse)
+W1–W4 | Franches-Montagnes, Thoroughbred, Arabian, Camarillo White lines, depending on the specific variant  [journals.plos](https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.0030195)
+W15 | Arabian lines  [pmc.ncbi.nlm.nih](https://pmc.ncbi.nlm.nih.gov/articles/PMC10854722/)
+W19 | Reported in diverse populations, including Standardbred-related research contexts  [pmc.ncbi.nlm.nih](https://pmc.ncbi.nlm.nih.gov/articles/PMC10854722/)
+RN | Quarter Horses, draft breeds, Noriker, Shetland and Gotland ponies, among others; marker associations differ by breed  [pmc.ncbi.nlm.nih](https://pmc.ncbi.nlm.nih.gov/articles/PMC10854722/)
+
+Allele interactions and “white boosters”
+----------------------------------------
+
+KIT phenotypes are highly variable because melanoblast migration is partly stochastic. Two horses with the same genotype can look very different, and a mild allele can look invisible in one horse but dramatic in another. [pmc.ncbi.nlm.nih](https://pmc.ncbi.nlm.nih.gov/articles/PMC10854722/)
+
+Key interactions:
+
+- W20 + W22 can produce an all-white or nearly all-white horse, even though either variant alone is milder. [pmc.ncbi.nlm.nih](https://pmc.ncbi.nlm.nih.gov/articles/PMC10854722/)
+- W5 + W20 can likewise produce an all-white phenotype. [pmc.ncbi.nlm.nih](https://pmc.ncbi.nlm.nih.gov/articles/PMC10854722/)
+- W20, W32, W34, and W35 are best modeled as low-impact “booster” alleles: they may cause little or no white alone but increase white when paired with SB1, TO, or a stronger W allele. [pmc.ncbi.nlm.nih](https://pmc.ncbi.nlm.nih.gov/articles/PMC10854722/)
+- A horse can carry more than two KIT variants because multiple variants can occur on the same chromosome as a haplotype. One study identified horses with up to six annotated KIT variants. [pmc.ncbi.nlm.nih](https://pmc.ncbi.nlm.nih.gov/articles/PMC10854588/)
+- Common linked haplotypes include W20W22, W19W34W35, W32W35, and SB1W32. [pmc.ncbi.nlm.nih](https://pmc.ncbi.nlm.nih.gov/articles/PMC10854588/)
+
+Controversy and open questions
+------------------------------
+
+1. Which W alleles are truly homozygous-lethal? Absence of observed homozygotes is suggestive, not proof; rare alleles may simply not yet have had enough carrier-to-carrier breedings. [pmc.ncbi.nlm.nih](https://pmc.ncbi.nlm.nih.gov/articles/PMC10854722/)
+2. Is roan one allele or several? Conflicting marker associations across breeds suggest either allelic heterogeneity, phenocopies, or additional loci. [pmc.ncbi.nlm.nih](https://pmc.ncbi.nlm.nih.gov/articles/PMC10854722/)
+3. How should labs report compound KIT genotypes? Simple “W20/W22” notation can misrepresent phase and hide whether variants are on the same chromosome. Researchers recommend phased reporting, such as W20/W20W22 rather than treating every variant as an independent two-allele slot. [pmc.ncbi.nlm.nih](https://pmc.ncbi.nlm.nih.gov/articles/PMC10854588/)
+4. Do multiple KIT variants harm health or fertility? More white is well documented; broader health consequences are not yet well studied. [pmc.ncbi.nlm.nih](https://pmc.ncbi.nlm.nih.gov/articles/PMC10854588/)
+5. Are there more W alleles? Yes, very likely. The count has repeatedly increased, and researchers expect additional variants as sequencing expands. [pmc.ncbi.nlm.nih](https://pmc.ncbi.nlm.nih.gov/articles/PMC10854722/)
+
+Practical testing
+-----------------
+
+UC Davis tests the commonly encountered dominant-white variants W5, W10, W13, W20, and W22 in its dominant-white test, and its APHA-oriented panel includes W5, W10, W13, W20, W22, W31, W32, W34, and W35.  UC Davis also offers separate tests for Sabino 1 and Tobiano. [vgl.ucdavis](https://vgl.ucdavis.edu/test/sabino-1)
+
+For breeding decisions, the safest practical rule is:
+
+- Avoid pairing two horses that both carry the same rare, severe W allele.
+- Treat W13, W22, and other unobserved-homozygote variants cautiously.
+- Do not assume every white phenotype is SB1 or TO; many W alleles create sabino-like patterns.
+- Do not assume a solid-looking horse lacks a white allele; W20, W32, W34, W35, and cryptic TO can have little or no visible white. [pmc.ncbi.nlm.nih](https://pmc.ncbi.nlm.nih.gov/articles/PMC10854722/)
+
+Simulator implementation notes
+------------------------------
+
+For a horse-genetics game, I would model the KIT system as:
+
+- Separate loci: TO, SB1, RN, and a W-series slot or slots.
+- W-series as phased haplotypes, not merely two independent W alleles.
+- White-score system: base allele impact + booster effects + random developmental variance.
+- Boosters: W20, W32, W34, W35 increase expression of SB1, TO, and stronger W alleles.
+- Lethality flags: mark unobserved-homozygote W alleles as suspected lethal, but distinguish that from proven lethality.
+- No conformation effects: keep height, bone, hoof, muscle, speed, feathering, and mane/tail color separate unless you deliberately add fictional genetics.
+
+The scientifically defensible core is: KIT controls melanocyte presence and therefore white patterning; it does not control red-versus-black pigment, and it has no established role in height, speed, muscling, skeletal structure, hooves, feathering, or mane/tail color. [pmc.ncbi.nlm.nih](https://pmc.ncbi.nlm.nih.gov/articles/PMC10854722/)
+
+
+EARLIER NOTES, FROM THE MOD'S WIKI
+==================================
 (Copied 2026-10-12 from the Science tab of the Procedural Horse Coats wiki page for this gene.
-Written for that project: it may mention how a game models the gene. Not yet audited.)
+Written for that project: they say how a game models the gene. Where they disagree with
+the research notes above, the notes above stand.)
 
 Genetic identity
 ----------------
