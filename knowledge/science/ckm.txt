@@ -23,11 +23,11 @@ owner asked again about the racing claim. No address here has been opened by a m
   CKM and COX4I2 differed between elite Thoroughbreds and horses that had never won.
   In a further independent 130 horses the CKM associations did NOT validate; only
   COX4I2 held in the combined analysis. https://pubmed.ncbi.nlm.nih.gov/21059062/
-- A later Quarter Horse study of the same variant, written there CKM g.22999655C>A,
-  found it polymorphic and not associated with racing performance or line.
+- A later Quarter Horse study of the same variant found it polymorphic and not associated with racing performance or line.
   https://www.sciencedirect.com/science/article/pii/S0737080615005699
-  (The earlier notes below write the variant g.15884567G>A, in EquCab2.0 coordinates.
-  The two notations have not been reconciled by anyone here.)
+  (That answer wrote the variant "CKM g.22999655C>A". That is a slip: chr23:g.22,999,655C>A
+  is the DMRT3 gait variant, as the owner's DMRT3 research shows. The CKM variant is
+  g.15884567G>A throughout.)
 - CK-M expression in blood rises after 30 minutes of exercise in Thoroughbreds; in
   muscle it did not change significantly. https://pmc.ncbi.nlm.nih.gov/articles/PMC4647075/
 - Verdict: a candidate that failed to replicate. Not a validated marker; not to be

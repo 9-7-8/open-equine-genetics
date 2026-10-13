@@ -83,7 +83,7 @@ STILL WRONG OR UNPROVEN IN THE RESEARCHED LOCI
   estimate does not count.
 - ednrb and hmga2 had one correction each and are otherwise unresearched.
 - champagne: the names gold, amber and classic champagne depend on extension and agouti; the file says so in words and has no interactions table. "Sable" (on seal brown) and "ivory" (with cream) are registry names, not alleles, and are not in the data.
-- ckm: a candidate that failed to replicate (Gu et al. 2010; no association in Quarter Horses). The file states no effect. The variant is written g.15884567G>A in one source and g.22999655C>A in another, not reconciled. C is flagged wild_type only because the format needs one. Whether a locus with no established effect belongs in the data as published is the owner's call.
+- ckm: a candidate that failed to replicate (Gu et al. 2010; no association in Quarter Horses). The file states no effect. (An earlier answer's "g.22999655C>A" for it was a slip for the DMRT3 variant; settled.) C is flagged wild_type only because the format needs one. Whether a locus with no established effect belongs in the data as published is the owner's call.
 - dmrt3: the Icelandic table's genotype shares are worked out from one allele frequency, assuming random mating. A 2026 study reports further variants in exon 2 of DMRT3, of unknown effect; none is in the data. Other gait loci (trot versus pace in Standardbreds) are known to exist and are not modelled.
 
 THE OTHER LOCI
