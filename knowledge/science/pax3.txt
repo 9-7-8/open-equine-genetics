@@ -1,6 +1,154 @@
 PAX3 (splash white) - science notes
+(The owner's research notes, filed 2026-10-12. Its sources are given in the text as addresses in brackets.
+No source was opened by the session that filed this. genes/pax3.json was changed to match
+on the owner's word the same day; what is left over is in knowledge/known-issues.txt.
+Not yet audited.)
+
+FIRST ANSWER: the PAX3 locus in horses
+--------------------------------------
+
+PAX3 (Paired Box 3) is a transcription-factor gene on horse chromosome 6 (ECA6) that regulates development and survival of neural-crest-derived pigment cells. In horses, its confirmed coat-color role is splashed white spotting, not a change in the fundamental red/black pigment chemistry. [pmc.ncbi.nlm.nih](https://pmc.ncbi.nlm.nih.gov/articles/PMC3325211/)
+
+Established facts
+-----------------
+
+Item | Established finding
+Gene | PAX3 (paired box gene 3), a developmental transcription factor.  [vgl.ucdavis](https://vgl.ucdavis.edu/test/splashed-white)
+Chromosomal location | ECA6; the original SW2 variant was mapped to ECA6:g.11,429,753C>T (EquCab2.0).  [pmc.ncbi.nlm.nih](https://pmc.ncbi.nlm.nih.gov/articles/PMC3325211/)
+Biological role | Required for normal development of some nerve tissue and pigment cells; PAX3 also helps regulate MITF, a central melanocyte gene.  [vgl.ucdavis](https://vgl.ucdavis.edu/test/splashed-white)
+Confirmed horse alleles | SW2 (PAX3 p.Cys70Tyr / c.209G>A) and SW4 (PAX3 p.Pro32Arg).  [vgl.ucdavis](https://vgl.ucdavis.edu/test/splashed-white)
+Inheritance | Autosomal dominant with variable expression; one copy can produce splashed white.  [vgl.ucdavis](https://vgl.ucdavis.edu/test/splashed-white)
+Main phenotype | Broad blaze/bald face, high white leg markings, variable belly white, and often blue or partially blue eyes.  [vgl.ucdavis](https://vgl.ucdavis.edu/test/splashed-white)
+Health association | Deafness can occur in some splashed white horses; it is variable and not every SW horse is deaf.  [vgl.ucdavis](https://vgl.ucdavis.edu/test/splashed-white)
+
+Alleles at PAX3
+---------------
+
+Allele | Molecular change | Known expression | Homozygote status
+N | Normal PAX3 | No PAX3-associated splashed white | Normal
+SW2 | Missense p.Cys70Tyr; affects the conserved paired DNA-binding domain | Splashed white, highly variable; originally traced to a Quarter Horse founder line | Viable; UC Davis reports identified SW2/SW2 horses, though they may be deaf and warrant veterinary evaluation.  [vgl.ucdavis](https://vgl.ucdavis.edu/test/splashed-white)
+SW4 | Missense p.Pro32Arg | Splashed white or, at minimum, a broad blaze; rare Appaloosa-family variant | Possibly embryonic lethal, but this remains unproven because no SW4/SW4 horse has been reported.  [vgl.ucdavis](https://vgl.ucdavis.edu/test/splashed-white)
+
+UC Davis currently recognizes SW2 and SW4 as the PAX3 splashed-white alleles; SW1, SW3, SW5, SW6, SW7, and SW8 are MITF variants. [vgl.ucdavis](https://vgl.ucdavis.edu/test/splashed-white)
+
+Effect on red and black pigment
+-------------------------------
+
+PAX3 does not determine whether a horse makes red versus black pigment. That baseline is governed primarily by MC1R/Extension for black pigment and ASIP/Agouti for its distribution; PAX3 acts upstream during melanocyte development. [pmc.ncbi.nlm.nih](https://pmc.ncbi.nlm.nih.gov/articles/PMC3325211/)
+
+What PAX3 variants do is reduce or prevent pigment cells from reaching or surviving in particular skin regions. The affected areas therefore produce white hair over pink skin, regardless of whether the horse’s genotype would otherwise have produced chestnut, bay, or black pigment. [pmc.ncbi.nlm.nih](https://pmc.ncbi.nlm.nih.gov/articles/PMC3325211/)
+
+- A chestnut SW2 horse remains genetically red-based; its body hairs are still red where pigment cells are present.
+- A bay or black SW2 horse still produces black-based pigment in pigmented regions.
+- The visible “splash” is a localized absence of melanocytes, not dilution of eumelanin or pheomelanin. [pmc.ncbi.nlm.nih](https://pmc.ncbi.nlm.nih.gov/articles/PMC3325211/)
+
+One modifier effect is well supported: chestnut horses carrying a PAX3 and/or MITF splash allele tend to show more facial white than bay horses with the same splash genotype, so base color modifies how obvious the pattern appears. [pmc.ncbi.nlm.nih](https://pmc.ncbi.nlm.nih.gov/articles/PMC3325211/)
+
+What PAX3 does not do
+---------------------
+
+There is no good evidence that PAX3 variants affect:
+
+- Height or body size
+- Speed or athletic performance
+- Muscle mass or muscle fiber type
+- Bone structure
+- Hoof shape or hoof quality
+- Feathering
+- Mane or tail color, except that white spotting can make mane/tail hair white where the underlying skin lacks melanocytes
+- Temperament
+
+PAX3 is developmentally important, and human PAX3 mutations can involve craniofacial and hearing traits, but the equine evidence specifically connects the known horse variants to pigmentation and variable deafness, not conformation or performance traits. [pmc.ncbi.nlm.nih](https://pmc.ncbi.nlm.nih.gov/articles/PMC3325211/)
+
+Breeds and frequency
+--------------------
+
+Allele | Breeds where documented
+SW2 | Certain Quarter Horse and Paint Horse lines; also reported in Noriker and Lipizzaner horses in broader research.  [vgl.ucdavis](https://vgl.ucdavis.edu/test/splashed-white)
+SW4 | A rare variant identified in an Appaloosa family.  [vgl.ucdavis](https://vgl.ucdavis.edu/test/splashed-white)
+
+SW2 is low-frequency even within Quarter Horses and Paint Horses: a multi-breed survey found it only in Paint Horses and Quarter Horses, with allele frequencies of about 0.0078 and 0.0083 respectively after removing related individuals. [escholarship](https://escholarship.org/content/qt4tv6j5qn/qt4tv6j5qn.pdf)
+
+Because Quarter Horses and Paint Horses share substantial ancestry and some horses are double-registered, SW2 is best understood as a Quarter Horse/Paint Horse lineage variant rather than a breed-exclusive mutation. [pmc.ncbi.nlm.nih](https://pmc.ncbi.nlm.nih.gov/articles/PMC3325211/)
+
+Speculation and controversy
+---------------------------
+
+- SW4 homozygote viability: UC Davis says SW4/SW4 “may” be embryonic lethal but has not been demonstrated; no living homozygote has been identified. This should be treated as a precaution, not a proven lethal. [vgl.ucdavis](https://vgl.ucdavis.edu/test/splashed-white)
+- Older SW2 lethality claim: The original 2012 paper predicted that SW2/SW2 might be nonviable based on mouse biology, but UC Davis later reported identified SW2 homozygotes, so the current position is that SW2 homozygosity is likely viable. [pmc.ncbi.nlm.nih](https://pmc.ncbi.nlm.nih.gov/articles/PMC3325211/)
+- Deafness risk: Deafness is real but incompletely penetrant and variable. It is not safe to assume every SW2 horse is deaf, nor that a minimally marked SW horse cannot have hearing deficits. [pmc.ncbi.nlm.nih](https://pmc.ncbi.nlm.nih.gov/articles/PMC3325211/)
+- Unexplained splash phenotypes: A horse can look splashed white yet test N/N for all currently known SW alleles; UC Davis explicitly notes that other white-spotting mutations or undiscovered variants may be responsible. [vgl.ucdavis](https://vgl.ucdavis.edu/test/splashed-white)
+- “SW10” claims: Some third-party sources mention additional PAX3-associated variants, but they are not part of UC Davis’s current SW1–SW8 testing framework. For breeding decisions, rely on laboratory-validated allele names and tests rather than informal allele numbering. [vgl.ucdavis](https://vgl.ucdavis.edu/test/splashed-white)
+
+Future science
+--------------
+
+Likely future work includes:
+
+- Finding additional white-spotting variants in horses whose splash-like phenotype remains genetically unexplained. [vgl.ucdavis](https://vgl.ucdavis.edu/test/splashed-white)
+- Quantifying how modifier genes, base color, and other white-pattern alleles shape the amount and placement of white. UC Davis notes that much of this variation is still unexplained. [vgl.ucdavis](https://vgl.ucdavis.edu/test/splashed-white)
+- Clarifying SW4 homozygote viability and the precise genotype combinations that raise deafness risk. [vgl.ucdavis](https://vgl.ucdavis.edu/test/splashed-white)
+- Better defining PAX3’s regulatory relationship with MITF and other neural-crest genes in horses. [pmc.ncbi.nlm.nih](https://pmc.ncbi.nlm.nih.gov/articles/PMC3325211/)
+
+Practical breeding notes
+------------------------
+
+- N/SW2 × N/N: 50% of foals expected to inherit SW2.
+- N/SW2 × N/SW2: 25% SW2/SW2, 50% N/SW2, 25% N/N; because homozygous SW2 horses may be deaf, clinical hearing evaluation is prudent. [vgl.ucdavis](https://vgl.ucdavis.edu/test/splashed-white)
+- SW4 carriers: Avoid pairing two SW4 carriers until homozygote viability is resolved. [vgl.ucdavis](https://vgl.ucdavis.edu/test/splashed-white)
+- Combining splash alleles: A horse can carry a PAX3 allele plus an MITF allele; combinations can produce much more white or an entirely white coat. UC Davis specifically lists SW2/SW4 as a combination not yet detected and of unknown viability. [vgl.ucdavis](https://vgl.ucdavis.edu/test/splashed-white)
+
+For a simulation, model PAX3 as a dominant white-spotting locus with variable expression, separate from base-color genes, with SW2 viable but associated with a deafness risk flag and SW4 flagged as potentially homozygous-lethal pending better data. [pmc.ncbi.nlm.nih](https://pmc.ncbi.nlm.nih.gov/articles/PMC3325211/)
+
+SECOND ANSWER: is PAX3 behind ordinary markings?
+------------------------------------------------
+
+No—PAX3 is not the main gene behind ordinary blazes, stars, stripes, socks, and stockings. Those common markings are best understood as polygenic and incompletely mapped, with KIT and related melanocyte-development pathways contributing much more broadly than PAX3. [sciencedirect](https://www.sciencedirect.com/science/article/pii/S1871141319313125)
+
+What controls ordinary markings
+-------------------------------
+
+Ordinary white markings arise when melanocytes fail to populate, survive in, or produce pigment in particular patches of skin during embryonic development. The tendency is heritable, but the exact placement and extent of a blaze or socks are not currently predictable from a single gene test. [sciencedirect](https://www.sciencedirect.com/science/article/pii/S1871141319313125)
+
+Marking type | Best current genetic explanation
+Star, stripe, snip, blaze, socks, stockings | Polygenic; no single “ordinary markings” gene has been identified.  [sciencedirect](https://www.sciencedirect.com/science/article/pii/S1871141319313125)
+Larger white patterns, sabino-like white, roan, dominant white | Often associated with variants in KIT or its regulatory region.  [sciencedirect](https://www.sciencedirect.com/science/article/pii/S0737080623003660)
+Splashed white patterns | Known variants occur in MITF and PAX3.  [pmc.ncbi.nlm.nih](https://pmc.ncbi.nlm.nih.gov/articles/PMC10854722/)
+Frame overo | EDNRB.  [pmc.ncbi.nlm.nih](https://pmc.ncbi.nlm.nih.gov/articles/PMC10854722/)
+Leopard complex patterns | TRPM1.  [pmc.ncbi.nlm.nih](https://pmc.ncbi.nlm.nih.gov/articles/PMC10854722/)
+
+Why PAX3 is different
+---------------------
+
+PAX3 variants cause a recognizable splashed white phenotype—often a broad or bald face, extended leg white, belly white, and blue eyes—not the everyday random markings seen on most horses. 
+
+A horse can have a huge blaze and four white socks while testing N/N for SW2 and SW4, the two known PAX3 splashed-white alleles. Conversely, an SW2 carrier may have relatively little white. That variability is why PAX3 should not be treated as the “markings gene.” [pmc.ncbi.nlm.nih](https://pmc.ncbi.nlm.nih.gov/articles/PMC10854588/)
+
+KIT is closer, but still not the whole answer
+---------------------------------------------
+
+KIT is the strongest known candidate system for white patterning because it affects melanocyte survival, proliferation, and migration. More than 30–35 KIT variants have been associated with equine white spotting, ranging from subtle increases in facial/leg white to extensive body white or complete white coats. [pmc.ncbi.nlm.nih](https://pmc.ncbi.nlm.nih.gov/articles/PMC10854588/)
+
+However, even KIT does not explain every ordinary marking. Genome-wide studies in Quarter Horses found genetic regions associated with head and leg markings, but did not identify one master locus that predicts individual blaze or sock patterns.  A KIT variant can raise the likelihood of white, while base color and developmental chance influence how much white ultimately appears. [sciencedirect](https://www.sciencedirect.com/science/article/pii/S1871141319313125)
+
+Practical model for a simulator
+-------------------------------
+
+For a horse-breeding simulator, I’d separate these systems:
+
+- Base color: MC1R and ASIP determine red/black pigment and its distribution. 
+- Common markings: A polygenic “white-marking score” with random developmental variation; do not tie it to PAX3.
+- Named white patterns: Separate loci/alleles for KIT-related sabino/dominant white, MITF/PAX3 splashed white, EDNRB frame overo, and TRPM1 leopard complex. [pmc.ncbi.nlm.nih](https://pmc.ncbi.nlm.nih.gov/articles/PMC10854722/)
+- PAX3 specifically: SW2 and SW4 as dominant splashed-white alleles with variable expression, not general blaze/sock modifiers. 
+
+So: PAX3 affects a particular type of white spotting, while the ordinary white markings most horses have are a separate, largely unresolved polygenic trait. [sciencedirect](https://www.sciencedirect.com/science/article/pii/S1871141319313125)
+
+
+EARLIER NOTES, FROM THE MOD'S WIKI
+==================================
 (Copied 2026-10-12 from the Science tab of the Procedural Horse Coats wiki page for this gene.
-Written for that project: it may mention how a game models the gene. Not yet audited.)
+Written for that project: they say how a game models the gene. Where they disagree with
+the research notes above, the notes above stand.)
 
 At a glance
 -----------

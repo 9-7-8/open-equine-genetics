@@ -1,6 +1,205 @@
 RAPGEF5 - science notes
+(The owner's research notes, filed 2026-10-12. Its sources are given in the text as addresses in brackets.
+No source was opened by the session that filed this. Not yet audited.
+
+THIS RESEARCH ANSWERS A DIFFERENT QUESTION, AND genes/rapgef5.json WAS NOT CHANGED.
+It asks whether RAPGEF5 is a coat-colour gene in horses and finds that it is not, which
+nothing here claimed. It then says no horse allele of RAPGEF5 with any effect is
+established. That contradicts the earlier notes kept below, which describe equine
+familial isolated hypoparathyroidism (EFIH) in Thoroughbred foals, with a named variant
+(c.2624C>A) and a paper (Rocha et al., PMC7544121). The research does not mention EFIH
+at all, so it has not weighed that paper and found it wanting; it has missed it.
+Both are recorded in knowledge/known-issues.txt. The question to ask instead: "Is
+equine familial isolated hypoparathyroidism (EFIH) in Thoroughbreds caused by a RAPGEF5
+variant, and what are its alleles, signs and frequency?"
+Most of its sources are marked by number only, and the list was not supplied.)
+
+RAPGEF5 in Horses
+RAPGEF5 is not an established horse coat-color locus. In horses, it has no UC Davis-validated alleles, no known effect on red versus black pigment, and no recognized role in height, speed, muscle, bone, hooves, feathering, or mane/tail color. Its best-documented veterinary association is instead with idiopathic epilepsy risk in Belgian Shepherds (dogs).[[pubmed.ncbi.nlm.nih](https://pubmed.ncbi.nlm.nih.gov/39342265/)][[vgl.ucdavis](https://vgl.ucdavis.edu/resources/horse-coat-color)]
+
+Bottom line
+-----------
+
+RAPGEF5 (Rap guanine nucleotide exchange factor 5) is a real, conserved
+protein-coding gene, but it is not a recognized equine coat-color gene. There
+are currently no horse alleles at RAPGEF5 with established effects on red or black
+pigment, base color, dilution, white patterning, mane/tail color, or any conformational
+trait.
+
+The gene is better known in veterinary genetics for a small insertion variant associated
+with increased risk of idiopathic epilepsy in Belgian Shepherds. That finding is in
+dogs, not horses, and should not be imported into equine coat-color models as if it were
+an equine pigment allele. [10][16]
+
+What RAPGEF5 does biologically
+------------------------------
+
+RAPGEF5 encodes a guanine-nucleotide exchange factor (GEF). GEFs help switch small
+GTP-binding proteins—here especially Rap/Ras-family proteins—from an inactive GDP-bound
+state to an active GTP-bound state. [1][5]
+
+Its known cellular roles include:
+
+- Regulation of Rap1/Ras signaling.
+- Involvement in Wnt/β-catenin signaling and nuclear transport of β-catenin.
+- A role in left-right embryonic patterning, based on human congenital-heart/heterotaxy
+  research. [3][5]
+- Possible tumor-suppressive behavior in some human myeloid-neoplasia contexts, where
+  reduced RAPGEF5 was associated with increased proliferation in experimental systems. [2][6]
+
+None of these functions establishes a direct mechanism for equine melanocyte pigment
+switching, hair-shape variation, or body-conformation traits.
+
+Established facts in horses
+---------------------------
+
+Topic | Established status
+Equine RAPGEF5 gene exists | The gene is conserved across mammals, but horse-specific RAPGEF5 allele nomenclature is not established for coat color. [1][5]
+Coat-color effect | No validated effect. It is not listed among the core equine pigment loci. [11]
+Red pigment | No RAPGEF5 allele is known to create, remove, dilute, or redistribute pheomelanin in horses. [11][12]
+Black pigment | No RAPGEF5 allele is known to create, remove, dilute, or redistribute eumelanin in horses. [11][12]
+Commercial test | UC Davis VGL does not offer a RAPGEF5 coat-color test; its equine pigment resources center on loci such as MC1R/Extension and ASIP/Agouti. [11][12]
+Height, speed, muscle, bone, hooves, feathering | No equine RAPGEF5 association has been established.
+Mane or tail color | No direct RAPGEF5 effect is established; mane and tail pigment generally follow the underlying base-color and dilution genetics. [11]
+
+How red and black pigment actually work
+---------------------------------------
+
+The well-established equine “red versus black” decision is controlled primarily by
+MC1R, also called Extension or Red Factor—not RAPGEF5.
+
+Locus | Main alleles | Effect
+MC1R / Extension / Red Factor | E, e, e^a | At least one functional E permits black/eumelanin production. e/e, e/e^a, or e^a/e^a produces only red pigment. [11][12]
+ASIP / Agouti | A, a | On an E-based horse, A restricts black pigment to points, producing bay; a/a permits body-wide black pigment. [11]
+
+In practical terms:
+
+- E/_ horses can make black pigment and may be black, bay, brown, buckskin, grullo, etc.,
+  depending on other loci. [12]
+- e/e, e/e^a, or e^a/e^a horses are red-based—chestnut/sorrel, palomino, red dun,
+  red roan, and related phenotypes—because they cannot produce coat black pigment. [11][12]
+- RAPGEF5 is upstream signaling machinery, not the horse’s known melanocortin receptor
+  switch. Therefore, it should not be modeled as an alternative Extension locus.
+
+Alleles and speculation
+-----------------------
+
+Established horse alleles
+.........................
+
+None are established. Unlike MC1R, ASIP, dun, cream, champagne, silver, gray, roan,
+tobiano, frame overo, sabino/W variants, and other documented equine loci, RAPGEF5 has no
+recognized equine allele symbols such as Rap, rap, or similar.
+
+What may exist but is unproven
+..............................
+
+It is reasonable to speculate that horses could carry neutral RAPGEF5 variants, including:
+
+- Silent or synonymous variants.
+- Rare regulatory variants affecting expression.
+- Variants with minor effects on development, fertility, neurological function, or disease
+  susceptibility, by analogy with findings in other mammals.
+
+However, **no equine RAPGEF5 variant has been convincingly shown to alter coat color,
+pigment type, body size, athletic performance, hoof morphology, feathering, or mane/tail
+color.** Treating any such effect as fact would be premature.
+
+Why dog epilepsy findings do not transfer automatically
+.......................................................
+
+A small insertion in canine RAPGEF5 is associated with increased idiopathic-epilepsy risk
+in Belgian Shepherds; the insertion adds an amino acid and is predicted to disrupt the
+protein, with altered localization and possible Wnt-signaling disruption. [10][16][20]
+
+That is valuable comparative biology, but:
+
+- It is a dog-specific association, not a demonstrated horse phenotype.
+- “Associated with increased risk” is not the same as fully penetrant, causative disease.
+- Equine allele frequencies, linkage, gene regulation, and breed structure may differ.
+- It gives no basis for a horse coat-color allele.
+
+If modeling it in a horse simulator
+-----------------------------------
+
+For a genetics simulation, the evidence-based implementation is:
+
+Model element | Recommended treatment
+RAPGEF5 as a coat locus | Do not include as a pigment locus.
+RAPGEF5 alleles | If included, use neutral placeholder variants only, clearly labeled as non-phenotypic or speculative.
+Red/black base pigment | Use MC1R: E, e, and optionally e^a. [11][12]
+Bay versus black | Use ASIP: A and a. [11]
+Epilepsy/neurological trait | Do not add a horse RAPGEF5 disease allele unless future equine research validates one.
+Height, speed, muscle, bone, hooves, feathering | Assign no RAPGEF5 effect.
+
+A conservative simulator genotype could be:
+
+  RAPGEF5: N/N
+
+where N simply means “no known variant / reference sequence.” Avoid inventing dominant or
+recessive visual alleles without published equine evidence.
+
+Breeds
+------
+
+There is no established horse breed distribution for a RAPGEF5 coat-color or
+conformation allele, because no such allele has been validated.
+
+The breed association that does exist is in dogs: the RAPGEF5 epilepsy-risk insertion has
+been reported in Belgian Shepherds, a breed group including Groenendael, Malinois,
+Tervuren, and Laekenois. [10][18]
+
+For horses, breed-specific claims—such as “common in Friesians,” “found in Gypsy Cobs,” or
+“linked to feathered breeds”—are unsupported for RAPGEF5.
+
+Controversy and future science
+------------------------------
+
+There is little controversy specifically about RAPGEF5 in horses because the equine research
+base is thin. The main risk is misattribution: confusing a conserved developmental
+signaling gene with a coat-color gene, or extrapolating the Belgian Shepherd epilepsy variant
+to horses.
+
+Future equine work could clarify whether RAPGEF5 variants influence:
+
+- Neurological disease or seizure susceptibility.
+- Embryonic development or fertility.
+- Growth, conformation, or performance through developmental signaling.
+- Pigmentation indirectly through Wnt-related developmental pathways.
+
+But until a horse-specific variant is associated with a phenotype in a sufficiently powered
+study and independently replicated, RAPGEF5 should remain **non-pigmentary and
+non-conformational** in equine genetic models.
+
+Key distinction
+---------------
+
+Gene | Established equine role
+RAPGEF5 | No established horse coat-color, performance, or conformation role. [1][11]
+MC1R / Extension | Determines whether a horse can produce black pigment; E permits it, e and e^a produce red-based coats. [11][12]
+ASIP / Agouti | Distributes black pigment on an E-based horse; A gives bay restriction, a/a permits black. [11]
+
+Sources
+-------
+
+- UC Davis Veterinary Genetics Laboratory, Equine Coat Color Genetics: MC1R controls red
+  versus black pigment; ASIP controls black-pigment distribution. [11]
+- UC Davis VGL, Red Factor: alleles E, e, and e^a; recessive red genotypes produce
+  only red pigment. [12]
+- NCBI Gene, RAPGEF5: Rap/Ras GEF, protein-coding gene, broad tissue expression. [1]
+- PubMed / Canine Genetics and Epidemiology, RAPGEF5 insertion and idiopathic epilepsy
+  risk in Belgian Shepherds. [10][16]
+- PubMed, RAPGEF5 regulation of β-catenin nuclear translocation and Wnt signaling. [3]
+
+Important correction
+If you encountered RAPGEF5 in an equine-color context, it may have been confused with MC1R/Extension, which genuinely controls whether a horse can make black pigment. UC Davis identifies MC1R alleles E, e, and e^a; E/_ horses can produce black pigment, while e/e, e/e^a, and e^a/e^a horses are red-based.[[vgl.ucdavis](https://vgl.ucdavis.edu/resources/horse-coat-color)][[vgl.ucdavis](https://vgl.ucdavis.edu/test/red-factor-horse)]
+
+
+EARLIER NOTES, FROM THE MOD'S WIKI
+==================================
 (Copied 2026-10-12 from the Science tab of the Procedural Horse Coats wiki page for this gene.
-Written for that project: it may mention how a game models the gene. Not yet audited.)
+Written for that project: they say how a game models the gene. Where they disagree with
+the research notes above, the notes above stand.)
 
 At a glance
 -----------

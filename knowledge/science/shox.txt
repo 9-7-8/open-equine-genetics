@@ -1,6 +1,135 @@
 SHOX (skeletal atavism) - science notes
+(The owner's research notes, filed 2026-10-12. Its sources are given in the text as addresses in brackets.
+No source was opened by the session that filed this. genes/shox.json was changed to match
+on the owner's word the same day; what is left over is in knowledge/known-issues.txt.
+Not yet audited.)
+
+SHOX (short stature homeobox) is a developmental regulatory gene in horses, best known for its role in skeletal atavism, a severe limb-development disorder seen especially in Shetland Ponies. It is not a coat-color locus: it does not determine red versus black pigment, mane/tail color, or white patterning. [vgl.ucdavis](https://vgl.ucdavis.edu/test/skeletal-atavism)
+
+Gene and locus
+--------------
+
+- Gene symbol: SHOX — short stature homeobox.  
+- Species: Equus caballus (horse).  
+- Gene type: Protein-coding transcription factor involved in embryonic limb and skeletal development. [pmc.ncbi.nlm.nih](https://pmc.ncbi.nlm.nih.gov/articles/PMC4938674/)
+- Location: The pseudoautosomal region (PAR) shared by the horse X and Y chromosomes; in the cited equine assembly annotation it lies near the start of the sex-chromosome PAR, downstream-adjacent to CRLF2. [pmc.ncbi.nlm.nih](https://pmc.ncbi.nlm.nih.gov/articles/PMC4938674/)
+- Human parallel: In humans, SHOX is crucial for growth and maturation of limb bones; loss of one functional copy can cause short stature and skeletal abnormalities. [medlineplus](https://medlineplus.gov/genetics/gene/shox/)
+
+Because the gene sits in the pseudoautosomal region, it is present on both X and Y chromosomes and is inherited in a way that can look autosomal for practical breeding-test purposes, even though its physical location is sex-chromosome-linked. [pmc.ncbi.nlm.nih](https://pmc.ncbi.nlm.nih.gov/articles/PMC4938674/)
+
+Established alleles
+-------------------
+
+UC Davis’ Veterinary Genetics Laboratory recognizes three reportable alleles for equine skeletal atavism:
+
+Allele | Meaning | Effect
+N | Normal / unaffected | No skeletal-atavism deletion; horse cannot transmit an SA variant.  [vgl.ucdavis](https://vgl.ucdavis.edu/test/skeletal-atavism)
+Del1 | Larger deletion | Removes the entire SHOX coding region and part of downstream CRLF2; carrier state alone does not cause disease.  [pmc.ncbi.nlm.nih](https://pmc.ncbi.nlm.nih.gov/articles/PMC4938674/)
+Del2 | Smaller deletion | Removes part of CRLF2 downstream of SHOX; carrier state alone does not cause disease.  [pmc.ncbi.nlm.nih](https://pmc.ncbi.nlm.nih.gov/articles/PMC4938674/)
+
+UC Davis describes inheritance as simple recessive: horses with N/Del1 or N/Del2 are unaffected carriers, while Del1/Del1, Del2/Del2, or Del1/Del2 foals are affected. Two carrier parents therefore have a 25% chance of an affected foal per mating. [vgl.ucdavis](https://vgl.ucdavis.edu/test/skeletal-atavism)
+
+Effect on pigment
+-----------------
+
+SHOX has no established role in red or black pigment.
+
+- Red versus black base coat is governed primarily by MC1R, the extension/red-factor locus; UC Davis identifies the recessive e and eᵃ alleles as producing only red phaeomelanin pigment. [vgl.ucdavis](https://vgl.ucdavis.edu/test/red-factor-horse)
+- SHOX instead regulates skeletal development, so its visible effects are anatomical rather than chromatic. [vgl.ucdavis](https://vgl.ucdavis.edu/test/skeletal-atavism)
+- A horse with skeletal atavism may have any base color, pattern genotype, or mane/tail color permitted by its other genes.
+
+For a coat-color simulator, SHOX should be modeled as a conformational/developmental health locus, not as a pigment allele.
+
+Skeletal atavism
+----------------
+
+Skeletal atavism (SA) is a heritable developmental disorder reported in Shetland Ponies for more than 60 years. It causes abnormal growth of the ulna and fibula, which extend beyond the carpus and tarsus respectively, producing severe limb deformity. [pmc.ncbi.nlm.nih](https://pmc.ncbi.nlm.nih.gov/articles/PMC4938674/)
+
+Clinical features include:
+
+- Shortened humerus, femur, and tibia. [labgenvet](https://labgenvet.ca/en/disease/skeletal-atavism/)
+- Short legs and angular limb deviations. [labgenvet](https://labgenvet.ca/en/disease/skeletal-atavism/)
+- Worsening locomotion, marked lameness, pain, and hoof rotation. [labgenvet](https://labgenvet.ca/en/disease/skeletal-atavism/)
+- A severe, nonviable or ethically untenable quality of life in affected foals. [pmc.ncbi.nlm.nih](https://pmc.ncbi.nlm.nih.gov/articles/PMC4938674/)
+
+The molecular basis is loss of regulatory or coding sequence at the SHOX/CRLF2 region. The larger Del1 removes the entire SHOX coding sequence; both deletions remove portions of CRLF2, so the precise contribution of each gene to the full phenotype remains an active scientific question. [pmc.ncbi.nlm.nih](https://pmc.ncbi.nlm.nih.gov/articles/PMC4938674/)
+
+Height, speed, muscle, and conformation
+---------------------------------------
+
+Trait | Established SHOX effect in horses? | Notes
+Height at withers | No established effect in carriers | A study of 130 horses found no significant wither-height difference between Del1 or Del2 carriers and N/N horses, though sample size limited power.  [pmc.ncbi.nlm.nih](https://pmc.ncbi.nlm.nih.gov/articles/PMC4938674/)
+Speed / racing performance | No established effect | No credible evidence ties the known SA alleles to racing speed; affected foals are severely lame rather than athletically enhanced.  [vgl.ucdavis](https://vgl.ucdavis.edu/test/skeletal-atavism)
+Muscle mass | No established direct effect | Human SHOX-related conditions can have a muscular body habitus, but that is not an established equine SHOX allele effect.  [sciencedirect](https://www.sciencedirect.com/topics/biochemistry-genetics-and-molecular-biology/short-stature-homeobox-gene)
+Bone structure | Yes, when homozygous/compound heterozygous | SA causes abnormal long-bone development, especially ulna and fibula overgrowth.  [pmc.ncbi.nlm.nih](https://pmc.ncbi.nlm.nih.gov/articles/PMC4938674/)
+Hoof shape | Indirect only | Hoof rotation and abnormal stance can occur secondary to severe limb deformity; SHOX is not a hoof-shape gene.  [labgenvet](https://labgenvet.ca/en/disease/skeletal-atavism/)
+Feathering | No | No association with feathered lower legs.
+Mane or tail color | No | No association with mane or tail pigment.
+Coat color | No | No association with red/black pigment or white patterns.  [vgl.ucdavis](https://vgl.ucdavis.edu/test/red-factor-horse)
+
+Speculation and open questions
+------------------------------
+
+Well-supported facts end at the two identified deletions and their recessive SA phenotype. Several questions remain open:
+
+- Are there other SHOX-region variants? Additional deletions, regulatory variants, or rare sequence changes could exist but have not been established as equine alleles. [vgl.ucdavis](https://vgl.ucdavis.edu/test/skeletal-atavism)
+- Does partial SHOX dosage affect normal height? The carrier-height study found no significant association, but the authors explicitly cautioned that the carrier sample was small and could not exclude a real but undetected effect. [pmc.ncbi.nlm.nih](https://pmc.ncbi.nlm.nih.gov/articles/PMC4938674/)
+- How much of SA is SHOX versus CRLF2? Del1 removes SHOX coding sequence, but both deletions also disrupt CRLF2; therefore the phenotype may reflect combined disruption of the region rather than SHOX loss alone. [pmc.ncbi.nlm.nih](https://pmc.ncbi.nlm.nih.gov/articles/PMC4938674/)
+- Do other pony breeds carry the same deletions? The disorder is most documented in Shetland Ponies, but broader breed screening could reveal additional carriers or distinct variants. [vgl.ucdavis](https://vgl.ucdavis.edu/test/skeletal-atavism)
+
+For game design, it would be scientifically cautious to represent only N, Del1, and Del2 as confirmed alleles, with SA expressed only in Del1/Del1, Del2/Del2, or Del1/Del2 genotypes. Any “mini,” “tall,” or “compact” allele at SHOX would be speculation, not established equine genetics. [vgl.ucdavis](https://vgl.ucdavis.edu/test/skeletal-atavism)
+
+Breeds and prevalence
+---------------------
+
+- Shetland Pony is the breed most strongly associated with skeletal atavism and the SHOX deletions. [vgl.ucdavis](https://vgl.ucdavis.edu/test/skeletal-atavism)
+- UC Davis notes that the disease has been recognized in Shetland Ponies for over 60 years and offers a direct DNA test for the Del1 and Del2 variants. [vgl.ucdavis](https://vgl.ucdavis.edu/test/skeletal-atavism)
+- The original study examined Shetland Pony-related samples and found the deletions in affected ponies but not in the control pool. [pmc.ncbi.nlm.nih](https://pmc.ncbi.nlm.nih.gov/articles/PMC4938674/)
+- There is no well-established evidence that SHOX Del1 or Del2 is common across general horse breeds; testing is most relevant for Shetland Pony and Shetland-influenced breeding programs. [vgl.ucdavis](https://vgl.ucdavis.edu/test/skeletal-atavism)
+
+Breeding and testing
+--------------------
+
+UC Davis’ practical interpretation is straightforward:
+
+- N/N: Not affected and cannot pass on an SA variant. [vgl.ucdavis](https://vgl.ucdavis.edu/test/skeletal-atavism)
+- N/Del1 or N/Del2: Unaffected carrier; can pass the deletion to 50% of foals. [vgl.ucdavis](https://vgl.ucdavis.edu/test/skeletal-atavism)
+- Del1/Del1, Del2/Del2, or Del1/Del2: Affected with skeletal atavism. [vgl.ucdavis](https://vgl.ucdavis.edu/test/skeletal-atavism)
+- Carrier × carrier: 25% affected, 50% carrier, 25% N/N per foal. [vgl.ucdavis](https://vgl.ucdavis.edu/test/skeletal-atavism)
+
+Because affected foals experience severe pain, lameness, and limb deformity, responsible breeding programs should avoid pairing two carriers. [vgl.ucdavis](https://vgl.ucdavis.edu/test/skeletal-atavism)
+
+Simulator implementation
+------------------------
+
+A clean model would be:
+
+  SHOX locus: N | Del1 | Del2
+  
+  Phenotype:
+  N/N                 -> normal
+  N/Del1              -> normal carrier
+  N/Del2              -> normal carrier
+  Del1/Del1           -> skeletal atavism
+  Del2/Del2           -> skeletal atavism
+  Del1/Del2           -> skeletal atavism
+
+Do not connect SHOX to:
+
+- Chestnut, bay, black, or red-factor inheritance.
+- Gray, dun, cream, champagne, silver, or white-spotting genes.
+- Mane/tail color.
+- Feathering.
+- Height, speed, muscle, or hoof-shape traits, except as secondary consequences of the severe SA phenotype.
+
+The defensible visible effect is severe limb deformity and lameness in affected foals, with carriers appearing externally normal. [vgl.ucdavis](https://vgl.ucdavis.edu/test/skeletal-atavism)
+
+
+EARLIER NOTES, FROM THE MOD'S WIKI
+==================================
 (Copied 2026-10-12 from the Science tab of the Procedural Horse Coats wiki page for this gene.
-Written for that project: it may mention how a game models the gene. Not yet audited.)
+Written for that project: they say how a game models the gene. Where they disagree with
+the research notes above, the notes above stand.)
 
 What SHOX does, and why "atavism" is a description not a mechanism
 ------------------------------------------------------------------
