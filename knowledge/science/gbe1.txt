@@ -4,6 +4,19 @@ No source was opened by the session that filed this. genes/gbe1.json was changed
 on the owner's word the same day; what is left over is in knowledge/known-issues.txt.
 Not yet audited.)
 
+ROUND TWO (the owner's answers to the open research questions, 2026-10-12)
+--------------------------------------------------------------------------
+These came after everything below. Where they disagree with it, this section and the gene
+file stand, unless a line says the point is unsettled. The whole answer is in
+knowledge/science/round-2-answers.txt. No address has been opened by a maintainer.
+- GBE1 is on chromosome 26 (26q12-q13). The variant is c.102C>A in exon 1.
+- UC Davis estimates 8.3% carriers in Quarter Horses and 7.1% in Paint Horses; older broad
+  estimates of roughly 10% in Quarter Horse, Paint and related bloodlines also appear.
+- Asked which 2006 study gave allele frequencies of 4.1% and 3.6%, the answer names "the
+  2006 Ward et al. study" as the report of the mutation and gives no carrier percentages
+  or address for it. The question is still open.
+- Affected foals may be aborted, stillborn, weak at birth, or die within months.
+
 GBE1 is not a coat-color locus. In horses, it is best known for glycogen branching enzyme deficiency (GBED), a fatal autosomal-recessive metabolic disease concentrated in Quarter Horse–related breeds. UC Davis lists the normal allele as N and the disease allele as G; a foal needs two copies of G to be affected. [vgl.ucdavis](https://vgl.ucdavis.edu/test/gbed)
 
 Locus and function

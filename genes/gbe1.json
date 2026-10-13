@@ -4,8 +4,9 @@
   "species": "horse",
   "name": "GBE1 (GBED)",
   "symbol": "GBE1",
+  "chromosome": "26",
   "evidence": "published",
-  "summary": "GBE1, glycogen branching enzyme deficiency (GBED) - a fatal recessive metabolic disease of the Quarter Horse and related breeds. The enzyme makes the branch points in glycogen, the body's store of glucose. One base change in exon 1 (c.102C>A, p.Tyr34Ter) puts a stop early in the protein, so no working enzyme is made. A foal with two copies is aborted late, stillborn, or dies soon after birth. A carrier has about half the normal enzyme activity and is otherwise normal, with no established effect on coat, build or performance, so the allele persists only through carriers. It traces to a single founder and is found mainly in American Quarter Horses, American Paint Horses and horses with Quarter Horse ancestry. UC Davis reports the genotypes as N/N, N/G and G/G; this is the only recognised disease allele of GBE1 in horses.",
+  "summary": "GBE1, on chromosome 26 (26q12-q13): glycogen branching enzyme deficiency (GBED), a fatal recessive metabolic disease of the Quarter Horse and related breeds. The enzyme makes the branch points in glycogen, the body's store of glucose. One base change in exon 1 (c.102C>A, p.Tyr34Ter) puts a stop early in the protein, so no working enzyme is made. A foal with two copies is aborted late, stillborn, or dies soon after birth. A carrier has about half the normal enzyme activity and is otherwise normal, with no established effect on coat, build or performance, so the allele persists only through carriers. It traces to a single founder and is found mainly in American Quarter Horses, American Paint Horses and horses with Quarter Horse ancestry. UC Davis reports the genotypes as N/N, N/G and G/G; this is the only recognised disease allele of GBE1 in horses.",
   "inheritance": "autosomal",
   "affects_coat": false,
   "alleles": [
@@ -27,19 +28,19 @@
   ],
   "frequencies": [
     {
-      "population": "American Quarter Horse, registered (allele frequency about 4.1% in a 2006 study; the carrier share among living horses is worked out from it, since no horse with two copies survives)",
+      "population": "American Quarter Horse (about 8.3% carriers, UC Davis's estimate; a 2006 study's allele frequency of about 4.1% among registered horses agrees with it)",
       "evidence": "published",
       "genotypes": [
-        { "alleles": ["gbed", "N"], "percent": 8.2 },
-        { "alleles": ["N", "N"], "percent": 91.8 }
+        { "alleles": ["gbed", "N"], "percent": 8.3 },
+        { "alleles": ["N", "N"], "percent": 91.7 }
       ]
     },
     {
-      "population": "American Paint Horse (allele frequency about 3.6% in a 2006 study; the carrier share among living horses is worked out from it, since no horse with two copies survives)",
+      "population": "American Paint Horse (about 7.1% carriers, UC Davis's estimate; a 2006 study's allele frequency of about 3.6% agrees with it)",
       "evidence": "published",
       "genotypes": [
-        { "alleles": ["gbed", "N"], "percent": 7.2 },
-        { "alleles": ["N", "N"], "percent": 92.8 }
+        { "alleles": ["gbed", "N"], "percent": 7.1 },
+        { "alleles": ["N", "N"], "percent": 92.9 }
       ]
     },
     {
