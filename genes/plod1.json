@@ -5,17 +5,17 @@
   "name": "PLOD1",
   "symbol": "PLOD1",
   "evidence": "published",
-  "summary": "PLOD1, fragile foal syndrome - a recessive lethal: an affected foal does not survive. Wild horses can carry one copy silently; two carriers bred together are the only way it appears.",
+  "summary": "PLOD1 encodes lysyl hydroxylase 1, an enzyme needed for the cross-links that give collagen its strength. One missense change, c.2032G>A (p.Gly678Arg), impairs it. Two copies cause fragile foal syndrome type 1, formerly Warmblood fragile foal syndrome: a foal with fragile, tearing skin and lax joints that is stillborn or cannot survive. It is recessive, and carriers have no known health problem. The allele is commonest in Warmbloods, where about 11 per cent of horses tested are carriers and it was found in 17 of 19 breeds; it is rare in Thoroughbreds, has been found in Knabstruppers, Haflingers and American Sport Ponies, and was not found in 302 Arabians. It was not associated with catastrophic breakdown in Thoroughbreds. No effect on coat, height, speed or build is established.",
   "inheritance": "autosomal",
   "affects_coat": false,
   "alleles": [
-    { "id": "ffs", "name": "Fragile foal", "wild_type": false, "quality": "unverified" },
+    { "id": "ffs", "name": "Fragile foal (FFS; c.2032G>A, p.Gly678Arg)", "wild_type": false, "quality": "unverified" },
     { "id": "N", "name": "Wild-type", "wild_type": true, "quality": "unverified" }
   ],
   "phenotypes": [
     { "id": "wild", "name": "Wild type", "description": "Two working copies. Nothing is wrong and nothing is passed on.", "changes_coat": false },
-    { "id": "plod1-carrier", "name": "PLOD1 carrier", "description": "One copy of ffs. The horse is completely normal and there is no way to see it - but half its foals inherit the copy, and two carriers bred together are the only way fragile foal syndrome appears.", "changes_coat": false },
-    { "id": "fragile-foal-syndrome", "name": "Fragile foal syndrome", "description": "A collagen defect: the skin tears at a touch and the joints will not hold. The foal is born alive and does not survive it.", "changes_coat": false }
+    { "id": "plod1-carrier", "name": "PLOD1 carrier", "description": "One copy. No known clinical signs or health problems; the horse passes the copy to half its foals. A foal is affected only when both parents pass it on.", "changes_coat": false },
+    { "id": "fragile-foal-syndrome", "name": "Fragile foal syndrome", "description": "Two copies. A collagen defect present from birth: thin, fragile, over-stretchy skin and mucous membranes that tear into open wounds from friction or pressure, sometimes before birth; over-extensible leg joints; floppy ears; and swellings of blood or fluid. Foals are often premature, and are stillborn, not viable, or put down shortly after birth. There is no treatment. Some such pregnancies may be lost early instead, which is not yet shown.", "changes_coat": false }
   ],
   "genotypes": [
     { "alleles": ["N", "N"], "phenotype": "wild" },
@@ -23,9 +23,72 @@
     { "alleles": ["ffs", "ffs"], "phenotype": "fragile-foal-syndrome", "conditions": ["fragile-foal-syndrome"] }
   ],
   "conditions": [
-    { "id": "fragile-foal-syndrome", "name": "Fragile foal syndrome", "description": "A collagen defect: the skin tears at a touch and the joints will not hold. The foal is born alive and does not survive it.", "severity": "lethal_at_birth" }
+    { "id": "fragile-foal-syndrome", "name": "Fragile foal syndrome", "description": "Two copies. A collagen defect present from birth: thin, fragile, over-stretchy skin and mucous membranes that tear into open wounds from friction or pressure, sometimes before birth; over-extensible leg joints; floppy ears; and swellings of blood or fluid. Foals are often premature, and are stillborn, not viable, or put down shortly after birth. There is no treatment. Some such pregnancies may be lost early instead, which is not yet shown.", "severity": "lethal_at_birth" }
   ],
   "frequencies": [
+    {
+      "population": "Warmbloods (UC Davis's average carrier share across the Warmbloods it tested, about 11%)",
+      "evidence": "published",
+      "genotypes": [
+        { "alleles": ["ffs", "N"], "percent": 11 },
+        { "alleles": ["N", "N"], "percent": 89 }
+      ]
+    },
+    {
+      "population": "Hanoverian (about 17.3% carriers)",
+      "evidence": "published",
+      "genotypes": [
+        { "alleles": ["ffs", "N"], "percent": 17.3 },
+        { "alleles": ["N", "N"], "percent": 82.7 }
+      ]
+    },
+    {
+      "population": "Danish Warmblood (about 17.3% carriers)",
+      "evidence": "published",
+      "genotypes": [
+        { "alleles": ["ffs", "N"], "percent": 17.3 },
+        { "alleles": ["N", "N"], "percent": 82.7 }
+      ]
+    },
+    {
+      "population": "Thoroughbred (17 carriers in 716 horses, given as 2.4%)",
+      "evidence": "published",
+      "genotypes": [
+        { "alleles": ["ffs", "N"], "percent": 2.4 },
+        { "alleles": ["N", "N"], "percent": 97.6 }
+      ]
+    },
+    {
+      "population": "Knabstrupper (3 carriers in 46 tested; the share is worked out from the count)",
+      "evidence": "published",
+      "genotypes": [
+        { "alleles": ["ffs", "N"], "percent": 6.52 },
+        { "alleles": ["N", "N"], "percent": 93.48 }
+      ]
+    },
+    {
+      "population": "Haflinger (2 carriers in 48 tested; the share is worked out from the count)",
+      "evidence": "published",
+      "genotypes": [
+        { "alleles": ["ffs", "N"], "percent": 4.17 },
+        { "alleles": ["N", "N"], "percent": 95.83 }
+      ]
+    },
+    {
+      "population": "American Sport Pony (1 carrier in 12 tested; the share is worked out from the count)",
+      "evidence": "published",
+      "genotypes": [
+        { "alleles": ["ffs", "N"], "percent": 8.33 },
+        { "alleles": ["N", "N"], "percent": 91.67 }
+      ]
+    },
+    {
+      "population": "Arabian (not found in 302 horses tested)",
+      "evidence": "published",
+      "genotypes": [
+        { "alleles": ["N", "N"], "percent": 100 }
+      ]
+    },
     {
       "population": "general population",
       "evidence": "estimated",
@@ -38,8 +101,11 @@
   "citations": [
     { "source": "omia", "label": "OMIA 001982", "url": "https://omia.org/OMIA001982/9796/", "verified": false },
     { "source": "pubmed", "label": "PMC8524838", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8524838/", "verified": false },
-    { "source": "pubmed", "label": "PMC7062577", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7062577/", "verified": false },
+    { "source": "pubmed", "label": "Bellone et al., PMC7062577: not associated with catastrophic breakdown in Thoroughbreds", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7062577/", "verified": false },
     { "source": "paper", "label": "Genes 11(12):1518", "url": "https://www.mdpi.com/2073-4425/11/12/1518", "verified": false },
-    { "source": "other", "label": "UC Davis CEH", "url": "https://ceh.vetmed.ucdavis.edu/health-topics/warmblood-fragile-foal-syndrome-type-1-wffs", "verified": false }
+    { "source": "other", "label": "UC Davis Center for Equine Health: Fragile Foal Syndrome Type 1", "url": "https://ceh.vetmed.ucdavis.edu/health-topics/warmblood-fragile-foal-syndrome-type-1-wffs", "verified": false },
+    { "source": "ucdavis-vgl", "label": "UC Davis VGL: survey of the WFFS variant in 38 horse breeds", "url": "https://vgl.ucdavis.edu/research/wffs-breed-distribution", "verified": false },
+    { "source": "ucdavis-vgl", "label": "UC Davis VGL: Horse Coat Color", "url": "https://vgl.ucdavis.edu/resources/horse-coat-color", "verified": false },
+    { "source": "other", "label": "MedlinePlus Genetics: PLOD1 gene", "url": "https://medlineplus.gov/genetics/gene/plod1/", "verified": false }
   ]
 }
