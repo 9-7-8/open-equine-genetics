@@ -4,18 +4,19 @@
   "species": "horse",
   "name": "DMRT3 (gait)",
   "symbol": "DMRT3",
+  "chromosome": "23",
   "evidence": "published",
-  "summary": "DMRT3, the gait keeper - the stop mutation behind ambling and pacing. It is permissive rather than dominant or recessive: it lets a horse perform the extra gaits, and other genes and training decide which one appears. One copy helps the tolt and keeps a good walk, trot and canter; two give the best tolt and pace and cost the diagonal gaits. It changes nothing about movement yet - the locus, its inheritance and every breed's share are modelled and shown, but the gait itself waits on animation.",
+  "summary": "DMRT3, the \"gait keeper\", on chromosome 23: the main known gene behind the extra gaits of gaited horses. One base change (g.22,999,655C>A, Ser301STOP) cuts the protein short and alters the spinal circuits that time the limbs. The derived allele A makes lateral gaits - amble, tolt, rack, pace - easier, and hinders the change from trot or pace to gallop; C is the ancestral allele. It is permissive, not decisive: an A/A horse can still trot, and which gait a horse actually performs depends on other genes, conformation and training. In Icelandic Horses, A/A horses tend to have five gaits including pace, while C/A horses score better in walk, trot, canter and gallop. It is not a general speed gene, though A/A Standardbreds do better in harness racing. Found in 68 of 141 breeds tested, and common mainly in gaited and harness-racing breeds.",
   "inheritance": "autosomal",
   "affects_coat": false,
   "alleles": [
-    { "id": "A", "name": "Gait", "wild_type": false, "quality": "unverified" },
+    { "id": "A", "name": "Gait keeper (Ser301STOP)", "wild_type": false, "quality": "unverified" },
     { "id": "C", "name": "Wild-type", "wild_type": true, "quality": "unverified" }
   ],
   "phenotypes": [
-    { "id": "dmrt3-gaited", "name": "Gaited", "description": "Two gait copies. The horse can amble and pace, and has the smoothest four-beat gaits, at some cost to its trot and canter. (The gait is not animated yet.)", "changes_coat": false },
-    { "id": "dmrt3-carrier", "name": "One gait copy", "description": "One gait copy. A better tolt than a horse with none and good diagonal gaits, but it does not pace. (The gait is not animated yet.)", "changes_coat": false },
-    { "id": "dmrt3-plain", "name": "No gait copy", "description": "No gait copy: walk, trot and canter, the ordinary horse.", "changes_coat": false }
+    { "id": "dmrt3-gaited", "name": "Gaited", "description": "Two A copies. The strongest predisposition to lateral gaits - tolt, rack, pace - and, in Icelandic Horses, to five gaits including pace. The change from trot or pace to gallop may be harder, and the conventional gaits tend to score lower than with one copy. Which gait appears is not set by this locus.", "changes_coat": false },
+    { "id": "dmrt3-carrier", "name": "One gait copy", "description": "One A copy. Some tendency to amble while keeping strong conventional gaits: in Icelandic Horses these score better in walk, trot, canter and gallop than horses with two copies, and are more likely to have four gaits, without pace.", "changes_coat": false },
+    { "id": "dmrt3-plain", "name": "No gait copy", "description": "No A copy. The usual walk, trot and canter; lateral gaits and pace are less likely, though not impossible.", "changes_coat": false }
   ],
   "genotypes": [
     { "alleles": ["C", "C"], "phenotype": "dmrt3-plain" },
@@ -23,6 +24,15 @@
     { "alleles": ["A", "A"], "phenotype": "dmrt3-gaited" }
   ],
   "frequencies": [
+    {
+      "population": "Icelandic Horse (allele frequency of A about 0.94 in the 2012 population studied; genotype shares worked out from it)",
+      "evidence": "published",
+      "genotypes": [
+        { "alleles": ["A", "A"], "percent": 88.36 },
+        { "alleles": ["A", "C"], "percent": 11.28 },
+        { "alleles": ["C", "C"], "percent": 0.36 }
+      ]
+    },
     {
       "population": "general population",
       "evidence": "estimated",
@@ -34,6 +44,10 @@
     }
   ],
   "citations": [
-    { "source": "paper", "label": "Andersson et al. (2012)", "url": "https://www.nature.com/articles/nature11399", "verified": false }
+    { "source": "paper", "label": "Andersson et al. (2012)", "url": "https://www.nature.com/articles/nature11399", "verified": false },
+    { "source": "ucdavis-vgl", "label": "UC Davis VGL: SynchroGait (DMRT3)", "url": "https://vgl.ucdavis.edu/test/synchrogait", "verified": false },
+    { "source": "pubmed", "label": "PMID 25073639: DMRT3 genotype and gait scores in Icelandic Horses", "url": "https://pubmed.ncbi.nlm.nih.gov/25073639/", "verified": false },
+    { "source": "pubmed", "label": "PMC6555539: DMRT3, gait and breed distribution; Standardbred trotters and pacers", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6555539/", "verified": false },
+    { "source": "omia", "label": "OMIA 001715-9796: Gaitedness", "url": "https://omia.org/OMIA001715/9796/", "verified": false }
   ]
 }
