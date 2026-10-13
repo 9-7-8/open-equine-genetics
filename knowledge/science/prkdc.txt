@@ -1,6 +1,108 @@
 PRKDC (SCID) - science notes
+(The owner's research notes, filed 2026-10-12. The bracketed markers point to the sources listed at the end, which are named there
+without addresses.
+No source was opened by the session that filed this. genes/prkdc.json was changed to match
+on the owner's word the same day; what is left over is in knowledge/known-issues.txt.
+Not yet audited.)
+
+PRKDC (protein kinase, DNA-activated, catalytic polypeptide; formerly DNA-PKcs) is best known in horses as the gene behind Severe Combined Immunodeficiency (SCID), a fatal autosomal-recessive immune defect concentrated in Arabian and part-Arabian horses. It is not a coat-color locus: it does not produce red, black, dilution, white-pattern, mane/tail-color, feathering, or conformational effects. [cite:23][cite:14]
+
+Gene and locus
+--------------
+
+- Gene symbol: PRKDC; older equine literature calls it DNA-PK or DNA-PKcs. [cite:14]
+- Protein: DNA-dependent protein kinase catalytic subunit (DNA-PKcs), a very large serine/threonine kinase. [cite:2][cite:5]
+- Horse chromosome: ECA9, reported at 9p12 by classical mapping; OMIA lists the equine gene on chromosome 9. [cite:14][cite:12]
+- Core function: DNA-PKcs joins the Ku70/Ku80 heterodimer to form DNA-dependent protein kinase (DNA-PK), which repairs DNA double-strand breaks through non-homologous end joining (NHEJ). [cite:2][cite:4]
+- Immune role: The same NHEJ machinery is required for V(D)J recombination, the DNA rearrangement process that creates functional T-cell receptors and immunoglobulins. Without it, horses cannot develop a normal adaptive immune system. [cite:6][cite:7]
+
+Established equine allele
+-------------------------
+
+There is one well-established pathogenic equine PRKDC variant, usually reported as a five-base-pair deletion in the gene.
+
+UC Davis genotype | Meaning | Expected outcome
+N/N | No SCID variant detected | Not affected by this SCID variant and cannot transmit it. [cite:23]
+N/SCID | Heterozygous carrier | Clinically unaffected carrier; transmits the variant to about 50% of foals. [cite:23]
+SCID/SCID | Homozygous for the deletion | Fatal severe combined immunodeficiency. [cite:23]
+
+The deletion causes a frameshift and premature truncation of DNA-PKcs, eliminating kinase activity. That loss prevents normal coding- and signal-joint formation during V(D)J recombination, so affected foals lack functional B- and T-cell immunity. [cite:14][cite:16]
+
+Inheritance and breeding impact
+-------------------------------
+
+SCID is autosomal recessive: a foal must inherit the mutant allele from both parents to be affected. Carrier-to-carrier matings produce a 25% affected, 50% carrier, and 25% clear expectation per foal. [cite:23]
+
+This makes the allele especially important in Arabian breeding programs and in crosses involving Arabian ancestry. UC Davis notes that the condition occurs in Arabian and part-Arab horses; other summaries estimate roughly 0.2% affected prevalence in Arabians or Arabian crosses, while carrier frequency estimates in older literature vary substantially by population and sampling period. [cite:23][cite:16][cite:24]
+
+Clinical effects
+----------------
+
+Affected foals are not simply “weak” foals: they have a profound failure of adaptive immunity.
+
+- Recurrent or overwhelming bacterial, viral, fungal, and protozoal infections. [cite:23]
+- Common signs include pneumonia, diarrhea, lethargy, poor growth, and failure to respond normally to infection. [cite:16]
+- The disease is ultimately fatal; affected foals generally do not survive beyond roughly four to six months, often dying from opportunistic infection. [cite:16]
+- Carriers are clinically normal for SCID, though one veterinary genetics summary raises a possible association between carrier status and higher incidence of virus-associated sarcoids; this should be treated as a secondary, less firmly established observation rather than a core PRKDC phenotype. [cite:16]
+
+Effects on pigment and conformation
+-----------------------------------
+
+PRKDC has no established role in any visible coat, pigment, or structural trait in horses.
+
+Trait | Established PRKDC effect? | Notes
+Red pigment / chestnut | No | Red versus black pigment is governed chiefly by MC1R and ASIP, not PRKDC.
+Black pigment | No | PRKDC is not part of the extension/agouti system.
+Dilution, gray, white patterns | No | Those phenotypes involve loci such as STX17, KIT, TRPM1, PAX3, MITF, RFWD3, and others.
+Mane or tail color | No | No credible evidence links PRKDC to mane or tail pigment.
+Height, speed, muscle, bone, hoof shape, feathering | No | No established association; these are polygenic or controlled by unrelated loci.
+Immune function | Yes | Loss-of-function PRKDC causes fatal SCID in homozygotes. [cite:23]
+DNA-damage repair / radiation sensitivity | Yes, biologically expected | DNA-PKcs is central to NHEJ double-strand-break repair; this is established broadly and is the mechanistic basis of the immune defect. [cite:4][cite:20]
+
+For a coat-color simulator, model PRKDC as a health/lethality locus, not a color locus. A realistic implementation is a recessive lethal-or-near-lethal immune-failure allele with no visual phenotype in carriers.
+
+Speculation and uncertainty
+---------------------------
+
+- Other equine PRKDC alleles: The five-base-pair deletion is the validated disease allele. There is no routinely recognized, independently validated second equine PRKDC coat-color, performance, or conformation allele. Claims that PRKDC changes color, speed, muscle, hoof shape, feathering, or mane/tail color are unsupported.
+- Carrier health effects: The possible carrier association with sarcoids is speculative relative to the SCID phenotype and should not be treated as settled. [cite:16]
+- Modifier effects: In humans and mice, PRKDC variation can produce a spectrum from severe immunodeficiency to milder immune, autoimmune, granulomatous, or radiosensitivity phenotypes. That does not demonstrate equivalent allelic series in horses. [cite:7][cite:10]
+- Population frequency: Older prevalence and carrier-frequency figures differ widely. Modern breeding decisions should rely on current, breed-specific DNA-test results rather than historical percentages. [cite:23][cite:24]
+
+Controversy and future science
+------------------------------
+
+The main historical controversy was not whether Arabian SCID was inherited, but which gene caused it. Early work used synteny and physical mapping to identify equine DNA-PK as a strong candidate; sequencing then established the five-base-pair deletion and loss of kinase activity as the causal defect. [cite:14]
+
+Future work could clarify:
+
+- Current carrier frequencies across Arabian subpopulations and Arabian-cross populations.
+- Whether additional PRKDC variants exist in horses and whether any are hypomorphic rather than fully lethal.
+- Whether heterozygosity has measurable effects on immune competence, cancer susceptibility, sarcoids, or response to DNA-damaging exposures.
+- Whether genome editing or gene therapy could eventually prevent the immune failure, building on the extensive mammalian DNA-PKcs literature. [cite:20]
+
+Practical testing
+-----------------
+
+UC Davis Veterinary Genetics Laboratory offers a direct SCID test and reports results as N/N, N/SCID, or SCID/SCID. Testing is most useful before breeding Arabians, part-Arabians, and horses with uncertain Arabian ancestry; avoiding carrier-to-carrier matings prevents affected foals. [cite:23][cite:11]
+
+Sources
+-------
+
+- UC Davis Veterinary Genetics Laboratory, “Severe Combined Immunodeficiency (SCID).” [cite:23]
+- UC Davis Veterinary Genetics Laboratory, horse test catalog. [cite:11][cite:15]
+- OMIA, equine PRKDC and SCID entry. [cite:12][cite:14]
+- NCBI Gene, human PRKDC / DNA-PKcs. [cite:2]
+- Shin et al. 1997, equine SCID and kinase-negative DNA-PKcs, via OMIA. [cite:14]
+- Labgenvet equine SCID summary. [cite:16]
+- DNA-PKcs deficiency and NHEJ/V(D)J reviews. [cite:4][cite:7][cite:10][cite:20]
+
+
+EARLIER NOTES, FROM THE MOD'S WIKI
+==================================
 (Copied 2026-10-12 from the Science tab of the Procedural Horse Coats wiki page for this gene.
-Written for that project: it may mention how a game models the gene. Not yet audited.)
+Written for that project: they say how a game models the gene. Where they disagree with
+the research notes above, the notes above stand.)
 
 At a glance
 -----------
