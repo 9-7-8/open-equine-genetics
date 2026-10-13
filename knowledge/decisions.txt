@@ -65,8 +65,17 @@ THE MOD
   has to be re-exported here, and a change here does not reach the mod.
 
 THE AUDIT
-- Making the data accurate is its own job (issue #256): locus by locus, a session
-  researches UC Davis VGL, OMIA and the papers, and the owner approves each change.
+- Making the data accurate is its own job (issue #256), locus by locus, against UC Davis
+  VGL, OMIA and the papers.
+- THE SCIENCE WINS (2026-10-12). "Always go with the science. If science contradicts an
+  early definition of a gene, update it to be as accurate to the science as we possibly
+  can." When the owner supplies research, it is applied to the gene file without asking
+  her locus by locus. She is asked only what science cannot settle: the format, what
+  becomes of an allele or locus the science does not support (ids are never removed),
+  the mod, and commits.
+- An outcome nobody has described is marked as undocumented, never guessed.
+- A frequency nobody has published is left out, never invented: a locus may have no
+  frequency table.
 
 MADE BY THE EXPORTING SESSION, NOT ASKED (change freely, tell the owner)
 - The file layout and every field name in knowledge/format.txt.

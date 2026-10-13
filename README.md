@@ -23,7 +23,7 @@ What is known to be wrong or unproven is listed in
 
 | Path | What it is |
 | --- | --- |
-| `genes/` | 68 loci, one JSON file each: 43 published, 25 abstracted. |
+| `genes/` | 68 loci, one JSON file each: 42 published, 26 abstracted. |
 | `knowledge/format.txt` | The file format, field by field, and the rules a change must keep. |
 | `knowledge/science/` | Science notes per gene, copied from the mod's wiki. A secondary source. |
 | `knowledge/` | Everything else a maintainer needs; start at `knowledge/START-HERE.txt`. |

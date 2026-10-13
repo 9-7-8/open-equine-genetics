@@ -1,83 +1,128 @@
 KNOWN ISSUES IN THE DATA
 ========================
-As of the first export, 2026-10-12. Nothing in genes/ has been audited. Remove a line here
-when it is fixed, and say so in the session log.
+Rewritten 2026-10-12, after the owner's research was applied to 19 loci. Remove a line
+here when it is fixed, and say so in the session log.
 
-HOW THE EXPORT WAS MADE
-- A throwaway Java program read the mod's compiled gene registry and wrote each locus
-  (knowledge/how-this-was-exported/). The pair tables, nonviable pairs, conditions and
-  frequencies are therefore exactly what the mod computes, at mod commit 93af89d9 plus one
-  docs commit. Nothing was typed by hand except the items listed under BY HAND.
-- tools/validate.mjs passes on all 68 files (structure only: it cannot tell whether the
-  science is right). It was broken on purpose twice and failed both times.
+WHERE THE DATA STANDS
+- genes/ began as an export of what a game models (knowledge/how-this-was-exported/, mod
+  commit 93af89d9 plus one docs commit). On 2026-10-12 the owner supplied research
+  documents and audit answers, and 19 loci were changed to follow them: acan, brindle,
+  ednrb, grey, hmga2, lama3, lamc2, lcorl, leopard, mitf, mstn, patn1, pdk4, roan, ryr1,
+  ryr2, scn4a, silver, slc5a3.
+- NO SESSION OPENED A SOURCE. Every fact changed that day rests on the owner's documents,
+  and every citation added is an address those documents gave. Some addresses were built
+  from a DOI or a PubMed number the documents gave. None has been opened.
+- The owner's rule (knowledge/decisions.txt): the science wins. Where it contradicts
+  what a locus said before, the locus is changed.
+- The other 49 loci are still the mod's export, unaudited.
+- tools/validate.mjs passes on all 68 files. It checks structure, not science.
 
-BY HAND, UNCHECKED
-- "symbol" on the 43 published loci was filled from the exporting session's own knowledge,
-  not from a source. Check each against UC Davis VGL or OMIA. Particular doubts: "roan" and
-  "tobiano" are given KIT, but both are KIT-linked rather than known KIT coding variants;
-  "patn1" is given RFWD3; "tiger_eye" SLC24A5; "mushroom" MFSD12; "brindle" MBTPS2.
-- The name and summary of the five abstracted body loci.
+THE MOD NO LONGER MATCHES
+While this repo is a mirror, a re-export from the mod would undo all of this. Nobody has
+told the mod's side. The mod still has:
+- brindle as a two-copy trait with white stripes, and a 10 percent founder rate;
+- melanoma risk on grey's G2, and no slow/fast split by allele;
+- mitf: SW3 giving more white than SW1, certain deafness on two copies, living
+  SW5/SW5, outcomes for pairs of two different variants, and no SW6, SW7, SW8;
+- scn4a: two copies killing the foal;
+- ryr1: a severe living two-copy form; ryr2 as a real jumping gene;
+- pdk4 as a plain speed gene; hmga2 and lcorl changing speed and jump;
+- acan carriers of normal height.
+mod-map.json records the structural part: "not_in_mod" (alleles) and
+"mod_outcome_unsupported" (pairs marked undocumented here on purpose).
 
-WRITTEN FOR A GAME
-- Summaries and phenotype descriptions come from the mod. Many are good plain science;
-  some describe game effects. Files known to mention the game ("the mod", hearts of
-  health, golden carrots, "a player", "rolled"): abstracted_hardiness, acan, b4galt7,
-  cvm, ednrb, fertility, gbe1, gys1, hmga2, lama3, lcorl, leopard, mstn, patn1, ryr1,
-  ryr2, tiger_eye, toe1. Found by a word search on 2026-10-12, not by reading; subtler
-  cases remain.
-- The five abstracted body loci: phenotype descriptions talk about "the percentage written
-  on that copy". In the mod each allele copy carries its own inherited strength. That idea
-  is not in this format. Decide whether it belongs here.
-- knowledge/science/*.txt are copies of wiki pages and say so at the top. They explain
-  the real science AND how the mod departs from it.
+STILL WRONG OR UNPROVEN IN THE 19
+- mitf SW9: no published allele, laboratory or paper was found for it. The research
+  suggests a mix-up with W9, a dominant white allele of KIT, and says not to have an
+  SW9 allele. It is still here because an allele id is never removed
+  (knowledge/format.txt, rule 1). Owner's decision.
+- mitf: 21 pairs of two different variants are "splash-undocumented" and 5 homozygotes
+  (SW3, SW5, SW6, SW7, SW8) are "splash-homozygote-undetected". Nothing is published
+  for them. The deafness risk on SW5 and on every two-variant pair is a rule of this
+  data, labelled as such, not a published table.
+- ryr2: now "abstracted" with no symbol, but its id still names a real gene it has
+  nothing to do with, and abstracted_jump already covers jumping. Owner's decision.
+- roan: the symbol stays KIT. The science says KIT region, causal variant unknown;
+  RN1, RN2 and RN3 are haplotype markers, named in the summary only.
+- acan: D5 has only a genomic coordinate, and the research flags it unverified. The
+  UC Davis page for the ACAN test was not found (the Friesian dwarfism page is a
+  different test). That D1/D1 is lethal at birth and the rest survive is the mod's.
+- ryr1: two papers are cited as the first description (2004 and 2009); the research
+  says the 2004 one is the primary and the 2009 reference may have been a confusion.
+- grey: G2/G3 is given the same outcome as G3/N; the research says its pace and risk
+  are not quantified. The Andalusian table's genotype shares are worked out from
+  allele frequencies, assuming random mating. So is ryr1's Quarter Horse table.
+- silver: chromosome 6 comes from a commercial laboratory's page. That a chestnut
+  carrier has the same eye risk is reasoned from the genotype, not from a study that
+  compared them. That silver is hidden on a chestnut is in words only.
+- leopard still depends on patn2, an abstraction; no real second modifier was found.
+- pdk4: G is flagged wild_type because the format needs one; no source says which
+  allele is ancestral.
+- slc5a3, ryr1, grey: the "general population" tables are still the mod's.
+- Frequencies: brindle has none, on purpose. Published tables exist only for slc5a3
+  (Fell, Dales), ryr1 (Quarter Horse) and grey (Andalusian).
+- ednrb and hmga2 had one correction each and are otherwise unresearched.
 
-COLLAPSED AND MISSING REAL SCIENCE
-- The mod merges several real loci into one and drops some real alleles on purpose. Known:
-  kit (dominant white W alleles, sabino, and more, as one locus), mitf, matp. These are
-  exported in the mod's shape. Uncollapsing is audit work.
-- Real alleles the science notes name that the data lacks, e.g. the "ea" allele at
-  extension. Find them by reading each science note against its gene file.
-- Dosage loci (shade, flaxen, sooty, pangare, markings, grey) are the mod's model.
-
-FREQUENCIES
-- Every table is "estimated". They are the mod's wild-horse founder rates. A few were set
-  from published surveys (the kit table cites a tested population in the mod's source
-  comments) but none carries its source here.
-- Breed-specific frequencies do not exist here until breeds are exported.
-- brindle has one table per sex; patn1 and patn2 have one with and one without the
-  leopard allele. The left-eye loci in the mod usually copy the right eye; that is NOT
-  expressed here - each eye locus has only its free-standing table.
+THE OTHER 49 LOCI
+- "symbol" was filled from the exporting session's own knowledge. The research has since
+  confirmed tiger_eye (SLC24A5), mushroom (MFSD12), patn1 (RFWD3), brindle (MBTPS2) and
+  tobiano as a KIT-region locus. The rest are unchecked.
+- Published loci with no research from the owner yet (24): agouti, b4galt7, champagne,
+  ckm, dmrt3, dun, extension, gbe1, gys1, kit, matp, met, mushroom, myo5a, pax3, plod1,
+  ppib, prkdc, rapgef5, shox, st14, tiger_eye, tobiano, toe1.
+- Game wording: the plain cases were reworded on 2026-10-12 by word search. Subtler
+  cases remain: what "wild horses" or founders carry (eye_colour_left,
+  eye_colour_right, manchado, pax3, plod1, rapgef5) and "no wild horse is born with
+  two" in the five abstracted body loci.
+- The five abstracted body loci describe "the percentage written on that copy". In the
+  mod each allele copy carries its own inherited strength; that idea is not in this
+  format. Owner's decision.
+- Collapsed loci: kit (dominant white W alleles, sabino and more as one locus) and matp
+  are in the mod's shape. Real alleles are missing, e.g. "ea" at extension.
+- Dosage loci (shade, flaxen, sooty, pangare, markings) are the mod's model.
+- Lethal pairs: kit, met and pax3 list theirs as nonviable; check each against a source.
+  The research says no horse with two copies of SW4 (pax3) has been detected either.
+- fertility: no single-locus basis for twinning or subfertility was found. It is an
+  abstraction and is marked as one.
+- Every frequency table is the mod's wild-horse founder rate, marked "estimated".
 
 CITATIONS
-- 29 of 68 loci have citations. They are every external link found in that gene's wiki
-  Science tab, attached to the locus as a whole, not to an allele or a claim.
-- 39 loci have none. Their science notes may still name papers in prose.
-- 15 of those 39 are marked "published" with no citation, against rule 6 of
-  knowledge/format.txt: acan, brindle, grey, lama3, lamc2, lcorl, leopard, mitf, patn1,
-  pdk4, roan, ryr1, ryr2, silver, slc5a3. tools/validate.mjs does not check rule 6.
-- By source: pubmed 45, ucdavis-vgl 13, other 12, paper 11, omia 9 (90 in all).
-- "source" was guessed from the link's host name.
-- patn1 and patn2 share the leopard page in the mod's wiki; see knowledge/science/leopard.txt.
-- 15 loci have no science note at all: the five abstracted body loci, the eight eye loci,
-  patn1, patn2.
+- 43 of 68 loci have citations; every published locus now has at least one.
+- For the 29 loci cited by the first export, the citations are every external link in
+  that gene's wiki page, attached to the whole locus, with "source" guessed from the
+  host name. For the 14 cited on 2026-10-12 they are the owner's addresses, unopened.
+- A citation hangs on the locus, not on an allele, a genotype or a table.
+- tools/validate.mjs does not check that a published locus has a citation.
+
+SCIENCE NOTES
+- 14 notes are the owner's research documents with the mod's wiki text kept underneath:
+  brindle, grey, lama3, lamc2, lcorl, leopard, mitf, patn1, pdk4, roan, ryr1, ryr2,
+  silver, slc5a3. Several are now BEHIND their gene file: the owner's later audit
+  answers (pasted in conversation, not supplied as files) corrected them and were
+  applied to the gene files only. Where a note and its gene file disagree, the gene
+  file is the later word. The audit answers themselves are not filed anywhere.
+- The other 39 notes are copies of the mod's wiki pages and say so at the top.
+- 14 loci have no note: the five abstracted body loci, the eight eye loci, patn2.
 
 INTERACTIONS
 - Only agouti, leopard and flaxen carry an interactions table. agouti's includes the
-  mod's split of bay into shades by the abstracted "shade" locus, which is the mod's model.
-- Other real epistasis is NOT stated in the data: grey and dominant white hiding other
-  colours, cream on red versus black, silver showing only on black pigment. The mod does
-  these in its painting code, so the export could not see them.
+  mod's split of bay into shades by the abstracted "shade" locus.
+- Real epistasis NOT stated in the data: grey and dominant white hiding other colours,
+  cream on red versus black, silver showing only on black pigment.
 
 STRUCTURE
+- "chromosome" is on 14 loci (acan 1, brindle X, grey 25, lama3 8, lamc2 5, lcorl 3,
+  leopard 1, mitf 16, patn1 3, pdk4 4, roan 3, ryr1 10, silver 6, slc5a3 26). The
+  other 28 published loci lack it.
 - "sex" is not a locus here. brindle is x_linked and uses a placeholder allele "Y".
-- acan lists a lethal homozygote as a genotype with a condition, while kit, met, mitf and
-  pax3 list theirs under nonviable_genotypes. That mirrors the mod (lethal at birth versus
-  never conceived). Check that the difference is real for each.
-- tools/validate.mjs does not check that allele order is unchanged since the last version
-  (there is no tagged version to compare with yet).
-- 246 of the 252 allele names repeat the allele id in brackets ("Extension (E)").
+- The left-eye loci in the mod usually copy the right eye; that is not expressed here.
+- tools/validate.mjs does not check that allele order is unchanged since the last
+  version (there is no tagged version to compare with yet).
+- 36 allele names keep the allele id, because the name alone would not tell two alleles
+  of the locus apart ("Dominant white W22"). Others carry a laboratory's label in
+  brackets ("Wild-type (G1)").
 
-THE PUBLISHED REPOSITORY (found 2026-10-12)
+THE PUBLISHED REPOSITORY
 - knowledge/START-HERE.txt and knowledge/how-this-was-exported/README.txt name
   procedures/, session-logs/ and TODO.txt, which are not in the repository; each says so.
   TODO.txt was public until 2026-10-12 and is still in the commit history.
