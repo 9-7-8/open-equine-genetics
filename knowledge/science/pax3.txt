@@ -4,6 +4,22 @@ No source was opened by the session that filed this. genes/pax3.json was changed
 on the owner's word the same day; what is left over is in knowledge/known-issues.txt.
 Not yet audited.)
 
+ROUND TWO (the owner's answers to the open research questions, 2026-10-12)
+--------------------------------------------------------------------------
+These came after everything below. Where they disagree with it, this section and the gene
+file stand, unless a line says the point is unsettled. The whole answer is in
+knowledge/science/round-2-answers.txt. No address has been opened by a maintainer.
+- No published PAX3 SW10 is established in UC Davis's naming. UC Davis names SW1 to SW8,
+  with SW2 and SW4 in PAX3 and the rest in MITF.
+- Some European laboratory pages list SW9 and SW10
+  (https://www.genomia.cz/en/test/splashed-wh-horse/); these are not equivalent to UC
+  Davis's set, and the answer says to confirm the laboratory's definitions first. Which
+  gene each lies in is not said.
+- SW4/SW4 and SW2/SW4 are rare or undocumented; the absence of a report is not proof of
+  lethality.
+- Deafness goes most clearly with severe genotypes that leave extensive white and blue
+  eyes; a rule of "this genotype is deaf" is not supported.
+
 FIRST ANSWER: the PAX3 locus in horses
 --------------------------------------
 

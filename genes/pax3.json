@@ -6,7 +6,7 @@
   "symbol": "PAX3",
   "chromosome": "6",
   "evidence": "published",
-  "summary": "PAX3, on chromosome 6, a transcription factor needed by the pigment cells of the embryo; it also helps regulate MITF. It is the second splash-white locus, with two confirmed alleles: SW2 (c.209G>A, p.Cys70Tyr), from a Quarter Horse line and found in Quarter Horses and Paint Horses, and SW4 (p.Pro32Arg), a rare variant from one Appaloosa family. Both are dominant and very variable: a broad blaze or bald face, high white on the legs, some white on the belly, and often blue eyes. The white is skin with no pigment cells; the horse's colour is unchanged elsewhere, and chestnuts tend to show more white on the face than bays with the same genotype. Deafness occurs in some splash-white horses and is not certain in any. Horses with two copies of SW2 have been identified; none with two of SW4, or with SW2 and SW4 together, has been reported. SW10 is a name from third-party sources that no laboratory recognises. Ordinary stars, blazes and socks are not caused by this locus. No effect on build or performance is established.",
+  "summary": "PAX3, on chromosome 6, a transcription factor needed by the pigment cells of the embryo; it also helps regulate MITF. It is the second splash-white locus, with two confirmed alleles: SW2 (c.209G>A, p.Cys70Tyr), from a Quarter Horse line and found in Quarter Horses and Paint Horses, and SW4 (p.Pro32Arg), a rare variant from one Appaloosa family. Both are dominant and very variable: a broad blaze or bald face, high white on the legs, some white on the belly, and often blue eyes. The white is skin with no pigment cells; the horse's colour is unchanged elsewhere, and chestnuts tend to show more white on the face than bays with the same genotype. Deafness occurs in some splash-white horses and is not certain in any. Horses with two copies of SW2 have been identified; none with two of SW4, or with SW2 and SW4 together, has been reported. SW10 is not among the eight alleles UC Davis names (SW1 to SW8). Some European laboratories list an SW9 and an SW10; which variants they mean, and in which gene, is not confirmed, so SW10 is kept here as unconfirmed, with no outcome. Ordinary stars, blazes and socks are not caused by this locus. No effect on build or performance is established.",
   "inheritance": "autosomal",
   "affects_coat": true,
   "alleles": [
@@ -21,7 +21,7 @@
     { "id": "splash-bold", "name": "Two copies of SW2", "description": "Two copies of SW2. Such horses have been identified and are viable, which the first description of SW2 had doubted. They may be deaf, and a hearing check is advised. How much white they show is not described.", "changes_coat": true },
     { "id": "splash-undocumented", "name": "SW2 with SW4, not detected", "documented": false, "description": "One copy of SW2 and one of SW4. No such horse has been detected, and whether it would be viable is unknown.", "changes_coat": true },
     { "id": "splash-homozygote-undetected", "name": "Two copies of SW4, never detected", "documented": false, "description": "No horse with two copies of SW4 has been reported. UC Davis says the pair may be lethal to the embryo; that is not demonstrated.", "changes_coat": true },
-    { "id": "unconfirmed-allele", "name": "Pair with an unconfirmed variant", "documented": false, "description": "A pair that includes SW10. The name comes from third-party sources; it is not among the splash-white alleles UC Davis tests for, and nothing is given for it.", "changes_coat": true }
+    { "id": "unconfirmed-allele", "name": "Pair with an unconfirmed variant", "documented": false, "description": "A pair that includes SW10. Some European laboratories list an SW10. It is not among the splash-white alleles UC Davis names, which variant it means is not confirmed, and nothing is given for it.", "changes_coat": true }
   ],
   "genotypes": [
     { "alleles": ["N", "N"], "phenotype": "wild" },
@@ -72,6 +72,7 @@
     { "source": "paper", "label": "Livestock Science, S1871141319313125: white markings in Quarter Horses", "url": "https://www.sciencedirect.com/science/article/pii/S1871141319313125", "verified": false },
     { "source": "paper", "label": "Journal of Equine Veterinary Science, S0737080623003660", "url": "https://www.sciencedirect.com/science/article/pii/S0737080623003660", "verified": false },
     { "source": "pubmed", "label": "PMC10854722: review of equine white spotting", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10854722/", "verified": false },
-    { "source": "pubmed", "label": "PMC10854588: horses with several KIT variants", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10854588/", "verified": false }
+    { "source": "pubmed", "label": "PMC10854588: horses with several KIT variants", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10854588/", "verified": false },
+    { "source": "other", "label": "Genomia: splashed white in horses (a laboratory listing SW9 and SW10)", "url": "https://www.genomia.cz/en/test/splashed-wh-horse/", "verified": false }
   ]
 }
