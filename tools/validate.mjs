@@ -15,7 +15,9 @@ const problems = [];
 const EVIDENCE = ["published", "abstracted"];
 const FREQ_EVIDENCE = ["published", "estimated"];
 const INHERITANCE = ["autosomal", "x_linked", "y_linked"];
-const SEVERITY = ["informational", "impairing", "lethal_at_birth", "lethal_at_conception"];
+const SEVERITY = ["informational", "impairing", "lethal_in_early_life", "lethal_at_birth", "lethal_at_conception"];
+// The horse has 31 pairs of autosomes.
+const CHROMOSOMES = [...Array.from({ length: 31 }, (_, i) => String(i + 1)), "X", "Y"];
 const SOURCES = ["ucdavis-vgl", "omia", "pubmed", "paper", "other"];
 const key = (pair) => [...pair].sort().join("/");
 
@@ -37,6 +39,12 @@ for (const file of readdirSync(join(root, "genes")).filter((f) => f.endsWith(".j
   if (!INHERITANCE.includes(g.inheritance)) bad(`inheritance is "${g.inheritance}"`);
   if (g.evidence === "abstracted" && g.symbol !== null) bad("an abstracted locus has a gene symbol");
   for (const f of ["name", "summary"]) if (!g[f]) bad(`"${f}" is empty`);
+  if (g.chromosome !== undefined) {
+    if (!CHROMOSOMES.includes(g.chromosome)) bad(`chromosome is "${g.chromosome}"`);
+    if (g.evidence === "abstracted") bad("an abstracted locus has a chromosome");
+    const sexLinked = { X: "x_linked", Y: "y_linked" }[g.chromosome] ?? "autosomal";
+    if (g.inheritance !== sexLinked) bad(`chromosome "${g.chromosome}" but inheritance "${g.inheritance}"`);
+  }
 
   const ids = (g.alleles ?? []).map((a) => a.id);
   if (new Set(ids).size !== ids.length) bad("duplicate allele id");
@@ -96,7 +104,8 @@ for (const file of readdirSync(join(root, "genes")).filter((f) => f.endsWith(".j
   for (const c of conditions) if (!usedConditions.has(c)) bad(`condition "${c}" is never used`);
   for (const c of g.conditions ?? []) if (!SEVERITY.includes(c.severity)) bad(`condition "${c.id}": severity "${c.severity}"`);
 
-  if (!Array.isArray(g.frequencies) || g.frequencies.length === 0) bad("no frequencies table");
+  // An empty list is allowed: it says no figure is known, which beats an invented one.
+  if (!Array.isArray(g.frequencies)) bad("no frequencies list");
   for (const t of g.frequencies ?? []) {
     if (!FREQ_EVIDENCE.includes(t.evidence)) bad(`frequencies "${t.population}": evidence "${t.evidence}"`);
     let sum = 0;
@@ -129,7 +138,23 @@ try {
       problems.push(`mod-map.json: locus "${row.locus}" has no gene file`);
       continue;
     }
-    const here = g.alleles.map((a) => a.id);
+    // Alleles this data has and the mod lacks are appended after the mod's own, so the mod's
+    // order must still be the start of the list here.
+    const notInMod = row.not_in_mod ?? [];
+    for (const a of notInMod) {
+      if (!g.alleles.some((x) => x.id === a)) problems.push(`mod-map.json: "${row.locus}" not_in_mod names unknown allele "${a}"`);
+      if (row.mod_allele_order.includes(a)) problems.push(`mod-map.json: "${row.locus}" allele "${a}" is both in the mod's order and not_in_mod`);
+    }
+    const undocumented = new Set(g.phenotypes.filter((p) => p.documented === false).map((p) => p.id));
+    for (const r of g.genotypes) {
+      const waived = (row.mod_outcome_unsupported ?? []).some((p) => key(p) === key(r.alleles));
+      if (undocumented.has(r.phenotype) && !waived && !r.alleles.some((a) => notInMod.includes(a))) {
+        problems.push(`genes/${g.id}.json: ${key(r.alleles)} is marked undocumented but the mod has both alleles`);
+      }
+    }
+    const all = g.alleles.map((a) => a.id);
+    const here = all.filter((a) => !notInMod.includes(a));
+    if (all.slice(here.length).some((a) => !notInMod.includes(a))) problems.push(`mod-map.json: "${row.locus}" has an allele the mod lacks ahead of one it has`);
     const mod = row.mod_allele_order.filter((a) => !(row.mod_only_alleles ?? []).includes(a));
     if (here.join(",") !== mod.join(",")) {
       problems.push(`mod-map.json: "${row.locus}" allele order is [${here}] here but the mod requires [${mod}]`);

@@ -13,6 +13,9 @@ id            the locus id, lower case with underscores. The file name without .
 species       "horse".
 name          a readable name.
 symbol        the gene symbol (MC1R, KIT) or null. null for every abstraction.
+chromosome    optional. The horse chromosome the locus is on: "1" to "31", "X" or "Y".
+              Left out where no source has been read for it, and on every abstraction.
+              (Added 2026-10-12. An optional field, so "format" stays 1.)
 evidence      "published" or "abstracted". See EVIDENCE below.
 summary       one to three sentences on what the locus does.
 inheritance   "autosomal", "x_linked" or "y_linked".
@@ -27,6 +30,11 @@ alleles       list, IN A FIXED ORDER that must never be changed (append only).
 
 phenotypes    list of the outcomes this locus can produce.
   id, name, description
+  documented    optional. false marks an outcome that stands for "nobody has described
+                this pair". Allowed only on a pair with an allele the mod lacks
+                (mod-map.json, "not_in_mod"), or on a pair mod-map.json names under
+                "mod_outcome_unsupported": a pair of two alleles the mod has always has
+                an outcome there, and must not quietly lose it here.
   changes_coat  false means this outcome paints nothing on the coat. It does NOT mean
                 "healthy" or "normal": every outcome of a non-coat locus is false.
 
@@ -41,7 +49,8 @@ nonviable_genotypes   optional. Pairs that cannot exist in a living horse (an em
 
 conditions    optional list of health conditions.
   id, name, description
-  severity      "informational", "impairing", "lethal_at_birth", "lethal_at_conception".
+  severity      "informational", "impairing", "lethal_in_early_life" (born alive, dies in
+                its first weeks or months), "lethal_at_birth", "lethal_at_conception".
 
 interactions  optional. Present when the outcome depends on other loci.
   depends_on    list of locus ids.
@@ -49,7 +58,7 @@ interactions  optional. Present when the outcome depends on other loci.
                 loci, and the resulting "phenotype". Where present it overrides
                 "genotypes", which then shows the outcome with the other loci at wild type.
 
-frequencies   list of genotype frequency tables.
+frequencies   list of genotype frequency tables. May be empty: no frequency is known.
   population    who the table describes ("general population", "mares").
   evidence      "published" or "estimated".
   genotypes     alleles + percent. Percents in a table sum to 100. A pair not listed is 0.
@@ -81,5 +90,8 @@ RULES A CHANGE MUST KEEP  (tools/validate.mjs checks 2 to 5)
 mod-map.json
 ------------
 Not part of the science. One row per locus: "locus" (the id here), "mod_key" (the key the
-mod saves), "mod_allele_order" (the order the mod requires), and "mod_only_alleles" (alleles
-the mod has that this data deliberately leaves out).
+mod saves), "mod_allele_order" (the order the mod requires), "mod_only_alleles" (alleles
+the mod has that this data deliberately leaves out), and "not_in_mod" (alleles this data
+has that the mod lacks; they come after the mod's own in the allele list). A row may also
+carry "mod_outcome_unsupported": pairs for which the mod has an outcome that no source
+supports, and which are marked undocumented here on purpose.
