@@ -16,7 +16,7 @@
   "phenotypes": [
     { "id": "wild", "name": "Wild type", "description": "Red pigment is left alone.", "changes_coat": false },
     { "id": "mushroom-carrier", "name": "Mushroom carrier", "description": "One copy. No visible dilution; the horse passes the copy to about half its foals.", "changes_coat": false },
-    { "id": "mushroom", "name": "Mushroom", "description": "Two copies. Red pigment is diluted: a chestnut becomes a flat sepia, beige or taupe, often with a lighter or flaxen mane and tail. On a bay the red body may be diluted while the black mane, tail and points stay black, and how reliably that shows is not settled. A black horse has little or no red to dilute and is not expected to show it.", "changes_coat": true }
+    { "id": "mushroom", "name": "Mushroom", "description": "Two copies. Red pigment is diluted: a chestnut becomes a flat sepia, beige or taupe, often with a lighter or flaxen mane and tail. On a bay the red body may be diluted while the black mane, tail and points stay black, and not every bay with two copies shows it clearly: it varies with base colour, age and other modifiers. A black horse has little or no red to dilute and is not expected to show it.", "changes_coat": true }
   ],
   "genotypes": [
     { "alleles": ["mu", "mu"], "phenotype": "wild" },

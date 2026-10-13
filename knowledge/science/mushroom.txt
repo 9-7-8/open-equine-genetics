@@ -4,6 +4,16 @@ No source was opened by the session that filed this. genes/mushroom.json was cha
 on the owner's word the same day; what is left over is in knowledge/known-issues.txt.
 Not yet audited.)
 
+ROUND TWO (the owner's answers to the open research questions, 2026-10-12)
+--------------------------------------------------------------------------
+These came after everything below. Where they disagree with it, this section and the gene
+file stand, unless a line says the point is unsettled. The whole answer is in
+knowledge/science/round-2-answers.txt. No address has been opened by a maintainer.
+- Not every Mu/Mu bay shows an obvious mushroom coat; expression varies with base colour,
+  age and other modifiers.
+- Mushroom is related to flaxen but is not the same thing; flaxen remains unresolved.
+- Rare, best documented in Shetland-type ponies; no breed frequency is reliably published.
+
 Mushroom is a recessive red-pigment dilution in horses, best documented in Shetland Ponies. It turns a chestnut base coat into a distinctive sepia, taupe, or “mushroom” color, often with a flaxen mane and tail. [vgl.ucdavis](https://vgl.ucdavis.edu/test/mushroom)
 
 Established facts
