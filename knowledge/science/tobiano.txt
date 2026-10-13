@@ -1,6 +1,117 @@
 Tobiano - science notes
+(The owner's research notes, filed 2026-10-12. Its sources are given in the text as addresses in brackets.
+No source was opened by the session that filed this. genes/tobiano.json was changed to match
+on the owner's word the same day; what is left over is in knowledge/known-issues.txt.
+Not yet audited.)
+
+Tobiano is one of the best-established white-spotting patterns in horses: an autosomal-dominant pattern of large, usually vertically oriented white patches that commonly cross the topline. It is caused by a large inversion on horse chromosome 3 (ECA3) that likely alters regulation of the pigmentation gene KIT; UC Davis tests it as N (non-tobiano) versus TO (tobiano). [vgl.ucdavis](https://vgl.ucdavis.edu/test/tobiano)
+
+Established genetics
+--------------------
+
+Genotype | UC Davis notation | Phenotype | Transmission to a non-tobiano mate
+Non-tobiano | N/N | No tobiano pattern | 0% tobiano foals
+Heterozygous tobiano | N/TO | Tobiano | 50% tobiano foals
+Homozygous tobiano | TO/TO | Tobiano | 100% tobiano foals, regardless of mate
+
+Tobiano is inherited as a simple autosomal dominant trait: one copy is sufficient for the visible pattern, and a TO/TO horse passes TO to every foal. [vgl.ucdavis](https://vgl.ucdavis.edu/test/tobiano)
+
+The molecular cause is not a typical single-nucleotide mutation. Instead, tobiano is associated with a large chromosomal inversion affecting a region that includes or regulates KIT, a gene central to pigment-cell development and migration. [vgl.ucdavis](https://vgl.ucdavis.edu/test/tobiano)
+
+How it affects pigment
+----------------------
+
+Tobiano does not create a new base color. It overlays white spotting on whatever red/black base color the horse already has—chestnut, bay, black, palomino, buckskin, dun, champagne, silver, and so on. The white areas have pink skin and white hair; pigmented areas retain the normal skin and hair pigment. [vgl.ucdavis](https://vgl.ucdavis.edu/test/tobiano)
+
+Typical tobiano phenotype includes:
+
+- White patches crossing the topline between the ears and tail.
+- Sharp, relatively regular, often vertical patch edges.
+- White on all four legs, usually below the knees and hocks.
+- A normally dark/colored head, unless additional white-marking genes are present.
+- Often a two-colored tail—colored at the dock with white along part of its length.
+- Brown eyes in most cases, though one or both eyes may be blue or partially blue. [vgl.ucdavis](https://vgl.ucdavis.edu/test/tobiano)
+
+Alleles and “hidden” tobiano
+----------------------------
+
+The two recognized testable states are:
+
+- N / to: no tobiano allele.
+- TO: tobiano allele.
+
+There is no broadly accepted, separately named recessive tobiano allele. However, expression varies widely: some N/TO horses show only minimal white, and rare horses may look almost solid despite testing positive for TO. This is why “minimal tobiano” is a phenotype description, not a distinct proven allele. [vgl.ucdavis](https://vgl.ucdavis.edu/test/tobiano)
+
+A tobiano horse therefore must have at least one tobiano parent under ordinary Mendelian inheritance; an apparent spontaneous tobiano from two non-tobiano parents should prompt re-testing, pedigree review, and consideration of misidentified parentage or another white-spotting pattern. [vgl.ucdavis](https://vgl.ucdavis.edu/test/tobiano)
+
+Interaction with other patterns
+-------------------------------
+
+Tobiano can combine with frame overo, splash white, sabino-type white, dominant white, and other spotting variants. A horse carrying tobiano plus an overo-type pattern is commonly called a tovero. [en.wikipedia](https://en.wikipedia.org/wiki/Tobiano)
+
+Important distinction: tobiano itself is not known to cause the lethal white foal syndrome associated with homozygous frame overo (EDNRB Ile118Lys). But combining tobiano with frame overo can produce visually confusing patterns, so breeders should test for frame overo separately when relevant. [vgl.ucdavis](https://vgl.ucdavis.edu/test/tobiano)
+
+What tobiano does not affect
+----------------------------
+
+There is no good evidence that the TO allele determines or reliably predicts:
+
+- Height.
+- Speed or athletic ability.
+- Muscle mass or muscle fiber type.
+- Bone structure or conformation.
+- Hoof shape or hoof quality.
+- Feathering.
+- Mane or tail color beyond the white hair produced by the spotting itself.
+- Temperament, fertility, or general health.
+
+Its established biological role is pigmentation—specifically the distribution of pigment cells and therefore coat white patterning. The KIT region is biologically important, but claims that tobiano causes conformational or performance traits are not supported by the standard genetic-testing literature. [vgl.ucdavis](https://vgl.ucdavis.edu/test/tobiano)
+
+Breed distribution
+------------------
+
+Tobiano occurs in many breeds and is especially associated with pinto-type and Paint-type populations. UC Davis notes that testing is appropriate for “many breeds,” reflecting that the variant is not confined to one breed. [vgl.ucdavis](https://vgl.ucdavis.edu/test/tobiano)
+
+It is particularly familiar in:
+
+- American Paint Horse
+- Pinto horses and ponies
+- Gypsy Cob / Gypsy Vanner
+- Icelandic Horse
+- Barb and related Iberian-influenced populations
+- Various European draft and pony breeds where colored patterns are accepted
+
+Breed registries differ in whether they accept tobiano, restrict it, or use separate colored-horse registries.
+
+Controversy and open questions
+------------------------------
+
+The core inheritance and diagnostic test are well established, but several areas remain scientifically and practically messy:
+
+- Minimal expression: Why some TO carriers have extensive white and others have very little is not fully explained. Other modifiers, background genetics, and possibly structural variation around KIT are likely involved.
+- Homozygous tobiano appearance: TO/TO horses do not have a uniquely predictable “double tobiano” appearance. They may look similar to N/TO horses, sometimes with more white, but this is variable rather than a reliable diagnostic rule.
+- Naming conventions: UC Davis uses N/TO; many breeders and some labs use to/TO or T/t. These describe the same biological state, not different alleles.
+- Pattern identification by eye: Tobiano, splash, sabino, and combinations can overlap visually. A horse that “looks tobiano” is not necessarily TO-positive, and a minimally marked TO horse may not look obviously tobiano.
+- Historical origin: The inversion’s origin and exact historical spread among breeds are still areas of active research rather than settled facts.
+
+Future science
+--------------
+
+Likely future work will focus on identifying modifiers that control the amount and placement of white, clarifying how the ECA3 inversion changes KIT regulation, and improving prediction of white-pattern phenotypes from genotype. For a breeding-simulation design, the safest model is:
+
+- TO as a dominant, single-locus allele.
+- N/N, N/TO, and TO/TO with 0%, 50%, and 100% transmission respectively.
+- A separate continuous or polygenic “white expression” modifier controlling how much tobiano white is visible.
+- Independent loci for frame, splash, sabino-type white, gray, roan, and base color.
+
+That structure matches the established genetics while leaving room for the real-world variability that makes tobiano visually unpredictable. [vgl.ucdavis](https://vgl.ucdavis.edu/test/tobiano)
+
+
+EARLIER NOTES, FROM THE MOD'S WIKI
+==================================
 (Copied 2026-10-12 from the Science tab of the Procedural Horse Coats wiki page for this gene.
-Written for that project: it may mention how a game models the gene. Not yet audited.)
+Written for that project: they say how a game models the gene. Where they disagree with
+the research notes above, the notes above stand.)
 
 What tobiano is
 ---------------

@@ -1,6 +1,75 @@
 TOE1 (cerebellar abiotrophy) - science notes
+(The owner's research notes, filed 2026-10-12. Its sources are given in the text as addresses in brackets.
+No source was opened by the session that filed this. Not yet audited.
+
+THIS RESEARCH ANSWERS A DIFFERENT QUESTION, AND genes/toe1.json WAS NOT CHANGED.
+It asks whether TOE1 is a coat-colour locus in horses, finds that it is not, and
+supposes the name was a slip for extension. Nothing here claimed a coat effect. It
+does not mention cerebellar abiotrophy, the inherited disorder of Arabian horses that
+this locus records and that the earlier notes kept below describe, with a paper (Scott
+et al., PMC5336519), an OMIA entry and a UC Davis test. So it has not weighed that
+evidence; it has missed it. Both are recorded in knowledge/known-issues.txt. The
+question to ask instead: "What causes cerebellar abiotrophy (CA) in Arabian horses, what
+is the TOE1 / MUTYH variant, and what are its inheritance, signs and frequency?")
+
+TOE1 is not an established horse coat-color locus. In horses, the gene that directly controls red versus black base pigment is Extension (MC1R)—often called the red factor—so “toe1” may be a typo or shorthand for that locus. [vgl.ucdavis](https://vgl.ucdavis.edu/resources/horse-coat-color)
+
+What TOE1 actually is
+---------------------
+
+TOE1 (Target of EGR1, exonuclease) encodes a nuclear RNA-processing protein with poly(A)-specific ribonuclease activity. It participates in small nuclear RNA 3′-end processing and has been implicated in cell-cycle regulation and telomerase RNA processing. [genecards](https://www.genecards.org/card/TOE1)
+
+In model organisms, loss or knockdown of Toe1 can disrupt early embryonic development; in mice, knockdown embryos arrest around the morula-to-blastocyst transition.  This makes TOE1 a basic cellular/RNA-processing gene, not a known pigment-switching gene. [sciencedirect](https://www.sciencedirect.com/science/article/abs/pii/S0093691X22004198)
+
+Is there a horse TOE1 coat-color allele?
+----------------------------------------
+
+No recognized equine coat-color database or UC Davis testing resource identifies a TOE1 locus, allele, or pigment phenotype in horses. UC Davis’s equine coat-color overview instead identifies MC1R and ASIP as the core genes for the red/black base-color system. [vgl.ucdavis](https://vgl.ucdavis.edu/resources/horse-coat-color)
+
+Topic | Established finding
+TOE1 in horses | No established coat-color allele or validated phenotype.  [vgl.ucdavis](https://vgl.ucdavis.edu/resources/horse-coat-color)
+Red vs. black pigment | Controlled primarily by MC1R / Extension.  [vgl.ucdavis](https://vgl.ucdavis.edu/resources/horse-coat-color)
+Distribution of black pigment | Controlled by ASIP / Agouti.  [vgl.ucdavis](https://vgl.ucdavis.edu/resources/horse-coat-color)
+Known MC1R alleles | E, e, and rare e^a.  [vgl.ucdavis](https://vgl.ucdavis.edu/resources/horse-coat-color)
+
+If you meant Extension (MC1R)
+-----------------------------
+
+The Extension locus determines whether a horse can make eumelanin, the black pigment. At least one functional E allele permits black pigment; e/e horses cannot produce it and are red-based. [vgl.ucdavis](https://vgl.ucdavis.edu/resources/horse-coat-color)
+
+Genotype | Pigment effect | Typical base phenotype
+E/E | Black pigment produced | Black-based; cannot produce a red-based foal
+E/e | Black pigment produced; carries red | Black-based; can produce red-based foals
+e/e | Black pigment not produced | Chestnut/sorrel or another red-based color
+E/e^a or e/e^a | e^a is a rare recessive loss-of-function allele | Red-based only if no functional E is present
+
+UC Davis lists E as the wild-type allele, with recessive e and rare e^a producing red pigment; e/e and e/e^a horses produce only pheomelanin, or red pigment. [vgl.ucdavis](https://vgl.ucdavis.edu/resources/horse-coat-color)
+
+Effects on other traits
+-----------------------
+
+There is no credible evidence that TOE1 affects horse height, speed, muscle mass, bone structure, hoof shape, feathering, mane or tail color, or any coat pattern. Those traits are governed by different genes or polygenic architecture; for example, gray is associated with a STX17 duplication, while white patterning and dilution traits involve separate loci. [pmc.ncbi.nlm.nih](https://pmc.ncbi.nlm.nih.gov/articles/PMC11200706/)
+
+Likewise, MC1R affects pigment type, not conformation or athletic traits. A chestnut can be tall or short, fast or slow, heavily feathered or clean-legged; MC1R only determines that the visible base pigment is red rather than black. [vgl.ucdavis](https://vgl.ucdavis.edu/resources/horse-coat-color)
+
+Breeds
+------
+
+Because TOE1 has no established horse coat-color role, it has no breed distribution relevant to color breeding. MC1R, by contrast, occurs across essentially all horse breeds; its frequency differs by breed because selection and founder effects shape how often red-based horses appear. [vgl.ucdavis](https://vgl.ucdavis.edu/resources/horse-coat-color)
+
+Controversy and future science
+------------------------------
+
+The main uncertainty is nomenclature rather than pigment genetics: “TOE1” is a real gene name, but it is not a recognized equine color locus. Future equine genomics may identify additional rare MC1R variants or modifier genes, but any claim that TOE1 creates a horse color, pattern, or performance trait would need direct horse-specific evidence. [vgl.ucdavis](https://vgl.ucdavis.edu/resources/horse-coat-color)
+
+If by “toe1” you meant a different locus—such as Extension/E, tobiano/TO, or a specific gene symbol from a testing report—tell me the exact spelling or paste the report line, and I’ll do the full locus breakdown for that gene.
+
+
+EARLIER NOTES, FROM THE MOD'S WIKI
+==================================
 (Copied 2026-10-12 from the Science tab of the Procedural Horse Coats wiki page for this gene.
-Written for that project: it may mention how a game models the gene. Not yet audited.)
+Written for that project: they say how a game models the gene. Where they disagree with
+the research notes above, the notes above stand.)
 
 What abiotrophy means
 ---------------------

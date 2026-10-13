@@ -1,6 +1,128 @@
 ST14 - science notes
+(The owner's research notes, filed 2026-10-12. Its sources are given in the text as addresses in brackets.
+No source was opened by the session that filed this. genes/st14.json was changed to match
+on the owner's word the same day; what is left over is in knowledge/known-issues.txt.
+Not yet audited.)
+
+ST14 in Horses — Complete Locus Overview
+ST14 is not a coat-color locus. In horses, its established role is hair and skin development: a recessive loss-of-function allele causes Naked Foal Syndrome (NFS), a severe congenital hair-and-skin disorder reported in the Akhal-Teke breed. It does not determine red versus black pigment, dilution, white patterning, or any confirmed performance trait.[[academic.oup](https://academic.oup.com/g3journal/article/7/4/1315/6031816)]
+
+What ST14 is
+------------
+
+ST14 encodes matriptase (also called suppressor of tumorigenicity 14, MT-SP1, or TMPRSS14), a type II transmembrane serine protease. It is highly expressed in epithelial tissue and is important for epidermal barrier formation, keratinocyte differentiation, and normal hair-follicle development. [11]
+
+In horses, ST14 is best known as the gene associated with Naked Foal Syndrome (NFS) in Akhal-Tekes. The equine gene is cataloged by NCBI as ST14 transmembrane serine protease matriptase. [12]
+
+Established alleles
+-------------------
+
+Allele / genotype | Molecular change | Effect | Inheritance
+N or ST14+ | Normal reference sequence | Normal hair coat, mane, tail, eyelashes, and epidermal barrier | Dominant normal allele
+NFS / ST14:c.388G>T | Nonsense variant in exon 4; p.Glu130*; truncates more than 80% of the protein’s open reading frame | Loss of functional matriptase; severe hypotrichosis/alopecia and mild ichthyosis | Autosomal recessive
+
+The NFS-associated variant is usually written ST14:c.388G>T. Horses with N/NFS are clinically normal carriers; NFS/NFS foals are affected. [11]
+
+How it affects pigment
+----------------------
+
+ST14 does not control the production or distribution of red and black pigment.
+
+- Red pigment (pheomelanin) and black pigment (eumelanin) are governed primarily by MC1R/Extension and ASIP/Agouti, respectively. UC Davis describes Extension as the red-factor locus that determines whether a horse can make black pigment, while Agouti controls where black pigment is placed on the body. [13][19]
+- An NFS foal can be born on any underlying base-color genotype. The published cases included a cremello foal, showing that ST14-related hairlessness is independent of base pigment genetics. [11]
+- What ST14 changes is whether the hair shafts and follicles form normally—not whether melanocytes make red or black melanin.
+
+Naked Foal Syndrome phenotype
+-----------------------------
+
+Affected NFS foals have:
+
+- Almost no body hair; sparse, thin body hairs may remain.
+- Sparse or absent mane and tail hair.
+- Sparse, short, curly whiskers.
+- Missing eyelashes.
+- Dry, scaly skin consistent with mild ichthyosis.
+- Increased tear flow and skin lesions/scarring due to lack of protective hair.
+- Normal teeth and hooves in the cases examined. [11]
+
+Histology shows follicular dysplasia: shortened anagen follicles, distorted follicles filled with keratin, abnormal sebaceous glands, and very thin, structurally abnormal hair shafts. [11]
+
+Life expectancy and associated findings
+---------------------------------------
+
+Most known NFS foals died between a few weeks and three years of age, though survival varied substantially; one reported affected horse was still alive at nearly three years old. The precise cause of early death remains unresolved. [11]
+
+One necropsied foal had mild internal hydrocephalus, a tricuspid-valve heart defect, and abnormal lymphoid organs. The study authors considered these findings possibly coincidental rather than proven ST14 effects, and called for further research. [11]
+
+Breeds affected
+---------------
+
+NFS has been documented in the Akhal-Teke, a Central Asian breed with a closed studbook since 1932 and a history of linebreeding that can increase recessive-disease risk. [11]
+
+In the original study, the ST14:c.388G>T variant was:
+
+- Homozygous in all five available NFS-affected horses.
+- Heterozygous in all ten known obligate carriers.
+- Present in 26 of 191 additional Akhal-Tekes as carriers.
+- Absent from all 400 control horses of other breeds tested. [11]
+
+That does not prove the variant can never occur elsewhere, but it strongly indicates that NFS is an Akhal-Teke-specific founder variant rather than a widespread equine coat-color allele. [11]
+
+What ST14 does not affect
+-------------------------
+
+There is no good evidence that ST14 affects:
+
+- Red versus black base pigment.
+- Bay, black, chestnut, cream, dun, champagne, silver, mushroom, roan, or white-spotting phenotypes.
+- Height, speed, athletic performance, muscle mass, bone structure, hoof shape, or feathering.
+- Mane or tail color; it can cause sparse or absent mane/tail hair, but not a change in pigment type.
+- Eye color, apart from any indirect appearance changes caused by missing eyelashes or periocular hair.
+
+The reported NFS cases had normal teeth and hooves, and the described abnormalities were concentrated in hair follicles and epidermis. [11]
+
+Speculation and controversy
+---------------------------
+
+The main uncertainty is why NFS foals die early. Hairlessness and impaired skin barrier function are established, but the original authors could not confirm whether hydrocephalus, cardiac defects, or immune abnormalities are direct consequences of ST14 loss or incidental findings in a small number of cases. [11]
+
+Other open questions include:
+
+- Whether milder ST14 variants could produce subtler hair-quality or skin phenotypes without full NFS.
+- Whether carrier status has any measurable effect on coat shine, hair density, or skin health; current evidence does not establish one.
+- Whether additional ST14 alleles exist in horses; only c.388G>T is well established as an NFS-associated equine variant.
+- Whether the immune and cardiovascular findings occasionally seen in NFS foals are part of the syndrome or secondary/ coincidental pathology. [11]
+
+Future science
+--------------
+
+Future work should focus on larger NFS case series, detailed necropsy and immunologic studies, functional studies of equine matriptase, and long-term monitoring of carrier breeding programs. The discovery already enables DNA testing so breeders can avoid pairing two carriers and producing NFS/NFS foals. [11]
+
+For a simulation, model ST14 as a recessive lethal/near-lethal structural hair-and-skin trait, not a pigment allele:
+
+Genotype | Simulation phenotype
+N/N | Normal
+N/NFS | Normal carrier
+NFS/NFS | Hairless, scaly skin, sparse mane/tail/eyelashes; strongly reduced viability or early death
+
+Well-established facts
+----------------------
+
+- ST14 encodes matriptase, an epithelial serine protease involved in epidermal barrier function and hair-follicle development. [11]
+- Equine NFS is associated with ST14:c.388G>T, a nonsense variant producing p.Glu130*. [11]
+- NFS is inherited as a monogenic autosomal recessive trait. [11]
+- The variant was perfectly associated with affected and carrier Akhal-Tekes and absent from 400 horses of other breeds in the study. [11]
+- ST14 is not part of the MC1R/ASIP red-black pigment system. [13][19]
+- UC Davis’s equine coat-color resources place red/black base color under Extension/MC1R and Agouti/ASIP, not ST14. [13][14][19]
+
+Key distinction for your simulator: treat ST14 as a hair/skin integrity locus, not a color locus. A NFS/NFS horse may still genetically be chestnut, bay, black, palomino, etc.; it simply cannot express a normal hair coat.[[academic.oup](https://academic.oup.com/g3journal/article/7/4/1315/6031816)][[vgl.ucdavis](https://vgl.ucdavis.edu/resources/horse-coat-color)]
+
+
+EARLIER NOTES, FROM THE MOD'S WIKI
+==================================
 (Copied 2026-10-12 from the Science tab of the Procedural Horse Coats wiki page for this gene.
-Written for that project: it may mention how a game models the gene. Not yet audited.)
+Written for that project: they say how a game models the gene. Where they disagree with
+the research notes above, the notes above stand.)
 
 The variant, and the protein it removes
 ---------------------------------------

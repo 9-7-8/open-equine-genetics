@@ -1,6 +1,95 @@
 Tiger eye (SLC24A5) - science notes
+(The owner's research notes, filed 2026-10-12. Its sources are given in the text as addresses in brackets.
+No source was opened by the session that filed this. genes/tiger_eye.json was changed to match
+on the owner's word the same day; what is left over is in knowledge/known-issues.txt.
+Not yet audited.)
+
+Tiger Eye is an autosomal-recessive iris-color trait in horses: affected horses have strikingly yellow, amber, or bright-orange eyes. It is caused by loss-of-function variants in SLC24A5 on equine chromosome 1 and is best documented in the Puerto Rican Paso Fino. [vgl.ucdavis](https://vgl.ucdavis.edu/test/tiger-eye)
+
+Locus and alleles
+-----------------
+
+Allele | Molecular change | Effect
+N | Normal SLC24A5 | Normal brown iris pigmentation; carrier if paired with TE1 or TE2
+TE1 | Missense variant in exon 2: c.272A>T, p.Phe91Tyr | Predicted damaging to SLC24A5 protein function
+TE2 | 628-bp deletion spanning exon 7 and flanking intronic sequence: c.875-340_1081+82del | Removes exon 7; predicted to produce a truncated, nonfunctional protein
+
+Both variants are in SLC24A5, a solute-carrier gene involved in melanin-related pigmentation across species. UC Davis identifies TE1 and TE2 as the two known Tiger Eye variants. [vgl.ucdavis](https://vgl.ucdavis.edu/test/tiger-eye)
+
+Inheritance
+-----------
+
+Tiger Eye is recessive: a horse needs no normal N allele at this locus to show the phenotype. [vgl.ucdavis](https://vgl.ucdavis.edu/test/tiger-eye)
+
+Genotype | Expected phenotype | Breeding result
+N/N | Brown-eyed; not a carrier | Cannot pass TE1 or TE2
+N/TE1 or N/TE2 | Brown-eyed carrier | Passes the TE allele to about 50% of foals
+TE1/TE1 | Tiger Eye—yellow, amber, or orange iris | Passes TE1 to 100% of foals
+TE1/TE2 | Tiger Eye | Passes TE1 or TE2 to 100% of foals
+TE2/TE2 | Rare; one documented horse had very light yellow/blue irises | Passes TE2 to 100% of foals
+
+The original study found most affected horses were TE1/TE1; several were TE1/TE2. Only one TE2/TE2 horse was documented, so its full range of expression—especially without cream dilution—is uncertain. [vgl.ucdavis](https://vgl.ucdavis.edu/test/tiger-eye)
+
+Red and black pigment
+---------------------
+
+Tiger Eye is not a coat-color dilution and does not change eumelanin (black pigment) or pheomelanin (red pigment) in the hair. It has been observed on black, bay, and chestnut base coats, as well as on diluted coats. [vgl.ucdavis](https://vgl.ucdavis.edu/test/tiger-eye)
+
+Its effect is restricted to the iris: SLC24A5 alters pigmentation in the eye, producing the pale yellow-to-orange appearance. The published study found no associated coat-color change in Puerto Rican Paso Finos. [pmc.ncbi.nlm.nih](https://pmc.ncbi.nlm.nih.gov/articles/PMC5555483/)
+
+What it does not affect
+-----------------------
+
+There is no evidence that Tiger Eye affects:
+
+- Height, speed, gait quality, or muscle development
+- Bone structure, hoof shape, or feathering
+- Mane or tail color
+- Base coat color, cream dilution, dun, silver, champagne, pearl, or white patterning
+- Vision or ocular health
+
+The research specifically reported no ocular anomalies, no retinal pigment deficit, and no apparent vision problem in affected Puerto Rican Paso Finos. [pmc.ncbi.nlm.nih](https://pmc.ncbi.nlm.nih.gov/articles/PMC5555483/)
+
+Breeds and distribution
+-----------------------
+
+Tiger Eye is most strongly associated with the Puerto Rican Paso Fino. UC Davis notes that, to date, TE1 and TE2 have only been detected there, though it may potentially explain lighter eyes in closely related populations. [vgl.ucdavis](https://vgl.ucdavis.edu/test/tiger-eye)
+
+Researchers tested 196 horses from related breeds—Colombian Pasos, Mangalargas, Lusitanos, and Andalusians—and did not detect either variant, supporting the view that Tiger Eye is rare and geographically/breed-restricted rather than widespread. [pmc.ncbi.nlm.nih](https://pmc.ncbi.nlm.nih.gov/articles/PMC5555483/)
+
+Established vs. speculative
+---------------------------
+
+Well established
+................
+
+- TE1 and TE2 are causative or strongly supported variants in SLC24A5 for Tiger Eye iris color. [vgl.ucdavis](https://vgl.ucdavis.edu/test/tiger-eye)
+- Inheritance is autosomal recessive. [vgl.ucdavis](https://vgl.ucdavis.edu/test/tiger-eye)
+- TE1/TE1 and TE1/TE2 reliably produce yellow, amber, or orange irises. [vgl.ucdavis](https://vgl.ucdavis.edu/test/tiger-eye)
+- The trait is primarily documented in Puerto Rican Paso Finos. [vgl.ucdavis](https://vgl.ucdavis.edu/test/tiger-eye)
+- UC Davis offers a direct DNA test for Tiger Eye. [vgl.ucdavis](https://vgl.ucdavis.edu/test/tiger-eye)
+
+Uncertain or speculative
+........................
+
+- The phenotype of TE2/TE2 is based on essentially one documented horse, whose light yellow/blue iris may have been influenced by cream dilution. [vgl.ucdavis](https://vgl.ucdavis.edu/test/tiger-eye)
+- Whether TE1 or TE2 occurs outside Puerto Rican Paso Finos remains unproven; absence from tested related breeds is not proof of complete absence worldwide. [vgl.ucdavis](https://vgl.ucdavis.edu/test/tiger-eye)
+- Possible additional SLC24A5 variants, modifier genes, or unrelated causes of amber/yellow irises may exist, particularly in breeds where pale eyes occur without a known Tiger Eye genotype.
+- Exact interactions with cream, pearl, champagne, or blue-eyed white-pattern phenotypes are not fully mapped.
+
+Future science
+--------------
+
+Useful next steps would include surveying more Puerto Rican Paso Finos and related Iberian/Caribbean breeds, documenting additional TE2/TE2 horses, and testing whether SLC24A5 variants modify blue eyes produced by cream, frame overo, or other loci. For a breeding simulator, model Tiger Eye as an independent recessive eye-color locus with alleles N, TE1, and TE2; it should not alter coat color, conformation, performance, or health traits. [vgl.ucdavis](https://vgl.ucdavis.edu/test/tiger-eye)
+
+UC Davis’s Tiger Eye test page is the best primary practical reference for genotype interpretation and breeder testing. [vgl.ucdavis](https://vgl.ucdavis.edu/test/tiger-eye)
+
+
+EARLIER NOTES, FROM THE MOD'S WIKI
+==================================
 (Copied 2026-10-12 from the Science tab of the Procedural Horse Coats wiki page for this gene.
-Written for that project: it may mention how a game models the gene. Not yet audited.)
+Written for that project: they say how a game models the gene. Where they disagree with
+the research notes above, the notes above stand.)
 
 The gene
 --------

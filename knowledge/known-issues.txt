@@ -141,8 +141,12 @@ NOT YET RESEARCHED: prkdc, rapgef5, st14, tiger_eye, tobiano, toe1.
   paper (Rocha et al., PMC7544121) in the earlier note. The two disagree and neither was
   checked. The gene file was left as the mod's export; the note carries the answer with
   a warning at the top. To settle it, ask about EFIH in Thoroughbreds by name.
-- tobiano is on that list too: it was given what the kit research says about it and has
-  had no research of its own.
+- toe1 is on that list for the same reason (2026-10-12): the answer looked for a coat-colour
+  locus, found none, and took the name for a slip for extension. It never mentions
+  cerebellar abiotrophy in Arabians, which is what the locus records (Scott et al.,
+  PMC5336519; OMIA 000175; a UC Davis test). The gene file was left as the mod's export;
+  the note carries the answer with a warning at the top. Ask about cerebellar abiotrophy
+  by name.
 - Game wording: the plain cases were reworded on 2026-10-12 by word search. Subtler
   cases remain: what "wild horses" or founders carry (eye_colour_left,
   eye_colour_right, manchado, rapgef5) and "no wild horse is born with
@@ -166,7 +170,7 @@ CITATIONS
 
 SCIENCE NOTES
 - These notes are the owner's research documents with the mod's wiki text kept underneath:
-NOTES FROM RESEARCH: abstracted_jump_strength, agouti, b4galt7, brindle, champagne, ckm, dmrt3, dun, extension, gbe1, grey, gys1, kit, lama3, lamc2, lcorl, leopard, matp, met, mitf, mushroom, myo5a, patn1, pax3, pdk4, plod1, ppib, rapgef5, roan, ryr1, shox, silver, slc5a3.
+NOTES FROM RESEARCH: abstracted_jump_strength, agouti, b4galt7, brindle, champagne, ckm, dmrt3, dun, extension, gbe1, grey, gys1, kit, lama3, lamc2, lcorl, leopard, matp, met, mitf, mushroom, myo5a, patn1, pax3, pdk4, plod1, ppib, rapgef5, roan, ryr1, shox, silver, slc5a3, toe1.
 - 19 notes (the first 14 of those filed, and acan, ednrb, hmga2, mstn, scn4a) open
   with LATEST FINDINGS, which carries the owner's later audit answers and
   overrides the older text beneath it. The older text was corrected in place only
