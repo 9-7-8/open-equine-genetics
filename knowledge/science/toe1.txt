@@ -1,16 +1,39 @@
 TOE1 (cerebellar abiotrophy) - science notes
 (The owner's research notes, filed 2026-10-12. Its sources are given in the text as addresses in brackets.
 No source was opened by the session that filed this. Not yet audited.
+genes/toe1.json follows the LATEST FINDINGS below.)
 
-THIS RESEARCH ANSWERS A DIFFERENT QUESTION, AND genes/toe1.json WAS NOT CHANGED.
-It asks whether TOE1 is a coat-colour locus in horses, finds that it is not, and
-supposes the name was a slip for extension. Nothing here claimed a coat effect. It
-does not mention cerebellar abiotrophy, the inherited disorder of Arabian horses that
-this locus records and that the earlier notes kept below describe, with a paper (Scott
-et al., PMC5336519), an OMIA entry and a UC Davis test. So it has not weighed that
-evidence; it has missed it. Both are recorded in knowledge/known-issues.txt. The
-question to ask instead: "What causes cerebellar abiotrophy (CA) in Arabian horses, what
-is the TOE1 / MUTYH variant, and what are its inheritance, signs and frequency?")
+LATEST FINDINGS (the owner's second research answer, 2026-10-12)
+-----------------------------------------------------------------
+The first answer, kept below, looked for TOE1 as a coat-colour locus, found none, and
+took the name for a slip for extension. It had missed the disorder this locus records.
+The owner asked again, about cerebellar abiotrophy by name. Where this section and the
+first answer disagree, this section stands. No address here has been opened by a
+maintainer.
+- Cerebellar abiotrophy (CA) in Arabians is an inherited, untreatable loss of the
+  Purkinje cells of the cerebellum after birth. https://vgl.ucdavis.edu/test/ca
+  https://www.sciencedirect.com/science/article/pii/S0888754310002430
+- The associated variant is TOE1 g.2171G>A on chromosome 2 (ECA2:13,074,277G>A in
+  earlier coordinates); A is the CA allele. It is in exon 4 of TOE1 and changes
+  arginine to histidine at position 95 (R95H). It also lies in the promoter region of
+  MUTYH, which is read from the opposite strand; affected horses show altered local DNA
+  methylation and altered MUTYH expression. Whether the disease comes through MUTYH,
+  TOE1 or both is still being worked out.
+  https://pmc.ncbi.nlm.nih.gov/articles/PMC5905334/
+  https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3671216/
+  https://pmc.ncbi.nlm.nih.gov/articles/PMC5336519/
+- Autosomal recessive. UC Davis writes N (normal) and CA: N/CA is a clinically normal
+  carrier, CA/CA is affected.
+- Signs usually begin at about six weeks, from birth to as late as four months: an
+  intention head tremor, ataxia with a wide stance, exaggerated high action of the
+  forelegs, a poor menace response, easy startling, falls and difficulty rising. The
+  horse keeps its muscle strength. Severity runs from a mild head tremor to disabling.
+  No cure; severely affected foals are often put down.
+  https://ker.com/equinews/arabian-horse-mutation-linked-cerebellar-abiotrophy/
+- Almost exclusively in Arabians; the test also suits breeds with Arabian ancestry,
+  among them the Danish Sport Horse, Trakehner and Welsh Pony.
+- UC Davis reported an average carrier frequency of about 20% across the Arabian breed,
+  from screening nearly 11,000 horses; it differs widely between families.
 
 TOE1 is not an established horse coat-color locus. In horses, the gene that directly controls red versus black base pigment is Extension (MC1R)—often called the red factor—so “toe1” may be a typo or shorthand for that locus. [vgl.ucdavis](https://vgl.ucdavis.edu/resources/horse-coat-color)
 
