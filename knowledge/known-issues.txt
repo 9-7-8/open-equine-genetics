@@ -8,7 +8,7 @@ WHERE THE DATA STANDS
   commit 93af89d9 plus one docs commit). On 2026-10-12 the owner supplied research
   documents and audit answers, and the loci below were changed to follow them. The three
   lists in this file are each kept on one long line, sorted, so they are easy to edit.
-RESEARCHED: abstracted_jump_strength, acan, agouti, b4galt7, brindle, champagne, ckm, dmrt3, dun, ednrb, extension, gbe1, grey, gys1, hmga2, kit, lama3, lamc2, lcorl, leopard, matp, met, mitf, mstn, mushroom, myo5a, patn1, pax3, pdk4, plod1, ppib, roan, ryr1, scn4a, shox, silver, slc5a3, tobiano.
+RESEARCHED: abstracted_jump_strength, acan, agouti, b4galt7, brindle, champagne, ckm, dmrt3, dun, ednrb, extension, gbe1, grey, gys1, hmga2, kit, lama3, lamc2, lcorl, leopard, matp, met, mitf, mstn, mushroom, myo5a, patn1, pax3, pdk4, plod1, ppib, roan, ryr1, scn4a, shox, silver, slc5a3, tiger_eye, tobiano.
 - NO SESSION OPENED A SOURCE. Every fact changed that day rests on the owner's documents,
   and every citation added is an address those documents gave. Some addresses were built
   from a DOI or a PubMed number the documents gave. None has been opened.
@@ -53,6 +53,7 @@ done (2026-10-12); nothing is owed to it before then. The mod still has:
 - extension without ea.
 - shox with one allele, sa, and skeletal atavism as lethal at birth;
 - pax3: SW10 as a splash allele; SW4/SW4 and SW10/SW10 as certainly nonviable; SW2/SW4 as a living bold splash; certain deafness on two copies.
+- tiger_eye at one rate for every breed, and two TE2 copies as a settled paler yellow.
 mod-map.json records the structural part: "not_in_mod" (alleles) and
 "mod_outcome_unsupported" (pairs marked undocumented here on purpose).
 
@@ -128,13 +129,14 @@ STILL WRONG OR UNPROVEN IN THE RESEARCHED LOCI
 - pax3: there is no nonviable list any more. SW4/SW4 is "splash-homozygote-undetected" (may be lethal, not demonstrated) and SW2/SW4 is "splash-undocumented" (never detected). No genotype carries a deafness condition: the research says SW2/SW2 horses "may be deaf" and that deafness is variable, which is the same rule mitf follows (only pairs a source confirms). The risk is in the descriptions.
 - pax3: SW10 is in the data from the mod. The research says only that third-party sources mention further PAX3 variants outside UC Davis's SW1-SW8. It is named "unconfirmed", keeps quality "unverified" and has no outcome, as W37-W39 were treated before they were confirmed; whether it should be "invalid" like mitf SW9 is the owner's call. The two breed tables are worked out from one allele frequency each. The "general population" table is the mod's. The journal names in two citation labels were read off the addresses, not given by the research.
 - tobiano: its own research and the kit research are both applied. The breeds in the summary are the two lists joined. The size of the inversion (about 43 Mb) and the ink spots come from the kit research; the tobiano answer gives neither. The frequency table is the mod's; no figure was given. The allele ids are To and to; UC Davis writes TO and N.
+- tiger_eye: the research says tiger eye changes the iris and never the coat. The locus still says "affects_coat": true and its eye outcomes "changes_coat": true, because the eight eye-colour loci use those flags for anything drawn on the horse; what the flags should mean for eyes is a format question for the owner. TE2/TE2 rests on one horse. The frequency table is the mod's "general population", though the variants are known only from Puerto Rican Paso Finos; no figure was given.
 
 THE OTHER LOCI
 - "symbol" was filled from the exporting session's own knowledge. The research has since
   confirmed tiger_eye (SLC24A5), mushroom (MFSD12), patn1 (RFWD3), brindle (MBTPS2) and
   tobiano as a KIT-region locus. The rest are unchecked.
 - Published loci with no research from the owner yet:
-NOT YET RESEARCHED: prkdc, rapgef5, st14, tiger_eye, toe1.
+NOT YET RESEARCHED: prkdc, rapgef5, st14, toe1.
 - rapgef5 is still on that list although the owner sent research for it (2026-10-12): the
   answer looked for a coat-colour gene, found none, and said no horse allele of RAPGEF5
   has an established effect. It never mentions equine familial isolated
@@ -171,7 +173,7 @@ CITATIONS
 
 SCIENCE NOTES
 - These notes are the owner's research documents with the mod's wiki text kept underneath:
-NOTES FROM RESEARCH: abstracted_jump_strength, agouti, b4galt7, brindle, champagne, ckm, dmrt3, dun, extension, gbe1, grey, gys1, kit, lama3, lamc2, lcorl, leopard, matp, met, mitf, mushroom, myo5a, patn1, pax3, pdk4, plod1, ppib, rapgef5, roan, ryr1, shox, silver, slc5a3, tobiano, toe1.
+NOTES FROM RESEARCH: abstracted_jump_strength, agouti, b4galt7, brindle, champagne, ckm, dmrt3, dun, extension, gbe1, grey, gys1, kit, lama3, lamc2, lcorl, leopard, matp, met, mitf, mushroom, myo5a, patn1, pax3, pdk4, plod1, ppib, rapgef5, roan, ryr1, shox, silver, slc5a3, tiger_eye, tobiano, toe1.
 - 19 notes (the first 14 of those filed, and acan, ednrb, hmga2, mstn, scn4a) open
   with LATEST FINDINGS, which carries the owner's later audit answers and
   overrides the older text beneath it. The older text was corrected in place only

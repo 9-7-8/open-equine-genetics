@@ -4,20 +4,21 @@
   "species": "horse",
   "name": "Tiger eye (SLC24A5)",
   "symbol": "SLC24A5",
+  "chromosome": "1",
   "evidence": "published",
-  "summary": "A bright amber iris in a horse whose coat is entirely ordinary. It changes only the eyes. Essentially confined to the Puerto Rican Paso Fino.",
+  "summary": "Tiger eye: a yellow, amber or bright orange iris, caused by two loss-of-function variants of SLC24A5 on chromosome 1. TE1 is a missense change in exon 2 (c.272A>T, p.Phe91Tyr); TE2 is a 628 base-pair deletion that removes exon 7. It is recessive: a horse with one normal copy has brown eyes, and a horse with none - TE1/TE1, TE1/TE2 or TE2/TE2 - has tiger eyes. Only the iris changes. The hair is unaffected on any base colour, and no eye defect or loss of vision was found in affected horses. Both variants have been found only in the Puerto Rican Paso Fino, and neither turned up in 196 horses of related breeds. No effect on build or performance is established.",
   "inheritance": "autosomal",
   "affects_coat": true,
   "alleles": [
-    { "id": "TE1", "name": "Tiger eye 1", "wild_type": false, "quality": "unverified" },
-    { "id": "TE2", "name": "Tiger eye 2", "wild_type": false, "quality": "unverified" },
+    { "id": "TE1", "name": "Tiger eye 1 (c.272A>T, p.Phe91Tyr)", "wild_type": false, "quality": "unverified" },
+    { "id": "TE2", "name": "Tiger eye 2 (628 bp deletion of exon 7)", "wild_type": false, "quality": "unverified" },
     { "id": "N", "name": "Wild-type", "wild_type": true, "quality": "unverified" }
   ],
   "phenotypes": [
-    { "id": "wild", "name": "Wild type", "description": "Ordinary dark eyes.", "changes_coat": false },
-    { "id": "tiger-eye-carrier", "name": "Tiger eye carrier", "description": "One copy, which shows nothing at all - not in the eyes and not in the coat. Two carriers bred together is the only way amber eyes appear.", "changes_coat": false },
-    { "id": "tiger-eye-amber", "name": "Tiger eye (amber)", "description": "A bright amber iris, the colour of a hawk's eye, in a horse whose coat is entirely ordinary. Nothing else about the horse changes.", "changes_coat": true },
-    { "id": "tiger-eye-yellow", "name": "Tiger eye (yellow)", "description": "The paler, more yellow shade two TE2 copies produce - the same trait a stop lighter than the amber TE1 gives.", "changes_coat": true }
+    { "id": "wild", "name": "Wild type", "description": "Ordinary brown eyes.", "changes_coat": false },
+    { "id": "tiger-eye-carrier", "name": "Tiger eye carrier", "description": "One copy of TE1 or TE2. Brown eyes and nothing else to see; the horse passes the copy to about half its foals.", "changes_coat": false },
+    { "id": "tiger-eye-amber", "name": "Tiger eye", "description": "Two copies of TE1, or one of TE1 and one of TE2. A yellow, amber or bright orange iris, in a horse whose coat is unchanged. Most affected horses studied were TE1/TE1.", "changes_coat": true },
+    { "id": "tiger-eye-yellow", "name": "Tiger eye, two copies of TE2", "description": "Two copies of TE2. Known from one horse, whose irises were very light yellow and blue; that horse may also have carried cream, so what this pair looks like on its own is uncertain.", "changes_coat": true }
   ],
   "genotypes": [
     { "alleles": ["N", "N"], "phenotype": "wild" },
@@ -42,6 +43,7 @@
     }
   ],
   "citations": [
-    { "source": "pubmed", "label": "Mack et al., PMC5555483", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5555483/", "verified": false }
+    { "source": "pubmed", "label": "Mack et al., PMC5555483: SLC24A5 variants and tiger eye in Puerto Rican Paso Finos", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5555483/", "verified": false },
+    { "source": "ucdavis-vgl", "label": "UC Davis VGL: Tiger Eye", "url": "https://vgl.ucdavis.edu/test/tiger-eye", "verified": false }
   ]
 }
