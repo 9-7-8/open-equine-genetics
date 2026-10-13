@@ -5,17 +5,17 @@
   "name": "MYO5A (lavender foal)",
   "symbol": "MYO5A",
   "evidence": "published",
-  "summary": "MYO5A, lavender foal syndrome - a recessive lethal at birth. The real disorder comes with a diluted silvery coat, which is deliberately not drawn: the foal dies in seconds and phase 1 can only remove pigment.",
+  "summary": "MYO5A encodes myosin Va, a motor protein that carries pigment granules to the edge of pigment cells and vesicles within nerve cells. A single-base deletion in exon 30 (g.138235715del, also written c.4249del) shifts the reading frame and leaves no working protein. Two copies cause lavender foal syndrome, also called coat colour dilution lethal: a foal born with a pale, diluted coat and severe neurological signs that dies or is put down shortly after birth. It is recessive, and carriers are healthy and look normal. It is chiefly a disease of Arabian horses, above all Egyptian lines, and turns up in some Arabian-derived populations. No MYO5A allele is known to give a healthy diluted horse, and no effect on build or performance is established.",
   "inheritance": "autosomal",
-  "affects_coat": false,
+  "affects_coat": true,
   "alleles": [
-    { "id": "lfs", "name": "Lavender foal", "wild_type": false, "quality": "unverified" },
+    { "id": "lfs", "name": "Lavender foal (LFS; g.138235715del, c.4249del)", "wild_type": false, "quality": "unverified" },
     { "id": "N", "name": "Wild-type", "wild_type": true, "quality": "unverified" }
   ],
   "phenotypes": [
     { "id": "wild", "name": "Wild type", "description": "Two working copies. Nothing is wrong and nothing is passed on.", "changes_coat": false },
-    { "id": "myo5a-carrier", "name": "MYO5A (lavender foal) carrier", "description": "One copy of lfs. The horse is completely normal and there is no way to see it - but half its foals inherit the copy, and two carriers bred together are the only way lavender foal syndrome appears.", "changes_coat": false },
-    { "id": "lavender-foal-syndrome", "name": "Lavender foal syndrome", "description": "A neurological defect that arrives with a diluted, silvery coat. The foal cannot stand, lies rigid with its head thrown back, and does not survive.", "changes_coat": false }
+    { "id": "myo5a-carrier", "name": "MYO5A (lavender foal) carrier", "description": "One copy. The horse is healthy and looks normal, and passes the copy to half its foals. A foal is affected only when both parents pass it on.", "changes_coat": false },
+    { "id": "lavender-foal-syndrome", "name": "Lavender foal syndrome", "description": "Two copies. The foal is born with a diluted coat - lavender, pale pink, silver or pale grey, the shade varies - and with severe neurological signs: seizures, flickering eyes, stiff paddling legs, the neck and back arched rigidly backwards, and no ability to stand or nurse properly. It dies or is put down shortly after birth.", "changes_coat": true }
   ],
   "genotypes": [
     { "alleles": ["N", "N"], "phenotype": "wild" },
@@ -23,9 +23,25 @@
     { "alleles": ["lfs", "lfs"], "phenotype": "lavender-foal-syndrome", "conditions": ["lavender-foal-syndrome"] }
   ],
   "conditions": [
-    { "id": "lavender-foal-syndrome", "name": "Lavender foal syndrome", "description": "A neurological defect that arrives with a diluted, silvery coat. The foal cannot stand, lies rigid with its head thrown back, and does not survive.", "severity": "lethal_at_birth" }
+    { "id": "lavender-foal-syndrome", "name": "Lavender foal syndrome", "description": "Two copies. The foal is born with a diluted coat - lavender, pale pink, silver or pale grey, the shade varies - and with severe neurological signs: seizures, flickering eyes, stiff paddling legs, the neck and back arched rigidly backwards, and no ability to stand or nurse properly. It dies or is put down shortly after birth.", "severity": "lethal_at_birth" }
   ],
   "frequencies": [
+    {
+      "population": "Egyptian Arabian (10.3% carriers among unrelated horses in the original mapping study)",
+      "evidence": "published",
+      "genotypes": [
+        { "alleles": ["lfs", "N"], "percent": 10.3 },
+        { "alleles": ["N", "N"], "percent": 89.7 }
+      ]
+    },
+    {
+      "population": "Arabian, not of Egyptian descent (1.8% carriers in the original mapping study)",
+      "evidence": "published",
+      "genotypes": [
+        { "alleles": ["lfs", "N"], "percent": 1.8 },
+        { "alleles": ["N", "N"], "percent": 98.2 }
+      ]
+    },
     {
       "population": "general population",
       "evidence": "estimated",
@@ -38,6 +54,11 @@
   "citations": [
     { "source": "pubmed", "label": "Brooks et al., PMC2855325", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2855325/", "verified": false },
     { "source": "omia", "label": "OMIA 001501", "url": "https://omia.org/OMIA001501/9796/", "verified": false },
-    { "source": "paper", "label": "EVJ 13604", "url": "https://beva.onlinelibrary.wiley.com/doi/10.1111/evj.13604?af=R", "verified": false }
+    { "source": "paper", "label": "EVJ 13604", "url": "https://beva.onlinelibrary.wiley.com/doi/10.1111/evj.13604?af=R", "verified": false },
+    { "source": "ucdavis-vgl", "label": "UC Davis VGL: Lavender Foal Syndrome (LFS)", "url": "https://vgl.ucdavis.edu/test/lfs", "verified": false },
+    { "source": "other", "label": "UC Davis Center for Equine Health: Lavender Foal Syndrome (LFS)", "url": "https://ceh.vetmed.ucdavis.edu/health-topics/lavender-foal-syndrome-lfs", "verified": false },
+    { "source": "other", "label": "MedlinePlus Genetics: MYO5A gene", "url": "https://medlineplus.gov/genetics/gene/myo5a/", "verified": false },
+    { "source": "ucdavis-vgl", "label": "UC Davis VGL: Cream", "url": "https://vgl.ucdavis.edu/test/cream", "verified": false },
+    { "source": "pubmed", "label": "PMC8701198: carriers in wider Arabian and Arabian-derived populations", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8701198/", "verified": false }
   ]
 }

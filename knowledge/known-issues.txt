@@ -8,7 +8,7 @@ WHERE THE DATA STANDS
   commit 93af89d9 plus one docs commit). On 2026-10-12 the owner supplied research
   documents and audit answers, and the loci below were changed to follow them. The three
   lists in this file are each kept on one long line, sorted, so they are easy to edit.
-RESEARCHED: abstracted_jump_strength, acan, agouti, b4galt7, brindle, champagne, ckm, dmrt3, dun, ednrb, gbe1, grey, gys1, hmga2, kit, lama3, lamc2, lcorl, leopard, matp, met, mitf, mstn, mushroom, patn1, pdk4, roan, ryr1, scn4a, silver, slc5a3.
+RESEARCHED: abstracted_jump_strength, acan, agouti, b4galt7, brindle, champagne, ckm, dmrt3, dun, ednrb, gbe1, grey, gys1, hmga2, kit, lama3, lamc2, lcorl, leopard, matp, met, mitf, mstn, mushroom, myo5a, patn1, pdk4, roan, ryr1, scn4a, silver, slc5a3.
 - NO SESSION OPENED A SOURCE. Every fact changed that day rests on the owner's documents,
   and every citation added is an address those documents gave. Some addresses were built
   from a DOI or a PubMed number the documents gave. None has been opened.
@@ -47,6 +47,7 @@ done (2026-10-12); nothing is owed to it before then. The mod still has:
 - gys1 with every copy showing, and one rate for every breed, Thoroughbreds and Arabians included;
 - mushroom trading red pigment partly for black, and one carrier rate for every breed;
 - met at one carrier rate for every breed, where it is reported in Friesians only.
+- myo5a with no coat effect on the affected foal, and one carrier rate for every breed;
 mod-map.json records the structural part: "not_in_mod" (alleles) and
 "mod_outcome_unsupported" (pairs marked undocumented here on purpose).
 
@@ -110,13 +111,14 @@ STILL WRONG OR UNPROVEN IN THE RESEARCHED LOCI
 - gys1: one copy can show nothing at all (incomplete penetrance), but the format has one outcome per pair, so N/PSSM1 carries the condition and its description gives the range. No frequency table was made: the figures given (87% of affected draft-related horses, 72% of affected Quarter Horse-related horses, 18% of affected Warmbloods) are shares of diagnosed cases that carry the variant, not population frequencies. No chromosome was given. The allele id is P; UC Davis writes PSSM1.
 - mushroom: the outcome depends on extension and agouti (clear on chestnut, uncertain on bay, none expected on black); the file says so in words and has no interactions table. Its link to flaxen is unresolved. No frequency was given, so the table is still the mod's "general population", though the research places the allele in Shetland Ponies and, rarely, Miniature Horses. The allele ids are Mu and mu; UC Davis writes Mu and N.
 - met: met/met stays a nonviable pair. The research supports it as a recessive embryonic lethal, on indirect evidence: about 25 per cent lower insemination success in carrier-to-carrier matings. It is reported in Friesians only; the frequency table is still the mod's "general population". The research gave the UniProt record at two addresses; one is cited.
+- myo5a: the locus now says it affects the coat, and the affected foal's outcome changes the coat, because the research describes the foal as diluted; the mod's export had both false. The Arabian tables use the mapping study's carrier shares (10.3% and 1.8%). The research also quotes UC Davis giving 10.3% and 1.6% as the allele's frequency; the two readings differ by a factor of two and were not reconciled. No chromosome was given.
 
 THE OTHER LOCI
 - "symbol" was filled from the exporting session's own knowledge. The research has since
   confirmed tiger_eye (SLC24A5), mushroom (MFSD12), patn1 (RFWD3), brindle (MBTPS2) and
   tobiano as a KIT-region locus. The rest are unchecked.
 - Published loci with no research from the owner yet:
-NOT YET RESEARCHED: extension, myo5a, pax3, plod1, ppib, prkdc, rapgef5, shox, st14, tiger_eye, tobiano, toe1.
+NOT YET RESEARCHED: extension, pax3, plod1, ppib, prkdc, rapgef5, shox, st14, tiger_eye, tobiano, toe1.
 - Game wording: the plain cases were reworded on 2026-10-12 by word search. Subtler
   cases remain: what "wild horses" or founders carry (eye_colour_left,
   eye_colour_right, manchado, pax3, plod1, rapgef5) and "no wild horse is born with
@@ -143,7 +145,7 @@ CITATIONS
 
 SCIENCE NOTES
 - These notes are the owner's research documents with the mod's wiki text kept underneath:
-NOTES FROM RESEARCH: abstracted_jump_strength, agouti, b4galt7, brindle, champagne, ckm, dmrt3, dun, gbe1, grey, gys1, kit, lama3, lamc2, lcorl, leopard, matp, met, mitf, mushroom, patn1, pdk4, roan, ryr1, silver, slc5a3.
+NOTES FROM RESEARCH: abstracted_jump_strength, agouti, b4galt7, brindle, champagne, ckm, dmrt3, dun, gbe1, grey, gys1, kit, lama3, lamc2, lcorl, leopard, matp, met, mitf, mushroom, myo5a, patn1, pdk4, roan, ryr1, silver, slc5a3.
 - 19 notes (the first 14 of those filed, and acan, ednrb, hmga2, mstn, scn4a) open
   with LATEST FINDINGS, which carries the owner's later audit answers and
   overrides the older text beneath it. The older text was corrected in place only
