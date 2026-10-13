@@ -4,6 +4,19 @@ No source was opened by the session that filed this. genes/dun.json was changed 
 on the owner's word the same day; what is left over is in knowledge/known-issues.txt.
 Not yet audited.)
 
+ROUND TWO (the owner's answers to the open research questions, 2026-10-12)
+--------------------------------------------------------------------------
+These came after everything below. Where they disagree with it, this section and the gene
+file stand, unless a line says the point is unsettled. The whole answer is in
+knowledge/science/round-2-answers.txt. No address has been opened by a maintainer.
+- The nd1 coordinate and base change could not be verified; the answer points to the UC
+  Davis dun test page and the original TBX3 paper.
+- nd1 horses often show some primitive markings, variably; nd1/nd1 may show them more
+  consistently than nd1/nd2; nd2/nd2 does not show them. No rate was given.
+- Dun is described as high in Nordic pony, Highland, Icelandic, Konik, Przewalski-derived
+  and many draft and pony populations, and low or absent in many hot-blooded breeds. No
+  per-breed figure exists without a breed survey.
+
 Dun is a dominant, ancestral coat-color dilution controlled by the TBX3 gene on horse chromosome 8. One copy of the dun allele (D) lightens both red and black body pigment while leaving the mane, tail, lower legs, and head relatively undiluted, and it produces darker “primitive markings.” [vgl.ucdavis](https://vgl.ucdavis.edu/test/dun-horse)
 
 Locus and alleles
