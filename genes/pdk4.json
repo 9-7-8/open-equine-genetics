@@ -4,18 +4,19 @@
   "species": "horse",
   "name": "PDK4",
   "symbol": "PDK4",
+  "chromosome": "4",
   "evidence": "published",
-  "summary": "PDK4, a straightforward speed gene: each A copy adds a small amount of movement speed and nothing else. It is one atomic locus, not a hidden bundle of markers.",
+  "summary": "PDK4, pyruvate dehydrogenase kinase 4, on chromosome 4 - a gene of muscle metabolism whose product shifts a cell from burning glucose toward burning fat. At one variant (g.38973231A>G), A/A and A/G horses were over-represented among elite Thoroughbred racehorses in a 2010 study; a Quarter Horse study did not find the same difference. The A allele was commoner in Quarter Horses and the G allele in Arabians in another study. A/A and A/G horses rated about 16 lb higher on the handicap scale than G/G in that sample. These are associations with race performance, not a proven causal speed allele: the authors said the causal variant was still to be found.",
   "inheritance": "autosomal",
   "affects_coat": false,
   "alleles": [
-    { "id": "A", "name": "Racing (A)", "wild_type": false },
-    { "id": "G", "name": "Wild-type (G)", "wild_type": true }
+    { "id": "A", "name": "A allele", "wild_type": false },
+    { "id": "G", "name": "G allele", "wild_type": true }
   ],
   "phenotypes": [
-    { "id": "pdk4-fast", "name": "PDK4 racing type", "description": "Two racing copies. The full speed bonus this locus offers.", "changes_coat": false },
-    { "id": "pdk4-mixed", "name": "PDK4 intermediate", "description": "One racing copy. Exactly half the bonus - the alleles add rather than one masking the other.", "changes_coat": false },
-    { "id": "pdk4-plain", "name": "PDK4 wild type", "description": "No racing copy. No contribution to speed.", "changes_coat": false }
+    { "id": "pdk4-fast", "name": "PDK4 A/A", "description": "Two A copies. Over-represented, with A/G, among elite Thoroughbred racehorses in one study. No causal effect is established.", "changes_coat": false },
+    { "id": "pdk4-mixed", "name": "PDK4 A/G", "description": "One copy of each. Over-represented, with A/A, among elite Thoroughbred racehorses in one study. No causal effect is established.", "changes_coat": false },
+    { "id": "pdk4-plain", "name": "PDK4 G/G", "description": "Two G copies. The genotype the Thoroughbred study found less often among elite racehorses; G was the commoner allele in Arabians. No causal effect is established.", "changes_coat": false }
   ],
   "genotypes": [
     { "alleles": ["G", "G"], "phenotype": "pdk4-plain" },
@@ -33,5 +34,9 @@
       ]
     }
   ],
-  "citations": []
+  "citations": [
+    { "source": "paper", "label": "PDK4 g.38973231A>G allele frequencies in Arabian and Quarter Horses (Journal of Equine Veterinary Science, 2016)", "url": "https://www.sciencedirect.com/science/article/abs/pii/S0737080616301149" },
+    { "source": "paper", "label": "Hill et al. 2010, sprint exercise and COX4I2 and PDK4 gene expression in Thoroughbred skeletal muscle (Equine Veterinary Journal 42:576)", "url": "https://doi.org/10.1111/j.2042-3306.2010.00206.x" },
+    { "source": "pubmed", "label": "PMID 21070277: Hill et al. 2010, targets of selection in the Thoroughbred genome contain exercise-relevant gene SNPs associated with elite racecourse performance (Animal Genetics)", "url": "https://pubmed.ncbi.nlm.nih.gov/21070277/" }
+  ]
 }
