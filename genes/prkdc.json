@@ -4,18 +4,19 @@
   "species": "horse",
   "name": "PRKDC (SCID)",
   "symbol": "PRKDC",
+  "chromosome": "9",
   "evidence": "published",
-  "summary": "PRKDC (SCID), severe combined immunodeficiency - a recessive lethal. The foal is born with no immune system and does not survive.",
+  "summary": "PRKDC, on chromosome 9, encodes the catalytic subunit of DNA-dependent protein kinase (DNA-PKcs), which repairs double-strand breaks in DNA and is needed for the DNA rearrangement that builds antibodies and T-cell receptors. A five base-pair deletion shifts the reading frame, truncates the protein and removes its kinase activity. Two copies cause severe combined immunodeficiency (SCID): a foal with no adaptive immune system that dies of infection, generally within four to six months. It is recessive; carriers are clinically normal. It is a disease of Arabian and part-Arabian horses. A suggested link between carrier status and sarcoids is not settled. UC Davis writes the genotypes N/N, N/SCID and SCID/SCID. No effect on coat, build or performance is established.",
   "inheritance": "autosomal",
   "affects_coat": false,
   "alleles": [
-    { "id": "scid", "name": "SCID", "wild_type": false, "quality": "unverified" },
+    { "id": "scid", "name": "SCID (five base-pair deletion, frameshift)", "wild_type": false, "quality": "unverified" },
     { "id": "N", "name": "Wild-type", "wild_type": true, "quality": "unverified" }
   ],
   "phenotypes": [
     { "id": "wild", "name": "Wild type", "description": "Two working copies. Nothing is wrong and nothing is passed on.", "changes_coat": false },
-    { "id": "prkdc-carrier", "name": "PRKDC (SCID) carrier", "description": "One copy of scid. The horse is completely normal and there is no way to see it - but half its foals inherit the copy, and two carriers bred together are the only way scid (no immune system) appears.", "changes_coat": false },
-    { "id": "scid", "name": "SCID (no immune system)", "description": "The foal is born with no working immune system at all. It is healthy for a few days on its dam's antibodies and then has nothing left to fight with.", "changes_coat": false }
+    { "id": "prkdc-carrier", "name": "PRKDC (SCID) carrier", "description": "One copy. The horse is clinically normal and passes the copy to about half its foals. A foal is affected only when both parents pass it on.", "changes_coat": false },
+    { "id": "scid", "name": "SCID (no immune system)", "description": "Two copies. The foal has no working B or T cells and so no adaptive immune system. It suffers repeated or overwhelming infections of every kind - pneumonia, diarrhoea, lethargy, poor growth - and generally does not live beyond about four to six months.", "changes_coat": false }
   ],
   "genotypes": [
     { "alleles": ["N", "N"], "phenotype": "wild" },
@@ -23,7 +24,7 @@
     { "alleles": ["scid", "scid"], "phenotype": "scid", "conditions": ["scid"] }
   ],
   "conditions": [
-    { "id": "scid", "name": "SCID (no immune system)", "description": "The foal is born with no working immune system at all. It is healthy for a few days on its dam's antibodies and then has nothing left to fight with.", "severity": "lethal_at_birth" }
+    { "id": "scid", "name": "SCID (no immune system)", "description": "Two copies. The foal has no working B or T cells and so no adaptive immune system. It suffers repeated or overwhelming infections of every kind - pneumonia, diarrhoea, lethargy, poor growth - and generally does not live beyond about four to six months.", "severity": "lethal_in_early_life" }
   ],
   "frequencies": [
     {
@@ -37,7 +38,7 @@
   ],
   "citations": [
     { "source": "omia", "label": "OMIA 000220", "url": "https://omia.org/OMIA000220/9796/", "verified": false },
-    { "source": "ucdavis-vgl", "label": "UC Davis VGL", "url": "https://vgl.ucdavis.edu/test/scid", "verified": false },
+    { "source": "ucdavis-vgl", "label": "UC Davis VGL: Severe Combined Immunodeficiency (SCID)", "url": "https://vgl.ucdavis.edu/test/scid", "verified": false },
     { "source": "pubmed", "label": "PMID 9682449", "url": "https://pubmed.ncbi.nlm.nih.gov/9682449/", "verified": false }
   ]
 }
