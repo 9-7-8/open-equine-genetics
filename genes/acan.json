@@ -6,7 +6,7 @@
   "symbol": "ACAN",
   "chromosome": "1",
   "evidence": "published",
-  "summary": "ACAN (aggrecan) on chromosome 1, a dwarfism locus with five variant alleles. A horse is a dwarf when it has no working copy left, so two different variant alleles together still count. One pairing (D1/D1) is lethal at birth; every other such combination is a surviving dwarf. A horse with one variant copy is not a dwarf, but heterozygotes are reported to be shorter than horses with none.",
+  "summary": "ACAN (aggrecan) on chromosome 1, a recessive dwarfism locus of Miniature Horses and related ponies, with four established variant alleles, D1 to D4. A horse is a dwarf when it has no working copy left, so two different variant alleles together still count. Two copies of D1 give the most severe form, generally incompatible with normal life, though how long such a foal survives varies; every other such combination is a surviving dwarf. A horse with one variant copy is not a dwarf, but heterozygotes are reported to be shorter than horses with none. A fifth allele, D5, is not established: no published report or laboratory test page was found that names it, and it is kept here as unconfirmed, with no outcome.",
   "inheritance": "autosomal",
   "affects_coat": false,
   "alleles": [
@@ -14,33 +14,34 @@
     { "id": "D2", "name": "Dwarfism D2 (c.1270G>A)", "wild_type": false, "quality": "unverified" },
     { "id": "D3", "name": "Dwarfism D3 (c.6700delC)", "wild_type": false, "quality": "unverified" },
     { "id": "D4", "name": "Dwarfism D4 (c.7299_7319del)", "wild_type": false, "quality": "unverified" },
-    { "id": "D5", "name": "Dwarfism D5 (g.95258999C>T)", "wild_type": false, "quality": "unverified" },
+    { "id": "D5", "name": "Dwarfism D5 (unconfirmed; reported as g.95258999C>T)", "wild_type": false, "quality": "unverified" },
     { "id": "N", "name": "Wild-type", "wild_type": true, "quality": "unverified" }
   ],
   "phenotypes": [
     { "id": "wild", "name": "Wild type", "description": "Two working copies of ACAN. Normal skeletal growth.", "changes_coat": false },
     { "id": "acan-carrier", "name": "ACAN carrier", "description": "One variant copy and one working one. Not a dwarf, but reported to be shorter than a horse with two working copies. Two carriers bred together throw a dwarf one time in four, whether or not they carry the same variant.", "changes_coat": false },
     { "id": "acan-dwarf", "name": "Chondrodysplastic dwarfism", "description": "No working copy of ACAN. The horse is markedly small, with shortened limbs.", "changes_coat": false },
-    { "id": "acan-lethal", "name": "Lethal dwarfism (D1/D1)", "description": "Two copies of the severe D1 variant. The foal is born profoundly malformed and does not survive.", "changes_coat": false }
+    { "id": "acan-lethal", "name": "Lethal dwarfism (D1/D1)", "description": "Two copies of the severe D1 variant. The most severe form: profound skeletal malformation, generally incompatible with normal life. How long such a foal survives varies.", "changes_coat": false },
+    { "id": "unconfirmed-allele", "name": "Pair with an unconfirmed variant", "documented": false, "description": "A pair that includes D5. No peer-reviewed report or laboratory test page was found that names a fifth ACAN dwarfism allele, so nothing is given for it. An earlier answer reported it as g.95258999C>T and flagged that as unverified.", "changes_coat": false }
   ],
   "genotypes": [
     { "alleles": ["N", "N"], "phenotype": "wild" },
-    { "alleles": ["D5", "N"], "phenotype": "acan-carrier" },
-    { "alleles": ["D5", "D5"], "phenotype": "acan-dwarf", "conditions": ["chondrodysplastic-dwarfism"] },
+    { "alleles": ["D5", "N"], "phenotype": "unconfirmed-allele" },
+    { "alleles": ["D5", "D5"], "phenotype": "unconfirmed-allele" },
     { "alleles": ["D4", "N"], "phenotype": "acan-carrier" },
-    { "alleles": ["D4", "D5"], "phenotype": "acan-dwarf", "conditions": ["chondrodysplastic-dwarfism"] },
+    { "alleles": ["D4", "D5"], "phenotype": "unconfirmed-allele" },
     { "alleles": ["D4", "D4"], "phenotype": "acan-dwarf", "conditions": ["chondrodysplastic-dwarfism"] },
     { "alleles": ["D3", "N"], "phenotype": "acan-carrier" },
-    { "alleles": ["D3", "D5"], "phenotype": "acan-dwarf", "conditions": ["chondrodysplastic-dwarfism"] },
+    { "alleles": ["D3", "D5"], "phenotype": "unconfirmed-allele" },
     { "alleles": ["D3", "D4"], "phenotype": "acan-dwarf", "conditions": ["chondrodysplastic-dwarfism"] },
     { "alleles": ["D3", "D3"], "phenotype": "acan-dwarf", "conditions": ["chondrodysplastic-dwarfism"] },
     { "alleles": ["D2", "N"], "phenotype": "acan-carrier" },
-    { "alleles": ["D2", "D5"], "phenotype": "acan-dwarf", "conditions": ["chondrodysplastic-dwarfism"] },
+    { "alleles": ["D2", "D5"], "phenotype": "unconfirmed-allele" },
     { "alleles": ["D2", "D4"], "phenotype": "acan-dwarf", "conditions": ["chondrodysplastic-dwarfism"] },
     { "alleles": ["D2", "D3"], "phenotype": "acan-dwarf", "conditions": ["chondrodysplastic-dwarfism"] },
     { "alleles": ["D2", "D2"], "phenotype": "acan-dwarf", "conditions": ["chondrodysplastic-dwarfism"] },
     { "alleles": ["D1", "N"], "phenotype": "acan-carrier" },
-    { "alleles": ["D1", "D5"], "phenotype": "acan-dwarf", "conditions": ["chondrodysplastic-dwarfism"] },
+    { "alleles": ["D1", "D5"], "phenotype": "unconfirmed-allele" },
     { "alleles": ["D1", "D4"], "phenotype": "acan-dwarf", "conditions": ["chondrodysplastic-dwarfism"] },
     { "alleles": ["D1", "D3"], "phenotype": "acan-dwarf", "conditions": ["chondrodysplastic-dwarfism"] },
     { "alleles": ["D1", "D2"], "phenotype": "acan-dwarf", "conditions": ["chondrodysplastic-dwarfism"] },
@@ -48,7 +49,7 @@
   ],
   "conditions": [
     { "id": "chondrodysplastic-dwarfism", "name": "Chondrodysplastic dwarfism", "description": "No working copy of ACAN. The horse is markedly small, with shortened limbs.", "severity": "impairing" },
-    { "id": "chondrodysplastic-dwarfism-lethal", "name": "Lethal dwarfism (D1/D1)", "description": "Two copies of the severe D1 variant. The foal is born profoundly malformed and does not survive.", "severity": "lethal_at_birth" }
+    { "id": "chondrodysplastic-dwarfism-lethal", "name": "Lethal dwarfism (D1/D1)", "description": "Two copies of the severe D1 variant. The most severe form: profound skeletal malformation, generally incompatible with normal life. How long such a foal survives varies.", "severity": "lethal_at_birth" }
   ],
   "frequencies": [
     {
@@ -66,6 +67,7 @@
   ],
   "citations": [
     { "source": "omia", "label": "OMIA 001271-9796: Dwarfism, ACAN-related", "url": "https://omia.org/OMIA001271/9796/", "verified": false },
-    { "source": "pubmed", "label": "PMID 32065671: Heterozygotes for ACAN dwarfism alleles in horses have reduced stature (2020)", "url": "https://pubmed.ncbi.nlm.nih.gov/32065671/", "verified": false }
+    { "source": "pubmed", "label": "PMID 32065671: Heterozygotes for ACAN dwarfism alleles in horses have reduced stature (2020)", "url": "https://pubmed.ncbi.nlm.nih.gov/32065671/", "verified": false },
+    { "source": "ucdavis-vgl", "label": "UC Davis VGL: horse DNA tests", "url": "https://vgl.ucdavis.edu/dna-tests/horse", "verified": false }
   ]
 }
