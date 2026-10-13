@@ -1,6 +1,127 @@
-Champagne - science notes
+Champagne (SLC36A1) - science notes
+(The owner's research notes, filed 2026-10-12. Its sources are given in the text as addresses in brackets.
+No source was opened by the session that filed this. genes/champagne.json was changed to match
+on the owner's word the same day; what is left over is in knowledge/known-issues.txt.
+Not yet audited.)
+
+Champagne is a simple autosomal-dominant coat-color dilution caused by a missense mutation in SLC36A1 on equine chromosome 14. It lightens both red and black pigment, and its most reliable identifying traits are pinkish/lavender skin and amber eyes—not the coat color alone. [vgl.ucdavis](https://vgl.ucdavis.edu/test/champagne)
+
+Locus and alleles
+-----------------
+
+Genotype | Name | Phenotype | Breeding outcome
+N/N | Non-champagne | No champagne dilution | Cannot produce a champagne foal unless the other parent contributes Ch
+N/Ch | Heterozygous champagne | Full champagne phenotype | 50% chance to pass Ch to each foal
+Ch/Ch | Homozygous champagne | Full champagne phenotype; no proven visible “double champagne” effect | Passes Ch to 100% of foals [vgl.ucdavis](https://vgl.ucdavis.edu/test/champagne)
+
+UC Davis designates the alleles N (normal/non-dilute) and Ch (champagne). The causal variant is c.188C>G in exon 2 of SLC36A1, producing a threonine-to-arginine substitution (T63R). [vgl.ucdavis](https://vgl.ucdavis.edu/test/champagne)
+
+How it changes pigment
+----------------------
+
+Champagne dilutes pigment in hair, skin, and eyes:
+
+- Red pigment (pheomelanin): diluted from chestnut/sorrel to gold.
+- Black pigment (eumelanin): diluted from black to brown/chocolate.
+- Skin: born pinkish or lavender, often developing darker mottling around the muzzle, eyes, sheath/udder, and under the tail with maturity.
+- Eyes: champagne foals commonly have blue or blue-green eyes that darken to amber, hazel, or light brown. [vgl.ucdavis](https://vgl.ucdavis.edu/test/champagne)
+
+Unlike cream, champagne has a strong effect on black pigment even with one copy; unlike dun, it does not inherently create primitive markings. [vgl.ucdavis](https://vgl.ucdavis.edu/test/champagne)
+
+Named champagne phenotypes
+--------------------------
+
+Base color | Champagne result | Typical appearance
+Chestnut / sorrel (e/e) | Gold champagne | Gold body; mane and tail often ivory or flaxen; can resemble palomino
+Bay (E/_ A/_) | Amber champagne | Tan or golden body with brown rather than black points
+Black (E/_ a/a) | Classic champagne | Dark tan/taupe body with brown points
+Seal brown / brown-based | Often called sable champagne in registries and breeder usage | Brown-based body with champagne dilution; genetic base must be established by testing [vgl.ucdavis](https://vgl.ucdavis.edu/test/champagne)
+
+Gold champagne is the phenotype most often confused with palomino, but a palomino is chestnut plus one cream allele, whereas gold champagne is chestnut plus Ch. Skin and eye traits are the practical distinction. [vgl.ucdavis](https://vgl.ucdavis.edu/test/champagne)
+
+Interaction with other loci
+---------------------------
+
+Champagne is a modifier, so the final coat depends on the underlying base and any additional dilutions or patterns:
+
+- Ch + cream: can produce very pale gold or cream-like coats; DNA testing is important because champagne and cream can visually overlap.
+- Ch + dun: champagne does not itself cause a dorsal stripe, but a horse carrying both can show champagne dilution plus dun markings.
+- Ch + silver: both affect black pigment, complicating visual identification, especially on bay- or black-based horses.
+- Ch + gray: gray progressively replaces the visible coat with white hair, but champagne skin and eye traits may still provide clues early in life.
+- Ch + white patterns: champagne can occur with tobiano, frame, sabino-type white, appaloosa patterning, etc.; the dilution modifies pigmented areas but does not cause the white pattern. [vgl.ucdavis](https://vgl.ucdavis.edu/test/champagne)
+
+Established facts
+-----------------
+
+- Champagne is caused by the SLC36A1 c.188C>G variant. [vgl.ucdavis](https://vgl.ucdavis.edu/test/champagne)
+- It is dominant: one copy produces the champagne phenotype. [vgl.ucdavis](https://vgl.ucdavis.edu/test/champagne)
+- It dilutes both eumelanin and pheomelanin. [vgl.ucdavis](https://vgl.ucdavis.edu/test/champagne)
+- It affects skin and eye pigment, producing pale skin and amber-toned eyes. [vgl.ucdavis](https://vgl.ucdavis.edu/test/champagne)
+- A Ch/Ch horse always transmits Ch. [vgl.ucdavis](https://vgl.ucdavis.edu/test/champagne)
+- The main recognized phenotype names are gold, amber, classic, and, in some registries, sable champagne. [vgl.ucdavis](https://vgl.ucdavis.edu/test/champagne)
+
+Speculation and open questions
+------------------------------
+
+The molecular test identifies the known Ch allele, but several practical questions remain less firmly resolved:
+
+- No confirmed second champagne allele: Unlike some loci with multiple characterized variants, UC Davis currently describes champagne as the Ch allele versus normal N; there is no validated, separately named champagne allele series comparable to cream’s CR/prl system. [vgl.ucdavis](https://vgl.ucdavis.edu/test/champagne)
+- Homozygote appearance: Ch/Ch is genetically meaningful and breeding-relevant, but there is no well-established, consistently recognizable phenotype that reliably distinguishes it from N/Ch by eye. [vgl.ucdavis](https://vgl.ucdavis.edu/test/champagne)
+- “Ivory champagne” and compound dilutes: Names such as “ivory champagne” are commonly used for champagne combined with cream, but these are descriptive registry/marketing terms rather than distinct alleles at the champagne locus. [vgl.ucdavis](https://vgl.ucdavis.edu/test/champagne)
+- Breed-specific expression: Coat shade varies with base color, gray, sun exposure, age, and other dilutions; visual assignment should therefore be treated as provisional until tested. [vgl.ucdavis](https://vgl.ucdavis.edu/test/champagne)
+
+What it does not establish
+--------------------------
+
+There is no good evidence that champagne affects:
+
+- Height, body size, or growth
+- Speed, gait, or athletic ability
+- Muscle mass or muscle fiber type
+- Bone structure or conformation
+- Hoof shape, hoof quality, or hoof color beyond pigment in adjacent skin
+- Feathering
+- Mane/tail length or texture
+
+Its documented effects are pigmentary: hair, skin, and eyes. Any association with temperament, health, or performance would require specific evidence and should not be inferred from coat color. [vgl.ucdavis](https://vgl.ucdavis.edu/test/champagne)
+
+Breeds where it occurs
+----------------------
+
+Champagne is especially associated with North American gaited and stock breeds, including:
+
+- Tennessee Walking Horse
+- American Quarter Horse
+- American Saddlebred
+- Missouri Fox Trotter
+- Spanish Mustang / Mustang-type horses
+- Icelandic horse and some European breeds, though generally at lower frequency
+
+The American Quarter Horse and Tennessee Walking Horse are particularly prominent sources of champagne in the United States. [aqha](https://www.aqha.com/widget/-/the-unusual-horse-color-called-champagne)
+
+Testing and simulator implementation
+------------------------------------
+
+For a breeding simulator, model champagne as a single-locus dominant modifier:
+
+  CH locus: N < Ch
+  Dominance: Ch is dominant over N
+  Phenotype: N/Ch = champagne; Ch/Ch = champagne
+  Base interaction:
+    e/e + Ch  -> Gold Champagne
+    E/_ A/_ + Ch -> Amber Champagne
+    E/_ a/a + Ch -> Classic Champagne
+
+Use N/Ch and Ch/Ch as genetically distinct states for inheritance, but render them with the same champagne dilution unless you deliberately implement an unverified homozygote intensification rule. A robust UI should require the underlying MC1R, ASIP, and other dilution loci before assigning a champagne phenotype name. [vgl.ucdavis](https://vgl.ucdavis.edu/test/champagne)
+
+An amber champagne illustrates the core effect: a bay horse’s red body pigment becomes golden-tan while its black mane, tail, and points become brown. [vgl.ucdavis](https://vgl.ucdavis.edu/test/champagne)
+
+
+EARLIER NOTES, FROM THE MOD'S WIKI
+==================================
 (Copied 2026-10-12 from the Science tab of the Procedural Horse Coats wiki page for this gene.
-Written for that project: it may mention how a game models the gene. Not yet audited.)
+Written for that project: they say how a game models the gene. Where they disagree with
+the research notes above, the notes above stand.)
 
 Genetic identity
 ----------------
