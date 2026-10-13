@@ -1,0 +1,223 @@
+Round-two answers - science notes for many loci
+(The owner's research answer to the OPEN RESEARCH QUESTIONS of knowledge/known-issues.txt, filed
+2026-10-12 as she sent it. It covers many loci at once, so it is kept whole here; each locus
+it touches has a short ROUND TWO section at the top of its own note that points back to this
+file. Its sources are given in the text as addresses in brackets. No source was opened by
+the session that filed this. The gene files were changed to match on the owner's word the
+same day; what the answer left open, and where it disagrees with her earlier research, is
+in knowledge/known-issues.txt. Not yet audited.)
+
+Below is a consolidated reference. Where a claim is well established, I cite it; where the literature/testing landscape is incomplete or I could not verify a specific number from a primary source, I say so explicitly rather than inventing a figure. Coordinates use EquCab3.0 unless noted; the current reference assembly is EquCab3.0. (https://www.ncbi.nlm.nih.gov/assembly/1512011)
+
+1. Chromosomes and tested variants
+----------------------------------
+
+Gene / locus | Trait or disorder | Chromosome | Tested variant / note
+B4GALT7 | Connective-tissue / fragile-foal-type disorder | Verify against current test literature | I cannot verify a universally used tested-coordinate from the sources available here; do not treat a coordinate as established without the primary variant report.
+EDNRB | Frame overo / lethal white overo | ECA17 | Ile118Lys missense variant; homozygotes produce lethal white foal syndrome.
+MC1R | Extension: e and ea | ECA3 | e prevents black pigment production, producing chestnut; ea is an additional recessive red allele recognized by some laboratories. Exact coordinate for ea varies by assay/reference and should be taken from the testing laboratory’s variant sheet. UC Davis tests “Red Factor” at MC1R.  (https://vgl.ucdavis.edu/dna-tests/horse)
+GBE1 | GBED | ECA26 | c.102C>A in exon 1; GBE1 maps to ECA26q12–q13.  (https://omia.org/OMIA000420/9796/)
+GYS1 | PSSM1 | ECA10 | c.925G>A, p.Arg309His; UC Davis describes PSSM1 as a muscle-glycogen storage disease and notes homozygotes may be more severely affected.  (https://vgl.ucdavis.edu/test/pssm1)
+HMGA2 | Body size / height-associated locus | ECA7 | HMGA2 is a major height/size candidate region, but it is not a single “coat-color-style” allele with one universal tested SNP; effect is polygenic and breed-dependent.
+MSTN | Muscle / racing type | ECA18 | Commonly tested variant is g.66493737C>T in EquCab3-style coordinates; the C allele is associated with the “sprint/muscling” haplotype and T with stamina-oriented haplotypes, but performance is strongly polygenic.
+MYO5A | Lavender foal syndrome | Verify chromosome in the primary LFS report | LFS is recessive and lethal shortly after birth; carrier status is detectable by DNA test.  (https://scholars.uky.edu/en/publications/evidence-for-origin-of-lavender-foal-syndrome-among-egyptian-arab/)
+PLOD1 | Warmblood fragile foal syndrome type 1 | Verify chromosome in the primary WFFS report | c.2032G>A, p.Gly678Arg; recessive.  (https://pmc.ncbi.nlm.nih.gov/articles/PMC9213567/)
+PPIB | HERDA | Verify chromosome in the primary HERDA report | Recessive collagen-skin fragility disorder; UC Davis includes HERDA in Quarter Horse-related disease panels.  (https://vgl.ucdavis.edu/panel/quarter-horse-disease-panel)
+SCN4A | HYPP | Verify chromosome in the primary HYPP report | Dominant sodium-channel variant traced to Impressive; causes episodic muscle weakness/paralysis.  (https://vgl.ucdavis.edu/test/hypp)
+ST14 | Naked foal syndrome | Verify chromosome in the primary NFS report | Recessive; affected Akhal-Teke foals are born hairless and die early.
+
+PMEL / silver
+.............
+
+Yes—PMEL, the silver-dapple locus, is on ECA6. Silver dilutes black pigment; it is visually silent or nearly silent on a chestnut base because chestnuts have little or no black hair pigment to dilute. (https://equine.mgcafe.uky.edu/news-story/equine-coat-color-genetics-101)
+
+Dun nd1
+.......
+
+The dun locus is TBX3, with alleles D, nd1, and nd2. UC Davis states that nd2 is a 1,617-bp deletion; horses with nd1 are not dun-diluted but may show primitive markings, with variable expression. (https://vgl.ucdavis.edu/test/dun-horse)
+
+- D: dun dilution plus primitive markings; dominant over both non-dun alleles. (https://vgl.ucdavis.edu/test/dun-horse)
+- nd1: no dun dilution; primitive markings possible but variable. (https://vgl.ucdavis.edu/resources/horse-coat-color)
+- nd2: no dun dilution and no primitive markings. (https://vgl.ucdavis.edu/test/dun-horse)
+
+I could not verify the exact nd1 coordinate and base change from the sources retrieved here; use the UC Davis dun test documentation or the original TBX3 paper for the assay-specific coordinate.
+
+PRKDC deletion
+..............
+
+The PRKDC deletion is associated with severe combined immunodeficiency (SCID) in Arabian-related horses. I could not verify its exact EquCab3.0 coordinates from the retrieved sources; the reliable source is the original SCID variant publication or the UC Davis SCID test page.
+
+ACAN D5
+.......
+
+I find no well-established published “ACAN D5” dwarfism allele in horses. The established equine ACAN dwarfism work concerns a small set of recessive variants in Miniature Horses and related ponies; D5 should be treated as unconfirmed until a peer-reviewed variant report or a laboratory test page names it. UC Davis’s horse test catalog should be checked directly for whether it currently offers an ACAN dwarfism assay; its main horse DNA-test index is the authoritative starting point. (https://vgl.ucdavis.edu/dna-tests/horse)
+
+Tobiano inversion
+.................
+
+Yes. Tobiano is caused by a large paracentric inversion of about 43 Mb upstream of KIT on ECA3, with reported breakpoints chr3:42,737,476–79,471,993 in the cited review’s coordinates. (https://pmc.ncbi.nlm.nih.gov/articles/PMC10854722/)
+
+2. Breed frequencies
+--------------------
+
+The following should be treated as mod estimates unless a dated breed survey is cited. Public breed-frequency tables for coat loci are patchy: many are derived from commercial-test submissions, which are not random population samples.
+
+Locus | What is reasonably established | Frequency status
+Dun / nd1 | D is dominant; nd1 gives primitive markings without dun dilution.  (https://vgl.ucdavis.edu/resources/horse-coat-color) | High in Nordic pony, Highland, Icelandic, Konik, Przewalski-derived and many draft/pony populations; low or absent in many hot-blooded breeds. Exact per-breed values require a breed-specific survey.
+Extension e / ea | e/e is chestnut; E/e and E/E allow black pigment.  (https://vgl.ucdavis.edu/resources/horse-coat-color) | e is common in Haflinger, Suffolk, Belgian, many pony breeds, and some gaited breeds; rare in breeds selected strongly for bay/black. ea is much rarer and breed reporting is sparse.
+Agouti | A restricts black to points, producing bay; a/a permits uniform black.  (https://vgl.ucdavis.edu/resources/horse-coat-color) | A is very common in most breeds; a is common in Friesians, Morgans, Standardbreds, and some Iberian and gaited lines.
+Cream | Incomplete dominant dilution of red pigment; two copies dilute both red and black pigment.  (https://labgenvet.ca/en/horse-genetics-2-0-colours/) | Common in Quarter Horses, Paints, Palominos, American Cream Draft, Icelandic, Welsh, and many gaited breeds.
+Pearl | Recessive at the cream/MATP locus; visible as prl/prl or with Cr.  (https://horsereality.wiki/en/guides/colour-genetics-guide) | Most often reported in Iberian, Lusitano, Andalusian, Quarter Horse, Paint, and related Barock-type lines.
+Champagne | Dominant SLC36A1 dilution; affects both red and black pigment.  (https://equine.mgcafe.uky.edu/news-story/equine-coat-color-genetics-101) | Concentrated in Tennessee Walking Horse, Missouri Fox Trotter, American Cream Draft, Quarter Horse, and related breeds.
+Silver / PMEL | Dominant black-pigment dilution; chestnut carriers may look ordinary chestnut.  (https://equine.mgcafe.uky.edu/news-story/equine-coat-color-genetics-101) | Rocky Mountain, Kentucky Mountain, Icelandic, Shetland, Welsh, Morgan, and some European draft lines.
+Roan | Dominant white-hair pattern; causal variant remains incompletely resolved.  (https://madbarn.com/horse-coat-color-genetics/) | Common in Quarter Horse, Paint, Belgian, Welsh, and some pony/draft breeds.
+Tobiano | ~43 Mb ECA3 inversion; dominant.  (https://pmc.ncbi.nlm.nih.gov/articles/PMC10854722/) | High in Paint, Icelandic, many European pony and draft breeds; absent from breeds with closed studbooks that exclude spotted horses.
+Leopard / LP | LP controls leopard-complex patterning; PATN1 modifies amount of white/pattern.  (https://madbarn.com/horse-coat-color-genetics/) | Appaloosa, Knabstrupper, Noriker, and related spotted breeds.
+PATN1 | Modifier of LP expression.  (https://madbarn.com/horse-coat-color-genetics/) | Present in Appaloosa and Knabstrupper populations; frequency depends heavily on selection for extensive blanket/leopard patterning.
+Mushroom | Recessive dilution-like phenotype, best documented in Shetland-type ponies. | Rare; breed-level frequency is not reliably published.
+Tiger eye | Rare eye-color trait reported in Puerto Rican Paso Fino and related lines. | No robust published population frequency.
+
+3. KIT and MITF variants by breed
+---------------------------------
+
+Variant | Gene / locus | Typical breed association | Phenotype note
+SB1 | KIT | Quarter Horse, Paint, Shetland, Miniature | Sabino-like white; variable.
+W5 | KIT | Thoroughbred | Highly variable; some heterozygotes are nearly white.
+W10 | KIT | Quarter Horse | Variable, from modest spotting to near-white.  (https://animalgenetics.com/horse-tests/equine-pattern-tests/111-dw/)
+W13 | KIT | Quarter Horse-related | Reported in Quarter Horse lines; variable expression.
+W20 | KIT | Widespread | Mild sabino-like modifier; chr3:7948220T>C.  (https://pmc.ncbi.nlm.nih.gov/articles/PMC10854722/)
+W22 | KIT | Quarter Horse-related | Sabino-like; 1,898-bp deletion at chr3:79548925_79550822; homozygote not observed in the cited review.  (https://pmc.ncbi.nlm.nih.gov/articles/PMC10854722/)
+W32 | KIT | Widespread / multiple breeds | Milder tolerated KIT variant.  (https://pmc.ncbi.nlm.nih.gov/articles/PMC10854722/)
+W34 | KIT | Breed reporting limited | Milder tolerated KIT variant.  (https://pmc.ncbi.nlm.nih.gov/articles/PMC10854722/)
+W35 | KIT | Widespread / multiple breeds | Milder tolerated KIT variant.  (https://pmc.ncbi.nlm.nih.gov/articles/PMC10854722/)
+SW1–SW8 | MITF / PAX3 | SW1 broad; SW2/SW4 PAX3; SW3, SW5–SW8 MITF | UC Davis recognizes eight named splash alleles: SW1–SW8.  (https://vgl.ucdavis.edu/test/splashed-white)
+
+4. Disease carriers by breed
+----------------------------
+
+Disorder | Gene | Inheritance | Established breed pattern
+PSSM1 | GYS1 | Dominant, variable severity | Quarter Horse, Paint, draft and warmblood lines; UC Davis notes homozygotes may be more severely affected.  (https://vgl.ucdavis.edu/test/pssm1)
+HYPP | SCN4A | Dominant | Quarter Horse and related Impressive descendants.  (https://vgl.ucdavis.edu/test/hypp)
+Frame overo / OLWS | EDNRB | Recessive for lethal white; pattern is incompletely dominant | Paint, Quarter Horse, Thoroughbred, and other Paint-influenced breeds.
+SCID | PRKDC | Recessive | Arabian and Arabian-derived populations.
+Skeletal atavism | Shox-related region | Recessive | Miniature Horses and Shetland-related ponies.
+MET lethal | MET | Recessive | Friesian-related; exact population carrier frequency needs the primary study.
+JEB, LAMA3 | LAMA3 | Recessive | Belgian Draft and related draft breeds.
+JEB, LAMC2 | LAMC2 | Recessive | Saddlebred and related breeds.
+ACAN dwarfism | ACAN | Recessive | Miniature Horse / pony populations; D5 is not established.
+GBED | GBE1 | Recessive, lethal | UC Davis estimates 8.3% carriers in Quarter Horses and 7.1% in Paint Horses.  (https://ceh.vetmed.ucdavis.edu/health-topics/glycogen-branching-enzyme-deficiency-gbed)
+HERDA | PPIB | Recessive | Quarter Horse and related breeds; UC Davis includes it in the Quarter Horse disease panel.  (https://vgl.ucdavis.edu/panel/quarter-horse-disease-panel)
+WFFS | PLOD1 | Recessive | Warmbloods; also reported outside Warmbloods.  (https://pmc.ncbi.nlm.nih.gov/articles/PMC9213567/)
+
+5. Performance, size, and metabolism loci
+-----------------------------------------
+
+Locus | Trait | Breed-frequency status
+LCORL | Height/body size | Polygenic; higher “tall” haplotypes in Warmbloods, Thoroughbreds, and many sport breeds; frequency tables are study-specific.
+HMGA2 | Height/body size | ECA7; polygenic with LCORL and other loci.
+MSTN | Muscle mass, sprint vs. stamina | C allele more common in Quarter Horse and sprint-oriented Thoroughbred lines; T more common in endurance and many European sport breeds.
+PDK4 | Metabolism / PSSM modifier | Ancestral allele is generally considered the non-risk / ancestral C allele; the derived risk allele rose with selection in Quarter Horse-related populations. Exact breed frequencies require the primary PSSM modifier study.
+CKM | Muscle metabolism / tying-up risk | The risk allele is derived; the non-risk allele is ancestral. Breed frequencies are not reliably published across breeds.
+
+6. Specific frequency questions
+-------------------------------
+
+- Brindle: No robust published population allele frequency exists for equine brindle. It is exceptionally rare and appears to be heterogeneous; some cases are chimerism or mosaic events rather than a single inherited allele.
+- Lavender foal syndrome: The cited Arabian study reports an overall mutated-allele frequency of 0.08 (8%) and a carrier genotype frequency of 16%. So 10.3% and 1.6–1.8% are not interchangeable with these figures; they likely refer to different studies, subpopulations, or carrier-versus-allele definitions. (https://scholars.uky.edu/en/publications/evidence-for-origin-of-lavender-foal-syndrome-among-egyptian-arab/)
+- GBED 2006 study: The key GBED mutation report is the 2006 Ward et al. study identifying the GBE1 c.102C>A stop mutation. Later estimates include about 8.3% Quarter Horse and 7.1% Paint carrier frequency; older broad estimates of roughly 10% in Quarter Horse, Paint, and related bloodlines also appear in testing literature. (https://omia.org/OMIA000420/9796/)
+- HERDA figures: The often-cited 3.5%, 1.6%, and 28% figures come from different studies/populations and must not be merged. The 28% figure is generally a carrier frequency within a selected affected-family or high-risk line, not the general breed population. Only PPIB homozygotes are affected; carriers are outwardly healthy. (https://vgl.ucdavis.edu/test/pssm1)
+- EFIH: The discrepancy between 1.8% and 0.8% reflects different studies, sampling frames, and whether the figure is an allele frequency or carrier frequency. The “1.4–1.6% carriers” range appears to be a later estimate or pooled-test-submission estimate, not a single universally accepted population frequency. Treat all as study-specific.
+- Fragile foal syndrome: The Knabstrupper, Haflinger, and Sport Pony counts in some summaries are reported carrier/affected-case counts, not necessarily random-population carrier frequencies. For Warmbloods, carrier frequencies differ by studbook and year; the primary WFFS literature reports the PLOD1 c.2032G>A variant and notes that it was initially associated with Warmbloods. (https://pmc.ncbi.nlm.nih.gov/articles/PMC9213567/)
+- Naked foal / 191 Akhal-Tekes: The 191-horse sample should not be assumed to be a perfectly random breed-wide sample. It was a study sample; selection, relatedness, and geographic/source bias can affect the estimate. The primary naked-foal paper is needed to assess sampling design.
+- Friesian dwarfism 12%: The 12% figure is a carrier estimate from a sampled Friesian population, not a census of the breed. Its precision depends on the sampling frame and whether tested horses were related to known cases.
+- Cerebellar abiotrophy: In Arabians, CA is recessive; crossing two carriers gives a 25% affected-foal risk per mating. The cited review notes high allele frequency in Arabians, but the exact affected share depends on the allele frequency in the sampled population. (https://pmc.ncbi.nlm.nih.gov/articles/PMC8701198/)
+- Sunshine: “Sunshine” is not a universally standardized allele name in the mainstream UC Davis coat-color panel. Any exact per-breed frequency, including interaction with cream and pearl, should be treated as unverified unless tied to a named peer-reviewed variant.
+
+7. Alleles and variants
+-----------------------
+
+Splash white
+............
+
+- No published PAX3 SW10 is established in the mainstream UC Davis framework. UC Davis currently names SW1–SW8, with SW2 and SW4 in PAX3 and SW1, SW3, SW5–SW8 in MITF. (https://vgl.ucdavis.edu/test/splashed-white)
+- Some European laboratory pages list SW9 and SW10, but these are not equivalent to UC Davis’s current named set; confirm the laboratory’s variant definitions before using them in a simulation. (https://www.genomia.cz/en/test/splashed-wh-horse/)
+- W17a and W17b: These are best treated as two distinct reported KIT variants within the W17 family, not as two changes necessarily on the same chromosome. They are separate variant reports; whether they occur together in one individual is a separate question.
+- Camarillo White is W4 at KIT. Homozygous W4/W4 has not been observed, and W4 is suspected to be embryonic-lethal in homozygosity. (https://laboklin.com/en/products/genetics/coat-colour-coat-structure-coat-length/horse/camarillo-white-w4/)
+- W22 without W20: Yes, W22 can occur independently; W20 is not required. W37 without W35: I cannot verify a confirmed W37-without-W35 observation from the retrieved sources; treat it as unresolved.
+- Number of KIT white variants: The count depends on whether one counts only peer-reviewed, formally named alleles or also laboratory-reported variants. “36” is not a stable universal number; the peer-reviewed count changes as new variants are validated.
+- W homozygote embryonic lethality: Direct evidence exists or is strongly suspected for some severe KIT alleles, especially W4, where W4/W4 has not been observed and in-utero lethality is suspected.  For most mild variants such as W20, W32, and W35, homozygosity is not established as lethal. (https://pmc.ncbi.nlm.nih.gov/articles/PMC10854722/)
+- W15, W19, W20, W32, W34, W35 homozygotes: W20, W32, and W35 are described as more tolerated, milder KIT variants; homozygous phenotypes are expected to be sabino-like or modestly white rather than uniformly lethal.  W15 and W19 are rarer and phenotype/homozygote documentation is limited. (https://pmc.ncbi.nlm.nih.gov/articles/PMC10854722/)
+- Snowdrop: Confirmation in additional horses and the phenotype of Cr/sno and Prl/sno are not sufficiently established in the sources available here. Treat snowdrop as a rare, incompletely characterized dilution variant.
+- Sunshine pigment effect: No established evidence shows that “sunshine” independently reduces pigment; it appears to be a naming/phenotype question rather than a validated universal dilution allele.
+- Flaxen on ea chestnut: Yes—an ea/e chestnut can show flaxen if it carries the relevant flaxen modifier(s), but flaxen has no confirmed single causal variant.
+- E/E versus E/e bay darkness: There is no established MC1R dosage effect making every E/E bay darker than every E/e bay. Apparent differences are usually polygenic shade variation, sooty, nutrition, season, and age.
+- Seal brown: Seal brown is best explained by ASIP-region regulation plus polygenic shade modifiers; it is not a single universally accepted “brown allele” at a separate locus. The proposed shade modifier near ASIP remains an area of active investigation.
+- Roan causal variant: Roan’s causal mutation has not been definitively identified. It is often mapped near KIT, but “KIT roan allele” remains a working model rather than a settled molecular variant. (https://madbarn.com/horse-coat-color-genetics/)
+- RN/RN viability: Roan is generally treated as viable in homozygous form, but because the causal variant is unresolved, claims of a homozygous-lethal roan are not well supported.
+- Second leopard modifier: Yes, leopard patterning is clearly modified by more than PATN1; additional PATN loci and polygenic background influence pattern extent. PATN1 is simply the best-established named modifier. (https://madbarn.com/horse-coat-color-genetics/)
+- PDK4 / CKM ancestral alleles: For both, the non-risk allele is ancestral; the disease/risk allele is derived.
+- Malignant hyperthermia: The equine RYR1 malignant-hyperthermia variant was reported in 2009; 2004 refers to earlier related work or a different disease report, not the equine MH variant discovery.
+- Grey G2/G3 speed and melanoma risk: Grey progression varies widely by lineage and age. G2/G3 terminology is not a universally standardized clinical grading system; melanoma risk rises with age and grey phenotype, especially in grey Arabians and some grey lines, but no single G2/G3 risk percentage is universally accepted.
+- Chestnut carrying silver: A chestnut carrying PMEL silver generally has little visible coat change because silver acts on black pigment. Eye disease risk from PMEL itself is not established to be the same as in silver-expressing bay/black horses; ocular anomalies are mainly a concern in silver-expressing coats.
+- DMRT3 exon 2 variants: A 2026 study identified six exon-2 polymorphisms, including three novel variants; the known c.902C>A / p.Ser301Stop “gait keeper” variant remains the major gait-associated change, while novel missense and synonymous variants were mainly found in non-gaited breeds. (https://madbarn.com/research/dmrt3-gene-variations-in-horse-breeds-selected-for-gaited-movement-established-research-and-novel-findings/)
+- Trot versus pace: DMRT3 “A” permits ambling/gaited ability but does not by itself decide trot versus pace. Pace versus trot also depends on breed, training, conformation, and additional loci. (https://ask.ifas.ufl.edu/publication/AN332)
+- Flaxen, sooty, pangare, markings, eye color, twinning: None has a single confirmed causal gene suitable for a simple Mendelian test. All are best modeled as polygenic or environmentally modified traits.
+
+8. EDNRB overview
+-----------------
+
+EDNRB encodes endothelin receptor type B, part of the endothelin signaling pathway required for neural-crest-derived pigment cells and enteric nervous-system development.
+
+- Location: ECA17.
+- Key variant: A missense change producing Ile118Lys is the frame-overo/lethal-white-overo variant.
+- Pigment effect: One copy commonly produces frame overo patterning: jagged, horizontally oriented white patches, often sparing the back and topline.
+- Two copies: EDNRB homozygotes produce lethal white foal syndrome: near-complete absence of pigment, aganglionosis of the intestine, colic, and death or euthanasia shortly after birth.
+- Breeds: Paint Horse, Quarter Horse, Thoroughbred, and other breeds with Paint ancestry.
+- Simulation note: Model frame overo as incompletely dominant for pattern and recessive for lethality.
+
+9. HMGA2 overview
+-----------------
+
+HMGA2 encodes the high-mobility group AT-hook 2 transcription factor, a major growth and body-size regulator.
+
+- Location: ECA7.
+- Main effect: Variation near HMGA2 is associated with body size, height, and overall skeletal proportions.
+- Not a coat gene: It does not directly determine red/black pigment, white patterning, mane/tail color, hoof shape, feathering, or eye color.
+- Interaction: Height is highly polygenic; LCORL, HMGA2, and many other loci contribute, with breed and nutrition strongly modifying outcome.
+- Breeds: Allele frequencies differ sharply between small pony breeds, Barock-type horses, Thoroughbreds, Warmbloods, and drafts, but there is no single universal “tall” or “short” allele frequency table.
+- Simulation note: Treat HMGA2 as a continuous, additive size component, not a discrete coat-color allele.
+
+10. Two copies and unusual pairs
+--------------------------------
+
+- nd1 primitive markings: nd1 horses often show some primitive markings, but expression is variable; nd1/nd1 may show more consistent markings than nd1/nd2, while nd2/nd2 does not show them. (https://vgl.ucdavis.edu/resources/horse-coat-color)
+- Mu/Mu bay: Not every Mu/Mu bay shows obvious mushroom phenotype; expression varies with base color, age, and other modifiers. Mushroom is related to, but not identical to, flaxen; flaxen remains genetically unresolved.
+- TE2/TE2 without cream: Tiger-eye phenotype can occur without cream, but TE2/TE2 documentation outside Puerto Rican Paso Fino-related populations is limited.
+- MITF homozygotes: SW3/SW3 has not been identified and is considered embryonically lethal by at least one testing source.  SW1/SW1 is documented and tends to produce more extensive white than SW1/N.  Homozygotes for SW5–SW8, mixed MITF pairs, SW4/SW4, and SW2/SW4 are rare or undocumented; absence of a report is not proof of lethality. (https://www.genomia.cz/en/test/splashed-wh-horse/)
+- Splash deafness: Deafness is confirmed or strongly associated most clearly with severe MITF/PAX3 white-spotting genotypes, especially combinations producing extensive depigmentation and blue eyes. A simple “SW genotype = deaf” rule is not supported.
+- ACAN D1/D1: ACAN dwarfism is recessive; D1/D1 is associated with severe skeletal dwarfism and is generally incompatible with normal life, but “lethal at birth” should be stated cautiously because survival time can vary.
+- GBED and fragile-foal pregnancies: GBED-affected foals may be aborted, stillborn, weak at birth, or die within months.  WFFS-affected foals are typically born with severe skin/connective-tissue fragility rather than being routinely lost early in pregnancy. (https://www.soloselecthorses.com/tools/genetic-health-panel)
+- Skeletal atavism: Affected foals have severe limb deformities; they are usually nonviable or euthanized shortly after birth.
+- Naked foals: Naked foal syndrome foals are born hairless and die early, typically within days to weeks, from complications related to skin barrier failure and infection.
+- MET lethal embryo loss: Direct embryo-loss evidence is limited. The MET lethal is recessive and associated with Friesian-related mortality, but a specific early-embryo-loss rate is not established.
+- CA mechanism: The Arabian CA variant is in a region affecting TOE1 and MUTYH; the precise contribution of each gene remains an active research question. It is safest to describe CA as caused by a variant in the TOE1/MUTYH region rather than assigning it wholly to one gene.
+- SCID carriers and sarcoids: No established evidence shows SCID carriers are intrinsically more prone to sarcoids.
+- SHOX deletion carriers: Carriers are not reliably shorter; skeletal atavism requires two copies. Height effects in carriers, if any, are subtle and not established as a diagnostic trait.
+
+11. Source addresses
+--------------------
+
+For the numbered sources referenced in earlier B4GALT7, PRKDC, ST14, PLOD1, and MATP answers, I cannot reconstruct the original numbered list from this conversation. The durable public sources to use are:
+
+- UC Davis VGL horse DNA-test index: https://vgl.ucdavis.edu/dna-tests/horse (https://vgl.ucdavis.edu/dna-tests/horse)
+- UC Davis horse coat-color genetics resource: https://vgl.ucdavis.edu/resources/horse-coat-color (https://vgl.ucdavis.edu/resources/horse-coat-color)
+- UC Davis dun test: https://vgl.ucdavis.edu/test/dun-horse (https://vgl.ucdavis.edu/test/dun-horse)
+- UC Davis PSSM1 test: https://vgl.ucdavis.edu/test/pssm1 (https://vgl.ucdavis.edu/test/pssm1)
+- UC Davis HYPP test: https://vgl.ucdavis.edu/test/hypp (https://vgl.ucdavis.edu/test/hypp)
+- UC Davis splashed-white test: https://vgl.ucdavis.edu/test/splashed-white (https://vgl.ucdavis.edu/test/splashed-white)
+- UC Davis GBED health topic: https://ceh.vetmed.ucdavis.edu/health-topics/glycogen-branching-enzyme-deficiency-gbed (https://ceh.vetmed.ucdavis.edu/health-topics/glycogen-branching-enzyme-deficiency-gbed)
+- EquCab3.0 assembly: https://www.ncbi.nlm.nih.gov/assembly/1512011 (https://www.ncbi.nlm.nih.gov/assembly/1512011)
+- White-spotting review with KIT/tobiano coordinates: https://pmc.ncbi.nlm.nih.gov/articles/PMC10854722/ (https://pmc.ncbi.nlm.nih.gov/articles/PMC10854722/)
+- PAX3/MITF splash-white paper: https://pmc.ncbi.nlm.nih.gov/articles/PMC3325211/ (https://pmc.ncbi.nlm.nih.gov/articles/PMC3325211/)
+- WFFS/PLOD1 report: https://pmc.ncbi.nlm.nih.gov/articles/PMC9213567/ (https://pmc.ncbi.nlm.nih.gov/articles/PMC9213567/)
+- GBED/OMIA mapping record: https://omia.org/OMIA000420/9796/ (https://omia.org/OMIA000420/9796/)
