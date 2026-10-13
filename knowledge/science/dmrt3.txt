@@ -1,6 +1,90 @@
 DMRT3 (gait) - science notes
+(The owner's research notes, filed 2026-10-12. Its sources are given in the text as addresses in brackets.
+No source was opened by the session that filed this. genes/dmrt3.json was changed to match
+on the owner's word the same day; what is left over is in knowledge/known-issues.txt.
+Not yet audited.)
+
+DMRT3 is the major known genetic modifier of gaitedness in horses—not coat color. Its derived A allele, also called the “Gait Keeper” mutation, makes lateral ambling gaits and pace more likely by altering spinal locomotor circuitry; UC Davis markets the test as SynchroGait (DMRT3). [vgl.ucdavis](https://vgl.ucdavis.edu/test/synchrogait)
+
+Locus and mutation
+------------------
+
+DMRT3 encodes doublesex and mab-3 related transcription factor 3, a DNA-binding transcription factor involved in specifying inhibitory spinal interneurons that help coordinate limb movement. In horses, the commercially tested variant is a single-base change, chr23:g.22,999,655C>A, producing a premature stop codon (DMRT3_Ser301STOP, also reported as c.902C>A) and a truncated protein 174 amino acids shorter than normal. [vgl.ucdavis](https://vgl.ucdavis.edu/test/synchrogait)
+
+The ancestral/wild-type allele is C; the derived allele is A. The A allele does not simply “turn on” a gait—it changes the developmental bias of the locomotor network, making alternate lateral gaits more accessible while affecting transitions and coordination. [vgl.ucdavis](https://vgl.ucdavis.edu/test/synchrogait)
+
+Alleles and genotypes
+---------------------
+
+Genotype | UC Davis result | Usual interpretation
+C/C | No A variant | Typical three-gait bias: walk, trot, canter; lateral gait/pace less likely
+C/A | One copy of A | Intermediate; can retain strong trot/canter quality while permitting some ambling tendency
+A/A | Two copies of A | Strongest predisposition toward lateral gaits, tölt/rack/pace-type movement; may reduce trot-to-gallop transition quality
+
+UC Davis describes A as having “a major impact” on gait and coordination. In Icelandic Horses, AA horses are predisposed to five gaits—walk, tölt, trot, canter, and pace—whereas CA and CC horses are more likely to show only four, without pace. [vgl.ucdavis](https://vgl.ucdavis.edu/test/synchrogait)
+
+In Icelandic Horses, CA horses scored significantly better than AA horses for walk, trot, canter, and gallop, including beat and suspension in trot and gallop; thus, A is not universally “better”—it depends on the desired gait repertoire. [pubmed.ncbi.nlm.nih](https://pubmed.ncbi.nlm.nih.gov/25073639/)
+
+How it affects movement
+-----------------------
+
+DMRT3 affects the spinal central pattern generator: the neural circuitry coordinating left–right and fore–hind limb timing. The original Nature study concluded that the Ser301STOP mutation is causative for altered locomotion, facilitating lateral gaits, ambling, and pace while inhibiting the transition from trot or pace to gallop. [nature](https://www.nature.com/articles/nature11399)
+
+Important nuance: DMRT3 is permissive, not deterministic. A horse can be AA and still trot, and CC horses can occasionally exhibit unusual gaits; training, conformation, rider influence, and other genes all shape the final gait phenotype. In Standardbreds, for example, DMRT3 is nearly fixed, yet individuals still sort into trotters and pacers, showing that additional loci and selection matter. [pmc.ncbi.nlm.nih](https://pmc.ncbi.nlm.nih.gov/articles/PMC6555539/)
+
+What it does not do
+-------------------
+
+There is no well-established evidence that DMRT3 changes:
+
+- Red or black pigment, coat color, mane/tail color, or white markings.
+- Height, bone structure, hoof shape, or feathering.
+- Muscle mass or muscle fiber type as a direct primary effect.
+- Speed in a simple, universal way.
+
+Its performance effects are gait-specific. In Standardbreds, AA horses are more likely to race professionally and have higher racing breeding values than CA or CC horses, but that is a harness-racing selection context—not a general “speed gene.” The A allele can favor speed in trotting or pacing competition, while C/A may favor balance, transitions, and quality of conventional gaits in other contexts. [vgl.ucdavis](https://vgl.ucdavis.edu/test/synchrogait)
+
+For a simulation, model DMRT3 as a gait-mechanics modifier, not a body-conformation or pigment locus.
+
+Breed distribution
+------------------
+
+The A allele occurs worldwide and was found in 68 of 141 genotyped breeds, but breeds with frequencies above 50% are generally gaited breeds or harness-racing breeds. [omia](https://omia.org/OMIA001715/9796/)
+
+Breed group | Typical DMRT3 pattern
+Tennessee Walking Horse, Paso Fino, Peruvian Paso, Standardbred | A allele very common to nearly fixed [pmc.ncbi.nlm.nih](https://pmc.ncbi.nlm.nih.gov/articles/PMC6555539/)
+Icelandic Horse | A extremely common; about 0.94 allele frequency in the 2012 population studied [pubmed.ncbi.nlm.nih](https://pubmed.ncbi.nlm.nih.gov/25073639/)
+Mangalarga Marchador | A common, but genotype does not cleanly separate picada from batida gait types [ask.ifas.ufl](https://ask.ifas.ufl.edu/publication/AN332)
+Rocky Mountain, Kentucky Mountain, Missouri Fox Trotter | Included among gaited breeds with elevated A frequency [omia](https://omia.org/OMIA001715/9796/)
+Thoroughbred, Arabian | Generally low A frequency or largely absent; occasional low-frequency heterozygotes reported [pmc.ncbi.nlm.nih](https://pmc.ncbi.nlm.nih.gov/articles/PMC6555539/)
+Many non-gaited draft/pony/native breeds | Often predominantly C/C, including breeds such as Fjord, Haflinger, Friesian, Ardennes, and Breton in one survey [agrojournal](https://www.agrojournal.org/24/04-21.pdf)
+
+Speculation and open questions
+------------------------------
+
+- Additional gait alleles likely exist. DMRT3 explains a large part of gait propensity but not all variation; Standardbred pacing versus trotting and variation within gaited breeds demonstrate missing heritability. [pmc.ncbi.nlm.nih](https://pmc.ncbi.nlm.nih.gov/articles/PMC6555539/)
+- Novel DMRT3-region variants are being investigated. A 2026 study screened exon 2 of DMRT3 in gait-selected breeds and reported the known stop-gain variant plus additional variants, including missense and synonymous changes in non-gaited breeds; their functional significance remains to be established. [sciencedirect](https://www.sciencedirect.com/science/article/abs/pii/S0737080626001139)
+- DMRT3 may interact with other locomotion loci. Candidate-gene and genome-wide work has identified additional variants associated with pacing or gait type, but these should be treated as modifiers rather than settled, standalone “gait genes.” [pmc.ncbi.nlm.nih](https://pmc.ncbi.nlm.nih.gov/articles/PMC6555539/)
+- Phenotype labels are imperfect. “Gaited” covers many distinct gaits—tölt, rack, running walk, paso llano, trocha, picada, batida, pace—and DMRT3 does not by itself specify which one a horse performs. [ask.ifas.ufl](https://ask.ifas.ufl.edu/publication/AN332)
+
+Practical testing
+-----------------
+
+UC Davis VGL’s SynchroGait test reports the DMRT3 C/A genotype and is intended to help breeders evaluate likely gait and coordination effects. It is especially informative in breeds where A is common, but it should not be used as a guarantee that a foal will pace, tölt, rack, or perform a particular smooth gait. [vgl.ucdavis](https://vgl.ucdavis.edu/test/synchrogait)
+
+For a horse-genetics simulator, a sensible implementation is:
+
+- C/C: baseline trot/canter-oriented locomotion.
+- C/A: expanded gait potential, with better conventional-gait quality than AA in some breed contexts.
+- A/A: high probability of lateral-gait expression, with breed- and polygenic modifiers deciding tölt, running walk, rack, paso, or pace.
+- Add a separate polygenic “gait type” layer and a training/environment layer, because DMRT3 alone cannot determine the exact gait. [nature](https://www.nature.com/articles/nature11399)
+
+
+EARLIER NOTES, FROM THE MOD'S WIKI
+==================================
 (Copied 2026-10-12 from the Science tab of the Procedural Horse Coats wiki page for this gene.
-Written for that project: it may mention how a game models the gene. Not yet audited.)
+Written for that project: they say how a game models the gene. Where they disagree with
+the research notes above, the notes above stand.)
 
 A stop codon in the spinal cord
 -------------------------------
