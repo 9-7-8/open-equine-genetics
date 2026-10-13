@@ -9,8 +9,8 @@
   "inheritance": "autosomal",
   "affects_coat": true,
   "alleles": [
-    { "id": "A", "name": "Agouti / bay (A)", "wild_type": false },
-    { "id": "a", "name": "Non-agouti (a)", "wild_type": true }
+    { "id": "A", "name": "Agouti / bay", "wild_type": false },
+    { "id": "a", "name": "Non-agouti", "wild_type": true }
   ],
   "phenotypes": [
     { "id": "wild", "name": "Wild type", "description": "Black pigment is not restricted, so it covers the whole horse - a plain black, or a chestnut if extension already removed it.", "changes_coat": false },

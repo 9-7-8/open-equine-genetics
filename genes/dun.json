@@ -9,9 +9,9 @@
   "inheritance": "autosomal",
   "affects_coat": true,
   "alleles": [
-    { "id": "D", "name": "Dun (D)", "wild_type": false },
-    { "id": "d1", "name": "Non-dun, marked (d1)", "wild_type": false },
-    { "id": "d2", "name": "Non-dun, unmarked (d2)", "wild_type": true }
+    { "id": "D", "name": "Dun", "wild_type": false },
+    { "id": "d1", "name": "Non-dun, marked", "wild_type": false },
+    { "id": "d2", "name": "Non-dun, unmarked", "wild_type": true }
   ],
   "phenotypes": [
     { "id": "wild", "name": "Wild type", "description": "No dilution and no primitive markings.", "changes_coat": false },

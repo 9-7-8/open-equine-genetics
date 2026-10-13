@@ -9,10 +9,10 @@
   "inheritance": "autosomal",
   "affects_coat": true,
   "alleles": [
-    { "id": "SW2", "name": "Splash white 2 (SW2)", "wild_type": false },
-    { "id": "SW4", "name": "Splash white 4 (SW4)", "wild_type": false },
-    { "id": "SW10", "name": "Splash white 10 (SW10)", "wild_type": false },
-    { "id": "N", "name": "Wild-type (N)", "wild_type": true }
+    { "id": "SW2", "name": "Splash white 2", "wild_type": false },
+    { "id": "SW4", "name": "Splash white 4", "wild_type": false },
+    { "id": "SW10", "name": "Splash white 10", "wild_type": false },
+    { "id": "N", "name": "Wild-type", "wild_type": true }
   ],
   "phenotypes": [
     { "id": "wild", "name": "Wild type", "description": "No splash markings.", "changes_coat": false },

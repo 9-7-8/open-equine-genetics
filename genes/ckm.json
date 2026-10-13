@@ -9,8 +9,8 @@
   "inheritance": "autosomal",
   "affects_coat": false,
   "alleles": [
-    { "id": "T", "name": "Racing (T)", "wild_type": false },
-    { "id": "C", "name": "Wild-type (C)", "wild_type": true }
+    { "id": "T", "name": "Racing", "wild_type": false },
+    { "id": "C", "name": "Wild-type", "wild_type": true }
   ],
   "phenotypes": [
     { "id": "ckm-fast", "name": "CKM racing type", "description": "Two racing copies. The full contribution this locus makes to speed.", "changes_coat": false },

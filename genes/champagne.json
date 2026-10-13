@@ -9,8 +9,8 @@
   "inheritance": "autosomal",
   "affects_coat": true,
   "alleles": [
-    { "id": "Ch", "name": "Champagne (Ch)", "wild_type": false },
-    { "id": "c", "name": "Wild-type (c)", "wild_type": true }
+    { "id": "Ch", "name": "Champagne", "wild_type": false },
+    { "id": "c", "name": "Wild-type", "wild_type": true }
   ],
   "phenotypes": [
     { "id": "wild", "name": "Wild type", "description": "No dilution.", "changes_coat": false },

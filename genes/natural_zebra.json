@@ -9,8 +9,8 @@
   "inheritance": "autosomal",
   "affects_coat": true,
   "alleles": [
-    { "id": "Zeb", "name": "Zebra striping (Zeb)", "wild_type": false },
-    { "id": "n", "name": "Wild-type (n)", "wild_type": true }
+    { "id": "Zeb", "name": "Zebra striping", "wild_type": false },
+    { "id": "n", "name": "Wild-type", "wild_type": true }
   ],
   "phenotypes": [
     { "id": "wild", "name": "Wild type", "description": "No striping.", "changes_coat": false },

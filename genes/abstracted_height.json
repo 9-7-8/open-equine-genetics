@@ -9,9 +9,9 @@
   "inheritance": "autosomal",
   "affects_coat": false,
   "alleles": [
-    { "id": "Big", "name": "Gigantism (Big)", "wild_type": false },
-    { "id": "Small", "name": "Miniaturism (Small)", "wild_type": false },
-    { "id": "n", "name": "Wild-type (n)", "wild_type": true }
+    { "id": "Big", "name": "Gigantism", "wild_type": false },
+    { "id": "Small", "name": "Miniaturism", "wild_type": false },
+    { "id": "n", "name": "Wild-type", "wild_type": true }
   ],
   "phenotypes": [
     { "id": "wild", "name": "Wild type", "description": "Ordinary size for whatever the horse's own size genes say - which, since most horses carry a copy of this one, is itself slightly unusual.", "changes_coat": false },
@@ -19,7 +19,7 @@
     { "id": "double-tiny", "name": "Much smaller", "description": "Two small copies, and the percentages subtract together. Around a fifth under on average and a great deal less at the extreme, which is where the very smallest horses come from.", "changes_coat": false },
     { "id": "giant", "name": "Larger", "description": "One big copy. The horse is larger than its own genes would make it, by the percentage written on that copy - usually around a tenth. It passes that exact percentage on with the allele.", "changes_coat": false },
     { "id": "balanced", "name": "Balanced", "description": "One big copy and one small copy. Their percentages very nearly cancel, so the horse is close to its ordinary size while carrying, and passing on, both extremes. A horse a hair off normal is usually this.", "changes_coat": false },
-    { "id": "double-giant", "name": "Much larger", "description": "Two big copies, and the percentages add. Around a fifth over on average, and far more when both copies rolled well - the largest horses in the world are bred here, because no wild horse is born with two.", "changes_coat": false }
+    { "id": "double-giant", "name": "Much larger", "description": "Two big copies, and the percentages add. Around a fifth over on average, and far more when both copies are strong ones - the largest horses in the world are bred here, because no wild horse is born with two.", "changes_coat": false }
   ],
   "genotypes": [
     { "alleles": ["n", "n"], "phenotype": "wild" },

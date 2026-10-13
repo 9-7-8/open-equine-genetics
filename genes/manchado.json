@@ -9,8 +9,8 @@
   "inheritance": "autosomal",
   "affects_coat": true,
   "alleles": [
-    { "id": "ma", "name": "Manchado (ma)", "wild_type": false },
-    { "id": "Ma", "name": "Wild-type (Ma)", "wild_type": true }
+    { "id": "ma", "name": "Manchado", "wild_type": false },
+    { "id": "Ma", "name": "Wild-type", "wild_type": true }
   ],
   "phenotypes": [
     { "id": "wild", "name": "Wild type", "description": "Two ordinary copies. Nothing shows and nothing is passed on.", "changes_coat": false },

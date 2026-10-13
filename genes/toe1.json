@@ -5,12 +5,12 @@
   "name": "TOE1 (cerebellar abiotrophy)",
   "symbol": "TOE1",
   "evidence": "published",
-  "summary": "TOE1, cerebellar abiotrophy - a recessive disorder of balance. The horse survives but has no idea where its feet are, which makes it the heaviest jump penalty in the mod. Progressive in reality; a flat cost here, because there is no age model.",
+  "summary": "TOE1, cerebellar abiotrophy - a recessive disorder of balance. The horse survives but has no idea where its feet are and cannot judge a jump. The condition is progressive.",
   "inheritance": "autosomal",
   "affects_coat": false,
   "alleles": [
-    { "id": "ca", "name": "Cerebellar abiotrophy (ca)", "wild_type": false },
-    { "id": "N", "name": "Wild-type (N)", "wild_type": true }
+    { "id": "ca", "name": "Cerebellar abiotrophy", "wild_type": false },
+    { "id": "N", "name": "Wild-type", "wild_type": true }
   ],
   "phenotypes": [
     { "id": "wild", "name": "Wild type", "description": "Two working copies. Nothing is wrong and nothing is passed on.", "changes_coat": false },

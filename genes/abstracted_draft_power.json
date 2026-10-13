@@ -9,9 +9,9 @@
   "inheritance": "autosomal",
   "affects_coat": false,
   "alleles": [
-    { "id": "Strong", "name": "Strength (Strong)", "wild_type": false },
-    { "id": "Weak", "name": "Weakness (Weak)", "wild_type": false },
-    { "id": "n", "name": "Wild-type (n)", "wild_type": true }
+    { "id": "Strong", "name": "Strength", "wild_type": false },
+    { "id": "Weak", "name": "Weakness", "wild_type": false },
+    { "id": "n", "name": "Wild-type", "wild_type": true }
   ],
   "phenotypes": [
     { "id": "wild", "name": "Wild type", "description": "Ordinary pulling ability - a score of five, which is what a horse carrying nothing at this locus is worth and what most riding breeds sit on.", "changes_coat": false },

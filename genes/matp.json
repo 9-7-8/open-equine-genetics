@@ -9,11 +9,11 @@
   "inheritance": "autosomal",
   "affects_coat": true,
   "alleles": [
-    { "id": "Cr", "name": "Cream (Cr)", "wild_type": false },
-    { "id": "prl", "name": "Pearl (prl)", "wild_type": false },
-    { "id": "sun", "name": "Sunshine (sun)", "wild_type": false },
-    { "id": "sno", "name": "Snowdrop (sno)", "wild_type": false },
-    { "id": "N", "name": "Wild-type (N)", "wild_type": true }
+    { "id": "Cr", "name": "Cream", "wild_type": false },
+    { "id": "prl", "name": "Pearl", "wild_type": false },
+    { "id": "sun", "name": "Sunshine", "wild_type": false },
+    { "id": "sno", "name": "Snowdrop", "wild_type": false },
+    { "id": "N", "name": "Wild-type", "wild_type": true }
   ],
   "phenotypes": [
     { "id": "wild", "name": "Wild type", "description": "No dilution.", "changes_coat": false },

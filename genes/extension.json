@@ -9,8 +9,8 @@
   "inheritance": "autosomal",
   "affects_coat": true,
   "alleles": [
-    { "id": "E", "name": "Extension (E)", "wild_type": true },
-    { "id": "e", "name": "Non-extension / red (e)", "wild_type": false }
+    { "id": "E", "name": "Extension", "wild_type": true },
+    { "id": "e", "name": "Non-extension / red", "wild_type": false }
   ],
   "phenotypes": [
     { "id": "wild", "name": "Wild type", "description": "Black pigment is produced normally. Whether it is visible is agouti's business.", "changes_coat": false },

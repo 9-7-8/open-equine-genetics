@@ -5,17 +5,17 @@
   "name": "Fertility",
   "symbol": null,
   "evidence": "abstracted",
-  "summary": "How readily a horse breeds. Two copies of sf make every breeding half as likely to take - the only thing that can make plain golden carrots fail. tw makes a pregnancy more likely to be twins, and each copy carries a number that nudges a mare's odds of conceiving.",
+  "summary": "How readily a horse breeds. Two copies of sf make every breeding half as likely to take. tw makes a pregnancy more likely to be twins.",
   "inheritance": "autosomal",
   "affects_coat": false,
   "alleles": [
-    { "id": "tw", "name": "Twinning (tw)", "wild_type": false },
-    { "id": "n", "name": "Ordinary fertility (n)", "wild_type": true },
-    { "id": "sf", "name": "Subfertile (sf)", "wild_type": false }
+    { "id": "tw", "name": "Twinning", "wild_type": false },
+    { "id": "n", "name": "Ordinary fertility", "wild_type": true },
+    { "id": "sf", "name": "Subfertile", "wild_type": false }
   ],
   "phenotypes": [
     { "id": "wild", "name": "Wild type", "description": "Ordinary fertility. A mare conceives at the usual odds and nearly always carries one foal.", "changes_coat": false },
-    { "id": "subfertile", "name": "Subfertile", "description": "Two copies of sf. Every breeding is half as likely to take - even plain golden carrots sometimes come to nothing. One copy is silent.", "changes_coat": false },
+    { "id": "subfertile", "name": "Subfertile", "description": "Two copies of sf. Every breeding is half as likely to take. One copy is silent.", "changes_coat": false },
     { "id": "twin-prone", "name": "Twin-prone", "description": "One copy of tw. A pregnancy is twins about one time in ten instead of one in fifty.", "changes_coat": false },
     { "id": "twinning", "name": "Strongly twin-prone", "description": "Two copies of tw. A pregnancy is twins about one time in four.", "changes_coat": false }
   ],

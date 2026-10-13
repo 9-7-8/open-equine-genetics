@@ -9,8 +9,8 @@
   "inheritance": "autosomal",
   "affects_coat": false,
   "alleles": [
-    { "id": "sa", "name": "Skeletal atavism (sa)", "wild_type": false },
-    { "id": "N", "name": "Wild-type (N)", "wild_type": true }
+    { "id": "sa", "name": "Skeletal atavism", "wild_type": false },
+    { "id": "N", "name": "Wild-type", "wild_type": true }
   ],
   "phenotypes": [
     { "id": "wild", "name": "Wild type", "description": "Two working copies. Nothing is wrong and nothing is passed on.", "changes_coat": false },

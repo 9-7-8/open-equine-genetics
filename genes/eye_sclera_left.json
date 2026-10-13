@@ -9,10 +9,10 @@
   "inheritance": "autosomal",
   "affects_coat": true,
   "alleles": [
-    { "id": "Wht", "name": "White (Wht)", "wild_type": true },
-    { "id": "Blk", "name": "Black (Blk)", "wild_type": false },
-    { "id": "Inv", "name": "Invisible (Inv)", "wild_type": false },
-    { "id": "Cha", "name": "Chaos (Cha)", "wild_type": false }
+    { "id": "Wht", "name": "White", "wild_type": true },
+    { "id": "Blk", "name": "Black", "wild_type": false },
+    { "id": "Inv", "name": "Invisible", "wild_type": false },
+    { "id": "Cha", "name": "Chaos", "wild_type": false }
   ],
   "phenotypes": [
     { "id": "wild", "name": "Wild type", "description": "The ordinary white of the eye.", "changes_coat": false },

@@ -9,9 +9,9 @@
   "inheritance": "autosomal",
   "affects_coat": true,
   "alleles": [
-    { "id": "Pa2", "name": "Pangare, strong (Pa2)", "wild_type": false },
-    { "id": "Pa1", "name": "Pangare, mild (Pa1)", "wild_type": false },
-    { "id": "pa", "name": "Wild-type (pa)", "wild_type": true }
+    { "id": "Pa2", "name": "Pangare, strong", "wild_type": false },
+    { "id": "Pa1", "name": "Pangare, mild", "wild_type": false },
+    { "id": "pa", "name": "Wild-type", "wild_type": true }
   ],
   "phenotypes": [
     { "id": "wild", "name": "Wild type", "description": "No mealy lightening - the underside is the same colour as the rest of the horse.", "changes_coat": false },

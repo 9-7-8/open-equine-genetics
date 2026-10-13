@@ -9,17 +9,17 @@
   "inheritance": "autosomal",
   "affects_coat": true,
   "alleles": [
-    { "id": "WT", "name": "Wild type (WT)", "wild_type": true },
-    { "id": "UL", "name": "Upper left (UL)", "wild_type": false },
-    { "id": "Top", "name": "Top (Top)", "wild_type": false },
-    { "id": "UR", "name": "Upper right (UR)", "wild_type": false },
-    { "id": "Rt", "name": "Right (Rt)", "wild_type": false },
-    { "id": "LR", "name": "Lower right (LR)", "wild_type": false },
-    { "id": "Bot", "name": "Bottom (Bot)", "wild_type": false },
-    { "id": "LL", "name": "Lower left (LL)", "wild_type": false },
-    { "id": "Lf", "name": "Left (Lf)", "wild_type": false },
-    { "id": "URLL", "name": "Upper right + lower left (URLL)", "wild_type": false },
-    { "id": "ULLR", "name": "Upper left + lower right (ULLR)", "wild_type": false }
+    { "id": "WT", "name": "Wild type", "wild_type": true },
+    { "id": "UL", "name": "Upper left", "wild_type": false },
+    { "id": "Top", "name": "Top", "wild_type": false },
+    { "id": "UR", "name": "Upper right", "wild_type": false },
+    { "id": "Rt", "name": "Right", "wild_type": false },
+    { "id": "LR", "name": "Lower right", "wild_type": false },
+    { "id": "Bot", "name": "Bottom", "wild_type": false },
+    { "id": "LL", "name": "Lower left", "wild_type": false },
+    { "id": "Lf", "name": "Left", "wild_type": false },
+    { "id": "URLL", "name": "Upper right + lower left", "wild_type": false },
+    { "id": "ULLR", "name": "Upper left + lower right", "wild_type": false }
   ],
   "phenotypes": [
     { "id": "wild", "name": "Wild type", "description": "One colour, the whole iris.", "changes_coat": false },

@@ -5,12 +5,12 @@
   "name": "CVM (cervical malformation)",
   "symbol": null,
   "evidence": "abstracted",
-  "summary": "CVM, cervical vertebral malformation - a recessive lethal at birth. Unlike every other natural gene here it has no confirmed causal variant; treating it as one locus is the mod's simplification, not a claim about horse genetics.",
+  "summary": "CVM, cervical vertebral malformation - a recessive lethal at birth. It has no confirmed causal variant; treating it as one locus is a simplification made in this data, not a claim about horse genetics.",
   "inheritance": "autosomal",
   "affects_coat": false,
   "alleles": [
-    { "id": "cvm", "name": "Cervical malformation (cvm)", "wild_type": false },
-    { "id": "N", "name": "Wild-type (N)", "wild_type": true }
+    { "id": "cvm", "name": "Cervical malformation", "wild_type": false },
+    { "id": "N", "name": "Wild-type", "wild_type": true }
   ],
   "phenotypes": [
     { "id": "wild", "name": "Wild type", "description": "Two working copies. Nothing is wrong and nothing is passed on.", "changes_coat": false },

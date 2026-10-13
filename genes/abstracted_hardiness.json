@@ -9,17 +9,17 @@
   "inheritance": "autosomal",
   "affects_coat": false,
   "alleles": [
-    { "id": "Hardy", "name": "Hardiness (Hardy)", "wild_type": false },
-    { "id": "Frail", "name": "Frailty (Frail)", "wild_type": false },
-    { "id": "n", "name": "Wild-type (n)", "wild_type": true }
+    { "id": "Hardy", "name": "Hardiness", "wild_type": false },
+    { "id": "Frail", "name": "Frailty", "wild_type": false },
+    { "id": "n", "name": "Wild-type", "wild_type": true }
   ],
   "phenotypes": [
     { "id": "wild", "name": "Wild type", "description": "Ordinary constitution for whatever the horse's own genes say - which, since most horses carry a copy of this one, is itself slightly unusual.", "changes_coat": false },
-    { "id": "less", "name": "Frailer", "description": "One frail copy. The same thing in reverse: fewer hearts by the percentage on that copy, usually around a tenth, and inherited with the allele.", "changes_coat": false },
+    { "id": "less", "name": "Frailer", "description": "One frail copy. The same thing in reverse: less hardy by the percentage on that copy, usually around a tenth, and inherited with the allele.", "changes_coat": false },
     { "id": "double-less", "name": "Much frailer", "description": "Two frail copies, and the percentages subtract together. Around a fifth under on average and a great deal less at the extreme - though never all the way to nothing.", "changes_coat": false },
-    { "id": "more", "name": "Hardier", "description": "One hardy copy. More hearts than the horse's own genes would give it, by the percentage written on that copy - usually around a tenth. It passes that exact percentage on with the allele.", "changes_coat": false },
-    { "id": "balanced", "name": "Balanced", "description": "One hardy copy and one frail copy. Their percentages very nearly cancel, so the horse keeps close to its ordinary number of hearts while carrying, and passing on, both extremes.", "changes_coat": false },
-    { "id": "double-more", "name": "Much hardier", "description": "Two hardy copies, and the percentages add. Around a fifth over on average, and far more when both copies rolled well - the toughest horses in the world are bred here, because no wild horse is born with two.", "changes_coat": false }
+    { "id": "more", "name": "Hardier", "description": "One hardy copy. Hardier than the horse's own genes would make it, by the percentage written on that copy - usually around a tenth. It passes that exact percentage on with the allele.", "changes_coat": false },
+    { "id": "balanced", "name": "Balanced", "description": "One hardy copy and one frail copy. Their percentages very nearly cancel, so the horse keeps close to its ordinary hardiness while carrying, and passing on, both extremes.", "changes_coat": false },
+    { "id": "double-more", "name": "Much hardier", "description": "Two hardy copies, and the percentages add. Around a fifth over on average, and far more when both copies are strong ones - the toughest horses in the world are bred here, because no wild horse is born with two.", "changes_coat": false }
   ],
   "genotypes": [
     { "alleles": ["n", "n"], "phenotype": "wild" },
