@@ -37,9 +37,10 @@ WHAT IS NOT HERE YET
 --------------------
 Read knowledge/known-issues.txt before trusting anything. In short:
 - This began as an export of what the mod models. Since 2026-10-12 the owner's research
-  has been applied locus by locus (43 loci so far; knowledge/known-issues.txt lists
-  them and the ones still to do). The rest is still the mod's export: unaudited, with
-  estimated frequencies and descriptions written for a game.
+  has been applied locus by locus: all 42 published loci and one abstracted one
+  (knowledge/known-issues.txt lists them, what each left open, and the research
+  questions still to be asked). The 25 other abstracted loci are still the mod's
+  export, and most frequency tables are still the mod's estimates.
 - Nothing has been checked against a source by a maintainer. Every allele of a published
   locus is marked "unverified" and every citation "verified": false.
 - No breeds. They are planned (the mod has about 120 real breeds as JSON already).

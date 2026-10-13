@@ -1,7 +1,8 @@
 KNOWN ISSUES IN THE DATA
 ========================
 Rewritten 2026-10-12, when the owner's research began to be applied. Remove a line
-here when it is fixed, and say so in the session log.
+here when it is fixed, and say so in the session log. The questions that still need
+research are listed at the end, under OPEN RESEARCH QUESTIONS.
 
 WHERE THE DATA STANDS
 - genes/ began as an export of what a game models (knowledge/how-this-was-exported/, mod
@@ -145,7 +146,8 @@ THE OTHER LOCI
   confirmed tiger_eye (SLC24A5), mushroom (MFSD12), patn1 (RFWD3), brindle (MBTPS2) and
   tobiano as a KIT-region locus. The rest are unchecked.
 - Published loci with no research from the owner yet:
-NOT YET RESEARCHED: none. Every published locus has had research from the owner.
+NOT YET RESEARCHED: .
+- That list is empty: every published locus has had research from the owner.
 - Two answers (rapgef5, toe1) first looked for a coat-colour gene and missed the disorder
   the locus records; asking again about the disorder by name settled both. A locus whose
   name is a gene symbol should be asked about by its disorder.
@@ -203,3 +205,108 @@ THE PUBLISHED REPOSITORY
   TODO.txt was public until 2026-10-12 and is still in the commit history.
 - No CONTRIBUTING file and no automatic run of the validator on a push.
 - Local file paths are in the first four commits' history. The owner said that is fine.
+
+OPEN RESEARCH QUESTIONS
+=======================
+Written 2026-10-12, when every published locus had had one research answer. These need
+RESEARCH, not a decision from the owner. Each is phrased to be asked as it stands. Delete
+a question when its answer has been taken in. Two lessons from this round: ask about a
+disorder by its name, not only the gene symbol (rapgef5, toe1), and ask for the address
+of every source.
+
+CHROMOSOMES AND COORDINATES NOT YET GIVEN
+ 1. Which horse chromosome is each of these genes on, and what are the coordinates of its
+    tested variant: B4GALT7, EDNRB, MC1R (the e and ea alleles), GBE1, GYS1, HMGA2, MSTN,
+    MYO5A, PLOD1, PPIB, SCN4A, ST14?
+ 2. Is PMEL (silver) on chromosome 6? The only source so far is a commercial laboratory.
+ 3. What is the nd1 variant of dun (TBX3): its position and base change?
+ 4. What are the coordinates or c. name of the five base-pair PRKDC deletion (SCID)?
+ 5. Is the fifth ACAN dwarfism variant (D5) real, and what is its verified coordinate? Is
+    there a UC Davis page for the ACAN dwarfism test?
+ 6. Is the tobiano inversion about 43 Mb, and where are its breakpoints?
+
+FREQUENCIES NOT YET PUBLISHED IN THE DATA (the table is still the mod's estimate)
+ 7. What allele or carrier frequencies, by breed, are published for the coat loci: dun
+    (D, nd1, nd2), extension (e and ea), agouti (a), cream and pearl, champagne, silver,
+    roan, tobiano, leopard complex (LP), PATN1, mushroom (Shetland, Miniature), tiger eye
+    (Puerto Rican Paso Fino)?
+ 8. What allele frequencies, by breed, are published for the KIT variants (SB1, W5, W10,
+    W13, W20, W22, W32, W34, W35) and the MITF splash alleles (SW1, SW3, SW5 to SW8)?
+ 9. What carrier frequencies, by breed, are published for the disease loci: PSSM1 (GYS1),
+    HYPP (SCN4A), frame overo (EDNRB), SCID in Arabians (PRKDC) today, skeletal atavism
+    in Shetlands (SHOX Del1, Del2), the MET lethal in Friesians, JEB (LAMA3, LAMC2),
+    ACAN dwarfism?
+10. What allele frequencies, by breed, are published for LCORL, HMGA2, MSTN, PDK4 and the
+    CKM variant?
+11. Is there any published frequency for brindle (MBTPS2)? The data has none.
+12. Lavender foal (MYO5A): are 10.3% and 1.6% (or 1.8%) the allele frequency or the
+    carrier share in Egyptian and other Arabians? The two readings differ by two.
+13. GBED (GBE1): which 2006 study gave 4.1% (Quarter Horse) and 3.6% (Paint), what are
+    its carrier percentages, and what is its address?
+14. HERDA (PPIB): which studies give 3.5% (United States), 1.6% (France) and about 28%
+    (cutting lines), and what share of horses is affected (HR/HR)?
+15. EFIH (RAPGEF5): is the Thoroughbred allele frequency 1.8% or about 0.8%, and what is
+    the source of "1.4-1.6% carriers"?
+16. Fragile foal (PLOD1): in Knabstrupper (3 of 46), Haflinger (2 of 48) and American
+    Sport Pony (1 of 12), are those carriers? What are the figures for each Warmblood
+    breed?
+17. Naked foal (ST14): were the 191 Akhal-Tekes (26 carriers) a random sample? Is there a
+    breed-wide carrier figure?
+18. Friesian dwarfism (B4GALT7): how was the 12% carrier figure sampled, and what is it
+    now?
+19. Cerebellar abiotrophy (TOE1): what share of Arabians is affected (CA/CA), beside the
+    20% carriers?
+20. Sunshine (SLC45A2 c.568G>A): what is its exact allele frequency in each breed, and
+    with them the frequencies of cream and pearl?
+
+ALLELES AND VARIANTS
+21. Is there a published PAX3 allele called SW10, or any splash-white allele beyond SW8?
+22. KIT W17a and W17b: are they two alternative alleles, or two changes on one
+    chromosome of one horse family?
+23. Which of W1 to W4 is the Camarillo White variant?
+24. Has W22 ever been found without W20 on the same chromosome, or W37 without W35?
+25. How many KIT white variants are named? One answer counted 36 for W1-W35 with SB1,
+    the next 36 for W1-W39 with SB1.
+26. Is there evidence, beyond none being seen, that any W homozygote dies as an embryo?
+27. What do horses with two copies of W15, W19, W20, W32, W34 or W35 look like?
+28. Snowdrop (SLC45A2 c.305G>A): has it been confirmed in more horses? What do Cr/sno
+    and Prl/sno look like?
+29. Does the sunshine variant reduce pigment at all, alone or beside cream?
+30. Extension: does a flaxen mane show on a horse that is chestnut through ea? Are E/E
+    bays darker than E/e bays?
+31. What causes seal brown, and is "At" an allele? What is the bay-shade modifier near
+    ASIP and RALY on chromosome 22?
+32. Roan: what is the causal variant, and are RN/RN horses viable?
+33. Leopard complex: is there a second pattern modifier besides PATN1?
+34. PDK4 and CKM: which allele of each is ancestral?
+35. Malignant hyperthermia (RYR1): was it first described in 2004 or 2009?
+36. Grey: how fast does a G2/G3 horse grey, and what is its melanoma risk?
+37. Silver: does a chestnut that carries silver have the same eye disease (MCOA) risk?
+38. DMRT3: what do the further exon 2 variants reported in 2026 do? Which loci decide
+    trot versus pace in Standardbreds?
+39. Is there a known genetic basis for flaxen, sooty, pangare, ordinary white markings,
+    eye colour apart from tiger eye, and twinning? The data models these as abstractions.
+40. EDNRB (frame overo, lethal white) and HMGA2: a full locus overview of each. Both had
+    one correction and no research answer of their own.
+
+WHAT TWO COPIES, OR AN UNUSUAL PAIR, DO
+41. Dun: how often do nd1/nd1 and nd1/nd2 horses show primitive markings?
+42. Mushroom: does every Mu/Mu bay show it? How is it related to flaxen?
+43. Tiger eye: what does TE2/TE2 look like without cream?
+44. MITF: has any horse with two copies of SW3, SW5, SW6, SW7 or SW8, or with two
+    different MITF variants, been found? PAX3: any SW4/SW4 or SW2/SW4 horse?
+45. Splash white: which genotypes are confirmed deaf, and how often?
+46. ACAN: is D1/D1 lethal at birth, and do the other dwarf pairs survive?
+47. GBED: are G/G foals lost before birth more often than born? PLOD1: are FFS/FFS
+    pregnancies lost early?
+48. Skeletal atavism: what becomes of affected foals, and at what age?
+49. Naked foal: why do affected foals die, and at what age typically?
+50. MET (Friesian): is there direct evidence of embryo loss, beyond lower insemination
+    success?
+51. Cerebellar abiotrophy: does the variant act through TOE1, MUTYH or both?
+52. SCID: are carriers more prone to sarcoids?
+53. SHOX: are carriers of Del1 or Del2 shorter?
+
+SOURCES NOT SUPPLIED
+54. What are the addresses of the numbered sources in the answers for B4GALT7, PRKDC,
+    ST14, PLOD1 and the first MATP answer? They were cited by number or by name only.

@@ -89,6 +89,15 @@ THE AUDIT
 - Commit now, often, and in small batches. Pushing is still asked for each time.
 - A frequency nobody has published is left out, never invented: a locus may have no
   frequency table.
+- Where the research lists two variants and the data has one allele, the two are added as
+  new alleles and the old id is kept and marked invalid (2026-10-12: kit W17 became W17a
+  and W17b; shox sa became Del1 and Del2).
+- An allele the research does not mention, or calls disputed, is kept as "unconfirmed" or
+  "disputed" with quality "unverified" and no outcome; it is not marked invalid
+  (2026-10-12: kit W37-W39, since confirmed by a second answer; matp sunshine). pax3
+  SW10 was treated the same way by the session, without asking.
+- The severity of skeletal atavism (shox) is "impairing" (2026-10-12): a severity claims
+  only what the research states.
 
 MADE BY THE EXPORTING SESSION, NOT ASKED (change freely, tell the owner)
 - The file layout and every field name in knowledge/format.txt.
