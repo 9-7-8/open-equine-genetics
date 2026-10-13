@@ -13,7 +13,7 @@
     { "locus": "brindle", "mod_key": "horsegenetics.brindle", "mod_allele_order": ["Brn", "n", "Y"] },
     { "locus": "sooty", "mod_key": "horsegenetics.sooty", "mod_allele_order": ["S2", "S1", "s"] },
     { "locus": "pangare", "mod_key": "horsegenetics.pangare", "mod_allele_order": ["Pa2", "Pa1", "pa"] },
-    { "locus": "matp", "mod_key": "horsegenetics.matp", "mod_allele_order": ["Cr", "prl", "sun", "sno", "N"] },
+    { "locus": "matp", "mod_key": "horsegenetics.matp", "mod_allele_order": ["Cr", "prl", "sun", "sno", "N"], "mod_outcome_unsupported": [["sun", "N"], ["sun", "sno"], ["sun", "sun"], ["prl", "sno"], ["prl", "sun"], ["Cr", "sno"], ["Cr", "sun"]] },
     { "locus": "champagne", "mod_key": "horsegenetics.champagne", "mod_allele_order": ["Ch", "c"] },
     { "locus": "grey", "mod_key": "horsegenetics.grey", "mod_allele_order": ["G3", "G2", "N"] },
     { "locus": "tiger_eye", "mod_key": "horsegenetics.tiger_eye", "mod_allele_order": ["TE1", "TE2", "N"] },

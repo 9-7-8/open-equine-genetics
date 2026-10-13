@@ -8,7 +8,7 @@ WHERE THE DATA STANDS
   commit 93af89d9 plus one docs commit). On 2026-10-12 the owner supplied research
   documents and audit answers, and the loci below were changed to follow them. The three
   lists in this file are each kept on one long line, sorted, so they are easy to edit.
-RESEARCHED: abstracted_jump_strength, acan, agouti, b4galt7, brindle, champagne, ckm, dmrt3, dun, ednrb, gbe1, grey, hmga2, kit, lama3, lamc2, lcorl, leopard, mitf, mstn, patn1, pdk4, roan, ryr1, scn4a, silver, slc5a3.
+RESEARCHED: abstracted_jump_strength, acan, agouti, b4galt7, brindle, champagne, ckm, dmrt3, dun, ednrb, gbe1, grey, hmga2, kit, lama3, lamc2, lcorl, leopard, matp, mitf, mstn, patn1, pdk4, roan, ryr1, scn4a, silver, slc5a3.
 - NO SESSION OPENED A SOURCE. Every fact changed that day rests on the owner's documents,
   and every citation added is an address those documents gave. Some addresses were built
   from a DOI or a PubMed number the documents gave. None has been opened.
@@ -43,6 +43,7 @@ done (2026-10-12); nothing is owed to it before then. The mod still has:
 - dun: d2 as the wild type, red pigment left undiluted (a red dun nearly chestnut), a certain dorsal stripe on every d1 horse, and "two dominance orders".
 - gbe1 at one carrier rate for every horse, where the allele is confined to Quarter Horse lines;
 - kit: 30 homozygotes as certainly nonviable and W4/W4 as a living white horse; an outcome for every pair of two different variants; W1, W3, W7, W13, W16, W23, W25, W27, W30 as mostly white, not all white; a speckled pattern for W8, W18, W21; W4 as Camarillo white.
+- matp: sunshine as a rare recessive dilution that looks like champagne; cream beside sunshine or snowdrop, and pearl beside snowdrop, as a double dilute; pearl beside sunshine as pearl; two pearl copies leaving red barely touched; one phenotype for Cr/Cr and Cr/prl.
 mod-map.json records the structural part: "not_in_mod" (alleles) and
 "mod_outcome_unsupported" (pairs marked undocumented here on purpose).
 
@@ -100,13 +101,16 @@ STILL WRONG OR UNPROVEN IN THE RESEARCHED LOCI
 - kit: W17 was split into W17a and W17b (owner, 2026-10-12), which the research lists as two missense variants. They are new alleles the mod lacks (mod-map.json, "not_in_mod"). The old W17 id is kept and marked "invalid"; its 41 pairs have the outcome "invalid-allele". The research does not say whether W17a and W17b are alternatives or sit together on one chromosome; they are treated as alternatives, and W17a/W17b is undocumented.
 - kit: the research says a horse can carry several variants on one chromosome (W20 with W22, W19 with W34 and W35, W32 with W35, SB1 with W32), and that W22 has only been found with W20. The format has two alleles per locus and cannot say this; W22/N is in the data as if it could occur. The research also suggests SB1 as a locus of its own.
 - kit: the mod named W4 "Camarillo white". The research ties Camarillo White lines to W1-W4 without saying which, so the name was dropped. The frequency table is still the mod's; no figure was given. tobiano was given what this research says about it (chromosome 3, the inversion, viable homozygotes, cryptic tobiano) but has had no research of its own.
+- matp: sunshine (sun) is kept as a disputed candidate, quality "unverified", not "invalid" (owner, 2026-10-12). Its five pairs have the undocumented outcome "sunshine-disputed". The research says the variant is at allele frequencies above 0.86 in Arabians, Belgians, Morgans, Thoroughbreds and Quarter Horses; no table was made, because the figure is a lower bound and the other alleles' shares were not given. The mod's "general population" table still has sunshine as very rare, which the research contradicts.
+- matp: snowdrop (sno) is a published candidate known from very few horses; UC Davis does not test for it. sno/sno and the silent carrier are given outcomes on that report alone. Cr/sno and prl/sno are "compound-undocumented".
+- matp: the names palomino, buckskin, cremello and the rest depend on extension and agouti; the file says so in words and has no interactions table. The first of the three research answers marks its sources by number only, with no addresses; the citations added are the addresses in the other two. The wild type is written N here; the research also gives n and C.
 
 THE OTHER LOCI
 - "symbol" was filled from the exporting session's own knowledge. The research has since
   confirmed tiger_eye (SLC24A5), mushroom (MFSD12), patn1 (RFWD3), brindle (MBTPS2) and
   tobiano as a KIT-region locus. The rest are unchecked.
 - Published loci with no research from the owner yet:
-NOT YET RESEARCHED: extension, gys1, matp, met, mushroom, myo5a, pax3, plod1, ppib, prkdc, rapgef5, shox, st14, tiger_eye, tobiano, toe1.
+NOT YET RESEARCHED: extension, gys1, met, mushroom, myo5a, pax3, plod1, ppib, prkdc, rapgef5, shox, st14, tiger_eye, tobiano, toe1.
 - Game wording: the plain cases were reworded on 2026-10-12 by word search. Subtler
   cases remain: what "wild horses" or founders carry (eye_colour_left,
   eye_colour_right, manchado, pax3, plod1, rapgef5) and "no wild horse is born with
@@ -114,8 +118,8 @@ NOT YET RESEARCHED: extension, gys1, matp, met, mushroom, myo5a, pax3, plod1, pp
 - The five abstracted body loci describe "the percentage written on that copy". In the
   mod each allele copy carries its own inherited strength; that idea is not in this
   format. Owner's decision.
-- Collapsed loci: kit (the W series and sabino 1 as one locus) and matp are in the
-  mod's shape. Real alleles are missing, e.g. "ea" at extension.
+- Collapsed loci: kit (the W series and sabino 1 as one locus) is in the mod's shape.
+  Real alleles are missing, e.g. "ea" at extension.
 - Dosage loci (shade, flaxen, sooty, pangare, markings) are the mod's model.
 - Lethal pairs: met and pax3 list theirs as nonviable; check each against a source.
   The research says no horse with two copies of SW4 (pax3) has been detected either.
@@ -133,7 +137,7 @@ CITATIONS
 
 SCIENCE NOTES
 - These notes are the owner's research documents with the mod's wiki text kept underneath:
-NOTES FROM RESEARCH: abstracted_jump_strength, agouti, b4galt7, brindle, champagne, ckm, dmrt3, dun, gbe1, grey, kit, lama3, lamc2, lcorl, leopard, mitf, patn1, pdk4, roan, ryr1, silver, slc5a3.
+NOTES FROM RESEARCH: abstracted_jump_strength, agouti, b4galt7, brindle, champagne, ckm, dmrt3, dun, gbe1, grey, kit, lama3, lamc2, lcorl, leopard, matp, mitf, patn1, pdk4, roan, ryr1, silver, slc5a3.
 - 19 notes (the first 14 of those filed, and acan, ednrb, hmga2, mstn, scn4a) open
   with LATEST FINDINGS, which carries the owner's later audit answers and
   overrides the older text beneath it. The older text was corrected in place only
