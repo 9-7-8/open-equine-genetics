@@ -33,7 +33,7 @@
     { "alleles": ["Del2", "Del2"], "phenotype": "skeletal-atavism", "conditions": ["skeletal-atavism"] }
   ],
   "conditions": [
-    { "id": "skeletal-atavism", "name": "Skeletal atavism", "description": "Two deletions, in any combination. The ulna and fibula grow on past the knee and hock, the upper leg bones are short, and the legs are short and crooked. Movement worsens, with marked lameness, pain and rotation of the hooves. The foal is born alive; its quality of life is described as nonviable or ethically untenable, and affected foals are usually put down shortly after birth.", "severity": "impairing" }
+    { "id": "skeletal-atavism", "name": "Skeletal atavism", "description": "Two deletions, in any combination. The ulna and fibula grow on past the knee and hock, the upper leg bones are short, and the legs are short and crooked. Movement worsens, with marked lameness, pain and rotation of the hooves. The foal is born alive; its quality of life is described as nonviable or ethically untenable, and affected foals are usually put down shortly after birth.", "severity": "lethal_at_birth" }
   ],
   "frequencies": [
     {
