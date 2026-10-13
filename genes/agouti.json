@@ -6,22 +6,32 @@
   "symbol": "ASIP",
   "chromosome": "22",
   "evidence": "published",
-  "summary": "Agouti (ASIP) decides where black pigment sits on a horse that can make it. One working copy, A, restricts black to the points - mane, tail, lower legs and ear rims - making a bay. The recessive a, an 11 base-pair deletion in exon 2 (c.191_201del) that leaves no working protein, lets black cover the whole body, making a black. It shows only on a horse with at least one E at extension: a chestnut (e/e) hides its agouti genotype and still passes it on, so two bays or two chestnuts can produce a black foal. UC Davis recognises these two alleles only. The proposed alleles At (seal brown) and A+ (wild bay) are widely used names that have not been validated as alleles, and are left out on purpose. How dark a bay is depends on a separate, unidentified modifier just upstream of ASIP, near RALY, and on extension: that is the abstracted shade locus, not agouti.",
+  "summary": "Agouti (ASIP) decides where black pigment sits on a horse that can make it. One working copy, A, restricts black to the points - mane, tail, lower legs and ear rims - making a bay. The recessive a, an 11 base-pair deletion in exon 2 (c.191_201del) that leaves no working protein, lets black cover the whole body, making a black. It shows only on a horse with at least one E at extension: a chestnut (e/e) hides its agouti genotype and still passes it on, so two bays or two chestnuts can produce a black foal. UC Davis recognises these two alleles only. The proposed alleles At (seal brown) and A+ (wild bay) are widely used names that have not been validated as alleles; they are listed here only to mark them invalid. How dark a bay is depends on a separate, unidentified modifier just upstream of ASIP, near RALY, and on extension: that is the abstracted shade locus, not agouti.",
   "inheritance": "autosomal",
   "affects_coat": true,
   "alleles": [
     { "id": "A", "name": "Agouti / bay", "wild_type": true, "quality": "unverified" },
-    { "id": "a", "name": "Non-agouti / recessive black (c.191_201del)", "wild_type": false, "quality": "unverified" }
+    { "id": "a", "name": "Non-agouti / recessive black (c.191_201del)", "wild_type": false, "quality": "unverified" },
+    { "id": "At", "name": "Seal brown, proposed (invalid: not a validated allele)", "wild_type": false, "quality": "invalid" },
+    { "id": "A+", "name": "Wild bay, proposed (invalid: not a validated allele)", "wild_type": false, "quality": "invalid" }
   ],
   "phenotypes": [
     { "id": "bay", "name": "Bay", "description": "Black pigment is restricted to the points - mane, tail, lower legs and ear rims - over a red body. One working copy is enough.", "changes_coat": true },
     { "id": "black", "name": "Black", "description": "No working copy, so black pigment is not restricted and covers the whole body.", "changes_coat": true },
-    { "id": "masked", "name": "Hidden on chestnut", "description": "The horse is e/e at extension and makes no black pigment for agouti to place, so it is chestnut whatever its agouti genotype. The genotype is carried unseen and passed on.", "changes_coat": false }
+    { "id": "masked", "name": "Hidden on chestnut", "description": "The horse is e/e at extension and makes no black pigment for agouti to place, so it is chestnut whatever its agouti genotype. The genotype is carried unseen and passed on.", "changes_coat": false },
+    { "id": "invalid-allele", "name": "Pair with an invalid allele", "documented": false, "description": "A pair that includes At or A+. Both names are in wide use - At for seal brown, A+ for wild bay - but neither has been validated as an allele of agouti; UC Davis recognises A and a only, and the shades they were proposed to explain may come from a separate modifier. They are kept, marked invalid, so that they are not added as real by mistake. No outcome can be given for them.", "changes_coat": true }
   ],
   "genotypes": [
     { "alleles": ["a", "a"], "phenotype": "black" },
     { "alleles": ["A", "a"], "phenotype": "bay" },
-    { "alleles": ["A", "A"], "phenotype": "bay" }
+    { "alleles": ["A", "A"], "phenotype": "bay" },
+    { "alleles": ["At", "A"], "phenotype": "invalid-allele" },
+    { "alleles": ["At", "a"], "phenotype": "invalid-allele" },
+    { "alleles": ["At", "At"], "phenotype": "invalid-allele" },
+    { "alleles": ["A+", "A"], "phenotype": "invalid-allele" },
+    { "alleles": ["A+", "a"], "phenotype": "invalid-allele" },
+    { "alleles": ["A+", "At"], "phenotype": "invalid-allele" },
+    { "alleles": ["A+", "A+"], "phenotype": "invalid-allele" }
   ],
   "interactions": {
     "depends_on": ["extension"],
@@ -35,7 +45,28 @@
       { "alleles": ["A", "a"], "with": { "extension": ["E", "E"] }, "phenotype": "bay" },
       { "alleles": ["A", "A"], "with": { "extension": ["e", "e"] }, "phenotype": "masked" },
       { "alleles": ["A", "A"], "with": { "extension": ["E", "e"] }, "phenotype": "bay" },
-      { "alleles": ["A", "A"], "with": { "extension": ["E", "E"] }, "phenotype": "bay" }
+      { "alleles": ["A", "A"], "with": { "extension": ["E", "E"] }, "phenotype": "bay" },
+      { "alleles": ["At", "A"], "with": { "extension": ["e", "e"] }, "phenotype": "invalid-allele" },
+      { "alleles": ["At", "A"], "with": { "extension": ["E", "e"] }, "phenotype": "invalid-allele" },
+      { "alleles": ["At", "A"], "with": { "extension": ["E", "E"] }, "phenotype": "invalid-allele" },
+      { "alleles": ["At", "a"], "with": { "extension": ["e", "e"] }, "phenotype": "invalid-allele" },
+      { "alleles": ["At", "a"], "with": { "extension": ["E", "e"] }, "phenotype": "invalid-allele" },
+      { "alleles": ["At", "a"], "with": { "extension": ["E", "E"] }, "phenotype": "invalid-allele" },
+      { "alleles": ["At", "At"], "with": { "extension": ["e", "e"] }, "phenotype": "invalid-allele" },
+      { "alleles": ["At", "At"], "with": { "extension": ["E", "e"] }, "phenotype": "invalid-allele" },
+      { "alleles": ["At", "At"], "with": { "extension": ["E", "E"] }, "phenotype": "invalid-allele" },
+      { "alleles": ["A+", "A"], "with": { "extension": ["e", "e"] }, "phenotype": "invalid-allele" },
+      { "alleles": ["A+", "A"], "with": { "extension": ["E", "e"] }, "phenotype": "invalid-allele" },
+      { "alleles": ["A+", "A"], "with": { "extension": ["E", "E"] }, "phenotype": "invalid-allele" },
+      { "alleles": ["A+", "a"], "with": { "extension": ["e", "e"] }, "phenotype": "invalid-allele" },
+      { "alleles": ["A+", "a"], "with": { "extension": ["E", "e"] }, "phenotype": "invalid-allele" },
+      { "alleles": ["A+", "a"], "with": { "extension": ["E", "E"] }, "phenotype": "invalid-allele" },
+      { "alleles": ["A+", "At"], "with": { "extension": ["e", "e"] }, "phenotype": "invalid-allele" },
+      { "alleles": ["A+", "At"], "with": { "extension": ["E", "e"] }, "phenotype": "invalid-allele" },
+      { "alleles": ["A+", "At"], "with": { "extension": ["E", "E"] }, "phenotype": "invalid-allele" },
+      { "alleles": ["A+", "A+"], "with": { "extension": ["e", "e"] }, "phenotype": "invalid-allele" },
+      { "alleles": ["A+", "A+"], "with": { "extension": ["E", "e"] }, "phenotype": "invalid-allele" },
+      { "alleles": ["A+", "A+"], "with": { "extension": ["E", "E"] }, "phenotype": "invalid-allele" }
     ]
   },
   "frequencies": [
