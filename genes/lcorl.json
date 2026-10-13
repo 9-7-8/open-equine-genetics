@@ -4,18 +4,19 @@
   "species": "horse",
   "name": "LCORL / NCAPG (height)",
   "symbol": "LCORL",
+  "chromosome": "3",
   "evidence": "published",
-  "summary": "LCORL / NCAPG, a height gene: each L copy makes the horse taller and adds a little speed and jump. Body scale changes the model and the hitbox together.",
+  "summary": "LCORL / NCAPG on chromosome 3, the best-established major locus for height at the withers and overall body size. Each L copy makes the horse taller than like-bred horses without it, roughly additively. The marker laboratories test (BIEC2-808543, near LCORL) is reported as T for the smaller allele and C for the taller, or as n and H1; L here is the taller allele. It shifts the expected height within a breed and does not set a height: a horse with no L copy is not thereby a pony. No direct effect on speed, muscle, jumping or any coat trait is established.",
   "inheritance": "autosomal",
   "affects_coat": false,
   "alleles": [
-    { "id": "L", "name": "Tall (L)", "wild_type": false },
-    { "id": "n", "name": "Wild-type (n)", "wild_type": true }
+    { "id": "L", "name": "Tall (C, H1)", "wild_type": false },
+    { "id": "n", "name": "Wild-type (T)", "wild_type": true }
   ],
   "phenotypes": [
-    { "id": "lcorl-tall", "name": "Tall", "description": "Two tall copies. A visibly larger horse, a longer stride and a higher jump.", "changes_coat": false },
-    { "id": "lcorl-mixed", "name": "Part tall", "description": "One tall copy. Half the height, half the stride - the alleles add.", "changes_coat": false },
-    { "id": "lcorl-plain", "name": "Wild type", "description": "No tall copy. Ordinary height.", "changes_coat": false }
+    { "id": "lcorl-tall", "name": "Tall", "description": "Two tall copies. The strongest tendency toward a taller, larger frame.", "changes_coat": false },
+    { "id": "lcorl-mixed", "name": "Part tall", "description": "One tall copy. Intermediate in height between the two homozygotes - the alleles roughly add.", "changes_coat": false },
+    { "id": "lcorl-plain", "name": "Wild type", "description": "No tall copy. Smaller or average height for the breed.", "changes_coat": false }
   ],
   "genotypes": [
     { "alleles": ["n", "n"], "phenotype": "lcorl-plain" },
@@ -33,5 +34,7 @@
       ]
     }
   ],
-  "citations": []
+  "citations": [
+    { "source": "paper", "label": "Metzger et al. 2013, expression levels of LCORL are associated with body size in horses (PLoS ONE)", "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0056497" }
+  ]
 }
