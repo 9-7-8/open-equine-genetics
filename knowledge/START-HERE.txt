@@ -36,8 +36,12 @@ GitHub does not have them and does not need them to use the data.
 WHAT IS NOT HERE YET
 --------------------
 Read knowledge/known-issues.txt before trusting anything. In short:
-- This is a first export of what the mod models. It has NOT been audited. Every frequency
-  is an estimate, and most descriptions were written for a game.
+- This began as an export of what the mod models. Since 2026-10-12 the owner's research
+  has been applied locus by locus (26 loci so far; knowledge/known-issues.txt lists
+  them and the ones still to do). The rest is still the mod's export: unaudited, with
+  estimated frequencies and descriptions written for a game.
+- Nothing has been checked against a source by a maintainer. Every allele of a published
+  locus is marked "unverified" and every citation "verified": false.
 - No breeds. They are planned (the mod has about 120 real breeds as JSON already).
 - No CONTRIBUTING file yet; the contributor clause the owner decided on
   (knowledge/decisions.txt) is not written. LICENSE is the unmodified GPL 3 text.
