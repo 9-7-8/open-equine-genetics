@@ -210,97 +210,148 @@ THE PUBLISHED REPOSITORY
 
 OPEN RESEARCH QUESTIONS
 =======================
-Rewritten 2026-10-12 after the owner's round-two answers (knowledge/science/round-2-answers.txt)
-to the 54 questions that stood here. What that answer settled is gone from this list. What
-is left it could not verify, answered about something else, or answered against her
-earlier research. These need RESEARCH, not a decision from the owner. Delete a question
-when its answer has been taken in. Lessons so far:
-- ask about a disorder by its name, not only the gene symbol (rapgef5, toe1);
-- ask for the address of every source;
-- name the variant and its alleles in the question: asked which PDK4 and CKM allele is
-  ancestral, the answer wrote about a "risk allele" neither has, and it read grey's G2 and
-  G3 as a grading scale;
-- one long list gets thin answers: nearly every frequency question came back as "needs a
-  breed survey". Ask a few at a time, by locus.
+Rewritten 2026-10-12 after the owner's round-two answers (knowledge/science/round-2-answers.txt);
+regrouped 2026-10-14 into blocks, one block per message to her research tool. These need
+RESEARCH, not a decision from the owner. Each block stands alone: the researcher needs
+nothing from this file but the PREFACE and the block. Delete a question when its answer
+has been taken in, and a block when it is empty.
 
-CHROMOSOMES AND COORDINATES
- 1. Which horse chromosome is each of these genes on: B4GALT7 (Friesian dwarfism), MYO5A
-    (lavender foal), PLOD1 (fragile foal), PPIB (HERDA), SCN4A (HYPP), ST14 (naked foal)?
-    Round two could not verify any of them.
- 2. What are the coordinates of the tested variant of each of those, and of MC1R e and ea
-    and the EDNRB p.Ile118Lys change?
- 3. What is the nd1 variant of dun (TBX3): its position and base change?
- 4. What are the coordinates or c. name of the five base-pair PRKDC deletion (SCID)?
- 5. MSTN g.66493737C>T: is that position on EquCab2 or EquCab3?
- 6. KIT W20: round two gives chr3:7948220T>C, which looks a digit short beside W22 at
-    chr3:79548925. What is the right position?
- 7. Tobiano: the inversion is given as about 43 Mb, and its breakpoints as chr3:42,737,476
-    and 79,471,993, which are about 36.7 Mb apart. Which is right, and on which assembly?
- 8. HMGA2: what is the tested height variant in Shetland ponies (name and position)?
- 9. Is there a UC Davis page for an ACAN dwarfism test, and which variants does it name?
+Why blocks: one long list of 54 questions got thin answers (nearly every frequency came
+back "needs a breed survey"), and questions asked without the variant named were read as
+something else (PDK4, CKM, grey). Each block below keeps one breed group or one kind of
+locus together, names every variant and allele, and says where two earlier answers
+disagree, so the researcher looks for the primary paper.
 
-FREQUENCIES (the table is still the mod's estimate; round two found no figures)
-10. What allele or carrier frequencies, by breed, are published for the coat loci: dun
-    (D, nd1, nd2), extension (e and ea), agouti (a), cream and pearl, champagne, silver,
-    roan, tobiano, leopard complex (LP), PATN1, mushroom (Shetland, Miniature), tiger eye
-    (Puerto Rican Paso Fino)? Round two gave breed names only.
-11. What allele frequencies, by breed, are published for the KIT variants (SB1, W5, W10,
-    W13, W20, W22, W32, W34, W35) and the MITF splash alleles (SW1, SW3, SW5 to SW8)?
-12. What carrier frequencies, by breed, are published for the disease loci: PSSM1 (GYS1),
-    HYPP (SCN4A), frame overo (EDNRB), SCID in Arabians (PRKDC) today, skeletal atavism
-    in Shetlands (SHOX Del1, Del2), the MET lethal in Friesians, JEB (LAMA3, LAMC2),
-    ACAN dwarfism (D1 to D4)?
-13. What allele frequencies, by breed, are published for LCORL (BIEC2-808543), HMGA2, MSTN
-    (g.66493737C>T), PDK4 (g.38973231A>G) and CKM (g.15884567G>A)?
-14. Lavender foal (MYO5A): in the study that mapped the variant, are 10.3% (Egyptian
-    Arabians) and 1.8% or 1.6% (other Arabians) allele frequencies or carrier shares?
-    What sample lies behind the other study's 0.08 allele frequency and 16% carriers?
-15. GBED (GBE1): which 2006 study gave allele frequencies of 4.1% (Quarter Horse) and
-    3.6% (Paint), and what is its address? Round two named "Ward et al." without one.
-16. HERDA (PPIB): which studies give 3.5% (United States), 1.6% (France) and about 28%
-    (cutting lines), and what share of horses is affected (HR/HR)?
-17. EFIH (RAPGEF5): which study gives a Thoroughbred allele frequency of 1.8% and which
-    0.8%, and what is the source of "1.4-1.6% carriers"?
-18. Fragile foal (PLOD1): what are the carrier figures for each Warmblood breed? Are the
-    Knabstrupper (3 of 46), Haflinger (2 of 48) and American Sport Pony (1 of 12) counts
-    carriers or cases, and from which study?
-19. Naked foal (ST14): is there a breed-wide carrier figure for the Akhal-Teke?
-20. Friesian dwarfism (B4GALT7): how was the 12% carrier figure sampled, and what is it
-    now?
-21. Cerebellar abiotrophy (TOE1): what share of Arabians is affected (CA/CA), beside the
-    20% carriers?
-22. Sunshine (SLC45A2 c.568G>A): what is its exact allele frequency in each breed, and
-    with them the frequencies of cream and pearl?
+PREFACE (paste above every block)
+---------------------------------
+  I maintain an open database of horse genetics. For each question below:
+  - give the address (URL or DOI) of every source you use;
+  - for any frequency, say whether it is an allele frequency or a share of carriers, and
+    which population, sample size and year it comes from;
+  - give every genomic position with its assembly (EquCab2 or EquCab3);
+  - where two earlier answers disagree, find the primary paper and say which is right;
+  - if you cannot find something, say so; do not estimate.
 
-ALLELES AND VARIANTS
-23. Splash white: which variants are the "SW9" and "SW10" that some European laboratories
-    (Genomia) list - gene, change, and the paper that describes each?
-24. KIT W17a and W17b: has any horse been found with both?
-25. KIT W22: has it been found without W20 on the same chromosome? The first answer says
-    never, round two says yes, and neither gives a source. And W37 without W35?
-26. Snowdrop (SLC45A2 c.305G>A): has it been confirmed in more horses? What do Cr/sno
-    and Prl/sno look like?
-27. PDK4 g.38973231A>G and CKM g.15884567G>A (racing candidates, not disease variants):
-    which allele of each is ancestral?
-28. Malignant hyperthermia (RYR1 c.7360C>G): which paper first reports it in horses,
-    Aleman et al. 2004 (Muscle and Nerve) or the 2009 paper (J Vet Intern Med)? The two
-    answers disagree.
-29. Grey (STX17 duplication; alleles G2 with two copies and G3 with three): how fast does
-    a horse with one G2 and one G3 grey, and what is its melanoma risk?
-30. Junctional epidermolysis bullosa: which gene carries the Belgian draft form and which
-    the American Saddlebred form? The first answers say LAMC2 and LAMA3; round two's
-    table has them the other way round.
-31. DMRT3: what do the further exon 2 variants reported in 2026 do? Which named loci
-    decide trot versus pace in Standardbreds?
+BLOCK A - CHROMOSOMES AND VARIANTS OF INHERITED DISORDERS
+---------------------------------------------------------
+A1. On which horse chromosome is each of these genes, and what is the position (with
+    assembly) of its tested variant?
+    - B4GALT7, Friesian dwarfism, c.50G>A (p.Arg17Lys)
+    - MYO5A, lavender foal syndrome, single-base deletion in exon 30 (c.4249del)
+    - PLOD1, fragile foal syndrome type 1, c.2032G>A (p.Gly678Arg)
+    - PPIB, HERDA, c.115G>A
+    - SCN4A, hyperkalaemic periodic paralysis (HYPP)
+    - ST14, naked foal syndrome, c.388G>T (p.Glu130*)
+A2. What are the position and c. name of the five base-pair PRKDC deletion that causes
+    SCID in Arabian horses?
+A3. What is the position (with assembly) of the EDNRB p.Ile118Lys frame overo variant on
+    chromosome 17?
 
-WHAT TWO COPIES DO
-32. Naked foal (ST14): at what age do affected foals die, and of what? The first answer
-    (from the paper that found the variant) says a few weeks to three years, cause
-    unresolved; round two says days to weeks, of skin-barrier failure and infection.
-33. ACAN: how long do D1/D1 foals live? Do the other dwarf pairs (D2, D3, D4 in any
-    combination, or with D1) survive to adulthood?
+BLOCK B - COAT COLOUR: BASE COLOURS, DILUTIONS AND GREY
+-------------------------------------------------------
+B1. MC1R (extension, chromosome 3): what are the positions and base changes of the red
+    allele e and the rarer ea?
+B2. TBX3 (dun, chromosome 8): what is the position and base change of the nd1 variant?
+    (nd2 is a 1,617 bp deletion.)
+B3. What allele frequencies are published, by breed, with the study for each, for:
+    - dun: D, nd1 and nd2;
+    - extension: e and ea;
+    - agouti: the recessive black allele a (ASIP c.191_201del);
+    - SLC45A2: cream (c.457G>A), pearl (c.985G>A) and sunshine (c.568G>A);
+    - champagne (SLC36A1 c.188C>G);
+    - silver (PMEL Arg618Cys);
+    - mushroom (MFSD12 c.600dupC) in Shetland Ponies and Miniature Horses;
+    - tiger eye (SLC24A5, TE1 and TE2) in the Puerto Rican Paso Fino.
+B4. Snowdrop (SLC45A2 c.305G>A): has it been confirmed in more horses than the first
+    report? What does a horse with one cream allele and snowdrop look like, and one with
+    pearl and snowdrop?
+B5. Grey (STX17): the G2 allele carries two copies of the 4.6 kb duplication and G3
+    carries three. How fast does a horse with one G2 and one G3 grey, and what is its
+    melanoma risk, compared with G2/N and G3/N?
 
-SOURCES NOT SUPPLIED
-34. What are the addresses of the numbered sources in the answers for B4GALT7, PRKDC,
-    ST14, PLOD1 and the first MATP answer? Round two could not reconstruct them; they
-    would have to be asked for in the conversations that gave those answers.
+BLOCK C - WHITE PATTERNS: KIT, TOBIANO AND SPLASH WHITE
+-------------------------------------------------------
+C1. KIT W20: one answer gives its position as chr3:7948220T>C, which looks a digit short
+    beside W22 at chr3:79548925. What is the correct position, and on which assembly?
+C2. KIT W22 (a 1,898 bp deletion): has it ever been found without W20 on the same
+    chromosome? One earlier answer says never; another says it can occur alone. Neither
+    gave a source.
+C3. KIT W37: has it been found without W35 on the same chromosome? KIT W17a and W17b: has
+    any horse been found with both?
+C4. Tobiano: the inversion near KIT is described as about 43 Mb, but its breakpoints are
+    given as chr3:42,737,476 and chr3:79,471,993, about 36.7 Mb apart. Which is right,
+    and on which assembly?
+C5. Splash white: some European laboratories (for example Genomia) list "SW9" and "SW10"
+    beside UC Davis's SW1 to SW8. What variant is each - gene, change and the paper that
+    describes it?
+C6. What allele frequencies are published, by breed, for KIT SB1, W5, W10, W13, W20, W22,
+    W32, W34 and W35, and for the MITF splash alleles SW1, SW3, SW5, SW6, SW7 and SW8?
+
+BLOCK D - BODY SIZE, PERFORMANCE AND GAIT
+-----------------------------------------
+D1. HMGA2: what is the variant that reduces height in Shetland ponies and other small
+    horses (Frischknecht et al. 2015) - its name and position?
+D2. MSTN g.66493737C>T (the "speed gene" of Thoroughbreds): is that position on EquCab2 or
+    EquCab3?
+D3. PDK4 g.38973231A>G and CKM g.15884567G>A are candidate racing-performance variants,
+    not disease variants. For each, which allele is ancestral?
+D4. What allele frequencies are published, by breed, for LCORL (marker BIEC2-808543),
+    HMGA2, MSTN g.66493737C>T, PDK4 g.38973231A>G and CKM g.15884567G>A?
+D5. DMRT3: a 2026 study reported six variants in exon 2, three of them new. What are
+    they, and is any effect shown? Which named loci, besides DMRT3 c.902C>A, decide
+    whether a Standardbred trots or paces?
+
+BLOCK E - DISORDERS OF ARABIANS AND THOROUGHBREDS
+-------------------------------------------------
+E1. Lavender foal syndrome (MYO5A): in the study that mapped the variant (Brooks et al.
+    2010), are the figures 10.3% (Egyptian Arabians) and 1.8% or 1.6% (other Arabians)
+    allele frequencies or shares of carriers? A second study gives an allele frequency
+    of 0.08 and 16% carriers: what horses did it sample?
+E2. Cerebellar abiotrophy (TOE1 g.2171G>A): about 20% of Arabians are carriers. What
+    share is affected (two copies)?
+E3. SCID (PRKDC): what is the carrier frequency in Arabians today, from a named study?
+E4. EFIH (RAPGEF5 c.2624C>A): which study gives a Thoroughbred allele frequency of 1.8%
+    and which about 0.8%, and what is the source of the figure "1.4-1.6% carriers"?
+
+BLOCK F - DISORDERS OF QUARTER HORSES AND RELATED BREEDS
+--------------------------------------------------------
+F1. GBED (GBE1 c.102C>A): which 2006 study gave allele frequencies of 4.1% in Quarter
+    Horses and 3.6% in Paint Horses? Its authors and address, please.
+F2. HERDA (PPIB c.115G>A): which studies give carrier frequencies of 3.5% (United
+    States), 1.6% (France) and about 28% (cutting lines)? What share of horses is
+    affected (two copies)?
+F3. What carrier frequencies are published, by breed, for PSSM1 (GYS1 c.925G>A), HYPP
+    (SCN4A) and frame overo (EDNRB p.Ile118Lys)?
+F4. Malignant hyperthermia (RYR1 c.7360C>G): which paper first reported it in horses -
+    Aleman et al. 2004 (Muscle and Nerve) or the 2009 paper in the Journal of Veterinary
+    Internal Medicine? Two earlier answers disagree.
+
+BLOCK G - DISORDERS OF WARMBLOODS, DRAFTS, PONIES AND OTHER BREEDS
+------------------------------------------------------------------
+G1. Junctional epidermolysis bullosa: which gene carries the form found in Belgian and
+    related draft horses, and which the form in the American Saddlebred? Earlier answers
+    say LAMC2 for the drafts and LAMA3 for the Saddlebred; a later one has them the other
+    way round. What carrier frequencies are published for each?
+G2. Fragile foal syndrome (PLOD1 c.2032G>A): what are the carrier frequencies for each
+    Warmblood breed, from which studies? Are the Knabstrupper (3 of 46), Haflinger (2 of
+    48) and American Sport Pony (1 of 12) figures carriers or affected cases, and from
+    which study?
+G3. Naked foal syndrome (ST14 c.388G>T, Akhal-Teke): at what age do affected foals die,
+    and of what? The paper that found the variant is reported as saying a few weeks to
+    three years, cause unresolved; a later answer said days to weeks, of skin-barrier
+    failure and infection. Is there a breed-wide carrier figure beyond the study's 26 of
+    191?
+G4. Friesian dwarfism (B4GALT7): how was the figure of 12% carriers sampled, and what is
+    it now? The MET embryonic lethal in Friesians: what carrier frequency is published?
+G5. Skeletal atavism (SHOX deletions Del1 and Del2) in Shetland Ponies and Miniature
+    Horses: what carrier frequencies are published?
+G6. ACAN dwarfism (variants D1 to D4, Miniature Horses and ponies): how long do D1/D1
+    foals live? Do horses with two other variants (D2, D3, D4 in any combination, or with
+    D1) live to adulthood? What carrier frequencies are published? Does UC Davis have a
+    test page for ACAN dwarfism, and which variants does it name?
+
+FOR THE OWNER, NOT THE RESEARCHER
+---------------------------------
+- The answers for B4GALT7, PRKDC, ST14, PLOD1 and the first MATP answer cited their
+  sources by number only. The round-two answer could not reconstruct them; they can only
+  be had by asking in the conversations that gave those answers.
