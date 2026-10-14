@@ -1,0 +1,81 @@
+{
+  "format": 1,
+  "id": "andalusian",
+  "species": "horse",
+  "name": "Andalusian",
+  "country": "spain",
+  "scores": { "evidence": "abstracted", "speed": 6, "jump": 8, "health": 5, "pull": 5 },
+  "pools": [
+    {
+      "locus": "extension",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["E", "E"], "percent": 62 },
+        { "alleles": ["E", "e"], "percent": 33 },
+        { "alleles": ["e", "e"], "percent": 5 }
+      ]
+    },
+    {
+      "locus": "agouti",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["A", "A"], "percent": 30 },
+        { "alleles": ["A", "a"], "percent": 45 },
+        { "alleles": ["a", "a"], "percent": 25 }
+      ]
+    },
+    {
+      "locus": "shade",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["ShL", "ShL"], "percent": 9 },
+        { "alleles": ["ShL", "Sh"], "percent": 27 },
+        { "alleles": ["ShL", "ShD"], "percent": 15 },
+        { "alleles": ["Sh", "Sh"], "percent": 20 },
+        { "alleles": ["Sh", "ShD"], "percent": 22 },
+        { "alleles": ["ShD", "ShD"], "percent": 7 }
+      ]
+    },
+    {
+      "locus": "grey",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["G3", "N"], "percent": 34 },
+        { "alleles": ["G2", "N"], "percent": 18 },
+        { "alleles": ["G3", "G3"], "percent": 12 },
+        { "alleles": ["G3", "G2"], "percent": 6 },
+        { "alleles": ["G2", "G2"], "percent": 4 },
+        { "alleles": ["N", "N"], "percent": 26 }
+      ]
+    },
+    {
+      "locus": "matp",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["Cr", "Cr"], "percent": 0.09 },
+        { "alleles": ["Cr", "prl"], "percent": 0.72 },
+        { "alleles": ["Cr", "N"], "percent": 5.1 },
+        { "alleles": ["prl", "prl"], "percent": 1.44 },
+        { "alleles": ["prl", "N"], "percent": 20.4 },
+        { "alleles": ["N", "N"], "percent": 72.25 }
+      ]
+    },
+    {
+      "locus": "mitf",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["SW9", "N"], "percent": 0.1 },
+        { "alleles": ["N", "N"], "percent": 99.9 }
+      ]
+    },
+    {
+      "locus": "pax3",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["SW10", "N"], "percent": 0.05 },
+        { "alleles": ["N", "N"], "percent": 99.95 }
+      ]
+    }
+  ],
+  "citations": []
+}

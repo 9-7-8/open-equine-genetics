@@ -1,0 +1,95 @@
+{
+  "format": 1,
+  "id": "vyatka",
+  "species": "horse",
+  "name": "Vyatka",
+  "country": "russia",
+  "scores": { "evidence": "abstracted", "speed": 5, "jump": 4, "health": 9, "pull": 5 },
+  "pools": [
+    {
+      "locus": "extension",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["E", "E"], "percent": 61 },
+        { "alleles": ["E", "e"], "percent": 34 },
+        { "alleles": ["e", "e"], "percent": 5 }
+      ]
+    },
+    {
+      "locus": "agouti",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["A", "A"], "percent": 36 },
+        { "alleles": ["A", "a"], "percent": 48 },
+        { "alleles": ["a", "a"], "percent": 16 }
+      ]
+    },
+    {
+      "locus": "shade",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["ShL", "ShL"], "percent": 9 },
+        { "alleles": ["ShL", "Sh"], "percent": 27 },
+        { "alleles": ["ShL", "ShD"], "percent": 15 },
+        { "alleles": ["Sh", "Sh"], "percent": 20 },
+        { "alleles": ["Sh", "ShD"], "percent": 22 },
+        { "alleles": ["ShD", "ShD"], "percent": 7 }
+      ]
+    },
+    {
+      "locus": "matp",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["Cr", "Cr"], "percent": 0.64 },
+        { "alleles": ["Cr", "N"], "percent": 14.7 },
+        { "alleles": ["N", "N"], "percent": 84.66 }
+      ]
+    },
+    {
+      "locus": "dun",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["D", "D"], "percent": 9 },
+        { "alleles": ["D", "d1"], "percent": 15 },
+        { "alleles": ["D", "d2"], "percent": 27 },
+        { "alleles": ["d1", "d1"], "percent": 6 },
+        { "alleles": ["d1", "d2"], "percent": 23 },
+        { "alleles": ["d2", "d2"], "percent": 20 }
+      ]
+    },
+    {
+      "locus": "flaxen",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["Fl1", "f"], "percent": 8 },
+        { "alleles": ["f", "f"], "percent": 92 }
+      ]
+    },
+    {
+      "locus": "kit",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["SB1", "N"], "percent": 2 },
+        { "alleles": ["N", "N"], "percent": 98 }
+      ]
+    },
+    {
+      "locus": "rabicano",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["Rb", "rb"], "percent": 2 },
+        { "alleles": ["rb", "rb"], "percent": 98 }
+      ]
+    },
+    {
+      "locus": "gys1",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["P", "P"], "percent": 3.6 },
+        { "alleles": ["P", "N"], "percent": 30.7 },
+        { "alleles": ["N", "N"], "percent": 65.7 }
+      ]
+    }
+  ],
+  "citations": []
+}

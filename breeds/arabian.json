@@ -1,0 +1,96 @@
+{
+  "format": 1,
+  "id": "arabian",
+  "species": "horse",
+  "name": "Arabian",
+  "country": "saudi_arabia",
+  "scores": { "evidence": "abstracted", "speed": 7, "jump": 6, "health": 9, "pull": 4 },
+  "pools": [
+    {
+      "locus": "extension",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["E", "E"], "percent": 42 },
+        { "alleles": ["E", "e"], "percent": 44 },
+        { "alleles": ["e", "e"], "percent": 14 }
+      ]
+    },
+    {
+      "locus": "agouti",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["A", "A"], "percent": 55 },
+        { "alleles": ["A", "a"], "percent": 38 },
+        { "alleles": ["a", "a"], "percent": 7 }
+      ]
+    },
+    {
+      "locus": "shade",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["ShL", "ShL"], "percent": 9 },
+        { "alleles": ["ShL", "Sh"], "percent": 27 },
+        { "alleles": ["ShL", "ShD"], "percent": 15 },
+        { "alleles": ["Sh", "Sh"], "percent": 20 },
+        { "alleles": ["Sh", "ShD"], "percent": 22 },
+        { "alleles": ["ShD", "ShD"], "percent": 7 }
+      ]
+    },
+    {
+      "locus": "grey",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["G3", "N"], "percent": 40 },
+        { "alleles": ["G3", "G3"], "percent": 14 },
+        { "alleles": ["N", "N"], "percent": 46 }
+      ]
+    },
+    {
+      "locus": "kit",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["SB1", "N"], "percent": 14 },
+        { "alleles": ["W35", "N"], "percent": 10 },
+        { "alleles": ["W34", "N"], "percent": 3 },
+        { "alleles": ["W15", "N"], "percent": 1 },
+        { "alleles": ["W23", "N"], "percent": 1 },
+        { "alleles": ["W19", "N"], "percent": 0.3 },
+        { "alleles": ["W3", "N"], "percent": 0.04 },
+        { "alleles": ["N", "N"], "percent": 70.66 }
+      ]
+    },
+    {
+      "locus": "prkdc",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["scid", "N"], "percent": 2.8 },
+        { "alleles": ["N", "N"], "percent": 97.2 }
+      ]
+    },
+    {
+      "locus": "toe1",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["ca", "N"], "percent": 2.4 },
+        { "alleles": ["N", "N"], "percent": 97.6 }
+      ]
+    },
+    {
+      "locus": "myo5a",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["lfs", "N"], "percent": 2.2 },
+        { "alleles": ["N", "N"], "percent": 97.8 }
+      ]
+    },
+    {
+      "locus": "dmrt3",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["A", "C"], "percent": 1.7802 },
+        { "alleles": ["C", "C"], "percent": 98.2198 }
+      ]
+    }
+  ],
+  "citations": []
+}

@@ -1,0 +1,59 @@
+{
+  "format": 1,
+  "id": "exmoor_pony",
+  "species": "horse",
+  "name": "Exmoor Pony",
+  "country": "united_kingdom",
+  "scores": { "evidence": "abstracted", "speed": 4, "jump": 4, "health": 10, "pull": 3 },
+  "pools": [
+    {
+      "locus": "extension",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["E", "E"], "percent": 70 },
+        { "alleles": ["E", "e"], "percent": 26 },
+        { "alleles": ["e", "e"], "percent": 4 }
+      ]
+    },
+    {
+      "locus": "agouti",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["A", "A"], "percent": 55 },
+        { "alleles": ["A", "a"], "percent": 38 },
+        { "alleles": ["a", "a"], "percent": 7 }
+      ]
+    },
+    {
+      "locus": "shade",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["ShL", "ShL"], "percent": 9 },
+        { "alleles": ["ShL", "Sh"], "percent": 27 },
+        { "alleles": ["ShL", "ShD"], "percent": 15 },
+        { "alleles": ["Sh", "Sh"], "percent": 20 },
+        { "alleles": ["Sh", "ShD"], "percent": 22 },
+        { "alleles": ["ShD", "ShD"], "percent": 7 }
+      ]
+    },
+    {
+      "locus": "dun",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["d1", "d2"], "percent": 30 },
+        { "alleles": ["d2", "d2"], "percent": 70 }
+      ]
+    },
+    {
+      "locus": "pangare",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["Pa2", "Pa2"], "percent": 52 },
+        { "alleles": ["Pa2", "Pa1"], "percent": 34 },
+        { "alleles": ["Pa1", "Pa1"], "percent": 12 },
+        { "alleles": ["Pa1", "pa"], "percent": 2 }
+      ]
+    }
+  ],
+  "citations": []
+}

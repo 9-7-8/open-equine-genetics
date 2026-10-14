@@ -1,0 +1,53 @@
+{
+  "format": 1,
+  "id": "tersk",
+  "species": "horse",
+  "name": "Tersk",
+  "country": "russia",
+  "scores": { "evidence": "abstracted", "speed": 7, "jump": 5, "health": 8, "pull": 4 },
+  "pools": [
+    {
+      "locus": "extension",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["E", "E"], "percent": 52 },
+        { "alleles": ["E", "e"], "percent": 40 },
+        { "alleles": ["e", "e"], "percent": 8 }
+      ]
+    },
+    {
+      "locus": "agouti",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["A", "A"], "percent": 49 },
+        { "alleles": ["A", "a"], "percent": 42 },
+        { "alleles": ["a", "a"], "percent": 9 }
+      ]
+    },
+    {
+      "locus": "shade",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["ShL", "ShL"], "percent": 9 },
+        { "alleles": ["ShL", "Sh"], "percent": 27 },
+        { "alleles": ["ShL", "ShD"], "percent": 15 },
+        { "alleles": ["Sh", "Sh"], "percent": 20 },
+        { "alleles": ["Sh", "ShD"], "percent": 22 },
+        { "alleles": ["ShD", "ShD"], "percent": 7 }
+      ]
+    },
+    {
+      "locus": "grey",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["G3", "G3"], "percent": 20 },
+        { "alleles": ["G3", "G2"], "percent": 15 },
+        { "alleles": ["G2", "G2"], "percent": 7 },
+        { "alleles": ["G3", "N"], "percent": 26 },
+        { "alleles": ["G2", "N"], "percent": 20 },
+        { "alleles": ["N", "N"], "percent": 12 }
+      ]
+    }
+  ],
+  "citations": []
+}

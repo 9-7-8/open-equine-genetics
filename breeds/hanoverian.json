@@ -1,0 +1,65 @@
+{
+  "format": 1,
+  "id": "hanoverian",
+  "species": "horse",
+  "name": "Hanoverian",
+  "country": "germany",
+  "scores": { "evidence": "abstracted", "speed": 7, "jump": 9, "health": 5, "pull": 5 },
+  "pools": [
+    {
+      "locus": "extension",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["E", "E"], "percent": 42 },
+        { "alleles": ["E", "e"], "percent": 44 },
+        { "alleles": ["e", "e"], "percent": 14 }
+      ]
+    },
+    {
+      "locus": "agouti",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["A", "A"], "percent": 55 },
+        { "alleles": ["A", "a"], "percent": 38 },
+        { "alleles": ["a", "a"], "percent": 7 }
+      ]
+    },
+    {
+      "locus": "shade",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["ShL", "ShL"], "percent": 9 },
+        { "alleles": ["ShL", "Sh"], "percent": 27 },
+        { "alleles": ["ShL", "ShD"], "percent": 15 },
+        { "alleles": ["Sh", "Sh"], "percent": 20 },
+        { "alleles": ["Sh", "ShD"], "percent": 22 },
+        { "alleles": ["ShD", "ShD"], "percent": 7 }
+      ]
+    },
+    {
+      "locus": "grey",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["G3", "N"], "percent": 22 },
+        { "alleles": ["N", "N"], "percent": 78 }
+      ]
+    },
+    {
+      "locus": "roan",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["Rn", "rn"], "percent": 12 },
+        { "alleles": ["rn", "rn"], "percent": 88 }
+      ]
+    },
+    {
+      "locus": "mitf",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["SW1", "N"], "percent": 45 },
+        { "alleles": ["N", "N"], "percent": 55 }
+      ]
+    }
+  ],
+  "citations": []
+}

@@ -1,0 +1,48 @@
+{
+  "format": 1,
+  "id": "suffolk_punch",
+  "species": "horse",
+  "name": "Suffolk Punch",
+  "country": "united_kingdom",
+  "scores": { "evidence": "abstracted", "speed": 3, "jump": 2, "health": 5, "pull": 10 },
+  "pools": [
+    {
+      "locus": "extension",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["e", "e"], "percent": 100 }
+      ]
+    },
+    {
+      "locus": "agouti",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["A", "A"], "percent": 30 },
+        { "alleles": ["A", "a"], "percent": 45 },
+        { "alleles": ["a", "a"], "percent": 25 }
+      ]
+    },
+    {
+      "locus": "shade",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["ShL", "ShL"], "percent": 9 },
+        { "alleles": ["ShL", "Sh"], "percent": 27 },
+        { "alleles": ["ShL", "ShD"], "percent": 15 },
+        { "alleles": ["Sh", "Sh"], "percent": 20 },
+        { "alleles": ["Sh", "ShD"], "percent": 22 },
+        { "alleles": ["ShD", "ShD"], "percent": 7 }
+      ]
+    },
+    {
+      "locus": "pangare",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["Pa1", "Pa1"], "percent": 20 },
+        { "alleles": ["Pa1", "pa"], "percent": 40 },
+        { "alleles": ["pa", "pa"], "percent": 40 }
+      ]
+    }
+  ],
+  "citations": []
+}

@@ -19,11 +19,13 @@ plain correction with a source.
 WHAT IS HERE TODAY
 ------------------
 genes/              one JSON file per locus. Format: knowledge/format.txt
+breeds/             one JSON file per natural breed (121), exported from the mod
+                    2026-10-14. Format: knowledge/format.txt, BREEDS (a draft)
 mod-map.json        how each locus here maps to the mod's saved gene keys. Only the mod
                     needs it. See knowledge/the-mod.txt
 knowledge/          what a maintainer needs to know
 knowledge/science/  the science notes for each gene, copied from the mod's wiki
-tools/validate.mjs  checks every gene file against the format. Run it after any change
+tools/validate.mjs  checks every gene and breed file against the format. Run it after any change
 README.md           the front page: what this is and how far to trust it
 
 ON THE MAINTAINER'S MACHINE ONLY (not in the repository, by the owner's decision)
@@ -43,7 +45,9 @@ Read knowledge/known-issues.txt before trusting anything. In short:
   export, and most frequency tables are still the mod's estimates.
 - Nothing has been checked against a source by a maintainer. Every allele of a published
   locus is marked "unverified" and every citation "verified": false.
-- No breeds. They are planned (the mod has about 120 real breeds as JSON already).
+- Breeds: the mod's 121 natural breeds, exported 2026-10-14 in a format the owner has not
+  reviewed. Every gene pool is the mod's estimate; no breed has a citation, a real
+  height or weight yet.
 - No CONTRIBUTING file yet; the contributor clause the owner decided on
   (knowledge/decisions.txt) is not written. LICENSE is the unmodified GPL 3 text.
 

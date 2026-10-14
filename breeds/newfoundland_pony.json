@@ -1,0 +1,79 @@
+{
+  "format": 1,
+  "id": "newfoundland_pony",
+  "species": "horse",
+  "name": "Newfoundland Pony",
+  "country": "canada",
+  "scores": { "evidence": "abstracted", "speed": 4, "jump": 4, "health": 9, "pull": 5 },
+  "pools": [
+    {
+      "locus": "extension",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["E", "E"], "percent": 45 },
+        { "alleles": ["E", "e"], "percent": 44 },
+        { "alleles": ["e", "e"], "percent": 11 }
+      ]
+    },
+    {
+      "locus": "agouti",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["A", "A"], "percent": 38 },
+        { "alleles": ["A", "a"], "percent": 47 },
+        { "alleles": ["a", "a"], "percent": 15 }
+      ]
+    },
+    {
+      "locus": "shade",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["ShL", "ShL"], "percent": 9 },
+        { "alleles": ["ShL", "Sh"], "percent": 27 },
+        { "alleles": ["ShL", "ShD"], "percent": 15 },
+        { "alleles": ["Sh", "Sh"], "percent": 20 },
+        { "alleles": ["Sh", "ShD"], "percent": 22 },
+        { "alleles": ["ShD", "ShD"], "percent": 7 }
+      ]
+    },
+    {
+      "locus": "flaxen",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["Fl2", "f"], "percent": 2 },
+        { "alleles": ["Fl1", "f"], "percent": 10 },
+        { "alleles": ["f", "f"], "percent": 88 }
+      ]
+    },
+    {
+      "locus": "dun",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["D", "D"], "percent": 2 },
+        { "alleles": ["D", "d1"], "percent": 3 },
+        { "alleles": ["D", "d2"], "percent": 22 },
+        { "alleles": ["d1", "d1"], "percent": 1 },
+        { "alleles": ["d1", "d2"], "percent": 15 },
+        { "alleles": ["d2", "d2"], "percent": 57 }
+      ]
+    },
+    {
+      "locus": "grey",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["G3", "N"], "percent": 12 },
+        { "alleles": ["G2", "N"], "percent": 7 },
+        { "alleles": ["N", "N"], "percent": 81 }
+      ]
+    },
+    {
+      "locus": "roan",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["Rn", "rn"], "percent": 12 },
+        { "alleles": ["rn", "rn"], "percent": 88 }
+      ]
+    }
+  ],
+  "citations": []
+}

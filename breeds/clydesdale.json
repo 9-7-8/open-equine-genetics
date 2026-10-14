@@ -1,0 +1,67 @@
+{
+  "format": 1,
+  "id": "clydesdale",
+  "species": "horse",
+  "name": "Clydesdale",
+  "country": "united_kingdom",
+  "scores": { "evidence": "abstracted", "speed": 3, "jump": 3, "health": 5, "pull": 10 },
+  "pools": [
+    {
+      "locus": "extension",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["E", "E"], "percent": 62 },
+        { "alleles": ["E", "e"], "percent": 33 },
+        { "alleles": ["e", "e"], "percent": 5 }
+      ]
+    },
+    {
+      "locus": "agouti",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["A", "A"], "percent": 30 },
+        { "alleles": ["A", "a"], "percent": 45 },
+        { "alleles": ["a", "a"], "percent": 25 }
+      ]
+    },
+    {
+      "locus": "shade",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["ShL", "ShL"], "percent": 9 },
+        { "alleles": ["ShL", "Sh"], "percent": 27 },
+        { "alleles": ["ShL", "ShD"], "percent": 15 },
+        { "alleles": ["Sh", "Sh"], "percent": 20 },
+        { "alleles": ["Sh", "ShD"], "percent": 22 },
+        { "alleles": ["ShD", "ShD"], "percent": 7 }
+      ]
+    },
+    {
+      "locus": "tobiano",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["To", "to"], "percent": 30 },
+        { "alleles": ["to", "to"], "percent": 70 }
+      ]
+    },
+    {
+      "locus": "kit",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["SB1", "N"], "percent": 45 },
+        { "alleles": ["SB1", "SB1"], "percent": 8 },
+        { "alleles": ["W35", "N"], "percent": 12 },
+        { "alleles": ["N", "N"], "percent": 35 }
+      ]
+    },
+    {
+      "locus": "mitf",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["SW1", "N"], "percent": 55 },
+        { "alleles": ["N", "N"], "percent": 45 }
+      ]
+    }
+  ],
+  "citations": []
+}

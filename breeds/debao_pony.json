@@ -1,0 +1,82 @@
+{
+  "format": 1,
+  "id": "debao_pony",
+  "species": "horse",
+  "name": "Debao Pony",
+  "country": "china",
+  "scores": { "evidence": "abstracted", "speed": 3, "jump": 3, "health": 9, "pull": 3 },
+  "pools": [
+    {
+      "locus": "extension",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["E", "E"], "percent": 38 },
+        { "alleles": ["E", "e"], "percent": 47 },
+        { "alleles": ["e", "e"], "percent": 15 }
+      ]
+    },
+    {
+      "locus": "agouti",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["A", "A"], "percent": 41 },
+        { "alleles": ["A", "a"], "percent": 46 },
+        { "alleles": ["a", "a"], "percent": 13 }
+      ]
+    },
+    {
+      "locus": "shade",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["ShL", "ShL"], "percent": 9 },
+        { "alleles": ["ShL", "Sh"], "percent": 27 },
+        { "alleles": ["ShL", "ShD"], "percent": 15 },
+        { "alleles": ["Sh", "Sh"], "percent": 20 },
+        { "alleles": ["Sh", "ShD"], "percent": 22 },
+        { "alleles": ["ShD", "ShD"], "percent": 7 }
+      ]
+    },
+    {
+      "locus": "grey",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["G3", "N"], "percent": 10 },
+        { "alleles": ["G2", "N"], "percent": 6 },
+        { "alleles": ["N", "N"], "percent": 84 }
+      ]
+    },
+    {
+      "locus": "matp",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["Cr", "N"], "percent": 2.5 },
+        { "alleles": ["N", "N"], "percent": 97.5 }
+      ]
+    },
+    {
+      "locus": "pangare",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["Pa1", "pa"], "percent": 6 },
+        { "alleles": ["pa", "pa"], "percent": 94 }
+      ]
+    },
+    {
+      "locus": "tobiano",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["To", "to"], "percent": 2 },
+        { "alleles": ["to", "to"], "percent": 98 }
+      ]
+    },
+    {
+      "locus": "kit",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["SB1", "N"], "percent": 4 },
+        { "alleles": ["N", "N"], "percent": 96 }
+      ]
+    }
+  ],
+  "citations": []
+}

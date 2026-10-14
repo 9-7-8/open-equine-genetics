@@ -1,0 +1,57 @@
+{
+  "format": 1,
+  "id": "belgian_draft",
+  "species": "horse",
+  "name": "Belgian Draft",
+  "country": "belgium",
+  "scores": { "evidence": "abstracted", "speed": 3, "jump": 2, "health": 6, "pull": 10 },
+  "pools": [
+    {
+      "locus": "extension",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["e", "e"], "percent": 100 }
+      ]
+    },
+    {
+      "locus": "agouti",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["A", "A"], "percent": 30 },
+        { "alleles": ["A", "a"], "percent": 45 },
+        { "alleles": ["a", "a"], "percent": 25 }
+      ]
+    },
+    {
+      "locus": "shade",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["ShL", "ShL"], "percent": 9 },
+        { "alleles": ["ShL", "Sh"], "percent": 27 },
+        { "alleles": ["ShL", "ShD"], "percent": 15 },
+        { "alleles": ["Sh", "Sh"], "percent": 20 },
+        { "alleles": ["Sh", "ShD"], "percent": 22 },
+        { "alleles": ["ShD", "ShD"], "percent": 7 }
+      ]
+    },
+    {
+      "locus": "roan",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["Rn", "rn"], "percent": 28 },
+        { "alleles": ["rn", "rn"], "percent": 72 }
+      ]
+    },
+    {
+      "locus": "flaxen",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["Fl2", "Fl1"], "percent": 20 },
+        { "alleles": ["Fl1", "Fl1"], "percent": 34 },
+        { "alleles": ["Fl1", "f"], "percent": 36 },
+        { "alleles": ["f", "f"], "percent": 10 }
+      ]
+    }
+  ],
+  "citations": []
+}

@@ -1,0 +1,70 @@
+{
+  "format": 1,
+  "id": "gotland_pony",
+  "species": "horse",
+  "name": "Gotland Pony",
+  "country": "sweden",
+  "scores": { "evidence": "abstracted", "speed": 5, "jump": 6, "health": 10, "pull": 3 },
+  "pools": [
+    {
+      "locus": "extension",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["E", "E"], "percent": 64 },
+        { "alleles": ["E", "e"], "percent": 32 },
+        { "alleles": ["e", "e"], "percent": 4 }
+      ]
+    },
+    {
+      "locus": "agouti",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["A", "A"], "percent": 67 },
+        { "alleles": ["A", "a"], "percent": 30 },
+        { "alleles": ["a", "a"], "percent": 3 }
+      ]
+    },
+    {
+      "locus": "shade",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["ShL", "ShL"], "percent": 9 },
+        { "alleles": ["ShL", "Sh"], "percent": 27 },
+        { "alleles": ["ShL", "ShD"], "percent": 15 },
+        { "alleles": ["Sh", "Sh"], "percent": 20 },
+        { "alleles": ["Sh", "ShD"], "percent": 22 },
+        { "alleles": ["ShD", "ShD"], "percent": 7 }
+      ]
+    },
+    {
+      "locus": "dun",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["D", "D"], "percent": 34 },
+        { "alleles": ["D", "d1"], "percent": 14 },
+        { "alleles": ["D", "d2"], "percent": 35 },
+        { "alleles": ["d1", "d1"], "percent": 1 },
+        { "alleles": ["d1", "d2"], "percent": 7 },
+        { "alleles": ["d2", "d2"], "percent": 9 }
+      ]
+    },
+    {
+      "locus": "matp",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["Cr", "N"], "percent": 12 },
+        { "alleles": ["N", "N"], "percent": 88 }
+      ]
+    },
+    {
+      "locus": "flaxen",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["Fl1", "Fl1"], "percent": 3 },
+        { "alleles": ["Fl1", "f"], "percent": 30 },
+        { "alleles": ["f", "f"], "percent": 67 }
+      ]
+    }
+  ],
+  "citations": []
+}

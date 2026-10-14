@@ -1,0 +1,61 @@
+{
+  "format": 1,
+  "id": "hucul_pony",
+  "species": "horse",
+  "name": "Hucul Pony",
+  "country": "romania",
+  "scores": { "evidence": "abstracted", "speed": 4, "jump": 5, "health": 10, "pull": 5 },
+  "pools": [
+    {
+      "locus": "extension",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["E", "E"], "percent": 78 },
+        { "alleles": ["E", "e"], "percent": 20 },
+        { "alleles": ["e", "e"], "percent": 2 }
+      ]
+    },
+    {
+      "locus": "agouti",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["A", "A"], "percent": 23 },
+        { "alleles": ["A", "a"], "percent": 50 },
+        { "alleles": ["a", "a"], "percent": 27 }
+      ]
+    },
+    {
+      "locus": "shade",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["ShL", "ShL"], "percent": 9 },
+        { "alleles": ["ShL", "Sh"], "percent": 27 },
+        { "alleles": ["ShL", "ShD"], "percent": 15 },
+        { "alleles": ["Sh", "Sh"], "percent": 20 },
+        { "alleles": ["Sh", "ShD"], "percent": 22 },
+        { "alleles": ["ShD", "ShD"], "percent": 7 }
+      ]
+    },
+    {
+      "locus": "dun",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["D", "D"], "percent": 2 },
+        { "alleles": ["D", "d1"], "percent": 2 },
+        { "alleles": ["D", "d2"], "percent": 21 },
+        { "alleles": ["d1", "d1"], "percent": 1 },
+        { "alleles": ["d1", "d2"], "percent": 12 },
+        { "alleles": ["d2", "d2"], "percent": 62 }
+      ]
+    },
+    {
+      "locus": "tobiano",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["To", "to"], "percent": 7 },
+        { "alleles": ["to", "to"], "percent": 93 }
+      ]
+    }
+  ],
+  "citations": []
+}

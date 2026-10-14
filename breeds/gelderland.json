@@ -1,0 +1,100 @@
+{
+  "format": 1,
+  "id": "gelderland",
+  "species": "horse",
+  "name": "Gelderlander",
+  "country": "netherlands",
+  "scores": { "evidence": "abstracted", "speed": 6, "jump": 6, "health": 8, "pull": 6 },
+  "pools": [
+    {
+      "locus": "extension",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["E", "E"], "percent": 17 },
+        { "alleles": ["E", "e"], "percent": 48 },
+        { "alleles": ["e", "e"], "percent": 35 }
+      ]
+    },
+    {
+      "locus": "agouti",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["A", "A"], "percent": 53 },
+        { "alleles": ["A", "a"], "percent": 39 },
+        { "alleles": ["a", "a"], "percent": 8 }
+      ]
+    },
+    {
+      "locus": "shade",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["ShL", "ShL"], "percent": 9 },
+        { "alleles": ["ShL", "Sh"], "percent": 27 },
+        { "alleles": ["ShL", "ShD"], "percent": 15 },
+        { "alleles": ["Sh", "Sh"], "percent": 20 },
+        { "alleles": ["Sh", "ShD"], "percent": 22 },
+        { "alleles": ["ShD", "ShD"], "percent": 7 }
+      ]
+    },
+    {
+      "locus": "grey",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["G3", "N"], "percent": 9 },
+        { "alleles": ["G2", "N"], "percent": 5 },
+        { "alleles": ["N", "N"], "percent": 86 }
+      ]
+    },
+    {
+      "locus": "flaxen",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["Fl1", "Fl1"], "percent": 3 },
+        { "alleles": ["Fl1", "f"], "percent": 30 },
+        { "alleles": ["f", "f"], "percent": 67 }
+      ]
+    },
+    {
+      "locus": "kit",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["SB1", "N"], "percent": 32 },
+        { "alleles": ["W20", "N"], "percent": 8 },
+        { "alleles": ["N", "N"], "percent": 60 }
+      ]
+    },
+    {
+      "locus": "mitf",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["SW1", "N"], "percent": 12 },
+        { "alleles": ["N", "N"], "percent": 88 }
+      ]
+    },
+    {
+      "locus": "rabicano",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["Rb", "rb"], "percent": 11 },
+        { "alleles": ["rb", "rb"], "percent": 89 }
+      ]
+    },
+    {
+      "locus": "tobiano",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["To", "to"], "percent": 5 },
+        { "alleles": ["to", "to"], "percent": 95 }
+      ]
+    },
+    {
+      "locus": "plod1",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["ffs", "N"], "percent": 7.63 },
+        { "alleles": ["N", "N"], "percent": 92.37 }
+      ]
+    }
+  ],
+  "citations": []
+}

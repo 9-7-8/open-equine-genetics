@@ -1,0 +1,44 @@
+{
+  "format": 1,
+  "id": "friesian",
+  "species": "horse",
+  "name": "Friesian",
+  "country": "netherlands",
+  "scores": { "evidence": "abstracted", "speed": 5, "jump": 4, "health": 4, "pull": 7 },
+  "pools": [
+    {
+      "locus": "extension",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["E", "E"], "percent": 100 }
+      ]
+    },
+    {
+      "locus": "agouti",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["a", "a"], "percent": 100 }
+      ]
+    },
+    {
+      "locus": "acan",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["D1", "N"], "percent": 0.7874 },
+        { "alleles": ["D2", "N"], "percent": 0.7874 },
+        { "alleles": ["D3", "N"], "percent": 0.7874 },
+        { "alleles": ["D4", "N"], "percent": 0.7874 },
+        { "alleles": ["N", "N"], "percent": 96.8504 }
+      ]
+    },
+    {
+      "locus": "megaesophagus",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["meg", "N"], "percent": 1.7 },
+        { "alleles": ["N", "N"], "percent": 98.3 }
+      ]
+    }
+  ],
+  "citations": []
+}

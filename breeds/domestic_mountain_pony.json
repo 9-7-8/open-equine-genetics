@@ -1,0 +1,52 @@
+{
+  "format": 1,
+  "id": "domestic_mountain_pony",
+  "species": "horse",
+  "name": "Domestic Mountain Pony",
+  "country": "bosnia_and_herzegovina",
+  "scores": { "evidence": "abstracted", "speed": 4, "jump": 4, "health": 10, "pull": 3 },
+  "pools": [
+    {
+      "locus": "extension",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["E", "E"], "percent": 98 },
+        { "alleles": ["E", "e"], "percent": 2 }
+      ]
+    },
+    {
+      "locus": "agouti",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["A", "A"], "percent": 16 },
+        { "alleles": ["A", "a"], "percent": 48 },
+        { "alleles": ["a", "a"], "percent": 36 }
+      ]
+    },
+    {
+      "locus": "shade",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["ShL", "ShL"], "percent": 1 },
+        { "alleles": ["ShL", "Sh"], "percent": 7 },
+        { "alleles": ["ShL", "ShD"], "percent": 12 },
+        { "alleles": ["Sh", "Sh"], "percent": 16 },
+        { "alleles": ["Sh", "ShD"], "percent": 34 },
+        { "alleles": ["ShD", "ShD"], "percent": 30 }
+      ]
+    },
+    {
+      "locus": "dun",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["D", "D"], "percent": 1 },
+        { "alleles": ["D", "d1"], "percent": 3 },
+        { "alleles": ["D", "d2"], "percent": 14 },
+        { "alleles": ["d1", "d1"], "percent": 2 },
+        { "alleles": ["d1", "d2"], "percent": 23 },
+        { "alleles": ["d2", "d2"], "percent": 57 }
+      ]
+    }
+  ],
+  "citations": []
+}

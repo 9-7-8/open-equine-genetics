@@ -1,0 +1,66 @@
+{
+  "format": 1,
+  "id": "pindos",
+  "species": "horse",
+  "name": "Pindos",
+  "country": "greece",
+  "scores": { "evidence": "abstracted", "speed": 4, "jump": 4, "health": 9, "pull": 4 },
+  "pools": [
+    {
+      "locus": "extension",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["E", "E"], "percent": 49 },
+        { "alleles": ["E", "e"], "percent": 42 },
+        { "alleles": ["e", "e"], "percent": 9 }
+      ]
+    },
+    {
+      "locus": "agouti",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["A", "A"], "percent": 46 },
+        { "alleles": ["A", "a"], "percent": 44 },
+        { "alleles": ["a", "a"], "percent": 10 }
+      ]
+    },
+    {
+      "locus": "shade",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["ShL", "ShL"], "percent": 9 },
+        { "alleles": ["ShL", "Sh"], "percent": 27 },
+        { "alleles": ["ShL", "ShD"], "percent": 15 },
+        { "alleles": ["Sh", "Sh"], "percent": 20 },
+        { "alleles": ["Sh", "ShD"], "percent": 22 },
+        { "alleles": ["ShD", "ShD"], "percent": 7 }
+      ]
+    },
+    {
+      "locus": "flaxen",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["Fl1", "f"], "percent": 10 },
+        { "alleles": ["f", "f"], "percent": 90 }
+      ]
+    },
+    {
+      "locus": "grey",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["G3", "N"], "percent": 16 },
+        { "alleles": ["G2", "N"], "percent": 9 },
+        { "alleles": ["N", "N"], "percent": 75 }
+      ]
+    },
+    {
+      "locus": "roan",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["Rn", "rn"], "percent": 10 },
+        { "alleles": ["rn", "rn"], "percent": 90 }
+      ]
+    }
+  ],
+  "citations": []
+}

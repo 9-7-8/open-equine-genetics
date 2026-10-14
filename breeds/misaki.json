@@ -1,0 +1,41 @@
+{
+  "format": 1,
+  "id": "misaki",
+  "species": "horse",
+  "name": "Misaki Horse",
+  "country": "japan",
+  "scores": { "evidence": "abstracted", "speed": 4, "jump": 4, "health": 8, "pull": 3 },
+  "pools": [
+    {
+      "locus": "extension",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["E", "E"], "percent": 51 },
+        { "alleles": ["E", "e"], "percent": 41 },
+        { "alleles": ["e", "e"], "percent": 8 }
+      ]
+    },
+    {
+      "locus": "agouti",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["A", "A"], "percent": 39 },
+        { "alleles": ["A", "a"], "percent": 47 },
+        { "alleles": ["a", "a"], "percent": 14 }
+      ]
+    },
+    {
+      "locus": "shade",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["ShL", "ShL"], "percent": 9 },
+        { "alleles": ["ShL", "Sh"], "percent": 27 },
+        { "alleles": ["ShL", "ShD"], "percent": 15 },
+        { "alleles": ["Sh", "Sh"], "percent": 20 },
+        { "alleles": ["Sh", "ShD"], "percent": 22 },
+        { "alleles": ["ShD", "ShD"], "percent": 7 }
+      ]
+    }
+  ],
+  "citations": []
+}

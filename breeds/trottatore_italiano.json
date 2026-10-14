@@ -1,0 +1,148 @@
+{
+  "format": 1,
+  "id": "trottatore_italiano",
+  "species": "horse",
+  "name": "Trottatore Italiano",
+  "country": "italy",
+  "scores": { "evidence": "abstracted", "speed": 9, "jump": 4, "health": 7, "pull": 6 },
+  "pools": [
+    {
+      "locus": "extension",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["E", "E"], "percent": 46 },
+        { "alleles": ["E", "e"], "percent": 44 },
+        { "alleles": ["e", "e"], "percent": 10 }
+      ]
+    },
+    {
+      "locus": "agouti",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["A", "A"], "percent": 49 },
+        { "alleles": ["A", "a"], "percent": 42 },
+        { "alleles": ["a", "a"], "percent": 9 }
+      ]
+    },
+    {
+      "locus": "shade",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["ShL", "ShL"], "percent": 9 },
+        { "alleles": ["ShL", "Sh"], "percent": 27 },
+        { "alleles": ["ShL", "ShD"], "percent": 15 },
+        { "alleles": ["Sh", "Sh"], "percent": 20 },
+        { "alleles": ["Sh", "ShD"], "percent": 22 },
+        { "alleles": ["ShD", "ShD"], "percent": 7 }
+      ]
+    },
+    {
+      "locus": "matp",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["Cr", "N"], "percent": 7.7 },
+        { "alleles": ["N", "N"], "percent": 92.3 }
+      ]
+    },
+    {
+      "locus": "champagne",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["Ch", "c"], "percent": 2 },
+        { "alleles": ["c", "c"], "percent": 98 }
+      ]
+    },
+    {
+      "locus": "dun",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["D", "d2"], "percent": 6 },
+        { "alleles": ["d2", "d2"], "percent": 94 }
+      ]
+    },
+    {
+      "locus": "silver",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["Z", "z"], "percent": 3 },
+        { "alleles": ["z", "z"], "percent": 97 }
+      ]
+    },
+    {
+      "locus": "grey",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["G3", "N"], "percent": 9 },
+        { "alleles": ["G2", "N"], "percent": 5 },
+        { "alleles": ["N", "N"], "percent": 86 }
+      ]
+    },
+    {
+      "locus": "flaxen",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["Fl1", "f"], "percent": 9 },
+        { "alleles": ["f", "f"], "percent": 91 }
+      ]
+    },
+    {
+      "locus": "roan",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["Rn", "rn"], "percent": 4 },
+        { "alleles": ["rn", "rn"], "percent": 96 }
+      ]
+    },
+    {
+      "locus": "rabicano",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["Rb", "rb"], "percent": 6 },
+        { "alleles": ["rb", "rb"], "percent": 94 }
+      ]
+    },
+    {
+      "locus": "tobiano",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["To", "to"], "percent": 6 },
+        { "alleles": ["to", "to"], "percent": 94 }
+      ]
+    },
+    {
+      "locus": "kit",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["SB1", "N"], "percent": 6 },
+        { "alleles": ["W20", "N"], "percent": 2 },
+        { "alleles": ["N", "N"], "percent": 92 }
+      ]
+    },
+    {
+      "locus": "ednrb",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["O", "N"], "percent": 1 },
+        { "alleles": ["N", "N"], "percent": 99 }
+      ]
+    },
+    {
+      "locus": "mitf",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["SW1", "N"], "percent": 4 },
+        { "alleles": ["N", "N"], "percent": 96 }
+      ]
+    },
+    {
+      "locus": "dmrt3",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["A", "A"], "percent": 85 },
+        { "alleles": ["A", "C"], "percent": 14 },
+        { "alleles": ["C", "C"], "percent": 1 }
+      ]
+    }
+  ],
+  "citations": []
+}

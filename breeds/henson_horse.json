@@ -1,0 +1,46 @@
+{
+  "format": 1,
+  "id": "henson_horse",
+  "species": "horse",
+  "name": "Henson Horse",
+  "country": "france",
+  "scores": { "evidence": "abstracted", "speed": 5, "jump": 5, "health": 9, "pull": 4 },
+  "pools": [
+    {
+      "locus": "extension",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["E", "E"], "percent": 100 }
+      ]
+    },
+    {
+      "locus": "agouti",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["A", "A"], "percent": 100 }
+      ]
+    },
+    {
+      "locus": "shade",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["ShL", "ShL"], "percent": 9 },
+        { "alleles": ["ShL", "Sh"], "percent": 27 },
+        { "alleles": ["ShL", "ShD"], "percent": 15 },
+        { "alleles": ["Sh", "Sh"], "percent": 20 },
+        { "alleles": ["Sh", "ShD"], "percent": 22 },
+        { "alleles": ["ShD", "ShD"], "percent": 7 }
+      ]
+    },
+    {
+      "locus": "dun",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["D", "D"], "percent": 60 },
+        { "alleles": ["D", "d1"], "percent": 15 },
+        { "alleles": ["D", "d2"], "percent": 25 }
+      ]
+    }
+  ],
+  "citations": []
+}

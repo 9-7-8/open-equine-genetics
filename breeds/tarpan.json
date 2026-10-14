@@ -1,0 +1,172 @@
+{
+  "format": 1,
+  "id": "tarpan",
+  "species": "horse",
+  "name": "Tarpan",
+  "country": "russia",
+  "scores": { "evidence": "abstracted", "speed": 6, "jump": 4, "health": 10, "pull": 4 },
+  "pools": [
+    {
+      "locus": "extension",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["E", "E"], "percent": 83 },
+        { "alleles": ["E", "e"], "percent": 16 },
+        { "alleles": ["e", "e"], "percent": 1 }
+      ]
+    },
+    {
+      "locus": "agouti",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["A", "A"], "percent": 34 },
+        { "alleles": ["A", "a"], "percent": 48 },
+        { "alleles": ["a", "a"], "percent": 18 }
+      ]
+    },
+    {
+      "locus": "shade",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["ShL", "ShL"], "percent": 9 },
+        { "alleles": ["ShL", "Sh"], "percent": 27 },
+        { "alleles": ["ShL", "ShD"], "percent": 15 },
+        { "alleles": ["Sh", "Sh"], "percent": 20 },
+        { "alleles": ["Sh", "ShD"], "percent": 22 },
+        { "alleles": ["ShD", "ShD"], "percent": 7 }
+      ]
+    },
+    {
+      "locus": "dun",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["D", "D"], "percent": 60 },
+        { "alleles": ["D", "d1"], "percent": 8 },
+        { "alleles": ["D", "d2"], "percent": 26 },
+        { "alleles": ["d1", "d2"], "percent": 4 },
+        { "alleles": ["d2", "d2"], "percent": 2 }
+      ]
+    },
+    {
+      "locus": "leopard",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["LP", "lp"], "percent": 8 },
+        { "alleles": ["lp", "lp"], "percent": 92 }
+      ]
+    },
+    {
+      "locus": "patn1",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["PATN1", "n"], "percent": 3 },
+        { "alleles": ["n", "n"], "percent": 97 }
+      ]
+    }
+  ],
+  "strains": [
+    {
+      "name": "Steppe dun",
+      "share": 85,
+      "pools": [
+        {
+          "locus": "dun",
+          "evidence": "estimated",
+          "genotypes": [
+            { "alleles": ["D", "D"], "percent": 72 },
+            { "alleles": ["D", "d1"], "percent": 7 },
+            { "alleles": ["D", "d2"], "percent": 19 },
+            { "alleles": ["d1", "d2"], "percent": 1 },
+            { "alleles": ["d2", "d2"], "percent": 1 }
+          ]
+        },
+        {
+          "locus": "leopard",
+          "evidence": "estimated",
+          "genotypes": [
+            { "alleles": ["lp", "lp"], "percent": 100 }
+          ]
+        },
+        {
+          "locus": "patn1",
+          "evidence": "estimated",
+          "genotypes": [
+            { "alleles": ["n", "n"], "percent": 100 }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Ancient leopard",
+      "share": 5,
+      "pools": [
+        {
+          "locus": "dun",
+          "evidence": "estimated",
+          "genotypes": [
+            { "alleles": ["D", "D"], "percent": 12 },
+            { "alleles": ["D", "d2"], "percent": 46 },
+            { "alleles": ["d1", "d2"], "percent": 12 },
+            { "alleles": ["d2", "d2"], "percent": 30 }
+          ]
+        },
+        {
+          "locus": "leopard",
+          "evidence": "estimated",
+          "genotypes": [
+            { "alleles": ["LP", "LP"], "percent": 50 },
+            { "alleles": ["LP", "lp"], "percent": 50 }
+          ]
+        },
+        {
+          "locus": "patn1",
+          "evidence": "estimated",
+          "genotypes": [
+            { "alleles": ["PATN1", "PATN1"], "percent": 10 },
+            { "alleles": ["PATN1", "n"], "percent": 60 },
+            { "alleles": ["n", "n"], "percent": 30 }
+          ]
+        },
+        {
+          "locus": "patn2",
+          "evidence": "estimated",
+          "genotypes": [
+            { "alleles": ["PATN2", "n"], "percent": 45 },
+            { "alleles": ["n", "n"], "percent": 55 }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Undiluted",
+      "share": 10,
+      "pools": [
+        {
+          "locus": "dun",
+          "evidence": "estimated",
+          "genotypes": [
+            { "alleles": ["D", "d2"], "percent": 14 },
+            { "alleles": ["d1", "d1"], "percent": 4 },
+            { "alleles": ["d1", "d2"], "percent": 22 },
+            { "alleles": ["d2", "d2"], "percent": 60 }
+          ]
+        },
+        {
+          "locus": "leopard",
+          "evidence": "estimated",
+          "genotypes": [
+            { "alleles": ["lp", "lp"], "percent": 100 }
+          ]
+        },
+        {
+          "locus": "patn1",
+          "evidence": "estimated",
+          "genotypes": [
+            { "alleles": ["n", "n"], "percent": 100 }
+          ]
+        }
+      ]
+    }
+  ],
+  "citations": []
+}

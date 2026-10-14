@@ -1,0 +1,100 @@
+{
+  "format": 1,
+  "id": "falabella",
+  "species": "horse",
+  "name": "Falabella",
+  "country": "argentina",
+  "scores": { "evidence": "abstracted", "speed": 2, "jump": 1, "health": 3, "pull": 1 },
+  "pools": [
+    {
+      "locus": "extension",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["E", "E"], "percent": 42 },
+        { "alleles": ["E", "e"], "percent": 44 },
+        { "alleles": ["e", "e"], "percent": 14 }
+      ]
+    },
+    {
+      "locus": "agouti",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["A", "A"], "percent": 30 },
+        { "alleles": ["A", "a"], "percent": 45 },
+        { "alleles": ["a", "a"], "percent": 25 }
+      ]
+    },
+    {
+      "locus": "shade",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["ShL", "ShL"], "percent": 9 },
+        { "alleles": ["ShL", "Sh"], "percent": 27 },
+        { "alleles": ["ShL", "ShD"], "percent": 15 },
+        { "alleles": ["Sh", "Sh"], "percent": 20 },
+        { "alleles": ["Sh", "ShD"], "percent": 22 },
+        { "alleles": ["ShD", "ShD"], "percent": 7 }
+      ]
+    },
+    {
+      "locus": "matp",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["Cr", "Cr"], "percent": 0.64 },
+        { "alleles": ["Cr", "N"], "percent": 14.72 },
+        { "alleles": ["N", "N"], "percent": 84.64 }
+      ]
+    },
+    {
+      "locus": "dun",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["D", "d2"], "percent": 8 },
+        { "alleles": ["d2", "d2"], "percent": 92 }
+      ]
+    },
+    {
+      "locus": "champagne",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["Ch", "c"], "percent": 8 },
+        { "alleles": ["c", "c"], "percent": 92 }
+      ]
+    },
+    {
+      "locus": "silver",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["Z", "z"], "percent": 10 },
+        { "alleles": ["z", "z"], "percent": 90 }
+      ]
+    },
+    {
+      "locus": "tobiano",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["To", "to"], "percent": 20 },
+        { "alleles": ["to", "to"], "percent": 80 }
+      ]
+    },
+    {
+      "locus": "kit",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["SB1", "N"], "percent": 14 },
+        { "alleles": ["W20", "N"], "percent": 10 },
+        { "alleles": ["W35", "N"], "percent": 10 },
+        { "alleles": ["N", "N"], "percent": 66 }
+      ]
+    },
+    {
+      "locus": "mitf",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["SW1", "N"], "percent": 40 },
+        { "alleles": ["N", "N"], "percent": 60 }
+      ]
+    }
+  ],
+  "citations": []
+}

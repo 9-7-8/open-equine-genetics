@@ -1,0 +1,90 @@
+{
+  "format": 1,
+  "id": "gypsy_vanner",
+  "species": "horse",
+  "name": "Gypsy Vanner",
+  "country": "united_kingdom",
+  "scores": { "evidence": "abstracted", "speed": 4, "jump": 3, "health": 7, "pull": 7 },
+  "pools": [
+    {
+      "locus": "extension",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["E", "E"], "percent": 42 },
+        { "alleles": ["E", "e"], "percent": 44 },
+        { "alleles": ["e", "e"], "percent": 14 }
+      ]
+    },
+    {
+      "locus": "agouti",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["A", "A"], "percent": 30 },
+        { "alleles": ["A", "a"], "percent": 45 },
+        { "alleles": ["a", "a"], "percent": 25 }
+      ]
+    },
+    {
+      "locus": "shade",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["ShL", "ShL"], "percent": 9 },
+        { "alleles": ["ShL", "Sh"], "percent": 27 },
+        { "alleles": ["ShL", "ShD"], "percent": 15 },
+        { "alleles": ["Sh", "Sh"], "percent": 20 },
+        { "alleles": ["Sh", "ShD"], "percent": 22 },
+        { "alleles": ["ShD", "ShD"], "percent": 7 }
+      ]
+    },
+    {
+      "locus": "matp",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["Cr", "Cr"], "percent": 0.25 },
+        { "alleles": ["Cr", "prl"], "percent": 0.15 },
+        { "alleles": ["Cr", "sno"], "percent": 0.02 },
+        { "alleles": ["Cr", "N"], "percent": 9.3309 },
+        { "alleles": ["prl", "prl"], "percent": 0.02 },
+        { "alleles": ["prl", "N"], "percent": 2.8003 },
+        { "alleles": ["sno", "N"], "percent": 0.37 },
+        { "alleles": ["N", "N"], "percent": 87.0588 }
+      ]
+    },
+    {
+      "locus": "dun",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["D", "d2"], "percent": 6 },
+        { "alleles": ["d2", "d2"], "percent": 94 }
+      ]
+    },
+    {
+      "locus": "tobiano",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["To", "to"], "percent": 62 },
+        { "alleles": ["To", "To"], "percent": 16 },
+        { "alleles": ["to", "to"], "percent": 22 }
+      ]
+    },
+    {
+      "locus": "kit",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["SB1", "N"], "percent": 24 },
+        { "alleles": ["W20", "N"], "percent": 30 },
+        { "alleles": ["W35", "N"], "percent": 10 },
+        { "alleles": ["N", "N"], "percent": 36 }
+      ]
+    },
+    {
+      "locus": "mitf",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["SW1", "N"], "percent": 65 },
+        { "alleles": ["N", "N"], "percent": 35 }
+      ]
+    }
+  ],
+  "citations": []
+}

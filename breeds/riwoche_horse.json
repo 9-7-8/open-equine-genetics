@@ -1,0 +1,49 @@
+{
+  "format": 1,
+  "id": "riwoche_horse",
+  "species": "horse",
+  "name": "Riwoche Horse",
+  "country": "china",
+  "scores": { "evidence": "abstracted", "speed": 4, "jump": 5, "health": 10, "pull": 4 },
+  "pools": [
+    {
+      "locus": "extension",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["E", "E"], "percent": 98 },
+        { "alleles": ["E", "e"], "percent": 2 }
+      ]
+    },
+    {
+      "locus": "agouti",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["A", "A"], "percent": 90 },
+        { "alleles": ["A", "a"], "percent": 9 },
+        { "alleles": ["a", "a"], "percent": 1 }
+      ]
+    },
+    {
+      "locus": "shade",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["ShL", "ShL"], "percent": 9 },
+        { "alleles": ["ShL", "Sh"], "percent": 27 },
+        { "alleles": ["ShL", "ShD"], "percent": 15 },
+        { "alleles": ["Sh", "Sh"], "percent": 20 },
+        { "alleles": ["Sh", "ShD"], "percent": 22 },
+        { "alleles": ["ShD", "ShD"], "percent": 7 }
+      ]
+    },
+    {
+      "locus": "dun",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["D", "D"], "percent": 30 },
+        { "alleles": ["D", "d1"], "percent": 20 },
+        { "alleles": ["D", "d2"], "percent": 50 }
+      ]
+    }
+  ],
+  "citations": []
+}

@@ -1,0 +1,58 @@
+{
+  "format": 1,
+  "id": "guoxia",
+  "species": "horse",
+  "name": "Guoxia",
+  "country": "china",
+  "scores": { "evidence": "abstracted", "speed": 3, "jump": 3, "health": 9, "pull": 2 },
+  "pools": [
+    {
+      "locus": "extension",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["E", "E"], "percent": 67 },
+        { "alleles": ["E", "e"], "percent": 30 },
+        { "alleles": ["e", "e"], "percent": 3 }
+      ]
+    },
+    {
+      "locus": "agouti",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["A", "A"], "percent": 64 },
+        { "alleles": ["A", "a"], "percent": 32 },
+        { "alleles": ["a", "a"], "percent": 4 }
+      ]
+    },
+    {
+      "locus": "shade",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["ShL", "ShL"], "percent": 9 },
+        { "alleles": ["ShL", "Sh"], "percent": 27 },
+        { "alleles": ["ShL", "ShD"], "percent": 15 },
+        { "alleles": ["Sh", "Sh"], "percent": 20 },
+        { "alleles": ["Sh", "ShD"], "percent": 22 },
+        { "alleles": ["ShD", "ShD"], "percent": 7 }
+      ]
+    },
+    {
+      "locus": "grey",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["G3", "N"], "percent": 18 },
+        { "alleles": ["G2", "N"], "percent": 9 },
+        { "alleles": ["N", "N"], "percent": 73 }
+      ]
+    },
+    {
+      "locus": "roan",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["Rn", "rn"], "percent": 15 },
+        { "alleles": ["rn", "rn"], "percent": 85 }
+      ]
+    }
+  ],
+  "citations": []
+}

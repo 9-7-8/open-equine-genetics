@@ -1,0 +1,50 @@
+{
+  "format": 1,
+  "id": "sorraia",
+  "species": "horse",
+  "name": "Sorraia",
+  "country": "portugal",
+  "scores": { "evidence": "abstracted", "speed": 5, "jump": 4, "health": 9, "pull": 3 },
+  "pools": [
+    {
+      "locus": "extension",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["E", "E"], "percent": 85 },
+        { "alleles": ["E", "e"], "percent": 14 },
+        { "alleles": ["e", "e"], "percent": 1 }
+      ]
+    },
+    {
+      "locus": "agouti",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["A", "A"], "percent": 3 },
+        { "alleles": ["A", "a"], "percent": 30 },
+        { "alleles": ["a", "a"], "percent": 67 }
+      ]
+    },
+    {
+      "locus": "shade",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["ShL", "ShL"], "percent": 9 },
+        { "alleles": ["ShL", "Sh"], "percent": 27 },
+        { "alleles": ["ShL", "ShD"], "percent": 15 },
+        { "alleles": ["Sh", "Sh"], "percent": 20 },
+        { "alleles": ["Sh", "ShD"], "percent": 22 },
+        { "alleles": ["ShD", "ShD"], "percent": 7 }
+      ]
+    },
+    {
+      "locus": "dun",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["D", "D"], "percent": 25 },
+        { "alleles": ["D", "d1"], "percent": 15 },
+        { "alleles": ["D", "d2"], "percent": 60 }
+      ]
+    }
+  ],
+  "citations": []
+}

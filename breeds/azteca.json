@@ -1,0 +1,155 @@
+{
+  "format": 1,
+  "id": "azteca",
+  "species": "horse",
+  "name": "Azteca",
+  "country": "mexico",
+  "description": "Mexico's own horse, made in 1972 from Iberian stock and Quarter Horses. Compact, powerfully built, and usually a solid dark colour or grey.",
+  "scores": { "evidence": "abstracted", "speed": 7, "jump": 8, "health": 8, "pull": 5 },
+  "pools": [
+    {
+      "locus": "extension",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["E", "E"], "percent": 53 },
+        { "alleles": ["E", "e"], "percent": 39 },
+        { "alleles": ["e", "e"], "percent": 8 }
+      ]
+    },
+    {
+      "locus": "agouti",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["A", "A"], "percent": 55 },
+        { "alleles": ["A", "a"], "percent": 38 },
+        { "alleles": ["a", "a"], "percent": 7 }
+      ]
+    },
+    {
+      "locus": "shade",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["ShL", "ShL"], "percent": 9 },
+        { "alleles": ["ShL", "Sh"], "percent": 27 },
+        { "alleles": ["ShL", "ShD"], "percent": 15 },
+        { "alleles": ["Sh", "Sh"], "percent": 20 },
+        { "alleles": ["Sh", "ShD"], "percent": 22 },
+        { "alleles": ["ShD", "ShD"], "percent": 7 }
+      ]
+    },
+    {
+      "locus": "grey",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["G3", "G3"], "percent": 3 },
+        { "alleles": ["G3", "N"], "percent": 30 },
+        { "alleles": ["N", "N"], "percent": 67 }
+      ]
+    },
+    {
+      "locus": "rabicano",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["Rb", "rb"], "percent": 5 },
+        { "alleles": ["rb", "rb"], "percent": 95 }
+      ]
+    },
+    {
+      "locus": "gbe1",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["gbed", "N"], "percent": 2 },
+        { "alleles": ["N", "N"], "percent": 98 }
+      ]
+    },
+    {
+      "locus": "gys1",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["P", "N"], "percent": 4 },
+        { "alleles": ["N", "N"], "percent": 96 }
+      ]
+    },
+    {
+      "locus": "ppib",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["herda", "N"], "percent": 1 },
+        { "alleles": ["N", "N"], "percent": 99 }
+      ]
+    },
+    {
+      "locus": "scn4a",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["H", "N"], "percent": 1 },
+        { "alleles": ["N", "N"], "percent": 99 }
+      ]
+    },
+    {
+      "locus": "ryr1",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["MH", "N"], "percent": 1 },
+        { "alleles": ["N", "N"], "percent": 99 }
+      ]
+    }
+  ],
+  "strains": [
+    {
+      "name": "Mexican Solid",
+      "share": 90,
+      "pools": [
+        {
+          "locus": "kit",
+          "evidence": "estimated",
+          "genotypes": [
+            { "alleles": ["SB1", "N"], "percent": 8 },
+            { "alleles": ["N", "N"], "percent": 92 }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "American Patterned",
+      "share": 10,
+      "pools": [
+        {
+          "locus": "tobiano",
+          "evidence": "estimated",
+          "genotypes": [
+            { "alleles": ["To", "To"], "percent": 12 },
+            { "alleles": ["To", "to"], "percent": 46 },
+            { "alleles": ["to", "to"], "percent": 42 }
+          ]
+        },
+        {
+          "locus": "kit",
+          "evidence": "estimated",
+          "genotypes": [
+            { "alleles": ["SB1", "N"], "percent": 34 },
+            { "alleles": ["W20", "N"], "percent": 9 },
+            { "alleles": ["N", "N"], "percent": 57 }
+          ]
+        },
+        {
+          "locus": "ednrb",
+          "evidence": "estimated",
+          "genotypes": [
+            { "alleles": ["O", "N"], "percent": 21 },
+            { "alleles": ["N", "N"], "percent": 79 }
+          ]
+        },
+        {
+          "locus": "mitf",
+          "evidence": "estimated",
+          "genotypes": [
+            { "alleles": ["SW1", "N"], "percent": 13 },
+            { "alleles": ["N", "N"], "percent": 87 }
+          ]
+        }
+      ]
+    }
+  ],
+  "citations": []
+}

@@ -1,0 +1,226 @@
+{
+  "format": 1,
+  "id": "nokota",
+  "species": "horse",
+  "name": "Nokota",
+  "country": "united_states",
+  "scores": { "evidence": "abstracted", "speed": 6, "jump": 5, "health": 8, "pull": 4 },
+  "pools": [
+    {
+      "locus": "extension",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["E", "E"], "percent": 67 },
+        { "alleles": ["E", "e"], "percent": 30 },
+        { "alleles": ["e", "e"], "percent": 3 }
+      ]
+    },
+    {
+      "locus": "agouti",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["A", "A"], "percent": 18 },
+        { "alleles": ["A", "a"], "percent": 49 },
+        { "alleles": ["a", "a"], "percent": 33 }
+      ]
+    },
+    {
+      "locus": "shade",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["ShL", "ShL"], "percent": 9 },
+        { "alleles": ["ShL", "Sh"], "percent": 27 },
+        { "alleles": ["ShL", "ShD"], "percent": 15 },
+        { "alleles": ["Sh", "Sh"], "percent": 20 },
+        { "alleles": ["Sh", "ShD"], "percent": 22 },
+        { "alleles": ["ShD", "ShD"], "percent": 7 }
+      ]
+    },
+    {
+      "locus": "matp",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["Cr", "N"], "percent": 6 },
+        { "alleles": ["N", "N"], "percent": 94 }
+      ]
+    },
+    {
+      "locus": "dun",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["D", "d2"], "percent": 17 },
+        { "alleles": ["d1", "d2"], "percent": 6 },
+        { "alleles": ["d2", "d2"], "percent": 77 }
+      ]
+    },
+    {
+      "locus": "grey",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["G3", "N"], "percent": 18 },
+        { "alleles": ["G2", "N"], "percent": 9 },
+        { "alleles": ["N", "N"], "percent": 73 }
+      ]
+    },
+    {
+      "locus": "roan",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["Rn", "Rn"], "percent": 20 },
+        { "alleles": ["Rn", "rn"], "percent": 50 },
+        { "alleles": ["rn", "rn"], "percent": 30 }
+      ]
+    },
+    {
+      "locus": "rabicano",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["Rb", "rb"], "percent": 10 },
+        { "alleles": ["rb", "rb"], "percent": 90 }
+      ]
+    },
+    {
+      "locus": "kit",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["SB1", "N"], "percent": 21 },
+        { "alleles": ["N", "N"], "percent": 79 }
+      ]
+    },
+    {
+      "locus": "ednrb",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["O", "N"], "percent": 11 },
+        { "alleles": ["N", "N"], "percent": 89 }
+      ]
+    },
+    {
+      "locus": "mitf",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["SW1", "N"], "percent": 4 },
+        { "alleles": ["N", "N"], "percent": 96 }
+      ]
+    }
+  ],
+  "strains": [
+    {
+      "name": "National Park Traditional",
+      "share": 70,
+      "pools": [
+        {
+          "locus": "extension",
+          "evidence": "estimated",
+          "genotypes": [
+            { "alleles": ["E", "E"], "percent": 74 },
+            { "alleles": ["E", "e"], "percent": 24 },
+            { "alleles": ["e", "e"], "percent": 2 }
+          ]
+        },
+        {
+          "locus": "agouti",
+          "evidence": "estimated",
+          "genotypes": [
+            { "alleles": ["A", "A"], "percent": 13 },
+            { "alleles": ["A", "a"], "percent": 46 },
+            { "alleles": ["a", "a"], "percent": 41 }
+          ]
+        },
+        {
+          "locus": "dun",
+          "evidence": "estimated",
+          "genotypes": [
+            { "alleles": ["D", "d2"], "percent": 24 },
+            { "alleles": ["d1", "d2"], "percent": 8 },
+            { "alleles": ["d2", "d2"], "percent": 68 }
+          ]
+        },
+        {
+          "locus": "roan",
+          "evidence": "estimated",
+          "genotypes": [
+            { "alleles": ["Rn", "Rn"], "percent": 27 },
+            { "alleles": ["Rn", "rn"], "percent": 50 },
+            { "alleles": ["rn", "rn"], "percent": 23 }
+          ]
+        },
+        {
+          "locus": "kit",
+          "evidence": "estimated",
+          "genotypes": [
+            { "alleles": ["SB1", "N"], "percent": 18 },
+            { "alleles": ["N", "N"], "percent": 82 }
+          ]
+        },
+        {
+          "locus": "ednrb",
+          "evidence": "estimated",
+          "genotypes": [
+            { "alleles": ["O", "N"], "percent": 9 },
+            { "alleles": ["N", "N"], "percent": 91 }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "National Park Ranch",
+      "share": 30,
+      "pools": [
+        {
+          "locus": "extension",
+          "evidence": "estimated",
+          "genotypes": [
+            { "alleles": ["E", "E"], "percent": 56 },
+            { "alleles": ["E", "e"], "percent": 38 },
+            { "alleles": ["e", "e"], "percent": 6 }
+          ]
+        },
+        {
+          "locus": "agouti",
+          "evidence": "estimated",
+          "genotypes": [
+            { "alleles": ["A", "A"], "percent": 31 },
+            { "alleles": ["A", "a"], "percent": 49 },
+            { "alleles": ["a", "a"], "percent": 20 }
+          ]
+        },
+        {
+          "locus": "dun",
+          "evidence": "estimated",
+          "genotypes": [
+            { "alleles": ["D", "d2"], "percent": 11 },
+            { "alleles": ["d1", "d2"], "percent": 5 },
+            { "alleles": ["d2", "d2"], "percent": 84 }
+          ]
+        },
+        {
+          "locus": "roan",
+          "evidence": "estimated",
+          "genotypes": [
+            { "alleles": ["Rn", "Rn"], "percent": 12 },
+            { "alleles": ["Rn", "rn"], "percent": 45 },
+            { "alleles": ["rn", "rn"], "percent": 43 }
+          ]
+        },
+        {
+          "locus": "kit",
+          "evidence": "estimated",
+          "genotypes": [
+            { "alleles": ["SB1", "N"], "percent": 28 },
+            { "alleles": ["N", "N"], "percent": 72 }
+          ]
+        },
+        {
+          "locus": "ednrb",
+          "evidence": "estimated",
+          "genotypes": [
+            { "alleles": ["O", "N"], "percent": 14 },
+            { "alleles": ["N", "N"], "percent": 86 }
+          ]
+        }
+      ]
+    }
+  ],
+  "citations": []
+}

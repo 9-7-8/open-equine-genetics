@@ -1,0 +1,171 @@
+{
+  "format": 1,
+  "id": "walkaloosa",
+  "species": "horse",
+  "name": "Walkaloosa",
+  "country": "united_states",
+  "scores": { "evidence": "abstracted", "speed": 6, "jump": 4, "health": 8, "pull": 4 },
+  "pools": [
+    {
+      "locus": "extension",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["E", "E"], "percent": 52 },
+        { "alleles": ["E", "e"], "percent": 40 },
+        { "alleles": ["e", "e"], "percent": 8 }
+      ]
+    },
+    {
+      "locus": "agouti",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["A", "A"], "percent": 46 },
+        { "alleles": ["A", "a"], "percent": 44 },
+        { "alleles": ["a", "a"], "percent": 10 }
+      ]
+    },
+    {
+      "locus": "shade",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["ShL", "ShL"], "percent": 9 },
+        { "alleles": ["ShL", "Sh"], "percent": 27 },
+        { "alleles": ["ShL", "ShD"], "percent": 15 },
+        { "alleles": ["Sh", "Sh"], "percent": 20 },
+        { "alleles": ["Sh", "ShD"], "percent": 22 },
+        { "alleles": ["ShD", "ShD"], "percent": 7 }
+      ]
+    },
+    {
+      "locus": "matp",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["Cr", "Cr"], "percent": 1 },
+        { "alleles": ["Cr", "N"], "percent": 18 },
+        { "alleles": ["N", "N"], "percent": 81 }
+      ]
+    },
+    {
+      "locus": "dun",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["D", "d2"], "percent": 13 },
+        { "alleles": ["d2", "d2"], "percent": 87 }
+      ]
+    },
+    {
+      "locus": "roan",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["Rn", "rn"], "percent": 15 },
+        { "alleles": ["rn", "rn"], "percent": 85 }
+      ]
+    },
+    {
+      "locus": "flaxen",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["Fl1", "f"], "percent": 13 },
+        { "alleles": ["f", "f"], "percent": 87 }
+      ]
+    },
+    {
+      "locus": "leopard",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["LP", "LP"], "percent": 25 },
+        { "alleles": ["LP", "lp"], "percent": 62 },
+        { "alleles": ["lp", "lp"], "percent": 13 }
+      ]
+    },
+    {
+      "locus": "patn1",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["PATN1", "PATN1"], "percent": 18 },
+        { "alleles": ["PATN1", "n"], "percent": 48 },
+        { "alleles": ["n", "n"], "percent": 34 }
+      ]
+    },
+    {
+      "locus": "patn2",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["PATN2", "n"], "percent": 28 },
+        { "alleles": ["n", "n"], "percent": 72 }
+      ]
+    },
+    {
+      "locus": "dmrt3",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["A", "A"], "percent": 90 },
+        { "alleles": ["A", "C"], "percent": 9.5 },
+        { "alleles": ["C", "C"], "percent": 0.5 }
+      ]
+    }
+  ],
+  "strains": [
+    {
+      "name": "Regular Walkaloosa",
+      "share": 90,
+      "pools": [
+        {
+          "locus": "leopard",
+          "evidence": "estimated",
+          "genotypes": [
+            { "alleles": ["LP", "LP"], "percent": 28 },
+            { "alleles": ["LP", "lp"], "percent": 72 }
+          ]
+        },
+        {
+          "locus": "patn1",
+          "evidence": "estimated",
+          "genotypes": [
+            { "alleles": ["PATN1", "PATN1"], "percent": 20 },
+            { "alleles": ["PATN1", "n"], "percent": 52 },
+            { "alleles": ["n", "n"], "percent": 28 }
+          ]
+        },
+        {
+          "locus": "patn2",
+          "evidence": "estimated",
+          "genotypes": [
+            { "alleles": ["PATN2", "n"], "percent": 30 },
+            { "alleles": ["n", "n"], "percent": 70 }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Identification only",
+      "share": 10,
+      "pools": [
+        {
+          "locus": "leopard",
+          "evidence": "estimated",
+          "genotypes": [
+            { "alleles": ["LP", "lp"], "percent": 12 },
+            { "alleles": ["lp", "lp"], "percent": 88 }
+          ]
+        },
+        {
+          "locus": "patn1",
+          "evidence": "estimated",
+          "genotypes": [
+            { "alleles": ["PATN1", "n"], "percent": 10 },
+            { "alleles": ["n", "n"], "percent": 90 }
+          ]
+        },
+        {
+          "locus": "patn2",
+          "evidence": "estimated",
+          "genotypes": [
+            { "alleles": ["n", "n"], "percent": 100 }
+          ]
+        }
+      ]
+    }
+  ],
+  "citations": []
+}

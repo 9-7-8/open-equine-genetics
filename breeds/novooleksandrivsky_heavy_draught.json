@@ -1,0 +1,59 @@
+{
+  "format": 1,
+  "id": "novooleksandrivsky_heavy_draught",
+  "species": "horse",
+  "name": "Novooleksandrivsky Heavy Draught",
+  "country": "ukraine",
+  "scores": { "evidence": "abstracted", "speed": 4, "jump": 3, "health": 9, "pull": 9 },
+  "pools": [
+    {
+      "locus": "extension",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["E", "E"], "percent": 30 },
+        { "alleles": ["E", "e"], "percent": 50 },
+        { "alleles": ["e", "e"], "percent": 20 }
+      ]
+    },
+    {
+      "locus": "agouti",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["A", "A"], "percent": 49 },
+        { "alleles": ["A", "a"], "percent": 42 },
+        { "alleles": ["a", "a"], "percent": 9 }
+      ]
+    },
+    {
+      "locus": "shade",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["ShL", "ShL"], "percent": 9 },
+        { "alleles": ["ShL", "Sh"], "percent": 27 },
+        { "alleles": ["ShL", "ShD"], "percent": 15 },
+        { "alleles": ["Sh", "Sh"], "percent": 20 },
+        { "alleles": ["Sh", "ShD"], "percent": 22 },
+        { "alleles": ["ShD", "ShD"], "percent": 7 }
+      ]
+    },
+    {
+      "locus": "flaxen",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["Fl2", "f"], "percent": 6 },
+        { "alleles": ["Fl1", "Fl1"], "percent": 3 },
+        { "alleles": ["Fl1", "f"], "percent": 26 },
+        { "alleles": ["f", "f"], "percent": 65 }
+      ]
+    },
+    {
+      "locus": "roan",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["Rn", "rn"], "percent": 8 },
+        { "alleles": ["rn", "rn"], "percent": 92 }
+      ]
+    }
+  ],
+  "citations": []
+}

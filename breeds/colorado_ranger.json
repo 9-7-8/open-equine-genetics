@@ -1,0 +1,177 @@
+{
+  "format": 1,
+  "id": "colorado_ranger",
+  "species": "horse",
+  "name": "Colorado Ranger",
+  "country": "united_states",
+  "scores": { "evidence": "abstracted", "speed": 7, "jump": 7, "health": 8, "pull": 5 },
+  "pools": [
+    {
+      "locus": "extension",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["E", "E"], "percent": 46 },
+        { "alleles": ["E", "e"], "percent": 44 },
+        { "alleles": ["e", "e"], "percent": 10 }
+      ]
+    },
+    {
+      "locus": "agouti",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["A", "A"], "percent": 46 },
+        { "alleles": ["A", "a"], "percent": 44 },
+        { "alleles": ["a", "a"], "percent": 10 }
+      ]
+    },
+    {
+      "locus": "shade",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["ShL", "ShL"], "percent": 9 },
+        { "alleles": ["ShL", "Sh"], "percent": 27 },
+        { "alleles": ["ShL", "ShD"], "percent": 15 },
+        { "alleles": ["Sh", "Sh"], "percent": 20 },
+        { "alleles": ["Sh", "ShD"], "percent": 22 },
+        { "alleles": ["ShD", "ShD"], "percent": 7 }
+      ]
+    },
+    {
+      "locus": "matp",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["Cr", "Cr"], "percent": 0.81 },
+        { "alleles": ["Cr", "N"], "percent": 16.38 },
+        { "alleles": ["N", "N"], "percent": 82.81 }
+      ]
+    },
+    {
+      "locus": "dun",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["D", "d2"], "percent": 20 },
+        { "alleles": ["d1", "d2"], "percent": 12 },
+        { "alleles": ["d2", "d2"], "percent": 68 }
+      ]
+    },
+    {
+      "locus": "grey",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["G3", "N"], "percent": 10 },
+        { "alleles": ["G2", "N"], "percent": 6 },
+        { "alleles": ["N", "N"], "percent": 84 }
+      ]
+    },
+    {
+      "locus": "roan",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["Rn", "rn"], "percent": 18 },
+        { "alleles": ["rn", "rn"], "percent": 82 }
+      ]
+    },
+    {
+      "locus": "silver",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["Z", "z"], "percent": 6 },
+        { "alleles": ["z", "z"], "percent": 94 }
+      ]
+    },
+    {
+      "locus": "champagne",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["Ch", "c"], "percent": 2 },
+        { "alleles": ["c", "c"], "percent": 98 }
+      ]
+    },
+    {
+      "locus": "flaxen",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["Fl1", "f"], "percent": 30 },
+        { "alleles": ["f", "f"], "percent": 70 }
+      ]
+    },
+    {
+      "locus": "rabicano",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["Rb", "rb"], "percent": 15 },
+        { "alleles": ["rb", "rb"], "percent": 85 }
+      ]
+    },
+    {
+      "locus": "kit",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["SB1", "N"], "percent": 4 },
+        { "alleles": ["N", "N"], "percent": 96 }
+      ]
+    }
+  ],
+  "strains": [
+    {
+      "name": "Solid Rangerbred",
+      "share": 55,
+      "pools": [
+        {
+          "locus": "leopard",
+          "evidence": "estimated",
+          "genotypes": [
+            { "alleles": ["lp", "lp"], "percent": 100 }
+          ]
+        },
+        {
+          "locus": "patn1",
+          "evidence": "estimated",
+          "genotypes": [
+            { "alleles": ["n", "n"], "percent": 100 }
+          ]
+        },
+        {
+          "locus": "patn2",
+          "evidence": "estimated",
+          "genotypes": [
+            { "alleles": ["n", "n"], "percent": 100 }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Leopard Rangerbred",
+      "share": 45,
+      "pools": [
+        {
+          "locus": "leopard",
+          "evidence": "estimated",
+          "genotypes": [
+            { "alleles": ["LP", "LP"], "percent": 15 },
+            { "alleles": ["LP", "lp"], "percent": 50 },
+            { "alleles": ["lp", "lp"], "percent": 35 }
+          ]
+        },
+        {
+          "locus": "patn1",
+          "evidence": "estimated",
+          "genotypes": [
+            { "alleles": ["PATN1", "PATN1"], "percent": 7 },
+            { "alleles": ["PATN1", "n"], "percent": 45 },
+            { "alleles": ["n", "n"], "percent": 48 }
+          ]
+        },
+        {
+          "locus": "patn2",
+          "evidence": "estimated",
+          "genotypes": [
+            { "alleles": ["PATN2", "n"], "percent": 22 },
+            { "alleles": ["n", "n"], "percent": 78 }
+          ]
+        }
+      ]
+    }
+  ],
+  "citations": []
+}

@@ -1,0 +1,83 @@
+{
+  "format": 1,
+  "id": "yugoslavian_trotter",
+  "species": "horse",
+  "name": "Yugoslavian Trotter",
+  "country": "serbia",
+  "scores": { "evidence": "abstracted", "speed": 8, "jump": 4, "health": 7, "pull": 6 },
+  "pools": [
+    {
+      "locus": "extension",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["E", "E"], "percent": 49 },
+        { "alleles": ["E", "e"], "percent": 42 },
+        { "alleles": ["e", "e"], "percent": 9 }
+      ]
+    },
+    {
+      "locus": "agouti",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["A", "A"], "percent": 61 },
+        { "alleles": ["A", "a"], "percent": 34 },
+        { "alleles": ["a", "a"], "percent": 5 }
+      ]
+    },
+    {
+      "locus": "shade",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["ShL", "ShL"], "percent": 9 },
+        { "alleles": ["ShL", "Sh"], "percent": 27 },
+        { "alleles": ["ShL", "ShD"], "percent": 15 },
+        { "alleles": ["Sh", "Sh"], "percent": 20 },
+        { "alleles": ["Sh", "ShD"], "percent": 22 },
+        { "alleles": ["ShD", "ShD"], "percent": 7 }
+      ]
+    },
+    {
+      "locus": "grey",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["G3", "N"], "percent": 4 },
+        { "alleles": ["G2", "N"], "percent": 2 },
+        { "alleles": ["N", "N"], "percent": 94 }
+      ]
+    },
+    {
+      "locus": "flaxen",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["Fl1", "f"], "percent": 6 },
+        { "alleles": ["f", "f"], "percent": 94 }
+      ]
+    },
+    {
+      "locus": "kit",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["SB1", "N"], "percent": 2 },
+        { "alleles": ["N", "N"], "percent": 98 }
+      ]
+    },
+    {
+      "locus": "rabicano",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["Rb", "rb"], "percent": 2 },
+        { "alleles": ["rb", "rb"], "percent": 98 }
+      ]
+    },
+    {
+      "locus": "dmrt3",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["A", "A"], "percent": 80 },
+        { "alleles": ["A", "C"], "percent": 18 },
+        { "alleles": ["C", "C"], "percent": 2 }
+      ]
+    }
+  ],
+  "citations": []
+}

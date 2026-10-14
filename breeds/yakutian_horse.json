@@ -1,0 +1,210 @@
+{
+  "format": 1,
+  "id": "yakutian_horse",
+  "species": "horse",
+  "name": "Yakutian Horse",
+  "country": "russia",
+  "scores": { "evidence": "abstracted", "speed": 5, "jump": 4, "health": 10, "pull": 5 },
+  "pools": [
+    {
+      "locus": "extension",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["E", "E"], "percent": 50.6 },
+        { "alleles": ["E", "e"], "percent": 41 },
+        { "alleles": ["e", "e"], "percent": 8.4 }
+      ]
+    },
+    {
+      "locus": "agouti",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["A", "A"], "percent": 16 },
+        { "alleles": ["A", "a"], "percent": 48 },
+        { "alleles": ["a", "a"], "percent": 36 }
+      ]
+    },
+    {
+      "locus": "shade",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["ShL", "ShL"], "percent": 9 },
+        { "alleles": ["ShL", "Sh"], "percent": 27 },
+        { "alleles": ["ShL", "ShD"], "percent": 15 },
+        { "alleles": ["Sh", "Sh"], "percent": 20 },
+        { "alleles": ["Sh", "ShD"], "percent": 22 },
+        { "alleles": ["ShD", "ShD"], "percent": 7 }
+      ]
+    },
+    {
+      "locus": "dun",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["D", "D"], "percent": 36 },
+        { "alleles": ["D", "d1"], "percent": 8 },
+        { "alleles": ["D", "d2"], "percent": 40 },
+        { "alleles": ["d1", "d2"], "percent": 6 },
+        { "alleles": ["d2", "d2"], "percent": 10 }
+      ]
+    },
+    {
+      "locus": "grey",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["G3", "G3"], "percent": 18 },
+        { "alleles": ["G3", "G2"], "percent": 12 },
+        { "alleles": ["G2", "G2"], "percent": 5 },
+        { "alleles": ["G3", "N"], "percent": 27 },
+        { "alleles": ["G2", "N"], "percent": 18 },
+        { "alleles": ["N", "N"], "percent": 20 }
+      ]
+    },
+    {
+      "locus": "roan",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["Rn", "rn"], "percent": 11 },
+        { "alleles": ["rn", "rn"], "percent": 89 }
+      ]
+    },
+    {
+      "locus": "tobiano",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["To", "to"], "percent": 5 },
+        { "alleles": ["to", "to"], "percent": 95 }
+      ]
+    },
+    {
+      "locus": "kit",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["SB1", "N"], "percent": 3 },
+        { "alleles": ["N", "N"], "percent": 97 }
+      ]
+    },
+    {
+      "locus": "leopard",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["LP", "lp"], "percent": 2 },
+        { "alleles": ["lp", "lp"], "percent": 98 }
+      ]
+    }
+  ],
+  "strains": [
+    {
+      "name": "Middle Kolyma",
+      "share": 55,
+      "pools": [
+        {
+          "locus": "dun",
+          "evidence": "estimated",
+          "genotypes": [
+            { "alleles": ["D", "D"], "percent": 42 },
+            { "alleles": ["D", "d1"], "percent": 9 },
+            { "alleles": ["D", "d2"], "percent": 38 },
+            { "alleles": ["d1", "d2"], "percent": 5 },
+            { "alleles": ["d2", "d2"], "percent": 6 }
+          ]
+        },
+        {
+          "locus": "tobiano",
+          "evidence": "estimated",
+          "genotypes": [
+            { "alleles": ["to", "to"], "percent": 100 }
+          ]
+        },
+        {
+          "locus": "kit",
+          "evidence": "estimated",
+          "genotypes": [
+            { "alleles": ["N", "N"], "percent": 100 }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Southern Yakut",
+      "share": 25,
+      "pools": [
+        {
+          "locus": "extension",
+          "evidence": "estimated",
+          "genotypes": [
+            { "alleles": ["E", "E"], "percent": 44 },
+            { "alleles": ["E", "e"], "percent": 45 },
+            { "alleles": ["e", "e"], "percent": 11 }
+          ]
+        },
+        {
+          "locus": "dun",
+          "evidence": "estimated",
+          "genotypes": [
+            { "alleles": ["D", "D"], "percent": 34 },
+            { "alleles": ["D", "d1"], "percent": 8 },
+            { "alleles": ["D", "d2"], "percent": 40 },
+            { "alleles": ["d1", "d2"], "percent": 7 },
+            { "alleles": ["d2", "d2"], "percent": 11 }
+          ]
+        },
+        {
+          "locus": "tobiano",
+          "evidence": "estimated",
+          "genotypes": [
+            { "alleles": ["to", "to"], "percent": 100 }
+          ]
+        },
+        {
+          "locus": "kit",
+          "evidence": "estimated",
+          "genotypes": [
+            { "alleles": ["N", "N"], "percent": 100 }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Megezh / Olekminsk",
+      "share": 20,
+      "pools": [
+        {
+          "locus": "dun",
+          "evidence": "estimated",
+          "genotypes": [
+            { "alleles": ["D", "D"], "percent": 14 },
+            { "alleles": ["D", "d1"], "percent": 7 },
+            { "alleles": ["D", "d2"], "percent": 37 },
+            { "alleles": ["d1", "d2"], "percent": 9 },
+            { "alleles": ["d2", "d2"], "percent": 33 }
+          ]
+        },
+        {
+          "locus": "roan",
+          "evidence": "estimated",
+          "genotypes": [
+            { "alleles": ["Rn", "rn"], "percent": 21 },
+            { "alleles": ["rn", "rn"], "percent": 79 }
+          ]
+        },
+        {
+          "locus": "tobiano",
+          "evidence": "estimated",
+          "genotypes": [
+            { "alleles": ["To", "to"], "percent": 12 },
+            { "alleles": ["to", "to"], "percent": 88 }
+          ]
+        },
+        {
+          "locus": "kit",
+          "evidence": "estimated",
+          "genotypes": [
+            { "alleles": ["SB1", "N"], "percent": 12 },
+            { "alleles": ["N", "N"], "percent": 88 }
+          ]
+        }
+      ]
+    }
+  ],
+  "citations": []
+}

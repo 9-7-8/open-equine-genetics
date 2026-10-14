@@ -1,0 +1,181 @@
+{
+  "format": 1,
+  "id": "chincoteague_pony",
+  "species": "horse",
+  "name": "Chincoteague Pony",
+  "country": "united_states",
+  "description": "A small, weatherproof salt-marsh pony off a barrier island, and the most reliably pinto thing running wild. Blue eyes are common.",
+  "scores": { "evidence": "abstracted", "speed": 4, "jump": 5, "health": 9, "pull": 3 },
+  "pools": [
+    {
+      "locus": "extension",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["E", "E"], "percent": 41 },
+        { "alleles": ["E", "e"], "percent": 46 },
+        { "alleles": ["e", "e"], "percent": 13 }
+      ]
+    },
+    {
+      "locus": "agouti",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["A", "A"], "percent": 45 },
+        { "alleles": ["A", "a"], "percent": 44 },
+        { "alleles": ["a", "a"], "percent": 11 }
+      ]
+    },
+    {
+      "locus": "shade",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["ShL", "ShL"], "percent": 9 },
+        { "alleles": ["ShL", "Sh"], "percent": 27 },
+        { "alleles": ["ShL", "ShD"], "percent": 15 },
+        { "alleles": ["Sh", "Sh"], "percent": 20 },
+        { "alleles": ["Sh", "ShD"], "percent": 22 },
+        { "alleles": ["ShD", "ShD"], "percent": 7 }
+      ]
+    },
+    {
+      "locus": "matp",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["Cr", "Cr"], "percent": 4 },
+        { "alleles": ["Cr", "N"], "percent": 32 },
+        { "alleles": ["N", "N"], "percent": 64 }
+      ]
+    },
+    {
+      "locus": "grey",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["G3", "N"], "percent": 13 },
+        { "alleles": ["N", "N"], "percent": 87 }
+      ]
+    },
+    {
+      "locus": "dun",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["D", "d2"], "percent": 6 },
+        { "alleles": ["d1", "d2"], "percent": 10 },
+        { "alleles": ["d2", "d2"], "percent": 84 }
+      ]
+    },
+    {
+      "locus": "flaxen",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["Fl1", "Fl1"], "percent": 49 },
+        { "alleles": ["Fl1", "f"], "percent": 42 },
+        { "alleles": ["f", "f"], "percent": 9 }
+      ]
+    },
+    {
+      "locus": "silver",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["Z", "z"], "percent": 3 },
+        { "alleles": ["z", "z"], "percent": 97 }
+      ]
+    },
+    {
+      "locus": "roan",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["Rn", "rn"], "percent": 6 },
+        { "alleles": ["rn", "rn"], "percent": 94 }
+      ]
+    },
+    {
+      "locus": "rabicano",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["Rb", "rb"], "percent": 16 },
+        { "alleles": ["rb", "rb"], "percent": 84 }
+      ]
+    },
+    {
+      "locus": "ednrb",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["O", "N"], "percent": 4 },
+        { "alleles": ["N", "N"], "percent": 96 }
+      ]
+    },
+    {
+      "locus": "acan",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["D5", "N"], "percent": 2 },
+        { "alleles": ["N", "N"], "percent": 98 }
+      ]
+    }
+  ],
+  "strains": [
+    {
+      "name": "Traditional Assateague",
+      "share": 80,
+      "pools": [
+        {
+          "locus": "tobiano",
+          "evidence": "estimated",
+          "genotypes": [
+            { "alleles": ["To", "To"], "percent": 28 },
+            { "alleles": ["To", "to"], "percent": 50 },
+            { "alleles": ["to", "to"], "percent": 22 }
+          ]
+        },
+        {
+          "locus": "mitf",
+          "evidence": "estimated",
+          "genotypes": [
+            { "alleles": ["SW1", "N"], "percent": 45 },
+            { "alleles": ["N", "N"], "percent": 55 }
+          ]
+        },
+        {
+          "locus": "kit",
+          "evidence": "estimated",
+          "genotypes": [
+            { "alleles": ["SB1", "N"], "percent": 28 },
+            { "alleles": ["W20", "N"], "percent": 11 },
+            { "alleles": ["N", "N"], "percent": 61 }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Sport Type",
+      "share": 20,
+      "pools": [
+        {
+          "locus": "tobiano",
+          "evidence": "estimated",
+          "genotypes": [
+            { "alleles": ["To", "to"], "percent": 45 },
+            { "alleles": ["to", "to"], "percent": 55 }
+          ]
+        },
+        {
+          "locus": "mitf",
+          "evidence": "estimated",
+          "genotypes": [
+            { "alleles": ["SW1", "N"], "percent": 35 },
+            { "alleles": ["N", "N"], "percent": 65 }
+          ]
+        },
+        {
+          "locus": "kit",
+          "evidence": "estimated",
+          "genotypes": [
+            { "alleles": ["SB1", "N"], "percent": 22 },
+            { "alleles": ["N", "N"], "percent": 78 }
+          ]
+        }
+      ]
+    }
+  ],
+  "citations": []
+}

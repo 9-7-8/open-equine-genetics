@@ -1,0 +1,157 @@
+{
+  "format": 1,
+  "id": "pony_of_the_americas",
+  "species": "horse",
+  "name": "Pony of the Americas",
+  "country": "united_states",
+  "scores": { "evidence": "abstracted", "speed": 5, "jump": 5, "health": 8, "pull": 4 },
+  "pools": [
+    {
+      "locus": "extension",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["E", "E"], "percent": 44 },
+        { "alleles": ["E", "e"], "percent": 45 },
+        { "alleles": ["e", "e"], "percent": 11 }
+      ]
+    },
+    {
+      "locus": "agouti",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["A", "A"], "percent": 38 },
+        { "alleles": ["A", "a"], "percent": 47 },
+        { "alleles": ["a", "a"], "percent": 15 }
+      ]
+    },
+    {
+      "locus": "shade",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["ShL", "ShL"], "percent": 9 },
+        { "alleles": ["ShL", "Sh"], "percent": 27 },
+        { "alleles": ["ShL", "ShD"], "percent": 15 },
+        { "alleles": ["Sh", "Sh"], "percent": 20 },
+        { "alleles": ["Sh", "ShD"], "percent": 22 },
+        { "alleles": ["ShD", "ShD"], "percent": 7 }
+      ]
+    },
+    {
+      "locus": "matp",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["Cr", "Cr"], "percent": 1 },
+        { "alleles": ["Cr", "N"], "percent": 18 },
+        { "alleles": ["N", "N"], "percent": 81 }
+      ]
+    },
+    {
+      "locus": "flaxen",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["Fl1", "f"], "percent": 10 },
+        { "alleles": ["f", "f"], "percent": 90 }
+      ]
+    },
+    {
+      "locus": "dun",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["D", "d2"], "percent": 11 },
+        { "alleles": ["d1", "d2"], "percent": 6 },
+        { "alleles": ["d2", "d2"], "percent": 83 }
+      ]
+    },
+    {
+      "locus": "grey",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["G3", "N"], "percent": 6 },
+        { "alleles": ["G2", "N"], "percent": 4 },
+        { "alleles": ["N", "N"], "percent": 90 }
+      ]
+    },
+    {
+      "locus": "roan",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["Rn", "rn"], "percent": 15 },
+        { "alleles": ["rn", "rn"], "percent": 85 }
+      ]
+    },
+    {
+      "locus": "leopard",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["LP", "LP"], "percent": 28 },
+        { "alleles": ["LP", "lp"], "percent": 72 }
+      ]
+    },
+    {
+      "locus": "patn1",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["PATN1", "PATN1"], "percent": 12 },
+        { "alleles": ["PATN1", "n"], "percent": 45 },
+        { "alleles": ["n", "n"], "percent": 43 }
+      ]
+    },
+    {
+      "locus": "patn2",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["PATN2", "n"], "percent": 35 },
+        { "alleles": ["n", "n"], "percent": 65 }
+      ]
+    }
+  ],
+  "strains": [
+    {
+      "name": "Blanket and Leopard",
+      "share": 55,
+      "pools": [
+        {
+          "locus": "patn1",
+          "evidence": "estimated",
+          "genotypes": [
+            { "alleles": ["PATN1", "PATN1"], "percent": 25 },
+            { "alleles": ["PATN1", "n"], "percent": 50 },
+            { "alleles": ["n", "n"], "percent": 25 }
+          ]
+        },
+        {
+          "locus": "patn2",
+          "evidence": "estimated",
+          "genotypes": [
+            { "alleles": ["PATN2", "PATN2"], "percent": 10 },
+            { "alleles": ["PATN2", "n"], "percent": 45 },
+            { "alleles": ["n", "n"], "percent": 45 }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Varnish and Snowflake",
+      "share": 45,
+      "pools": [
+        {
+          "locus": "patn1",
+          "evidence": "estimated",
+          "genotypes": [
+            { "alleles": ["PATN1", "n"], "percent": 30 },
+            { "alleles": ["n", "n"], "percent": 70 }
+          ]
+        },
+        {
+          "locus": "patn2",
+          "evidence": "estimated",
+          "genotypes": [
+            { "alleles": ["PATN2", "n"], "percent": 22 },
+            { "alleles": ["n", "n"], "percent": 78 }
+          ]
+        }
+      ]
+    }
+  ],
+  "citations": []
+}

@@ -208,6 +208,27 @@ THE PUBLISHED REPOSITORY
 - No CONTRIBUTING file and no automatic run of the validator on a push.
 - Local file paths are in the first four commits' history. The owner said that is fine.
 
+BREEDS
+- breeds/ is a first export of the mod's 121 natural breeds (2026-10-14), by
+  knowledge/how-this-was-exported/export-breeds.mjs. The format (knowledge/format.txt,
+  BREEDS) is the session's draft; the owner has not reviewed it.
+- Every pool is the mod's estimate ("estimated"), tuned for a game. Some contradict the
+  published tables in the gene files: the Arabian has 2.4% toe1 carriers and 2.2% myo5a
+  carriers, where genes/toe1.json gives about 20% and genes/myo5a.json 10.3% (Egyptian)
+  and 1.8%. Pools were exported as the mod has them, not corrected.
+- Five pools give a share to an allele this data does not confirm: andalusian (mitf SW9,
+  pax3 SW10), chincoteague_pony (acan D5), gypsy_vanner (matp sno, a candidate) and
+  tennessee_walking (matp sun, disputed).
+- Eight pools whose weights did not sum to 100 were scaled to 100: arabian dmrt3,
+  gypsy_vanner matp, karakachan extension and agouti, kiso extension and dun, morgan
+  dmrt3, standardbred matp. Most were off by a rounding step; karakachan and kiso by up
+  to half a percent.
+- Not exported: the mod's "notes" on each breed, which hold its reasons and some real
+  facts mixed with game wording; the body-size model scale; "commonness"; the heat and
+  cold pools. No breed has a real height, weight, type or citation.
+- "country" is the mod's id ("saudi_arabia"), not a standard code (TODO 5.8).
+- welsh_pony's speed score is a range, [4, 6], as in the mod.
+
 OPEN RESEARCH QUESTIONS
 =======================
 Rewritten 2026-10-12 after the owner's round-two answers (knowledge/science/round-2-answers.txt);

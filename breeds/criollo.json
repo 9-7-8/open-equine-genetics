@@ -1,0 +1,166 @@
+{
+  "format": 1,
+  "id": "criollo",
+  "species": "horse",
+  "name": "Criollo",
+  "country": "argentina",
+  "scores": { "evidence": "abstracted", "speed": 6, "jump": 6, "health": 10, "pull": 5 },
+  "pools": [
+    {
+      "locus": "extension",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["E", "E"], "percent": 45 },
+        { "alleles": ["E", "e"], "percent": 44 },
+        { "alleles": ["e", "e"], "percent": 11 }
+      ]
+    },
+    {
+      "locus": "agouti",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["A", "A"], "percent": 45 },
+        { "alleles": ["A", "a"], "percent": 44 },
+        { "alleles": ["a", "a"], "percent": 11 }
+      ]
+    },
+    {
+      "locus": "shade",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["ShL", "ShL"], "percent": 9 },
+        { "alleles": ["ShL", "Sh"], "percent": 27 },
+        { "alleles": ["ShL", "ShD"], "percent": 15 },
+        { "alleles": ["Sh", "Sh"], "percent": 20 },
+        { "alleles": ["Sh", "ShD"], "percent": 22 },
+        { "alleles": ["ShD", "ShD"], "percent": 7 }
+      ]
+    },
+    {
+      "locus": "grey",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["G3", "N"], "percent": 10 },
+        { "alleles": ["G2", "N"], "percent": 6 },
+        { "alleles": ["N", "N"], "percent": 84 }
+      ]
+    },
+    {
+      "locus": "roan",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["Rn", "rn"], "percent": 21 },
+        { "alleles": ["rn", "rn"], "percent": 79 }
+      ]
+    },
+    {
+      "locus": "flaxen",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["Fl1", "Fl1"], "percent": 5 },
+        { "alleles": ["Fl1", "f"], "percent": 35 },
+        { "alleles": ["f", "f"], "percent": 60 }
+      ]
+    },
+    {
+      "locus": "silver",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["Z", "z"], "percent": 4 },
+        { "alleles": ["z", "z"], "percent": 96 }
+      ]
+    },
+    {
+      "locus": "kit",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["SB1", "N"], "percent": 17 },
+        { "alleles": ["N", "N"], "percent": 83 }
+      ]
+    },
+    {
+      "locus": "ednrb",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["O", "N"], "percent": 6 },
+        { "alleles": ["N", "N"], "percent": 94 }
+      ]
+    },
+    {
+      "locus": "mitf",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["SW1", "N"], "percent": 4 },
+        { "alleles": ["N", "N"], "percent": 96 }
+      ]
+    },
+    {
+      "locus": "rabicano",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["Rb", "rb"], "percent": 19 },
+        { "alleles": ["rb", "rb"], "percent": 81 }
+      ]
+    },
+    {
+      "locus": "manchado",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["ma", "Ma"], "percent": 6 },
+        { "alleles": ["Ma", "Ma"], "percent": 94 }
+      ]
+    }
+  ],
+  "strains": [
+    {
+      "name": "Traditional Dun Criollo",
+      "share": 70,
+      "pools": [
+        {
+          "locus": "dun",
+          "evidence": "estimated",
+          "genotypes": [
+            { "alleles": ["D", "D"], "percent": 20 },
+            { "alleles": ["D", "d2"], "percent": 45 },
+            { "alleles": ["d1", "d2"], "percent": 12 },
+            { "alleles": ["d2", "d2"], "percent": 23 }
+          ]
+        },
+        {
+          "locus": "matp",
+          "evidence": "estimated",
+          "genotypes": [
+            { "alleles": ["Cr", "Cr"], "percent": 0.81 },
+            { "alleles": ["Cr", "N"], "percent": 16.38 },
+            { "alleles": ["N", "N"], "percent": 82.81 }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Broad-Colour Criollo",
+      "share": 30,
+      "pools": [
+        {
+          "locus": "dun",
+          "evidence": "estimated",
+          "genotypes": [
+            { "alleles": ["D", "d2"], "percent": 25 },
+            { "alleles": ["d1", "d2"], "percent": 15 },
+            { "alleles": ["d2", "d2"], "percent": 60 }
+          ]
+        },
+        {
+          "locus": "matp",
+          "evidence": "estimated",
+          "genotypes": [
+            { "alleles": ["Cr", "Cr"], "percent": 4 },
+            { "alleles": ["Cr", "N"], "percent": 32 },
+            { "alleles": ["N", "N"], "percent": 64 }
+          ]
+        }
+      ]
+    }
+  ],
+  "citations": []
+}

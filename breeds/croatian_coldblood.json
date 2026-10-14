@@ -1,0 +1,92 @@
+{
+  "format": 1,
+  "id": "croatian_coldblood",
+  "species": "horse",
+  "name": "Croatian Coldblood",
+  "country": "croatia",
+  "scores": { "evidence": "abstracted", "speed": 3, "jump": 3, "health": 9, "pull": 8 },
+  "pools": [
+    {
+      "locus": "extension",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["E", "E"], "percent": 20 },
+        { "alleles": ["E", "e"], "percent": 50 },
+        { "alleles": ["e", "e"], "percent": 30 }
+      ]
+    },
+    {
+      "locus": "agouti",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["A", "A"], "percent": 44 },
+        { "alleles": ["A", "a"], "percent": 45 },
+        { "alleles": ["a", "a"], "percent": 11 }
+      ]
+    },
+    {
+      "locus": "shade",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["ShL", "ShL"], "percent": 9 },
+        { "alleles": ["ShL", "Sh"], "percent": 27 },
+        { "alleles": ["ShL", "ShD"], "percent": 15 },
+        { "alleles": ["Sh", "Sh"], "percent": 20 },
+        { "alleles": ["Sh", "ShD"], "percent": 22 },
+        { "alleles": ["ShD", "ShD"], "percent": 7 }
+      ]
+    },
+    {
+      "locus": "grey",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["G3", "N"], "percent": 9 },
+        { "alleles": ["G2", "N"], "percent": 5 },
+        { "alleles": ["N", "N"], "percent": 86 }
+      ]
+    },
+    {
+      "locus": "dun",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["D", "d2"], "percent": 14 },
+        { "alleles": ["d1", "d2"], "percent": 10 },
+        { "alleles": ["d2", "d2"], "percent": 76 }
+      ]
+    },
+    {
+      "locus": "roan",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["Rn", "rn"], "percent": 18 },
+        { "alleles": ["rn", "rn"], "percent": 82 }
+      ]
+    },
+    {
+      "locus": "flaxen",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["Fl1", "Fl1"], "percent": 3 },
+        { "alleles": ["Fl1", "f"], "percent": 26 },
+        { "alleles": ["f", "f"], "percent": 71 }
+      ]
+    },
+    {
+      "locus": "kit",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["SB1", "N"], "percent": 2 },
+        { "alleles": ["N", "N"], "percent": 98 }
+      ]
+    },
+    {
+      "locus": "rabicano",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["Rb", "rb"], "percent": 4 },
+        { "alleles": ["rb", "rb"], "percent": 96 }
+      ]
+    }
+  ],
+  "citations": []
+}

@@ -1,0 +1,67 @@
+{
+  "format": 1,
+  "id": "shire",
+  "species": "horse",
+  "name": "Shire",
+  "country": "united_kingdom",
+  "scores": { "evidence": "abstracted", "speed": 3, "jump": 2, "health": 4, "pull": 10 },
+  "pools": [
+    {
+      "locus": "extension",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["E", "E"], "percent": 62 },
+        { "alleles": ["E", "e"], "percent": 33 },
+        { "alleles": ["e", "e"], "percent": 5 }
+      ]
+    },
+    {
+      "locus": "agouti",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["A", "A"], "percent": 30 },
+        { "alleles": ["A", "a"], "percent": 45 },
+        { "alleles": ["a", "a"], "percent": 25 }
+      ]
+    },
+    {
+      "locus": "shade",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["ShL", "ShL"], "percent": 9 },
+        { "alleles": ["ShL", "Sh"], "percent": 27 },
+        { "alleles": ["ShL", "ShD"], "percent": 15 },
+        { "alleles": ["Sh", "Sh"], "percent": 20 },
+        { "alleles": ["Sh", "ShD"], "percent": 22 },
+        { "alleles": ["ShD", "ShD"], "percent": 7 }
+      ]
+    },
+    {
+      "locus": "kit",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["SB1", "N"], "percent": 40 },
+        { "alleles": ["SB1", "SB1"], "percent": 6 },
+        { "alleles": ["W35", "N"], "percent": 10 },
+        { "alleles": ["N", "N"], "percent": 44 }
+      ]
+    },
+    {
+      "locus": "mitf",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["SW1", "N"], "percent": 55 },
+        { "alleles": ["N", "N"], "percent": 45 }
+      ]
+    },
+    {
+      "locus": "gys1",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["P", "N"], "percent": 2.5 },
+        { "alleles": ["N", "N"], "percent": 97.5 }
+      ]
+    }
+  ],
+  "citations": []
+}

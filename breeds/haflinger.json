@@ -1,0 +1,57 @@
+{
+  "format": 1,
+  "id": "haflinger",
+  "species": "horse",
+  "name": "Haflinger",
+  "country": "austria",
+  "scores": { "evidence": "abstracted", "speed": 5, "jump": 5, "health": 8, "pull": 6 },
+  "pools": [
+    {
+      "locus": "extension",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["e", "e"], "percent": 100 }
+      ]
+    },
+    {
+      "locus": "agouti",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["A", "A"], "percent": 30 },
+        { "alleles": ["A", "a"], "percent": 45 },
+        { "alleles": ["a", "a"], "percent": 25 }
+      ]
+    },
+    {
+      "locus": "shade",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["ShL", "ShL"], "percent": 9 },
+        { "alleles": ["ShL", "Sh"], "percent": 27 },
+        { "alleles": ["ShL", "ShD"], "percent": 15 },
+        { "alleles": ["Sh", "Sh"], "percent": 20 },
+        { "alleles": ["Sh", "ShD"], "percent": 22 },
+        { "alleles": ["ShD", "ShD"], "percent": 7 }
+      ]
+    },
+    {
+      "locus": "roan",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["Rn", "rn"], "percent": 10 },
+        { "alleles": ["rn", "rn"], "percent": 90 }
+      ]
+    },
+    {
+      "locus": "flaxen",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["Fl2", "Fl2"], "percent": 46 },
+        { "alleles": ["Fl2", "Fl1"], "percent": 38 },
+        { "alleles": ["Fl1", "Fl1"], "percent": 14 },
+        { "alleles": ["Fl1", "f"], "percent": 2 }
+      ]
+    }
+  ],
+  "citations": []
+}

@@ -1,0 +1,65 @@
+{
+  "format": 1,
+  "id": "fell_pony",
+  "species": "horse",
+  "name": "Fell Pony",
+  "country": "united_kingdom",
+  "scores": { "evidence": "abstracted", "speed": 4, "jump": 5, "health": 9, "pull": 6 },
+  "pools": [
+    {
+      "locus": "extension",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["E", "E"], "percent": 88 },
+        { "alleles": ["E", "e"], "percent": 11.5 },
+        { "alleles": ["e", "e"], "percent": 0.5 }
+      ]
+    },
+    {
+      "locus": "agouti",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["A", "A"], "percent": 9 },
+        { "alleles": ["A", "a"], "percent": 42 },
+        { "alleles": ["a", "a"], "percent": 49 }
+      ]
+    },
+    {
+      "locus": "shade",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["ShL", "ShL"], "percent": 4 },
+        { "alleles": ["ShL", "Sh"], "percent": 16 },
+        { "alleles": ["ShL", "ShD"], "percent": 14 },
+        { "alleles": ["Sh", "Sh"], "percent": 20 },
+        { "alleles": ["Sh", "ShD"], "percent": 30 },
+        { "alleles": ["ShD", "ShD"], "percent": 16 }
+      ]
+    },
+    {
+      "locus": "grey",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["G3", "N"], "percent": 6 },
+        { "alleles": ["N", "N"], "percent": 94 }
+      ]
+    },
+    {
+      "locus": "kit",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["SB1", "N"], "percent": 1 },
+        { "alleles": ["N", "N"], "percent": 99 }
+      ]
+    },
+    {
+      "locus": "slc5a3",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["fis", "N"], "percent": 38 },
+        { "alleles": ["N", "N"], "percent": 62 }
+      ]
+    }
+  ],
+  "citations": []
+}

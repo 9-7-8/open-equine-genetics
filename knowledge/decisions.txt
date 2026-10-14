@@ -112,6 +112,10 @@ THE AUDIT
   earlier ruling, without asking.
 
 MADE BY THE EXPORTING SESSION, NOT ASKED (change freely, tell the owner)
+- (2026-10-14, when the owner asked for all the mod's natural breeds) The breed format in
+  knowledge/format.txt, BREEDS, and every field name in it; strains as named lines whose
+  pools replace the breed's at the loci they list; the mod's notes, size scale and
+  "commonness" left out; mod weights scaled to percents where they did not sum to 100.
 - The file layout and every field name in knowledge/format.txt.
 - genes/ is one flat folder with a "species" field in each file.
 - "sex" is not exported as a locus.

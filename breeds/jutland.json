@@ -1,0 +1,78 @@
+{
+  "format": 1,
+  "id": "jutland",
+  "species": "horse",
+  "name": "Jutland",
+  "country": "denmark",
+  "scores": { "evidence": "abstracted", "speed": 3, "jump": 3, "health": 9, "pull": 9 },
+  "pools": [
+    {
+      "locus": "extension",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["E", "E"], "percent": 1 },
+        { "alleles": ["E", "e"], "percent": 18 },
+        { "alleles": ["e", "e"], "percent": 81 }
+      ]
+    },
+    {
+      "locus": "agouti",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["A", "A"], "percent": 42 },
+        { "alleles": ["A", "a"], "percent": 46 },
+        { "alleles": ["a", "a"], "percent": 12 }
+      ]
+    },
+    {
+      "locus": "shade",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["ShL", "ShL"], "percent": 9 },
+        { "alleles": ["ShL", "Sh"], "percent": 27 },
+        { "alleles": ["ShL", "ShD"], "percent": 15 },
+        { "alleles": ["Sh", "Sh"], "percent": 20 },
+        { "alleles": ["Sh", "ShD"], "percent": 22 },
+        { "alleles": ["ShD", "ShD"], "percent": 7 }
+      ]
+    },
+    {
+      "locus": "flaxen",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["Fl2", "Fl2"], "percent": 30 },
+        { "alleles": ["Fl2", "Fl1"], "percent": 26 },
+        { "alleles": ["Fl2", "f"], "percent": 12 },
+        { "alleles": ["Fl1", "Fl1"], "percent": 12 },
+        { "alleles": ["Fl1", "f"], "percent": 14 },
+        { "alleles": ["f", "f"], "percent": 6 }
+      ]
+    },
+    {
+      "locus": "grey",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["G3", "N"], "percent": 3 },
+        { "alleles": ["G2", "N"], "percent": 2 },
+        { "alleles": ["N", "N"], "percent": 95 }
+      ]
+    },
+    {
+      "locus": "roan",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["Rn", "rn"], "percent": 4 },
+        { "alleles": ["rn", "rn"], "percent": 96 }
+      ]
+    },
+    {
+      "locus": "silver",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["Z", "z"], "percent": 2 },
+        { "alleles": ["z", "z"], "percent": 98 }
+      ]
+    }
+  ],
+  "citations": []
+}

@@ -1,0 +1,110 @@
+{
+  "format": 1,
+  "id": "appaloosa",
+  "species": "horse",
+  "name": "Appaloosa",
+  "country": "united_states",
+  "scores": { "evidence": "abstracted", "speed": 6, "jump": 7, "health": 7, "pull": 5 },
+  "pools": [
+    {
+      "locus": "extension",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["E", "E"], "percent": 42 },
+        { "alleles": ["E", "e"], "percent": 44 },
+        { "alleles": ["e", "e"], "percent": 14 }
+      ]
+    },
+    {
+      "locus": "agouti",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["A", "A"], "percent": 30 },
+        { "alleles": ["A", "a"], "percent": 45 },
+        { "alleles": ["a", "a"], "percent": 25 }
+      ]
+    },
+    {
+      "locus": "shade",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["ShL", "ShL"], "percent": 9 },
+        { "alleles": ["ShL", "Sh"], "percent": 27 },
+        { "alleles": ["ShL", "ShD"], "percent": 15 },
+        { "alleles": ["Sh", "Sh"], "percent": 20 },
+        { "alleles": ["Sh", "ShD"], "percent": 22 },
+        { "alleles": ["ShD", "ShD"], "percent": 7 }
+      ]
+    },
+    {
+      "locus": "roan",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["Rn", "rn"], "percent": 8 },
+        { "alleles": ["rn", "rn"], "percent": 92 }
+      ]
+    },
+    {
+      "locus": "leopard",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["LP", "lp"], "percent": 55 },
+        { "alleles": ["LP", "LP"], "percent": 20 },
+        { "alleles": ["lp", "lp"], "percent": 25 }
+      ]
+    },
+    {
+      "locus": "patn1",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["PATN1", "n"], "percent": 45 },
+        { "alleles": ["PATN1", "PATN1"], "percent": 8 },
+        { "alleles": ["n", "n"], "percent": 47 }
+      ]
+    },
+    {
+      "locus": "patn2",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["PATN2", "n"], "percent": 20 },
+        { "alleles": ["n", "n"], "percent": 80 }
+      ]
+    },
+    {
+      "locus": "mitf",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["SW1", "N"], "percent": 55 },
+        { "alleles": ["N", "N"], "percent": 45 }
+      ]
+    },
+    {
+      "locus": "pax3",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["SW4", "N"], "percent": 4 },
+        { "alleles": ["N", "N"], "percent": 96 }
+      ]
+    },
+    {
+      "locus": "kit",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["W35", "N"], "percent": 14 },
+        { "alleles": ["W34", "N"], "percent": 5 },
+        { "alleles": ["SB1", "N"], "percent": 8 },
+        { "alleles": ["N", "N"], "percent": 73 }
+      ]
+    },
+    {
+      "locus": "matp",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["Cr", "Cr"], "percent": 0.16 },
+        { "alleles": ["Cr", "N"], "percent": 7.68 },
+        { "alleles": ["N", "N"], "percent": 92.16 }
+      ]
+    }
+  ],
+  "citations": []
+}

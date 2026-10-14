@@ -1,0 +1,50 @@
+{
+  "format": 1,
+  "id": "caspian_pony",
+  "species": "horse",
+  "name": "Caspian Pony",
+  "country": "iran",
+  "scores": { "evidence": "abstracted", "speed": 5, "jump": 4, "health": 7, "pull": 2 },
+  "pools": [
+    {
+      "locus": "extension",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["E", "E"], "percent": 42 },
+        { "alleles": ["E", "e"], "percent": 44 },
+        { "alleles": ["e", "e"], "percent": 14 }
+      ]
+    },
+    {
+      "locus": "agouti",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["A", "A"], "percent": 55 },
+        { "alleles": ["A", "a"], "percent": 38 },
+        { "alleles": ["a", "a"], "percent": 7 }
+      ]
+    },
+    {
+      "locus": "shade",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["ShL", "ShL"], "percent": 9 },
+        { "alleles": ["ShL", "Sh"], "percent": 27 },
+        { "alleles": ["ShL", "ShD"], "percent": 15 },
+        { "alleles": ["Sh", "Sh"], "percent": 20 },
+        { "alleles": ["Sh", "ShD"], "percent": 22 },
+        { "alleles": ["ShD", "ShD"], "percent": 7 }
+      ]
+    },
+    {
+      "locus": "kit",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["SB1", "N"], "percent": 8 },
+        { "alleles": ["W35", "N"], "percent": 6 },
+        { "alleles": ["N", "N"], "percent": 86 }
+      ]
+    }
+  ],
+  "citations": []
+}

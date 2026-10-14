@@ -1,0 +1,41 @@
+{
+  "format": 1,
+  "id": "budyonny",
+  "species": "horse",
+  "name": "Budyonny",
+  "country": "russia",
+  "scores": { "evidence": "abstracted", "speed": 8, "jump": 7, "health": 8, "pull": 5 },
+  "pools": [
+    {
+      "locus": "extension",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["E", "E"], "percent": 1 },
+        { "alleles": ["E", "e"], "percent": 18 },
+        { "alleles": ["e", "e"], "percent": 81 }
+      ]
+    },
+    {
+      "locus": "agouti",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["A", "A"], "percent": 52 },
+        { "alleles": ["A", "a"], "percent": 40 },
+        { "alleles": ["a", "a"], "percent": 8 }
+      ]
+    },
+    {
+      "locus": "shade",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["ShL", "ShL"], "percent": 9 },
+        { "alleles": ["ShL", "Sh"], "percent": 27 },
+        { "alleles": ["ShL", "ShD"], "percent": 15 },
+        { "alleles": ["Sh", "Sh"], "percent": 20 },
+        { "alleles": ["Sh", "ShD"], "percent": 22 },
+        { "alleles": ["ShD", "ShD"], "percent": 7 }
+      ]
+    }
+  ],
+  "citations": []
+}

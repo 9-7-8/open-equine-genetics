@@ -1,0 +1,41 @@
+{
+  "format": 1,
+  "id": "nonius",
+  "species": "horse",
+  "name": "Nonius",
+  "country": "hungary",
+  "scores": { "evidence": "abstracted", "speed": 4, "jump": 4, "health": 8, "pull": 7 },
+  "pools": [
+    {
+      "locus": "extension",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["E", "E"], "percent": 88 },
+        { "alleles": ["E", "e"], "percent": 11 },
+        { "alleles": ["e", "e"], "percent": 1 }
+      ]
+    },
+    {
+      "locus": "agouti",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["A", "A"], "percent": 31 },
+        { "alleles": ["A", "a"], "percent": 49 },
+        { "alleles": ["a", "a"], "percent": 20 }
+      ]
+    },
+    {
+      "locus": "shade",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["ShL", "ShL"], "percent": 2 },
+        { "alleles": ["ShL", "Sh"], "percent": 8 },
+        { "alleles": ["ShL", "ShD"], "percent": 10 },
+        { "alleles": ["Sh", "Sh"], "percent": 15 },
+        { "alleles": ["Sh", "ShD"], "percent": 35 },
+        { "alleles": ["ShD", "ShD"], "percent": 30 }
+      ]
+    }
+  ],
+  "citations": []
+}

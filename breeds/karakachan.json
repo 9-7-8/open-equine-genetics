@@ -1,0 +1,41 @@
+{
+  "format": 1,
+  "id": "karakachan",
+  "species": "horse",
+  "name": "Karakachan Horse",
+  "country": "bulgaria",
+  "scores": { "evidence": "abstracted", "speed": 4, "jump": 5, "health": 10, "pull": 4 },
+  "pools": [
+    {
+      "locus": "extension",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["E", "E"], "percent": 89.7755 },
+        { "alleles": ["E", "e"], "percent": 9.9751 },
+        { "alleles": ["e", "e"], "percent": 0.2494 }
+      ]
+    },
+    {
+      "locus": "agouti",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["A", "A"], "percent": 86.4322 },
+        { "alleles": ["A", "a"], "percent": 13.0653 },
+        { "alleles": ["a", "a"], "percent": 0.5025 }
+      ]
+    },
+    {
+      "locus": "shade",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["ShL", "ShL"], "percent": 9 },
+        { "alleles": ["ShL", "Sh"], "percent": 27 },
+        { "alleles": ["ShL", "ShD"], "percent": 15 },
+        { "alleles": ["Sh", "Sh"], "percent": 20 },
+        { "alleles": ["Sh", "ShD"], "percent": 22 },
+        { "alleles": ["ShD", "ShD"], "percent": 7 }
+      ]
+    }
+  ],
+  "citations": []
+}

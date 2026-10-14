@@ -1,0 +1,101 @@
+{
+  "format": 1,
+  "id": "kiger_mustang",
+  "species": "horse",
+  "name": "Kiger Mustang",
+  "country": "united_states",
+  "scores": { "evidence": "abstracted", "speed": 7, "jump": 5, "health": 10, "pull": 4 },
+  "pools": [
+    {
+      "locus": "extension",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["E", "E"], "percent": 42 },
+        { "alleles": ["E", "e"], "percent": 44 },
+        { "alleles": ["e", "e"], "percent": 14 }
+      ]
+    },
+    {
+      "locus": "agouti",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["A", "A"], "percent": 55 },
+        { "alleles": ["A", "a"], "percent": 38 },
+        { "alleles": ["a", "a"], "percent": 7 }
+      ]
+    },
+    {
+      "locus": "shade",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["ShL", "ShL"], "percent": 9 },
+        { "alleles": ["ShL", "Sh"], "percent": 27 },
+        { "alleles": ["ShL", "ShD"], "percent": 15 },
+        { "alleles": ["Sh", "Sh"], "percent": 20 },
+        { "alleles": ["Sh", "ShD"], "percent": 22 },
+        { "alleles": ["ShD", "ShD"], "percent": 7 }
+      ]
+    },
+    {
+      "locus": "matp",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["Cr", "Cr"], "percent": 0.09 },
+        { "alleles": ["Cr", "N"], "percent": 5.82 },
+        { "alleles": ["N", "N"], "percent": 94.09 }
+      ]
+    },
+    {
+      "locus": "dun",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["D", "d2"], "percent": 55 },
+        { "alleles": ["D", "D"], "percent": 20 },
+        { "alleles": ["d1", "d2"], "percent": 10 },
+        { "alleles": ["d2", "d2"], "percent": 15 }
+      ]
+    },
+    {
+      "locus": "leopard",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["LP", "lp"], "percent": 22 },
+        { "alleles": ["LP", "LP"], "percent": 3 },
+        { "alleles": ["lp", "lp"], "percent": 75 }
+      ]
+    },
+    {
+      "locus": "patn1",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["PATN1", "n"], "percent": 25 },
+        { "alleles": ["n", "n"], "percent": 75 }
+      ]
+    },
+    {
+      "locus": "patn2",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["PATN2", "n"], "percent": 12 },
+        { "alleles": ["n", "n"], "percent": 88 }
+      ]
+    },
+    {
+      "locus": "ppib",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["herda", "N"], "percent": 3.4 },
+        { "alleles": ["N", "N"], "percent": 96.6 }
+      ]
+    },
+    {
+      "locus": "gbe1",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["gbed", "N"], "percent": 2 },
+        { "alleles": ["N", "N"], "percent": 98 }
+      ]
+    }
+  ],
+  "citations": []
+}

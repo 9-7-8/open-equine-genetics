@@ -1,0 +1,58 @@
+{
+  "format": 1,
+  "id": "percheron",
+  "species": "horse",
+  "name": "Percheron",
+  "country": "france",
+  "scores": { "evidence": "abstracted", "speed": 4, "jump": 3, "health": 6, "pull": 10 },
+  "pools": [
+    {
+      "locus": "extension",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["E", "E"], "percent": 62 },
+        { "alleles": ["E", "e"], "percent": 33 },
+        { "alleles": ["e", "e"], "percent": 5 }
+      ]
+    },
+    {
+      "locus": "agouti",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["A", "A"], "percent": 30 },
+        { "alleles": ["A", "a"], "percent": 45 },
+        { "alleles": ["a", "a"], "percent": 25 }
+      ]
+    },
+    {
+      "locus": "shade",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["ShL", "ShL"], "percent": 9 },
+        { "alleles": ["ShL", "Sh"], "percent": 27 },
+        { "alleles": ["ShL", "ShD"], "percent": 15 },
+        { "alleles": ["Sh", "Sh"], "percent": 20 },
+        { "alleles": ["Sh", "ShD"], "percent": 22 },
+        { "alleles": ["ShD", "ShD"], "percent": 7 }
+      ]
+    },
+    {
+      "locus": "grey",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["G3", "N"], "percent": 58 },
+        { "alleles": ["G3", "G3"], "percent": 30 },
+        { "alleles": ["N", "N"], "percent": 12 }
+      ]
+    },
+    {
+      "locus": "gys1",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["P", "N"], "percent": 2.5 },
+        { "alleles": ["N", "N"], "percent": 97.5 }
+      ]
+    }
+  ],
+  "citations": []
+}

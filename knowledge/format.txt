@@ -101,6 +101,41 @@ RULES A CHANGE MUST KEEP  (tools/validate.mjs checks 2 to 5)
 5. Evidence is never left out and never defaulted.
 6. A "published" claim needs a citation in the same change.
 
+BREEDS (format 1, a draft)
+--------------------------
+One file per natural breed: breeds/<id>.json. Written by the session that exported the
+mod's breeds on 2026-10-14 (knowledge/how-this-was-exported/export-breeds.mjs). The owner
+has not reviewed it; every field name is the session's choice.
+
+format        integer. 1.
+id            the breed id, lower case with underscores, the same as the mod's. The file
+              name without .json.
+species       "horse".
+name          a readable name.
+country       the country of origin, as the mod writes it ("saudi_arabia"). Not yet a
+              standard code.
+description   optional. A sentence or two; only five breeds have one.
+scores        the mod's 1-10 scores, which are not measurements. "evidence" is always
+              "abstracted". "speed", "jump", "health" and "pull" are each a number, or
+              [low, high] where the mod gives a range.
+pools         the breed's gene pools, one per locus it has one at. A locus with no pool
+              here is at its usual frequency (the gene file's tables).
+  locus         a locus id from genes/.
+  evidence      "estimated" (a number of the mod's) or "published" (from a cited survey).
+  genotypes     alleles + percent, as in a gene file's frequency table. Each pair must be a
+                genotype of the locus. Percents sum to 100.
+strains       optional. Named lines within a breed whose pools differ at some loci.
+  name          a readable name.
+  share         the percent of the breed in this strain. Shares sum to 100.
+  pools         as above. At each locus a strain lists, its pool replaces the breed's for
+                horses of that strain; at every other locus the breed's pool applies.
+citations     list, as in a gene file. Empty for every breed so far.
+
+Left out of the mod's breed files on purpose: magical breeds, biomes and spawn rules,
+prices, "commonness" (how often the game spawns it), the body-size model scale (not a
+height), the heat- and cold-tolerance pools, and the free-text "notes", which mix facts
+with notes about the game and have not been sorted.
+
 mod-map.json
 ------------
 Not part of the science. One row per locus: "locus" (the id here), "mod_key" (the key the

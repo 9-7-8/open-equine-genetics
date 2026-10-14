@@ -1,0 +1,62 @@
+{
+  "format": 1,
+  "id": "lusitano",
+  "species": "horse",
+  "name": "Lusitano",
+  "country": "portugal",
+  "scores": { "evidence": "abstracted", "speed": 6, "jump": 8, "health": 6, "pull": 5 },
+  "pools": [
+    {
+      "locus": "extension",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["E", "E"], "percent": 62 },
+        { "alleles": ["E", "e"], "percent": 33 },
+        { "alleles": ["e", "e"], "percent": 5 }
+      ]
+    },
+    {
+      "locus": "agouti",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["A", "A"], "percent": 30 },
+        { "alleles": ["A", "a"], "percent": 45 },
+        { "alleles": ["a", "a"], "percent": 25 }
+      ]
+    },
+    {
+      "locus": "shade",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["ShL", "ShL"], "percent": 9 },
+        { "alleles": ["ShL", "Sh"], "percent": 27 },
+        { "alleles": ["ShL", "ShD"], "percent": 15 },
+        { "alleles": ["Sh", "Sh"], "percent": 20 },
+        { "alleles": ["Sh", "ShD"], "percent": 22 },
+        { "alleles": ["ShD", "ShD"], "percent": 7 }
+      ]
+    },
+    {
+      "locus": "grey",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["G3", "N"], "percent": 44 },
+        { "alleles": ["G3", "G3"], "percent": 18 },
+        { "alleles": ["N", "N"], "percent": 38 }
+      ]
+    },
+    {
+      "locus": "matp",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["Cr", "Cr"], "percent": 0.36 },
+        { "alleles": ["Cr", "prl"], "percent": 0.77 },
+        { "alleles": ["Cr", "N"], "percent": 10.51 },
+        { "alleles": ["prl", "prl"], "percent": 0.41 },
+        { "alleles": ["prl", "N"], "percent": 11.21 },
+        { "alleles": ["N", "N"], "percent": 76.74 }
+      ]
+    }
+  ],
+  "citations": []
+}

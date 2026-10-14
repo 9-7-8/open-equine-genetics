@@ -1,0 +1,58 @@
+{
+  "format": 1,
+  "id": "lipizzan",
+  "species": "horse",
+  "name": "Lipizzan",
+  "country": "austria",
+  "scores": { "evidence": "abstracted", "speed": 5, "jump": 7, "health": 7, "pull": 5 },
+  "pools": [
+    {
+      "locus": "extension",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["E", "E"], "percent": 42 },
+        { "alleles": ["E", "e"], "percent": 44 },
+        { "alleles": ["e", "e"], "percent": 14 }
+      ]
+    },
+    {
+      "locus": "agouti",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["A", "A"], "percent": 30 },
+        { "alleles": ["A", "a"], "percent": 45 },
+        { "alleles": ["a", "a"], "percent": 25 }
+      ]
+    },
+    {
+      "locus": "shade",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["ShL", "ShL"], "percent": 9 },
+        { "alleles": ["ShL", "Sh"], "percent": 27 },
+        { "alleles": ["ShL", "ShD"], "percent": 15 },
+        { "alleles": ["Sh", "Sh"], "percent": 20 },
+        { "alleles": ["Sh", "ShD"], "percent": 22 },
+        { "alleles": ["ShD", "ShD"], "percent": 7 }
+      ]
+    },
+    {
+      "locus": "grey",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["G3", "N"], "percent": 60 },
+        { "alleles": ["G3", "G3"], "percent": 34 },
+        { "alleles": ["N", "N"], "percent": 6 }
+      ]
+    },
+    {
+      "locus": "pax3",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["SW2", "N"], "percent": 12 },
+        { "alleles": ["N", "N"], "percent": 88 }
+      ]
+    }
+  ],
+  "citations": []
+}

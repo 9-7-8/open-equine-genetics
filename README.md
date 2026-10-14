@@ -28,13 +28,16 @@ What is known to be wrong or unproven is listed in
 | Path | What it is |
 | --- | --- |
 | `genes/` | 68 loci, one JSON file each: 42 published, 26 abstracted. |
+| `breeds/` | 121 natural breeds, one JSON file each: gene pools and 1-10 scores, all estimates from the mod. |
 | `knowledge/format.txt` | The file format, field by field, and the rules a change must keep. |
 | `knowledge/science/` | Science notes per gene, copied from the mod's wiki. A secondary source. |
 | `knowledge/` | Everything else a maintainer needs; start at `knowledge/START-HERE.txt`. |
 | `mod-map.json` | How each locus maps to the mod's saved gene keys. Only the mod needs it. |
-| `tools/validate.mjs` | Checks every gene file against the format: `node tools/validate.mjs` (Node 22+, no packages). |
+| `tools/validate.mjs` | Checks every gene and breed file against the format: `node tools/validate.mjs` (Node 22+, no packages). |
 
-Breeds are planned and not here yet.
+The breeds are a first export from the mod in a draft format (`knowledge/format.txt`,
+BREEDS). Every gene pool in them is the mod's estimate, not a survey, and no breed has a
+citation yet.
 
 ## The format in brief
 

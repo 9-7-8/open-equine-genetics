@@ -173,9 +173,79 @@ try {
   problems.push(`mod-map.json: ${e.message}`);
 }
 
+// Breeds (knowledge/format.txt, BREEDS). Every pool names a real locus and pairs it can have.
+let breedCount = 0;
+let breedFiles = [];
+try {
+  breedFiles = readdirSync(join(root, "breeds")).filter((f) => f.endsWith(".json")).sort();
+} catch {
+  // No breeds folder yet is not an error.
+}
+const pairsOf = new Map([...genes.values()].map((g) => [g.id, new Set((g.genotypes ?? []).map((r) => key(r.alleles)))]));
+const isScore = (v) => (typeof v === "number" && v >= 1 && v <= 10) || (Array.isArray(v) && v.length === 2 && v.every((x) => typeof x === "number" && x >= 1 && x <= 10) && v[0] <= v[1]);
+for (const file of breedFiles) {
+  const bad = (msg) => problems.push(`breeds/${file}: ${msg}`);
+  let b;
+  const text = readFileSync(join(root, "breeds", file), "utf8");
+  try {
+    b = JSON.parse(text);
+  } catch (e) {
+    bad(`does not parse: ${e.message}`);
+    continue;
+  }
+  breedCount++;
+  if (b.format !== 1) bad(`format is ${b.format}, expected 1`);
+  if (`${b.id}.json` !== file) bad(`id "${b.id}" does not match the file name`);
+  if (b.species !== "horse") bad(`species is "${b.species}"`);
+  for (const f of ["name", "country"]) if (!b[f]) bad(`"${f}" is empty`);
+  // Nothing from a game: no game ids, biomes or spawn rules.
+  if (/minecraft:|"(biomes|spawn[a-z_]*|price|commonness|kind)"/.test(text)) bad("has a game-only field or value");
+  const s = b.scores ?? {};
+  if (s.evidence !== "abstracted") bad(`scores evidence is "${s.evidence}"`);
+  for (const f of ["speed", "jump", "health", "pull"]) if (!isScore(s[f])) bad(`score "${f}" is ${JSON.stringify(s[f])}`);
+  const checkPools = (pools, where) => {
+    if (!Array.isArray(pools)) return bad(`${where}: no pools list`);
+    const loci = new Set();
+    for (const p of pools) {
+      const w = `${where} ${p.locus}`;
+      if (!genes.has(p.locus)) { bad(`${w}: unknown locus`); continue; }
+      if (loci.has(p.locus)) bad(`${w}: locus listed twice`);
+      loci.add(p.locus);
+      if (!FREQ_EVIDENCE.includes(p.evidence)) bad(`${w}: evidence "${p.evidence}"`);
+      let sum = 0;
+      const seen = new Set();
+      for (const row of p.genotypes ?? []) {
+        const k = Array.isArray(row.alleles) && row.alleles.length === 2 ? key(row.alleles) : "?";
+        if (!pairsOf.get(p.locus).has(k)) bad(`${w}: ${k} is not a genotype of the locus`);
+        if (seen.has(k)) bad(`${w}: ${k} listed twice`);
+        seen.add(k);
+        if (!(row.percent >= 0)) bad(`${w}: ${k} percent is ${row.percent}`);
+        sum += row.percent;
+      }
+      if (Math.abs(sum - 100) > 0.01) bad(`${w}: sums to ${sum.toFixed(4)}, not 100`);
+    }
+  };
+  checkPools(b.pools, "pools");
+  if (b.strains !== undefined) {
+    let share = 0;
+    for (const st of b.strains) {
+      if (!st.name) bad("a strain has no name");
+      share += st.share;
+      checkPools(st.pools, `strain "${st.name}"`);
+    }
+    if (Math.abs(share - 100) > 0.01) bad(`strain shares sum to ${share.toFixed(4)}, not 100`);
+  }
+  if (!Array.isArray(b.citations)) bad("no citations list");
+  for (const c of b.citations ?? []) {
+    if (!SOURCES.includes(c.source)) bad(`citation source "${c.source}"`);
+    if (!/^https?:\/\//.test(c.url ?? "")) bad(`citation url "${c.url}"`);
+    if (typeof c.verified !== "boolean") bad(`citation "${c.label}" does not say whether it was verified`);
+  }
+}
+
 if (problems.length) {
   console.log(problems.join("\n"));
-  console.log(`\n${problems.length} problem(s) in ${genes.size} gene files`);
+  console.log(`\n${problems.length} problem(s) in ${genes.size} gene files and ${breedCount} breed files`);
   process.exit(1);
 }
-console.log(`OK - ${genes.size} gene files and mod-map.json pass every check`);
+console.log(`OK - ${genes.size} gene files, ${breedCount} breed files and mod-map.json pass every check`);

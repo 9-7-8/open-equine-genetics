@@ -1,0 +1,41 @@
+{
+  "format": 1,
+  "id": "przewalski",
+  "species": "horse",
+  "name": "Przewalski's Horse",
+  "country": "mongolia",
+  "scores": { "evidence": "abstracted", "speed": 6, "jump": 3, "health": 10, "pull": 4 },
+  "pools": [
+    {
+      "locus": "extension",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["E", "E"], "percent": 92 },
+        { "alleles": ["E", "e"], "percent": 8 }
+      ]
+    },
+    {
+      "locus": "agouti",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["A", "A"], "percent": 88 },
+        { "alleles": ["A", "a"], "percent": 12 }
+      ]
+    },
+    {
+      "locus": "dun",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["D", "D"], "percent": 100 }
+      ]
+    },
+    {
+      "locus": "dmrt3",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["C", "C"], "percent": 100 }
+      ]
+    }
+  ],
+  "citations": []
+}

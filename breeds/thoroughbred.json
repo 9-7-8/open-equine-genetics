@@ -1,0 +1,97 @@
+{
+  "format": 1,
+  "id": "thoroughbred",
+  "species": "horse",
+  "name": "Thoroughbred",
+  "country": "united_kingdom",
+  "scores": { "evidence": "abstracted", "speed": 10, "jump": 8, "health": 4, "pull": 4 },
+  "pools": [
+    {
+      "locus": "extension",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["E", "E"], "percent": 42 },
+        { "alleles": ["E", "e"], "percent": 44 },
+        { "alleles": ["e", "e"], "percent": 14 }
+      ]
+    },
+    {
+      "locus": "agouti",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["A", "A"], "percent": 55 },
+        { "alleles": ["A", "a"], "percent": 38 },
+        { "alleles": ["a", "a"], "percent": 7 }
+      ]
+    },
+    {
+      "locus": "shade",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["ShL", "ShL"], "percent": 9 },
+        { "alleles": ["ShL", "Sh"], "percent": 27 },
+        { "alleles": ["ShL", "ShD"], "percent": 15 },
+        { "alleles": ["Sh", "Sh"], "percent": 20 },
+        { "alleles": ["Sh", "ShD"], "percent": 22 },
+        { "alleles": ["ShD", "ShD"], "percent": 7 }
+      ]
+    },
+    {
+      "locus": "grey",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["G3", "N"], "percent": 14 },
+        { "alleles": ["N", "N"], "percent": 86 }
+      ]
+    },
+    {
+      "locus": "roan",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["Rn", "rn"], "percent": 8 },
+        { "alleles": ["rn", "rn"], "percent": 92 }
+      ]
+    },
+    {
+      "locus": "mitf",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["SW1", "N"], "percent": 60 },
+        { "alleles": ["N", "N"], "percent": 40 }
+      ]
+    },
+    {
+      "locus": "kit",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["W20", "N"], "percent": 34 },
+        { "alleles": ["W32", "N"], "percent": 6 },
+        { "alleles": ["W35", "N"], "percent": 8 },
+        { "alleles": ["W5", "N"], "percent": 1 },
+        { "alleles": ["W22", "N"], "percent": 1 },
+        { "alleles": ["W2", "N"], "percent": 0.04 },
+        { "alleles": ["W14", "N"], "percent": 0.04 },
+        { "alleles": ["W25", "N"], "percent": 0.02 },
+        { "alleles": ["W26", "N"], "percent": 0.02 },
+        { "alleles": ["W27", "N"], "percent": 0.04 },
+        { "alleles": ["N", "N"], "percent": 49.84 }
+      ]
+    },
+    {
+      "locus": "matp",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["Cr", "N"], "percent": 0.4 },
+        { "alleles": ["N", "N"], "percent": 99.6 }
+      ]
+    },
+    {
+      "locus": "dmrt3",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["C", "C"], "percent": 100 }
+      ]
+    }
+  ],
+  "citations": []
+}

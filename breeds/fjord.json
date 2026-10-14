@@ -1,0 +1,66 @@
+{
+  "format": 1,
+  "id": "fjord",
+  "species": "horse",
+  "name": "Norwegian Fjord",
+  "country": "norway",
+  "scores": { "evidence": "abstracted", "speed": 4, "jump": 3, "health": 9, "pull": 7 },
+  "pools": [
+    {
+      "locus": "extension",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["E", "E"], "percent": 75 },
+        { "alleles": ["E", "e"], "percent": 25 }
+      ]
+    },
+    {
+      "locus": "agouti",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["a", "a"], "percent": 100 }
+      ]
+    },
+    {
+      "locus": "shade",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["ShL", "ShL"], "percent": 9 },
+        { "alleles": ["ShL", "Sh"], "percent": 27 },
+        { "alleles": ["ShL", "ShD"], "percent": 15 },
+        { "alleles": ["Sh", "Sh"], "percent": 20 },
+        { "alleles": ["Sh", "ShD"], "percent": 22 },
+        { "alleles": ["ShD", "ShD"], "percent": 7 }
+      ]
+    },
+    {
+      "locus": "dun",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["D", "d2"], "percent": 40 },
+        { "alleles": ["D", "D"], "percent": 55 },
+        { "alleles": ["d1", "d2"], "percent": 5 }
+      ]
+    },
+    {
+      "locus": "pangare",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["Pa2", "Pa2"], "percent": 48 },
+        { "alleles": ["Pa2", "Pa1"], "percent": 36 },
+        { "alleles": ["Pa1", "Pa1"], "percent": 14 },
+        { "alleles": ["Pa1", "pa"], "percent": 2 }
+      ]
+    },
+    {
+      "locus": "matp",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["Cr", "Cr"], "percent": 0.04 },
+        { "alleles": ["Cr", "N"], "percent": 3.92 },
+        { "alleles": ["N", "N"], "percent": 96.04 }
+      ]
+    }
+  ],
+  "citations": []
+}

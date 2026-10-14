@@ -1,0 +1,68 @@
+{
+  "format": 1,
+  "id": "banker_horse",
+  "species": "horse",
+  "name": "Banker Horse",
+  "country": "united_states",
+  "scores": { "evidence": "abstracted", "speed": 6, "jump": 4, "health": 9, "pull": 3 },
+  "pools": [
+    {
+      "locus": "extension",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["E", "E"], "percent": 42 },
+        { "alleles": ["E", "e"], "percent": 44 },
+        { "alleles": ["e", "e"], "percent": 14 }
+      ]
+    },
+    {
+      "locus": "agouti",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["A", "A"], "percent": 30 },
+        { "alleles": ["A", "a"], "percent": 45 },
+        { "alleles": ["a", "a"], "percent": 25 }
+      ]
+    },
+    {
+      "locus": "shade",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["ShL", "ShL"], "percent": 9 },
+        { "alleles": ["ShL", "Sh"], "percent": 27 },
+        { "alleles": ["ShL", "ShD"], "percent": 15 },
+        { "alleles": ["Sh", "Sh"], "percent": 20 },
+        { "alleles": ["Sh", "ShD"], "percent": 22 },
+        { "alleles": ["ShD", "ShD"], "percent": 7 }
+      ]
+    },
+    {
+      "locus": "matp",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["Cr", "Cr"], "percent": 0.04 },
+        { "alleles": ["Cr", "N"], "percent": 3.92 },
+        { "alleles": ["N", "N"], "percent": 96.04 }
+      ]
+    },
+    {
+      "locus": "dun",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["D", "d2"], "percent": 14 },
+        { "alleles": ["d1", "d2"], "percent": 16 },
+        { "alleles": ["d2", "d2"], "percent": 70 }
+      ]
+    },
+    {
+      "locus": "kit",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["SB1", "N"], "percent": 20 },
+        { "alleles": ["W35", "N"], "percent": 8 },
+        { "alleles": ["N", "N"], "percent": 72 }
+      ]
+    }
+  ],
+  "citations": []
+}

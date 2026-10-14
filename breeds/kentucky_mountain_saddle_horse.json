@@ -1,0 +1,117 @@
+{
+  "format": 1,
+  "id": "kentucky_mountain_saddle_horse",
+  "species": "horse",
+  "name": "Kentucky Mountain Saddle Horse",
+  "country": "united_states",
+  "scores": { "evidence": "abstracted", "speed": 6, "jump": 5, "health": 8, "pull": 4 },
+  "pools": [
+    {
+      "locus": "extension",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["E", "E"], "percent": 52 },
+        { "alleles": ["E", "e"], "percent": 40 },
+        { "alleles": ["e", "e"], "percent": 8 }
+      ]
+    },
+    {
+      "locus": "agouti",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["A", "A"], "percent": 36 },
+        { "alleles": ["A", "a"], "percent": 48 },
+        { "alleles": ["a", "a"], "percent": 16 }
+      ]
+    },
+    {
+      "locus": "shade",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["ShL", "ShL"], "percent": 9 },
+        { "alleles": ["ShL", "Sh"], "percent": 27 },
+        { "alleles": ["ShL", "ShD"], "percent": 15 },
+        { "alleles": ["Sh", "Sh"], "percent": 20 },
+        { "alleles": ["Sh", "ShD"], "percent": 22 },
+        { "alleles": ["ShD", "ShD"], "percent": 7 }
+      ]
+    },
+    {
+      "locus": "matp",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["Cr", "Cr"], "percent": 3 },
+        { "alleles": ["Cr", "N"], "percent": 30 },
+        { "alleles": ["N", "N"], "percent": 67 }
+      ]
+    },
+    {
+      "locus": "silver",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["Z", "Z"], "percent": 2 },
+        { "alleles": ["Z", "z"], "percent": 26 },
+        { "alleles": ["z", "z"], "percent": 72 }
+      ]
+    },
+    {
+      "locus": "champagne",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["Ch", "c"], "percent": 4 },
+        { "alleles": ["c", "c"], "percent": 96 }
+      ]
+    },
+    {
+      "locus": "dun",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["D", "D"], "percent": 2 },
+        { "alleles": ["D", "d1"], "percent": 3 },
+        { "alleles": ["D", "d2"], "percent": 20 },
+        { "alleles": ["d1", "d1"], "percent": 1 },
+        { "alleles": ["d1", "d2"], "percent": 18 },
+        { "alleles": ["d2", "d2"], "percent": 56 }
+      ]
+    },
+    {
+      "locus": "grey",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["G3", "G3"], "percent": 2 },
+        { "alleles": ["G3", "N"], "percent": 17 },
+        { "alleles": ["G2", "N"], "percent": 8 },
+        { "alleles": ["N", "N"], "percent": 73 }
+      ]
+    },
+    {
+      "locus": "roan",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["Rn", "rn"], "percent": 24 },
+        { "alleles": ["rn", "rn"], "percent": 76 }
+      ]
+    },
+    {
+      "locus": "flaxen",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["Fl2", "Fl1"], "percent": 6 },
+        { "alleles": ["Fl2", "f"], "percent": 10 },
+        { "alleles": ["Fl1", "Fl1"], "percent": 6 },
+        { "alleles": ["Fl1", "f"], "percent": 30 },
+        { "alleles": ["f", "f"], "percent": 48 }
+      ]
+    },
+    {
+      "locus": "dmrt3",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["A", "A"], "percent": 90.25 },
+        { "alleles": ["A", "C"], "percent": 9.5 },
+        { "alleles": ["C", "C"], "percent": 0.25 }
+      ]
+    }
+  ],
+  "citations": []
+}

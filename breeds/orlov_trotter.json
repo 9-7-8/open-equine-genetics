@@ -1,0 +1,53 @@
+{
+  "format": 1,
+  "id": "orlov_trotter",
+  "species": "horse",
+  "name": "Orlov Trotter",
+  "country": "russia",
+  "scores": { "evidence": "abstracted", "speed": 8, "jump": 5, "health": 8, "pull": 5 },
+  "pools": [
+    {
+      "locus": "extension",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["E", "E"], "percent": 81 },
+        { "alleles": ["E", "e"], "percent": 18 },
+        { "alleles": ["e", "e"], "percent": 1 }
+      ]
+    },
+    {
+      "locus": "agouti",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["A", "A"], "percent": 37 },
+        { "alleles": ["A", "a"], "percent": 48 },
+        { "alleles": ["a", "a"], "percent": 15 }
+      ]
+    },
+    {
+      "locus": "shade",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["ShL", "ShL"], "percent": 9 },
+        { "alleles": ["ShL", "Sh"], "percent": 27 },
+        { "alleles": ["ShL", "ShD"], "percent": 15 },
+        { "alleles": ["Sh", "Sh"], "percent": 20 },
+        { "alleles": ["Sh", "ShD"], "percent": 22 },
+        { "alleles": ["ShD", "ShD"], "percent": 7 }
+      ]
+    },
+    {
+      "locus": "grey",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["G3", "G3"], "percent": 4 },
+        { "alleles": ["G3", "G2"], "percent": 5 },
+        { "alleles": ["G3", "N"], "percent": 24 },
+        { "alleles": ["G2", "G2"], "percent": 2 },
+        { "alleles": ["G2", "N"], "percent": 20 },
+        { "alleles": ["N", "N"], "percent": 45 }
+      ]
+    }
+  ],
+  "citations": []
+}

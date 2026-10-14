@@ -1,0 +1,76 @@
+{
+  "format": 1,
+  "id": "puerto_rican_paso_fino",
+  "species": "horse",
+  "name": "Puerto Rican Paso Fino",
+  "country": "puerto_rico",
+  "scores": { "evidence": "abstracted", "speed": 5, "jump": 4, "health": 6, "pull": 3 },
+  "pools": [
+    {
+      "locus": "extension",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["E", "E"], "percent": 42 },
+        { "alleles": ["E", "e"], "percent": 44 },
+        { "alleles": ["e", "e"], "percent": 14 }
+      ]
+    },
+    {
+      "locus": "agouti",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["A", "A"], "percent": 30 },
+        { "alleles": ["A", "a"], "percent": 45 },
+        { "alleles": ["a", "a"], "percent": 25 }
+      ]
+    },
+    {
+      "locus": "shade",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["ShL", "ShL"], "percent": 9 },
+        { "alleles": ["ShL", "Sh"], "percent": 27 },
+        { "alleles": ["ShL", "ShD"], "percent": 15 },
+        { "alleles": ["Sh", "Sh"], "percent": 20 },
+        { "alleles": ["Sh", "ShD"], "percent": 22 },
+        { "alleles": ["ShD", "ShD"], "percent": 7 }
+      ]
+    },
+    {
+      "locus": "matp",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["Cr", "Cr"], "percent": 0.64 },
+        { "alleles": ["Cr", "N"], "percent": 14.72 },
+        { "alleles": ["N", "N"], "percent": 84.64 }
+      ]
+    },
+    {
+      "locus": "dun",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["D", "d2"], "percent": 6 },
+        { "alleles": ["d2", "d2"], "percent": 94 }
+      ]
+    },
+    {
+      "locus": "tiger_eye",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["TE1", "TE1"], "percent": 3 },
+        { "alleles": ["TE1", "TE2"], "percent": 1 },
+        { "alleles": ["TE1", "N"], "percent": 16 },
+        { "alleles": ["TE2", "N"], "percent": 6 },
+        { "alleles": ["N", "N"], "percent": 74 }
+      ]
+    },
+    {
+      "locus": "dmrt3",
+      "evidence": "estimated",
+      "genotypes": [
+        { "alleles": ["A", "A"], "percent": 100 }
+      ]
+    }
+  ],
+  "citations": []
+}
