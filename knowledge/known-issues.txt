@@ -101,6 +101,7 @@ STILL WRONG OR UNPROVEN IN THE RESEARCHED LOCI
   no citation was added; the two it already had (UC Davis, Leegwater et al.) are from
   the first export. The Friesian table omits d/d horses, which the 12 percent carrier
   estimate does not count.
+- ednrb: the variant's EquCab3.0 position and c. name are from round three (OMIA). The EDNRB gene span the answer also gave is on another assembly (NC_091700.1) and is not in the data.
 - ednrb and hmga2 each had an overview in round two, without addresses: chromosome, what the gene does, breeds. hmga2's overview names no tested variant and calls the gene a candidate region with a polygenic effect; the p allele rests on the earlier answer. Neither has a published frequency.
 - champagne: the names gold, amber and classic champagne depend on extension and agouti; the file says so in words and has no interactions table. "Sable" (on seal brown) and "ivory" (with cream) are registry names, not alleles, and are not in the data.
 - ckm: a candidate that failed to replicate (Gu et al. 2010; no association in Quarter Horses). The file states no effect. (An earlier answer's "g.22999655C>A" for it was a slip for the DMRT3 variant; settled.) C is flagged wild_type only because the format needs one. Whether a locus with no established effect belongs in the data as published is the owner's call. Round two called CKM a "tying-up risk" locus with a derived risk allele, which matches nothing in the earlier research; nothing was changed.
@@ -252,11 +253,6 @@ PREFACE (paste above every block)
   - give every genomic position with its assembly (EquCab2 or EquCab3);
   - where two earlier answers disagree, find the primary paper and say which is right;
   - if you cannot find something, say so; do not estimate.
-
-BLOCK A - CHROMOSOMES AND VARIANTS OF INHERITED DISORDERS
----------------------------------------------------------
-A3. What is the position (with assembly) of the EDNRB p.Ile118Lys frame overo variant on
-    chromosome 17?
 
 BLOCK B - COAT COLOUR: BASE COLOURS, DILUTIONS AND GREY
 -------------------------------------------------------

@@ -6,7 +6,7 @@
   "symbol": "EDNRB",
   "chromosome": "17",
   "evidence": "published",
-  "summary": "EDNRB, endothelin receptor type B, on chromosome 17: part of a signalling pathway that both the pigment cells and the nerve cells of the gut depend on in the embryo. One missense change, p.Ile118Lys, causes frame overo: big, sharp-edged white splotches across the middle of the side - barrel, flank, shoulder and lower neck - that never cross the back and rarely reach the belly, so colour is left framing them above and below. Broad white face, dark legs, and two sides that need not match; some carriers show almost nothing, which is why frame is tested for. The pattern is incompletely dominant and the lethal effect recessive: two copies (O/O) is Overo Lethal White - an all-white foal whose gut lacks its nerve supply and that does not survive. Found in Paint Horses, Quarter Horses, Thoroughbreds and other breeds with Paint ancestry. It has its locus to itself, so it stacks freely with every other white pattern.",
+  "summary": "EDNRB, endothelin receptor type B, on chromosome 17: part of a signalling pathway that both the pigment cells and the nerve cells of the gut depend on in the embryo. One two-base missense change, c.353_354delinsAG (p.Ile118Lys; g.50503041_50503042delinsCT on EquCab3.0), causes frame overo: big, sharp-edged white splotches across the middle of the side - barrel, flank, shoulder and lower neck - that never cross the back and rarely reach the belly, so colour is left framing them above and below. Broad white face, dark legs, and two sides that need not match; some carriers show almost nothing, which is why frame is tested for. The pattern is incompletely dominant and the lethal effect recessive: two copies (O/O) is Overo Lethal White - an all-white foal whose gut lacks its nerve supply and that does not survive. Found in Paint Horses, Quarter Horses, Thoroughbreds and other breeds with Paint ancestry. It has its locus to itself, so it stacks freely with every other white pattern.",
   "inheritance": "autosomal",
   "affects_coat": true,
   "alleles": [
@@ -40,6 +40,7 @@
     { "source": "pubmed", "label": "Metallinos et al., PMID 9585428", "url": "https://pubmed.ncbi.nlm.nih.gov/9585428/?dopt=Abstract", "verified": false },
     { "source": "ucdavis-vgl", "label": "UC Davis VGL", "url": "https://vgl.ucdavis.edu/test/lethal-white-overo", "verified": false },
     { "source": "paper", "label": "JAVMA 235(10):1204", "url": "https://avmajournals.avma.org/view/journals/javma/235/10/javma.235.10.1204.xml", "verified": false },
-    { "source": "pubmed", "label": "PMID 11197568", "url": "https://pubmed.ncbi.nlm.nih.gov/11197568/", "verified": false }
+    { "source": "pubmed", "label": "PMID 11197568", "url": "https://pubmed.ncbi.nlm.nih.gov/11197568/", "verified": false },
+    { "source": "omia", "label": "OMIA 000629-9796: lethal white foal syndrome (EDNRB position on EquCab3.0)", "url": "https://omia.org/OMIA000629/9796/", "verified": false }
   ]
 }
