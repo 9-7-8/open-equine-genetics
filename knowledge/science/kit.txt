@@ -54,8 +54,8 @@ knowledge/science/round-2-answers.txt. No address has been opened by a maintaine
 - W17a and W17b are best treated as two distinct reported variants, not as two changes
   necessarily on one chromosome; whether they occur together in one horse is not known.
 - SETTLED BY ROUND THREE (above): W22 never occurs without W20. This answer says W22 can occur without W20, with no source. The earlier
-  answer says W22 has only been found with W20. The gene file is unchanged (W22/N already
-  has an outcome; W22's name still says "found only with W20").
+  answer says W22 has only been found with W20. The gene file was left unchanged
+  until round three.
 - W37 without W35: no confirmed observation could be found.
 - How many W variants are named has no stable answer; it depends on whether
   laboratory-reported variants are counted.
