@@ -7,7 +7,7 @@ guide for all. None is required: the data is plain JSON, and any JSON parser can
 | Language | Where | Needs | Run the example |
 | --- | --- | --- | --- |
 | Python | [python/](python/) | Python 3.8+, nothing else | `python example.py ../..` |
-| Java | [java/](java/) | Java 17+, nothing else | `java Example.java ../..` |
+| Java | [java/](java/) | Java 17+, nothing else | `java Example.java ../..` (Java 22+; [java/README.md](java/README.md) has 17-21) |
 | Rust | [rust/](rust/) | `serde_json` | `cargo run --example example -- ../..` |
 | C++ | [cpp/](cpp/) | C++17, nothing else (one header) | see [cpp/README.md](cpp/README.md) |
 | C | [c/](c/) | C99, nothing else (one `.h`, one `.c`) | see [c/README.md](c/README.md) |
@@ -51,11 +51,11 @@ in Java); what they do is the same.
 
 So that every port draws the same horse from the same random numbers:
 
-- `rng` gives a number `u` in `[0, 1)`. `sample` adds up the table's percents into `total`,
+- `rng` gives a number `u` in `[0, 1)`. `sample` adds up the table's percents, left to right, into `total`,
   and returns the first row, in file order, at which the running sum of percents is
   greater than `u * total`. A table whose total is 0 gives nothing.
 - `random_horse` draws first the strain (only if the breed has strains and none was named,
-  using the strains' `share`s the same way), then one pair per locus in id order. A locus
+  using the strains' `share`s the same way; shares that add to 0 leave no strain), then one pair per locus in id order. A locus
   with no table, or with an empty one, uses no number.
 - On an x-linked locus, a mare draws only from the rows without the placeholder allele
   and a stallion only from the rows with it. With nothing to draw from, a mare gets the

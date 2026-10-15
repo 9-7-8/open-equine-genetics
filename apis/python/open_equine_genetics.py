@@ -145,14 +145,14 @@ class Gene:
         if viable and interactions and context and all(l in context for l in interactions["depends_on"]):
             for entry in interactions["table"]:
                 if same_pair(entry["alleles"], row["alleles"]) and all(
-                    same_pair(pair, context[locus]) for locus, pair in entry["with"].items()
+                    locus in context and same_pair(pair, context[locus]) for locus, pair in entry["with"].items()
                 ):
                     phenotype_id = entry["phenotype"]
                     break
         return Outcome(
             alleles=tuple(row["alleles"]),
             phenotype=self.phenotype(phenotype_id) if phenotype_id else None,
-            conditions=[self.condition(c) for c in row.get("conditions", [])],
+            conditions=[c for c in (self.condition(i) for i in row.get("conditions", [])) if c],
             viable=viable,
         )
 
@@ -220,7 +220,9 @@ class Horse:
 
 def sample(table: GenotypeTable, rng: Callable[[], float]) -> Optional[Pair]:
     """Draw one pair from a table. rng returns a float in [0, 1)."""
-    total = sum(g.percent for g in table.genotypes)
+    total = 0.0
+    for g in table.genotypes:  # added left to right, as every port does
+        total += g.percent
     if total <= 0:
         return None
     target = rng() * total
@@ -240,9 +242,9 @@ class Database:
     @staticmethod
     def load(root: str) -> "Database":
         """Read every file in <root>/genes and <root>/breeds. root is the repository folder."""
-        genes = {g.id: g for g in (_gene(d) for d in _read_dir(os.path.join(root, "genes")))}
-        breeds = {b.id: b for b in (_breed(d) for d in _read_dir(os.path.join(root, "breeds")))}
-        return Database(genes, breeds)
+        genes = sorted((_gene(d) for d in _read_dir(os.path.join(root, "genes"))), key=lambda g: g.id)
+        breeds = sorted((_breed(d) for d in _read_dir(os.path.join(root, "breeds"))), key=lambda b: b.id)
+        return Database({g.id: g for g in genes}, {b.id: b for b in breeds})
 
     def gene(self, gene_id: str) -> Optional[Gene]:
         return self.genes.get(gene_id)
@@ -270,7 +272,8 @@ class Database:
         b = self.breeds.get(breed) if breed else None
         if b is not None and b.strains and strain is None:
             shares = GenotypeTable("", None, "estimated", [GenotypeShare((s.name, s.name), s.share) for s in b.strains])
-            strain = sample(shares, rng)[0]
+            drawn = sample(shares, rng)
+            strain = drawn[0] if drawn else None
         genotype: Dict[str, Pair] = {}
         for locus, gene in self.genes.items():
             genotype[locus] = self._draw(gene, sex, self.genotype_table(locus, breed, strain), rng)
