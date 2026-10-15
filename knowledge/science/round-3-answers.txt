@@ -714,3 +714,119 @@ Use separate locus records rather than a generic "JEB" or "overo" disease flag:
 - **JEB2:** `LAMA3_J2`, recessive, primarily American Saddlebred. [vgl.ucdavis](https://vgl.ucdavis.edu/test/jeb-saddlebred)
 
 For breeding output, calculate risk from the exact parental genotypes: two recessive carriers produce a 25% affected-foal risk, while two LWO carriers also produce a 25% LWO-foal risk. [vgl.ucdavis](https://vgl.ucdavis.edu/test/jeb-saddlebred)
+
+
+QUESTIONS G2, G4, G5 AND G6 - MORE DISORDER FREQUENCIES (2026-10-15)
+---------------------------------------------------------------------
+Her answer is kept whole below as she sent it.
+
+What was done with it (the session, 2026-10-15)
+- G4 ANSWERED A DIFFERENT QUESTION. The question was about MET, the 14 bp frameshift in
+  the MET gene that the met locus records (a recessive embryonic lethal in Friesians).
+  The answer took "MET" to be Friesian hydrocephalus, caused by B3GALNT2, a different
+  gene and disorder. Its figures (Ducro et al. 2015: about 17% carriers, allele
+  frequency 0.085) are for hydrocephalus and were not used for met. Hydrocephalus
+  (B3GALNT2) is not a locus in this data; it is a candidate to add. G4 asked again,
+  naming the gene and the deletion.
+- plod1 (G2): tables for Swedish Warmblood 2017 (7.4%, Akerstrom et al. 2022), Silesian
+  (14.6%, 2025), Maremmano (10.24%, 2026) and Brazilian Warmblood (11%, Dias et al.
+  2019), all carrier shares, sample sizes not given. The Silesian row gives allele
+  frequency 6.3% beside 14.6% carriers, which do not agree (6.3% gives about 12%); the
+  carrier share is used. Hanoverian, Danish, Thoroughbred and Haflinger were already in.
+- shox (G5): a Swedish Shetland Pony table from the two allele frequencies (Del1 0.0479,
+  Del2 0.0106, Rafati et al. 2016), worked out assuming random mating. The answer calls
+  Del1 and Del2 "non-allelic"; they are two deletions of the same region, kept as two
+  alleles of one locus here, and Del1/Del2 is already affected. UC Davis's "about 12%
+  carriers" is noted, not tabled.
+- acan (G6): the answer gives only the four alleles together (allele frequency 0.280 in
+  Miniature Horses; 98 carriers in 245; an earlier 26.2%), not each allele, so no table:
+  a table here needs each allele's share. Carriers averaged 1.43 inches (about 3.6 cm)
+  shorter (Andersson et al. 2020); the carrier outcome gains that.
+
+=== The answer as sent ===
+Below is a compact, simulator-ready frequency table for the four disorder groups, using the most useful published breed-level estimates. For a genetics sim, treat each as a **single recessive disease allele** unless noted; report both **carrier share** (what owners/test panels usually see) and **allele frequency** (what breeding math needs).
+
+## PLOD1 — Warmblood Fragile Foal Syndrome (G2)
+
+**Variant:** *PLOD1* c.2032G>A; autosomal recessive, lethal when homozygous. It is concentrated in European Warmblood populations, with much lower occurrence in Thoroughbreds. [pmc.ncbi.nlm.nih](https://pmc.ncbi.nlm.nih.gov/articles/PMC7766603/)
+
+| Breed / population | Carrier share | Allele frequency | Study / source |
+|---|---:|---:|---|
+| Hanoverian | up to 17% | ~8.5% implied | Martin et al. 2020, cited in OMIA [omia](https://omia.org/OMIA001982/9796/) |
+| Danish Warmblood | up to 17% | ~8.5% implied | Martin et al. 2020, cited in OMIA [omia](https://omia.org/OMIA001982/9796/) |
+| Swedish Warmblood, 2017 cohort | 7.4% | ~3.7% implied | Åkerström et al. 2022 [ncbi.nlm.nih](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8783495/) |
+| Swedish Warmblood, 1971–2020 tested set | 0–12% by cohort | varies | Åkerström et al. 2022 [ncbi.nlm.nih](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8783495/) |
+| Silesian | 14.6% | 6.3% | 2025 surveillance study [pmc.ncbi.nlm.nih](https://pmc.ncbi.nlm.nih.gov/articles/PMC12767152/) |
+| Maremmano | 10.24% | 5.12% | 2026 Italian breed study [tandfonline](https://www.tandfonline.com/doi/full/10.1080/1828051X.2026.2710504) |
+| Brazilian Warmblood | 11% | 5.5% | Dias et al. 2019, via OMIA [omia](https://omia.org/OMIA001982/9796/) |
+| Thoroughbred | 2.4% | 1.2% | Bellone et al. 2019 [pmc.ncbi.nlm.nih](https://pmc.ncbi.nlm.nih.gov/articles/PMC7062577/) |
+| Haflinger | 4.2% | ~2.1% implied | cited in 2026 Maremmano study [tandfonline](https://www.tandfonline.com/doi/full/10.1080/1828051X.2026.2710504) |
+
+**Sim adaptation:** model as `PLOD1-WFFS` recessive. Use breed-specific base allele frequencies, then apply studbook selection pressure; do **not** let two carriers produce a live affected foal—instead resolve as late gestation loss, stillbirth, or nonviable neonate depending on your game's mortality model.
+
+## Friesian hydrocephalus — "MET" (G4)
+
+The Friesian disorder usually labeled **MET** in breeder/testing contexts is congenital hydrocephalus, caused by a recessive variant in **B3GALNT2**—not a coat, height, or performance allele. [pmc.ncbi.nlm.nih](https://pmc.ncbi.nlm.nih.gov/articles/PMC4600337/)
+
+| Population | Carrier share | Allele frequency | Study / source |
+|---|---:|---:|---|
+| Friesian population sample | 147 carriers / 865 normal-homozygotes; ~17% carriers | 0.085 | Ducro et al. 2015 [pmc.ncbi.nlm.nih](https://pmc.ncbi.nlm.nih.gov/articles/PMC4600337/) |
+| Friesian stallions in study | 8 / 60 = 13.3% | — | Ducro et al. 2015 [pmc.ncbi.nlm.nih](https://pmc.ncbi.nlm.nih.gov/articles/PMC4600337/) |
+
+**Sim adaptation:** implement as `B3GALNT2-HYDRO` recessive. A carrier × carrier mating should have a 25% affected-foal probability; affected foals can be represented as nonviable or requiring euthanasia rather than entering the adult population.
+
+## SHOX Del1 / Del2 — Skeletal Atavism (G5)
+
+These are two partially overlapping deletions in the pseudoautosomal **SHOX/CRLF2** region. Any of `Del1/Del1`, `Del2/Del2`, or `Del1/Del2` produces skeletal atavism, so the simulator must treat them as **non-allelic recessive variants that compound**. UC Davis estimates about 12% of Shetland ponies are carriers. [vgl.ucdavis](https://vgl.ucdavis.edu/test/skeletal-atavism)
+
+| Allele / population | Carrier share | Allele frequency | Study / source |
+|---|---:|---:|---|
+| Del1, Swedish Shetland Pony | — | 4.79% | Rafati et al. 2016 [pmc.ncbi.nlm.nih](https://pmc.ncbi.nlm.nih.gov/articles/PMC4938674/) |
+| Del2, Swedish Shetland Pony | — | 1.06% | Rafati et al. 2016 [pmc.ncbi.nlm.nih](https://pmc.ncbi.nlm.nih.gov/articles/PMC4938674/) |
+| Del1 or Del2 combined, Swedish Shetland Pony | 11.7% | ~5.85% combined | Rafati et al. 2016 [pmc.ncbi.nlm.nih](https://pmc.ncbi.nlm.nih.gov/articles/PMC4938674/) |
+| Shetland Pony, general screening estimate | ~12% | — | UC Davis VGL [vgl.ucdavis](https://vgl.ucdavis.edu/test/skeletal-atavism) |
+
+**Sim adaptation:** use two separate loci or a compound genotype field:
+
+```text
+SHOX-DEL1: N | DEL1
+SHOX-DEL2: N | DEL2
+Affected if DEL1/DEL1, DEL2/DEL2, or DEL1/DEL2
+```
+
+Del1 should be more common than Del2 in Shetland-derived populations. The trait affects limb and skeletal development—especially distal limbs—not coat color, mane/tail color, or feathering. [vgl.ucdavis](https://vgl.ucdavis.edu/test/skeletal-atavism)
+
+## ACAN D1–D4 — Chondrodysplastic Dwarfism (G6)
+
+Four recessive *ACAN* alleles—**D1, D2, D3\*, and D4**—cause chondrodysplastic dwarfism in Miniature Horses and related miniature/Shetland-type ponies. Homozygotes and compound heterozygotes are affected; carriers are clinically normal but measurably shorter. [nature](https://www.nature.com/articles/s41598-020-72192-3)
+
+| Population | Carrier share | Cumulative allele frequency | Study / source |
+|---|---:|---:|---|
+| Miniature Horses, four alleles combined | 40.3% modeled from q = 0.280 | 28.0% cumulative | Eberth et al., reported in 2020 *Scientific Reports* [nature](https://www.nature.com/articles/s41598-020-72192-3) |
+| Miniature Horses, four alleles combined, earlier estimate | 26.2% | — | cited in Andersson et al. 2020 [onlinelibrary.wiley](https://onlinelibrary.wiley.com/doi/10.1111/age.12921) |
+| Miniature Horses, measured height cohort | 98 / 245 = 40.0% carriers | — | Andersson et al. 2020 [onlinelibrary.wiley](https://onlinelibrary.wiley.com/doi/10.1111/age.12921) |
+| Predicted affected rate from q = 0.280 | — | 7.8% affected expected under simple single-allele Hardy–Weinberg assumptions | Eberth et al., via 2020 study [nature](https://www.nature.com/articles/s41598-020-72192-3) |
+
+The 7.8% "predicted dwarf" figure is a useful historical screening estimate, but it should **not** be directly implemented as a four-allele Hardy–Weinberg calculation, because D1–D4 are distinct alleles and compound heterozygosity matters. [nature](https://www.nature.com/articles/s41598-020-72192-3)
+
+**Sim adaptation:** use four pathogenic alleles at one *ACAN* disease model:
+
+```text
+ACAN: N | D1 | D2 | D3star | D4
+Affected if homozygous for any D allele
+       or compound heterozygous for any two D alleles
+Carrier if exactly one D allele
+```
+
+Carrier status should reduce withers height modestly: one study found carriers averaged **1.43 inches shorter** than non-carriers. This makes *ACAN* one of the few disorder loci where a heterozygous height effect is worth explicitly modeling. [onlinelibrary.wiley](https://onlinelibrary.wiley.com/doi/10.1111/age.12921)
+
+## Simulator defaults
+
+| Gene | Inheritance model | Recommended default population | Core effect |
+|---|---|---|---|
+| *PLOD1* WFFS | Single recessive lethal | Warmbloods | Connective-tissue fragility; nonviable homozygote |
+| *B3GALNT2* hydrocephalus | Single recessive | Friesians | Cranial/neurological malformation; nonviable affected foal |
+| *SHOX* Del1/Del2 | Two compound recessive deletions | Shetland Ponies | Severe skeletal atavism, limb deformity |
+| *ACAN* D1–D4 | Four recessive alleles, compound heterozygosity | Miniature Horses / Miniature Shetlands | Chondrodysplastic dwarfism; shorter carriers |
+
+None of these loci are established determinants of coat color, mane or tail color, speed, hoof shape, or feathering. Their visible simulation effects should be restricted to viability, skeletal conformation, limb structure, and—only for *ACAN* carriers—height. [pmc.ncbi.nlm.nih](https://pmc.ncbi.nlm.nih.gov/articles/PMC7062577/)

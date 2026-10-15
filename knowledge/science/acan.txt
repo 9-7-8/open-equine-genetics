@@ -2,6 +2,12 @@ ACAN - science notes
 (Copied 2026-10-12 from the Science tab of the Procedural Horse Coats wiki page for this gene.
 Written for that project: it may mention how a game models the gene. Not yet audited.)
 
+ROUND THREE (the owner's answer to questions G2, G4, G5 and G6, 2026-10-15)
+----------------------------------------------------------------------------
+The whole answer is in knowledge/science/round-3-answers.txt. No address has been opened
+by a maintainer.
+- (G6) The four alleles together: allele frequency 0.280 in Miniature Horses (Eberth et al.), 98 carriers in 245 (40%) and an earlier 26.2% (Andersson et al. 2020). Not split by allele, so no table. Carriers averaged 1.43 inches shorter.
+
 ROUND THREE, SECOND ANSWER (the owner's answer to question G6, survival, 2026-10-15)
 -------------------------------------------------------------------------------------
 No address has been opened by a maintainer. Her answer, condensed, with every point and

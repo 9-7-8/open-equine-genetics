@@ -4,6 +4,12 @@ No source was opened by the session that filed this. genes/shox.json was changed
 on the owner's word the same day; what is left over is in knowledge/known-issues.txt.
 Not yet audited.)
 
+ROUND THREE (the owner's answer to questions G2, G4, G5 and G6, 2026-10-15)
+----------------------------------------------------------------------------
+The whole answer is in knowledge/science/round-3-answers.txt. No address has been opened
+by a maintainer.
+- (G5) Swedish Shetland Ponies: Del1 allele frequency 0.0479, Del2 0.0106, 11.7% carrying either (Rafati et al. 2016); UC Davis: about 12% of Shetlands carry one. A table.
+
 ROUND TWO (the owner's answers to the open research questions, 2026-10-12)
 --------------------------------------------------------------------------
 These came after everything below. Where they disagree with it, this section and the gene

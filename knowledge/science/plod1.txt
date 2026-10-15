@@ -4,6 +4,12 @@ No source was opened by the session that filed this. genes/plod1.json was change
 on the owner's word the same day; what is left over is in knowledge/known-issues.txt.
 Not yet audited.)
 
+ROUND THREE (the owner's answer to questions G2, G4, G5 and G6, 2026-10-15)
+----------------------------------------------------------------------------
+The whole answer is in knowledge/science/round-3-answers.txt. No address has been opened
+by a maintainer.
+- (G2) Carrier shares: Swedish Warmblood 2017 cohort 7.4% (0-12% by cohort, 1971-2020), Silesian 14.6%, Maremmano 10.24%, Brazilian Warmblood 11%; Hanoverian and Danish up to 17%. Four new tables.
+
 ROUND THREE (the owner's answer to question G2, second part, 2026-10-15)
 -------------------------------------------------------------------------
 No address has been opened by a maintainer. Her answer, condensed, with every point and
