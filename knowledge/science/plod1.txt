@@ -4,6 +4,12 @@ No source was opened by the session that filed this. genes/plod1.json was change
 on the owner's word the same day; what is left over is in knowledge/known-issues.txt.
 Not yet audited.)
 
+ROUND THREE (the owner's answer to question A1, 2026-10-15)
+------------------------------------------------------------
+The whole answer, for six loci, is in knowledge/science/round-3-answers.txt. No address has
+been opened by a maintainer.
+- Chromosome 2 (ECA2). No single-base EquCab3.0 position for c.2032G>A could be found; the answer would not guess one. The gene span it gives (NC_091685.1) may be on another assembly and is not in the data.
+
 ROUND TWO (the owner's answers to the open research questions, 2026-10-12)
 --------------------------------------------------------------------------
 These came after everything below. Where they disagree with it, this section and the gene

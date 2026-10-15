@@ -1,0 +1,71 @@
+ROUND THREE - the owner's answers that cover several loci at once
+=================================================================
+Round three is the owner's answers to the blocks in knowledge/known-issues.txt (OPEN
+RESEARCH QUESTIONS), one question at a time, from 2026-10-15. An answer about one locus is
+filed at the top of that locus's own note. An answer that covers several loci is kept
+whole here, and each locus's note has a short ROUND THREE section pointing to it.
+No address in this file has been opened by a maintainer.
+
+
+QUESTION A1 - CHROMOSOMES AND POSITIONS OF SIX DISORDER VARIANTS (2026-10-15)
+-----------------------------------------------------------------------------
+Her answer, as she sent it (tables reflowed for plain text):
+
+Below are the horse (Equus caballus) coordinates, using EquCab3.0 unless noted.
+Coordinates are assembly-specific, so do not mix them with EquCab2.0 positions.
+
+  Variant    Gene     Chr    EquCab3.0 genomic position          Notes
+  c.50G>A    B4GALT7  ECA14  g.3772591C>T                        Friesian dwarfism;
+                                                                 p.(R17K), affects splicing.
+                                                                 (https://omia.org/OMIA002068/9796/)
+  c.4249del  MYO5A    ECA1   NC_009144.3:g.139290592del          Lavender foal syndrome /
+                                                                 dilute coat colour with
+                                                                 neurological defects;
+                                                                 p.(R1417Afs*13).
+                                                                 (https://omia.org/variant/omia.variant:510/)
+  c.2032G>A  PLOD1    ECA2   Exact g. coordinate not returned    Fragile Foal Syndrome type 1
+                             by the sources retrieved; gene      (formerly WFFS); p.G678R. UC
+                             spans NC_091685.1:39,767,752-       Davis lists the causal change
+                             39,794,377                          as PLOD1 c.2032G>A.
+                                                                 (https://omia.org/OMIA001982/9796/)
+  c.115G>A   PPIB     ECA1   NC_009144.3:g.129307092G>A          HERDA; p.G39R.
+                                                                 (https://omia.org/variant/omia.variant:157/)
+  c.4248C>G  SCN4A    ECA11  NC_009154.3:g.15474228C>G           HYPP; p.F1416L. UC Davis
+                                                                 identifies the HYPP mutation
+                                                                 as SCN4A c.4248C>G.
+                                                                 (https://vgl.ucdavis.edu/test/hypp)
+  c.388G>T   ST14     ECA7   NC_009150.3:g.39710628G>T           Naked foal syndrome; p.E130*.
+                                                                 (https://omia.org/variant/omia.variant:354/)
+
+Assembly and chromosome notes
+- B4GALT7 c.50G>A is also reported on the older EquCab2.0 assembly as
+  ECA14:g.4535550C>T; the EquCab3.0 coordinate is ECA14:g.3772591C>T.
+  (https://omia.org/OMIA002068/9796/)
+- MYO5A and PPIB are both on ECA1 in EquCab3.0, but are far apart: about 139.29 Mb
+  versus 129.31 Mb, respectively. (https://omia.org/variant/omia.variant:510/)
+- SCN4A is on ECA11 in the horse; the human SCN4A gene is on human chromosome 17, so
+  human and horse chromosome numbers should not be interchanged.
+  (https://omia.org/variant/omia.variant:162/)
+- For PLOD1, the chromosome and gene span are well established, but I was unable to
+  retrieve a verified single-base EquCab3.0 g. coordinate for c.2032G>A from the
+  available sources; I would not guess one. UC Davis confirms the variant nomenclature
+  and its association with Fragile Foal Syndrome. (https://omia.org/OMIA001982/9796/)
+
+Quick variant identities
+- B4GALT7 c.50G>A - Friesian dwarfism. (https://omia.org/OMIA002068/9796/)
+- MYO5A c.4249del - lavender foal syndrome. (https://omia.org/variant/omia.variant:510/)
+- PLOD1 c.2032G>A - Fragile Foal Syndrome type 1 / former WFFS.
+  (https://ceh.vetmed.ucdavis.edu/health-topics/warmblood-fragile-foal-syndrome-type-1-wffs)
+- PPIB c.115G>A - HERDA. (https://omia.org/variant/omia.variant:157/)
+- SCN4A c.4248C>G - HYPP. (https://vgl.ucdavis.edu/test/hypp)
+- ST14 c.388G>T - Naked foal syndrome. (https://omia.org/variant/omia.variant:354/)
+
+What was done with it (the session, 2026-10-15)
+- Each of the six loci gained its chromosome. Five gained their EquCab3.0 position in
+  the summary; PLOD1 has none.
+- MYO5A: the summary had g.138235715del, from an earlier answer that named no assembly.
+  It now gives g.139290592del on EquCab3.0, from OMIA. The old figure is in
+  known-issues; it may be an EquCab2 position, which was not checked.
+- PLOD1: the gene span is given on NC_091685.1. EquCab3.0's chromosome sequences are
+  the NC_0091xx.3 series (as the other rows show), so that span may be on a different
+  assembly. It is not in the data.

@@ -5,6 +5,12 @@ No source was opened by the session that filed this. genes/b4galt7.json was chan
 on the owner's word the same day; what is left over is in knowledge/known-issues.txt.
 Not yet audited.)
 
+ROUND THREE (the owner's answer to question A1, 2026-10-15)
+------------------------------------------------------------
+The whole answer, for six loci, is in knowledge/science/round-3-answers.txt. No address has
+been opened by a maintainer.
+- Chromosome 14 (ECA14). c.50G>A is g.3772591C>T on EquCab3.0 (g.4535550C>T on EquCab2.0). OMIA.
+
 ROUND TWO (the owner's answers to the open research questions, 2026-10-12)
 --------------------------------------------------------------------------
 These came after everything below. Where they disagree with it, this section and the gene

@@ -4,6 +4,12 @@ No source was opened by the session that filed this. genes/ppib.json was changed
 on the owner's word the same day; what is left over is in knowledge/known-issues.txt.
 Not yet audited.)
 
+ROUND THREE (the owner's answer to question A1, 2026-10-15)
+------------------------------------------------------------
+The whole answer, for six loci, is in knowledge/science/round-3-answers.txt. No address has
+been opened by a maintainer.
+- Chromosome 1 (ECA1). c.115G>A, p.G39R, is NC_009144.3:g.129307092G>A on EquCab3.0 (OMIA).
+
 ROUND TWO (the owner's answers to the open research questions, 2026-10-12)
 --------------------------------------------------------------------------
 These came after everything below. Where they disagree with it, this section and the gene

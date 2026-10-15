@@ -2,6 +2,12 @@ SCN4A (HYPP) - science notes
 (Copied 2026-10-12 from the Science tab of the Procedural Horse Coats wiki page for this gene.
 Written for that project: it may mention how a game models the gene. Not yet audited.)
 
+ROUND THREE (the owner's answer to question A1, 2026-10-15)
+------------------------------------------------------------
+The whole answer, for six loci, is in knowledge/science/round-3-answers.txt. No address has
+been opened by a maintainer.
+- Chromosome 11 (ECA11). The HYPP variant is c.4248C>G, p.F1416L (UC Davis), NC_009154.3:g.15474228C>G on EquCab3.0. Human SCN4A is on human chromosome 17; the numbers are not interchangeable.
+
 ROUND TWO (the owner's answers to the open research questions, 2026-10-12)
 --------------------------------------------------------------------------
 These came after everything below. Where they disagree with it, this section and the gene

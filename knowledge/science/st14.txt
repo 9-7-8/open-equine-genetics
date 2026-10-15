@@ -4,6 +4,12 @@ No source was opened by the session that filed this. genes/st14.json was changed
 on the owner's word the same day; what is left over is in knowledge/known-issues.txt.
 Not yet audited.)
 
+ROUND THREE (the owner's answer to question A1, 2026-10-15)
+------------------------------------------------------------
+The whole answer, for six loci, is in knowledge/science/round-3-answers.txt. No address has
+been opened by a maintainer.
+- Chromosome 7 (ECA7). c.388G>T, p.E130*, is NC_009150.3:g.39710628G>T on EquCab3.0 (OMIA).
+
 ROUND THREE (the owner's answer to question G3, 2026-10-15)
 ------------------------------------------------------------
 This came after everything below and settles the age-at-death point left UNSETTLED in
