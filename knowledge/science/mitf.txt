@@ -4,6 +4,51 @@ No source was opened by the session that filed this. genes/mitf.json was changed
 on the owner's word the same day; what is left over is in knowledge/known-issues.txt.
 Not yet audited.)
 
+ROUND THREE (the owner's answer to question C5, 2026-10-15)
+------------------------------------------------------------
+This settles what SW9 and SW10 are. No address has been opened by a maintainer. Her
+answer, condensed, with every point and address she gave (all from the paper,
+https://pubmed.ncbi.nlm.nih.gov/37406837/, unless marked):
+
+  - SW9 and SW10 are two separate splash-white alleles found in Pura Raza Espanola
+    (PRE, Andalusian) horses in 2023: SW9 a missense variant in MITF, SW10 a stop-gain
+    (nonsense) variant in PAX3. Different genes, different chromosomes; a horse can
+    carry one, the other, both or neither.
+  - The paper: McFadden A, Martin K, Foster G, Vierra M, Lundquist EW, Everts RE,
+    Martin E, Volz E, McLoone K, Brooks SA, Lafayette C (2023). "Two Novel Variants in
+    MITF and PAX3 Associated With Splashed White Phenotypes in Horses." Journal of
+    Equine Veterinary Science 128:104875. doi:10.1016/j.jevs.2023.104875. The authors
+    proposed the names SW9 (MITF) and SW10 (PAX3).
+  - SW9: MITF, NM_001163874.1:c.993A>T, missense in a MITF binding domain,
+    ECA16:21,559,940 A>T on EquCab3.0. Splashed white markings and blue eyes; mean
+    white score 24.45.
+  - SW10: PAX3, XM_005610643.3:c.927C>T, stop-gain, early truncation,
+    ECA6:11,196,181 C>T on EquCab3.0. Splashed white markings and blue eyes; mean white
+    score 25.50.
+  - Association in PRE horses: PAX3 variant P = 1.144e-11 (N = 30), MITF variant
+    P = 4.441e-16 (N = 39); controls averaged a white score of 1.89. Functional
+    predictions (I-TASSER, SMART, VEP, SIFT) moderate to extreme. The evidence is
+    mainly association, not functional proof.
+  - Both act on pigment cells: they leave white areas and do not change red or black
+    pigment, agouti or extension. Blue eyes were part of the association for both.
+    Deafness is a plausible concern for severe MITF/PAX3 white generally but is not
+    shown for SW9 or SW10.
+  - SW9/SW9 and SW10/SW10: no validated inheritance or viability data. SW10 truncates
+    PAX3 before an important DNA-binding domain, and later reviews say it is predicted
+    to be embryonic lethal in homozygotes: a prediction, not a demonstrated outcome.
+  - A horse with SW9 and SW10 carries two independent splash variants and may be whiter
+    than with either alone; not characterised.
+  - Treat both as PRE-associated until other surveys find them elsewhere. UC Davis groups
+    SW1, SW3 and SW5-SW8 under MITF and SW2 and SW4 under PAX3, and its page names only
+    SW1-SW8 (https://vgl.ucdavis.edu/test/splashed-white). European laboratories such
+    as Genomia list SW9 and SW10; the paper is the primary source for them.
+  - No good evidence of any effect on height, speed, muscle, bone, hooves, feathering,
+    or mane and tail colour beyond white where the area is depigmented.
+
+What the gene files do with it: SW9 (mitf) and SW10 (pax3) are no longer "unconfirmed".
+The mod had put each in the right gene. One copy gives the ordinary splash outcome;
+two copies are "never detected"; a pair with another variant of the same gene is
+undocumented. The "unconfirmed-allele" outcome is gone.
 ROUND TWO (the owner's answers to the open research questions, 2026-10-12)
 --------------------------------------------------------------------------
 These came after everything below. Where they disagree with it, this section and the gene
