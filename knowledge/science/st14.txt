@@ -4,6 +4,30 @@ No source was opened by the session that filed this. genes/st14.json was changed
 on the owner's word the same day; what is left over is in knowledge/known-issues.txt.
 Not yet audited.)
 
+ROUND FOUR (the owner's answer on st14 severity, 2026-10-15)
+--------------------------------------------------------------
+No address has been opened by a maintainer. Her two answers, condensed, with every point
+and address she gave (Bauer et al. 2017, G3, https://doi.org/10.1534/g3.117.039511 ;
+https://academic.oup.com/g3journal/article/7/4/1315/6031816 ; UC Davis,
+https://vgl.ucdavis.edu/test/naked-foal-syndrome ; OMIA,
+https://omia.org/OMIA002096/9796/):
+
+  - All or nothing: NFS only in homozygotes; carriers normal. c.388G>T, p.Glu130*,
+    NC_009150.3:g.39710628G>T on chromosome 7 (EquCab3.0). No milder ST14 allele known.
+  - NFS/NFS: near-complete alopecia, sparse or absent mane and tail, mild ichthyosis,
+    abnormal skin barrier and follicles; teeth, digestive disease and persistent
+    diarrhoea, laminitis-like hoof problems (UC Davis). Considered always fatal: most die
+    within weeks (UC Davis) or days to months (paper); all known died between a few weeks
+    and 3 years; some survived to 2.5 years; case 1 (a cremello colt born March 2014)
+    alive in January 2017, small for age; case 2 euthanised at 21 days after a leg
+    fracture. The cause of early death is not established.
+  - 26 of 191 other Akhal-Tekes carriers: 13.6% of horses, allele frequency 6.8%; not
+    found in 400 horses of other breeds.
+  - Its advice: a skewed early-death curve, not instant death; no carrier effects.
+
+What the gene file does with it: nothing to change. "lethal_in_early_life" (born alive,
+dies in its first weeks or months) fits; the owner's open question on it is closed.
+
 ROUND THREE, SECOND ANSWER (the owner's answer to question G3, carriers, 2026-10-15)
 -------------------------------------------------------------------------------------
 No address has been opened by a maintainer. Her answer, condensed, with every point and

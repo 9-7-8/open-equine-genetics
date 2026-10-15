@@ -69,6 +69,9 @@ THE AUDIT
   "affects_eye" marks loci drawn on the eye, true on tiger_eye and the eight eye loci,
   whose outcomes have "changes_coat": false. In the format, the validator and all five
   readers (owner, 2026-10-15).
+- st14's severity stays "lethal_in_early_life": round four's answer (2026-10-15) says
+  naked foal syndrome is always fatal, most foals dying within weeks, the longest known
+  near three years.
 - ckm stays a published locus, as a published candidate with no established effect
   (round four's answer, 2026-10-15; no data change).
 - Eye-locus alleles for colours no horse has (iris white, red, chaos, invisible, black;
