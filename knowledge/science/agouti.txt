@@ -7,6 +7,43 @@ No source was opened by the session that filed this. genes/agouti.json was chang
 on the owner's word the same day; what is left over is in knowledge/known-issues.txt.
 Not yet audited.)
 
+ROUND FOUR (the owner's agouti overview, 2026-10-15)
+----------------------------------------------------
+No address has been opened by a maintainer. Her answer, condensed, with every point and
+address she gave:
+
+  - A and a are the two validated alleles; a is the 11 bp exon-2 deletion c.191_201del.
+    UC Davis tests both, for all breeds, and lists no others.
+    (https://vgl.ucdavis.edu/test/agouti-horse ;
+    https://vgl.ucdavis.edu/resources/horse-coat-color)
+  - Extension decides whether black can be made; e/e hides agouti. E/_ A/_ bay, E/_ a/a
+    black.
+  - At (seal brown): very dark, with reddish-tan "soft points" at the muzzle, eyes,
+    flank, elbow, groin and sometimes inner ears, black mane, tail and legs. Etalon says
+    "no formal genetic study is available at this time"; such horses may test A/A or
+    A/a. (https://m.etalondx.com/horse-genetics/horse-color/agouti/) A commercial At
+    test was offered by Pet DNA Services, not broadly accepted or peer-reviewed; the
+    laboratory closed, and other laboratories grouped seal-brown-looking horses with
+    bay. (https://bapsh.co.uk/pre-coat-colours-their-genetic-inheritance/agouti-locus-and-bay-black-seal-brown/)
+  - A+ (wild bay): bay with black leg points stopping low (fetlock or pastern), sometimes
+    a lighter body. No molecular test; not shown to be an ASIP allele rather than shade,
+    sooty, primitive markings, coat changes with age or other loci. (Etalon)
+  - On the tag: "invalid" is reasonable where a format has only valid and invalid, but
+    overstates the certainty; the looks are real, the alleles unvalidated. Nearer words:
+    proposed, unverified, hypothetical, phenotype-only. Breeding records of seal brown
+    families cannot tell one locus from polygenic inheritance.
+  - No established effect on height, speed, muscle, bone, hoof shape, feathering or white
+    markings. Hoof colour can follow nearby leg pigment; agouti does not shape the hoof.
+  - Its modelling advice (not a finding): keep A and a as the locus; treat seal brown and
+    wild bay as separate modifiers of unknown basis, with At and A+ kept only so old
+    records can be read.
+
+What the gene file does with it: the summary and the outcome for their pairs describe the
+two looks, Etalon's statement and the former At test; two citations added. Asked, the
+owner chose to make At and A+ "unverified", named "proposed (not a validated allele)",
+with the undocumented outcome "proposed-allele" (it was "invalid-allele"); the format's
+"invalid" means "no source supports it", and these have sources that call them proposed.
+
 ROUND THREE (the owner's answer to question B3, 2026-10-15)
 ------------------------------------------------------------
 The whole answer, for eight loci, is in knowledge/science/round-3-answers.txt. No address

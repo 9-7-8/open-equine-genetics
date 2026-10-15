@@ -20,7 +20,7 @@ RESEARCHED: abstracted_jump_strength, acan, agouti, b4galt7, brindle, champagne,
 - The 25 other abstracted loci have had no research.
 - Every allele says how far to trust it ("quality") and every citation whether a
   maintainer has opened it ("verified"). No citation is verified, no allele is
-  "verified", five alleles are "invalid" (agouti At and A+, kit W17a and W17b, shox sa),
+  "verified", three alleles are "invalid" (kit W17a and W17b, shox sa),
   and every allele of an abstracted locus is "abstracted".
 - tools/validate.mjs passes on all 68 gene files and 121 breed files. It checks
   structure, not science.
@@ -28,7 +28,7 @@ RESEARCHED: abstracted_jump_strength, acan, agouti, b4galt7, brindle, champagne,
 STILL WRONG OR UNPROVEN IN THE RESEARCHED LOCI
 - abstracted_jump_strength was "ryr2" until 2026-10-12 (owner: rename it). The data has two abstractions for jumping, this and abstracted_jump; whether both are wanted is open.
 - acan: D5 is "unconfirmed" with no outcome: proposed in a dissertation and tested by one laboratory (CombiBreed), with no peer-reviewed report. UC Davis has no ACAN test page. Two of Generatio's four positions do not match the file's D3 and D4 (question G7). D1/D1, D1/D2 and D1/D3 are nonviable; D1/D4 is a living pair with its own outcome, usually lost before birth but known once from a live foal (the format cannot give a pair a chance of surviving). Pairs of D2, D3 and D4 are born alive; D2 pairs milder, but the format has one severity for the dwarf condition. The Miniature Horse table is worked out from per-allele frequencies (sum 0.17), and counts D1/D4 at its random-mating share; a Brazilian study gives 0.280 for the four together. Who reported the 0.280 and the 1.43-inch height study is in doubt (question G6). A Brazilian candidate variant, c.6465A>T (p.Leu2155Phe), "potentially associated", is not an allele here.
-- agouti: At (seal brown) and A+ (wild bay) are marked "invalid" (owner, 2026-10-12). The research calls them plausible but unproven rather than wrong, and some laboratories report At; "invalid" is the nearest tag the format has.
+- agouti: At (seal brown) and A+ (wild bay) are "unverified", proposed alleles with no outcome (owner, 2026-10-15); the looks are real, the alleles unvalidated. The research suggests the looks be modelled as separate modifiers of unknown basis; only the abstracted shade locus exists, and nothing for wild bay's low leg points.
 - b4galt7: its first research names its sources by number only. The Friesian tables omit d/d horses. The 12% is Leegwater et al. 2016's 22 of 177, a validation set, not a random sample; KFPS testing gave about 15% in 2000 and 12.5% in 2021 (Hermans et al. 2024). A Brazilian 33% (12 horses) is not a table.
 - champagne: the names gold, amber and classic champagne depend on extension and agouti; the file says so in words and has no interactions table. "Sable" and "ivory" are registry names, not alleles.
 - ckm: a candidate that failed to replicate (Gu et al. 2010; no association in Quarter Horses); the file states no effect. Its reference allele is flagged wild_type and called ancestral on that alone. Round three puts CKM on chromosome 9, the file says 10; and an Italian Trotter study's marker g.16079732G>A may or may not be the file's g.15884567G>A (question D6). Whether a locus with no established effect belongs in the data as published is the owner's call.

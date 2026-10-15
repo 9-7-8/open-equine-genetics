@@ -67,8 +67,11 @@ THE AUDIT
 - An outcome nobody has described is marked as undocumented, never guessed.
 - Every allele carries a quality tag: verified, unverified, abstracted or invalid. An
   allele the science does not support is kept and marked invalid, so that nobody adds
-  it back thinking it was overlooked. (agouti's At and A+, proposed but never validated,
-  are tagged this way.)
+  it back thinking it was overlooked. (shox sa and kit W17a and W17b are tagged this way.)
+- An allele that is proposed but not validated - a real look, or a source that hedges -
+  is "unverified", named "proposed", "unconfirmed" or "disputed", with an undocumented
+  outcome. Not "invalid", which says no source supports it (owner, 2026-10-15: agouti
+  At and A+, which were "invalid" from 2026-10-12 until then).
 - Citations are not all to be opened and checked for now; each is marked verified or
   not. None is verified yet.
 - A condition goes on a genotype only where a source confirms it for that pair. (mitf:
