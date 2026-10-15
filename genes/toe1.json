@@ -28,6 +28,48 @@
   ],
   "frequencies": [
     {
+      "population": "Arabian, Egypt (5 carriers in 80 horses, none affected; 2021 study)",
+      "evidence": "published",
+      "genotypes": [
+        { "alleles": ["ca", "N"], "percent": 6.25 },
+        { "alleles": ["N", "N"], "percent": 93.75 }
+      ]
+    },
+    {
+      "population": "Bashkir Curly (allele frequency of ca 0.028, Brault and Penedo 2011; brought in by one Arabian stallion; genotype shares worked out from it assuming random mating)",
+      "evidence": "published",
+      "genotypes": [
+        { "alleles": ["ca", "ca"], "percent": 0.0784 },
+        { "alleles": ["ca", "N"], "percent": 5.4432 },
+        { "alleles": ["N", "N"], "percent": 94.4784 }
+      ]
+    },
+    {
+      "population": "Trakehner (allele frequency of ca 0.0068, Brault and Penedo 2011; carriers at least half-Arabian; genotype shares worked out from it assuming random mating)",
+      "evidence": "published",
+      "genotypes": [
+        { "alleles": ["ca", "ca"], "percent": 0.0046 },
+        { "alleles": ["ca", "N"], "percent": 1.3508 },
+        { "alleles": ["N", "N"], "percent": 98.6446 }
+      ]
+    },
+    {
+      "population": "Welsh Pony (allele frequency of ca 0.0033, Brault and Penedo 2011; carriers at least half-Arabian; genotype shares worked out from it assuming random mating)",
+      "evidence": "published",
+      "genotypes": [
+        { "alleles": ["ca", "ca"], "percent": 0.0011 },
+        { "alleles": ["ca", "N"], "percent": 0.6578 },
+        { "alleles": ["N", "N"], "percent": 99.3411 }
+      ]
+    },
+    {
+      "population": "Barb and Arab-Barb (not found; 2021 study, sample size not given)",
+      "evidence": "published",
+      "genotypes": [
+        { "alleles": ["N", "N"], "percent": 100 }
+      ]
+    },
+    {
       "population": "Arabian (about 20% carriers on average, from screening nearly 11,000 horses; the share of affected horses is not given, and it differs widely between families)",
       "evidence": "published",
       "genotypes": [
@@ -51,6 +93,8 @@
     { "source": "paper", "label": "Genomics, S0888754310002430: mapping of cerebellar abiotrophy in Arabians", "url": "https://www.sciencedirect.com/science/article/pii/S0888754310002430", "verified": false },
     { "source": "pubmed", "label": "PMC5905334: the CA variant, TOE1 and MUTYH regulation", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5905334/", "verified": false },
     { "source": "pubmed", "label": "PMC3671216: the TOE1 g.2171G>A variant and cerebellar abiotrophy", "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3671216/", "verified": false },
-    { "source": "other", "label": "Kentucky Equine Research: Arabian mutation linked to cerebellar abiotrophy", "url": "https://ker.com/equinews/arabian-horse-mutation-linked-cerebellar-abiotrophy/", "verified": false }
+    { "source": "other", "label": "Kentucky Equine Research: Arabian mutation linked to cerebellar abiotrophy", "url": "https://ker.com/equinews/arabian-horse-mutation-linked-cerebellar-abiotrophy/", "verified": false },
+    { "source": "pubmed", "label": "PMID 21496100: Brault and Penedo 2011, the CA allele in non-Arabian breeds", "url": "https://pubmed.ncbi.nlm.nih.gov/21496100/", "verified": false },
+    { "source": "pubmed", "label": "PMC8701198: inherited-disease variants in Egyptian Arabians, Barbs and Arab-Barbs (2021)", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8701198/", "verified": false }
   ]
 }

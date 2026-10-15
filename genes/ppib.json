@@ -28,6 +28,23 @@
   ],
   "frequencies": [
     {
+      "population": "American Paint Horse, control horses (1.7% carriers, Tryon et al. 2009; the share of affected horses is not given)",
+      "evidence": "published",
+      "genotypes": [
+        { "alleles": ["herda", "N"], "percent": 1.7 },
+        { "alleles": ["N", "N"], "percent": 98.3 }
+      ]
+    },
+    {
+      "population": "American Quarter Horse, elite cutting horses 2020-2024 (allele frequency 0.135, Brown et al. 2026; genotype shares worked out from it assuming random mating)",
+      "evidence": "published",
+      "genotypes": [
+        { "alleles": ["herda", "herda"], "percent": 1.8225 },
+        { "alleles": ["herda", "N"], "percent": 23.355 },
+        { "alleles": ["N", "N"], "percent": 74.8225 }
+      ]
+    },
+    {
       "population": "American Quarter Horse in the United States (7 carriers in 200 control horses, 3.5%, Tryon et al. 2007; an earlier estimate gave 3.65% of 1,041 unaffected horses; the share of affected horses is not given)",
       "evidence": "published",
       "genotypes": [
@@ -77,6 +94,7 @@
     { "source": "paper", "label": "Genomics 2007: Tryon et al., the PPIB mutation and 3.5% carriers in control Quarter Horses", "url": "https://www.sciencedirect.com/science/article/pii/S0888754307000651", "verified": false },
     { "source": "paper", "label": "JAVMA 234(1):120 (2009): Tryon et al., allele frequencies in subgroups of Quarter Horses (28.3% HERDA carriers among elite cutting horses)", "url": "https://avmajournals.avma.org/view/journals/javma/234/1/javma.234.1.120.xml", "verified": false },
     { "source": "ucdavis-vgl", "label": "UC Davis VGL: HERDA", "url": "https://vgl.ucdavis.edu/test/herda", "verified": false },
-    { "source": "other", "label": "AQHA: HERDA", "url": "https://www.aqha.com/herda", "verified": false }
+    { "source": "other", "label": "AQHA: HERDA", "url": "https://www.aqha.com/herda", "verified": false },
+    { "source": "other", "label": "Mad Barn research summary: Brown et al. 2026, seven inherited disorders in Quarter Horse cohorts 2020-2024", "url": "https://madbarn.com/research/allele-frequencies-of-7-inherited-disorders-in-performance-and-random-cohorts-of-american-quarter-horses-2020-2024/", "verified": false }
   ]
 }
