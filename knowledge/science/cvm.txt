@@ -1,6 +1,12 @@
 CVM (cervical malformation) - science notes
 (A science note on this locus, written 2026-10-12. Not yet audited.)
 
+ROUND FOUR (the owner's answer to question H9, 2026-10-15)
+-----------------------------------------------------------
+The whole answer, for CVM and megaesophagus, is in knowledge/science/round-4-answers.txt.
+No address has been opened by a maintainer.
+- Likely genetic but no mutation or test (UC Davis); polygenic with growth, diet, injury; Thoroughbreds, Quarter Horses, Warmbloods; males more often. A young horse's ataxia, not a foal dead at birth: the severity went from "lethal_at_birth" to "impairing" and the outcome text was rewritten (session's choice, the research stating no death).
+
 This one has no confirmed causal variant, and says so
 -----------------------------------------------------
 

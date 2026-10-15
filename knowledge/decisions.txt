@@ -65,6 +65,9 @@ THE AUDIT
   becomes of an allele or locus the science does not support (ids are never removed),
   and commits.
 - An outcome nobody has described is marked as undocumented, never guessed.
+- patn2 keeps giving the blanket patterns in leopard's outcomes, labelled as this data's
+  model, though no PATN2 is published and the blanket-gene idea is given up (owner,
+  2026-10-15).
 - Every allele carries a quality tag: verified, unverified, abstracted or invalid. An
   allele the science does not support is kept and marked invalid, so that nobody adds
   it back thinking it was overlooked. (shox sa, kit W17a and W17b, and acan D3 - a

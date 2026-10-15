@@ -191,3 +191,164 @@ What the data does with it
     per-breed figure) or W22 (W20_22 cannot be told apart) have none.
   - mitf: thirteen breed tables, the breeds listed; SW7-SW9 count as N.
   - pax3: no table; SW10's OMIA position noted.
+
+
+QUESTION H9 - CVM (WOBBLER SYNDROME) AND MEGAESOPHAGUS (2026-10-15)
+------------------------------------------------------------------
+Her document, whole, as she sent it:
+
+# Cervical vertebral malformation (wobbler syndrome) and megaesophagus
+
+## Bottom line
+
+**Cervical vertebral compressive myelopathy (CVCM), commonly called wobbler syndrome, has a likely genetic component but no identified causal mutation or validated DNA test.** It is best modeled as a **multifactorial, polygenic developmental disease** modified by sex, rapid growth, diet, exercise, trauma, and conformation. [web:198][web:195][web:203]
+
+**Megaesophagus has a strong breed- and family-level case for heritability in Friesian horses, but no causal gene or validated DNA test has been published.** It should be modeled as a **heritable, probably complex trait in Friesians**, with environmental and acquired causes also possible. [web:197][web:199][web:214]
+
+## Cervical vertebral malformation / wobbler syndrome
+
+### What it is
+
+CVCM is compression of the cervical spinal cord caused by malformation, instability, or stenosis of the neck vertebrae. It produces ataxia—“wobbler syndrome”—usually most obvious in the hind limbs, and may be dynamic or static depending on the site and type of compression. [web:198][web:203]
+
+The older umbrella term “cervical vertebral malformation” includes several developmental abnormalities. A related but distinct condition, **equine complex vertebral malformation (ECVM)**, involves malformations at the cervicothoracic junction, especially C6/C7, and is not the same as a proven CVCM diagnosis. [web:200][web:207]
+
+### Genetic evidence
+
+UC Davis states that a genetic component of CVCM is likely but remains elusive; no causative mutation has been identified. It also advises that affected horses should not be bred because the condition is potentially heritable. [web:198]
+
+The evidence is consistent with **polygenic susceptibility**, not a single Mendelian allele:
+
+- Thoroughbreds, Quarter Horses, and Warmbloods are reported to have genetic predisposition. [web:203]
+- Males are more commonly affected than females. [web:203][web:195]
+- Type I CVCM in young horses is multifactorial, involving inheritance, diet, rapid growth, trauma, and growth rate. [web:195]
+- Some studies failed to demonstrate simple genetic determination, while others support a genetic influence on neck length, vertebral biomechanics, body size, and cartilage-growth response. [web:195][web:205]
+- No validated gene, locus, or DNA test is available. [web:198]
+
+### Best inheritance model
+
+Use a **liability-threshold polygenic model**:
+
+```text
+CVCM_liability =
+    polygenic_susceptibility
+  + sex_effect
+  + rapid_growth_effect
+  + high_energy_diet_effect
+  + trauma_or_exercise_effect
+  + random_developmental_noise
+
+if CVCM_liability > threshold:
+    wobbler_syndrome = true
+```
+
+Do **not** implement a simple dominant or recessive “wobbler gene.” UC Davis specifically notes that no causative mutation has been identified despite ongoing research. [web:198]
+
+### Simulator rules
+
+- Make CVCM a health trait, not a coat-color locus.
+- Give it low baseline incidence and a continuous liability score.
+- Increase risk for rapid growth, high-energy diets, male sex, and certain conformational or breed backgrounds.
+- Allow affected horses to be bred in-game only if the simulation deliberately models irresponsible breeding; otherwise apply a breeding-restriction rule.
+- Do not assign a genomic coordinate, allele frequency, or carrier status, because none is validated.
+
+### Primary sources
+
+- UC Davis Center for Equine Health, CVCM: https://ceh.vetmed.ucdavis.edu/health-topics/cervical-vertebral-compressive-myelopathy-cvcm [web:198]  
+- Rush & Reed, *Cervical Vertebral Stenotic Myelopathy*, *Equine Veterinary Education* review: https://www.sciencedirect.com/science/article/abs/pii/S0749073922000220 [web:195]  
+- Merck Veterinary Manual, equine cervical vertebral stenotic myelopathy: https://www.merckvetmanual.com/musculoskeletal-system/congenital-and-inherited-anomalies-of-the-musculoskeletal-system/congenital-and-inherited-anomalies-of-the-musculoskeletal-system-in-horses [web:203]  
+- Historical Thoroughbred C6/C7 malformation family study: https://pmc.ncbi.nlm.nih.gov/articles/PMC10650596/ [web:200]  
+- CVSM contributing-factor study: https://pmc.ncbi.nlm.nih.gov/articles/PMC9412063/ [web:201]  
+
+## Megaesophagus
+
+### What it is
+
+Megaesophagus is abnormal esophageal function with chronic dilation and impaired transport of feed to the stomach. In horses it can cause recurrent choke, regurgitation/nasal reflux, weight loss, aspiration pneumonia, and death. [web:197][web:214]
+
+### Evidence for heritability
+
+The evidence is strongest in **Friesian horses**:
+
+- A necropsy study of 852 horses over six years found a higher prevalence of severe esophageal disease, especially megaesophagus, in Friesians than in other breeds; 5 of 6 affected Friesians had marked caudal esophageal smooth-muscle hypertrophy. [web:197]
+- A later morphological study reported an approximate **2% prevalence among Friesians presented to two Dutch referral clinics**, compared with **0.5% in horses of other breeds**. These are **prevalence/share of affected horses**, not allele or carrier frequencies. [web:202][web:213]
+- Abnormal clumped and disorganized collagen was found in affected Friesians, including very young foals, supporting a congenital/hereditary component. [web:202][web:199]
+- A 2002–2007 Dutch clinical series recorded 45 megaesophagus cases, of which 41 were Friesians, with familial clustering reported. [web:204]
+- The Fenway Foundation/FHANA research program treats Friesian megaesophagus as likely complex, potentially involving connective-tissue and esophageal-function abnormalities. [web:214][web:208]
+
+### What is not established
+
+- **No causal mutation has been published.**
+- **No validated DNA test exists.**
+- **No inheritance mode is proven.** A recessive model is a plausible research hypothesis, but it has not been established.
+- **No breed-general allele or carrier frequency can be cited.** The 2% and 0.5% figures are clinical prevalence estimates in specific referral populations, not genotype frequencies. [web:202][web:213]
+- Ongoing family-based sequencing had narrowed candidates to 969 variants across 135 genes as of the 2021 FHANA update, with one insertion of interest, but this was not a published causal discovery. [web:208]
+
+### Best inheritance model
+
+For Friesians, use a **heritable complex-disease model**:
+
+```text
+megaesophagus_liability =
+    Friesian_breed_background_effect
+  + polygenic_connective_tissue_effect
+  + familial_risk_effect
+  + acquired_esophageal_disease_effect
+  + random_developmental_noise
+
+if megaesophagus_liability > threshold:
+    megaesophagus = true
+```
+
+If you want a simple Mendelian abstraction, use a **recessive major-risk allele restricted to Friesian founder lines**, but label it a simulation convention. Do not present it as a known causal allele.
+
+### Simulator rules
+
+- Restrict elevated congenital risk primarily to Friesian ancestry.
+- Make congenital/young-onset cases distinct from acquired megaesophagus in older horses.
+- Include choke risk, poor weight gain, aspiration-pneumonia risk, and possible early death as consequences.
+- Do not let coat-color genetics or conformation traits directly cause megaesophagus.
+- Do not claim a DNA test or carrier status.
+
+### Primary sources
+
+- Ploeg et al. 2014, *Megaesophagus in Friesian horses associated with muscular hypertrophy of the caudal esophagus*, *BMC Veterinary Research*: https://pubmed.ncbi.nlm.nih.gov/24227010/ [web:197]  
+- Ploeg et al. 2015, *Esophageal Dysfunction in Friesian Horses: Morphological Features*, *Veterinary Pathology*: https://journals.sagepub.com/doi/10.1177/0300985814556780 [web:199]  
+- Ploeg et al. 2015 full-text/abstract summary with 2% versus 0.5% prevalence: https://research-portal.uu.nl/en/publications/esophageal-dysfunction-in-friesian-horses-morphological-features/ [web:202]  
+- The Horse report on familial predisposition in Friesians: https://thehorse.com/152981/esophageal-problem-hereditary-in-friesians/ [web:204]  
+- FHANA genetic research update: https://fhana.com/news/megaesophagus-genetic-research-update/ [web:208]  
+- Fenway Foundation megaesophagus overview: https://www.fenwayfoundation.com/megaesophagus [web:214]  
+
+## How the two conditions differ
+
+| Feature | CVCM / wobbler syndrome | Megaesophagus |
+|---|---|---|
+| Main system | Neurologic / skeletal | Digestive |
+| Genetic status | Likely genetic component; no mutation found | Strong heritability evidence in Friesians; no mutation found |
+| Best model | Polygenic liability plus environment | Heritable complex disease, especially in Friesians |
+| Breed emphasis | Thoroughbreds, Quarter Horses, Warmbloods | Friesians |
+| DNA test | None | None |
+| Breeding advice | UC Davis: potentially heritable; do not breed affected horses | Strong case for heritability in Friesians; no validated carrier test |
+| Main environmental modifiers | Rapid growth, diet, trauma, exercise | Acquired esophageal disease, age, choke/obstruction history |
+
+## Sources
+
+- UC Davis CVCM: https://ceh.vetmed.ucdavis.edu/health-topics/cervical-vertebral-compressive-myelopathy-cvcm [web:198]  
+- Rush & Reed CVSM review: https://www.sciencedirect.com/science/article/abs/pii/S0749073922000220 [web:195]  
+- Merck Veterinary Manual: https://www.merckvetmanual.com/musculoskeletal-system/congenital-and-inherited-anomalies-of-the-musculoskeletal-system/congenital-and-inherited-anomalies-of-the-musculoskeletal-system-in-horses [web:203]  
+- Historical C6/C7 malformation study: https://pmc.ncbi.nlm.nih.gov/articles/PMC10650596/ [web:200]  
+- CVSM contributing-factor study: https://pmc.ncbi.nlm.nih.gov/articles/PMC9412063/ [web:201]  
+- Ploeg et al. 2014 megaesophagus necropsy study: https://pubmed.ncbi.nlm.nih.gov/24227010/ [web:197]  
+- Ploeg et al. 2015 morphological study: https://journals.sagepub.com/doi/10.1177/0300985814556780 [web:199]  
+- Ploeg et al. 2015 institutional record: https://research-portal.uu.nl/en/publications/esophageal-dysfunction-in-friesian-horses-morphological-features/ [web:202]  
+- The Horse familial Friesian report: https://thehorse.com/152981/esophageal-problem-hereditary-in-friesians/ [web:204]  
+- FHANA research update: https://fhana.com/news/megaesophagus-genetic-research-update/ [web:208]  
+- Fenway Foundation overview: https://www.fenwayfoundation.com/megaesophagus [web:214]
+
+What the data does with it
+  - cvm and megaesophagus stay abstracted, one made-up recessive allele each. Both
+    summaries now give what is known; the outcome texts no longer describe a foal that
+    dies at birth, and both severities went from "lethal_at_birth" to "impairing" (the
+    session's choice: the research states no death for either). Five and six citations.
+  - The answer's liability models and its "recessive major-risk allele in Friesian
+    founder lines" are modelling advice.

@@ -1,6 +1,12 @@
 Megaesophagus - science notes
 (A science note on this locus, written 2026-10-12. Not yet audited.)
 
+ROUND FOUR (the owner's answer to question H9, 2026-10-15)
+-----------------------------------------------------------
+The whole answer, for CVM and megaesophagus, is in knowledge/science/round-4-answers.txt.
+No address has been opened by a maintainer.
+- Strong family and breed evidence in Friesians (necropsy of 852 horses; about 2% of Friesians at two Dutch clinics against 0.5%; 41 of 45 Dutch cases Friesian; abnormal collagen in young foals); candidate variants in 2021, no mutation or test. Not described as fatal at birth: the severity went from "lethal_at_birth" to "impairing" and the outcome text was rewritten (session's choice).
+
 No confirmed causal variant
 ---------------------------
 

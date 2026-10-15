@@ -11,8 +11,8 @@ The session's reading:
     published and the blanket-gene idea has been given up. The locus stays, as the
     abstraction leopard depends on, but its summary and name now say it is made up and
     that the blanket split is this data's model. Whether to keep that split, or recast
-    PATN2 as a plain extra-white modifier as the answer suggests, is a format choice for
-    the owner; nothing was changed in the outcomes.
+    PATN2 as a plain extra-white modifier as the answer suggests, was asked: the owner
+    chose (2026-10-15) to keep the split, labelled as this data's model.
   - PATN1's position, ECA3:23,658,447T>G, is not added: the answer says its assembly
     should be confirmed first. Horse Reality is a game's wiki and is not cited.
 
