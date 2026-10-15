@@ -5,7 +5,7 @@
   "name": "Sooty",
   "symbol": null,
   "evidence": "abstracted",
-  "summary": "The dark countershading that lies over a horse's topline, crest, shoulder and croup and makes it look darker than its base colour says - a muddy palomino, a smutty buckskin, a bay people keep calling black. It works by declining to remove pigment the rest of the coat was about to lose, so it shows most on the colours with the most to keep and does nothing at all on a plain black. A dosage of two variant alleles; no confirmed real-world inheritance exists.",
+  "summary": "The dark countershading that lies over a horse's topline, crest, shoulder and croup and makes it look darker than its base colour says - a muddy palomino, a smutty buckskin, a bay people keep calling black. It does nothing visible on a plain black. Held here as a dosage of two made-up alleles: no gene, locus, variant or DNA test for sooty has been published, so no position can be given. The name probably covers several things - black hairs mixed through the coat, dark-tipped hairs along the topline, and a general darkening of chestnut towards liver - and its control may differ between chestnut-based coats and coats with black points. It is heritable: in 1,369 foals of five Franches-Montagnes stallions (Henner et al. 2002) dark chestnut and dark bay looked recessive, in that breed only and with no variant found; a 2021 genome-wide study found a region containing SALL1 associated with how intense a chestnut is, a lead for chestnut darkening, not a sooty gene. It touches only the body coat, not build, speed or the long hair, and should not be confused with dun.",
   "inheritance": "autosomal",
   "affects_coat": true,
   "alleles": [
@@ -42,5 +42,10 @@
       ]
     }
   ],
-  "citations": []
+  "citations": [
+    { "source": "paper", "label": "Sponenberg, Equine Color Genetics, chapter 5 (sooty, its control not straightforward)", "url": "https://onlinelibrary.wiley.com/doi/10.1002/9781119130628.ch5", "verified": false },
+    { "source": "pubmed", "label": "PMID 34343312: Hammons et al. 2021, J Hered 112:443-446, a region containing SALL1 and chestnut pigment intensity", "url": "https://pubmed.ncbi.nlm.nih.gov/34343312/", "verified": false },
+    { "source": "pubmed", "label": "PMID 12224446: Henner et al. 2002, Schweiz Arch Tierheilkd 144:405-412, coat colour in Franches-Montagnes horses (dark shades recessive)", "url": "https://pubmed.ncbi.nlm.nih.gov/12224446/", "verified": false },
+    { "source": "other", "label": "Schweizer Archiv fur Tierheilkunde: Henner et al. 2002, full text", "url": "https://sat.gstsvs.ch/fileadmin/media/pdf/archive/2002/08/SAT144080405.pdf", "verified": false }
+  ]
 }
