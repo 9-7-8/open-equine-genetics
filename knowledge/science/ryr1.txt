@@ -5,12 +5,49 @@ No source was opened by the session that filed this. genes/ryr1.json was changed
 on the owner's word the same day; what is left over is in knowledge/known-issues.txt.
 Not yet audited.)
 
+ROUND THREE (the owner's answer to question F4, 2026-10-15)
+------------------------------------------------------------
+This came after everything below and settles the first-report question left UNSETTLED in
+round two: the 2004 paper is the first report. No address has been opened by a
+maintainer. Her answer, as she sent it:
+
+  Aleman et al. 2004 in Muscle & Nerve was the first report identifying the equine RYR1
+  variant associated with malignant hyperthermia (MH). The 2009 Journal of Veterinary
+  Internal Medicine paper was a later, follow-up clinical/genetic study, not the first
+  report. (https://pubmed.ncbi.nlm.nih.gov/15318347/)
+
+  | Paper                                   | Date           | Role                         |
+  | Aleman et al., Muscle & Nerve           | September 2004 | First genetic association:   |
+  | 30:356-365                              |                | identified RYR1 C7360G       |
+  |                                         |                | (p.R2454G) in two clinically |
+  |                                         |                | affected horses; associated  |
+  |                                         |                | with halothane-triggered MH. |
+  |                                         |                | (pubmed 15318347)            |
+  | Aleman, Nieto & Magdesian, J Vet Intern | March-April    | Follow-up in Quarter Horses; |
+  | Med 23:329-334                          | 2009           | anaesthetic and non-         |
+  |                                         |                | anaesthetic MH in horses     |
+  |                                         |                | with the same variant.       |
+  |                                         |                | (pubmed 19220734)            |
+
+  Why the confusion happens: both papers are by Monica Aleman and concern the same
+  variant, so citations blur together. OMIA records 2004 as the year the variant was
+  first reported and lists the 2004 paper as its source reference
+  (https://omia.org/OMIA000621/9796/). The 2004 abstract says equine MH had been
+  "suspected but never genetically confirmed" before that work, and proposes the
+  mutation as the basis for a screening test.
+
+  Citation for the first report: Aleman M, Riehl J, Aldridge BM, LeCouteur RA, Stott JL,
+  Pessah IN. "Association of a mutation in the ryanodine receptor 1 gene with equine
+  malignant hyperthermia." Muscle & Nerve. 2004;30(3):356-365. doi:10.1002/mus.20084.
+  Use the 2009 paper for later clinical characterisation in Quarter Horses,
+  non-anaesthetic triggers or the broader phenotype.
+
 ROUND TWO (the owner's answers to the open research questions, 2026-10-12)
 --------------------------------------------------------------------------
 These came after everything below. Where they disagree with it, this section and the gene
 file stand, unless a line says the point is unsettled. The whole answer is in
 knowledge/science/round-2-answers.txt. No address has been opened by a maintainer.
-- UNSETTLED: this answer says the equine RYR1 variant was reported in 2009 and that 2004
+- SETTLED BY ROUND THREE (above), for 2004. This answer says the equine RYR1 variant was reported in 2009 and that 2004
   refers to earlier related work or another disease. The earlier answer says the 2004
   paper (Aleman et al., Muscle and Nerve; cited in the gene file by its title, which names
   equine malignant hyperthermia) is the primary one. Neither is sourced beyond that; both
