@@ -76,8 +76,8 @@ The session's reading: this reverses round two ("best treated as two distinct
 variants") and the owner's ruling of 2026-10-12 that split W17 into W17a and W17b.
 The g. bases given do not obviously match the c. changes (A>T against A>G, T>C against
 T>A, even allowing for strand), so the OMIA string may be garbled in the answer. What
-becomes of W17, W17a and W17b is the owner's decision and was put to her; nothing was
-changed for it yet. W37: the gene file already says W37 is found only with W35 and
+becomes of W17, W17a and W17b is the owner's decision. She chose (2026-10-15) to restore
+W17 as the allele, with the outcomes W17a had, and mark W17a and W17b invalid. W37: the gene file already says W37 is found only with W35 and
 gives W37/W35 the W37 outcome; unchanged.
 ROUND THREE, SECOND ANSWER (the owner's answer to question C1, 2026-10-15)
 -------------------------------------------------------------------------
