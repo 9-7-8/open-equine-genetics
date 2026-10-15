@@ -6,34 +6,33 @@
   "symbol": "PAX3",
   "chromosome": "6",
   "evidence": "published",
-  "summary": "PAX3, on chromosome 6, a transcription factor needed by the pigment cells of the embryo; it also helps regulate MITF. It is the second splash-white locus, with two confirmed alleles: SW2 (c.209G>A, p.Cys70Tyr), from a Quarter Horse line and found in Quarter Horses and Paint Horses, and SW4 (p.Pro32Arg), a rare variant from one Appaloosa family. Both are dominant and very variable: a broad blaze or bald face, high white on the legs, some white on the belly, and often blue eyes. The white is skin with no pigment cells; the horse's colour is unchanged elsewhere, and chestnuts tend to show more white on the face than bays with the same genotype. Deafness occurs in some splash-white horses and is not certain in any. Horses with two copies of SW2 have been identified; none with two of SW4, or with SW2 and SW4 together, has been reported. SW10 is not among the eight alleles UC Davis names (SW1 to SW8). Some European laboratories list an SW9 and an SW10; which variants they mean, and in which gene, is not confirmed, so SW10 is kept here as unconfirmed, with no outcome. Ordinary stars, blazes and socks are not caused by this locus. No effect on build or performance is established.",
+  "summary": "PAX3, on chromosome 6, a transcription factor needed by the pigment cells of the embryo; it also helps regulate MITF. It is the second splash-white locus, with three published alleles: SW2 (c.209G>A, p.Cys70Tyr), from a Quarter Horse line and found in Quarter Horses and Paint Horses, and SW4 (p.Pro32Arg), a rare variant from one Appaloosa family. Both are dominant and very variable: a broad blaze or bald face, high white on the legs, some white on the belly, and often blue eyes. The white is skin with no pigment cells; the horse's colour is unchanged elsewhere, and chestnuts tend to show more white on the face than bays with the same genotype. Deafness occurs in some splash-white horses and is not certain in any. Horses with two copies of SW2 have been identified; none with two of SW4, or with SW2 and SW4 together, has been reported. A third, SW10, was published in 2023 and is not on UC Davis's list: a stop-gain change, c.927C>T (chromosome 6, 11,196,181 C>T on EquCab3.0), that cuts PAX3 short before an important DNA-binding domain. It was found in Pura Raza Espanola (Andalusian) horses with splashed white markings and blue eyes; the evidence is an association study, and it is known only from that breed so far. No horse with two copies of SW10 is reported, and the pair is predicted, not shown, to be lethal to the embryo. Ordinary stars, blazes and socks are not caused by this locus. No effect on build or performance is established.",
   "inheritance": "autosomal",
   "affects_coat": true,
   "alleles": [
     { "id": "SW2", "name": "Splash white 2 (c.209G>A, p.Cys70Tyr)", "wild_type": false, "quality": "unverified" },
     { "id": "SW4", "name": "Splash white 4 (p.Pro32Arg)", "wild_type": false, "quality": "unverified" },
-    { "id": "SW10", "name": "Splash white 10 (unconfirmed)", "wild_type": false, "quality": "unverified" },
+    { "id": "SW10", "name": "Splash white 10 (c.927C>T, stop-gain; Pura Raza Espanola)", "wild_type": false, "quality": "unverified" },
     { "id": "N", "name": "Wild-type", "wild_type": true, "quality": "unverified" }
   ],
   "phenotypes": [
     { "id": "wild", "name": "Wild type", "description": "No splash white from this locus.", "changes_coat": false },
-    { "id": "splash", "name": "Splash white", "description": "One copy of SW2 or SW4. A broad blaze or bald face, high white on the legs, variable white on the belly, and often blue or partly blue eyes; white hair grows over pink skin. Very variable: a carrier may show little white, and SW4 may give no more than a broad blaze. Some splash-white horses are deaf; most are not known to be.", "changes_coat": true },
+    { "id": "splash", "name": "Splash white", "description": "One copy of SW2, SW4 or SW10. A broad blaze or bald face, high white on the legs, variable white on the belly, and often blue or partly blue eyes; white hair grows over pink skin. Very variable: a carrier may show little white, and SW4 may give no more than a broad blaze. Some splash-white horses are deaf; most are not known to be.", "changes_coat": true },
     { "id": "splash-bold", "name": "Two copies of SW2", "description": "Two copies of SW2. Such horses have been identified and are viable, which the first description of SW2 had doubted. They may be deaf, and a hearing check is advised. How much white they show is not described.", "changes_coat": true },
-    { "id": "splash-undocumented", "name": "SW2 with SW4, not detected", "documented": false, "description": "One copy of SW2 and one of SW4. No such horse has been detected, and whether it would be viable is unknown.", "changes_coat": true },
-    { "id": "splash-homozygote-undetected", "name": "Two copies of SW4, never detected", "documented": false, "description": "No horse with two copies of SW4 has been reported. UC Davis says the pair may be lethal to the embryo; that is not demonstrated.", "changes_coat": true },
-    { "id": "unconfirmed-allele", "name": "Pair with an unconfirmed variant", "documented": false, "description": "A pair that includes SW10. Some European laboratories list an SW10. It is not among the splash-white alleles UC Davis names, which variant it means is not confirmed, and nothing is given for it.", "changes_coat": true }
+    { "id": "splash-undocumented", "name": "SW2 with SW4, not detected", "documented": false, "description": "Two different PAX3 splash variants (SW2, SW4 or SW10). No such horse has been reported, and whether it would be viable is unknown.", "changes_coat": true },
+    { "id": "splash-homozygote-undetected", "name": "Two copies of SW4, never detected", "documented": false, "description": "Two copies of SW4, or of SW10. No such horse has been reported. UC Davis says SW4/SW4 may be lethal to the embryo, and SW10/SW10 is predicted to be, because SW10 cuts the protein short; neither is demonstrated.", "changes_coat": true }
   ],
   "genotypes": [
     { "alleles": ["N", "N"], "phenotype": "wild" },
-    { "alleles": ["SW10", "N"], "phenotype": "unconfirmed-allele" },
+    { "alleles": ["SW10", "N"], "phenotype": "splash" },
     { "alleles": ["SW4", "N"], "phenotype": "splash" },
-    { "alleles": ["SW4", "SW10"], "phenotype": "unconfirmed-allele" },
+    { "alleles": ["SW4", "SW10"], "phenotype": "splash-undocumented" },
     { "alleles": ["SW2", "N"], "phenotype": "splash" },
-    { "alleles": ["SW2", "SW10"], "phenotype": "unconfirmed-allele" },
+    { "alleles": ["SW2", "SW10"], "phenotype": "splash-undocumented" },
     { "alleles": ["SW2", "SW4"], "phenotype": "splash-undocumented" },
     { "alleles": ["SW2", "SW2"], "phenotype": "splash-bold" },
     { "alleles": ["SW4", "SW4"], "phenotype": "splash-homozygote-undetected" },
-    { "alleles": ["SW10", "SW10"], "phenotype": "unconfirmed-allele" }
+    { "alleles": ["SW10", "SW10"], "phenotype": "splash-homozygote-undetected" }
   ],
   "frequencies": [
     {
@@ -73,6 +72,7 @@
     { "source": "paper", "label": "Journal of Equine Veterinary Science, S0737080623003660", "url": "https://www.sciencedirect.com/science/article/pii/S0737080623003660", "verified": false },
     { "source": "pubmed", "label": "PMC10854722: review of equine white spotting", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10854722/", "verified": false },
     { "source": "pubmed", "label": "PMC10854588: horses with several KIT variants", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10854588/", "verified": false },
-    { "source": "other", "label": "Genomia: splashed white in horses (a laboratory listing SW9 and SW10)", "url": "https://www.genomia.cz/en/test/splashed-wh-horse/", "verified": false }
+    { "source": "other", "label": "Genomia: splashed white in horses (a laboratory listing SW9 and SW10)", "url": "https://www.genomia.cz/en/test/splashed-wh-horse/", "verified": false },
+    { "source": "paper", "label": "Journal of Equine Veterinary Science 128:104875 (2023): McFadden et al., SW9 in MITF and SW10 in PAX3 (PMID 37406837)", "url": "https://pubmed.ncbi.nlm.nih.gov/37406837/", "verified": false }
   ]
 }
