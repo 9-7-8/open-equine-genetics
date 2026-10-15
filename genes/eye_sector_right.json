@@ -5,7 +5,7 @@
   "name": "Right eye sector",
   "symbol": null,
   "evidence": "abstracted",
-  "summary": "Which part of this horse's right iris is a second colour - sectoral heterochromia, as ten named alleles: four halves, four corners and the two diagonals. All ten are recessive to the wild type and to each other. It says where, not what: the colour is the sector-colour locus's, and a horse wild type here shows nothing whatever that locus says.",
+  "summary": "Which part of this horse's right iris is a second colour - sectoral heterochromia, as ten named alleles: four halves, four corners and the two diagonals. All ten are recessive to the wild type and to each other. It says where, not what: the colour is the sector-colour locus's, and a horse wild type here shows nothing whatever that locus says. Sectoral heterochromia is real, but no gene, locus or variant for it is published; it may arise in development rather than be inherited. The ten placements are a drawing model.",
   "inheritance": "autosomal",
   "affects_coat": true,
   "alleles": [

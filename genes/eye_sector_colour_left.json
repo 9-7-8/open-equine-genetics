@@ -5,7 +5,7 @@
   "name": "Left eye sector colour",
   "symbol": null,
   "evidence": "abstracted",
-  "summary": "What colour the sector in this horse's left iris is, if it has one. Mid blue is dominant - the commonest sector in the world is the blue wedge a white locus asks for, so the default is the colour that wedge already is - and the other seven each take a matched pair. Completely invisible on a horse whose sector locus is wild type, which is almost all of them.",
+  "summary": "What colour the sector in this horse's left iris is, if it has one - a drawing model. Mid blue is dominant - the commonest sector is the blue wedge a white locus asks for, so the default is the colour that wedge already is - and green, gold, dark blue, brown, light blue and white each take a matched pair. Chaos is no real colour and is marked invalid (owner, 2026-10-15). No locus is published for sectoral heterochromia or its colour. Completely invisible on a horse whose sector locus is wild type, which is almost all of them.",
   "inheritance": "autosomal",
   "affects_coat": true,
   "alleles": [
@@ -16,7 +16,7 @@
     { "id": "Brn", "name": "Brown", "wild_type": false, "quality": "abstracted" },
     { "id": "LBl", "name": "Light blue", "wild_type": false, "quality": "abstracted" },
     { "id": "Wht", "name": "White", "wild_type": false, "quality": "abstracted" },
-    { "id": "Cha", "name": "Chaos", "wild_type": false, "quality": "abstracted" }
+    { "id": "Cha", "name": "Chaos (invalid: no horse has an iris sector of this colour)", "wild_type": false, "quality": "invalid" }
   ],
   "phenotypes": [
     { "id": "wild", "name": "Wild type", "description": "A mid-blue sector, if this eye has a sector at all.", "changes_coat": false },
@@ -28,38 +28,38 @@
     { "id": "eye-sector-brown-left", "name": "Brown sector", "description": "This eye's sector, wherever the sector locus put it, comes out brown instead of blue. Invisible on a horse whose sector locus is wild type, which is almost all of them.", "changes_coat": true },
     { "id": "eye-sector-light-blue-left", "name": "Light blue sector", "description": "This eye's sector, wherever the sector locus put it, comes out light blue instead of blue. Invisible on a horse whose sector locus is wild type, which is almost all of them.", "changes_coat": true },
     { "id": "eye-sector-white-left", "name": "White sector", "description": "This eye's sector, wherever the sector locus put it, comes out white instead of blue. Invisible on a horse whose sector locus is wild type, which is almost all of them.", "changes_coat": true },
-    { "id": "eye-sector-chaos-left", "name": "Chaos sector", "description": "This eye's sector, wherever the sector locus put it, comes out chaos instead of blue. Invisible on a horse whose sector locus is wild type, which is almost all of them.", "changes_coat": true }
+    { "id": "invalid-allele", "name": "Pair with an invalid colour", "documented": false, "description": "A pair that includes chaos. Round-four research (2026-10-15) found no locus for these and no horse with such a colour; they are kept, marked invalid, so stored data lines up and nobody adds them back. No outcome is given.", "changes_coat": false }
   ],
   "genotypes": [
-    { "alleles": ["Cha", "Cha"], "phenotype": "eye-sector-chaos-left" },
-    { "alleles": ["Wht", "Cha"], "phenotype": "eye-sector-colour-mismatched" },
+    { "alleles": ["Cha", "Cha"], "phenotype": "invalid-allele" },
+    { "alleles": ["Wht", "Cha"], "phenotype": "invalid-allele" },
     { "alleles": ["Wht", "Wht"], "phenotype": "eye-sector-white-left" },
-    { "alleles": ["LBl", "Cha"], "phenotype": "eye-sector-colour-mismatched" },
+    { "alleles": ["LBl", "Cha"], "phenotype": "invalid-allele" },
     { "alleles": ["LBl", "Wht"], "phenotype": "eye-sector-colour-mismatched" },
     { "alleles": ["LBl", "LBl"], "phenotype": "eye-sector-light-blue-left" },
-    { "alleles": ["Brn", "Cha"], "phenotype": "eye-sector-colour-mismatched" },
+    { "alleles": ["Brn", "Cha"], "phenotype": "invalid-allele" },
     { "alleles": ["Brn", "Wht"], "phenotype": "eye-sector-colour-mismatched" },
     { "alleles": ["Brn", "LBl"], "phenotype": "eye-sector-colour-mismatched" },
     { "alleles": ["Brn", "Brn"], "phenotype": "eye-sector-brown-left" },
-    { "alleles": ["DBl", "Cha"], "phenotype": "eye-sector-colour-mismatched" },
+    { "alleles": ["DBl", "Cha"], "phenotype": "invalid-allele" },
     { "alleles": ["DBl", "Wht"], "phenotype": "eye-sector-colour-mismatched" },
     { "alleles": ["DBl", "LBl"], "phenotype": "eye-sector-colour-mismatched" },
     { "alleles": ["DBl", "Brn"], "phenotype": "eye-sector-colour-mismatched" },
     { "alleles": ["DBl", "DBl"], "phenotype": "eye-sector-dark-blue-left" },
-    { "alleles": ["Gld", "Cha"], "phenotype": "eye-sector-colour-mismatched" },
+    { "alleles": ["Gld", "Cha"], "phenotype": "invalid-allele" },
     { "alleles": ["Gld", "Wht"], "phenotype": "eye-sector-colour-mismatched" },
     { "alleles": ["Gld", "LBl"], "phenotype": "eye-sector-colour-mismatched" },
     { "alleles": ["Gld", "Brn"], "phenotype": "eye-sector-colour-mismatched" },
     { "alleles": ["Gld", "DBl"], "phenotype": "eye-sector-colour-mismatched" },
     { "alleles": ["Gld", "Gld"], "phenotype": "eye-sector-gold-left" },
-    { "alleles": ["Grn", "Cha"], "phenotype": "eye-sector-colour-mismatched" },
+    { "alleles": ["Grn", "Cha"], "phenotype": "invalid-allele" },
     { "alleles": ["Grn", "Wht"], "phenotype": "eye-sector-colour-mismatched" },
     { "alleles": ["Grn", "LBl"], "phenotype": "eye-sector-colour-mismatched" },
     { "alleles": ["Grn", "Brn"], "phenotype": "eye-sector-colour-mismatched" },
     { "alleles": ["Grn", "DBl"], "phenotype": "eye-sector-colour-mismatched" },
     { "alleles": ["Grn", "Gld"], "phenotype": "eye-sector-colour-mismatched" },
     { "alleles": ["Grn", "Grn"], "phenotype": "eye-sector-green-left" },
-    { "alleles": ["MBl", "Cha"], "phenotype": "eye-sector-colour-carrier" },
+    { "alleles": ["MBl", "Cha"], "phenotype": "invalid-allele" },
     { "alleles": ["MBl", "Wht"], "phenotype": "eye-sector-colour-carrier" },
     { "alleles": ["MBl", "LBl"], "phenotype": "eye-sector-colour-carrier" },
     { "alleles": ["MBl", "Brn"], "phenotype": "eye-sector-colour-carrier" },
@@ -85,9 +85,7 @@
         { "alleles": ["MBl", "LBl"], "percent": 0.36 },
         { "alleles": ["Wht", "Wht"], "percent": 0.08 },
         { "alleles": ["MBl", "Wht"], "percent": 0.24 },
-        { "alleles": ["Cha", "Cha"], "percent": 0.05 },
-        { "alleles": ["MBl", "Cha"], "percent": 0.15 },
-        { "alleles": ["MBl", "MBl"], "percent": 96.2 }
+        { "alleles": ["MBl", "MBl"], "percent": 96.4 }
       ]
     }
   ],
