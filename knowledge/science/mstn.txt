@@ -2,6 +2,12 @@ MSTN (myostatin) - science notes
 (Copied 2026-10-12 from the Science tab of the Procedural Horse Coats wiki page for this gene.
 Written for that project: it may mention how a game models the gene. Not yet audited.)
 
+ROUND THREE (the owner's answer to question D4, 2026-10-15)
+------------------------------------------------------------
+The whole answer is in knowledge/science/round-3-answers.txt. No address has been opened
+by a maintainer.
+- C allele frequency (Hill et al. 2012): Thoroughbred 0.51, Quarter Horse 0.90, Standardbred 0; many European breeds below 0.05. Three tables. C is a distance and muscle-type marker in Thoroughbreds, not a general speed allele.
+
 ROUND THREE (the owner's answer to question D2, 2026-10-15)
 ------------------------------------------------------------
 No address has been opened by a maintainer. Her answer, condensed, with every point and

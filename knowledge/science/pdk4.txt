@@ -5,6 +5,12 @@ No source was opened by the session that filed this. genes/pdk4.json was changed
 on the owner's word the same day; what is left over is in knowledge/known-issues.txt.
 Not yet audited.)
 
+ROUND THREE (the owner's answer to question D4, 2026-10-15)
+------------------------------------------------------------
+The whole answer is in knowledge/science/round-3-answers.txt. No address has been opened
+by a maintainer.
+- Thoroughbreds, n=99: AA 67, AG 29, GG 3 (Animal Bioscience). A table from those counts. Quarter Horses had more A than Arabians; no figures.
+
 ROUND THREE (the owner's answer to question D3, 2026-10-15)
 ------------------------------------------------------------
 Asked which allele is ancestral at PDK4 g.38973231A>G and CKM g.15884567G>A. No address

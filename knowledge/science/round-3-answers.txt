@@ -404,3 +404,177 @@ whiteScore = sum_i w_i g_i + sum_{i<j} e_ij g_i g_j + b_chestnut + epsilon
 where g_i is 0, 1, or 2 copies of allele i, w_i is its main effect, e_ij captures combinations such as TO+W20, O+SB1, and SW1+SW2, b_chestnut is the chestnut epistatic bonus, and epsilon represents developmental randomness. The Paint study found that even a neural-net model explained only about 55.5% of white-coat variation in validation, so retain meaningful stochasticity. [pmc.ncbi.nlm.nih](https://pmc.ncbi.nlm.nih.gov/articles/PMC10671537/)
 
 For visual realism, separate **amount of white** from **pattern geography**: SB1 favors jagged high-leg/ventral white, SW favors broad blazes and belly white, TO creates crossing white patterns, and W alleles range from subtle sabino-like markings to near-complete depigmentation. [pmc.ncbi.nlm.nih](https://pmc.ncbi.nlm.nih.gov/articles/PMC10854722/)
+
+
+QUESTION D4 - PERFORMANCE AND SIZE ALLELE FREQUENCIES BY BREED (2026-10-15)
+----------------------------------------------------------------------------
+Her answer is kept whole below as she sent it (two formulas written in plain text).
+
+What was done with it (the session, 2026-10-15)
+- lcorl: a Hanoverian table from the genotype shares given (Metzger et al. 2013, n=214;
+  they sum to 100.01, so n/n is entered as 16.35). Not the Thoroughbred figure: the
+  answer gives only "roughly" C 0.20 from genotype ranges.
+- hmga2: tables worked out from allele frequencies for the Welsh pony cohort (0.76) and
+  Welsh Sections A to D, and the Shetland subset of an Australian cohort (0.40); one
+  from counts for large horses (5 carriers in 529). Not the mixed pony cohort or
+  "Section H" (not described).
+- mstn: tables worked out from C allele frequencies, Thoroughbred 0.51, Quarter Horse
+  0.90, Standardbred 0 (Hill et al. 2012). The "gaited breeds A/T" row is not used: the
+  answer itself warns its orientation is unchecked.
+- pdk4: a Thoroughbred table from the genotype counts (AA 67, AG 29, GG 3 of 99). The
+  answer's "A 0.815 / G 0.175" does not sum to 1 and does not match those counts
+  (they give A 0.823); the counts are used.
+- ckm: no table. The answer's marker is g.16079732G>A, where the gene file's is
+  g.15884567G>A (EquCab2.0). Whether they are one SNP on two assemblies or two SNPs is
+  not said. Asked again.
+- lcorl: the Italian Trotter figures are for another LCORL marker (g.107374136C>T), as
+  the answer says; not used.
+
+=== The answer as sent ===
+Below is a simulator-oriented frequency reference for five performance-associated loci. Treat these as **population-sample estimates**, not universal breed constants: allele frequencies vary by country, selection line, birth cohort, and marker platform.
+
+## At a glance
+
+| Gene / marker | Main trait signal | Best-documented breed frequencies | Simulation implementation |
+|---|---|---|---|
+| **LCORL** — BIEC2-808543, ECA3 | Withers height, body frame, cannon circumference; large C allele increases size | Hanoverian: T 0.45 / C 0.55; Thoroughbred sample: T 0.80 / C 0.20; ponies are strongly enriched for T | Additive height modifier; C adds height/frame, T reduces it |
+| **HMGA2** — c.83G>A | Height reduction, especially in ponies; possible metabolic association | Welsh pony cohort: A 0.76 / G 0.24; mixed pony cohort: A 0.62; large horses: A 0.005 | Pony-specific additive dwarfing allele; approximately -9.5 cm per A copy in Shetlands |
+| **MSTN** — g.66493737C>T | Muscle fiber composition, body composition, optimum race distance | Thoroughbred: C 0.51; Quarter Horse: C 0.90; Standardbred: C absent; several European breeds: C MAF <0.05 | Distance/sprint and muscle-mass modifier; C favors sprinting/fast-twitch phenotype |
+| **PDK4** — g.38973231A>G | Racing performance / handicap rating; energy metabolism | Thoroughbred sample: A 0.815 / G 0.175; Quarter Horses have higher A than Arabians | Small performance modifier; avoid presenting it as deterministic speed |
+| **CKM** — g.16079732G>A | Candidate racing-performance marker; evidence weaker than MSTN/LCORL | Italian Trotter: G 0.59 / A 0.41; Thoroughbred: G 0.50 / A 0.50 | Optional minor racing modifier; model as polygenic background rather than a "speed gene" |
+
+## LCORL — BIEC2-808543
+
+**Established effect:** BIEC2-808543 lies upstream of *LCORL* on ECA3 and is one of the strongest known markers for equine withers height and skeletal frame. The **C allele is associated with larger size**, while **T is associated with smaller size**; heterozygotes are intermediate. In Hanoverians, C/C horses had the highest breeding values for height, and *LCORL* expression was reduced about 40% in C/T and 56% in C/C horses relative to T/T. [journals.plos](https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0056497&type=printable)
+
+**Breed/sample frequencies:**
+
+| Population | Allele / genotype data | Study |
+|---|---|---|
+| Hanoverian warmblood, n=214 | T/T 16.36%, C/T 57.48%, C/C 26.17%; MAF 0.45, so approximately T 0.45 / C 0.55 | Metzger et al., 2013 [journals.plos](https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0056497&type=printable) |
+| Thoroughbreds in training, n=322 | C/C nearly absent: males 0%, females 1%; T/T about 81–85%; therefore roughly T 0.80 / C 0.20 | Tozaki et al., 2016 [pmc.ncbi.nlm.nih](https://pmc.ncbi.nlm.nih.gov/articles/PMC5048357/) |
+| Italian Trotter, n=382 combined racing sample | LCORL g.107374136C>T: T allele 0.72 in Italian Trotters and 0.80 in Thoroughbreds; note this is a nearby LCORL marker, not necessarily BIEC2-808543 itself | Bologna / Italian Trotter performance study [cris.unibo](https://cris.unibo.it/bitstream/11585/818747/4/AAM%20SNPs%20and%20Italian%20Trotter%20horse%20performance.pdf) |
+| Pony breeds | T/T was "nearly perfectly associated" with pony breeds up to 148 cm in an 1,851-horse extreme-size scan | Metzger et al., 2013 [journals.plos](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0056497) |
+| Yili horses, n=314 | Genotyped for BIEC2-808543 for body-composition association; use as evidence of broad relevance, not as a published frequency unless the full table is consulted | Europe PMC abstract [europepmc](https://europepmc.org/article/MED/26158461) |
+
+**Simulator adaptation:** Use a three-genotype additive trait: height modifier = -1.0 for T/T, 0 for C/T, +1.0 for C/C.
+
+Scale the modifier by breed baseline: a C allele should move a Warmblood or draft toward larger frame more visibly than it moves a pony, where other small-size loci and breed limits dominate. LCORL affects **height, body weight, chest and cannon circumference**, but there is no strong evidence that it directly determines coat color, mane/tail color, feathering, hoof shape, or speed. [journals.plos](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0056497)
+
+## HMGA2 — c.83G>A
+
+**Established effect:** The *HMGA2* c.83G>A variant is a well-supported pony height variant. The **A allele reduces height** in an approximately additive, semidominant manner; in Shetlands, mean heights were about 84 cm for A/A, 95 cm for A/G, and 103 cm for G/G, or roughly **-9.5 cm per A copy**. [journals.plos](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0140749)
+
+**Breed/sample frequencies:**
+
+| Population | A allele frequency | Study |
+|---|---:|---|
+| Welsh pony cohort, n=294 | 0.76 | Rivas et al., 2019 [academic.oup](https://academic.oup.com/jvim/article/33/2/942/8448048) |
+| Mixed Australian pony cohort, n=236 | 0.62 overall | 2023 follow-up study [pmc.ncbi.nlm.nih](https://pmc.ncbi.nlm.nih.gov/articles/PMC10229368/) |
+| Shetland subset within that cohort, n=120 | 0.40 | 2023 follow-up study [pmc.ncbi.nlm.nih](https://pmc.ncbi.nlm.nih.gov/articles/PMC10229368/) |
+| Welsh sections | Section A 1.00; B 0.74; C 0.83; D 0.03; H 0.64 | Rivas et al., 2019 [academic.oup](https://academic.oup.com/jvim/article/33/2/942/8448048) |
+| Large horses, n=529 | 0.005; only five heterozygotes detected | Rivas et al., 2019 [academic.oup](https://academic.oup.com/jvim/article/33/2/942/8448048) |
+| Original broad breed screen | A found in Shetland and two other pony breeds; not found in regular-sized horse breeds | Frischknecht et al., 2015 [journals.plos](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0140749) |
+
+**Controversy / open science:** HMGA2 is strongly established for pony height, but its metabolic correlations—higher insulin, insulin after an oral sugar test, non-esterified fatty acids, and triglycerides—are weaker and should not be treated as a simple "metabolic disease allele." Breed and genotype together explained most height variation in one pony cohort, while genotype explained about 9.5% after accounting for breed. [academic.oup](https://academic.oup.com/jvim/article/33/2/942/8448048)
+
+**Simulator adaptation:** Make HMGA2 a **pony-restricted height allele**, ideally with a breed gate or strong frequency prior. A/A gives the strongest small-size effect, A/G intermediate, G/G none. It should not be used as a general-purpose height gene for Warmbloods, Thoroughbreds, Arabians, or drafts. [journals.plos](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0140749)
+
+## MSTN — g.66493737C>T
+
+**Established effect:** *MSTN* encodes myostatin, a negative regulator of muscle growth. In Thoroughbreds, the **C allele at g.66493737C>T** is associated with sprint aptitude, greater suitability for short races, and altered muscle/body-composition traits; T is associated with greater distance aptitude. It is the best-validated single marker for Thoroughbred race-distance aptitude. [pubmed.ncbi.nlm.nih](https://pubmed.ncbi.nlm.nih.gov/22016373/)
+
+**Breed/sample frequencies:**
+
+| Population | C allele frequency | Study |
+|---|---:|---|
+| Thoroughbred overall | 0.51 | Hill et al., 2012 [nature](https://www.nature.com/articles/ncomms1644) |
+| Quarter Horse | 0.90 | Hill et al., 2012 [nature](https://www.nature.com/articles/ncomms1644) |
+| Standardbred | 0.00 — C absent | Hill et al., 2012 [nature](https://www.nature.com/articles/ncomms1644) |
+| Eurasian breeds | 0.00–0.50, breed-dependent | Hill et al., 2012 [nature](https://www.nature.com/articles/ncomms1644) |
+| European breed resequencing | C/T SNP not polymorphic in many European breeds; MAF <0.05 | Hill et al., 2012 [nature](https://www.nature.com/articles/ncomms1644) |
+| Gaited breeds | Reported A/T allele range 0.95–1.0 in gaited breeds and 0 in non-gaited breeds in one study; allele naming/orientation must be checked against the source before implementation | ScienceDirect study [sciencedirect](https://www.sciencedirect.com/science/article/pii/S0737080615005699) |
+| Quarter Horse racing vs cutting lines | Nearly fixed; only one heterozygote observed in the cutting-line subsample | ScienceDirect study [sciencedirect](https://www.sciencedirect.com/science/article/pii/S0737080615005699) |
+
+**Important nuance:** "C = sprinter" is a useful Thoroughbred-oriented abstraction, but it is **not** a universal speed allele. Standardbreds lack C yet are elite harness-race athletes; Quarter Horses have very high C and excel at short distances; many non-racing European breeds have little or no C. Model it as a **distance preference and muscle-type modifier**, not raw speed. [nature](https://www.nature.com/articles/ncomms1644)
+
+**Simulator adaptation:**
+
+| Genotype | Suggested racing-distance tendency | Muscle/body model |
+|---|---|---|
+| C/C | Strong sprint / short-distance bias | Higher muscle mass or fast-twitch bias |
+| C/T | Intermediate | Mixed fiber profile |
+| T/T | Middle/long-distance bias | Less C-associated muscle hypertrophy |
+
+Do **not** use MSTN to determine coat color, mane/tail color, feathering, hoof shape, or bone structure directly. It may indirectly influence visible body condition and muscling. [pubmed.ncbi.nlm.nih](https://pubmed.ncbi.nlm.nih.gov/22016373/)
+
+## PDK4 — g.38973231A>G
+
+**Established effect:** *PDK4* is involved in pyruvate metabolism and energy partitioning. The **A allele / AA or AG genotypes** have been associated with better Thoroughbred racing performance or handicap rating in several studies, while GG is less favorable in those datasets. This is a performance-associated quantitative marker, not a proven deterministic "speed gene." [animbiosci](https://www.animbiosci.org/journal/view.php?doi=10.5713/ajas.17.0370)
+
+**Breed/sample frequencies:**
+
+| Population | Frequency data | Study |
+|---|---|---|
+| Thoroughbreds, n=99 | A 0.815 / G 0.175; genotypes: AA 67, AG 29, GG 3 | Animal Bioscience study [animbiosci](https://www.animbiosci.org/journal/view.php?doi=10.5713/ajas.17.0370) |
+| Quarter Horses vs Arabians | Quarter Horses had higher A frequency and more AG genotypes than Arabians; exact numeric frequencies require the paper's table | UNESP thesis / polymorphism study [repositorio.unesp](https://repositorio.unesp.br/server/api/core/bitstreams/cec976dc-6e61-4ea9-9457-307404f3083f/content) |
+| Thoroughbred elite-performance model | A allele favored; AA and AG associated with higher racing rating than GG | Equinome / patent-associated performance study [patents.google](https://patents.google.com/patent/WO2010029527A1/en) |
+
+**Simulator adaptation:** Use PDK4 as a small polygenic performance modifier, perhaps:
+
+- AA: +small stamina/racing-rating bonus
+- AG: +very small or neutral bonus
+- GG: small penalty in Thoroughbred-style flat racing
+
+Because breed-specific published frequencies are less standardized than for MSTN or HMGA2, generate breed priors rather than hard-coding universal values. PDK4 should not affect pigment, feathering, hoof shape, or conformation beyond indirect conditioning.
+
+## CKM — g.16079732G>A
+
+**Established effect:** *CKM* encodes creatine kinase, muscle-specific, and has been investigated as a candidate racing-performance gene. Evidence is more limited and less consistently replicated than for MSTN, LCORL, and HMGA2. One Thoroughbred-oriented study listed CKM among markers associated with elite racing performance, but it should be treated as a **candidate/secondary marker**. [patents.google](https://patents.google.com/patent/WO2010029527A1/en)
+
+**Breed/sample frequencies:**
+
+| Population | G frequency | A frequency | Genotypes | Study |
+|---|---:|---:|---|---|
+| Italian Trotter | 0.59 | 0.41 | GG 0.33, GA 0.51, AA 0.15 | Italian Trotter / Thoroughbred performance study [cris.unibo](https://cris.unibo.it/bitstream/11585/818747/4/AAM%20SNPs%20and%20Italian%20Trotter%20horse%20performance.pdf) |
+| Thoroughbred | 0.50 | 0.50 | GG 0.12, GA 0.75, AA 0.12 | Italian Trotter / Thoroughbred performance study [cris.unibo](https://cris.unibo.it/bitstream/11585/818747/4/AAM%20SNPs%20and%20Italian%20Trotter%20horse%20performance.pdf) |
+| Thoroughbred resequencing / variant discovery | A different CKM G/A variant, at ECA10:16,083,859, had MAF 0.0099 | — | — | Whole-genome sequencing study [pmc.ncbi.nlm.nih](https://pmc.ncbi.nlm.nih.gov/articles/PMC8346562/) |
+
+**Simulator adaptation:** If you include CKM, make it a low-weight modifier in a racing-performance polygenic score: Performance = w1(MSTN) + w2(PDK4) + w3(CKM) + training + conformation + epsilon.
+
+Assign CKM a small weight, because the association is less robust and the allele effect may depend on racing discipline. Do not market it in-game as a guaranteed speed allele.
+
+## What these genes do **not** do
+
+None of these five loci is established as a direct determinant of:
+
+- **Red vs black pigment**, agouti patterning, dilution, white spotting, or mane/tail color.
+- **Hoof shape, feathering, or bone structure** as primary traits.
+- **Height** in all breeds—LCORL and HMGA2 matter, but HMGA2 is chiefly pony-associated and LCORL is only one part of a polygenic height architecture.
+- **Absolute speed**—MSTN and PDK4 affect aptitude, muscle biology, or racing rating in specific populations, but training, conformation, health, and many unmeasured loci dominate outcomes. [journals.plos](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0056497)
+
+## Recommended breed priors
+
+For a game database, store frequencies as **Bayesian priors**, then update them from each foal's actual genotype.
+
+| Breed / group | LCORL C | HMGA2 A | MSTN C | PDK4 A | CKM G | Notes |
+|---|---:|---:|---:|---:|---:|---|
+| Thoroughbred | 0.20 | ~0 | 0.51 | 0.815 | 0.50 | Strong racing-distance modeling; LCORL C relatively low in the cited training cohort [pmc.ncbi.nlm.nih](https://pmc.ncbi.nlm.nih.gov/articles/PMC5048357/) |
+| Quarter Horse | Use breed-specific sampling; likely higher C than Thoroughbred | ~0 | 0.90 | Higher A than Arabian; exact value needs source table | Not broadly published | Excellent sprint/short-distance archetype [nature](https://www.nature.com/articles/ncomms1644) |
+| Standardbred | Use harness-population sampling | ~0 | 0.00 | Use harness-population sampling | 0.59 G in Italian Trotter as a trotter proxy, not Standardbred data | Do not infer C-based sprint bias [nature](https://www.nature.com/articles/ncomms1644) |
+| Hanoverian / Warmblood | C 0.55 | ~0 | Low / use regional data | Use breed data | Use breed data | LCORL is highly relevant to height [journals.plos](https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0056497&type=printable) |
+| Welsh pony | T-enriched | 0.76 | Use pony data | Use pony data | Use pony data | HMGA2 is a major pony height locus [academic.oup](https://academic.oup.com/jvim/article/33/2/942/8448048) |
+| Shetland | T-enriched | 0.40 in one modern cohort; historically high A | Use pony data | Use pony data | Use pony data | HMGA2 A/A produces very small stature [journals.plos](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0140749) |
+| Arabian | Use breed data | ~0 | Use breed data | Lower A than Quarter Horse in one comparison | Use breed data | Avoid borrowing Thoroughbred racing priors [repositorio.unesp](https://repositorio.unesp.br/server/api/core/bitstreams/cec976dc-6e61-4ea9-9457-307404f3083f/content) |
+
+## Key implementation warning
+
+The biggest trap is **allele-name orientation**. Studies may report the same SNP as C/T, T/C, "minor allele," or "alternative allele," and some papers use legacy genome coordinates. Before writing database rows, normalize every marker to:
+
+- Genome build / coordinate
+- Reference and alternate allele
+- Which allele is trait-increasing
+- Sample size, country, and selection line
+- Whether the frequency is allele frequency or carrier frequency
+
+For example, LCORL BIEC2-808543 is documented as **T = small, C = large**, while the separate LCORL g.107374136C>T marker in the Italian Trotter study reports T at 0.72–0.80; those should not be merged as though they are the same assay. [journals.plos](https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0056497&type=printable)

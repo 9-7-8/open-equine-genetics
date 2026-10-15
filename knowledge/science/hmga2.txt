@@ -2,6 +2,12 @@ HMGA2 (pony) - science notes
 (Copied 2026-10-12 from the Science tab of the Procedural Horse Coats wiki page for this gene.
 Written for that project: it may mention how a game models the gene. Not yet audited.)
 
+ROUND THREE (the owner's answer to question D4, 2026-10-15)
+------------------------------------------------------------
+The whole answer is in knowledge/science/round-3-answers.txt. No address has been opened
+by a maintainer.
+- A allele frequency: Welsh pony cohort 0.76 (n=294, Rivas et al. 2019), Welsh Sections A 1.00, B 0.74, C 0.83, D 0.03; large horses 0.005 (5 carriers in 529); an Australian pony cohort 0.62, its Shetlands 0.40 (n=120). Genotype explained about 9.5% of height after breed. Tables for each but the mixed cohort.
+
 ROUND THREE (the owner's answer to question D1, 2026-10-15)
 ------------------------------------------------------------
 No address has been opened by a maintainer. Everything below is from Frischknecht et al.

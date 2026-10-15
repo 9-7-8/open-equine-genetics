@@ -5,6 +5,12 @@ No source was opened by the session that filed this. genes/lcorl.json was change
 on the owner's word the same day; what is left over is in knowledge/known-issues.txt.
 Not yet audited.)
 
+ROUND THREE (the owner's answer to question D4, 2026-10-15)
+------------------------------------------------------------
+The whole answer is in knowledge/science/round-3-answers.txt. No address has been opened
+by a maintainer.
+- Hanoverian (n=214, Metzger et al. 2013): T/T 16.36%, C/T 57.48%, C/C 26.17%; LCORL expression about 40% lower in C/T and 56% lower in C/C than T/T. Thoroughbreds in training (n=322, Tozaki et al. 2016): C/C nearly absent, T/T 81-85%. T/T nearly always in pony breeds up to 148 cm. A table for the Hanoverian.
+
 ROUND TWO (the owner's answers to the open research questions, 2026-10-12)
 --------------------------------------------------------------------------
 These came after everything below. Where they disagree with it, this section and the gene

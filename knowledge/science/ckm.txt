@@ -4,6 +4,12 @@ No source was opened by the session that filed this. genes/ckm.json was changed 
 on the owner's word the same day; what is left over is in knowledge/known-issues.txt.
 Not yet audited.)
 
+ROUND THREE (the owner's answer to question D4, 2026-10-15)
+------------------------------------------------------------
+The whole answer is in knowledge/science/round-3-answers.txt. No address has been opened
+by a maintainer.
+- Italian Trotter G 0.59, Thoroughbred G 0.50 at g.16079732G>A; the gene file's marker is g.15884567G>A (EquCab2.0), and whether these are the same SNP on two assemblies is not said. No table.
+
 ROUND THREE (the owner's answer to question D3, 2026-10-15)
 ------------------------------------------------------------
 Asked which allele is ancestral at PDK4 g.38973231A>G and CKM g.15884567G>A. No address
