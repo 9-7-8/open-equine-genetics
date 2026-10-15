@@ -11,7 +11,7 @@ WHERE THE DATA STANDS
   (round three, 2026-10-15; answers about one locus are at the top of its note, answers
   about several are kept whole in knowledge/science/round-3-answers.txt). Round four
   (2026-10-15, after this file was rewritten) so far: overviews of acan, agouti and
-  b4galt7, and answers to B3 and B4; answers about several loci are kept whole in
+  b4galt7, and answers to B3, B4, C1 and C4; answers about several loci are kept whole in
   knowledge/science/round-4-answers.txt. The lists below
   are each kept on one long line, sorted, so they are easy to edit.
 RESEARCHED: abstracted_jump_strength, acan, agouti, b4galt7, brindle, champagne, ckm, dmrt3, dun, ednrb, extension, gbe1, grey, gys1, hmga2, kit, lama3, lamc2, lcorl, leopard, matp, met, mitf, mstn, mushroom, myo5a, patn1, pax3, pdk4, plod1, ppib, prkdc, rapgef5, roan, ryr1, scn4a, shox, silver, slc5a3, st14, tiger_eye, tobiano, toe1.
@@ -47,7 +47,7 @@ STILL WRONG OR UNPROVEN IN THE RESEARCHED LOCI
 - kit: 601 pairs of two different variants are "compound-undocumented". Only booster pairs have an outcome; that an all-white variant stays all white beside a booster is reasoned, not stated.
 - kit: horses can carry several variants on one chromosome (W20 with W22, W35 with W37, W19 with W34 and W35, W32 with W35, SB1 with W32); the format has two alleles per locus and cannot say this. W22 stands for the W20_22 haplotype (it is never found without W20). W37 has only been seen with W35, yet W37/N is in the data as if it could occur. W20/W22 is "boosted-white", "usually all white" in words. The research suggests SB1 as a locus of its own.
 - kit: W17 is the allele again, two changes always together (owner, 2026-10-15); W17a and W17b are invalid. The OMIA position quoted for it does not match the c. changes base for base and is not in the data.
-- kit: W37, W38 and W39 (2025) each rest on one family or one horse. W29 and W36 are not assigned; nothing above W39. W20's EquCab3.0 position is printed a digit short in the 2024 paper; chr3:79482200T>C is a reconstruction (question C1). No KIT position is in the data. No breed table: no breed has every KIT allele's share (question C6).
+- kit: W37, W38 and W39 (2025) each rest on one family or one horse. W29 and W36 are not assigned; nothing above W39. W20 is at chr3:79,548,220 T>C on EquCab3.0 (OMIA, rs1143160924; round four), in the summary; the 2024 paper prints it a digit short, and round three's 79,482,200 was wrong. No other KIT position is in the data. No breed table: no breed has every KIT allele's share (question C6).
 - lama3, lamc2: no frequency question left; JEB1 and JEB2 tables are in.
 - leopard depends on patn2, an abstraction; more than PATN1 modifies the pattern, and nothing else is named.
 - matp: sunshine is a disputed candidate with the undocumented outcome "sunshine-disputed". The variant is the major allele in every breed group sequenced (above 0.86 in five breeds, Durward-Akhurst et al. 2024), but whether it dilutes is unresolved; with no exact figure per breed it is in no table (owner, 2026-10-15), so the tables count its copies as N. Snowdrop is known from one Gypsy Cob family; no Cr/sno or prl/sno horse is reported anywhere, so those pairs stay undocumented. The general table still gives sno small shares. The names palomino, buckskin and the rest depend on extension and agouti, in words only. Lusitano is the only breed table (Cr and prl worked out from Avila et al.); other breeds' Cr figures are in Avila et al.'s Supplementary Table S4 (question B3). The first matp answer cites by number only.
@@ -67,7 +67,7 @@ STILL WRONG OR UNPROVEN IN THE RESEARCHED LOCI
 - silver: the one-copy eye condition sits on every Z/z pair, because the format cannot tell a chestnut carrier from a bay one; the risk is not established for a chestnut carrier, and the text says so.
 - st14: "lethal_in_early_life" was the session's choice, the nearest value for death between a few weeks and three years. The Akhal-Teke table (26 of 191) is the only survey. Most of the first answer's sources are numbered only.
 - tiger_eye: the research says tiger eye changes the iris, never the coat, but the locus says "affects_coat": true, as all eight eye loci do for anything drawn on the horse; what the flag means for eyes is a format question for the owner. TE2/TE2 rests on one horse. No population frequency (question B3).
-- tobiano: whether the inversion begins upstream or downstream of KIT, and whether TO/TO is whiter than TO/N, is unsettled (question C4).
+- tobiano: TO/TO averages very slightly more white than TO/N (36% against 34%, overlapping), but the format has one outcome for both; the share of white is in words only. How the inversion alters KIT, and the modifiers of the amount of white, are unknown. The 36.7 Mb from the EquCab3.0 positions and the review's 43 Mb are both in the text.
 - toe1: the variant may act through MUTYH; the mechanism is not settled. The Egyptian sample (6.25% carriers) is far below the Arabian table's 20%.
 - Breed names given in round-two summaries are the answer's descriptions, to be treated as estimates.
 - Round two gave three addresses in no gene file: a game's wiki (horsereality) for pearl, a breeder's tool page for fragile foal, and UC Davis's PSSM1 page for HERDA.
@@ -183,15 +183,6 @@ B3. Avila et al. 2022 (Genes 13:1641, PMC9498372, doi 10.3390/genes13091641):
 
 BLOCK C - WHITE PATTERNS: KIT, TOBIANO AND SPLASH WHITE
 -------------------------------------------------------
-C1. KIT W20 (c.2045G>A, p.Arg682His): the 2024 KIT haplotype paper (PMC10854588) prints
-    chr3:7948220T>C, a digit short. Does any source (Ensembl, dbSNP/EVA, UC Davis or
-    another paper) print its EquCab3.0 position in full? It is thought to be
-    chr3:79482200T>C, but that was reconstructed, not read anywhere.
-C4. Tobiano (inversion chr3:42,737,476_79,471,993 on EquCab3.0): earlier answers place it
-    upstream of KIT; the latest says it begins about 100 kb downstream. Which is right,
-    by the primary paper (Brooks et al., PMID 18253033, or the 2024 review, PMC10854722)?
-    And do TO/TO horses have measurably more white than TO/N, or do they not reliably
-    differ? Earlier answers say the second; the latest says "often more white".
 C6. For each breed in Avila et al. 2022 (PMC9498372, including its supplement): the shares
     of ALL its KIT variants together (SB1, W5, W10, W13, W20, W22, W32, W34, W35 and any
     other), and of all its MITF splash variants (SW1, SW3, SW5-SW9). Does the study's W20

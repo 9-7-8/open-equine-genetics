@@ -4,6 +4,40 @@ No source was opened by the session that filed this. genes/tobiano.json was chan
 on the owner's word the same day; what is left over is in knowledge/known-issues.txt.
 Not yet audited.)
 
+ROUND FOUR (the owner's answer to question C4, 2026-10-15)
+-----------------------------------------------------------
+No address has been opened by a maintainer. Her answer, condensed, with every point and
+address she gave:
+
+  - Brooks et al. 2007 (https://pubmed.ncbi.nlm.nih.gov/18253033/ ;
+    https://doi.org/10.1159/000112065) is right: the paracentric inversion interrupts no
+    annotated gene and begins about 100 kb downstream of KIT, probably disturbing KIT
+    regulation. The 2024 review (https://pmc.ncbi.nlm.nih.gov/articles/PMC10854722/),
+    which lists chr3:42737476_79471993inv on EquCab3.0 and calls it about 43 Mb
+    "upstream of KIT", reverses the direction. Haase et al. 2008
+    (https://pubmed.ncbi.nlm.nih.gov/18410476/ ;
+    https://doi.org/10.1111/j.1365-2052.2008.01715.x) put one breakpoint about 70 kb
+    downstream; assemblies explain the distance, not the direction.
+  - TO/TO against TO/N: in 1,195 registered Paint Horses, 760 usable photographs, median
+    white 36% for TO/TO (46 horses) and 34% for TO/N (81), ranges 6-98% and 4-79%. A
+    small average difference; dosage cannot tell an individual. "Often more white" is
+    too strong. (Gossett et al. 2023, https://pmc.ncbi.nlm.nih.gov/articles/PMC10671537/ ;
+    https://doi.org/10.3390/genes14112011)
+  - TO is dominant, TO/TO viable, passes TO to every foal; UC Davis claims no greater
+    white for TO/TO (https://vgl.ucdavis.edu/test/tobiano).
+  - The number of white alleles raises white; TO/N with W20/N had median 48% (17 horses).
+    Chestnut was whiter than bay or black among non-tobianos; this could not be tested
+    within tobianos, because the inversion stops recombination and links KIT and MC1R.
+  - Open: how the inversion alters KIT; the modifiers behind the range among TO/N
+    horses; the exact breakpoint distance, which varies by paper and assembly.
+  - Its modelling advice (not a finding): a small dosage term for the second copy, large
+    individual variation, and pattern shape kept apart from the share of white.
+
+What the gene file does with it: "upstream" becomes "about 100 kb downstream" (Brooks et
+al.); the summary gives the 36% and 34% medians and ranges, the 48% with W20, and the
+KIT-MC1R linkage; the outcome text says two copies average very slightly more white.
+One citation.
+
 ROUND THREE (the owner's answer to question C6, 2026-10-15)
 ------------------------------------------------------------
 The whole answer is in knowledge/science/round-3-answers.txt. No address has been opened

@@ -4,6 +4,37 @@ No source was opened by the session that filed this. genes/kit.json was changed 
 on the owner's word the same day; what is left over is in knowledge/known-issues.txt.
 Not yet audited.)
 
+ROUND FOUR (the owner's answer to question C1, 2026-10-15)
+-----------------------------------------------------------
+No address has been opened by a maintainer. Her answer, condensed, with every point and
+address she gave. It corrects round three's second answer (below), which reconstructed
+the position as chr3:79482200T>C.
+
+  - OMIA lists W20 on EquCab3.0 as NC_009146.3:g.79548220T>C (chromosome 3), transcript
+    NM_001163866.1:c.2045G>A, protein NP_001157338.1:p.(R682H), dbSNP/EVA rs1143160924;
+    the reference base is T, W20 is C. The coordinates were taken from or checked against
+    Table S1 of Dürig et al. 2017. (https://omia.org/OMIA000209/9796/)
+  - The 2024 paper's chr3:7948220T>C is 79548220 with the 5 dropped.
+    (https://pmc.ncbi.nlm.nih.gov/articles/PMC10854588/)
+  - The reconstruction 79,482,200 is wrong. (The answer says once "off by 100,000 bp" and
+    once "66,020 bp"; 79,548,220 - 79,482,200 = 66,020.)
+  - The chain: Hauswirth et al. 2013 first reported c.2045G>A, p.Arg682His; Dürig et al.
+    2017 gave the coordinates; OMIA holds the EquCab3.0 position and rs number.
+  - No Ensembl page or readable dbSNP page was found showing it independently.
+  - W20: a weak, viable white-spotting allele; alone, ordinary to more face and leg white
+    and sometimes a little body spotting; with W5, W10, W13 or W22, extensive or all
+    white. UC Davis calls it old, widespread and subtle unless combined, and W20/W20
+    viable (https://vgl.ucdavis.edu/test/dominant-white-horse). A 2020 Paint Horse study
+    found W20 associated with white spotting on its own, not only as a modifier
+    (https://www.biorxiv.org/content/10.1101/678052v3.full-text).
+
+The session's reading: W22's span from round three, 79,548,925-79,550,822, lies about 700
+bases from this W20 position, as a haplotype W20_22 would.
+
+What the gene file does with it: W20's name gives c.2045G>A, p.Arg682His; the summary
+gives the EquCab3.0 position and rs number, the first KIT position in the data. Two
+citations.
+
 ROUND THREE (the owner's answer to question C6, 2026-10-15)
 ------------------------------------------------------------
 The whole answer is in knowledge/science/round-3-answers.txt. No address has been opened
