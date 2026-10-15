@@ -5,6 +5,31 @@ No source was opened by the session that filed this. genes/prkdc.json was change
 on the owner's word the same day; what is left over is in knowledge/known-issues.txt.
 Not yet audited.)
 
+ROUND THREE (the owner's answer to question A2, 2026-10-15)
+------------------------------------------------------------
+No address has been opened by a maintainer. Her answer, condensed, with every point and
+address she gave:
+
+  - The SCID allele is a 5 bp deletion of TCTCA: NM_001163858.1:c.9478_9482del,
+    also annotated NP_001157330.1:p.(N3160fs*3), a frameshift and premature stop that
+    truncates the protein by about 967 C-terminal amino acids.
+    (https://omia.org/OMIA000220/9796/)
+  - On EquCab3.0 it is NC_009152.3:g.36395752_36395756del: positions 36,395,752 to
+    36,395,756 on chromosome 9 are deleted. (OMIA)
+  - Deleted sequence TCTCA (https://pmc.ncbi.nlm.nih.gov/articles/PMC8701198/). Gene
+    PRKDC (DNA-PKcs), ECA9 (https://vgl.ucdavis.edu/test/scid).
+  - Older papers and databases write c.4675_4679del: another transcript's numbering, not
+    another mutation. OMIA and diagnostic laboratories now use c.9478_9482del.
+  - UC Davis describes it as a five base-pair deletion in the DNA-dependent protein
+    kinase gene that truncates the protein, and tests mainly Arabian and part-Arab horses.
+  - The frameshift begins at codon 3160 with a stop three codons later; the protein lacks
+    its C-terminal phosphatidylinositol 3-kinase domain, which impairs V(D)J
+    recombination and so T- and B-cell development.
+    (https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7184946/)
+  - Autosomal recessive: carriers are clinically normal, homozygotes have SCID.
+
+What the gene file does with it: the summary gains the c., p. and EquCab3.0 names.
+
 ROUND TWO (the owner's answers to the open research questions, 2026-10-12)
 --------------------------------------------------------------------------
 These came after everything below. Where they disagree with it, this section and the gene
