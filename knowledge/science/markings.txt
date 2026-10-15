@@ -1,6 +1,186 @@
 Markings - science notes
 (A science note on this locus, written 2026-10-12. Not yet audited.)
 
+ROUND FOUR (the owner's answer to question H7, 2026-10-15)
+-----------------------------------------------------------
+No address has been opened by a maintainer. Her document follows whole, as she sent it
+(the [web:N] markers point to the sources listed at its end).
+
+The session's reading: the summary said ordinary markings come "without carrying any
+white pattern gene at all"; the research ties them partly to KIT and MITF haplotypes and,
+in Menorca horses, to W20, so it now says "without any named white-pattern allele". The
+smaller later study is known only through a blog (Equine Tapestry), and Equus magazine is
+a popular source; neither is cited. Its breeding formula (0.35 x each parent) is
+modelling advice.
+
+--- her document ---
+# Ordinary white face and leg markings (stars, blazes, socks)
+
+## Bottom line
+
+**There is no single “ordinary markings” gene or validated DNA test for a star, blaze, socks, or other common white markings.** They are best modeled as a **quantitative, polygenic white-marking score** influenced most strongly by variants and haplotypes at *KIT* and *MITF*, with additional effects from *MC1R* and other loci. [web:150][web:156]
+
+The strongest published evidence comes from Haase et al. (2013), a GWAS of **1,077 Franches-Montagnes horses**. It found seven QTL that together explained **54% of genetic variance** in total white-marking score; *KIT* and *MITF* alone explained **26%**. [web:150][web:156]
+
+## Primary paper
+
+**Haase, B., Brooks, S. A., Schlumbaum, A., Azor, P. J., Bailey, E., Alaeddine, F., Mevissen, M., Burger, D., Poncet, P.-A., Rieder, S., & Leeb, T. (2013). “Accumulating Mutations in Series of Haplotypes at the *KIT* and *MITF* Loci Are Major Determinants of White Markings in Franches-Montagnes Horses.” *PLoS ONE* 8(9):e75071.**  
+DOI: [10.1371/journal.pone.0075071](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0075071)  
+PubMed: [24069340](https://pubmed.ncbi.nlm.nih.gov/24069340/)  
+Full text: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3787084/ [web:150][web:148]
+
+The study used standardized scores for white on the head, forelimbs, and hindlimbs in **1,077 Franches-Montagnes horses**, genotyped with the Illumina 50K equine SNP chip. [web:156][web:150]
+
+## What is established
+
+### Markings are heritable
+
+Ordinary white markings are clearly heritable, but the phenotype is quantitative and variable. The same broad genetic tendency can produce anything from a tiny star or pastern to a broad blaze and four stockings, while the exact shape and placement remain unpredictable. [web:159][web:150]
+
+The Franches-Montagnes GWAS found seven loci explaining 54% of genetic variance in total white-marking score. This is strong evidence for a polygenic architecture, not a single all-or-nothing “markings gene.” [web:150][web:156]
+
+### *KIT* is a major contributor
+
+The strongest *KIT* signal was on **ECA3**, the chromosome containing the *KIT* gene. In the Franches-Montagnes sample, *KIT* accounted for about **10% of genetic variance in leg markings** and contributed more strongly to white markings in chestnut horses. [web:148][web:150]
+
+This does **not** mean that every horse with socks carries a known sabino or dominant-white allele. Ordinary leg white can arise from common *KIT*-region haplotypes and other modifiers without reaching the threshold of a named white-spotting allele. [web:150][web:151]
+
+### *MITF* is a major contributor
+
+The strongest *MITF* signal was on **ECA16**, within intron 1B of *MITF* (\(p \leq 10^{-15}\)). In the Franches-Montagnes study, *MITF* accounted for about **23% of genetic variance in head markings** across all horses. [web:148][web:150]
+
+*MITF* therefore contributes more strongly to facial white, while *KIT* contributes relatively more to leg white. The authors concluded that *KIT* and *MITF* act additively and that accumulating haplotypes progressively increase white-marking extent. [web:148][web:156]
+
+### *MC1R* also matters
+
+*MC1R*/Extension affected marking extent as well. In the Franches-Montagnes data, *MC1R* explained about **10% of variation in leg markings**; *KIT* and *MC1R* each explained about 10% of leg-marking variation. [web:148]
+
+This means a simulator should not treat markings as independent of base color: chestnut, bay, and black-based horses can have different white-marking distributions and intensities.
+
+## Candidate regions beyond *KIT* and *MITF*
+
+The seven QTL in the Franches-Montagnes study included *MC1R*, *KIT*, and *MITF*, plus four additional loci. The paper does not establish causal mutations for the ordinary-markings QTL; they are association signals, not validated tests. [web:150][web:156]
+
+A later, smaller white-marking GWAS in a different population reported candidate regions containing *ZEB2*, *KYNU*, *SLC36A1*, *STX12*, *MAP3K6*, and *GJB2*, but did **not** find the *KIT* and *MITF* signals expected from prior work. This inconsistency reinforces that ordinary markings are population- and phenotype-scoring-dependent, and that no universal set of causal variants is established. [web:160]
+
+## What is not established
+
+- **No causal mutation** has been proven for ordinary stars, blazes, or socks outside known white-spotting alleles.
+- **No validated commercial test** predicts ordinary marking extent or placement.
+- **No single locus** explains the full phenotype.
+- **No exact marking map**—for example, “this genotype makes a left hind sock”—is possible from current science.
+- **No universal allele frequency** can be assigned, because effect sizes and haplotype frequencies differ among breeds and studies. [web:150][web:159][web:160]
+
+## Distinguish from known white-spotting alleles
+
+| Pattern | Established genetic status | Relationship to ordinary markings |
+|---|---|---|
+| Sabino 1 | *KIT* partial loss of exon 17; autosomal incompletely dominant | Often gives two or more white legs, extensive blaze, and ticking/roaning; a named allele, not ordinary-markings genetics. [web:157] |
+| Splashed white | Multiple *MITF* and *PAX3* variants; dominant with variable expression | Broad blaze and extended white markings; distinct from ordinary marking score. [web:155] |
+| Dominant white | Multiple *KIT* variants | Can range from extensive face/leg white to near-complete white; distinct from ordinary markings. [web:158] |
+| Ordinary markings | Polygenic; *KIT*, *MITF*, *MC1R*, and other loci contribute | Stars, strips, blazes, socks, stockings, and variable white extent without a known causal allele. [web:150][web:156] |
+
+## Simulator implementation
+
+Use a **continuous white-marking score**, then generate the actual marks procedurally.
+
+```text
+white_marking_score = 0.0–1.0
+
+white_marking_score =
+    KIT_marking_component
+  + MITF_marking_component
+  + MC1R_base_color_effect
+  + other_polygenic_components
+  + stochastic_developmental_noise
+```
+
+Recommended allele model:
+
+```text
+KIT_MARKING: additive 0–2 dose
+MITF_MARKING: additive 0–2 dose
+MC1R: E/E, E/e, e/e affects both base color and marking expression
+```
+
+Then split the score into head and leg components:
+
+```text
+head_white = MITF_weighted_score + noise
+leg_white  = KIT_weighted_score + MC1R_effect + noise
+```
+
+Practical visual rules:
+
+- Low score: small star, snip, coronet, or one low pastern.
+- Medium score: stripe or blaze, one or two socks, uneven leg white.
+- High score: broad blaze, four stockings, belly spots, or ticking—but only if you also model sabino-like expression.
+- Use left/right and fore/hind asymmetry; real markings are not bilaterally symmetrical.
+- Do not force a blaze and four socks to be inherited as one indivisible unit.
+- Do not let ordinary markings produce body patches, glass eyes, or near-white coats unless a separate white-spotting allele is present.
+
+## Inheritance model
+
+The best-supported implementation is **additive polygenic inheritance**:
+
+- More white-increasing *KIT* and *MITF* haplotypes produce more white.
+- *MC1R* modifies the expression of the score.
+- Developmental noise determines the precise shape and side of each marking.
+- Known white-spotting alleles should be separate overlays, not part of the ordinary-markings score. [web:150][web:156][web:157]
+
+A simple, defensible breeding rule is:
+
+```text
+foal_marking_score =
+    0.35 * sire_score
+  + 0.35 * dam_score
+  + KIT_MITF_additive_effect
+  + noise
+```
+
+Do not present this as a scientifically exact prediction; it is a simulation abstraction consistent with the published polygenic evidence. [web:159][web:150]
+
+## Breeds and frequencies
+
+The best-powered published dataset is Franches-Montagnes: **1,077 horses**, phenotyped and genotyped in the 2013 GWAS. Its percentages are genetic-variance estimates within that breed and scoring system, not universal allele frequencies. [web:150][web:156]
+
+A Spanish-horse study of 70 Menorca Purebreds and 70 Spanish Purebreds found that the *KIT* p.Arg682His variant was associated with facial and total white markings in Menorca Purebreds, with estimated relative contributions of 47.6% for head and 43.4% for total score in that breed. These are breed-specific estimates, not global frequencies. [web:154]
+
+## Effects outside coat color
+
+There is no evidence that ordinary white markings affect height, speed, muscle, bone structure, hoof shape, feathering, or mane/tail length. Their established phenotype is limited to white hair in the face and lower limbs, sometimes extending to body white in more extreme spotting phenotypes. [web:150][web:159]
+
+## Future science
+
+A definitive ordinary-markings study would need:
+
+1. Large, multi-breed cohorts with standardized photographic scoring.
+2. Separate models for head white, forelimb white, and hindlimb white.
+3. Whole-genome sequencing rather than SNP-chip-only GWAS.
+4. Replication across breeds.
+5. Functional validation of *KIT* and *MITF* regulatory variants.
+6. Explicit exclusion or modeling of known sabino, splashed white, dominant white, tobiano, and gray phenotypes. [web:150][web:160]
+
+## Sources
+
+- Haase et al. 2013, primary GWAS: https://doi.org/10.1371/journal.pone.0075071; https://pmc.ncbi.nlm.nih.gov/articles/PMC3787084/; https://pubmed.ncbi.nlm.nih.gov/24069340/ [web:150][web:148]  
+- OMIA entry for equine white markings, summarizing the Haase GWAS: https://omia.org/OMIA001884/9796/ [web:156]  
+- UC Davis VGL Sabino 1 test: https://vgl.ucdavis.edu/test/sabino-1 [web:157]  
+- UC Davis VGL splashed-white tests: https://vgl.ucdavis.edu/test/splashed-white [web:155]  
+- UC Davis VGL dominant-white tests: https://vgl.ucdavis.edu/test/dominant-white-horse [web:158]  
+- Rieder et al. 2008 *KIT* region mapping summary via OMIA: https://omia.org/OMIA001884/9796/ [web:156]  
+- Spanish-horse *KIT*/*MITF*/*PAX3* association study: https://onlinelibrary.wiley.com/doi/abs/10.1111/age.12528 [web:154]  
+- Later white-marking GWAS with different candidate regions: https://www.equinetapestry.blog/a-new-white-marking-study/ [web:160]  
+- Equus magazine overview of heritability and unpredictability: https://equusmagazine.com/horse-care/are-markings-inherited-8641 [web:159]
+--- end of her document ---
+
+What the gene file does with it: the summary gives the Franches-Montagnes study, what
+KIT, MITF and MC1R explain, the Menorca W20 result and the limits; four citations.
+Alleles, outcomes and tables unchanged; still abstracted.
+
+EARLIER NOTE (2026-10-12, before round four)
+--------------------------------------------
+
 At a glance
 -----------
 
