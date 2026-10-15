@@ -76,7 +76,7 @@ STILL WRONG OR UNPROVEN IN THE RESEARCHED LOCI
   for jumping, this and abstracted_jump; whether both are wanted is open.
 - roan: the symbol stays KIT. The science says KIT region, causal variant unknown;
   RN1, RN2 and RN3 are haplotype markers, named in the summary only.
-- acan: D5 is "unconfirmed" with no outcome. Round two found no published report or laboratory page naming a fifth allele; the session applied the owner's ruling for such alleles without asking her again. The mod's estimated frequency table still gives D5 a share. Whether UC Davis has an ACAN test page was not answered. D1/D1 is "lethal_in_early_life" (owner, 2026-10-12): round two says survival time varies and gives no ages. That every other dwarf pair survives is still the mod's.
+- acan: D5 is "unconfirmed" with no outcome. Round two found no published report or laboratory page naming a fifth allele; the session applied the owner's ruling for such alleles without asking her again. The mod's estimated frequency table still gives D5 a share. UC Davis has no ACAN test page (round three); Generatio tests D1-D4, and two of its four positions do not match the gene file's D3 and D4 (question G7). D1/D1 is "lethal_in_early_life" (owner, 2026-10-12): round two says survival time varies and gives no ages. That every other dwarf pair survives is still the mod's.
 - ryr1: settled in round three (2026-10-15, sourced to PubMed and OMIA): Aleman et al. 2004 (Muscle and Nerve) is the first report; the 2009 J Vet Intern Med paper is a follow-up in Quarter Horses. Round two had it the other way. Both stay cited, labelled by role.
 - grey: G2/G3 is given the same outcome as G3/N; the research says its pace and risk
   are not quantified. The Andalusian table's genotype shares are worked out from
@@ -328,8 +328,11 @@ G5. Skeletal atavism (SHOX deletions Del1 and Del2) in Shetland Ponies and Minia
     Horses: what carrier frequencies are published?
 G6. ACAN dwarfism (variants D1 to D4, Miniature Horses and ponies): how long do D1/D1
     foals live? Do horses with two other variants (D2, D3, D4 in any combination, or with
-    D1) live to adulthood? What carrier frequencies are published? Does UC Davis have a
-    test page for ACAN dwarfism, and which variants does it name?
+    D1) live to adulthood? What carrier frequencies are published?
+G7. ACAN: Generatio lists D3* as g.95282140C>G and D4 as g.95257458_95257500del (43
+    bases). The published names used here are D3 c.6700delC (a one-base deletion) and D4
+    c.7299_7319del (21 bases). Are these the same variants? On which assembly are
+    Generatio's positions, and what does the asterisk on D3* mean?
 
 FOR THE OWNER, NOT THE RESEARCHER
 ---------------------------------

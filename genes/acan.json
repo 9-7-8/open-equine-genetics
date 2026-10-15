@@ -6,7 +6,7 @@
   "symbol": "ACAN",
   "chromosome": "1",
   "evidence": "published",
-  "summary": "ACAN (aggrecan) on chromosome 1, a recessive dwarfism locus of Miniature Horses and related ponies, with four established variant alleles, D1 to D4. A horse is a dwarf when it has no working copy left, so two different variant alleles together still count. Two copies of D1 give the most severe form, generally incompatible with normal life, though how long such a foal survives varies; every other such combination is a surviving dwarf. A horse with one variant copy is not a dwarf, but heterozygotes are reported to be shorter than horses with none. A fifth allele, D5, is not established: no published report or laboratory test page was found that names it, and it is kept here as unconfirmed, with no outcome.",
+  "summary": "ACAN (aggrecan) on chromosome 1, a recessive dwarfism locus of Miniature Horses and related ponies, with four established variant alleles, D1 to D4. A horse is a dwarf when it has no working copy left, so two different variant alleles together still count. Two copies of D1 give the most severe form, generally incompatible with normal life, though how long such a foal survives varies; every other such combination is a surviving dwarf. A horse with one variant copy is not a dwarf, but heterozygotes are reported to be shorter than horses with none. UC Davis has no test page for it; a European laboratory, Generatio, tests for D1 to D4. A fifth allele, D5, is not established: no published report or laboratory test page was found that names it, and it is kept here as unconfirmed, with no outcome.",
   "inheritance": "autosomal",
   "affects_coat": false,
   "alleles": [
@@ -68,6 +68,7 @@
   "citations": [
     { "source": "omia", "label": "OMIA 001271-9796: Dwarfism, ACAN-related", "url": "https://omia.org/OMIA001271/9796/", "verified": false },
     { "source": "pubmed", "label": "PMID 32065671: Heterozygotes for ACAN dwarfism alleles in horses have reduced stature (2020)", "url": "https://pubmed.ncbi.nlm.nih.gov/32065671/", "verified": false },
-    { "source": "ucdavis-vgl", "label": "UC Davis VGL: horse DNA tests", "url": "https://vgl.ucdavis.edu/dna-tests/horse", "verified": false }
+    { "source": "ucdavis-vgl", "label": "UC Davis VGL: horse DNA tests", "url": "https://vgl.ucdavis.edu/dna-tests/horse", "verified": false },
+    { "source": "other", "label": "Generatio: ACAN dwarfism (chondrodysplasia) test, D1 to D4", "url": "https://generatio.de/en/guidance/lexicon/acan-dwarfism-chondrodysplasia-acan-horse", "verified": false }
   ]
 }
