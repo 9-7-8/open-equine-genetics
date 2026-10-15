@@ -6,7 +6,7 @@
   "symbol": "MET",
   "chromosome": "4",
   "evidence": "published",
-  "summary": "MET, on chromosome 4, encodes the receptor for hepatocyte growth factor, a signalling protein involved in cell growth, survival and movement during development and repair. In Friesian horses a 14 base-pair frameshift deletion (g.74041982_74041995del), associated with the FH2, FH3 and FH4 haplotypes, is reported as a recessive embryonic lethal: matings of two carriers had about 25 per cent lower insemination success, as expected if embryos with two copies are lost. Carriers are normal. Nothing is seen in the coat, and no effect on build or performance is established.",
+  "summary": "MET, on chromosome 4, encodes the receptor for hepatocyte growth factor, a signalling protein involved in cell growth, survival and movement during development and repair. In Friesian horses a 14 base-pair frameshift deletion in the first exon (c.1559_1572del, p.Pro392Leufs*3; g.74041982_74041995del on chromosome 4, EquCab3.0), associated with the FH2, FH3 and FH4 haplotypes, is reported as a recessive embryonic lethal (Steensma et al. 2026): matings of two carriers had about 25 per cent lower insemination success, as expected if embryos with two copies are lost. Carriers are normal. Among 8,263 Friesians born 1996-2024, the haplotypes were carried by 14.7 (FH2), 13.7 (FH3) and 8.0 (FH4) per cent of horses; the three overlap, and no share of carriers of the deletion itself was published. Fewer horses with two copies of each haplotype were found than expected (15 of 53, 5 of 45, none of 15); the few seen may be recombinants. Mice without MET die as embryos with placental defects. Nothing is seen in the coat, and no effect on build or performance is established.",
   "inheritance": "autosomal",
   "affects_coat": false,
   "alleles": [
@@ -37,6 +37,7 @@
   ],
   "citations": [
     { "source": "omia", "label": "OMIA 003064", "url": "https://omia.org/OMIA003064/9796/", "verified": false },
+    { "source": "pubmed", "label": "PMC13088515: Steensma et al. 2026, BMC Genomics 27:389, harmful haplotypes in 8,263 Friesians and the MET deletion", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13088515/", "verified": false },
     { "source": "pubmed", "label": "PMC7403398", "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7403398/", "verified": false },
     { "source": "omia", "label": "OMIA: the horse MET gene", "url": "https://omia.org/gene398299112/", "verified": false },
     { "source": "other", "label": "UniProt Q2QLA9: MET, horse", "url": "https://www.uniprot.org/uniprotkb/Q2QLA9/entry", "verified": false },
