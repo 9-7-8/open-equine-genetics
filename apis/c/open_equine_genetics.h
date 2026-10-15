@@ -138,7 +138,7 @@ typedef struct {
     double high;
 } oeg_score;
 
-/* The mod's 1-10 scores; evidence is always "abstracted". */
+/* Estimated 1-10 scores, not measurements; evidence is always "abstracted". */
 typedef struct {
     const char *evidence;
     oeg_score speed, jump, health, pull;

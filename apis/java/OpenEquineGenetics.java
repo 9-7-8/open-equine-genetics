@@ -181,7 +181,7 @@ public final class OpenEquineGenetics {
         }
     }
 
-    /** scores are the mod's 1-10 scores (evidence always "abstracted"); raw is the whole file. */
+    /** scores are estimated 1-10 scores, not measurements (evidence always "abstracted"); raw is the whole file. */
     public record Breed(String id, String name, String country, String description, Map<String, Object> scores,
                         List<GenotypeTable> pools, List<Strain> strains, List<Citation> citations,
                         Map<String, Object> raw) {

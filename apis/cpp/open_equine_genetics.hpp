@@ -510,7 +510,7 @@ struct Breed {
     std::string name;
     std::string country;
     std::optional<std::string> description;
-    Json scores;  // the mod's 1-10 scores; evidence is always "abstracted"
+    Json scores;  // estimated 1-10 scores, not measurements; evidence is always "abstracted"
     std::vector<GenotypeTable> pools;
     std::vector<Strain> strains;
     std::vector<Citation> citations;

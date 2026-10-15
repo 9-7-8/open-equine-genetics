@@ -289,7 +289,7 @@ pub struct Breed {
     pub name: String,
     pub country: String,
     pub description: Option<String>,
-    /// the mod's 1-10 scores; evidence is always "abstracted"
+    /// estimated 1-10 scores, not measurements; evidence is always "abstracted"
     pub scores: Value,
     pub pools: Vec<GenotypeTable>,
     #[serde(default)]

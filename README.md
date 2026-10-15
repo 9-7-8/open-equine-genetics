@@ -1,6 +1,6 @@
 # Open Equine Genetics
 
-Real horse genetics as plain JSON, for any game, mod, app or study that wants it: 68 loci
+Real horse genetics as plain JSON, for any game, app or study that wants it: 68 loci
 (coat colour, white patterns, size, health) and 121 natural breeds. One file per gene, one
 file per breed. Any language with a JSON parser can read it, and there are ready-made
 readers for five.
@@ -44,15 +44,13 @@ lists every call.
 
 ## How far to trust it
 
-**Nothing here has been audited yet.** It began as an export of what one game models (the
-Minecraft mod [Procedural Horse Coats](https://github.com/9-7-8/Procedural-Horse-Coats))
-and is being checked locus by locus against UC Davis Veterinary Genetics Laboratory, OMIA
-and the primary papers. Every entry says how far to trust it, in one of three words:
+**Nothing here has been audited yet.** It is being checked locus by locus against UC
+Davis Veterinary Genetics Laboratory, OMIA and the primary papers. Every entry says how far to trust it, in one of three words:
 
 | Word | Meaning |
 | --- | --- |
 | `published` | A cited source says so. On a locus: the locus is real and identified. |
-| `estimated` | A number of ours for something real. **Most frequencies, and every breed pool, are estimates**: they were tuned for a game, not measured. |
+| `estimated` | A number of ours for something real. **Many frequencies, and every breed pool, are estimates**, not measurements. |
 | `abstracted` | A stand-in of ours for something real that is polygenic or not understood (height, sooty, flaxen). Its alleles are invented. It is not a real gene. |
 
 Each allele also carries a `quality`: `verified`, `unverified`, `abstracted`, or
@@ -120,14 +118,13 @@ reordered or removed, so a horse you save today still reads tomorrow.
 | Path | What it is |
 | --- | --- |
 | `genes/` | 68 loci, one JSON file each: 42 published, 26 abstracted. |
-| `breeds/` | 121 natural breeds, one JSON file each: gene pools and the game's 1-10 scores, all estimates. |
+| `breeds/` | 121 natural breeds, one JSON file each: gene pools and estimated 1-10 scores. |
 | `apis/` | Readers in Python, Java, Rust, C++ and C, with examples. |
 | `knowledge/format.txt` | The file format, field by field, and the rules a change must keep. |
 | `knowledge/known-issues.txt` | What is known to be wrong, unproven or still being researched. |
 | `knowledge/science/` | A science note per gene. A secondary source. |
 | `knowledge/` | Everything else a maintainer needs; start at `knowledge/START-HERE.txt`. |
 | `tools/validate.mjs` | Checks every gene and breed file against the format: `node tools/validate.mjs` (Node 22+, no packages). |
-| `mod-map.json` | How each locus maps to the Minecraft mod's saved gene keys. Only the mod needs it. |
 
 ## Licence
 

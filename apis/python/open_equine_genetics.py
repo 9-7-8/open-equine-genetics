@@ -191,7 +191,7 @@ class Breed:
     name: str
     country: str
     description: Optional[str]
-    scores: dict                     # the mod's 1-10 scores; evidence is always "abstracted"
+    scores: dict                     # estimated 1-10 scores, not measurements; evidence is always "abstracted"
     pools: List[GenotypeTable]
     strains: List[Strain]
     citations: List[Citation]
