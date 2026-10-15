@@ -15,7 +15,7 @@
   "phenotypes": [
     { "id": "wild", "name": "Wild type", "description": "Two working copies. Nothing is wrong and nothing is passed on.", "changes_coat": false },
     { "id": "st14-carrier", "name": "ST14 carrier", "description": "One copy. The horse is normal, with nothing to see, and passes the copy to half its foals. A foal is affected only when both parents pass it on.", "changes_coat": false },
-    { "id": "naked-foal-syndrome", "name": "Naked foal syndrome", "description": "Two copies. The foal is born with almost no body hair, a sparse or missing mane and tail, short curly whiskers and no eyelashes, over dry, scaly skin. Without hair the skin is easily injured and scarred, and the eyes water. Teeth and hooves were normal in the cases examined. Most known foals died between a few weeks and three years of age, and why is not known; one was alive at nearly three.", "changes_coat": false }
+    { "id": "naked-foal-syndrome", "name": "Naked foal syndrome", "description": "Two copies. The foal is born with almost no body hair, a sparse or missing mane and tail, short curly whiskers and no eyelashes, over dry, scaly skin. Without hair the skin is easily injured and scarred, and the eyes water. Teeth and hooves were normal in the cases examined. Every known affected horse has died between a few weeks and three years of age, and why is not known; one was put down at 21 days after breaking a leg on its own, and one was alive at nearly three when the study was revised. Mice without the gene die within about two days as water escapes through the skin, but the horse's skin disease is milder, and that is not thought to be what kills affected foals.", "changes_coat": false }
   ],
   "genotypes": [
     { "alleles": ["N", "N"], "phenotype": "wild" },
@@ -23,7 +23,7 @@
     { "alleles": ["nfs", "nfs"], "phenotype": "naked-foal-syndrome", "conditions": ["naked-foal-syndrome"] }
   ],
   "conditions": [
-    { "id": "naked-foal-syndrome", "name": "Naked foal syndrome", "description": "Two copies. The foal is born with almost no body hair, a sparse or missing mane and tail, short curly whiskers and no eyelashes, over dry, scaly skin. Without hair the skin is easily injured and scarred, and the eyes water. Teeth and hooves were normal in the cases examined. Most known foals died between a few weeks and three years of age, and why is not known; one was alive at nearly three.", "severity": "lethal_in_early_life" }
+    { "id": "naked-foal-syndrome", "name": "Naked foal syndrome", "description": "Two copies. The foal is born with almost no body hair, a sparse or missing mane and tail, short curly whiskers and no eyelashes, over dry, scaly skin. Without hair the skin is easily injured and scarred, and the eyes water. Teeth and hooves were normal in the cases examined. Every known affected horse has died between a few weeks and three years of age, and why is not known; one was put down at 21 days after breaking a leg on its own, and one was alive at nearly three when the study was revised. Mice without the gene die within about two days as water escapes through the skin, but the horse's skin disease is milder, and that is not thought to be what kills affected foals.", "severity": "lethal_in_early_life" }
   ],
   "frequencies": [
     {
