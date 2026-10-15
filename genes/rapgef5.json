@@ -28,15 +28,23 @@
   ],
   "frequencies": [
     {
-      "population": "Thoroughbred, United States, born 1988-2019 (allele frequency about 0.8%; the carrier share is worked out from it)",
+      "population": "Thoroughbred, Australia (12 carriers in 880 anonymous horses tested by the Equine Genetics Research Centre)",
       "evidence": "published",
       "genotypes": [
-        { "alleles": ["efih", "N"], "percent": 1.6 },
-        { "alleles": ["N", "N"], "percent": 98.4 }
+        { "alleles": ["efih", "N"], "percent": 1.36 },
+        { "alleles": ["N", "N"], "percent": 98.64 }
       ]
     },
     {
-      "population": "Thoroughbred, first estimate (3 carriers among 82 randomly chosen unaffected horses, allele frequency 1.8%; UC Davis calls it preliminary)",
+      "population": "Thoroughbred, United States, born 1988-2019 (28 carriers in 1,789 horses, Elcombe et al.; allele frequency 0.83% for 1988-2000 and 0.77% for 2001-2019)",
+      "evidence": "published",
+      "genotypes": [
+        { "alleles": ["efih", "N"], "percent": 1.57 },
+        { "alleles": ["N", "N"], "percent": 98.43 }
+      ]
+    },
+    {
+      "population": "Thoroughbred, first estimate (3 carriers among 82 randomly chosen unaffected horses, allele frequency 1.8%, Rivas et al. 2020; a small, preliminary sample)",
       "evidence": "published",
       "genotypes": [
         { "alleles": ["efih", "N"], "percent": 3.66 },
@@ -58,6 +66,7 @@
     { "source": "paper", "label": "PLoS Genetics, 10.1371/journal.pgen.1009028: a RAPGEF5 nonsense variant and EFIH", "url": "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1009028", "verified": false },
     { "source": "ucdavis-vgl", "label": "UC Davis VGL: Equine Familial Isolated Hypoparathyroidism (EFIH)", "url": "https://vgl.ucdavis.edu/test/efih", "verified": false },
     { "source": "other", "label": "UC Davis Center for Equine Health: news on the EFIH variant", "url": "https://ceh.vetmed.ucdavis.edu/news/uc-davis-researchers-identify-genetic-variant-equine-familial-isolated-hypoparathyroidism", "verified": false },
-    { "source": "other", "label": "UC Davis School of Veterinary Medicine: student poster on EFIH frequency", "url": "https://www.vetmed.ucdavis.edu/sites/g/files/dgvnsk491/files/inline-files/STAR%20TG%20Poster%20-%20Elcombe.pdf", "verified": false }
+    { "source": "other", "label": "UC Davis School of Veterinary Medicine: student poster on EFIH frequency", "url": "https://www.vetmed.ucdavis.edu/sites/g/files/dgvnsk491/files/inline-files/STAR%20TG%20Poster%20-%20Elcombe.pdf", "verified": false },
+    { "source": "other", "label": "Equine Genetics Research Centre (Australia): horse genetics, EFIH carriers in Thoroughbreds", "url": "https://equinegeneticsresearchcentre.horse/horse-genetics/", "verified": false }
   ]
 }
