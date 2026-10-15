@@ -2,12 +2,41 @@ HMGA2 (pony) - science notes
 (Copied 2026-10-12 from the Science tab of the Procedural Horse Coats wiki page for this gene.
 Written for that project: it may mention how a game models the gene. Not yet audited.)
 
+ROUND THREE (the owner's answer to question D1, 2026-10-15)
+------------------------------------------------------------
+No address has been opened by a maintainer. Everything below is from Frischknecht et al.
+2015 (https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0140749) unless
+marked. Her answer, condensed, with every point she gave:
+
+  - The variant is HMGA2:c.83G>A, p.Gly28Glu (p.G28E), in exon 1, in the first AT-hook
+    DNA-binding domain, on ECA6 (chromosome 6).
+  - Critical interval on EquCab2: chr6:81,004,787-81,798,590 (793 kb). Effect allele A;
+    reference and tall allele G. About 9.5 cm less at the withers per A allele, roughly
+    additive, in Shetland Ponies.
+  - The paper closed a ~1.4 kb gap in EquCab2 at HMGA2's first exon to find it, so the
+    variant is reported on its own transcript (EMBL LN849001), not as one EquCab2
+    position. OMIA gives the gene span NC_091689.1:94,526,168-94,655,192 on a newer
+    assembly; that is not the c.83 position. (https://omia.org/OMIA001968/9796/)
+  - The change turns a conserved glycine, the centre of the first AT-hook's DNA-contacting
+    motif, to glutamate; the mutant peptide's DNA binding was shown to be much weaker.
+  - In 110 Shetland Ponies the mean wither height was about 84 cm for A/A, 95 cm for A/G
+    and 103 cm for G/G.
+  - A was found only in Shetland Ponies and two other pony breeds of the validation set,
+    and in none of the full-sized breeds tested. Later work tied it to height and
+    metabolic traits in Welsh Ponies.
+  - Model it as additive; the effect size should not be assumed the same in every breed.
+
+What the gene file does with it: the chromosome changes from 7 (round two, unsourced)
+to 6, which the older text below also gave. p's name gains the variant, and the summary
+and outcomes give the Shetland heights. The estimated "general population" table is the
+mod's and gives p a 25 per cent share, which contradicts "absent from full-sized
+breeds"; it is left, marked estimated, and noted in known-issues.
 ROUND TWO (the owner's answers to the open research questions, 2026-10-12)
 --------------------------------------------------------------------------
 These came after everything below. Where they disagree with it, this section and the gene
 file stand, unless a line says the point is unsettled. The whole answer is in
 knowledge/science/round-2-answers.txt. No address has been opened by a maintainer.
-- HMGA2 is on chromosome 7. It encodes the high-mobility group AT-hook 2 transcription
+- HMGA2 is on chromosome 7 (WRONG: chromosome 6, round three). It encodes the high-mobility group AT-hook 2 transcription
   factor, a regulator of growth and body size.
 - Variation near it is associated with body size, height and skeletal proportions. Height
   is highly polygenic: LCORL, HMGA2 and many other loci contribute, and breed and
