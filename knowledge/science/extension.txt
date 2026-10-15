@@ -4,6 +4,36 @@ No source was opened by the session that filed this. genes/extension.json was ch
 on the owner's word the same day; what is left over is in knowledge/known-issues.txt.
 Not yet audited.)
 
+ROUND THREE (the owner's answer to question B1, 2026-10-15)
+------------------------------------------------------------
+No address has been opened by a maintainer. Her answer, condensed, with every point and
+address she gave:
+
+  - Both recessive red alleles are single-base missense changes in exon 1, two coding
+    bases apart (https://omia.org/OMIA001199/9796/):
+      e   NC_009146.3:g.36979560C>T  NM_001114534.1:c.248C>T  p.Ser83Phe (S83F)
+      ea  NC_009146.3:g.36979562G>A  NM_001114534.1:c.250G>A  p.Asp84Asn (D84N)
+    Both lose MC1R function: no eumelanin in the hair. Both are recessive to E; e/e and
+    e/ea are chestnut.
+  - Older literature calls e "C901T": the same mutation under another numbering.
+  - ea can be missed by tests that look only at the classic e site; a chestnut that tests
+    "not e/e" on such a test is a candidate for ea. UC Davis describes e and ea together
+    as recessive loss-of-function variants (https://vgl.ucdavis.edu/resources/horse-coat-color).
+  - E/E, E/e, E/ea: black pigment possible. e/e, e/ea: chestnut. ea/ea: expected
+    chestnut, much rarer.
+  - MC1R lets melanocytes make eumelanin; without it the hair makes phaeomelanin. It does
+    not stop pigment in the skin or eyes: chestnuts can have dark skin and normal dark
+    eyes (https://pmc.ncbi.nlm.nih.gov/articles/PMC9558981/).
+  - No established effect on height, speed, muscle, bone, hooves or feathering. Mane and
+    tail are red because the hairs are red; dilution, flaxen, sooty and other loci change
+    the shade.
+  - e is widespread; OMIA lists it in Arabian, Belgian Draft, Clydesdale, Icelandic,
+    Morgan, Quarter Horse, Shetland Pony, Thoroughbred, Warmblood and Welsh Pony. ea is
+    much rarer, reported particularly in Belgian Draft horses.
+
+What the gene file does with it: the c. and p. names go into the two allele names, the
+EquCab3.0 positions into the summary, Belgian Draft joins ea's breeds, and the summary
+notes dark skin and eyes. Two citations.
 ROUND TWO (the owner's answers to the open research questions, 2026-10-12)
 --------------------------------------------------------------------------
 These came after everything below. Where they disagree with it, this section and the gene
