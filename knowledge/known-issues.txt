@@ -1,6 +1,7 @@
 KNOWN ISSUES IN THE DATA
 ========================
-Rewritten 2026-10-15, after the owner's third round of research answers. Remove a line
+Rewritten 2026-10-15, after the owner's third round of research answers; brought up to
+date the same day after round four. Remove a line
 here when it is fixed, and say so in the session log. The questions that still need
 research are at the end, under OPEN RESEARCH QUESTIONS, ready for the next round.
 
@@ -11,10 +12,10 @@ WHERE THE DATA STANDS
   (round three, 2026-10-15; answers about one locus are at the top of its note, answers
   about several are kept whole in knowledge/science/round-3-answers.txt). Round four
   (2026-10-15, after this file was rewritten) so far: overviews of acan, agouti and
-  b4galt7, and answers to B3, B4, C1, C4, C6, D6, E3, G2, G4, G6 (part), G7, H1-H10, SB1 as a locus, affects_coat on eye loci, ckm's status, and st14 severity; answers about several loci are kept whole in
+  b4galt7, and answers to B3, B4, C1, C4, C6, D6, E3, G2, G4, G6 (part), G7, H1-H10, SB1 as a locus, affects_coat on eye loci, ckm's status, st14 severity, and Friesian hydrocephalus (added as b3galnt2); answers about several loci are kept whole in
   knowledge/science/round-4-answers.txt. The lists below
   are each kept on one long line, sorted, so they are easy to edit.
-RESEARCHED: abstracted_jump_strength, acan, agouti, b4galt7, brindle, champagne, ckm, cvm, dmrt3, dun, ednrb, extension, eye loci (all eight), flaxen, gbe1, grey, gys1, hmga2, kit, lama3, lamc2, lcorl, leopard, manchado, markings, matp, megaesophagus, met, mitf, mstn, mushroom, myo5a, pangare, patn1, patn2, pax3, pdk4, plod1, ppib, prkdc, rabicano, rapgef5, roan, ryr1, scn4a, shade, shox, silver, slc5a3, sooty, st14, tiger_eye, tobiano, toe1.
+RESEARCHED: abstracted_jump_strength, acan, agouti, b3galnt2, b4galt7, brindle, champagne, ckm, cvm, dmrt3, dun, ednrb, extension, eye loci (all eight), flaxen, gbe1, grey, gys1, hmga2, kit, lama3, lamc2, lcorl, leopard, manchado, markings, matp, megaesophagus, met, mitf, mstn, mushroom, myo5a, pangare, patn1, patn2, pax3, pdk4, plod1, ppib, prkdc, rabicano, rapgef5, roan, ryr1, scn4a, shade, shox, silver, slc5a3, sooty, st14, tiger_eye, tobiano, toe1.
 - NO SESSION OPENED A SOURCE. Every fact rests on the owner's documents, and every
   citation is an address those documents gave (some built from a DOI or PubMed number
   they gave). None has been opened. The owner said not to spend effort on that for now.
@@ -28,13 +29,14 @@ RESEARCHED: abstracted_jump_strength, acan, agouti, b4galt7, brindle, champagne,
   maintainer has opened it ("verified"). No citation is verified, no allele is
   "verified", four alleles of published loci are "invalid" (acan D3, kit W17a and W17b, shox sa), and nine alleles of each eye side (red, chaos and the like; round four),
   and every allele of an abstracted locus is "abstracted".
-- tools/validate.mjs passes on all 68 gene files and 121 breed files. It checks
+- tools/validate.mjs passes on all 69 gene files and 121 breed files. It checks
   structure, not science.
 
 STILL WRONG OR UNPROVEN IN THE RESEARCHED LOCI
 - abstracted_jump_strength was "ryr2" until 2026-10-12 (owner: rename it). The data has two abstractions for jumping, this and abstracted_jump; whether both are wanted is open.
 - acan: D5 is "unconfirmed" with no outcome: proposed in a dissertation and tested by one laboratory (CombiBreed), with no peer-reviewed report. UC Davis has no ACAN test page. D3 (c.6700delC) is invalid, a sequencing artifact; the real third allele is D3s, written D3* (g.95282140C>G), added in round four (owner). D4 is the 21-base g.95257480_95257500del; Generatio prints a 43-base span, and one round-four answer says Andrade et al. does too, the next that only Generatio does. D1/D1, D1/D2 and D1/D3 are nonviable; D1/D4 is a living pair with its own outcome, usually lost before birth but known once from a live foal (the format cannot give a pair a chance of surviving). Pairs of D2, D3 and D4 are born alive; D2 pairs milder, but the format has one severity for the dwarf condition. Two Miniature Horse tables, worked out from allele frequencies: US (Eberth et al. 2018, D2 leading, about 0.16) and Brazil (Andrade et al. 2020, D4 leading, 0.280); both count D1/D4 at its random-mating share. Who wrote the 1.43-inch height study is in doubt (question G6). Andrade et al.'s g. positions for D1-D4 are on EquCab3.0 and match Generatio's. A Brazilian candidate variant, c.6465A>T (p.Leu2155Phe), "potentially associated", is not an allele here.
 - agouti: At (seal brown) and A+ (wild bay) are "unverified", proposed alleles with no outcome (owner, 2026-10-15); the looks are real, the alleles unvalidated. The research suggests the looks be modelled as separate modifiers of unknown basis; only the abstracted shade locus exists, and nothing for wild bay's low leg points.
+- b3galnt2 (new in round four): its 2015 position, ECA1:75,907,505, is on an unstated assembly and is not in the data. hcp/hcp is a living row with "lethal_at_birth" (usually stillborn); the risk to the mare is in words only. The Barock Pinto and Belgian draft reports have no address.
 - b4galt7: its first research names its sources by number only. The Friesian tables omit d/d horses. The 12% is Leegwater et al. 2016's 22 of 177, a validation set, not a random sample; KFPS testing gave about 15% in 2000 and 12.5% in 2021 (Hermans et al. 2024). A Brazilian 33% (12 horses) is not a table. Round four confirms all of this and adds a 2026 screen of 8,263 Friesians (BMC Genomics) that gave no B4GALT7 figure alone and no address. The Friesian Health Panel has no address either.
 - champagne: the names gold, amber and classic champagne depend on extension and agouti; the file says so in words and has no interactions table. "Sable" and "ivory" are registry names, not alleles.
 - ckm: a candidate that failed to replicate (Gu et al. 2010; no association in Quarter Horses); the file states no effect. Its reference allele is flagged wild_type and called ancestral on that alone. Chromosome 10 (round four; round three's 9 was an error). The Italian Trotter table rests on taking g.16079732G>A (EquCab3.0) as the file's g.15884567G>A (EquCab2.0): best supported, but no source states the conversion. Thoroughbred G 0.50 is from 20 horses, not tabled. It stays a published locus as a published candidate with no established effect, as round four's answer advises.
@@ -54,7 +56,7 @@ STILL WRONG OR UNPROVEN IN THE RESEARCHED LOCI
 - lama3, lamc2: no frequency question left; JEB1 and JEB2 tables are in.
 - leopard depends on patn2, an abstraction; more than PATN1 modifies the pattern, and nothing else is named (round four: no PATN2 is published, and cvm and megaesophagus have no causal variant (severities now "impairing", the session's choice)). The data still has PATN2 making the blanket patterns, an idea the research says has been given up; the owner chose (2026-10-15) to keep the split, labelled as this data's model. PATN1's ECA3:23,658,447T>G is not in the data until its assembly is confirmed.
 - matp: sunshine is a disputed candidate with the undocumented outcome "sunshine-disputed". The variant is the major allele in every breed group sequenced (above 0.86 in five breeds, Durward-Akhurst et al. 2024), but whether it dilutes is unresolved; with no exact figure per breed it is in no table (owner, 2026-10-15), so the tables count its copies as N. Snowdrop is known from one Gypsy Cob family; no Cr/sno or prl/sno horse is reported anywhere, so those pairs stay undocumented. The general table still gives sno small shares. The names palomino, buckskin and the rest depend on extension and agouti, in words only. Lusitano is the only breed table (Cr and prl worked out from Avila et al.); other breeds' Cr figures are in Avila et al.'s Supplementary Table S4 (question B3). The first matp answer cites by number only.
-- met: met/met is nonviable on indirect evidence (lower insemination success in carrier matings). Reported in Friesians only. Only haplotype carrier shares are published (FH2 14.7%, FH3 13.7%, FH4 8.0%, overlapping; Steensma et al. 2026), not one for the deletion, so no table. 15 FH2 and 5 FH3 homozygotes were seen alive, against the format's nonviable met/met: taken to be recombinants or semi-lethality, not tested. Friesian hydrocephalus (B3GALNT2) is not a locus here.
+- met: met/met is nonviable on indirect evidence (lower insemination success in carrier matings). Reported in Friesians only. Only haplotype carrier shares are published (FH2 14.7%, FH3 13.7%, FH4 8.0%, overlapping; Steensma et al. 2026), not one for the deletion, so no table. 15 FH2 and 5 FH3 homozygotes were seen alive, against the format's nonviable met/met: taken to be recombinants or semi-lethality, not tested. Friesian hydrocephalus is the separate locus b3galnt2 (added in round four).
 - mitf: SW9 (McFadden et al. 2023) rests on association in one breed. 24 pairs of two different variants are "splash-undocumented" and 6 homozygotes "splash-homozygote-undetected". No genotype carries a deafness condition (owner: only pairs a source confirms). Thirteen breed tables from Avila et al. 2022, which tested SW1, SW3, SW5 and SW6 only; SW7, SW8 and SW9 count as N.
 - mushroom: the outcome depends on extension and agouti (clear on chestnut, uncertain on bay, none on black), in words only. Its link to flaxen is unresolved.
 - myo5a: UC Davis's "1.6%" for non-Egyptian Arabians matches neither of the mapping study's figures and is left out. The Egyptian farm table (0.08) is one farm, partly targeted.
@@ -102,7 +104,7 @@ CITATIONS
 SCIENCE NOTES
 - Every researched locus's note is the owner's research, newest first: ROUND THREE,
   then ROUND TWO, then LATEST FINDINGS (her later audit answers), then her first document.
-NOTES FROM RESEARCH: abstracted_jump_strength, acan, agouti, b4galt7, brindle, champagne, ckm, cvm, dmrt3, dun, ednrb, extension, flaxen, gbe1, grey, gys1, hmga2, kit, lama3, lamc2, lcorl, leopard, manchado, markings, matp, megaesophagus, met, mitf, mstn, mushroom, myo5a, pangare, patn1, patn2, pax3, pdk4, plod1, ppib, prkdc, rabicano, rapgef5, roan, ryr1, scn4a, shade, shox, silver, slc5a3, sooty, st14, tiger_eye, tobiano, toe1.
+NOTES FROM RESEARCH: abstracted_jump_strength, acan, agouti, b3galnt2, b4galt7, brindle, champagne, ckm, cvm, dmrt3, dun, ednrb, extension, flaxen, gbe1, grey, gys1, hmga2, kit, lama3, lamc2, lcorl, leopard, manchado, markings, matp, megaesophagus, met, mitf, mstn, mushroom, myo5a, pangare, patn1, patn2, pax3, pdk4, plod1, ppib, prkdc, rabicano, rapgef5, roan, ryr1, scn4a, shade, shox, silver, slc5a3, sooty, st14, tiger_eye, tobiano, toe1.
 - The notes for unresearched abstracted loci are earlier notes, not yet audited.
 - 5 loci have no note: the five abstracted body loci. The eight eye loci share one note,
   knowledge/science/eyes.txt (round four).
@@ -203,6 +205,5 @@ FOR THE OWNER, NOT THE RESEARCHER
 - Format questions only she can decide: whether both abstracted_jump and
   abstracted_jump_strength are wanted; acan D5 made
   "unconfirmed" without asking.
-- Friesian hydrocephalus (B3GALNT2) could be added as a new locus (UC Davis: about 17% carriers).
 - The Brazilian ACAN candidate c.6465A>T (p.Leu2155Phe) could be added to acan as an
   unconfirmed allele; adding an allele is a format change.

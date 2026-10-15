@@ -1,6 +1,6 @@
 # Open Equine Genetics
 
-Real horse genetics as plain JSON, for any game, app or study that wants it: 68 loci
+Real horse genetics as plain JSON, for any game, app or study that wants it: 69 loci
 (coat colour, white patterns, size, health) and 121 natural breeds. One file per gene, one
 file per breed. Any language with a JSON parser can read it, and there are ready-made
 readers for five.
@@ -77,9 +77,10 @@ real trait it stands for and makes no claim about the mechanism behind it.
 So an abstracted locus:
 
 - is marked `"evidence": "abstracted"`, and every one of its alleles has
-  `"quality": "abstracted"`;
-- has a `null` symbol, no chromosome and no citation, because there is no real locus to
-  point to;
+  `"quality": "abstracted"`, or `"invalid"` for a colour no horse has (red or
+  chaos eyes, kept so stored data still lines up);
+- has a `null` symbol and no chromosome, because there is no real locus to point to;
+  some cite what research there is on the trait (flaxen, sooty, shade and others);
 - often stands for many genes at once (height, speed, sooty) or for a cause nobody has
   found yet (flaxen, rabicano, manchado).
 
@@ -117,7 +118,7 @@ reordered or removed, so a horse you save today still reads tomorrow.
 
 | Path | What it is |
 | --- | --- |
-| `genes/` | 68 loci, one JSON file each: 42 published, 26 abstracted. |
+| `genes/` | 69 loci, one JSON file each: 43 published, 26 abstracted. |
 | `breeds/` | 121 natural breeds, one JSON file each: gene pools and estimated 1-10 scores. |
 | `apis/` | Readers in Python, Java, Rust, C++ and C, with examples. |
 | `knowledge/format.txt` | The file format, field by field, and the rules a change must keep. |

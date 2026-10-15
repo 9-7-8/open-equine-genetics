@@ -69,6 +69,7 @@ THE AUDIT
   "affects_eye" marks loci drawn on the eye, true on tiger_eye and the eight eye loci,
   whose outcomes have "changes_coat": false. In the format, the validator and all five
   readers (owner, 2026-10-15).
+- Friesian hydrocephalus is added as the published locus b3galnt2 (owner, 2026-10-15).
 - st14's severity stays "lethal_in_early_life": round four's answer (2026-10-15) says
   naked foal syndrome is always fatal, most foals dying within weeks, the longest known
   near three years.
