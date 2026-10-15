@@ -41,10 +41,8 @@
       "evidence": "estimated",
       "genotypes": [
         { "alleles": ["Cr", "Cr"], "percent": 0.36 },
-        { "alleles": ["Cr", "sun"], "percent": 0.04 },
-        { "alleles": ["Cr", "N"], "percent": 11.24 },
-        { "alleles": ["sun", "N"], "percent": 0.56 },
-        { "alleles": ["N", "N"], "percent": 87.8 }
+        { "alleles": ["Cr", "N"], "percent": 11.28 },
+        { "alleles": ["N", "N"], "percent": 88.36 }
       ]
     },
     {

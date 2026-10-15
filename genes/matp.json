@@ -6,7 +6,7 @@
   "symbol": "SLC45A2",
   "chromosome": "21",
   "evidence": "published",
-  "summary": "SLC45A2 on chromosome 21, formerly called MATP: the locus of cream and pearl. It dilutes the pigment the base colour produces and makes no colour of its own. Cream (Cr, c.457G>A) is incompletely dominant: one copy turns red to gold and barely touches black, giving palomino on a chestnut, buckskin on a bay and smoky black on a black; two copies dilute both pigments strongly, giving cremello, perlino or smoky cream with pink skin and blue eyes. Pearl (Prl, c.985G>A) is recessive: one copy shows nothing, and two dilute both red and black. Cream with pearl gives a pseudo-double cream that looks like a double cream and is not one. Cream is described as common in Quarter Horses, Paint Horses, the American Cream Draft, Icelandic Horses, Welsh ponies and many gaited breeds, without published figures. Pearl is found in Andalusians, Lusitanos, Quarter Horses and Paint Horses, where it was once called the Barlink factor. Two further alleles are proposed. Snowdrop (c.305G>A, also written c.449G>A) is a published candidate, recessive, known from one Gypsy Cob family: one homozygous mare that looked cremello and several relatives with one copy and no visible dilution. Sunshine (c.568G>A) is disputed: it was proposed from one horse, and the variant has since been found at allele frequencies above 0.86 in several breeds, mostly in horses with no dilution. No effect on build, performance or health is established.",
+  "summary": "SLC45A2 on chromosome 21, formerly called MATP: the locus of cream and pearl. It dilutes the pigment the base colour produces and makes no colour of its own. Cream (Cr, c.457G>A) is incompletely dominant: one copy turns red to gold and barely touches black, giving palomino on a chestnut, buckskin on a bay and smoky black on a black; two copies dilute both pigments strongly, giving cremello, perlino or smoky cream with pink skin and blue eyes. Pearl (Prl, c.985G>A) is recessive: one copy shows nothing, and two dilute both red and black. Cream with pearl gives a pseudo-double cream that looks like a double cream and is not one. Cream is described as common in Quarter Horses, Paint Horses, the American Cream Draft, Icelandic Horses, Welsh ponies and many gaited breeds, without published figures. Pearl is found in Andalusians, Lusitanos, Quarter Horses and Paint Horses, where it was once called the Barlink factor. Two further alleles are proposed. Snowdrop (c.305G>A on the EquCab2.0 transcript, the same change as c.449G>A on the EquCab3.0 one; g.31688649G>A on chromosome 21, EquCab3.0) is a published candidate, recessive, known from one Gypsy Cob family: one homozygous mare that looked cremello and several relatives with one copy and no visible dilution. No horse with snowdrop beside cream or pearl has been reported, and laboratories that test for it say its effect beside other SLC45A2 variants is unknown. Sunshine (c.568G>A, p.Gly190Arg) is disputed: it was proposed in 2019 from about 130 phenotyped horses, as a pearl-like dilution in horses that also carried another dilution, with no horse found with two copies; a 2024 sequencing study of 605 horses from 48 breeds then found 146 horses with one copy and 390 with two, and the variant was the commoner allele in all 12 breed groups, above 0.86 in Arabians, Belgians, Morgans, Thoroughbreds and Quarter Horses, mostly in horses with no dilution. It is not rare; whether it dilutes at all is unresolved. With no exact figure per breed, it is left out of the frequency tables. No effect on build, performance or health is established.",
   "inheritance": "autosomal",
   "affects_coat": true,
   "alleles": [
@@ -25,7 +25,7 @@
     { "id": "pseudo-double-cream", "name": "Pseudo-double cream", "description": "One cream copy and one pearl copy. A pale coat, pale skin and often blue or green eyes: it looks like a double cream but carries one cream allele, not two, and breeds accordingly.", "changes_coat": true },
     { "id": "snowdrop", "name": "Snowdrop", "description": "Two snowdrop copies. In the one horse known, a Gypsy Cob mare, both red and black pigment were diluted to a very pale coat like a double cream. No unrelated horse with two copies is reported.", "changes_coat": true },
     { "id": "sunshine-disputed", "name": "Pair with sunshine (disputed)", "documented": false, "description": "A pair that includes the sunshine variant. It was proposed as a recessive dilution after being found in a horse that looked like a double cream and had only one cream allele. Later work found the variant at very high frequency in many breeds, mostly in horses with no dilution, so whether it reduces pigment at all is unresolved. No outcome is given.", "changes_coat": true },
-    { "id": "compound-undocumented", "name": "Snowdrop with cream or pearl (not documented)", "documented": false, "description": "Snowdrop beside cream or pearl. These pairs are not characterised well enough to give an outcome.", "changes_coat": true },
+    { "id": "compound-undocumented", "name": "Snowdrop with cream or pearl (not documented)", "documented": false, "description": "Snowdrop beside cream or pearl. No tested horse with either pair is reported - not in the paper that found snowdrop, nor by the laboratories that test for it, one of which says the effect is still unknown. A dilution is plausible, since cream with pearl dilutes, but unobserved, so no outcome is given.", "changes_coat": true },
     { "id": "double-dilute", "name": "Double cream", "description": "Two cream copies. Both red and black pigment are strongly diluted: cremello on a chestnut, perlino on a bay, smoky cream on a black, with pink skin and blue eyes. Black-based double creams may keep a little more pigment than chestnut-based ones.", "changes_coat": true }
   ],
   "genotypes": [
@@ -47,24 +47,31 @@
   ],
   "frequencies": [
     {
+      "population": "Lusitano (allele frequencies Cr 0.42 and prl 0.064, relatedness-filtered, Avila et al. 2022; genotype shares worked out from them assuming random mating; horses tested at a laboratory, not a random sample; sunshine not counted)",
+      "evidence": "published",
+      "genotypes": [
+        { "alleles": ["Cr", "Cr"], "percent": 17.64 },
+        { "alleles": ["Cr", "prl"], "percent": 5.376 },
+        { "alleles": ["Cr", "N"], "percent": 43.344 },
+        { "alleles": ["prl", "prl"], "percent": 0.4096 },
+        { "alleles": ["prl", "N"], "percent": 6.6048 },
+        { "alleles": ["N", "N"], "percent": 26.6256 }
+      ]
+    },
+    {
       "population": "general population",
       "evidence": "estimated",
       "genotypes": [
         { "alleles": ["Cr", "Cr"], "percent": 0.1111 },
         { "alleles": ["Cr", "prl"], "percent": 0.0222 },
-        { "alleles": ["Cr", "sun"], "percent": 0.0022 },
         { "alleles": ["Cr", "sno"], "percent": 0.0019 },
-        { "alleles": ["Cr", "N"], "percent": 6.4181 },
+        { "alleles": ["Cr", "N"], "percent": 6.4203 },
         { "alleles": ["prl", "prl"], "percent": 0.0011 },
-        { "alleles": ["prl", "sun"], "percent": 2.0E-4 },
         { "alleles": ["prl", "sno"], "percent": 2.0E-4 },
-        { "alleles": ["prl", "N"], "percent": 0.6418 },
-        { "alleles": ["sun", "sun"], "percent": 0 },
-        { "alleles": ["sun", "sno"], "percent": 0 },
-        { "alleles": ["sun", "N"], "percent": 0.0642 },
+        { "alleles": ["prl", "N"], "percent": 0.642 },
         { "alleles": ["sno", "sno"], "percent": 0 },
         { "alleles": ["sno", "N"], "percent": 0.055 },
-        { "alleles": ["N", "N"], "percent": 92.6819 }
+        { "alleles": ["N", "N"], "percent": 92.7461 }
       ]
     }
   ],
@@ -80,6 +87,9 @@
     { "source": "other", "label": "JoVE Visualize, entry for PMID 31006892", "url": "https://visualize.jove.com/31006892-a-candidate-gene-approach-identifies-variants-in-slc45a2-that-explain-dilute-phenotypes-pearl-and-sunshine-in-compound-heterozygote-horses", "verified": false },
     { "source": "pubmed", "label": "PMID 31961951: snowdrop, SLC45A2 c.305G>A (2020)", "url": "https://pubmed.ncbi.nlm.nih.gov/31961951/", "verified": false },
     { "source": "pubmed", "label": "PMC11006912: 2024 survey that found the sunshine variant common in many breeds", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11006912/", "verified": false },
+    { "source": "paper", "label": "Animal Genetics, 10.1111/age.12913: Bisbee et al. 2020, snowdrop in Gypsy horses", "url": "https://onlinelibrary.wiley.com/doi/full/10.1111/age.12913", "verified": false },
+    { "source": "other", "label": "CombiBreed: cream dilution (snowdrop with other SLC45A2 variants still unknown)", "url": "https://www.combibreed.com/subject/cream-dilution/", "verified": false },
+    { "source": "other", "label": "Genomia: locus C, horse", "url": "https://www.genomia.cz/en/test/locus-c-horse/", "verified": false },
     { "source": "other", "label": "Laboklin: Snowdrop test", "url": "https://laboklin.com/en/products/genetics/coat-colour-coat-structure-coat-length/horse/snowdrop/", "verified": false },
     { "source": "other", "label": "Universidad Complutense de Madrid repository document on dilution loci", "url": "https://docta.ucm.es/bitstreams/460e9be0-d9bb-4e69-b222-4bc15e526aa5/download", "verified": false },
     { "source": "other", "label": "Labgenvet: horse colour genetics", "url": "https://labgenvet.ca/en/horse-genetics-2-0-colours/", "verified": false },
