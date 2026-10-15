@@ -7,6 +7,14 @@
   "scores": { "evidence": "abstracted", "speed": 5, "jump": 4, "health": 4, "pull": 7 },
   "pools": [
     {
+      "locus": "b3galnt2",
+      "evidence": "published",
+      "genotypes": [
+        { "alleles": ["hcp", "N"], "percent": 16.99 },
+        { "alleles": ["N", "N"], "percent": 83.01 }
+      ]
+    },
+    {
       "locus": "extension",
       "evidence": "estimated",
       "genotypes": [
@@ -40,5 +48,7 @@
       ]
     }
   ],
-  "citations": []
+  "citations": [
+    { "source": "pubmed", "label": "PMC4600337: Ducro et al. 2015 (the b3galnt2 pool is its Friesian table)", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4600337/", "verified": false }
+  ]
 }

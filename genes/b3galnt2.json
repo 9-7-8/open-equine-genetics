@@ -1,0 +1,51 @@
+{
+  "format": 2,
+  "id": "b3galnt2",
+  "species": "horse",
+  "name": "B3GALNT2 (Friesian hydrocephalus)",
+  "symbol": "B3GALNT2",
+  "chromosome": "1",
+  "evidence": "published",
+  "summary": "B3GALNT2, on chromosome 1, encodes an enzyme that adds sugars to dystroglycan, a protein the developing brain and muscle need. In Friesian horses a nonsense change in exon 12, c.1423C>T (p.Gln475*), cuts the protein short; two copies cause congenital hydrocephalus, fluid building up in and round the brain until the skull is grossly swollen. Affected foals are usually stillborn or cannot live, and the swollen head often makes the birth difficult for the mare. It is recessive; carriers are normal. In the 2015 study that found it, 147 of 865 Friesians were carriers (allele frequency 0.085), and UC Davis puts carriers at about 17 per cent; a Barock Pinto studbook estimates about 20 per cent of Friesian mares and 10 per cent of its own. The same change causes a muscular dystrophy with hydrocephalus in people. It has also been reported in a Belgian draft horse, so it is not only Friesian. Other causes of hydrocephalus exist, which this test does not detect. UC Davis writes the genotypes N/N, N/HCP and HCP/HCP. No effect on coat, build or performance is established.",
+  "inheritance": "autosomal",
+  "affects_coat": false,
+  "alleles": [
+    { "id": "hcp", "name": "Hydrocephalus (HCP; c.1423C>T, p.Gln475*)", "wild_type": false, "quality": "unverified" },
+    { "id": "N", "name": "Wild-type", "wild_type": true, "quality": "unverified" }
+  ],
+  "phenotypes": [
+    { "id": "wild", "name": "Wild type", "description": "Two working copies. Nothing is wrong and nothing is passed on.", "changes_coat": false },
+    { "id": "b3galnt2-carrier", "name": "B3GALNT2 (hydrocephalus) carrier", "description": "One copy. The horse is normal and passes the copy to half its foals. A foal is affected only when both parents pass it on.", "changes_coat": false },
+    { "id": "friesian-hydrocephalus", "name": "Friesian hydrocephalus", "description": "Two copies. Fluid collects in and round the brain before birth and the skull swells far beyond normal. The foal is usually stillborn or cannot live, and its head often makes the birth difficult or dangerous for the mare.", "changes_coat": false }
+  ],
+  "genotypes": [
+    { "alleles": ["N", "N"], "phenotype": "wild" },
+    { "alleles": ["hcp", "N"], "phenotype": "b3galnt2-carrier" },
+    { "alleles": ["hcp", "hcp"], "phenotype": "friesian-hydrocephalus", "conditions": ["friesian-hydrocephalus"] }
+  ],
+  "conditions": [
+    { "id": "friesian-hydrocephalus", "name": "Friesian hydrocephalus", "description": "Two copies. Fluid collects in and round the brain before birth and the skull swells far beyond normal. The foal is usually stillborn or cannot live, and its head often makes the birth difficult or dangerous for the mare.", "severity": "lethal_at_birth" }
+  ],
+  "frequencies": [
+    {
+      "population": "Friesian (147 carriers and 718 clear among 865 horses, Ducro et al. 2015; allele frequency 0.085)",
+      "evidence": "published",
+      "genotypes": [
+        { "alleles": ["hcp", "N"], "percent": 16.99 },
+        { "alleles": ["N", "N"], "percent": 83.01 }
+      ]
+    },
+    {
+      "population": "Friesian (about 17% carriers, UC Davis's estimate)",
+      "evidence": "published",
+      "genotypes": [
+        { "alleles": ["hcp", "N"], "percent": 17 },
+        { "alleles": ["N", "N"], "percent": 83 }
+      ]
+    }
+  ],
+  "citations": [
+    { "source": "pubmed", "label": "PMC4600337: Ducro et al. 2015, BMC Genomics 16:761, a nonsense mutation in B3GALNT2 concordant with hydrocephalus in Friesians", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4600337/", "verified": false },
+    { "source": "ucdavis-vgl", "label": "UC Davis VGL: Friesian hydrocephalus", "url": "https://vgl.ucdavis.edu/test/friesian-horse-hydrocephalus", "verified": false }
+  ]
+}
