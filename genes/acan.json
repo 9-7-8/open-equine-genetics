@@ -6,7 +6,7 @@
   "symbol": "ACAN",
   "chromosome": "1",
   "evidence": "published",
-  "summary": "ACAN (aggrecan) on chromosome 1, a recessive dwarfism locus of Miniature Horses and related ponies, with four established variant alleles, D1 to D4. A horse is a dwarf when it has no working copy left, so two different variant alleles together still count. D1 beside a second D1, or beside D2 or D3, kills the foal before birth; D1 beside D4 usually does too, though one such foal is known to have been born alive. Two of D2, D3 and D4 in any combination give a dwarf that is born alive and can reach adulthood, though many are put down for their quality of life. A horse with one variant copy is not a dwarf, but heterozygotes are reported to be shorter than horses with none. In Miniature Horses D2 is the commonest of the four (allele frequency about 0.09, against about 0.03 for D1 and D4 and 0.02 for D3); a Brazilian study put the four together at 0.280. D3 is written D3* in the original naming. UC Davis has no test page for it; a European laboratory, Generatio, tests for D1 to D4. A fifth allele, D5 (g.95258999C>T), has been proposed in a University of Kentucky dissertation and is offered by one laboratory, CombiBreed, but no peer-reviewed report establishes it and Generatio does not test for it; it is kept here as unconfirmed, with no outcome. ACAN affects the skeleton only: it has no direct effect on coat colour, white markings, feathering, muscle or speed.",
+  "summary": "ACAN (aggrecan) on chromosome 1, a recessive dwarfism locus of Miniature Horses and related ponies, with four established variant alleles, D1 to D4. A horse is a dwarf when it has no working copy left, so two different variant alleles together still count. D1 beside a second D1, or beside D2 or D3, kills the foal before birth; D1 beside D4 usually does too, though one such foal is known to have been born alive. Two of D2, D3 and D4 in any combination give a dwarf that is born alive and can reach adulthood, though many are put down for their quality of life. A horse with one variant copy is not a dwarf, but heterozygotes are reported to be shorter than horses with none. Which variant is commonest depends on the population: in 361 American Miniature Horses D2 led (allele frequency about 0.09, against about 0.03 for D1 and D4 and 0.02 for D3; about 0.16 together), while in 347 Brazilian ones D4 made up nearly all of a combined 0.280 (D4 0.244, D2 0.017, D3 0.016, D1 0.003). D3 is written D3* in the original naming. UC Davis has no test page for it; a European laboratory, Generatio, tests for D1 to D4. A fifth allele, D5 (g.95258999C>T), has been proposed in a University of Kentucky dissertation and is offered by one laboratory, CombiBreed, but no peer-reviewed report establishes it and Generatio does not test for it; it is kept here as unconfirmed, with no outcome. ACAN affects the skeleton only: it has no direct effect on coat colour, white markings, feathering, muscle or speed.",
   "inheritance": "autosomal",
   "affects_coat": false,
   "alleles": [
@@ -55,7 +55,7 @@
   ],
   "frequencies": [
     {
-      "population": "Miniature Horse (allele frequencies D1 0.03, D2 0.09, D3 0.02 and D4 0.03, Eberth et al. 2018 as summarised by OMIA; genotype shares worked out from them assuming random mating, with the three nonviable pairs, 0.75% of conceptions, left out)",
+      "population": "Miniature Horse, United States (361 horses submitted for private testing, Eberth et al. 2018; allele frequencies D1 0.03, D2 0.09, D3 0.02 and D4 0.03, together about 0.16; genotype shares worked out from them assuming random mating, with the three nonviable pairs, 0.75% of conceptions, left out)",
       "evidence": "published",
       "genotypes": [
         { "alleles": ["N", "N"], "percent": 69.4106 },
@@ -70,6 +70,24 @@
         { "alleles": ["D2", "D2"], "percent": 0.8161 },
         { "alleles": ["D1", "N"], "percent": 5.0176 },
         { "alleles": ["D1", "D4"], "percent": 0.1814 }
+      ]
+    },
+    {
+      "population": "Miniature Horse, Brazil (347 phenotypically normal horses from nine farms, Andrade et al. 2020; allele frequencies D1 0.003, D2 0.017, D3 0.016 and D4 0.244, together 0.280; genotype shares worked out assuming random mating, with the three nonviable pairs, 0.02% of conceptions, left out)",
+      "evidence": "published",
+      "genotypes": [
+        { "alleles": ["N", "N"], "percent": 51.8507 },
+        { "alleles": ["D4", "N"], "percent": 35.1433 },
+        { "alleles": ["D3", "N"], "percent": 2.3045 },
+        { "alleles": ["D2", "N"], "percent": 2.4485 },
+        { "alleles": ["D1", "N"], "percent": 0.4321 },
+        { "alleles": ["D4", "D4"], "percent": 5.9548 },
+        { "alleles": ["D3", "D4"], "percent": 0.781 },
+        { "alleles": ["D2", "D4"], "percent": 0.8298 },
+        { "alleles": ["D1", "D4"], "percent": 0.1464 },
+        { "alleles": ["D3", "D3"], "percent": 0.0256 },
+        { "alleles": ["D2", "D3"], "percent": 0.0544 },
+        { "alleles": ["D2", "D2"], "percent": 0.0289 }
       ]
     },
     {
@@ -89,10 +107,11 @@
     { "source": "pubmed", "label": "PMID 32065671: Heterozygotes for ACAN dwarfism alleles in horses have reduced stature (2020)", "url": "https://pubmed.ncbi.nlm.nih.gov/32065671/", "verified": false },
     { "source": "ucdavis-vgl", "label": "UC Davis VGL: horse DNA tests", "url": "https://vgl.ucdavis.edu/dna-tests/horse", "verified": false },
     { "source": "other", "label": "Generatio: ACAN dwarfism (chondrodysplasia) test, D1 to D4", "url": "https://generatio.de/en/guidance/lexicon/acan-dwarfism-chondrodysplasia-acan-horse", "verified": false },
-    { "source": "paper", "label": "Scientific Reports, 10.1038/s41598-020-72192-3: ACAN variants, fetal loss and survival", "url": "https://www.nature.com/articles/s41598-020-72192-3", "verified": false },
+    { "source": "paper", "label": "Scientific Reports, 10.1038/s41598-020-72192-3: Andrade et al. 2020 (the same paper as PMC7499210), ACAN variants, fetal loss and survival", "url": "https://www.nature.com/articles/s41598-020-72192-3", "verified": false },
     { "source": "pubmed", "label": "PMC7003212: ACAN dwarfism, D4/D4 newborns", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7003212/", "verified": false },
     { "source": "other", "label": "Laboklin: dwarfism (ACAN chondrodysplasia)", "url": "https://laboklin.com/en/products/genetics/hereditary-diseases/horse/dwarfism-acan-chondrodysplasia/", "verified": false },
-    { "source": "pubmed", "label": "PMC7499210: a Brazilian study of ACAN dwarfism variants in Miniature Horses, combined allele frequency 0.280 (2020)", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7499210/", "verified": false },
+    { "source": "paper", "label": "Animal Genetics 49:413-420, 10.1111/age.12682: Eberth et al. 2018, ACAN alleles D1-D4 in 361 American Miniature Horses", "url": "https://onlinelibrary.wiley.com/doi/10.1111/age.12682", "verified": false },
+    { "source": "pubmed", "label": "PMC7499210: Andrade et al. 2020, Scientific Reports 10:14590, ACAN variants in 347 Brazilian Miniature Horses (combined allele frequency 0.280)", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7499210/", "verified": false },
     { "source": "other", "label": "Laboklin UK: ACAN dwarfism test, outcomes of each pair", "url": "https://www.laboklin.co.uk/laboklin/showGeneticTest.jsp?testID=8548", "verified": false },
     { "source": "other", "label": "CombiBreed: ACAN D5 test", "url": "https://www.combibreed.com/acand5/", "verified": false },
     { "source": "paper", "label": "Animal Genetics, 10.1111/age.12921: Andersson et al. 2020, ACAN carriers and height in Miniature Horses", "url": "https://onlinelibrary.wiley.com/doi/10.1111/age.12921", "verified": false }
