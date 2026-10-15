@@ -5,6 +5,12 @@ No source was opened by the session that filed this. genes/prkdc.json was change
 on the owner's word the same day; what is left over is in knowledge/known-issues.txt.
 Not yet audited.)
 
+ROUND THREE (the owner's answer to questions E3, F3 and G1, 2026-10-15)
+------------------------------------------------------------------------
+The whole answer is in knowledge/science/round-3-answers.txt. No address has been opened
+by a maintainer.
+- (E3) No breed-wide carrier figure for Arabians could be found. Still open.
+
 ROUND THREE (the owner's answer to question A2, 2026-10-15)
 ------------------------------------------------------------
 No address has been opened by a maintainer. Her answer, condensed, with every point and

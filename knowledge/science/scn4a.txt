@@ -2,6 +2,12 @@ SCN4A (HYPP) - science notes
 (Copied 2026-10-12 from the Science tab of the Procedural Horse Coats wiki page for this gene.
 Written for that project: it may mention how a game models the gene. Not yet audited.)
 
+ROUND THREE (the owner's answer to questions E3, F3 and G1, 2026-10-15)
+------------------------------------------------------------------------
+The whole answer is in knowledge/science/round-3-answers.txt. No address has been opened
+by a maintainer.
+- (F3) HYPP allele frequency 0.008 in 200 Quarter Horse controls and 0.025 in 180 Paint controls (Tryon et al. 2009); AQHA cites about 4.4% carriers, a review 8-11% (Quarter Horse) and 4-7% (Paint). Two tables.
+
 ROUND THREE (the owner's answer to question A1, 2026-10-15)
 ------------------------------------------------------------
 The whole answer, for six loci, is in knowledge/science/round-3-answers.txt. No address has

@@ -2,6 +2,12 @@ EDNRB (frame overo) - science notes
 (Copied 2026-10-12 from the Science tab of the Procedural Horse Coats wiki page for this gene.
 Written for that project: it may mention how a game models the gene. Not yet audited.)
 
+ROUND THREE (the owner's answer to questions E3, F3 and G1, 2026-10-15)
+------------------------------------------------------------------------
+The whole answer is in knowledge/science/round-3-answers.txt. No address has been opened
+by a maintainer.
+- (F3) Paint Horses: 21.6% carriers in Brazil (89.5% of those classed as overo), 10.7% of 180 in the United States. Over 94% of frame overos carry O; up to 20% of unmarked horses from overo lines may. Two tables.
+
 ROUND THREE (the owner's answer to question A3, 2026-10-15)
 ------------------------------------------------------------
 No address has been opened by a maintainer. Her answer, condensed, with every point and

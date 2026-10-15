@@ -649,3 +649,68 @@ HERDA is a collagen/connective-tissue disorder caused by a *PPIB* missense varia
 - **HERDA** affects skin and connective tissue through defective collagen handling. It causes hyperextensible skin, scarring, and severe lesions along the back, usually becoming apparent by age two; it does not directly alter coat pigment, mane/tail color, hooves, feathering, height, or conformation. [vgl.ucdavis](https://vgl.ucdavis.edu/test/herda)
 - For both loci, do **not** model carriers as visibly affected. Instead, expose carrier status in breeding/pedigree views and calculate foal risk as 25% only when both parents carry the allele. [vgl.ucdavis](https://vgl.ucdavis.edu/test/herda)
 - For realism, avoid applying a single "breed frequency" uniformly: HERDA is highly concentrated in cutting bloodlines, while CA is concentrated in Arabian bloodlines and entered other breeds through Arabian ancestry. [vgl.ucdavis](https://vgl.ucdavis.edu/test/herda)
+
+
+QUESTIONS E3, F3 AND G1 - DISORDER CARRIER FREQUENCIES BY BREED (2026-10-15)
+-----------------------------------------------------------------------------
+Her answer is kept whole below as she sent it.
+
+What was done with it (the session, 2026-10-15)
+- E3 (SCID, PRKDC): no figure found. The answer reads "E3" as the name of an allele
+  ("PRKDC_E3"); it is only this file's question number. E3 stays open.
+- gys1 (PSSM1): tables for Quarter Horse controls (allele frequency 0.055, 200 horses),
+  Paint controls (0.023, 180 horses), both worked out assuming random mating, and
+  Quarter Horse halter horses from the counts (28 one copy, 3 two copies, of 110). Not
+  the draft range (36-92%), which is a range across populations, nor "6-10%".
+- scn4a (HYPP): tables for Quarter Horse controls (0.008) and Paint controls (0.025),
+  worked out. That Paints come out higher than Quarter Horses is as the answer gives it,
+  unchecked. AQHA's 4.4% and a review's 8-11% (Quarter Horse) and 4-7% (Paint) carriers
+  are noted, not tabled: the sampling is not described.
+- ednrb (frame overo): tables for Paint Horses in Brazil (21.6% carriers; sample size
+  not given) and in the United States (10.7% of 180, from a welfare-summary site).
+  Over 94% of frame overos carry O, and up to 20% of unmarked horses from overo lines
+  (University of Minnesota Extension): in words only.
+- lamc2 (JEB1): a table for North American Belgians (31 carriers in 76; 11 of 12 farms).
+- lama3 (JEB2): a table from the count the summary already gave (9 carriers in 175
+  Saddlebred foals of 2007, Graves et al. 2009); Etalon's "slightly over 5%" agrees.
+
+=== The answer as sent ===
+Below is a compact, simulator-ready frequency table. I could verify solid published or laboratory estimates for PSSM1, HYPP, frame overo/LWO, JEB1, and JEB2; for **PRKDC E3 in Arabians**, I could not verify a reliable breed-wide carrier-share figure from the sources available, so I flag it as unresolved rather than inventing a number.
+
+## Disorder frequencies by breed
+
+| Disorder / gene | Variant and inheritance | Breed | Best available frequency | Study / source |
+|---|---|---:|---|---|
+| **PRKDC E3** | Arabian-associated variant; typically treated as autosomal recessive for breeding-risk purposes | Arabian | **Not verified here** — no dependable breed-wide allele-frequency or carrier-share estimate was found in the available results | No usable frequency source located; treat as "test-dependent / insufficient public frequency data" |
+| **PSSM1** | *GYS1* R309H; autosomal dominant | American Quarter Horse | **5.5% allele frequency** in a 200-horse AQH control group; about **6–10% carrier/affected prevalence** in broader QH estimates | Tryon et al. / *JAVMA* 2009 [avmajournals.avma](https://avmajournals.avma.org/view/journals/javma/234/1/javma.234.1.120.xml); UC Davis-affiliated muscle-disease review [escholarship](https://escholarship.org/content/qt1rq2g2xz/qt1rq2g2xz.pdf?v=lg) |
+| **PSSM1** | *GYS1* R309H | AQH halter subgroup | **28.2% capable of producing affected offspring**; 28 heterozygotes and 3 homozygotes among 110 genotyped halter horses | *JAVMA* 2009 [avmajournals.avma](https://avmajournals.avma.org/view/journals/javma/234/1/javma.234.1.120.xml) |
+| **PSSM1** | *GYS1* R309H | American Paint Horse | **2.3% allele frequency** in an 180-horse APH control group | *JAVMA* 2009 [avmajournals.avma](https://avmajournals.avma.org/view/journals/javma/234/1/javma.234.1.120.xml) |
+| **PSSM1** | *GYS1* R309H | Draft breeds | Roughly **36–92%** depending on North American versus continental European draft populations | UC Davis-affiliated review [escholarship](https://escholarship.org/content/qt1rq2g2xz/qt1rq2g2xz.pdf?v=lg) |
+| **HYPP** | *SCN4A*; autosomal dominant/incomplete dominance | American Quarter Horse | **0.8% allele frequency** in the 200-horse AQH control group; AQHA cites about **4.4% carriers** in a broader population estimate | *JAVMA* 2009 [avmajournals.avma](https://avmajournals.avma.org/view/journals/javma/234/1/javma.234.1.120.xml); AQHA [aqha](https://www.aqha.com/-/genetic-test-roundup) |
+| **HYPP** | *SCN4A* | American Paint Horse | **2.5% allele frequency** in an 180-horse APH control group | *JAVMA* 2009 [avmajournals.avma](https://avmajournals.avma.org/view/journals/javma/234/1/javma.234.1.120.xml) |
+| **HYPP** | *SCN4A* | QH/Paint, general estimates | About **8–11% carriers in Quarter Horses** and **4–7% in Paints** in cited clinical reviews; these are higher than the older control-group allele frequencies and likely reflect different sampling frames | UC Davis-affiliated review [escholarship](https://escholarship.org/content/qt1rq2g2xz/qt1rq2g2xz.pdf?v=lg) |
+| **Frame overo / LWO** | *EDNRB* Ile118Lys; one copy gives frame pattern, two copies lethal | American Paint Horse, Brazil | **21.6% heterozygous overall**; **89.5% among horses classified as overo** | HRM genotyping study, 2018 [pubmed.ncbi.nlm.nih](https://pubmed.ncbi.nlm.nih.gov/30096357/) |
+| **Frame overo / LWO** | *EDNRB* | American Paint Horse, U.S. control-style sample | **10.7% heterozygous** in 180 APHs | Cited frequency in *Science for Animal Welfare* summary [scienceforanimalwelfare](https://scienceforanimalwelfare.org/species/horse/american-paint-horse/overo-lethal-white-foal-syndrome/) |
+| **Frame overo / LWO** | *EDNRB* | Frame-overo phenotype, general | **Over 94% of frame overos are carriers**; up to **20% of unmarked broodstock from overo lines** may carry | University of Minnesota Extension [extension.umn](https://extension.umn.edu/agriculture/animals-and-livestock/horse/overo-lethal-white-syndrome-olws) |
+| **JEB1** | *LAMC2* c.1368insC; autosomal recessive | Belgian Draft, North America | **40.8% carriers (31/76)**; carriers were found on **11 of 12 farms (91.7%)** | CABI-hosted study summary [cabidigitallibrary](https://www.cabidigitallibrary.org/doi/pdf/10.5555/20053192979) |
+| **JEB2** | *LAMA3* 6,589-bp deletion; autosomal recessive | American Saddlebred | **Slightly over 5% carrier frequency** in American Saddlebreds | Etalon estimate [m.etalondx](https://m.etalondx.com/horse-genetics/horse-health/junctional-epidermolysis-bullosa-2-JEB2/); UC Davis confirms the *LAMA3* J2 variant and recessive inheritance [vgl.ucdavis](https://vgl.ucdavis.edu/test/jeb-saddlebred) |
+
+## Important distinctions
+
+- **Allele frequency** counts mutant alleles among all alleles; **carrier share** counts individual horses with one copy. For a rare recessive allele, carrier share is approximately twice the allele frequency; for dominant disorders such as PSSM1 and HYPP, "carrier" and "affected/at-risk" overlap and are not equivalent to recessive carrier share. [avmajournals.avma](https://avmajournals.avma.org/view/journals/javma/234/1/javma.234.1.120.xml)
+- The HYPP and PSSM1 figures differ substantially by sampling design: the 2009 *JAVMA* control cohorts give lower allele frequencies, while clinical/breed-registry estimates and discipline-specific samples report higher carrier prevalence. Use one consistently across your simulation rather than mixing sources. [avmajournals.avma](https://avmajournals.avma.org/view/journals/javma/234/1/javma.234.1.120.xml)
+- For LWO, the most useful simulator parameter is **carrier probability conditional on visible frame pattern**, not merely breed membership: about 90–95% of frame overos carry *EDNRB* O, but solid or minimally marked horses from overo lines can still carry it. [pubmed.ncbi.nlm.nih](https://pubmed.ncbi.nlm.nih.gov/30096357/)
+- JEB1 and JEB2 are **not interchangeable alleles**: JEB1 is *LAMC2* in Belgians and related draft breeds, while JEB2 is a *LAMA3* deletion in American Saddlebreds and related breeds. A horse clear for one can still carry the other. [vgl.ucdavis](https://vgl.ucdavis.edu/test/jeb-saddlebred)
+
+## Simulator implementation
+
+Use separate locus records rather than a generic "JEB" or "overo" disease flag:
+
+- **PRKDC-E3:** `PRKDC_E3` with `unknown_frequency` until a citable Arabian cohort estimate is available; model genotype explicitly as `N/N`, `N/E3`, `E3/E3`.
+- **PSSM1:** `GYS1_PSSM1` as a dominant allele; apply breed- and discipline-specific prior frequencies, with halter QH lines much higher than general QH.
+- **HYPP:** `SCN4A_HYPP` as a dominant allele; use lineage/discipline weighting, since halter and Western pleasure lines carry disproportionate risk. [avmajournals.avma](https://avmajournals.avma.org/view/journals/javma/234/1/javma.234.1.120.xml)
+- **LWO:** `EDNRB_O` with a visual-expression layer: `O/O` is embryonic/neonatal lethal, `N/O` usually frame overo but with incomplete visual penetrance, and `N/N` no LWO risk. [ceh.vetmed.ucdavis](https://ceh.vetmed.ucdavis.edu/health-topics/lethal-white-overo-syndrome-lwo)
+- **JEB1:** `LAMC2_J1`, recessive, primarily Belgian/draft.
+- **JEB2:** `LAMA3_J2`, recessive, primarily American Saddlebred. [vgl.ucdavis](https://vgl.ucdavis.edu/test/jeb-saddlebred)
+
+For breeding output, calculate risk from the exact parental genotypes: two recessive carriers produce a 25% affected-foal risk, while two LWO carriers also produce a 25% LWO-foal risk. [vgl.ucdavis](https://vgl.ucdavis.edu/test/jeb-saddlebred)

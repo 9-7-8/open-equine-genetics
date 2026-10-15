@@ -4,6 +4,12 @@ No source was opened by the session that filed this. genes/gys1.json was changed
 on the owner's word the same day; what is left over is in knowledge/known-issues.txt.
 Not yet audited.)
 
+ROUND THREE (the owner's answer to questions E3, F3 and G1, 2026-10-15)
+------------------------------------------------------------------------
+The whole answer is in knowledge/science/round-3-answers.txt. No address has been opened
+by a maintainer.
+- (F3) PSSM1 allele frequency 0.055 in 200 Quarter Horse controls and 0.023 in 180 Paint controls (Tryon et al. 2009); 28 with one copy and 3 with two among 110 halter horses. Drafts about 36-92% by population (a review). Three tables.
+
 ROUND TWO (the owner's answers to the open research questions, 2026-10-12)
 --------------------------------------------------------------------------
 These came after everything below. Where they disagree with it, this section and the gene
