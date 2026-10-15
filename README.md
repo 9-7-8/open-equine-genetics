@@ -105,4 +105,4 @@ reordered or removed, so a horse you save today still reads tomorrow.
 
 ## Licence
 
-GPL 3. See [LICENSE](LICENSE). A contributor guide is not written yet.
+GPL 3 or later (`GPL-3.0-or-later`). See [LICENSE](LICENSE). A contributor guide is not written yet.
