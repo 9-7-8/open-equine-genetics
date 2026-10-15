@@ -2,6 +2,42 @@ ACAN - science notes
 (Copied 2026-10-12 from the Science tab of the Procedural Horse Coats wiki page for this gene.
 Written for that project: it may mention how a game models the gene. Not yet audited.)
 
+ROUND THREE (the owner's answer to question G6, last part, 2026-10-15)
+-----------------------------------------------------------------------
+Asked whether UC Davis has an ACAN test page and which variants laboratories name. No
+address has been opened by a maintainer. Her answer, condensed, with every point and
+address she gave:
+
+  - No UC Davis VGL page for ACAN dwarfism was found: its horse-test catalogue and site
+    search show none. (https://vgl.ucdavis.edu/dna-tests/horse) Do not cite UC Davis as
+    the testing source for ACAN.
+  - Generatio (a European laboratory) tests for four variants, which it calls
+    pathogenic, and says they give a very similar phenotype - abnormal cartilage growth,
+    skeletal problems, painful dwarfism - mainly in Miniature Horses and Shetland Ponies.
+    (https://generatio.de/en/guidance/lexicon/acan-dwarfism-chondrodysplasia-acan-horse)
+      D1   g.95291270del
+      D2   g.95284530C>T
+      D3*  g.95282140C>G
+      D4   g.95257458_95257500del
+  - N/Dx: clinically normal carrier. Dx/Dx: affected. The answer suggests treating any
+    two variant alleles as affected, as its own modelling advice, not a finding.
+  - ACAN encodes aggrecan, a cartilage protein: effects are skeletal (height, bones,
+    joints, perhaps hoof shape through limb angles), with no direct effect on muscle,
+    speed, feathering or pigment.
+
+The session's reading (not the answer's):
+  - The assembly of the four g. positions is not named.
+  - Two of them do not match the variants in the gene file. D3 here is a substitution
+    (C>G); the file's D3, from earlier research, is a one-base deletion (c.6700delC).
+    D4 here deletes 43 bases (95257458-95257500); the file's D4 (c.7299_7319del)
+    deletes 21. The asterisk on Generatio's "D3*" is not explained. Asked again (G7).
+  - D5's reported position (g.95258999C>T) lies among these, between D4 and D3.
+    Generatio's list of four does not include it.
+  - How long D1/D1 foals live, whether other pairs reach adulthood, and carrier
+    frequencies were not answered (G6 stays open for those).
+
+What the gene file does with it: the summary says no UC Davis test page was found and
+names Generatio's test; one citation. Allele names unchanged.
 ROUND TWO (the owner's answers to the open research questions, 2026-10-12)
 --------------------------------------------------------------------------
 These came after everything below. Where they disagree with it, this section and the gene
