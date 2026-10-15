@@ -1,6 +1,46 @@
 ACAN - science notes
 (A science note on this locus, written 2026-10-12. Not yet audited.)
 
+ROUND FOUR, SECOND ANSWER (the owner's answer to question G6, 2026-10-15)
+--------------------------------------------------------------------------
+No address has been opened by a maintainer. Her answer, condensed, with every point and
+address she gave. It settles who reported the 0.280.
+
+  - The 0.280 is Andrade et al. 2020, "Evaluation of a new variant in the aggrecan gene
+    potentially associated with chondrodysplastic dwarfism in Miniature horses",
+    Scientific Reports 10:14590, doi 10.1038/s41598-020-72192-3
+    (https://pmc.ncbi.nlm.nih.gov/articles/PMC7499210/): 347 phenotypically normal
+    Miniature Horses sampled at random from nine Brazilian farms (eight in Sao Paulo,
+    one in Rio Grande do Sul); ethics approval 2017. Allele frequencies among 694
+    alleles, on EquCab3.0:
+      D1   g.95291270del            0.003
+      D2   g.95284530C>T            0.017
+      D3*  g.95282140C>G            0.016
+      D4   g.95257458_95257500del   0.244
+      together                      0.280  (normal 0.720)
+    A carrier rate of 40.3% is estimated from 0.280 by Hardy-Weinberg.
+  - The answer says the candidate c.6465A>T was measured at 0.112 and is not in the
+    0.280, explaining a "small difference" of the normal allele from 1.000; but 0.720 and
+    0.280 already sum to 1.000, so that explanation does not add up (session's reading).
+  - The US figures are Eberth et al. 2018, Animal Genetics 49:413-420, doi
+    10.1111/age.12682: 361 Miniature Horses submitted for private testing in the USA;
+    D1 0.03, D2 0.09, D3* 0.02, D4 0.03, together 0.163.
+  - Population tables are wanted, not one global value: D4 leads in Brazil, D2 in the US.
+  - UC Davis does not publish the Brazilian figures; the Gluck Equine Research Center
+    describes the four-test panel and the D1 loss risk
+    (https://gluck.mgcafe.uky.edu/disease-mutation-trait-testing).
+
+The session's reading: these are the same four g. positions Generatio gives (round
+three), here stated as EquCab3.0, which answers half of question G7. Whether they are the
+same variants as the c. names (D3* a deletion there, a substitution here; D4 21 bases
+there, 43 here) is still open. The authors of the 2020 height study were not asked about
+here and stay open (G6).
+
+What the gene file does with it: the US table is named for Eberth et al. 2018 and its
+361 horses; a Brazilian table is worked out the same way; the summary says which allele
+leads where; PMC7499210 and the Nature address are labelled as the one paper; Eberth et
+al. 2018 cited.
+
 ROUND FOUR (the owner's ACAN overview, answering G6 and part of G7, 2026-10-15)
 --------------------------------------------------------------------------------
 No address has been opened by a maintainer. Her answer, condensed, with every point and
