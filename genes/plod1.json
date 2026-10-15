@@ -60,7 +60,7 @@
       ]
     },
     {
-      "population": "Knabstrupper (the allele in 3 of 46 horses tested; a reported count that may include affected cases and is not a random sample; the share is worked out from it)",
+      "population": "Knabstrupper (3 carriers in 46 horses tested, Reiter et al. 2020; a small sample)",
       "evidence": "published",
       "genotypes": [
         { "alleles": ["ffs", "N"], "percent": 6.52 },
@@ -68,7 +68,7 @@
       ]
     },
     {
-      "population": "Haflinger (the allele in 2 of 48 horses tested; a reported count that may include affected cases and is not a random sample; the share is worked out from it)",
+      "population": "Haflinger (2 carriers in 48 horses tested, Reiter et al. 2020; a small sample)",
       "evidence": "published",
       "genotypes": [
         { "alleles": ["ffs", "N"], "percent": 4.17 },
@@ -76,7 +76,7 @@
       ]
     },
     {
-      "population": "American Sport Pony (the allele in 1 of 12 horses tested; a reported count that may include affected cases and is not a random sample; the share is worked out from it)",
+      "population": "American Sport Pony (1 carrier in 12 horses tested, Reiter et al. 2020; a small sample)",
       "evidence": "published",
       "genotypes": [
         { "alleles": ["ffs", "N"], "percent": 8.33 },
@@ -103,11 +103,12 @@
     { "source": "omia", "label": "OMIA 001982", "url": "https://omia.org/OMIA001982/9796/", "verified": false },
     { "source": "pubmed", "label": "PMC8524838", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8524838/", "verified": false },
     { "source": "pubmed", "label": "Bellone et al., PMC7062577: not associated with catastrophic breakdown in Thoroughbreds", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7062577/", "verified": false },
-    { "source": "paper", "label": "Genes 11(12):1518", "url": "https://www.mdpi.com/2073-4425/11/12/1518", "verified": false },
+    { "source": "paper", "label": "Genes 11(12):1518: Reiter et al. 2020, the WFFS variant in 38 breeds", "url": "https://www.mdpi.com/2073-4425/11/12/1518", "verified": false },
     { "source": "other", "label": "UC Davis Center for Equine Health: Fragile Foal Syndrome Type 1", "url": "https://ceh.vetmed.ucdavis.edu/health-topics/warmblood-fragile-foal-syndrome-type-1-wffs", "verified": false },
     { "source": "ucdavis-vgl", "label": "UC Davis VGL: survey of the WFFS variant in 38 horse breeds", "url": "https://vgl.ucdavis.edu/research/wffs-breed-distribution", "verified": false },
     { "source": "ucdavis-vgl", "label": "UC Davis VGL: Horse Coat Color", "url": "https://vgl.ucdavis.edu/resources/horse-coat-color", "verified": false },
     { "source": "other", "label": "MedlinePlus Genetics: PLOD1 gene", "url": "https://medlineplus.gov/genetics/gene/plod1/", "verified": false },
-    { "source": "pubmed", "label": "PMC9213567: the PLOD1 c.2032G>A variant, first associated with Warmbloods", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9213567/", "verified": false }
+    { "source": "pubmed", "label": "PMC9213567: the PLOD1 c.2032G>A variant, first associated with Warmbloods", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9213567/", "verified": false },
+    { "source": "pubmed", "label": "PMID 33353040: Reiter et al. 2020, the WFFS variant in 4,081 horses of 38 breeds", "url": "https://pubmed.ncbi.nlm.nih.gov/33353040/", "verified": false }
   ]
 }
