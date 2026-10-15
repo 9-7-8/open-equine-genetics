@@ -1,0 +1,11 @@
+*.exe
+*.obj
+*.o
+*.pdb
+*.ilk
+*.exp
+*.lib
+a.out
+example
+conformance
+build/
