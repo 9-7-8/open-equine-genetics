@@ -25,6 +25,15 @@
   ],
   "frequencies": [
     {
+      "population": "Thoroughbred (99 horses: AA 67, AG 29, GG 3; Animal Bioscience)",
+      "evidence": "published",
+      "genotypes": [
+        { "alleles": ["A", "A"], "percent": 67.6768 },
+        { "alleles": ["A", "G"], "percent": 29.2929 },
+        { "alleles": ["G", "G"], "percent": 3.0303 }
+      ]
+    },
+    {
       "population": "general population",
       "evidence": "estimated",
       "genotypes": [
@@ -38,6 +47,7 @@
     { "source": "paper", "label": "PDK4 g.38973231A>G allele frequencies in Arabian and Quarter Horses (Journal of Equine Veterinary Science, 2016)", "url": "https://www.sciencedirect.com/science/article/abs/pii/S0737080616301149", "verified": false },
     { "source": "paper", "label": "Hill et al. 2010, sprint exercise and COX4I2 and PDK4 gene expression in Thoroughbred skeletal muscle (Equine Veterinary Journal 42:576)", "url": "https://doi.org/10.1111/j.2042-3306.2010.00206.x", "verified": false },
     { "source": "pubmed", "label": "PMID 21070277: Hill et al. 2010, targets of selection in the Thoroughbred genome contain exercise-relevant gene SNPs associated with elite racecourse performance (Animal Genetics)", "url": "https://pubmed.ncbi.nlm.nih.gov/21070277/", "verified": false },
-    { "source": "pubmed", "label": "PMC4284583: ancient horse genomes (2014), reference alleles at performance loci", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4284583/", "verified": false }
+    { "source": "pubmed", "label": "PMC4284583: ancient horse genomes (2014), reference alleles at performance loci", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4284583/", "verified": false },
+    { "source": "paper", "label": "Animal Bioscience, 10.5713/ajas.17.0370: PDK4 genotypes in 99 Thoroughbreds", "url": "https://www.animbiosci.org/journal/view.php?doi=10.5713/ajas.17.0370", "verified": false }
   ]
 }

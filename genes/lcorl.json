@@ -25,6 +25,15 @@
   ],
   "frequencies": [
     {
+      "population": "Hanoverian (214 horses, Metzger et al. 2013: C/C 26.17%, C/T 57.48%, T/T 16.36%, entered as 16.35 so the table sums to 100)",
+      "evidence": "published",
+      "genotypes": [
+        { "alleles": ["L", "L"], "percent": 26.17 },
+        { "alleles": ["L", "n"], "percent": 57.48 },
+        { "alleles": ["n", "n"], "percent": 16.35 }
+      ]
+    },
+    {
       "population": "general population",
       "evidence": "estimated",
       "genotypes": [
@@ -35,6 +44,7 @@
     }
   ],
   "citations": [
-    { "source": "paper", "label": "Metzger et al. 2013, expression levels of LCORL are associated with body size in horses (PLoS ONE)", "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0056497", "verified": false }
+    { "source": "paper", "label": "Metzger et al. 2013, expression levels of LCORL are associated with body size in horses (PLoS ONE)", "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0056497", "verified": false },
+    { "source": "paper", "label": "PLOS ONE, 10.1371/journal.pone.0056497: Metzger et al. 2013, LCORL/BIEC2-808543 and height in Hanoverians", "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0056497", "verified": false }
   ]
 }

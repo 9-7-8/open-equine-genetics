@@ -25,6 +25,31 @@
   ],
   "frequencies": [
     {
+      "population": "Thoroughbred (allele frequency of C 0.51, Hill et al. 2012; genotype shares worked out from it assuming random mating)",
+      "evidence": "published",
+      "genotypes": [
+        { "alleles": ["C", "C"], "percent": 26.01 },
+        { "alleles": ["C", "T"], "percent": 49.98 },
+        { "alleles": ["T", "T"], "percent": 24.01 }
+      ]
+    },
+    {
+      "population": "Quarter Horse (allele frequency of C 0.9, Hill et al. 2012; genotype shares worked out from it assuming random mating)",
+      "evidence": "published",
+      "genotypes": [
+        { "alleles": ["C", "C"], "percent": 81 },
+        { "alleles": ["C", "T"], "percent": 18 },
+        { "alleles": ["T", "T"], "percent": 1 }
+      ]
+    },
+    {
+      "population": "Standardbred (allele frequency of C 0, Hill et al. 2012; genotype shares worked out from it assuming random mating)",
+      "evidence": "published",
+      "genotypes": [
+        { "alleles": ["T", "T"], "percent": 100 }
+      ]
+    },
+    {
       "population": "general population",
       "evidence": "estimated",
       "genotypes": [
@@ -46,6 +71,7 @@
     { "source": "paper", "label": "The speed gene effect of myostatin arises in Thoroughbred horses (PLoS ONE, 2018)", "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0205664", "verified": false },
     { "source": "pubmed", "label": "PMC5865066: MSTN g.66493737C>T on EquCab2.0, intron 1", "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5865066/", "verified": false },
     { "source": "pubmed", "label": "PMC4412973: later use of the EquCab2 designation", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4412973/", "verified": false },
-    { "source": "paper", "label": "Veterinaria Italiana 50(3), 2014: MSTN variant, legacy name GQ183900:g.2115A>G", "url": "https://www.izs.it/vet_italiana/2014/50_3/VetIt_61_178_3.pdf", "verified": false }
+    { "source": "paper", "label": "Veterinaria Italiana 50(3), 2014: MSTN variant, legacy name GQ183900:g.2115A>G", "url": "https://www.izs.it/vet_italiana/2014/50_3/VetIt_61_178_3.pdf", "verified": false },
+    { "source": "paper", "label": "Nature Communications, ncomms1644: Hill et al. 2012, MSTN across breeds", "url": "https://www.nature.com/articles/ncomms1644", "verified": false }
   ]
 }

@@ -25,6 +25,66 @@
   ],
   "frequencies": [
     {
+      "population": "Welsh pony (294 ponies, Rivas et al. 2019; allele frequency of p 0.76; genotype shares worked out from it assuming random mating)",
+      "evidence": "published",
+      "genotypes": [
+        { "alleles": ["p", "p"], "percent": 57.76 },
+        { "alleles": ["p", "N"], "percent": 36.48 },
+        { "alleles": ["N", "N"], "percent": 5.76 }
+      ]
+    },
+    {
+      "population": "Welsh Section A (Rivas et al. 2019; allele frequency of p 1.00; genotype shares worked out from it assuming random mating)",
+      "evidence": "published",
+      "genotypes": [
+        { "alleles": ["p", "p"], "percent": 100 }
+      ]
+    },
+    {
+      "population": "Welsh Section B (Rivas et al. 2019; allele frequency of p 0.74; genotype shares worked out from it assuming random mating)",
+      "evidence": "published",
+      "genotypes": [
+        { "alleles": ["p", "p"], "percent": 54.76 },
+        { "alleles": ["p", "N"], "percent": 38.48 },
+        { "alleles": ["N", "N"], "percent": 6.76 }
+      ]
+    },
+    {
+      "population": "Welsh Section C (Rivas et al. 2019; allele frequency of p 0.83; genotype shares worked out from it assuming random mating)",
+      "evidence": "published",
+      "genotypes": [
+        { "alleles": ["p", "p"], "percent": 68.89 },
+        { "alleles": ["p", "N"], "percent": 28.22 },
+        { "alleles": ["N", "N"], "percent": 2.89 }
+      ]
+    },
+    {
+      "population": "Welsh Section D (Rivas et al. 2019; allele frequency of p 0.03; genotype shares worked out from it assuming random mating)",
+      "evidence": "published",
+      "genotypes": [
+        { "alleles": ["p", "p"], "percent": 0.09 },
+        { "alleles": ["p", "N"], "percent": 5.82 },
+        { "alleles": ["N", "N"], "percent": 94.09 }
+      ]
+    },
+    {
+      "population": "Shetland Pony, Australia (120 ponies within a 2023 pony cohort; allele frequency of p 0.40; genotype shares worked out from it assuming random mating)",
+      "evidence": "published",
+      "genotypes": [
+        { "alleles": ["p", "p"], "percent": 16 },
+        { "alleles": ["p", "N"], "percent": 48 },
+        { "alleles": ["N", "N"], "percent": 36 }
+      ]
+    },
+    {
+      "population": "Horses of large breeds (5 carriers in 529 horses, Rivas et al. 2019)",
+      "evidence": "published",
+      "genotypes": [
+        { "alleles": ["p", "N"], "percent": 0.9452 },
+        { "alleles": ["N", "N"], "percent": 99.0548 }
+      ]
+    },
+    {
       "population": "general population",
       "evidence": "estimated",
       "genotypes": [
@@ -39,6 +99,7 @@
     { "source": "pubmed", "label": "PMC10229368", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10229368/", "verified": false },
     { "source": "pubmed", "label": "PMC6430908", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6430908/", "verified": false },
     { "source": "paper", "label": "PLOS ONE, 10.1371/journal.pone.0140749: Frischknecht et al. 2015, HMGA2 c.83G>A", "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0140749", "verified": false },
-    { "source": "omia", "label": "OMIA 001968-9796: HMGA2 and height", "url": "https://omia.org/OMIA001968/9796/", "verified": false }
+    { "source": "omia", "label": "OMIA 001968-9796: HMGA2 and height", "url": "https://omia.org/OMIA001968/9796/", "verified": false },
+    { "source": "paper", "label": "Journal of Veterinary Internal Medicine 33(2):942 (2019): Rivas et al., HMGA2 in Welsh ponies and large horses", "url": "https://academic.oup.com/jvim/article/33/2/942/8448048", "verified": false }
   ]
 }

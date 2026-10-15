@@ -88,7 +88,8 @@ STILL WRONG OR UNPROVEN IN THE RESEARCHED LOCI
   (Fell, Dales), ryr1 (Quarter Horse), grey (Andalusian), b4galt7 (Friesian), dmrt3
   (Icelandic), gbe1 (Quarter Horse, Paint, Thoroughbred), myo5a (Arabian), plod1 (eight
   breeds), ppib (Quarter Horse), pax3 (Paint, Quarter Horse), st14 (Akhal-Teke),
-  rapgef5 (Thoroughbred) and toe1 (Arabian); since round three (2026-10-15) also dun, extension,
+  rapgef5 (Thoroughbred) and toe1 (Arabian); since round three (D4) also lcorl (Hanoverian),
+  hmga2 (Welsh, Shetland, large horses), mstn (three breeds) and pdk4 (Thoroughbred); and (2026-10-15) also dun, extension,
   agouti, champagne, silver and mushroom (Avila et al. 2022, worked out from allele
   frequencies), and myo5a, rapgef5, b4galt7 have more.
 - agouti: At (seal brown) and A+ (wild bay) are in the data marked "invalid" (owner,
@@ -102,7 +103,7 @@ STILL WRONG OR UNPROVEN IN THE RESEARCHED LOCI
   no citation was added; the two it already had (UC Davis, Leegwater et al.) are from
   the first export. The Friesian tables omit d/d horses. Round three (2026-10-15): the 12% is Leegwater et al. 2016's 22 of 177, a validation set, not a random sample; KFPS testing gave about 15% in 2000 and 12.5% in 2021 (Hermans et al. 2024), now tables too. A Brazilian 33% (12 horses) is not.
 - ednrb: the variant's EquCab3.0 position and c. name are from round three (OMIA). The EDNRB gene span the answer also gave is on another assembly (NC_091700.1) and is not in the data.
-- ednrb and hmga2 each had an overview in round two, without addresses: chromosome, what the gene does, breeds. hmga2 is settled by round three (Frischknecht et al. 2015): p is c.83G>A (p.Gly28Glu), on chromosome 6, not round two's 7. The mod's estimated "general population" table gives p a 25 per cent allele share, though the study found it in no full-sized breed; it is left as the mod's. Neither locus has a published frequency.
+- ednrb and hmga2 each had an overview in round two, without addresses: chromosome, what the gene does, breeds. hmga2 is settled by round three (Frischknecht et al. 2015): p is c.83G>A (p.Gly28Glu), on chromosome 6, not round two's 7. The mod's estimated "general population" table gives p a 25 per cent allele share, though the study found it in no full-sized breed; it is left as the mod's. hmga2 has breed tables since round three (D4: Welsh, Shetland, large horses); ednrb has no published frequency.
 - champagne: the names gold, amber and classic champagne depend on extension and agouti; the file says so in words and has no interactions table. "Sable" (on seal brown) and "ivory" (with cream) are registry names, not alleles, and are not in the data.
 - ckm: a candidate that failed to replicate (Gu et al. 2010; no association in Quarter Horses). The file states no effect. (An earlier answer's "g.22999655C>A" for it was a slip for the DMRT3 variant; settled.) C (the papers' G, the reference allele) is flagged wild_type; round three calls it ancestral on the reference allele alone, so that is inferred. Round three puts CKM on chromosome 9, where the file says 10 (question D6). Whether a locus with no established effect belongs in the data as published is the owner's call. Round two called CKM a "tying-up risk" locus with a derived risk allele, which matches nothing in the earlier research; nothing was changed.
 - dmrt3: the Icelandic table's genotype shares are worked out from one allele frequency, assuming random mating. A 2026 study reports six variants in exon 2; round three says only c.902C>A has an established effect and three of the others are not named in its accessible summary; none is in the data. Trot versus pace in Standardbreds is predicted by a seven-SNP panel (McCoy et al. 2019, chromosomes 1, 6, 15, 17, 23, 30) of putative modifiers; not modelled.
@@ -136,7 +137,7 @@ STILL WRONG OR UNPROVEN IN THE RESEARCHED LOCI
 - prkdc: the severity changed from "lethal_at_birth" to "lethal_in_early_life": the research says affected foals generally do not survive beyond about four to six months. No frequency table was made: the research gives roughly 0.2% of Arabians affected, says carrier figures differ widely, and advises against using the old percentages; the mod's "general population" table stands. The research marks its sources by number and lists them by name only, so no citation was added; the three it already had are from the first export. Round three gives the variant as c.9478_9482del (TCTCA), g.36395752_36395756del on EquCab3.0 (OMIA); older papers write c.4675_4679del on another transcript.
 - rapgef5: the owner's first answer found no horse allele of RAPGEF5 at all; her second, asked about EFIH by name, confirms the variant and the disorder, and the locus follows the second. The severity changed from "lethal_at_birth" to "lethal_in_early_life": signs are reported up to about 35 days old. Settled in round three (2026-10-15): 1.8% is Rivas et al. 2020's allele frequency in 82 horses, a small preliminary sample; Elcombe et al. found 0.83% and 0.77% in 1,789 US Thoroughbreds (28 carriers, 1.6%); 1.4% carriers is an Australian laboratory's 12 of 880. Three Thoroughbred tables, all kept. The answer calls the change a "C-to-A transition"; C to A is a transversion, which changes nothing here.
 - toe1: the owner's first answer looked for a coat-colour locus and found none; her second, asked about cerebellar abiotrophy by name, confirms the disorder, and the locus follows the second. The locus is named for TOE1, but the research says the variant may act through MUTYH and that the mechanism is not settled. The Arabian table gives carriers only (about 20%); living affected horses are counted with the clear ones. The severity stays "impairing". The journal name in one citation label was read off the address.
-- mstn: chromosome 18 is from round two. g.66493737C>T is an EquCab2.0 position (round three; round two's "EquCab3-style" was wrong); no EquCab3.0 position has been given. No frequency was given.
+- mstn: chromosome 18 is from round two. g.66493737C>T is an EquCab2.0 position (round three; round two's "EquCab3-style" was wrong); no EquCab3.0 position has been given. Breed tables (Thoroughbred, Quarter Horse, Standardbred) are from round three (Hill et al. 2012), worked out from allele frequencies.
 - scn4a: chromosome 11, c.4248C>G and the EquCab3.0 position are from round three (UC Davis, OMIA). No frequency was given.
 - lama3, lamc2: settled in round three (2026-10-15, sourced to PMC3297474): LAMC2 (JEB1) is the Belgian and draft form, LAMA3 (JEB2) the Saddlebred's, as the gene files had it. Round two's table was swapped. Only the citations changed.
 - Breed names added to summaries in round two (dun, extension, agouti, matp, champagne, silver, roan, leopard, patn1, lcorl, mstn) are the answer's descriptions, which it says to treat as estimates. None has a figure, and no frequency table was made from them.
@@ -293,9 +294,9 @@ C6. Avila et al. 2022 (PMC9498372) gives KIT and MITF allele frequencies, some o
 BLOCK D - BODY SIZE, PERFORMANCE AND GAIT
 -----------------------------------------
 D6. CKM (muscle creatine kinase, marker BIEC2-109575, g.15884567G>A on EquCab2.0): is it
-    on horse chromosome 9 or 10? Two answers disagree.
-D4. What allele frequencies are published, by breed, for LCORL (marker BIEC2-808543),
-    HMGA2, MSTN g.66493737C>T, PDK4 g.38973231A>G and CKM g.15884567G>A?
+    on horse chromosome 9 or 10? Two answers disagree. And is g.16079732G>A (the marker
+    of the Italian Trotter study) the same SNP on another assembly, or a different one?
+    If the same, its frequencies (Italian Trotter G 0.59, Thoroughbred G 0.50) apply here.
 
 BLOCK E - DISORDERS OF ARABIANS AND THOROUGHBREDS
 -------------------------------------------------
