@@ -4,6 +4,32 @@ No source was opened by the session that filed this. genes/st14.json was changed
 on the owner's word the same day; what is left over is in knowledge/known-issues.txt.
 Not yet audited.)
 
+ROUND THREE, SECOND ANSWER (the owner's answer to question G3, carriers, 2026-10-15)
+-------------------------------------------------------------------------------------
+No address has been opened by a maintainer. Her answer, condensed, with every point and
+address she gave:
+
+  - No newer breed-wide Akhal-Teke carrier survey supersedes Bauer et al. 2017 (G3).
+    (https://academic.oup.com/g3journal/article/7/4/1315/6031816)
+  - The study's groups: 5 affected (T/T); 10 owner-reported parents of affected foals,
+    all carriers; 191 remaining Akhal-Tekes, 165 G/G, 26 G/T, 0 T/T, so 13.6%; all 206
+    sampled Akhal-Tekes, 36 carriers (17.5%) plus 5 affected; 400 horses of other
+    breeds, all G/G. The 10 parents were found through their foals, so counting them
+    with the 191 would bias the figure upward; 17.5% is an upper bound.
+  - UC Davis tests for it: N/NFS carriers pass it to half their foals, and two carriers
+    give a 25% risk per mating (https://vgl.ucdavis.edu/test/naked-foal-syndrome).
+    OMIA records 26 carriers among 191 further Akhal-Tekes and none in 400 other horses.
+    The Akhal-Teke Association of America acknowledges the test but publishes no
+    breed-wide rate (https://akhal-teke.org/breed/naked-foal-syndrome/).
+  - Use 13.6% as the observed carrier share in that sample.
+
+The answer also works an allele frequency out as the square root of 13.6% (0.369) and
+calls the result "internally inconsistent". That arithmetic is wrong: a square root
+gives an allele frequency from the share of affected horses, not of carriers. From 26
+carriers in 191 the allele frequency is 26/382, about 6.8%, which is consistent. Nothing
+rests on it.
+
+What the gene file does with it: nothing; its Akhal-Teke table is already the 26 of 191.
 ROUND THREE (the owner's answer to question A1, 2026-10-15)
 ------------------------------------------------------------
 The whole answer, for six loci, is in knowledge/science/round-3-answers.txt. No address has
