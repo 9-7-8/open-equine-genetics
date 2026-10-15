@@ -11,7 +11,7 @@ WHERE THE DATA STANDS
   (round three, 2026-10-15; answers about one locus are at the top of its note, answers
   about several are kept whole in knowledge/science/round-3-answers.txt). Round four
   (2026-10-15, after this file was rewritten) so far: overviews of acan, agouti and
-  b4galt7, and answers to B3, B4, C1 and C4; answers about several loci are kept whole in
+  b4galt7, and answers to B3, B4, C1, C4 and C6; answers about several loci are kept whole in
   knowledge/science/round-4-answers.txt. The lists below
   are each kept on one long line, sorted, so they are easy to edit.
 RESEARCHED: abstracted_jump_strength, acan, agouti, b4galt7, brindle, champagne, ckm, dmrt3, dun, ednrb, extension, gbe1, grey, gys1, hmga2, kit, lama3, lamc2, lcorl, leopard, matp, met, mitf, mstn, mushroom, myo5a, patn1, pax3, pdk4, plod1, ppib, prkdc, rapgef5, roan, ryr1, scn4a, shox, silver, slc5a3, st14, tiger_eye, tobiano, toe1.
@@ -47,15 +47,15 @@ STILL WRONG OR UNPROVEN IN THE RESEARCHED LOCI
 - kit: 601 pairs of two different variants are "compound-undocumented". Only booster pairs have an outcome; that an all-white variant stays all white beside a booster is reasoned, not stated.
 - kit: horses can carry several variants on one chromosome (W20 with W22, W35 with W37, W19 with W34 and W35, W32 with W35, SB1 with W32); the format has two alleles per locus and cannot say this. W22 stands for the W20_22 haplotype (it is never found without W20). W37 has only been seen with W35, yet W37/N is in the data as if it could occur. W20/W22 is "boosted-white", "usually all white" in words. The research suggests SB1 as a locus of its own.
 - kit: W17 is the allele again, two changes always together (owner, 2026-10-15); W17a and W17b are invalid. The OMIA position quoted for it does not match the c. changes base for base and is not in the data.
-- kit: W37, W38 and W39 (2025) each rest on one family or one horse. W29 and W36 are not assigned; nothing above W39. W20 is at chr3:79,548,220 T>C on EquCab3.0 (OMIA, rs1143160924; round four), in the summary; the 2024 paper prints it a digit short, and round three's 79,482,200 was wrong. No other KIT position is in the data. No breed table: no breed has every KIT allele's share (question C6).
+- kit: W37, W38 and W39 (2025) each rest on one family or one horse. W29 and W36 are not assigned; nothing above W39. W20 is at chr3:79,548,220 T>C on EquCab3.0 (OMIA, rs1143160924; round four), in the summary; the 2024 paper prints it a digit short, and round three's 79,482,200 was wrong. No other KIT position is in the data. Sixteen breed tables from Avila et al. 2022 (round four), for breeds with W20 alone among the tested variants; W13, W32, W34, W35 and later variants were never tested and count as N. No table where SB1 is found (its per-breed figure is in the supplement) or W22 (Avila et al. did not phase W20_22, and its W20 count includes W20 on W22 chromosomes, so the data's W20 and W22 cannot be split from it).
 - lama3, lamc2: no frequency question left; JEB1 and JEB2 tables are in.
 - leopard depends on patn2, an abstraction; more than PATN1 modifies the pattern, and nothing else is named.
 - matp: sunshine is a disputed candidate with the undocumented outcome "sunshine-disputed". The variant is the major allele in every breed group sequenced (above 0.86 in five breeds, Durward-Akhurst et al. 2024), but whether it dilutes is unresolved; with no exact figure per breed it is in no table (owner, 2026-10-15), so the tables count its copies as N. Snowdrop is known from one Gypsy Cob family; no Cr/sno or prl/sno horse is reported anywhere, so those pairs stay undocumented. The general table still gives sno small shares. The names palomino, buckskin and the rest depend on extension and agouti, in words only. Lusitano is the only breed table (Cr and prl worked out from Avila et al.); other breeds' Cr figures are in Avila et al.'s Supplementary Table S4 (question B3). The first matp answer cites by number only.
 - met: met/met is nonviable on indirect evidence (lower insemination success in carrier matings). Reported in Friesians only; no frequency (question G4). Friesian hydrocephalus (B3GALNT2) is not a locus here.
-- mitf: SW9 (McFadden et al. 2023) rests on association in one breed. 24 pairs of two different variants are "splash-undocumented" and 6 homozygotes "splash-homozygote-undetected". No genotype carries a deafness condition (owner: only pairs a source confirms). No breed table (question C6).
+- mitf: SW9 (McFadden et al. 2023) rests on association in one breed. 24 pairs of two different variants are "splash-undocumented" and 6 homozygotes "splash-homozygote-undetected". No genotype carries a deafness condition (owner: only pairs a source confirms). Thirteen breed tables from Avila et al. 2022, which tested SW1, SW3, SW5 and SW6 only; SW7, SW8 and SW9 count as N.
 - mushroom: the outcome depends on extension and agouti (clear on chestnut, uncertain on bay, none on black), in words only. Its link to flaxen is unresolved.
 - myo5a: UC Davis's "1.6%" for non-Egyptian Arabians matches neither of the mapping study's figures and is left out. The Egyptian farm table (0.08) is one farm, partly targeted.
-- pax3: SW10 rests on association in one breed. SW4/SW4 and SW10/SW10 are "splash-homozygote-undetected"; pairs of two variants "splash-undocumented". No deafness condition on any pair; the risk is in the text. The journal names in two citation labels were read off the addresses.
+- pax3: SW10 rests on association in one breed (30 PRE horses studied, two with SW10 reported); no frequency is published. SW4/SW4 and SW10/SW10 are "splash-homozygote-undetected"; pairs of two variants "splash-undocumented". No deafness condition on any pair; the risk is in the text. The journal names in two citation labels were read off the addresses.
 - pdk4: A is flagged wild_type (reference allele, carried by pre-domestication horses); no formal reconstruction was found.
 - plod1: affected foals may be stillborn and some pregnancies may be lost early (unproven); the severity stays "lethal_at_birth". No EquCab3.0 position for c.2032G>A. Several Warmblood breeds have no figure (question G2).
 - ppib: the Quarter Horse tables give carriers only; living affected horses are counted with the clear ones, and no observed affected share is published. One table comes from a research-summary site.
@@ -180,14 +180,6 @@ B3. Avila et al. 2022 (Genes 13:1641, PMC9498372, doi 10.3390/genes13091641):
     'Tiger-Eye' iris pigmentation in Puerto Rican Paso Fino Horses": the sample size and
     the TE1 and TE2 genotype counts in Puerto Rican Paso Finos as a whole, saying whether
     each figure is an allele frequency or a share of horses.
-
-BLOCK C - WHITE PATTERNS: KIT, TOBIANO AND SPLASH WHITE
--------------------------------------------------------
-C6. For each breed in Avila et al. 2022 (PMC9498372, including its supplement): the shares
-    of ALL its KIT variants together (SB1, W5, W10, W13, W20, W22, W32, W34, W35 and any
-    other), and of all its MITF splash variants (SW1, SW3, SW5-SW9). Does the study's W20
-    figure include the W20 carried on W22 (W20_22) chromosomes? And what is the frequency
-    of SW10 (PAX3 c.927C>T) in Pura Raza Espanola horses (McFadden et al. 2023)?
 
 BLOCK D - PERFORMANCE
 ---------------------

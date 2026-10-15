@@ -4,6 +4,12 @@ No source was opened by the session that filed this. genes/kit.json was changed 
 on the owner's word the same day; what is left over is in knowledge/known-issues.txt.
 Not yet audited.)
 
+ROUND FOUR (the owner's answer to question C6, 2026-10-15)
+-----------------------------------------------------------
+The whole answer, for three loci, is in knowledge/science/round-4-answers.txt. No address
+has been opened by a maintainer.
+- Avila et al. 2022 tested SB1, W5, W10, W20, W22 and tobiano only; not W13, W32, W34 or W35. Per-breed W5, W10, W20, W22 allele frequencies from its Table 2; SB1 per breed is in the supplement (found in 10 breeds, 0.083 TWH to 0.0010 QH). Its W20 count includes any W20 on a W22 chromosome, but the study did not phase: its three W20/W22 Quarter Horses may be cis (W20_22) or trans. Sixteen tables made, for the breeds with W20 alone among the tested variants (no SB1, W5, W10 or W22); the untested variants count as N.
+
 ROUND FOUR (the owner's answer to question C1, 2026-10-15)
 -----------------------------------------------------------
 No address has been opened by a maintainer. Her answer, condensed, with every point and

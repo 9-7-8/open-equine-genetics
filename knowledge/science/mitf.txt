@@ -4,6 +4,12 @@ No source was opened by the session that filed this. genes/mitf.json was changed
 on the owner's word the same day; what is left over is in knowledge/known-issues.txt.
 Not yet audited.)
 
+ROUND FOUR (the owner's answer to question C6, 2026-10-15)
+-----------------------------------------------------------
+The whole answer, for three loci, is in knowledge/science/round-4-answers.txt. No address
+has been opened by a maintainer.
+- Avila et al. 2022 tested SW1, SW3, SW5 and SW6 of MITF, not SW7, SW8 or SW9. Thirteen breeds have a figure (SW1 0.0070-0.10; Paint Horse also SW3 0.00056, SW5 0.0022, SW6 0.00056; Quarter Horse SW3 0.00036). Thirteen tables made; SW7-SW9 count as N. No SW3, SW4, SW5 or SW6 homozygote was seen.
+
 ROUND THREE (the owner's answer to question C6, 2026-10-15)
 ------------------------------------------------------------
 The whole answer is in knowledge/science/round-3-answers.txt. No address has been opened

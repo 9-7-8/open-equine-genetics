@@ -4,6 +4,12 @@ No source was opened by the session that filed this. genes/pax3.json was changed
 on the owner's word the same day; what is left over is in knowledge/known-issues.txt.
 Not yet audited.)
 
+ROUND FOUR (the owner's answer to question C6, 2026-10-15)
+-----------------------------------------------------------
+The whole answer, for three loci, is in knowledge/science/round-4-answers.txt. No address
+has been opened by a maintainer.
+- No PRE-wide SW10 frequency is published: McFadden et al. 2023 (https://pubmed.ncbi.nlm.nih.gov/37406837/, doi 10.1016/j.jevs.2023.104875) studied 30 PRE horses; a 2024 review (PMC10854722) says SW10 had been seen in two PRE horses. OMIA (https://omia.org/OMIA001688/9796/) gives NC_009149.3:g.11196181G>A, XM_005610643.3:c.927C>T, ECA6:11,196,181 on EquCab3.0. Avila et al.: SW2 only in Paint and Quarter Horses, SW4 absent.
+
 ROUND THREE (the owner's answer to question C6, 2026-10-15)
 ------------------------------------------------------------
 The whole answer is in knowledge/science/round-3-answers.txt. No address has been opened

@@ -116,3 +116,78 @@ What the data does with it
 QUESTION B4 - SNOWDROP WITH CREAM OR PEARL (2026-10-15)
 -------------------------------------------------------
 Filed at the top of knowledge/science/matp.txt (one locus).
+
+
+QUESTION C6 - KIT AND MITF FREQUENCIES BY BREED; SW10 IN PRE (2026-10-15)
+-------------------------------------------------------------------------
+Her answer, as she sent it (tables reflowed for plain text):
+
+Short answers
+  - Avila et al. 2022 did not test W13, W32, W34 or W35. Among KIT variants it tested only
+    SB1, W5, W10, W20, W22 and tobiano (TO), so an "all KIT variants combined" total
+    cannot be calculated from it. (https://pmc.ncbi.nlm.nih.gov/articles/PMC9498372/)
+  - The W20 allele frequency counts every W20 mutation the W20 assay detected, including
+    one on a chromosome that also carries W22. But the study did not phase W20/W22
+    compound heterozygotes or report a W20_22 haplotype, so it cannot say how many W20
+    alleles were on W22 backgrounds. The three Quarter Horses called W20/W22 could be cis
+    (W20_22) or trans.
+  - McFadden et al. 2023 did not report a breed-wide SW10 allele frequency for PRE. A
+    later review says SW10 had been seen in two PRE horses: a count, not a frequency.
+    (https://pubmed.ncbi.nlm.nih.gov/37406837/)
+
+Avila et al. 2022: 11,281 horses in 28 breeds from UC Davis VGL test results; 6,878 after
+removing first-degree relatives. All figures are allele frequencies after relatedness
+filtering. KIT assays: SB1, W5, W10, W20, W22 (Table 2), TO (Supplementary Tables S3-S4);
+W13, W32, W34, W35 not in the 29-variant panel.
+
+W5, W10, W20, W22 by breed (Table 2), and their sum (a sum of allele frequencies, not a
+share of carriers; SB1 and TO excluded, as the supplement's per-breed SB1 could not be
+retrieved):
+  Andalusian 0, 0, 0.011, 0 (0.011); Appaloosa 0, 0, 0.18, 0; Arabian all 0; Connemara
+  Pony 0, 0, 0.12, 0; Dutch Warmblood 0, 0, 0.26, 0; Gypsy Cob 0, 0, 0.33, 0; Gypsy
+  Vanner 0, 0, 0.27, 0; Hanoverian 0, 0, 0.24, 0; Icelandic Horse all 0; Knabstrupper 0,
+  0, 0.18, 0; Lusitano 0, 0, 0.049, 0; Miniature Horse 0, 0, 0.046, 0; Missouri Fox
+  Trotter 0, 0, 0.12, 0; Morgan Horse 0, 0, 0.092, 0; Mustang 0, 0, 0.20, 0; Norwegian
+  Fjord all 0; Oldenburg 0, 0, 0.26, 0.015 (0.275); Paint Horse 0, 0, 0.21, 0.0015
+  (0.2115); Percheron 0, 0, 0.027, 0; Pony of the Americas 0, 0, 0.21, 0; Pura Raza
+  Espanola 0, 0, 0.025, 0; Quarter Horse 0, 0.00031, 0.14, 0.00047 (0.14078); Rocky
+  Mountain Horse 0, 0, 0.0087, 0; Shetland Pony 0, 0, 0.013, 0; Standardbred 0, 0, 0.026,
+  0; Tennessee Walking Horse 0, 0, 0.072, 0; Thoroughbred 0.0075, 0, 0.34, 0.015
+  (0.3625); Welsh Pony 0, 0, 0.26, 0.
+
+SB1 and tobiano: SB1 in 171 horses of 10 breeds (Gypsy Cob, Gypsy Vanner, Miniature
+Horse, Missouri Fox Trotter, Mustang, Paint Horse, Pony of the Americas, Quarter Horse,
+Shetland Pony, Tennessee Walking Horse); highest 0.083 (Tennessee Walking), lowest 0.0010
+(Quarter Horse); per-breed values in Supplementary Table S4, not retrieved. TO in 787
+horses of 15 breeds, 0.0033 (Arabian) to 0.22 (Shetland Pony).
+
+W20 and W20_22: W20 in 25 of 28 breeds; 340 W20/W20 homozygotes in the unfiltered data.
+The frequency is from the W20 SNP assay, so counts W20 alleles whatever else is on the
+chromosome. Three W20/W22 Quarter Horses; genotype calls cannot tell cis from trans. Its
+advice: treat W20 and W22 as separate unless phased; do not assume W22 implies W20.
+
+MITF in Avila et al.: SW1, SW3, SW5 and SW6 tested; not SW7, SW8 or SW9. SW2 and SW4 are
+PAX3. By breed (SW1, SW3, SW5, SW6):
+  Appaloosa 0.035; Dutch Warmblood 0.018; Gypsy Cob 0.026; Icelandic Horse 0.076;
+  Knabstrupper 0.036; Miniature Horse 0.10; Morgan Horse 0.018; Oldenburg 0.016; Paint
+  Horse 0.053, 0.00056, 0.0022, 0.00056; Pony of the Americas 0.014; Quarter Horse 0.017,
+  0.00036, 0, 0; Shetland Pony 0.0070; Welsh Pony 0.057 (others 0).
+  SW4 absent; SW2 only in Paint and Quarter Horse; no SW3, SW4, SW5 or SW6 homozygotes.
+
+SW10 in PRE: McFadden et al. identified SW10 as a nonsense PAX3 variant,
+XM_005610643.3:c.927C>T at ECA6:11,196,181 (EquCab3.0); OMIA gives
+NC_009149.3:g.11196181G>A (https://omia.org/OMIA001688/9796/). The abstract reports an
+association with more depigmentation in PRE horses, N = 30, but no breed frequency. A
+2024 review (https://pmc.ncbi.nlm.nih.gov/articles/PMC10854722/) says SW10 had been seen
+in two PRE horses. Journal of Equine Veterinary Science 128:104875,
+https://doi.org/10.1016/j.jevs.2023.104875
+
+What the data does with it
+  - kit: sixteen breed tables, for the breeds where W20 is the only tested variant found
+    (no SB1, W5, W10 or W22): Andalusian, Appaloosa, Arabian, Connemara Pony, Dutch
+    Warmblood, Hanoverian, Icelandic Horse, Knabstrupper, Lusitano, Morgan Horse,
+    Norwegian Fjord, Percheron, PRE, Rocky Mountain Horse, Standardbred, Welsh Pony.
+    Worked out assuming random mating; untested variants count as N. Breeds with SB1 (no
+    per-breed figure) or W22 (W20_22 cannot be told apart) have none.
+  - mitf: thirteen breed tables, the breeds listed; SW7-SW9 count as N.
+  - pax3: no table; SW10's OMIA position noted.
