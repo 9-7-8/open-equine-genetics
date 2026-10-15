@@ -4,6 +4,31 @@ No source was opened by the session that filed this. genes/dun.json was changed 
 on the owner's word the same day; what is left over is in knowledge/known-issues.txt.
 Not yet audited.)
 
+ROUND THREE (the owner's answer to question B2, 2026-10-15)
+------------------------------------------------------------
+No address has been opened by a maintainer. Her answer, condensed, with every point and
+address she gave:
+
+  - nd1's diagnostic change is SNP1, G>T, in the 1.6 kb downstream enhancer/insertion
+    region of TBX3: G is the dun (D) allele, T the nd1 allele.
+  - EquCab2.0: chromosome 8, written chr8:18,227,267+1,066 G>T. The answer also adds the
+    two up as "position 18,228,333".
+    (https://wz.iz.edu.pl/files/WZ_2018_4_art03_en.pdf ;
+    https://www.slovetres.si/index.php/SVR/article/download/1810/682/7405)
+  - It is distinct from nd2, a deletion of about 1.6 kb in the same regulatory region.
+    (https://pmc.ncbi.nlm.nih.gov/articles/PMC4731265/ ; https://omia.org/OMIA001972/9796/)
+  - OMIA gives the nd1 haplotype on EquCab3.0 as
+    NC_009151.3:g.[20665796_20665797insCCTTCTGGC;20665807_20665808ins[1610]].
+  - UC Davis: nd1 may give primitive markings without the dun dilution, and is classed
+    with nd2 at the dun/TBX3 locus. (https://vgl.ucdavis.edu/resources/horse-coat-color)
+
+The session's reading (not the answer's): "+1,066" means 1,066 bases INTO a sequence the
+reference does not contain. OMIA's EquCab3.0 form inserts 1,610 bases at that spot, so
+the reference horse lacks the 1.6 kb sequence (it carries nd2). The SNP therefore has no
+plain reference position, and 18,228,333 is not where it lies; that figure is not used.
+
+What the gene file does with it: nd1's name and the summary say what nd1 is, with the
+EquCab2.0 notation as published and OMIA's EquCab3.0 haplotype. Three citations.
 ROUND TWO (the owner's answers to the open research questions, 2026-10-12)
 --------------------------------------------------------------------------
 These came after everything below. Where they disagree with it, this section and the gene
