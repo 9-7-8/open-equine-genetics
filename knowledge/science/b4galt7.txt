@@ -5,6 +5,44 @@ No source was opened by the session that filed this. genes/b4galt7.json was chan
 on the owner's word the same day; what is left over is in knowledge/known-issues.txt.
 Not yet audited.)
 
+ROUND FOUR (the owner's B4GALT7 overview, 2026-10-15)
+-----------------------------------------------------
+No address has been opened by a maintainer. Her answer, condensed, with every point and
+address she gave. It agrees with round three and adds detail.
+
+  - The variant: ECA14:g.4535550C>T (EquCab2.0), c.50G>A, p.Arg17Lys, the last base of
+    exon 1. It disrupts the splice donor; an affected dwarf's fibroblasts had about 2% of
+    normal B4GALT7 mRNA. Splicing, not the amino-acid change, is the likelier cause.
+    (Leegwater et al. 2016, https://pmc.ncbi.nlm.nih.gov/articles/PMC5084406/)
+  - N/N clear, N/D an unaffected carrier, D/D affected; UC Davis writes N and D and
+    tests Friesians and crosses, also in its three-test Friesian Health Panel (no address
+    given for the panel). (https://vgl.ucdavis.edu/test/friesian-horse-dwarfism)
+  - D/D: short limbs and ribs, head and back length near normal; disorganised growth
+    plates; flexor-tendon laxity and fetlock hyperextension, often worsening with age;
+    rotation at carpus and hocks, abnormal gait; thickened, S-shaped costochondral
+    junctions and an inward chest at thoracic vertebrae 10-16; broad chest, long back,
+    rounded abdomen, poor musculature (probably secondary). The growth-hormone axis is
+    not the primary cause; cognition is not impaired.
+  - Frequencies: 22 of 177 (12.4%) is a DNA-bank validation set, not a survey, and
+    holds no D/D horses; UC Davis's "about 12%" is a rounded figure; KFPS testing gave
+    about 15% (2000) and 12.5% (2021), via Hermans et al. 2024; "roughly 12-15%". The
+    Brazilian 33% of 12 horses is anecdotal and not a breed figure.
+  - A 2026 genome-wide screen of 8,263 Friesians (BMC Genomics; no address given) lists
+    the B4GALT7 splice variant as causal among several harmful haplotypes, whose carrier
+    frequencies lie between 8.0% and 22.1% (not given for B4GALT7 alone).
+  - No other equine B4GALT7 allele is established. No known effect in carriers (height,
+    any skeletal sign), and none on coat, white, feathering, fertility or ordinary
+    height. Severity varies among D/D horses; that is presentation, not further alleles.
+  - The founder: the variant traces to one founder haplotype in the Dutch Friesian
+    population; the study worked with KFPS.
+  - Its modelling advice (not a finding): carrier x carrier matings flagged; D/D unfit
+    for athletic use or breeding.
+
+What the gene file does with it: the dwarfism text gains the joint, rib, gait and chest
+signs and that thinking is unaffected; the summary gains the 2% mRNA, "about 12 to 15
+per cent", that no other allele is established, and what B4GALT7 does not affect. Tables
+unchanged.
+
 ROUND THREE (the owner's answer to question G4, first part, 2026-10-15)
 ------------------------------------------------------------------------
 No address has been opened by a maintainer. Her answer, condensed, with every point and

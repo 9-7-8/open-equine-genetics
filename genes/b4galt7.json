@@ -6,7 +6,7 @@
   "symbol": "B4GALT7",
   "chromosome": "14",
   "evidence": "published",
-  "summary": "B4GALT7, Friesian dwarfism - a recessive disorder of the Friesian and its crosses. One change in the gene (c.50G>A, p.Arg17Lys; g.3772591C>T on chromosome 14, EquCab3.0), at the last base of exon 1, disrupts splicing of an enzyme needed to build the proteoglycans of cartilage, tendon and growing bone. A horse with two copies is a disproportionate dwarf with lax joints. A carrier is unaffected. In the study that found it, 22 of 177 Friesians were carriers (12.4 per cent); testing by the Friesian studbook (KFPS) put the share at about 15 per cent in 2000 and about 12.5 per cent in 2021, and the studbook has restricted carrier-to-carrier matings since 2014.",
+  "summary": "B4GALT7, Friesian dwarfism - a recessive disorder of the Friesian and its crosses. One change in the gene (c.50G>A, p.Arg17Lys; g.3772591C>T on chromosome 14, EquCab3.0), at the last base of exon 1, disrupts splicing of an enzyme needed to build the proteoglycans of cartilage, tendon and growing bone: an affected dwarf's cells made about 2 per cent of the normal amount of its message. A horse with two copies is a disproportionate dwarf with lax joints. A carrier is unaffected. In the study that found it, 22 of 177 Friesians were carriers (12.4 per cent); testing by the Friesian studbook (KFPS) put the share at about 15 per cent in 2000 and about 12.5 per cent in 2021, and the studbook has restricted carrier-to-carrier matings since 2014 Neither figure is a random survey of the breed; about 12 to 15 per cent, varying by year and sample, is the fair summary. No other B4GALT7 allele is established in horses. B4GALT7 has no established effect on coat colour, white markings, feathering, fertility, or the height of a carrier.",
   "inheritance": "autosomal",
   "affects_coat": false,
   "alleles": [
@@ -16,7 +16,7 @@
   "phenotypes": [
     { "id": "wild", "name": "Wild type", "description": "Two working copies. Nothing is wrong and nothing is passed on.", "changes_coat": false },
     { "id": "b4galt7-carrier", "name": "B4GALT7 carrier", "description": "One copy of d. The horse is unaffected, and nothing shows - but half its foals inherit the copy, and two carriers bred together are the only way Friesian dwarfism appears.", "changes_coat": false },
-    { "id": "friesian-dwarfism", "name": "Friesian dwarfism", "description": "Disproportionate dwarfism: the limb and rib bones are shortened while the head and the length of the back stay comparatively normal. The fetlocks are lax and over-extend, growth is poor, and the muscles are poorly developed. How severe it is varies from horse to horse.", "changes_coat": false }
+    { "id": "friesian-dwarfism", "name": "Friesian dwarfism", "description": "Disproportionate dwarfism: the limb and rib bones are shortened while the head and the length of the back stay comparatively normal; the chest is broad, the back looks long and the belly rounded. The growth plates are disorganised. The flexor tendons are lax and the fetlocks over-extend, often worsening with age rather than righting as in a normal foal; the legs rotate at the knees and hocks and the gait is abnormal. The ribs are deformed at the junction with their cartilage, and the chest wall dips inward behind the middle ribs. Growth is poor and the muscles poorly developed. Thinking is not reported to be affected. How severe it is varies from horse to horse.", "changes_coat": false }
   ],
   "genotypes": [
     { "alleles": ["N", "N"], "phenotype": "wild" },
@@ -24,7 +24,7 @@
     { "alleles": ["d", "d"], "phenotype": "friesian-dwarfism", "conditions": ["friesian-dwarfism"] }
   ],
   "conditions": [
-    { "id": "friesian-dwarfism", "name": "Friesian dwarfism", "description": "Disproportionate dwarfism: the limb and rib bones are shortened while the head and the length of the back stay comparatively normal. The fetlocks are lax and over-extend, growth is poor, and the muscles are poorly developed. How severe it is varies from horse to horse.", "severity": "impairing" }
+    { "id": "friesian-dwarfism", "name": "Friesian dwarfism", "description": "Disproportionate dwarfism: the limb and rib bones are shortened while the head and the length of the back stay comparatively normal; the chest is broad, the back looks long and the belly rounded. The growth plates are disorganised. The flexor tendons are lax and the fetlocks over-extend, often worsening with age rather than righting as in a normal foal; the legs rotate at the knees and hocks and the gait is abnormal. The ribs are deformed at the junction with their cartilage, and the chest wall dips inward behind the middle ribs. Growth is poor and the muscles poorly developed. Thinking is not reported to be affected. How severe it is varies from horse to horse.", "severity": "impairing" }
   ],
   "frequencies": [
     {
