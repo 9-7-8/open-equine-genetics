@@ -38,6 +38,10 @@ in Java); what they do is the same.
 
 - An outcome's `phenotype.changes_coat` is false for every outcome that paints nothing,
   which includes every outcome of a health locus. It does not mean "healthy".
+- A locus's `affects_eye` (false where the file leaves it out) is true for the nine eye
+  loci (tiger_eye and the eight eye_ loci). Their outcomes change how the eye is drawn,
+  not the hair coat, so their `changes_coat` is false: draw an eye from them by the locus
+  flag.
 - `condition.severity` is one of `informational`, `impairing`, `lethal_in_early_life`,
   `lethal_at_birth`, `lethal_at_conception`.
 - A gene with `evidence` `"abstracted"` is a stand-in for something polygenic (height,

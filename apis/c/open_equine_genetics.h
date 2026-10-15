@@ -111,7 +111,8 @@ typedef struct {
     const char *evidence;       /* "published" or "abstracted" (an abstracted locus is not a real gene) */
     const char *summary;
     const char *inheritance;    /* "autosomal", "x_linked", "y_linked" */
-    int affects_coat;
+    int affects_coat;           /* changes the hair coat */
+    int affects_eye;            /* changes how the eye is drawn; 0 where not given */
     const oeg_allele *alleles;
     size_t allele_count;
     const oeg_phenotype *phenotypes;

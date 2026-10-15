@@ -7,7 +7,8 @@
   "evidence": "abstracted",
   "summary": "What colour the sector in this horse's left iris is, if it has one - a drawing model. Mid blue is dominant - the commonest sector is the blue wedge a white locus asks for, so the default is the colour that wedge already is - and green, gold, dark blue, brown, light blue and white each take a matched pair. Chaos is no real colour and is marked invalid (owner, 2026-10-15). No locus is published for sectoral heterochromia or its colour. Completely invisible on a horse whose sector locus is wild type, which is almost all of them.",
   "inheritance": "autosomal",
-  "affects_coat": true,
+  "affects_coat": false,
+  "affects_eye": true,
   "alleles": [
     { "id": "MBl", "name": "Mid blue", "wild_type": true, "quality": "abstracted" },
     { "id": "Grn", "name": "Green", "wild_type": false, "quality": "abstracted" },
@@ -22,12 +23,12 @@
     { "id": "wild", "name": "Wild type", "description": "A mid-blue sector, if this eye has a sector at all.", "changes_coat": false },
     { "id": "eye-sector-colour-carrier", "name": "Sector colour carrier", "description": "One copy of something other than mid blue, which shows nothing: every variant here is recessive to it.", "changes_coat": false },
     { "id": "eye-sector-colour-mismatched", "name": "Two different sector colours", "description": "Two different non-blue variants, which is a mid-blue sector. Each is recessive to the other.", "changes_coat": false },
-    { "id": "eye-sector-green-left", "name": "Green sector", "description": "This eye's sector, wherever the sector locus put it, comes out green instead of blue. Invisible on a horse whose sector locus is wild type, which is almost all of them.", "changes_coat": true },
-    { "id": "eye-sector-gold-left", "name": "Gold sector", "description": "This eye's sector, wherever the sector locus put it, comes out gold instead of blue. Invisible on a horse whose sector locus is wild type, which is almost all of them.", "changes_coat": true },
-    { "id": "eye-sector-dark-blue-left", "name": "Dark blue sector", "description": "This eye's sector, wherever the sector locus put it, comes out dark blue instead of blue. Invisible on a horse whose sector locus is wild type, which is almost all of them.", "changes_coat": true },
-    { "id": "eye-sector-brown-left", "name": "Brown sector", "description": "This eye's sector, wherever the sector locus put it, comes out brown instead of blue. Invisible on a horse whose sector locus is wild type, which is almost all of them.", "changes_coat": true },
-    { "id": "eye-sector-light-blue-left", "name": "Light blue sector", "description": "This eye's sector, wherever the sector locus put it, comes out light blue instead of blue. Invisible on a horse whose sector locus is wild type, which is almost all of them.", "changes_coat": true },
-    { "id": "eye-sector-white-left", "name": "White sector", "description": "This eye's sector, wherever the sector locus put it, comes out white instead of blue. Invisible on a horse whose sector locus is wild type, which is almost all of them.", "changes_coat": true },
+    { "id": "eye-sector-green-left", "name": "Green sector", "description": "This eye's sector, wherever the sector locus put it, comes out green instead of blue. Invisible on a horse whose sector locus is wild type, which is almost all of them.", "changes_coat": false },
+    { "id": "eye-sector-gold-left", "name": "Gold sector", "description": "This eye's sector, wherever the sector locus put it, comes out gold instead of blue. Invisible on a horse whose sector locus is wild type, which is almost all of them.", "changes_coat": false },
+    { "id": "eye-sector-dark-blue-left", "name": "Dark blue sector", "description": "This eye's sector, wherever the sector locus put it, comes out dark blue instead of blue. Invisible on a horse whose sector locus is wild type, which is almost all of them.", "changes_coat": false },
+    { "id": "eye-sector-brown-left", "name": "Brown sector", "description": "This eye's sector, wherever the sector locus put it, comes out brown instead of blue. Invisible on a horse whose sector locus is wild type, which is almost all of them.", "changes_coat": false },
+    { "id": "eye-sector-light-blue-left", "name": "Light blue sector", "description": "This eye's sector, wherever the sector locus put it, comes out light blue instead of blue. Invisible on a horse whose sector locus is wild type, which is almost all of them.", "changes_coat": false },
+    { "id": "eye-sector-white-left", "name": "White sector", "description": "This eye's sector, wherever the sector locus put it, comes out white instead of blue. Invisible on a horse whose sector locus is wild type, which is almost all of them.", "changes_coat": false },
     { "id": "invalid-allele", "name": "Pair with an invalid colour", "documented": false, "description": "A pair that includes chaos. Round-four research (2026-10-15) found no locus for these and no horse with such a colour; they are kept, marked invalid, so stored data lines up and nobody adds them back. No outcome is given.", "changes_coat": false }
   ],
   "genotypes": [

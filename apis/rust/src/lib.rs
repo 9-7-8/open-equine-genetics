@@ -172,7 +172,11 @@ pub struct Gene {
     pub summary: String,
     /// "autosomal", "x_linked", "y_linked"
     pub inheritance: String,
+    /// changes the hair coat
     pub affects_coat: bool,
+    /// changes how the eye is drawn; false where not given
+    #[serde(default)]
+    pub affects_eye: bool,
     pub alleles: Vec<Allele>,
     pub phenotypes: Vec<Phenotype>,
     #[serde(default)]

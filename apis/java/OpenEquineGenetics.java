@@ -82,7 +82,7 @@ public final class OpenEquineGenetics {
     /** evidence is "published" or "abstracted" (an abstracted locus is not a real gene);
      *  inheritance is "autosomal", "x_linked" or "y_linked"; raw is the whole file. */
     public record Gene(String id, String name, String symbol, String chromosome, String evidence,
-                       String summary, String inheritance, boolean affectsCoat, List<Allele> alleles,
+                       String summary, String inheritance, boolean affectsCoat, boolean affectsEye, List<Allele> alleles,
                        List<Phenotype> phenotypes, List<Condition> conditions,
                        List<GenotypeTable> frequencies, List<Citation> citations, Map<String, Object> raw) {
 
@@ -388,7 +388,7 @@ public final class OpenEquineGenetics {
         }
         return new Gene(id, (String) d.get("name"), (String) d.get("symbol"), (String) d.get("chromosome"),
                 (String) d.get("evidence"), (String) d.get("summary"), (String) d.get("inheritance"),
-                bool(d.get("affects_coat"), false), Collections.unmodifiableList(alleles),
+                bool(d.get("affects_coat"), false), bool(d.get("affects_eye"), false), Collections.unmodifiableList(alleles),
                 Collections.unmodifiableList(phenotypes), Collections.unmodifiableList(conditions),
                 Collections.unmodifiableList(frequencies), citations(d), d);
     }

@@ -7,7 +7,8 @@
   "evidence": "abstracted",
   "summary": "What colour the white of this horse's right eye is - a drawing model, not a known gene. How much white shows round the eye is real and has one known genetic cause, the leopard complex (LP, TRPM1); broad white on the face can show it too. No other sclera locus is published. Black, invisible and chaos sclera are colours no horse has and are marked invalid (owner, 2026-10-15). It shows nothing on a foal, whose template has no white round the pupil at all.",
   "inheritance": "autosomal",
-  "affects_coat": true,
+  "affects_coat": false,
+  "affects_eye": true,
   "alleles": [
     { "id": "Wht", "name": "White", "wild_type": true, "quality": "abstracted" },
     { "id": "Blk", "name": "Black (invalid: no horse has a sclera of this colour)", "wild_type": false, "quality": "invalid" },

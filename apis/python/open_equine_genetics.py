@@ -101,7 +101,8 @@ class Gene:
     evidence: str                    # "published" or "abstracted" (an abstracted locus is not a real gene)
     summary: str
     inheritance: str                 # "autosomal", "x_linked", "y_linked"
-    affects_coat: bool
+    affects_coat: bool               # changes the hair coat
+    affects_eye: bool                # changes how the eye is drawn (false where not given)
     alleles: List[Allele]
     phenotypes: List[Phenotype]
     conditions: List[Condition]
@@ -319,7 +320,7 @@ def _gene(d: dict) -> Gene:
     return Gene(
         id=d["id"], name=d["name"], symbol=d.get("symbol"), chromosome=d.get("chromosome"),
         evidence=d["evidence"], summary=d["summary"], inheritance=d["inheritance"],
-        affects_coat=d["affects_coat"],
+        affects_coat=d["affects_coat"], affects_eye=d.get("affects_eye", False),
         alleles=[Allele(a["id"], a["name"], a["wild_type"], a.get("quality"), a.get("placeholder"))
                  for a in d["alleles"]],
         phenotypes=[Phenotype(p["id"], p["name"], p["description"], p["changes_coat"], p.get("documented", True))

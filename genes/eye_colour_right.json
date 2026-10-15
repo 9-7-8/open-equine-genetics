@@ -7,7 +7,8 @@
   "evidence": "abstracted",
   "summary": "What colour this horse's right iris is - a drawing model, not a known gene. No locus for ordinary iris shade has been published; OCA2 and HERC2 were looked at as candidates without result. Real irises are brown, mostly, or the lighter amber, gold, hazel or blue that cream, champagne, tiger eye and white patterns give. Here brown is dominant, and green, gold and the three blues each take a matched pair. White, red, chaos, invisible and black irises are colours no horse has and are marked invalid (owner, 2026-10-15). The two eyes are separate loci, which lets one eye differ from the other; that the second usually matches the first is not expressed. Cream, champagne, tiger eye and the white loci do not paint an eye: they ask this locus for one, and the allele is written onto the foal at birth.",
   "inheritance": "autosomal",
-  "affects_coat": true,
+  "affects_coat": false,
+  "affects_eye": true,
   "alleles": [
     { "id": "Brn", "name": "Brown", "wild_type": true, "quality": "abstracted" },
     { "id": "Grn", "name": "Green", "wild_type": false, "quality": "abstracted" },
@@ -25,11 +26,11 @@
     { "id": "wild", "name": "Wild type", "description": "A brown eye - what nearly every horse has.", "changes_coat": false },
     { "id": "eye-colour-carrier", "name": "Eye colour carrier", "description": "One copy of something other than brown, which shows nothing: every variant at this locus is recessive to brown.", "changes_coat": false },
     { "id": "eye-colour-mismatched", "name": "Two different eye colours", "description": "Two different non-brown variants, which is a brown eye. Each is recessive to the other as well as to brown, so a horse shows one only by carrying the same one twice.", "changes_coat": false },
-    { "id": "eye-green-right", "name": "Green eye", "description": "A clear green iris - the colour the cream/pearl compound used to paint directly, and now the colour it asks for.", "changes_coat": true },
-    { "id": "eye-gold-right", "name": "Gold eye", "description": "A warm gold, the colour of a hawk's eye. Tiger eye and champagne both request this rather than owning a shade of their own.", "changes_coat": true },
-    { "id": "eye-dark-blue-right", "name": "Dark blue eye", "description": "A deep blue, dark enough to read as almost black at distance and unmistakable close up.", "changes_coat": true },
-    { "id": "eye-mid-blue-right", "name": "Mid blue eye", "description": "The pale, cool blue of a splashed white horse - which is exactly what the four white loci request when a horse is white enough to have it.", "changes_coat": true },
-    { "id": "eye-light-blue-right", "name": "Light blue eye", "description": "Blue washed almost to white. The palest iris that still reads as an iris at two texels.", "changes_coat": true },
+    { "id": "eye-green-right", "name": "Green eye", "description": "A clear green iris - the colour the cream/pearl compound used to paint directly, and now the colour it asks for.", "changes_coat": false },
+    { "id": "eye-gold-right", "name": "Gold eye", "description": "A warm gold, the colour of a hawk's eye. Tiger eye and champagne both request this rather than owning a shade of their own.", "changes_coat": false },
+    { "id": "eye-dark-blue-right", "name": "Dark blue eye", "description": "A deep blue, dark enough to read as almost black at distance and unmistakable close up.", "changes_coat": false },
+    { "id": "eye-mid-blue-right", "name": "Mid blue eye", "description": "The pale, cool blue of a splashed white horse - which is exactly what the four white loci request when a horse is white enough to have it.", "changes_coat": false },
+    { "id": "eye-light-blue-right", "name": "Light blue eye", "description": "Blue washed almost to white. The palest iris that still reads as an iris at two texels.", "changes_coat": false },
     { "id": "invalid-allele", "name": "Pair with an invalid colour", "documented": false, "description": "A pair that includes white, red, chaos, invisible or black. Round-four research (2026-10-15) found no locus for these and no horse with such a colour; they are kept, marked invalid, so stored data lines up and nobody adds them back. No outcome is given.", "changes_coat": false }
   ],
   "genotypes": [

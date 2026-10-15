@@ -587,6 +587,7 @@ static void read_gene(loader *L, const jval *d, oeg_gene *g)
     g->summary = req_str(L, d, "summary");
     g->inheritance = req_str(L, d, "inheritance");
     g->affects_coat = req_bool(L, d, "affects_coat");
+    g->affects_eye = opt_bool(d, "affects_eye", 0);
 
     list = arr(L, d, "alleles", 1);
     if ((al = (oeg_allele *)lalloc(L, list->count * sizeof *al)) == NULL)

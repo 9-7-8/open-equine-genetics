@@ -50,6 +50,7 @@ for (const file of readdirSync(join(root, "genes")).filter((f) => f.endsWith(".j
   const ids = (g.alleles ?? []).map((a) => a.id);
   if (new Set(ids).size !== ids.length) bad("duplicate allele id");
   if ((g.alleles ?? []).filter((a) => a.wild_type).length !== 1) bad("not exactly one wild_type allele");
+  if (g.affects_eye !== undefined && typeof g.affects_eye !== "boolean") bad("affects_eye is not true or false");
   for (const a of g.alleles ?? []) {
     if (a.placeholder) continue;
     if (!QUALITY.includes(a.quality)) bad(`allele "${a.id}": quality is "${a.quality}"`);

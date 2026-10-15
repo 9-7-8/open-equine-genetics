@@ -383,7 +383,8 @@ struct Gene {
     std::string evidence;     // "published" or "abstracted" (an abstracted locus is not a real gene)
     std::string summary;
     std::string inheritance;  // "autosomal", "x_linked", "y_linked"
-    bool affects_coat = false;
+    bool affects_coat = false;  // changes the hair coat
+    bool affects_eye = false;   // changes how the eye is drawn; false where not given
     std::vector<Allele> alleles;
     std::vector<Phenotype> phenotypes;
     std::vector<Condition> conditions;
@@ -606,6 +607,7 @@ inline Gene gene(Json d) {
     g.summary = str(d, "summary");
     g.inheritance = str(d, "inheritance");
     g.affects_coat = boolean(d, "affects_coat");
+    g.affects_eye = d.find("affects_eye") ? boolean(d, "affects_eye") : false;
     for (const auto& a : arr(d, "alleles"))
         g.alleles.push_back({str(a, "id"), str(a, "name"), boolean(a, "wild_type"), opt_str(a, "quality"),
                              opt_str(a, "placeholder")});
