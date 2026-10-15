@@ -30,8 +30,7 @@ HOW FAR TO TRUST WHAT
 - Nomenclature changes. Record the name UC Davis uses as the allele name, and keep older
   names in the summary so a search still finds them.
 
-WHAT THE MOD'S OWN NOTES CONTAIN
-- knowledge/science/ holds the mod's Science tab for each gene. These were researched
-  (the kit notes say against a 2024 review, OMIA and the per-allele papers) and are a good
-  starting point, but they are a secondary source written by AI sessions. Verify before
-  marking anything "published" on their word alone.
+WHAT THE SCIENCE NOTES CONTAIN
+- knowledge/science/ holds a note for each gene: mostly the owner's research answers,
+  filed as she sent them. They are a good starting point but a secondary source, written
+  with AI research tools. Verify before marking anything "published" on their word alone.

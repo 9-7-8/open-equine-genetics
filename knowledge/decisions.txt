@@ -1,131 +1,115 @@
 DECISIONS ALREADY MADE
 ======================
-All made by the owner (Isabel) on 2026-10-12 unless a line says otherwise. The full record
-is GitHub issue #250 in 9-7-8/Procedural-Horse-Coats. Do not reopen one without asking her.
+All made by the owner (Isabel) on 2026-10-12 unless a line says otherwise. Do not reopen
+one without asking her.
 
 PURPOSE
-- A separate repo she maintains, usable in other projects, language-agnostic.
+- A separate repo she maintains, usable in other projects, language-agnostic. It stands
+  on its own (owner, 2026-10-15): where the data first came from is not part of it.
 - Aim: the most accurate list of genes and breeds for real horses, kept up to date with
   UC Davis findings as far as she can.
 
 WHAT IT HOLDS
 - Real science, uncollapsed where it is known.
-- PLUS the mod's abstractions, each clearly labelled as an abstraction. An abstraction is a
-  single made-up locus standing in for something real that is polygenic or not yet
-  understood (height, flaxen, sooty). They are named "abstracted ...", never "magical ...".
-- A "mod map" that says how the mod's model relates to the data here.
-- Nothing invented for the game with no real counterpart. No magical genes.
+- PLUS abstractions, each clearly labelled as an abstraction. An abstraction is a single
+  made-up locus standing in for something real that is polygenic or not yet understood
+  (height, flaxen, sooty). They are named "abstracted ...", never "magical ...".
+- Nothing invented with no real counterpart. No magical genes.
 
 WHICH GENES
 - Every gene with a published locus.
 - As abstractions: flaxen, shade, sooty, markings, pangare, rabicano, manchado, CVM,
   megaesophagus, PATN2, the eight eye loci, fertility, natural zebra (as a HORSE locus).
-- As abstractions from the mod's body stats: abstracted height, speed, jump, hardiness,
-  draft power. The mod's "vampiric" allele on those is not included.
+- As abstractions of body traits: abstracted height, speed, jump, hardiness, draft power.
 - Left out on purpose: diet; climate tolerance; temperament; yields; everything magical.
 
 SPECIES
 - Equids only: horse now; donkey and zebra may follow. No sheep.
 
-BREEDS (not exported yet)
-- Natural breeds only, with nothing Minecraft in them (no biomes, spawn rules, prices).
+BREEDS
+- Natural breeds only (no biomes, spawn rules or prices).
 - Gene pools: each frequency carries a citation where one exists and an "estimated" flag
   where it is a guess. Everything starts as estimated.
-- Body: real measurements (height, weight, type) with citations, AND the mod's 1-10 scores
-  for speed, jump, health and pull, marked as abstracted estimates.
+- Body: real measurements (height, weight, type) with citations, AND 1-10 scores for
+  speed, jump, health and pull, marked as abstracted estimates.
 
 EVIDENCE
 - Every entry says how far to trust it. See knowledge/format.txt.
-- Citations come first from the mod's wiki Science tabs, harvested once. Those tabs stay
-  hand-written in the mod; generating them from this data was declined for now and may be
-  asked again.
 
 LICENCE
 - GPL 3, "or later": GPL-3.0-or-later where a licence id is needed (owner, 2026-10-15,
   asked for the Rust reader's Cargo.toml).
 - Contributions: a clause in CONTRIBUTING and a pull-request checkbox - "I license this
-  contribution under GPL 3 and grant the maintainer the right to relicense it." This is
-  what lets outside additions flow back into the MIT-licensed mod.
-- Inside the mod's jar the data stays GPL 3.
+  contribution under GPL 3 and grant the maintainer the right to relicense it."
 - Repo name: open-equine-genetics. Public, under her GitHub account. Created and first
   pushed 2026-10-12: github.com/9-7-8/open-equine-genetics.
 
 THE REPOSITORY (2026-10-12)
 - Everything in the folder is committed EXCEPT session-logs/, procedures/ and (from
-  later the same day) TODO.txt. Those stay on the maintainer's machine. mod-map.json, knowledge/science/ and
-  knowledge/how-this-was-exported/ are published.
+  later the same day) TODO.txt. Those stay on the maintainer's machine.
 - No local file path goes in anything committed. Paths already in the commit history
   stay; history is not rewritten for them.
 - Push at the end of every session, as part of the end-session procedure, without asking
   (2026-10-12; before that every push was asked for). During a session a push is still
   asked for.
-
-THE MOD
-- The mod will READ this repo as its source of truth (not merely export to it), through a
-  git submodule pinned to a commit.
-- Saved gene keys and allele tokens in the mod never change; mod-map.json translates.
-- Until the mod reads it (issue #253 onward), this repo is a MIRROR: a change in the mod
-  has to be re-exported here, and a change here does not reach the mod.
+- No mention of where the data was first exported from: the files that described or
+  mapped to that origin were removed (owner, 2026-10-15).
 
 THE AUDIT
-- Making the data accurate is its own job (issue #256), locus by locus, against UC Davis
-  VGL, OMIA and the papers.
+- Making the data accurate is its own job, locus by locus, against UC Davis VGL, OMIA and
+  the papers.
 - THE SCIENCE WINS (2026-10-12). "Always go with the science. If science contradicts an
   early definition of a gene, update it to be as accurate to the science as we possibly
   can." When the owner supplies research, it is applied to the gene file without asking
   her locus by locus. She is asked only what science cannot settle: the format, what
   becomes of an allele or locus the science does not support (ids are never removed),
-  the mod, and commits.
+  and commits.
 - An outcome nobody has described is marked as undocumented, never guessed.
 - Every allele carries a quality tag: verified, unverified, abstracted or invalid. An
   allele the science does not support is kept and marked invalid, so that nobody adds
   it back thinking it was overlooked. (agouti's At and A+, proposed but never validated,
-  are tagged this way. mitf SW9 was the first, until a laboratory was found that lists
-  an SW9; see the ruling on it below.)
+  are tagged this way.)
 - Citations are not all to be opened and checked for now; each is marked verified or
   not. None is verified yet.
 - A condition goes on a genotype only where a source confirms it for that pair. (mitf:
   no deafness on any pair.)
 - A locus named for a gene it has nothing to do with is renamed (ryr2 became
   abstracted_jump_strength).
-- The mod will come to this repo to bridge itself once the work here is done. Nothing
-  here waits on the mod, and nobody here needs to tell it of each change.
-- Commit now, often, and in small batches. Push when the session ends (above).
+- Commit now, often, and in small batches, grouping like things (2026-10-15). Push when
+  the session ends (above).
 - A frequency nobody has published is left out, never invented: a locus may have no
   frequency table.
 - Where the research lists two variants and the data has one allele, the two are added as
-  new alleles and the old id is kept and marked invalid (2026-10-12: kit W17 became W17a
-  and W17b; shox sa became Del1 and Del2).
+  new alleles and the old id is kept and marked invalid (2026-10-12: shox sa became Del1
+  and Del2; kit W17 became W17a and W17b).
   When later research shows the split alleles are one allele after all, the old id is
   restored and the split ids are marked invalid in its place (owner, 2026-10-15: kit W17
   restored, W17a and W17b invalid, after round three found them always together).
 - An allele the research does not mention, or calls disputed, is kept as "unconfirmed" or
   "disputed" with quality "unverified" and no outcome; it is not marked invalid
-  (2026-10-12: kit W37-W39, since confirmed by a second answer; matp sunshine). pax3
-  SW10 was treated the same way by the session, without asking.
+  (2026-10-12: kit W37-W39, since confirmed; matp sunshine). An unconfirmed allele that
+  research later publishes becomes an ordinary allele (2026-10-15: mitf SW9 and pax3
+  SW10).
 - A severity claims only what the research states, and follows the research when it
-  says more (all 2026-10-12). Skeletal atavism (shox) was "impairing" while the research
-  stated no death; it is "lethal_at_birth" since her round-two answer said affected foals
-  are usually nonviable or put down shortly after birth. ACAN D1/D1 is
-  "lethal_in_early_life", not the mod's "lethal_at_birth": the same answer said its
-  survival time varies.
+  says more. Skeletal atavism (shox) was "impairing" while the research stated no death;
+  it is "lethal_at_birth" since her round-two answer said affected foals are usually
+  nonviable or put down shortly after birth. ACAN D1/D1 was "lethal_in_early_life" on
+  round two's "survival time varies"; since round three (2026-10-15) it is nonviable,
+  dying before birth, with D1/D2 and D1/D3.
 - An allele marked invalid because nothing was found for it becomes "unconfirmed" once a
-  source is found that lists it, even without a published report (2026-10-12: mitf SW9,
-  after round two found European laboratories listing an SW9 and an SW10). acan D5, for
-  which round two found no report at all, was made "unconfirmed" by the session on the
-  earlier ruling, without asking.
+  source is found that lists it, even without a published report (2026-10-12: mitf SW9).
+  acan D5, for which round two found no report at all, was made "unconfirmed" by the
+  session on the earlier ruling, without asking.
 
-MADE BY THE EXPORTING SESSION, NOT ASKED (change freely, tell the owner)
-- (2026-10-14, when the owner asked for all the mod's natural breeds) The breed format in
-  knowledge/format.txt, BREEDS, and every field name in it; strains as named lines whose
-  pools replace the breed's at the loci they list; the mod's notes, size scale and
-  "commonness" left out; mod weights scaled to percents where they did not sum to 100.
+MADE BY A SESSION, NOT ASKED (change freely, tell the owner)
+- (2026-10-14) The breed format in knowledge/format.txt, BREEDS, and every field name in
+  it; strains as named lines whose pools replace the breed's at the loci they list;
+  weights scaled to percents where they did not sum to 100.
 - (2026-10-15, when the owner asked for readers in Java, Python, Rust, C++ and C) apis/:
   the calls and their names, Python as the reference, the conformance report that every
   port must print the same, and the exact sampling rule; Rust on serde_json, every
   other port without dependencies.
 - The file layout and every field name in knowledge/format.txt.
 - genes/ is one flat folder with a "species" field in each file.
-- "sex" is not exported as a locus.
+- "sex" is not a locus.
 - The gene symbols filled into "symbol" (see known-issues.txt).
-- This folder living beside the mod's folder, not inside it.
