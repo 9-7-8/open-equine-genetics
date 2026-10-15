@@ -7,6 +7,37 @@ Three answers, in the order she sent them; the later ones add snowdrop and sunsh
 three "ANSWER" headings were added when filing. The first answer marks most of its sources
 by number only, and the list those numbers point to was not supplied.)
 
+ROUND THREE (the owner's answer to question B4, second part, 2026-10-15)
+-------------------------------------------------------------------------
+Asked what a horse with cream and snowdrop, or pearl and snowdrop, looks like. No
+address has been opened by a maintainer. Her answer, condensed, with every point and
+address she gave:
+
+  - Cr/sno and prl/sno are compound heterozygotes and should be treated as diluted,
+    pseudo-double-dilute phenotypes, not as plain single carriers. The evidence is
+    stronger for Cr/sno than for prl/sno.
+  - Cr/sno: model as a pseudo-double cream - a strongly lightened coat like a double
+    cream, pale skin, blue or green eyes. Cream is semi-dominant
+    (https://equipedia.ifce.fr/en/equipedia-the-universe-of-the-horse-ifce/breeding-and-keeping-horses/genetics/major-coat-genes/cream-gene-the-dilution-in-semi-dominance);
+    sno/sno dilutes red and black and one sno copy showed nothing in the first family
+    (https://www.biorxiv.org/content/10.1101/851246v1); as alleles of one locus, the
+    two are taken to interact (https://lbbarba.es/en/veterinaria/enfermedades/color-equino-snowdrop/).
+    Suggested: pseudo-cremello on chestnut, pseudo-perlino on bay, pseudo-smoky cream on
+    black.
+  - prl/sno: model as a pearl-snowdrop compound dilute, close to pearl or a light double
+    dilute, less characterised. Pearl is recessive and Cr/prl is a pseudo-double cream
+    (https://vgl.ucdavis.edu/test/pearl); published work documents sno/sno, not
+    prl/sno. Suggested: pale apricot on chestnut, a pale golden pearl-like body on bay,
+    pale smoky pearl on black, all provisional.
+  - For rendering it suggests Cr/sno slightly less pale than Cr/Cr until more data
+    exists.
+
+The session's reading: this is reasoning from how the alleles behave alone, not a
+description of any horse. No source is quoted describing a Cr/sno or prl/sno horse; the
+answer's own words are "likely", "best-supported simulator interpretation" and
+"provisional". By the rule that an outcome nobody has described stays undocumented,
+both pairs stay "compound-undocumented". The expectation is recorded here and in
+known-issues.
 ROUND THREE (the owner's answer to question B4, first part, 2026-10-15)
 ------------------------------------------------------------------------
 Asked whether snowdrop has been confirmed beyond the first report. No address has been
