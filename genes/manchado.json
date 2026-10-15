@@ -5,7 +5,7 @@
   "name": "Manchado",
   "symbol": null,
   "evidence": "abstracted",
-  "summary": "A rare Argentine pattern: broad clean white over the back, crest and croup with smooth rounded islands of the base colour left inside it, a mostly white tail, and a dark head, belly and lower legs. It takes two copies and no wild horse has them, so the only way to see one is to breed two carriers. Its own locus - it belongs to none of the mapped white-pattern genes, and its real cause is unknown.",
+  "summary": "A rare Argentine pattern: broad clean white over the back, crest and croup with smooth rounded islands of the base colour left inside it, a mostly white tail, and a dark head, belly and lower legs. Held here as a made-up recessive allele: two copies to show, so it can appear from two plain parents. That follows the leading idea in Sponenberg and Bellone's Equine Color Genetics (2017), a very rare recessive, but it is unproven - no gene, locus, variant, DNA test or OMIA entry exists, no pedigree study or genome-wide study has been published, and a somatic or other unusual cause has not been ruled out. Its own locus: it is not tobiano, sabino, splashed white or the leopard complex. Reported in a few horses, almost all in Argentina, among Criollos, Thoroughbreds, Arabians, polo ponies and Hackneys. No known effect on build, speed, hearing or sight.",
   "inheritance": "autosomal",
   "affects_coat": true,
   "alleles": [
@@ -32,5 +32,8 @@
       ]
     }
   ],
-  "citations": []
+  "citations": [
+    { "source": "paper", "label": "Sponenberg and Bellone 2017, Equine Color Genetics, 4th edition (manchado, unmapped, thought a rare recessive)", "url": "https://doi.org/10.1002/9781119130628", "verified": false },
+    { "source": "pubmed", "label": "PMC10854722: 2024 review of white coat colour in horses (no manchado gene)", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10854722/", "verified": false }
+  ]
 }
