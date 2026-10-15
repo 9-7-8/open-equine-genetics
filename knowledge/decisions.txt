@@ -96,6 +96,9 @@ THE AUDIT
 - Where the research lists two variants and the data has one allele, the two are added as
   new alleles and the old id is kept and marked invalid (2026-10-12: kit W17 became W17a
   and W17b; shox sa became Del1 and Del2).
+  When later research shows the split alleles are one allele after all, the old id is
+  restored and the split ids are marked invalid in its place (owner, 2026-10-15: kit W17
+  restored, W17a and W17b invalid, after round three found them always together).
 - An allele the research does not mention, or calls disputed, is kept as "unconfirmed" or
   "disputed" with quality "unverified" and no outcome; it is not marked invalid
   (2026-10-12: kit W37-W39, since confirmed by a second answer; matp sunshine). pax3
