@@ -1,6 +1,154 @@
 Manchado - science notes
 (A science note on this locus, written 2026-10-12. Not yet audited.)
 
+ROUND FOUR (the owner's answer to question H6, 2026-10-15)
+-----------------------------------------------------------
+No address has been opened by a maintainer. Her document follows whole, as she sent it
+(the [web:N] markers point to the sources listed at its end).
+
+The session's reading: the summary's "no wild horse has them" is gone; the research
+speaks of rare horses in Argentine breeds, not of wild horses. Only the textbook and the
+2024 review are cited; the blogs and breeder sites (brindlehorses, Equine Tapestry, White
+Horse Productions, theequinest) are not, nor the 2012 splashed-white paper, which is not
+about manchado. Its recessive model is modelling advice matching the textbook's guess.
+
+--- her document ---
+# Manchado (Argentine spotting pattern)
+
+## Bottom line
+
+**No gene, locus, causal variant, or validated DNA test for manchado has been published.** Manchado is an extremely rare Argentine white-spotting phenotype, and the leading but unproven hypothesis is a **very rare autosomal recessive allele**. It should be kept as a separate, hypothetical locus rather than assigned to tobiano, sabino, splashed white, leopard complex, or any known white-spotting gene. [web:141][web:134][web:143]
+
+The most authoritative published treatment is Sponenberg and Bellone’s *Equine Color Genetics* (4th edition, 2017), which describes manchado as a rare pinto pattern found in Argentina and suggests—but does not prove—a rare recessive cause. [web:141][web:134]
+
+## Phenotype
+
+Manchado produces large, crisp white areas, typically beginning along the topline and sometimes extending down the sides. The white areas contain rounded, well-defined colored spots or “islands” of pigmented hair; the head and legs often remain pigmented, and a white tail is common. [web:134][web:143]
+
+It is visually distinct from leopard complex spotting: manchado’s white regions are large and smooth-edged, with pigmented spots enclosed within them, whereas leopard complex patterns arise from the *TRPM1* leopard-spotting system and produce a different distribution and developmental pattern. [web:138][web:143]
+
+## Published status
+
+| Question | Status |
+|---|---|
+| Causal gene | Not identified |
+| Causal variant | Not identified |
+| Official locus name | None established |
+| EquCab2/EquCab3 coordinate | None available |
+| DNA test | None available |
+| OMIA entry | No established manchado entry found |
+| Best inheritance hypothesis | Rare autosomal recessive, unproven |
+| Alternative hypothesis | Somatic mutation or transposable-element effect, unproven |
+
+A 2024 peer-reviewed review of white coat color in horses discusses known white-spotting genes but does not report a manchado causal gene, consistent with the absence of a mapped manchado locus. [web:115][web:143]
+
+## Primary source
+
+**Sponenberg, D. P., & Bellone, R. (2017). *Equine Color Genetics*, 4th ed. Wiley.**  
+Book DOI: [10.1002/9781119130628](https://doi.org/10.1002/9781119130628)  
+Relevant treatment: manchado is described as a rare Argentine pinto pattern, thought to result from a very rare recessive gene but not mapped. [web:141][web:134]
+
+This is a textbook synthesis rather than a molecular mapping study. It establishes the phenotype and the recessive hypothesis, but it does **not** identify a gene, mutation, chromosome, or diagnostic test. [web:141][web:134]
+
+## Inheritance
+
+The most plausible published interpretation is a **rare autosomal recessive allele**, sometimes informally written as \(ma\) with affected horses \(ma/ma\). This explains the pattern’s rarity, its repeated appearance in unrelated Argentine-bred horses, and the apparent production of manchado offspring from non-manchado parents. [web:141][web:134][web:139]
+
+However, this is **not proven**:
+
+- No pedigree-based segregation analysis with a sufficiently large family has been published.
+- No genome-wide association study has mapped manchado.
+- No candidate variant has been functionally validated.
+- The alternative possibility of a somatic mutation, transposable-element effect, or other nonstandard mechanism has not been ruled out. [web:134][web:139][web:143]
+
+A reasonable simulator convention is:
+
+```text
+MAN/MAN = normal, non-manchado
+MAN/man = carrier; normal phenotype
+man/man = manchado phenotype
+```
+
+This follows the leading recessive hypothesis while preserving uncertainty.
+
+## Simulator implementation
+
+Model manchado as a **separate white-spotting locus**, not as a modifier of an existing pattern.
+
+Recommended rules:
+
+- Express manchado only in the homozygous recessive state, if using the leading hypothesis.
+- Generate large white regions preferentially along the topline, then extend down the sides as severity increases.
+- Place rounded pigmented “islands” inside the white regions.
+- Keep the head and lower legs dark more often than in tobiano or splashed white.
+- Allow a white or partially white tail.
+- Do not use leopard-complex roaning, varnish marks, or leopard spots.
+- Do not use sabino-style lacy edges, high white socks, or broad facial blazes as the defining pattern.
+
+A useful visual algorithm is:
+
+```text
+manchado_white_mask = topline_weighted_large_patches
+pigmented_islands   = rounded_spots_inside_white_mask
+head_and_legs       = usually retain base pigment
+tail                = often white or partly white
+```
+
+The pattern should be rare in the population model unless the game deliberately includes an Argentine founder lineage.
+
+## Relationship to known patterns
+
+| Pattern | Established gene/locus | Why manchado is different |
+|---|---|---|
+| Tobiano | *KIT* inversion, ECA3 | Usually produces vertical white crossing the topline, white legs, and a normally pigmented head; genetically established. [web:115] |
+| Sabino-like white spotting | Several *KIT* variants | Often includes facial white, high leg white, and lacy or roaned edges; manchado’s defining pattern is different. [web:115][web:129] |
+| Splashed white | *MITF* and *PAX3* variants | Often produces extensive head/underbody white and sometimes blue eyes; no published evidence ties it to manchado. [web:129] |
+| Leopard complex | *TRPM1* | Produces leopard spotting, varnish roaning, and related Appaloosa-type traits; manchado is not leopard complex. [web:138][web:143] |
+| Manchado | Unknown | Large topline-centered white areas with enclosed pigmented islands; no gene mapped. [web:141][web:134] |
+
+## Breeds and occurrence
+
+Manchado has been reported almost exclusively in Argentina, in a small number of horses across several breeds, including **Criollo, Thoroughbred, Arabian, Polo Pony, and Hackney**. [web:141][web:134][web:136]
+
+The occurrence across multiple breeds suggests either a shared Argentine founder contribution or repeated introduction of the same rare allele, but this remains speculation. No reliable allele frequency, carrier frequency, population sample size, or survey year can be cited because no genotype exists. [web:134][web:139]
+
+## Effects outside coat color
+
+There is no evidence that manchado affects height, speed, muscle, bone structure, hoof shape, feathering, mane or tail length, or any non-pigment trait. Its documented effect is limited to the white-spotting pattern of the coat. [web:134][web:141]
+
+Because the causal mutation is unknown, it would be inappropriate to model health effects, deafness, or vision effects for manchado. Those traits are associated with some other white-spotting mechanisms, but not demonstrated for manchado. [web:129][web:143]
+
+## Future science
+
+A definitive manchado study would require:
+
+1. Collection and phenotyping of all available manchado horses and relatives.
+2. A multi-generational pedigree with manchado and non-manchado offspring.
+3. Whole-genome sequencing of manchado horses and matched Argentine controls.
+4. Testing for recessive, dominant, compound-heterozygous, structural-variant, and possible somatic mechanisms.
+5. Replication in independent manchado families or breeds.
+6. Functional validation of any candidate variant.
+
+Until then, manchado should be treated as a **rare, Argentine-associated, genetically unresolved white-spotting phenotype**, with a rare recessive allele as the leading working hypothesis. [web:141][web:134][web:143]
+
+## Sources
+
+- Sponenberg & Bellone, *Equine Color Genetics*, 4th ed. (2017): https://doi.org/10.1002/9781119130628 [web:141][web:134]  
+- 2024 review of white coat color in horses, covering established white-spotting genes: https://pmc.ncbi.nlm.nih.gov/articles/PMC10854722/ [web:115]  
+- Hauswirth et al. 2012, *MITF* and *PAX3* splashed-white/macchiato paper: https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1002653 [web:129]  
+- Manchado phenotype and unresolved genetics overview: https://www.brindlehorses.com/manchado-horses/ [web:134]  
+- Discussion of manchado rarity and recessive speculation: https://www.equinetapestry.blog/speculation-about-manchado/ [web:139]  
+- White Horse Productions summary of manchado as unmapped and likely recessive: http://whitehorseproductions.com/ecg_basics4.html [web:141]  
+- Manchado phenotype description and distinction from leopard patterns: https://theequinest.com/colors/white-patterns/pinto/manchado [web:138]
+--- end of her document ---
+
+What the gene file does with it: the summary says the recessive model is the textbook's
+unproven guess, that nothing is mapped or tested, and where it is seen; two citations.
+Alleles, outcomes and tables unchanged; still abstracted.
+
+EARLIER NOTE (2026-10-12, before round four)
+--------------------------------------------
+
 What it is not
 --------------
 
