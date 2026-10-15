@@ -1,21 +1,14 @@
 Zebra striping - science notes
-(Copied 2026-10-12 from the Science tab of the Procedural Horse Coats wiki page for this gene.
-Written for that project: it may mention how a game models the gene. Not yet audited.)
+(A science note on this locus, written 2026-10-12. Not yet audited.)
 
 Which way round a zebra is
 --------------------------
 
 Ask which of a zebra's two colours is the animal and which is the marking, and the biology answers plainly. Hair follicles carry melanocytes; in the dark bands they deposit melanin into the growing hair, and in the white ones signalling suppresses that. The white stripe is not a white pigment - it is an absence of the dark one, and the dark state is the default. A zebra is a dark animal with the colour taken out in bands.
 
-That is exactly the shape of phase 1, which may only ever take pigment away, and it is why this gene can be natural at all. It whitens the gaps through PigmentField.whiten and never touches the bands. The horse underneath - whatever extension, agouti, the dilutions and grey have made of it by priority 68 - is the striping.
-
-The contrast with magic zebra is not stylistic
-Magic zebra runs in phase 3 and adds black on the bands. That is the only way to stripe a cremello or a dominant white, which have no pigment left to remove - and it is the only way an invented gene could work, because phase 1 cannot add. The two read the same body map from opposite directions: this one whitens 1 - coverage, that one blackens coverage. A horse can carry both and show both.
-
 Not modelled
 ------------
 
-- Species. There is one locus, not a plains / mountain / Grévy's trichotomy - the knob ranges span them instead.
-- Facial stripes that curve round the eye and nostril. Below the sheet's resolution; the head gets narrow bands and a dark muzzle.
-- A reaction-diffusion simulation. Zebra striping is usually modelled as a Turing pattern - local chemical signals producing repeated spacing without any gene specifying "stripe number 17 here". What that buys visually at this resolution is spacing and contrast, both of which are knobs here, so the coat is drawn directly rather than simulated. The consequence of the Turing account that does matter is modelled: the pattern changes shape with body geometry, which is the whole point of ZebraStripes being a body map.
-- Stripes as an individual fingerprint. They are, in the sense that every horse's stored values give it its own arrangement - but nothing in the mod identifies a horse by them.
+- Species. There is one locus, not a plains / mountain / Grévy's trichotomy.
+- Facial stripes that curve round the eye and nostril.
+- A reaction-diffusion simulation. Zebra striping is usually modelled as a Turing pattern - local chemical signals producing repeated spacing without any gene specifying "stripe number 17 here". One consequence of the Turing account is that the pattern changes shape with body geometry.

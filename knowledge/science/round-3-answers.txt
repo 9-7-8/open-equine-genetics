@@ -542,7 +542,7 @@ Because breed-specific published frequencies are less standardized than for MSTN
 
 **Simulator adaptation:** If you include CKM, make it a low-weight modifier in a racing-performance polygenic score: Performance = w1(MSTN) + w2(PDK4) + w3(CKM) + training + conformation + epsilon.
 
-Assign CKM a small weight, because the association is less robust and the allele effect may depend on racing discipline. Do not market it in-game as a guaranteed speed allele.
+Assign CKM a small weight, because the association is less robust and the allele effect may depend on racing discipline. Do not market it as a guaranteed speed allele.
 
 ## What these genes do **not** do
 
@@ -555,7 +555,7 @@ None of these five loci is established as a direct determinant of:
 
 ## Recommended breed priors
 
-For a game database, store frequencies as **Bayesian priors**, then update them from each foal's actual genotype.
+For a breeding database, store frequencies as **Bayesian priors**, then update them from each foal's actual genotype.
 
 | Breed / group | LCORL C | HMGA2 A | MSTN C | PDK4 A | CKM G | Notes |
 |---|---:|---:|---:|---:|---:|---|
@@ -762,7 +762,7 @@ Below is a compact, simulator-ready frequency table for the four disorder groups
 | Thoroughbred | 2.4% | 1.2% | Bellone et al. 2019 [pmc.ncbi.nlm.nih](https://pmc.ncbi.nlm.nih.gov/articles/PMC7062577/) |
 | Haflinger | 4.2% | ~2.1% implied | cited in 2026 Maremmano study [tandfonline](https://www.tandfonline.com/doi/full/10.1080/1828051X.2026.2710504) |
 
-**Sim adaptation:** model as `PLOD1-WFFS` recessive. Use breed-specific base allele frequencies, then apply studbook selection pressure; do **not** let two carriers produce a live affected foal—instead resolve as late gestation loss, stillbirth, or nonviable neonate depending on your game's mortality model.
+**Sim adaptation:** model as `PLOD1-WFFS` recessive. Use breed-specific base allele frequencies, then apply studbook selection pressure; do **not** let two carriers produce a live affected foal—instead resolve as late gestation loss, stillbirth, or nonviable neonate depending on your mortality model.
 
 ## Friesian hydrocephalus — "MET" (G4)
 

@@ -150,5 +150,4 @@ References
 - UC Davis Center for Equine Health, “Congenital Stationary Night Blindness”: https://ceh.vetmed.ucdavis.edu/health-topics/congenital-stationary-night-blindness-csnb [20]
 
 
-(The mod's wiki has no page of its own for this locus; what it says about PATN1 is in
-knowledge/science/leopard.txt.)
+(More on PATN1 is in knowledge/science/leopard.txt.)

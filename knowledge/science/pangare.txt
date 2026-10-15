@@ -1,6 +1,5 @@
 Pangare (mealy) - science notes
-(Copied 2026-10-12 from the Science tab of the Procedural Horse Coats wiki page for this gene.
-Written for that project: it may mention how a game models the gene. Not yet audited.)
+(A science note on this locus, written 2026-10-12. Not yet audited.)
 
 What is actually known
 ----------------------

@@ -60,7 +60,7 @@ Yes. Tobiano is caused by a large paracentric inversion of about 43 Mb upstream 
 2. Breed frequencies
 --------------------
 
-The following should be treated as mod estimates unless a dated breed survey is cited. Public breed-frequency tables for coat loci are patchy: many are derived from commercial-test submissions, which are not random population samples.
+The following should be treated as estimates unless a dated breed survey is cited. Public breed-frequency tables for coat loci are patchy: many are derived from commercial-test submissions, which are not random population samples.
 
 Locus | What is reasonably established | Frequency status
 Dun / nd1 | D is dominant; nd1 gives primitive markings without dun dilution.  (https://vgl.ucdavis.edu/resources/horse-coat-color) | High in Nordic pony, Highland, Icelandic, Konik, Przewalski-derived and many draft/pony populations; low or absent in many hot-blooded breeds. Exact per-breed values require a breed-specific survey.

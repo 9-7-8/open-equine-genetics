@@ -223,17 +223,3 @@ Key distinction
 ---------------
 
 RYR1-MH is real, testable, dangerous, and Quarter Horse-family associated. RYR2 is real and important to heart function, but no validated equine RYR2 allele has been established. The strongest current sources are UC Davis for RYR1-MH testing and recent large-scale equine genotyping work; equine RYR2 remains an active research frontier. [17][18][19][26][38]
-
-
-EARLIER NOTES, FROM THE MOD'S WIKI
-==================================
-(Copied 2026-10-12 from the Science tab of the Procedural Horse Coats wiki page for this gene.
-Written for that project: they say how a game models the gene. Where they disagree with
-the research notes above, the notes above stand.)
-
-Why jump strength exists now and did not before
------------------------------------------------
-
-Jump strength was on the "not tracked yet" list for as long as the stats were a random roll off the parents, because there was nothing sensible to roll it from. With the body resolved out of the genotype it costs one gene and one attribute write, and it gives a breeding programme a third axis to trade against speed.
-
-The two size loci nudge it in both directions as well - a tall horse clears more and a pony clears less - so the range across the whole model runs about 0.46 to 0.72, inside vanilla's 0.4-0.8.

@@ -1,6 +1,5 @@
 SCN4A (HYPP) - science notes
-(Copied 2026-10-12 from the Science tab of the Procedural Horse Coats wiki page for this gene.
-Written for that project: it may mention how a game models the gene. Not yet audited.)
+(A science note on this locus, written 2026-10-12. Not yet audited.)
 
 ROUND THREE (the owner's answer to questions E3, F3 and G1, 2026-10-15)
 ------------------------------------------------------------------------
@@ -33,9 +32,6 @@ the gene file stand. No address here has been opened by a maintainer.
   paralysis and are typically more severely affected; it does not call them nonviable.
   The AQHA has not registered H/H horses since 2007. The gene file was changed to match.
 - Source: https://vgl.ucdavis.edu/test/hypp
-
-The one place this page contradicts the mod outright
-The mod makes H/H lethal at birth. In the real world it is not: homozygous HYPP horses live, are generally more severely affected than heterozygotes, and transmit the allele to 100% of their foals. What actually happens to them is a registry rule, not a death - the AQHA has made H/H foals born on or after 1 January 2007 ineligible for registration. See the section below for why the mod made the change and what it costs.
 
 Core facts
 ----------
@@ -82,19 +78,14 @@ N/N x H/H | - | 100% | -
 N/H x H/H | - | 50% | 50%
 H/H x H/H | - | - | 100%
 
-Autosomal, so sex is irrelevant, and each conception is independent. Dominant, so N/H is not a benign carrier state - there is no silent carrier at this locus at all, which is the structural difference between HYPP and every recessive on the health layer.
+Autosomal, so sex is irrelevant, and each conception is independent. Dominant, so N/H is not a benign carrier state - there is no silent carrier at this locus at all, which is the structural difference between HYPP and every recessive disorder.
 
 The disease lineage traces to the influential AQHA stallion Impressive (born 1969); every horse identified with the allele in an early study descended from him. That HYPP spread despite its cost is a standard population-genetics story: a heavily used sire disseminates an allele fast, especially when breeders associate his line with a desired show phenotype. AQHA requires testing for horses descending from Impressive or other designated positive bloodlines. AQHA (https://www.aqha.com/hypp)
 
-The homozygote, and what the mod does with it
----------------------------------------------
+The homozygote
+--------------
 
 H/H horses exist, live, and are generally at higher risk with earlier onset and more severe disease. They pass the allele to every foal. Since 2007 they cannot be registered with AQHA, which is a rule about paperwork rather than about survival.
-
-Why the mod kills the homozygote anyway
-This is the mod's largest deliberate departure from the source material on the health layer, and it is a design call rather than a misreading. HYPP is the only locus where a player makes the mistake with their eyes open: an H/N horse is visibly unwell and can still be excellent on every other axis, so it is genuinely tempting to breed from. Making H/H lethal turns that temptation into a cliff - two affected parents throw a dead foal one time in four while half the survivors are affected again. The real consequence, a foal that lives and is unregisterable, has no analogue in a game with no registry.
-
-The cost is that this page and the combination table now disagree about a fact, and the disagreement is not an artefact of the missing age model the way TOE1's and ST14's are. If the mod ever grows a severity axis, H/H becoming much worse but survivable is the change that would put it right - and would cost the gene its cliff.
 
 Coat, build, size, performance
 ------------------------------
@@ -107,7 +98,7 @@ There is likewise no reliable evidence that the allele determines mature height,
 
 Speed. No robust evidence supports using HYPP genotype to predict sprint speed, racing success, stride length, acceleration, earnings or endurance. One could speculate that altered excitability changes contraction behaviour - but uncontrolled excitability is exactly what makes HYPP dangerous, and during an episode weakness, stiffness, impaired coordination and paralysis plainly reduce performance and endanger horse and rider. A symptom-free N/H horse has no genetic speed advantage from HYPP.
 
-Jumping. No validated association with scope, carefulness, technique, bascule, take-off power, landing or competitive results. The real point is risk management: HYPP is potentially incompatible with any situation where sudden weakness or paralysis endangers horse and rider - jumping, eventing, riding out alone, racing, transport. That is individualised veterinary judgement, not a blanket bar. The mod's -0.040 speed and -0.18 jump on the heterozygote are the mod's way of saying "this horse is not reliable" in the only vocabulary the trait layer has.
+Jumping. No validated association with scope, carefulness, technique, bascule, take-off power, landing or competitive results. The real point is risk management: HYPP is potentially incompatible with any situation where sudden weakness or paralysis endangers horse and rider - jumping, eventing, riding out alone, racing, transport. That is individualised veterinary judgement, not a blanket bar.
 
 Breeds and frequency
 --------------------
@@ -123,14 +114,11 @@ Appaloosa | occurs where QH ancestry is present | recognised in panel guidance; 
 breeds without QH ancestry | not a recognised disease allele | test on pedigree or registry grounds, not on appearance
 
 0.299 is not "29.9% of horses"
-An allele frequency of 0.299 in a selected halter population would, under a naive Hardy-Weinberg calculation, predict a much larger proportion of positive genotypes than 29.9%. Real breeding populations are structured, selected, and shaped by registration rules, so the calculation does not hold and individual testing is the only way to know a horse's status. This is the same three-numbers confusion that recurs across every page on this layer.
+An allele frequency of 0.299 in a selected halter population would, under a naive Hardy-Weinberg calculation, predict a much larger proportion of positive genotypes than 29.9%. Real breeding populations are structured, selected, and shaped by registration rules, so the calculation does not hold and individual testing is the only way to know a horse's status. This is the same three-numbers confusion that recurs across the disorder notes.
 
-The mod puts WILD_AFFECTED_PERCENT at 1.2 - the lowest number on the health layer, and deliberately so, because at this locus every positive founder is sick rather than merely carrying something. Founders have to be able to be affected here: a dominant with no silent carrier that never appeared in a founder could never appear at all.
+The estimated "general population" table puts affected horses at 1.2 per cent - low, and deliberately so, because at this locus every positive horse is sick rather than merely carrying something. Affected horses have to appear in that table: a dominant with no silent carrier that never appeared in it could never appear at all.
 
 Management
 ----------
 
 The aim is to avoid abrupt rises in blood potassium and the stressors that precipitate episodes. Reported triggers include high-potassium feeding or sudden dietary change, fasting, illness, transport, cold, anaesthesia and restriction of regular exercise - and they differ between individuals. Usual principles: a consistently low-potassium ration designed with a vet or equine nutritionist; avoiding sudden large alfalfa meals where relevant; regular turnout or exercise rather than long confinement; routine, minimal stress, no fasting; telling the veterinary team the HYPP status before sedation, anaesthesia, hospitalisation or emergency treatment; and an individualised emergency plan for a horse that has ever collapsed or shown marked weakness. Acetazolamide is used in some horses, as a veterinarian's decision rather than a substitute for testing, diet and management.
-
-A note on the mod's numbers
-The reference material this locus was built from gives HYPP as roughly "30% health, 60% speed and jump", in a severity model the mod does not have (and will not gain: severity stays flat). Read literally against a 22-health baseline, those percentages would make an affected but living horse worse than several of the mod's outright lethals, which is plainly not what the table means. So the figures are calibrated against the disorders that already ship - the worst survivable outcome in the mod, and comfortably short of a lethal - and the reference is used for the ordering, not the arithmetic. GYS1 was calibrated the same way and against this gene.

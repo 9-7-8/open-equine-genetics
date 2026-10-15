@@ -1,6 +1,5 @@
 EDNRB (frame overo) - science notes
-(Copied 2026-10-12 from the Science tab of the Procedural Horse Coats wiki page for this gene.
-Written for that project: it may mention how a game models the gene. Not yet audited.)
+(A science note on this locus, written 2026-10-12. Not yet audited.)
 
 ROUND THREE (the owner's answer to questions E3, F3 and G1, 2026-10-15)
 ------------------------------------------------------------------------
@@ -138,12 +137,12 @@ A routine test proves the horse carries no EDNRB variant at all | False. It asks
 Other non-lethal equine EDNRB white alleles | Unproven. Biologically possible - the gene is large and developmental - but there is no validated equine series comparable to KIT's
 A viable homozygous frame adult | Unsupported. Such a claim needs repeat genotyping, parentage confirmation and veterinary evidence before it displaces the established rule
 
-Where the mod departs
----------------------
+Where this model departs
+------------------------
 
-- Frame white never crosses the topline here; in life it usually does not. TOPLINE_CAP is a hard exclusion in EdnrbGene, where the literature says white "often does not cross the topline in a simple frame-only presentation". The simplification is deliberate and mostly invisible, because a frame horse that also carries tobiano gets its topline white from tobiano, painted separately - which is the same stack that produces the effect in life. What it costs is the occasional frame-only horse that should have broken the rule.
+- Frame white never crosses the topline here; in life it usually does not. The literature says white "often does not cross the topline in a simple frame-only presentation". The simplification is deliberate and mostly invisible, because a frame horse that also carries tobiano gets its topline white from tobiano - which is the same stack that produces the effect in life. What it costs is the occasional frame-only horse that should have broken the rule.
 - Deafness is not modelled at all, here or on the splash loci. Given that the real association runs through splash and frame combinations rather than through this allele alone, modelling it on this gene would assert something the evidence does not.
-- The lethal is a birth death, not a developmental one. An O/O foal is born and then dies, because the health system works that way; there is no aganglionosis to simulate and no gut to model. The mod's own note on this is that no founder is ever born dying - see the horse's body.
+- The lethal is a birth death, not a developmental one. An O/O foal is born and then dies; the aganglionosis behind that death is not modelled.
 
-One thing the mod gets right that is easy to get wrong
-Cryptic carriers exist here. EdnrbGene's cover roll reaches low enough that some O/N horses show no recognisable frame at all, which is exactly the documented behaviour and exactly why the real-world advice is to test rather than look. A model that drew every carrier as a textbook frame would make the punnett square a formality instead of the point.
+Cryptic carriers
+Cryptic carriers exist here. Expression reaches low enough that some O/N horses show no recognisable frame at all, which is exactly the documented behaviour and exactly why the real-world advice is to test rather than look. A model that showed every carrier as a textbook frame would make the punnett square a formality instead of the point.

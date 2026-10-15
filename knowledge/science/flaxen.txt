@@ -1,6 +1,5 @@
 Flaxen - science notes
-(Copied 2026-10-12 from the Science tab of the Procedural Horse Coats wiki page for this gene.
-Written for that project: it may mention how a game models the gene. Not yet audited.)
+(A science note on this locus, written 2026-10-12. Not yet audited.)
 
 ROUND TWO (the owner's answers to the open research questions, 2026-10-12)
 --------------------------------------------------------------------------
@@ -27,4 +26,4 @@ Codominant | No validated heterozygote distinct from either homozygote.
 Incomplete dominant | No demonstrated one-copy-versus-two dose series, unlike cream.
 Polygenic | The best fit for what is actually observed: the degree of lightening varies enormously, and mane and tail colour move with age, season, sun, nutrition and clipping.
 
-So this locus is a simulated polygenic modifier, and it says so in its own description in the gene browser. It is the same shape the bay shade score takes, and for the same reason: a graded, heritable, additive quantity is what the evidence describes, and one locus with a dosage plus an expression roll says that in a genotype code a player can actually read. Three to six separate polygenes would say it too, at the cost of six segments in every horse's code and six loci nobody could reason about.
+So this locus is a simulated polygenic modifier, and its own description says so. It is the same shape the bay shade score takes, and for the same reason: a graded, heritable, additive quantity is what the evidence describes, and one locus with a dosage plus an expression roll says that in a genotype a reader can actually follow. Three to six separate polygenes would say it too, at the cost of six loci nobody could reason about.

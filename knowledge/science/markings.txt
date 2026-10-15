@@ -1,6 +1,5 @@
 Markings - science notes
-(Copied 2026-10-12 from the Science tab of the Procedural Horse Coats wiki page for this gene.
-Written for that project: it may mention how a game models the gene. Not yet audited.)
+(A science note on this locus, written 2026-10-12. Not yet audited.)
 
 At a glance
 -----------
@@ -23,6 +22,4 @@ On top of the genetics sits genuine developmental noise. Pigment cells migrate f
 The confusion this locus reproduces on purpose
 ----------------------------------------------
 
-At its top end this gene draws a broad blaze and high stockings, which is very hard to tell from a minimally expressed sabino or splash by eye. That ambiguity is not a shortcoming of the model - it is the thing the literature keeps saying out loud, and the reason testing exists. A horse with four white legs and a bald face may be a heavily marked ordinary horse or a minimally marked pattern carrier, and only its genotype settles it.
-
-In the mod that distinction is real and checkable: the info panel and a research paper name the locus, so two horses that look alike can be told apart by what they will actually throw.
+At its top end this gene gives a broad blaze and high stockings, which is very hard to tell from a minimally expressed sabino or splash by eye. That ambiguity is not a shortcoming of the model - it is the thing the literature keeps saying out loud, and the reason testing exists. A horse with four white legs and a bald face may be a heavily marked ordinary horse or a minimally marked pattern carrier, and only its genotype settles it.

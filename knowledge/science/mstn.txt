@@ -1,6 +1,5 @@
 MSTN (myostatin) - science notes
-(Copied 2026-10-12 from the Science tab of the Procedural Horse Coats wiki page for this gene.
-Written for that project: it may mention how a game models the gene. Not yet audited.)
+(A science note on this locus, written 2026-10-12. Not yet audited.)
 
 ROUND THREE (the owner's answer to question D4, 2026-10-15)
 ------------------------------------------------------------
@@ -104,8 +103,8 @@ Everything else at the locus
 
 Other promoter and intronic SNPs are documented - g.26T>C and g.156T>C have different frequencies across heavy, mesomorphic and light horse populations, and one sits in a TATA-box-like motif. Plausible regulatory candidates; nothing like the SINE's causal evidence. There are also multiple MSTN haplotypes rather than one universal fast allele and one slow allele, which is why simple cross-breed interpretation is risky. PMID 25160752 (https://pubmed.ncbi.nlm.nih.gov/25160752/)
 
-The mod is modelling the phenotype, not the marker
-MstnGene declares C sprint and T stayer, codominant and additive by copy count. That matches the literature's shape unusually well - the real effect is dosage-related, the heterozygote really is intermediate, and the letters are the ones the commercial test uses. What it flattens is the two-variant story above: the mod has one allele where reality has a marker SNP standing in for a promoter insertion. For a game that is the right simplification, and it is worth knowing the C is a proxy for something 227 bases long a little further upstream.
+This data models the phenotype, not the marker
+Here C is sprint and T stayer, codominant and additive by copy count. That matches the literature's shape unusually well - the real effect is dosage-related, the heterozygote really is intermediate, and the letters are the ones the commercial test uses. What it flattens is the two-variant story above: there is one allele here where reality has a marker SNP standing in for a promoter insertion. That is a reasonable simplification, and it is worth knowing the C is a proxy for something 227 bases long a little further upstream.
 
 Build, muscle and size
 ----------------------
@@ -125,10 +124,7 @@ The nuance that matters: MSTN predicts distance preference far more convincingly
 
 Endurance. The T/no-SINE profile associates with longer race-distance aptitude, not with success in competitive endurance riding, which also turns on thermoregulation, metabolic efficiency, cardiovascular capacity, hydration, management, feet, musculoskeletal durability, rider strategy and many other genes. The original study included Egyptian Arabians in which T/T was very common, consistent with selection for endurance-type physiology - and not proof that MSTN alone makes an endurance champion.
 
-Jumping. There is no robust evidence that MSTN is a major jumping gene. Jumping depends on canter quality and adjustability, coordination and balance and rider partnership, fore- and hindlimb conformation and spinal mechanics, tendon and ligament integrity, and on careful take-off judgement, agility, willingness and technique as much as on power. A fast-twitch bias plausibly helps the power component - a mechanistic hypothesis, not a selection rule. Reviews list MSTN among broad athletic-performance genes; that is not proof an MSTN test predicts jumping talent. The mod gives MSTN no jump effect, which matches.
-
-Where the mod put the stamina, and why it is defensible
-The real locus trades sprint against stamina. The mod has settled that there is no stamina resource, so the T side has nothing to buy - and a gene where one allele is simply better is a chore rather than a choice. Stamina is therefore paid in max health: 2 hearts' worth of health per C copy, against +0.020 speed. That is a substitution, not a finding, and this page is where it should be admitted. What survives the substitution is the thing the science actually establishes: the locus is a trade-off, not an upgrade, and its heterozygote is genuinely in the middle.
+Jumping. There is no robust evidence that MSTN is a major jumping gene. Jumping depends on canter quality and adjustability, coordination and balance and rider partnership, fore- and hindlimb conformation and spinal mechanics, tendon and ligament integrity, and on careful take-off judgement, agility, willingness and technique as much as on power. A fast-twitch bias plausibly helps the power component - a mechanistic hypothesis, not a selection rule. Reviews list MSTN among broad athletic-performance genes; that is not proof an MSTN test predicts jumping talent.
 
 Health and injury
 -----------------
@@ -149,7 +145,7 @@ Inheritance
 
 Autosomal, on chromosome 18. Each horse has 0, 1 or 2 copies of the insertion; two heterozygous parents give 25% / 50% / 25%. The molecular inheritance is codominant and additive in the sense that insertion dosage tracks average myostatin level. For the C/T marker the same 0/1/2 logic holds, but since it is usually a linked marker it is best not described as simply dominant or recessive.
 
-And the phenotype is not Mendelian in the "genotype equals outcome" sense. The variants segregate by Mendel; race-distance aptitude, muscle composition, build and injury are complex traits, and the three genotype classes express a graded pattern with large overlap between individual horses. The mod, having no way to express overlap, renders the tendency as a fixed number - which is the general shape of the compromise this whole model makes.
+And the phenotype is not Mendelian in the "genotype equals outcome" sense. The variants segregate by Mendel; race-distance aptitude, muscle composition, build and injury are complex traits, and the three genotype classes express a graded pattern with large overlap between individual horses.
 
 Breeds and frequency
 --------------------
@@ -168,7 +164,7 @@ Noric, Rapid Heavy Draft, Haflinger, Lipizzan, Italian Saddle, Spanish Purebred,
 
 In Egyptian Arabians from the original study T/T was 90%. In Miyako horses, a Japanese native breed, the intron-1 variant sat at minor-allele frequency 0.04 and the SINE was absent. PMC12995546 (https://pmc.ncbi.nlm.nih.gov/articles/PMC12995546/) In Mongolian native horses the C allele ran around 0.11 overall (0.06-0.15 by population) and the insertion was not detected among 381 genotyped horses - and those researchers found no association between the SNP and seven measured conformation traits, which is a good reminder not to export Thoroughbred conclusions to unrelated breeds. Anim. Behav. Genet. 54(2) (https://www.jstage.jst.go.jp/article/abgri/54/2/54_25/_article/-char/en)
 
-The mod uses p(C) = 0.35, deliberately common at both ends so a player finds both a sprinter and a stayer in their first handful of caught horses. Against the real numbers that is a world-average sitting between the Thoroughbred/Quarter Horse end (0.48 to 0.9) and the many breeds where the insertion is absent altogether - which is arguably the most defensible thing the mod could do with a locus whose real frequency is almost entirely a statement about breed rather than about horses.
+The estimated "general population" table uses p(C) = 0.35. Against the real numbers that is a world-average sitting between the Thoroughbred/Quarter Horse end (0.48 to 0.9) and the many breeds where the insertion is absent altogether, at a locus whose real frequency is almost entirely a statement about breed rather than about horses.
 
 What is settled, and what is not
 --------------------------------

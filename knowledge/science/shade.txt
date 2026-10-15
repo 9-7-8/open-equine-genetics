@@ -1,6 +1,5 @@
 Shade (ASIP/RALY) - science notes
-(Copied 2026-10-12 from the Science tab of the Procedural Horse Coats wiki page for this gene.
-Written for that project: it may mention how a game models the gene. Not yet audited.)
+(A science note on this locus, written 2026-10-12. Not yet audited.)
 
 What it is modelling
 --------------------
@@ -15,8 +14,8 @@ Why there is no At
 ------------------
 
 The model you will see everywhere else
-Most horse-colour material, and most horse games, use an agouti allelic series: A+ wild bay, A bay, At seal brown, a black. It is tidy, it is easy to teach, and it is not a validated equine explanation.
+Most horse-colour material uses an agouti allelic series: A+ wild bay, A bay, At seal brown, a black. It is tidy, it is easy to teach, and it is not a validated equine explanation.
 
 A tan-point at allele is genuinely mapped in several other mammals, and the horse version was borrowed from them by analogy. But the commercial equine agouti test distinguishes A from the recessive 11 bp deletion a and nothing else, and seal-brown-looking horses test as ordinary A/A or A/a - genetically bay at that locus. The chromosome-22 region above is a far stronger modern lead.
 
-So a mod that advertises genetic accuracy (see philosophy) does not get to ship At as a real allele. There were three honest options - give each shade a made-up allele (arcade), ship At and label it a simplification (fine for a teaching game), or model a shade locus plus the dosage terms. This is the third.
+So this data does not ship At as a real allele. There were three honest options - give each shade a made-up allele, ship At and label it a simplification, or model a shade locus plus the dosage terms. This is the third.

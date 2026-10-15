@@ -1,6 +1,5 @@
 ACAN - science notes
-(Copied 2026-10-12 from the Science tab of the Procedural Horse Coats wiki page for this gene.
-Written for that project: it may mention how a game models the gene. Not yet audited.)
+(A science note on this locus, written 2026-10-12. Not yet audited.)
 
 ROUND THREE (the owner's answer to questions G2, G4, G5 and G6, 2026-10-15)
 ----------------------------------------------------------------------------
@@ -109,7 +108,7 @@ Why this is not "is it homozygous?"
 
 A D1/D4 horse is affected. So is D2/D3. The five variants are different broken versions of the same gene, and what matters is that the horse has no working copy, not that its two copies match.
 
-Every other disorder in this mod can be written as "count the variant allele and check for two". This one cannot, and the check has to be a predicate over the whole pair. It is the clearest argument in the model for a combination table over a dominance label: recessive describes nine of these ten affected combinations and quietly loses the compound heterozygotes.
+Every other disorder in this data can be written as "count the variant allele and check for two". This one cannot, and the check has to be a predicate over the whole pair. It is the clearest argument in the model for a combination table over a dominance label: recessive describes nine of these ten affected combinations and quietly loses the compound heterozygotes.
 
 What that means at the paddock gate
 Two carriers of different variants are exactly as dangerous as two carriers of the same one. "My two lines carry different mutations" is not the safety it sounds like.

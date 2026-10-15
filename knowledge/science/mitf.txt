@@ -52,7 +52,7 @@ https://pubmed.ncbi.nlm.nih.gov/37406837/, unless marked):
     or mane and tail colour beyond white where the area is depigmented.
 
 What the gene files do with it: SW9 (mitf) and SW10 (pax3) are no longer "unconfirmed".
-The mod had put each in the right gene. One copy gives the ordinary splash outcome;
+Each was already in the right gene. One copy gives the ordinary splash outcome;
 two copies are "never detected"; a pair with another variant of the same gene is
 undocumented. The "unconfirmed-allele" outcome is gone.
 ROUND TWO (the owner's answers to the open research questions, 2026-10-12)
@@ -246,17 +246,3 @@ Sources
 - Hauswirth et al., Mutations in MITF and PAX3 Cause “Splashed White” and Other White Spotting Phenotypes in Horses, PLOS Genetics, 2012: https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1002653 [cite:13]
 - Henkel et al., A De Novo MITF Deletion Explains a Novel Splashed White Phenotype, 2020: https://pmc.ncbi.nlm.nih.gov/articles/PMC7238438/ [cite:17]
 - A de novo 2.3 kb structural variant in MITF explains a novel splashed white phenotype in a Thoroughbred family, Animal Genetics, 2023: https://onlinelibrary.wiley.com/doi/full/10.1111/age.13352 [cite:12]
-
-
-EARLIER NOTES, FROM THE MOD'S WIKI
-==================================
-(Copied 2026-10-12 from the Science tab of the Procedural Horse Coats wiki page for this gene.
-Written for that project: they say how a game models the gene. Where they disagree with
-the research notes above, the notes above stand.)
-
-Why splash is two genes
------------------------
-
-A gene has two slots. If SW1 and SW2 were alleles of one gene, they would compete for those slots - and a horse could not carry both. In life a horse carries N/SW1 at MITF and N/SW2 at PAX3, and comes out with markedly more face, leg and belly white than either alone. One gene cannot express that genotype at all.
-
-Two MITF variants can still meet - SW1/SW3 is a real compound heterozygote - and that is what this locus's own table is for.
