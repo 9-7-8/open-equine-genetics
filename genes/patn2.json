@@ -2,10 +2,10 @@
   "format": 2,
   "id": "patn2",
   "species": "horse",
-  "name": "PATN2 (blanket pattern)",
+  "name": "PATN2 (a second leopard-complex modifier, not published)",
   "symbol": null,
   "evidence": "abstracted",
-  "summary": "The second leopard-complex pattern modifier, and a pure modifier like PATN1: on an LP horse it gives the blanket patterns - a white sheet over the hips, spotted or not - and carrying both modifiers gives the semi-leopard between the two. Invisible on a horse without LP.",
+  "summary": "A made-up stand-in for the rest of what shapes a leopard-complex pattern. Only two loci are published: LP itself (TRPM1) and PATN1 (RFWD3). UC Davis says other genes help set how much white an LP horse has, so more modifiers are inferred, but none has been mapped, no variant or test exists, and no source names a PATN2 - it may be one undiscovered gene, several small ones, or polygenic background. Here, on an LP horse it gives the blanket patterns - a white sheet over the hips, spotted or not - and with PATN1 the semi-leopard between the two; that split is this data's model. The old idea that a PATN2 is the blanket gene has been given up, and PATN1 itself sets the amount of white rather than a leopard or blanket shape. Invisible on a horse without LP; no known effect on health or build.",
   "inheritance": "autosomal",
   "affects_coat": false,
   "alleles": [
@@ -38,5 +38,10 @@
       ]
     }
   ],
-  "citations": []
+  "citations": [
+    { "source": "ucdavis-vgl", "label": "UC Davis VGL: Appaloosa Pattern-1 (other genes also set the amount of white)", "url": "https://vgl.ucdavis.edu/test/appaloosa-pattern-1", "verified": false },
+    { "source": "pubmed", "label": "PMID 26568529: Holl et al. 2016, Anim Genet 47:91-101, RFWD3 and PATN1", "url": "https://pubmed.ncbi.nlm.nih.gov/26568529/", "verified": false },
+    { "source": "omia", "label": "OMIA 002139-9796: leopard complex (LP and PATN1, no PATN2)", "url": "https://omia.org/OMIA002139/9796/", "verified": false },
+    { "source": "ucdavis-vgl", "label": "UC Davis VGL: Appaloosa Panel 2 (LP and PATN1 tests, no PATN2)", "url": "https://vgl.ucdavis.edu/panel/appaloosa-panel-2", "verified": false }
+  ]
 }
