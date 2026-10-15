@@ -92,6 +92,38 @@
       ]
     },
     {
+      "population": "Holsteiner (11 carriers in 132 horses, 8.33%, Reiter et al. 2020)",
+      "evidence": "published",
+      "genotypes": [
+        { "alleles": ["ffs", "N"], "percent": 8.33 },
+        { "alleles": ["N", "N"], "percent": 91.67 }
+      ]
+    },
+    {
+      "population": "Oldenburg (34 carriers in 219 horses, 15.53%, Reiter et al. 2020)",
+      "evidence": "published",
+      "genotypes": [
+        { "alleles": ["ffs", "N"], "percent": 15.53 },
+        { "alleles": ["N", "N"], "percent": 84.47 }
+      ]
+    },
+    {
+      "population": "Dutch Warmblood, KWPN (19 carriers in 249 horses, 7.63%, Reiter et al. 2020, which labels the breed Dutch Warmblood)",
+      "evidence": "published",
+      "genotypes": [
+        { "alleles": ["ffs", "N"], "percent": 7.63 },
+        { "alleles": ["N", "N"], "percent": 92.37 }
+      ]
+    },
+    {
+      "population": "Trakehner (1 carrier in 64 horses, 1.56%, Reiter et al. 2020; one carrier, so very uncertain)",
+      "evidence": "published",
+      "genotypes": [
+        { "alleles": ["ffs", "N"], "percent": 1.56 },
+        { "alleles": ["N", "N"], "percent": 98.44 }
+      ]
+    },
+    {
       "population": "Knabstrupper (3 carriers in 46 horses tested, Reiter et al. 2020; a small sample)",
       "evidence": "published",
       "genotypes": [
@@ -141,6 +173,7 @@
     { "source": "ucdavis-vgl", "label": "UC Davis VGL: Horse Coat Color", "url": "https://vgl.ucdavis.edu/resources/horse-coat-color", "verified": false },
     { "source": "other", "label": "MedlinePlus Genetics: PLOD1 gene", "url": "https://medlineplus.gov/genetics/gene/plod1/", "verified": false },
     { "source": "pubmed", "label": "PMC9213567: the PLOD1 c.2032G>A variant, first associated with Warmbloods", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9213567/", "verified": false },
+    { "source": "ucdavis-vgl", "label": "UC Davis VGL: Fragile Foal Syndrome type I test, with breed table", "url": "https://vgl.ucdavis.edu/test/ffs", "verified": false },
     { "source": "pubmed", "label": "PMID 33353040: Reiter et al. 2020, the WFFS variant in 4,081 horses of 38 breeds", "url": "https://pubmed.ncbi.nlm.nih.gov/33353040/", "verified": false },
     { "source": "pubmed", "label": "PMC8783495: Akerstrom et al. 2022, WFFS in Swedish Warmbloods 1971-2020", "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8783495/", "verified": false },
     { "source": "pubmed", "label": "PMC12767152: WFFS surveillance in Silesian horses (2025)", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12767152/", "verified": false },
