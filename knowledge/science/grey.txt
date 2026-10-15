@@ -4,6 +4,33 @@ No source was opened by the session that filed this. genes/grey.json was changed
 on the owner's word the same day; what is left over is in knowledge/known-issues.txt.
 Not yet audited.)
 
+ROUND THREE (the owner's answer to question B5, 2026-10-15)
+------------------------------------------------------------
+No address has been opened by a maintainer. Her answer, condensed, with every point and
+address she gave:
+
+  - G2/G3 behaves like G3/N, not G2/N: it greys fast and has a high melanoma incidence.
+    UC Davis says so explicitly: G2/G3 horses show fast progressive greying, grey faster
+    than horses with only G2, and have a high melanoma incidence.
+    (https://vgl.ucdavis.edu/test/gray_copy_number)
+  - The 2024 study found a copy-number dosage effect: more copies of the 4.6 kb STX17
+    sequence go with faster greying and more melanoma.
+    (https://www.nature.com/articles/s41467-024-51898-2)
+  - G2/N: slow, often no obvious grey until about 5-7 years old; melanoma not clearly
+    above non-grey horses. G3/N: fast, often nearly or fully white young; melanoma
+    substantially raised.
+  - Across grey horses, roughly 50-80% develop melanomas by 15 or older, a pooled figure
+    driven by G3 carriers; G2-only horses (G2/N or G2/G2) had a low incidence like
+    non-grey horses in the 2024 study.
+    (https://vgl.ucdavis.edu/news/new-study-identifies-distinct-gray-alleles-contributing-difference-rate-depigmentation)
+  - Greys born black-based are reported at higher melanoma risk than those born
+    brown-based. (https://labogen.com/en/farbe-haarlaenge-haarstruktur-pferd/graying/)
+  - Suggested model: G3 presence switches to the fast timeline; G3/G3 fastest and
+    highest.
+
+What the gene file does with it: G2/G3 already had the G3/N outcome and condition; the
+two "less well characterised" caveats are replaced by UC Davis's statement. The
+condition gains the pooled incidence and the black-based note. One citation.
 ROUND TWO (the owner's answers to the open research questions, 2026-10-12)
 --------------------------------------------------------------------------
 These came after everything below. Where they disagree with it, this section and the gene
