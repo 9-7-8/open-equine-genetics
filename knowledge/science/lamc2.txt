@@ -5,12 +5,41 @@ No source was opened by the session that filed this. genes/lamc2.json was change
 on the owner's word the same day; what is left over is in knowledge/known-issues.txt.
 Not yet audited.)
 
+ROUND THREE (the owner's answer to question G1, 2026-10-15)
+------------------------------------------------------------
+This came after everything below and settles the swap left UNSETTLED in round two: the
+gene files had it right. LAMC2 is the Belgian and draft form (JEB1); LAMA3 is the American
+Saddlebred form (JEB2). No address has been opened by a maintainer. Her answer, condensed,
+with every point and address she gave:
+
+  - JEB1: Belgian Draft, also Trait Breton, Trait Comtois and related draft horses
+    (French draft breeds and an Italian draft horse); LAMC2; a single-cytosine
+    insertion, 1368insC; premature stop codon, no working laminin gamma-2 chain.
+  - JEB2: American Saddlebred; LAMA3; a 6,589 bp deletion spanning exons 24-27; no
+    working laminin alpha-3 chain.
+    (both: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3297474/)
+  - Both genes encode chains of laminin 332 (formerly laminin-5): LAMA3 the alpha-3,
+    LAMB3 the beta-3, LAMC2 the gamma-2. Loss of any one breaks the anchoring of the
+    outer skin, giving blistering of skin and mucous membranes.
+  - Both are autosomal recessive. Carriers are clinically normal; two carriers of the
+    same variant give a 25% risk of an affected foal per pregnancy. A LAMC2 carrier and
+    a LAMA3 carrier carry different diseases: their foal is not affected from that
+    pairing, though it can carry both.
+  - The older name epitheliogenesis imperfecta (EI) was used before the two forms were
+    told apart.
+  - JEB affects epithelial adhesion only, not pigment, size, speed, muscle or hoof
+    shape. Affected foals have fragile skin and mucosa, mouth blisters and can lose their
+    hooves (exungulation), which is why it is lethal or ends in euthanasia.
+    (https://www.equiseq.com/junctional-epidermolysis-bullosa-jeb1-jeb2/)
+  - Model them as two separate recessive loci, not alleles at one locus. UC Davis tests
+    both forms.
+  - No carrier frequency was given (part of G1, still open).
 ROUND TWO (the owner's answers to the open research questions, 2026-10-12)
 --------------------------------------------------------------------------
 These came after everything below. Where they disagree with it, this section and the gene
 file stand, unless a line says the point is unsettled. The whole answer is in
 knowledge/science/round-2-answers.txt. No address has been opened by a maintainer.
-- UNSETTLED: this answer's table gives LAMC2 as the form of the Saddlebred and LAMA3 as
+- SETTLED BY ROUND THREE (above): the gene files were right. This answer's table gives LAMC2 as the form of the Saddlebred and LAMA3 as
   that of Belgian and related draft breeds. The earlier answer, and the gene files, have
   it the other way round. The table gives no source, and the two rows may simply be
   swapped. Nothing was changed.
