@@ -20,7 +20,11 @@ chromosome    optional. The horse chromosome the locus is on: "1" to "31", "X" o
 evidence      "published" or "abstracted". See EVIDENCE below.
 summary       one to three sentences on what the locus does.
 inheritance   "autosomal", "x_linked" or "y_linked".
-affects_coat  true if any genotype changes coat colour or pattern.
+affects_coat  true if any genotype changes the hair coat's colour or pattern (body, mane,
+              tail, feathering). Not the eyes (owner, 2026-10-15).
+affects_eye   optional, default false. true if any genotype changes how the eye is drawn:
+              the iris, its sectors or the sclera (tiger_eye and the eight eye loci).
+              An eye outcome has "changes_coat": false.
 
 alleles       list, IN A FIXED ORDER that must never be changed (append only).
   id            the allele's short token, unique within the locus ("E", "e", "W20").

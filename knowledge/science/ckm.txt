@@ -4,6 +4,21 @@ No source was opened by the session that filed this. genes/ckm.json was changed 
 on the owner's word the same day; what is left over is in knowledge/known-issues.txt.
 Not yet audited.)
 
+ROUND FOUR, SECOND ANSWER (the owner's answer on ckm's status, 2026-10-15)
+---------------------------------------------------------------------------
+No address has been opened by a maintainer. Her answer, condensed: keep CKM as a
+published locus, classed as a published candidate with no established effect - it has a
+peer-reviewed association (Gu et al. 2010, Thoroughbreds) and a second population study,
+which found no significant link (best racing time p = 0.5976); COX4I2, not CKM, was the
+promising marker there. G is the reference and likely ancestral allele, A derived and the
+one once called favourable. No effect on coat, build, hoof, feathering or mane and tail.
+(Dall'Olio et al. 2021, https://doi.org/10.1016/j.livsci.2020.104351 ;
+https://cris.unibo.it/bitstream/11585/818747/4/AAM%20SNPs%20and%20Italian%20Trotter%20horse%20performance.pdf)
+Its advice for consumers (a very small optional bonus) is modelling advice.
+
+What the data does with it: nothing to change - ckm is already published, with no
+effect stated. The owner's open question on it is closed.
+
 ROUND FOUR (the owner's answer to question D6, 2026-10-15)
 -----------------------------------------------------------
 No address has been opened by a maintainer. Her answer, condensed, with every point and

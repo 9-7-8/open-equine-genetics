@@ -11,7 +11,7 @@ WHERE THE DATA STANDS
   (round three, 2026-10-15; answers about one locus are at the top of its note, answers
   about several are kept whole in knowledge/science/round-3-answers.txt). Round four
   (2026-10-15, after this file was rewritten) so far: overviews of acan, agouti and
-  b4galt7, and answers to B3, B4, C1, C4, C6, D6, E3, G2, G4, G6 (part), G7, H1-H10, and SB1 as a locus; answers about several loci are kept whole in
+  b4galt7, and answers to B3, B4, C1, C4, C6, D6, E3, G2, G4, G6 (part), G7, H1-H10, SB1 as a locus, affects_coat on eye loci, and ckm's status; answers about several loci are kept whole in
   knowledge/science/round-4-answers.txt. The lists below
   are each kept on one long line, sorted, so they are easy to edit.
 RESEARCHED: abstracted_jump_strength, acan, agouti, b4galt7, brindle, champagne, ckm, cvm, dmrt3, dun, ednrb, extension, eye loci (all eight), flaxen, gbe1, grey, gys1, hmga2, kit, lama3, lamc2, lcorl, leopard, manchado, markings, matp, megaesophagus, met, mitf, mstn, mushroom, myo5a, pangare, patn1, patn2, pax3, pdk4, plod1, ppib, prkdc, rabicano, rapgef5, roan, ryr1, scn4a, shade, shox, silver, slc5a3, sooty, st14, tiger_eye, tobiano, toe1.
@@ -37,7 +37,7 @@ STILL WRONG OR UNPROVEN IN THE RESEARCHED LOCI
 - agouti: At (seal brown) and A+ (wild bay) are "unverified", proposed alleles with no outcome (owner, 2026-10-15); the looks are real, the alleles unvalidated. The research suggests the looks be modelled as separate modifiers of unknown basis; only the abstracted shade locus exists, and nothing for wild bay's low leg points.
 - b4galt7: its first research names its sources by number only. The Friesian tables omit d/d horses. The 12% is Leegwater et al. 2016's 22 of 177, a validation set, not a random sample; KFPS testing gave about 15% in 2000 and 12.5% in 2021 (Hermans et al. 2024). A Brazilian 33% (12 horses) is not a table. Round four confirms all of this and adds a 2026 screen of 8,263 Friesians (BMC Genomics) that gave no B4GALT7 figure alone and no address. The Friesian Health Panel has no address either.
 - champagne: the names gold, amber and classic champagne depend on extension and agouti; the file says so in words and has no interactions table. "Sable" and "ivory" are registry names, not alleles.
-- ckm: a candidate that failed to replicate (Gu et al. 2010; no association in Quarter Horses); the file states no effect. Its reference allele is flagged wild_type and called ancestral on that alone. Chromosome 10 (round four; round three's 9 was an error). The Italian Trotter table rests on taking g.16079732G>A (EquCab3.0) as the file's g.15884567G>A (EquCab2.0): best supported, but no source states the conversion. Thoroughbred G 0.50 is from 20 horses, not tabled. Whether a locus with no established effect belongs in the data as published is the owner's call.
+- ckm: a candidate that failed to replicate (Gu et al. 2010; no association in Quarter Horses); the file states no effect. Its reference allele is flagged wild_type and called ancestral on that alone. Chromosome 10 (round four; round three's 9 was an error). The Italian Trotter table rests on taking g.16079732G>A (EquCab3.0) as the file's g.15884567G>A (EquCab2.0): best supported, but no source states the conversion. Thoroughbred G 0.50 is from 20 horses, not tabled. It stays a published locus as a published candidate with no established effect, as round four's answer advises.
 - dmrt3: the Icelandic table is worked out from one allele frequency. Of six exon-2 variants in a 2026 study, only c.902C>A has an established effect; three are not named in the summary the research could reach. Trot versus pace in Standardbreds is predicted by a seven-SNP panel of putative modifiers (McCoy et al. 2019); not modelled.
 - dun: nd1's markings are variable ("may show"), but d1/d1 and d1/d2 share one outcome that cannot say how often; round two says d1/d1 may mark more consistently, unmeasured. The nd1 change is G>T at chr8:18,227,267+1,066 on EquCab2.0, inside the 1.6 kb sequence the reference lacks, so it has no plain reference position. Breed tables exist for the Norwegian Fjord and Gypsy Vanner only; the rest are in Avila et al.'s Supplementary Table S4 (question B3). A citation to a TBX3 height enhancer (PMC8796118) has nothing in the data resting on it.
 - ednrb: the EDNRB gene span an answer gave is on another assembly (NC_091700.1) and is not in the data.
@@ -69,7 +69,7 @@ STILL WRONG OR UNPROVEN IN THE RESEARCHED LOCI
 - shox: no "chromosome": it lies in the pseudoautosomal region and is inherited as autosomal; the format's X or Y would make it sex-linked. The severity "lethal_at_birth" stands for "usually nonviable or put down"; the format has one severity. The "general population" table is still written for the invalid sa.
 - silver: the one-copy eye condition sits on every Z/z pair, because the format cannot tell a chestnut carrier from a bay one; the risk is not established for a chestnut carrier, and the text says so.
 - st14: "lethal_in_early_life" was the session's choice, the nearest value for death between a few weeks and three years. The Akhal-Teke table (26 of 191) is the only survey. Most of the first answer's sources are numbered only.
-- tiger_eye: the research says tiger eye changes the iris, never the coat, but the locus says "affects_coat": true, as all eight eye loci do for anything drawn on the horse; what the flag means for eyes is a format question for the owner. TE2/TE2 rests on one horse. No population frequency (question B3).
+- tiger_eye: "affects_coat" is false and "affects_eye" true, as on the eight eye loci (owner, 2026-10-15: affects_coat means the hair coat only). TE2/TE2 rests on one horse. No population frequency (question B3).
 - tobiano: TO/TO averages very slightly more white than TO/N (36% against 34%, overlapping), but the format has one outcome for both; the share of white is in words only. How the inversion alters KIT, and the modifiers of the amount of white, are unknown. The 36.7 Mb from the EquCab3.0 positions and the review's 43 Mb are both in the text.
 - toe1: the variant may act through MUTYH; the mechanism is not settled. The Egyptian sample (6.25% carriers) is far below the Arabian table's 20%.
 - Breed names given in round-two summaries are the answer's descriptions, to be treated as estimates.
@@ -200,8 +200,7 @@ FOR THE OWNER, NOT THE RESEARCHER
 - The answers for B4GALT7, PRKDC, ST14, PLOD1 and the first MATP answer cited their
   sources by number only. They can only be had by asking in the conversations that gave
   those answers.
-- Format questions only she can decide: what "affects_coat" means for eye loci (tiger_eye); whether ckm, with no established
-  effect, stays as a published locus; whether both abstracted_jump and
+- Format questions only she can decide: whether both abstracted_jump and
   abstracted_jump_strength are wanted; st14 severity (the session's choice); acan D5 made
   "unconfirmed" without asking.
 - Friesian hydrocephalus (B3GALNT2) could be added as a new locus (UC Davis: about 17% carriers).

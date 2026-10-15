@@ -65,6 +65,12 @@ THE AUDIT
   becomes of an allele or locus the science does not support (ids are never removed),
   and commits.
 - An outcome nobody has described is marked as undocumented, never guessed.
+- "affects_coat" means the hair coat only (body, mane, tail, feathering); a new optional
+  "affects_eye" marks loci drawn on the eye, true on tiger_eye and the eight eye loci,
+  whose outcomes have "changes_coat": false. In the format, the validator and all five
+  readers (owner, 2026-10-15).
+- ckm stays a published locus, as a published candidate with no established effect
+  (round four's answer, 2026-10-15; no data change).
 - Eye-locus alleles for colours no horse has (iris white, red, chaos, invisible, black;
   sclera black, invisible, chaos; sector chaos) are marked invalid; an abstracted locus
   may hold invalid alleles (owner, 2026-10-15).

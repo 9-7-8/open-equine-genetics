@@ -4,6 +4,19 @@ No source was opened by the session that filed this. genes/tiger_eye.json was ch
 on the owner's word the same day; what is left over is in knowledge/known-issues.txt.
 Not yet audited.)
 
+ROUND FOUR (the owner's answer on affects_coat for eye loci, 2026-10-15)
+-------------------------------------------------------------------------
+No address has been opened by a maintainer. Her answer, condensed: "affects_coat" should
+mean whether the locus changes the hair coat; tiger eye changes the iris only, so false.
+UC Davis's glossary treats TE1 and TE2 as tiger-eye variants and defines dilution apart
+(https://vgl.ucdavis.edu/resources/genetics-glossary). Its advice: separate flags for coat,
+eye, skin and hoof; a coat flag set only on published evidence of a coat phenotype.
+
+The owner's decision (asked): affects_coat is the hair coat only; a new optional flag,
+affects_eye, is added to the format, the validator and the five readers. tiger_eye and
+the eight eye loci now have affects_coat false, affects_eye true, and every outcome
+changes_coat false. Skin and hoof flags were not added.
+
 ROUND FOUR (the owner's answer to question B3, 2026-10-15)
 -----------------------------------------------------------
 The whole answer, for four loci, is in knowledge/science/round-4-answers.txt. No address
