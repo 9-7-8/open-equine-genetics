@@ -1,6 +1,52 @@
 Rabicano - science notes
 (A science note on this locus, written 2026-10-12. Not yet audited.)
 
+ROUND FOUR (the owner's answer to question H5, 2026-10-15)
+-----------------------------------------------------------
+No address has been opened by a maintainer. Her answer, pasted, condensed, with every
+point and address she gave. It comes after everything below and stands where they
+disagree.
+
+  - No causal gene, variant or DNA test; UC Davis lists no rabicano test
+    (https://vgl.ucdavis.edu/tests). Also called ticking, coon tail, skunk tail: white
+    hairs on the flank and forward along the barrel, white banding at the tailhead; from
+    a little tail frosting to nearly roan-like. Unlike roan, concentrated on flank and
+    tail base, with the tailhead banding (https://www.aqha.com/-/five-major-variations-in-horse-color).
+  - Esdaile 2021, UC Davis PhD dissertation (advisor Rebecca Bellone),
+    https://escholarship.org/uc/item/95w0q51r: short reads from 4 rabicano, 17 controls,
+    1 indeterminate; long reads from 1 rabicano; 659 pigmentation genes; follow-up in 61
+    rabicano and 36 controls.
+      - Six coding variants (ANKRD27, CEP290, CRB1, FMN1, KIF13A, OCA2); none fully
+        concordant. Best: CEP290 ENSECAT00000052715.2:c.538A>G, p = 2.24e-7. Either none
+        causes rabicano across breeds, or inheritance is more complex.
+      - A possible 1.7 Mb haplotype on ECA28 around KITLG. Best SNP rs397240012,
+        NC_009171.3:g.15967332G>A (EquCab3.0), p = 7.36e-9, in an H3K4me1 enhancer peak
+        in skin about 160 kb upstream of the KITLG start. A candidate, not a cause; the
+        haplotype needs refining across breeds.
+  - Thought dominant in some families (University of Florida project:
+    http://www.ufequinegenetics.org/rabicano.html, "thought to be due to a single
+    dominant allele"); not established across all horses.
+  - Usually without the large face and leg white of sabino patterns. KITLG is not KIT;
+    no known KIT allele is shown to cause rabicano. Review citing Esdaile:
+    https://pmc.ncbi.nlm.nih.gov/articles/PMC10854722/
+  - Breeds: Quarter Horse, Arabian, Thoroughbred, Warmbloods, Mangalarga, Criollo. No
+    frequency: the 61 and 36 are a research sample.
+  - No effect on build, speed, hoof, feathering or the long hair.
+  - Its modelling advice (not a finding): one dominant major allele with variable
+    intensity; two copies the same visible category unless modelled by dose. Wikipedia
+    (https://en.wikipedia.org/wiki/Rabicano) also given; not cited.
+
+The session's reading: the answer says KITLG is "nearby" the KIT region; KIT is on
+chromosome 3, KITLG on 28, so they are not near. The locus's "Two copies" outcome
+(strong-rabicano) rests on no source; it is an abstraction and stays.
+
+What the gene file does with it: the summary says dominance is not established, gives the
+KITLG lead and its limits, and the breeds; two citations relabelled, three added. Alleles, outcomes and tables
+unchanged; still abstracted.
+
+EARLIER NOTE (2026-10-12, before round four)
+--------------------------------------------
+
 There is no rabicano gene - not yet
 Most loci in this data name a real locus with a published variant behind it. Rabicano does not have one. As of September 2026 there is no causal DNA variant, no official locus symbol, no validated inheritance model and no commercial test. It is a variable white-ticking coat pattern, not a solved gene in the way cream, grey, tobiano or sabino-1 are. The Rb allele symbol used here is invented, and this note is where that is written down so nobody goes looking for the paper. CVM and megaesophagus are the other two loci in that position.
 
