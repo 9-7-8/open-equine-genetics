@@ -5,7 +5,7 @@
   "name": "Rabicano",
   "symbol": null,
   "evidence": "abstracted",
-  "summary": "White ticking that starts at the tail dock and the flank and works forward - a frosted, banded coon tail, a scatter of white hairs over the rear barrel and belly, and broken vertical rib bars on the strongest ones. The allele is dominant but how much shows varies from horse to horse and can be almost nothing, so a horse recorded as solid can throw a heavily ticked foal. Not classic roan: the tail tells them apart.",
+  "summary": "White ticking that starts at the tail dock and the flank and works forward - a frosted, banded coon tail, a scatter of white hairs over the rear barrel and belly, and broken vertical rib bars on the strongest ones. How much shows varies from horse to horse and can be almost nothing, so a horse recorded as solid can throw a heavily ticked foal. Not classic roan: the tail tells them apart, and it lacks the large face and leg white of sabino patterns. Held here as a made-up dominant allele: it is thought dominant in some families, but that is not established. No gene, variant or DNA test is published. The best lead is a 2021 UC Davis dissertation (Esdaile): in 61 rabicano horses and 36 controls, a possible 1.7 Mb haplotype around KITLG on chromosome 28 was associated with it, its best marker (rs397240012, g.15967332G>A on EquCab3.0) in a skin enhancer about 160 kb upstream of KITLG; no coding variant tested matched the phenotype fully. KITLG is the signal KIT receives, but no KIT allele is known to cause rabicano. Seen in Quarter Horses, Arabians, Thoroughbreds, Warmbloods, Mangalarga and Criollo horses. No known effect on build, speed or the long hair.",
   "inheritance": "autosomal",
   "affects_coat": true,
   "alleles": [
@@ -34,7 +34,10 @@
     }
   ],
   "citations": [
-    { "source": "other", "label": "AQHA", "url": "https://www.aqha.com/-/five-major-variations-in-horse-color", "verified": false },
-    { "source": "other", "label": "eScholarship 95w0q51r", "url": "https://escholarship.org/uc/item/95w0q51r", "verified": false }
+    { "source": "other", "label": "AQHA: five major variations in horse colour (rabicano and roan)", "url": "https://www.aqha.com/-/five-major-variations-in-horse-color", "verified": false },
+    { "source": "other", "label": "eScholarship: Esdaile 2021, UC Davis dissertation, the rabicano phenotype and a haplotype around KITLG", "url": "https://escholarship.org/uc/item/95w0q51r", "verified": false },
+    { "source": "other", "label": "University of Florida equine genetics: rabicano project", "url": "http://www.ufequinegenetics.org/rabicano.html", "verified": false },
+    { "source": "pubmed", "label": "PMC10854722: 2024 review of white coat colour in horses", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10854722/", "verified": false },
+    { "source": "ucdavis-vgl", "label": "UC Davis VGL: horse tests (no rabicano test)", "url": "https://vgl.ucdavis.edu/tests", "verified": false }
   ]
 }
