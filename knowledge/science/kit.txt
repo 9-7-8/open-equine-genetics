@@ -4,6 +4,45 @@ No source was opened by the session that filed this. genes/kit.json was changed 
 on the owner's word the same day; what is left over is in knowledge/known-issues.txt.
 Not yet audited.)
 
+ROUND THREE (the owner's answer to question C2, 2026-10-15)
+------------------------------------------------------------
+This came after everything below and settles the W22 point left UNSETTLED in round two.
+No address has been opened by a maintainer. Her answer, as she sent it:
+
+  W22 has never been documented without W20. W22 is not an independent allele that can
+  occur alone; it arose on a KIT chromosome that already carried W20, so every known W22
+  horse also carries W20 on that same haplotype.
+  (https://vgl.ucdavis.edu/test/dominant-white-horse)
+
+  - Genetically, a W22 chromosome is a W20+W22 haplotype: two linked variants inherited
+    together. UC Davis now reports it as W20_22.
+    (https://vgl.ucdavis.edu/test/dominant-white-horse)
+  - Laboratories often call that chromosome simply "W22" because W22 has the larger
+    effect, which can make it sound as if W22 exists without W20. It does not.
+  - A horse can have W20 without W22, but not W22 without W20.
+    (https://vgl.ucdavis.edu/test/apha-white-pattern-panel)
+
+  Evidence: UC Davis says W22 "occurs on the W20 background". A 2024 large-scale
+  variant-screening study found W22 in complete linkage with W20; every W22 horse had at
+  least one W20 copy (https://pmc.ncbi.nlm.nih.gov/articles/PMC10854588/). The paper that
+  found W22 described it as a deletion on a W20 background and reported W20/W22 compound
+  heterozygotes as fully white
+  (https://onlinelibrary.wiley.com/doi/abs/10.1111/age.12556).
+
+  | Test reports         | Underlying KIT copies               | Meaning                          |
+  | N/W22                | one normal + one W20_22 haplotype   | W22 carrier; includes W20        |
+  | W20/W22              | one W20-only + one W20_22 haplotype | two W20 copies, one W22;         |
+  |                      |                                     | typically fully white            |
+  | W20/N                | one W20-only + one normal           | W20 without W22                  |
+  | W22/N, no W20 found  | not an expected result              | a reporting, phasing or panel    |
+  |                      |                                     | issue, not W22 alone             |
+
+  For a simulator: model W22 as W20_22, one linked haplotype, not a standalone allele.
+
+What the gene file does with it: the allele id stays W22 (ids are never renamed) and now
+stands for the W20_22 haplotype, as laboratories report it. W22/N is N/W20_22, a real
+genotype. W22/W20 stays "boosted-white" (usually, not always, all white).
+
 ROUND TWO (the owner's answers to the open research questions, 2026-10-12)
 --------------------------------------------------------------------------
 These came after everything below. Where they disagree with it, this section and the gene
@@ -14,7 +53,7 @@ knowledge/science/round-2-answers.txt. No address has been opened by a maintaine
   W4/W4 has not been observed and is suspected to die as an embryo.
 - W17a and W17b are best treated as two distinct reported variants, not as two changes
   necessarily on one chromosome; whether they occur together in one horse is not known.
-- UNSETTLED: this answer says W22 can occur without W20, with no source. The earlier
+- SETTLED BY ROUND THREE (above): W22 never occurs without W20. This answer says W22 can occur without W20, with no source. The earlier
   answer says W22 has only been found with W20. The gene file is unchanged (W22/N already
   has an outcome; W22's name still says "found only with W20").
 - W37 without W35: no confirmed observation could be found.
