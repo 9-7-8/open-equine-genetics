@@ -6,7 +6,7 @@
   "symbol": "CKM",
   "chromosome": "10",
   "evidence": "published",
-  "summary": "CKM, the muscle form of creatine kinase, on chromosome 10: an enzyme that regenerates ATP in muscle during very short, very hard effort. One variant, g.15884567G>A in intron 4 (EquCab2.0; BIEC2-109575), was reported by Gu et al. in 2010: the A allele was commoner among elite Thoroughbred racehorses than among horses that had never won. The result did not hold up in that study's own independent sample of 130 horses, and a later Quarter Horse study found no link with racing performance. A horse of about 16,000 years ago already carried the A allele, so it is old standing variation; that G, the reference allele, came first is inferred, not shown. It is a candidate that failed to replicate: no effect of either allele on speed, distance, stamina or anything else is established. T here is the A of the papers, the allele proposed as favourable, and C is their G.",
+  "summary": "CKM, the muscle form of creatine kinase, on chromosome 10: an enzyme that regenerates ATP in muscle during very short, very hard effort. One variant, g.15884567G>A in intron 4 (EquCab2.0; BIEC2-109575), was reported by Gu et al. in 2010: the A allele was commoner among elite Thoroughbred racehorses than among horses that had never won. The result did not hold up in that study's own independent sample of 130 horses, a later Quarter Horse study found no link with racing performance, and an Italian Trotter study of 2021 (412 horses) found none with harness-racing traits. That study's marker, g.16079732G>A on EquCab3.0, is taken to be the same SNP on the newer assembly - same gene, same change, and the authors treat it as Gu et al.'s marker - but no source states the conversion. A horse of about 16,000 years ago already carried the A allele, so it is old standing variation; that G, the reference allele, came first is inferred, not shown. It is a candidate that failed to replicate: no effect of either allele on speed, distance, stamina or anything else is established. NCBI and the original marker description both place it on chromosome 10. T here is the A of the papers, the allele proposed as favourable, and C is their G.",
   "inheritance": "autosomal",
   "affects_coat": false,
   "alleles": [
@@ -24,6 +24,15 @@
     { "alleles": ["T", "T"], "phenotype": "ckm-fast" }
   ],
   "frequencies": [
+    {
+      "population": "Italian Trotter (412 horses, Dall'Olio et al. 2021; allele frequency of G, here C, 0.59, at g.16079732G>A on EquCab3.0, taken to be this SNP; genotype shares worked out assuming random mating)",
+      "evidence": "published",
+      "genotypes": [
+        { "alleles": ["T", "T"], "percent": 16.81 },
+        { "alleles": ["T", "C"], "percent": 48.38 },
+        { "alleles": ["C", "C"], "percent": 34.81 }
+      ]
+    },
     {
       "population": "general population",
       "evidence": "estimated",
@@ -43,6 +52,9 @@
     { "source": "other", "label": "Front. Genet. 11:448", "url": "https://www.frontiersin.org/journals/genetics/articles/10.3389/fgene.2020.00448/full", "verified": false },
     { "source": "pubmed", "label": "PMC4647075: creatine kinase M expression in Thoroughbreds after exercise", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4647075/", "verified": false },
     { "source": "pubmed", "label": "PMC4097168: Gu et al. 2010, Equine Veterinary Journal 42(s38):569-575, the CKM, ACTN3 and COX4I2 candidate-gene study", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4097168/", "verified": false },
-    { "source": "pubmed", "label": "PMC4284583: ancient horse genomes (2014), the CKM A allele in a Late Pleistocene stallion", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4284583/", "verified": false }
+    { "source": "pubmed", "label": "PMC4284583: ancient horse genomes (2014), the CKM A allele in a Late Pleistocene stallion", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4284583/", "verified": false },
+    { "source": "paper", "label": "Livestock Science, 10.1016/j.livsci.2020.104351: Dall'Olio et al. 2021, candidate gene markers and harness racing in Italian Trotters (accepted manuscript)", "url": "https://cris.unibo.it/bitstream/11585/818747/4/AAM%20SNPs%20and%20Italian%20Trotter%20horse%20performance.pdf", "verified": false },
+    { "source": "other", "label": "US8771943B2: the BIEC2-109575 marker, chromosome 10, EquCab2.0 15,884,567, intron 4", "url": "https://patents.google.com/patent/US8771943B2/en", "verified": false },
+    { "source": "pubmed", "label": "PMC311003: an older comparative horse gene map with CKM on chromosome 10", "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC311003/", "verified": false }
   ]
 }
