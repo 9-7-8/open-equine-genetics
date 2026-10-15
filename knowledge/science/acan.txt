@@ -2,6 +2,36 @@ ACAN - science notes
 (Copied 2026-10-12 from the Science tab of the Procedural Horse Coats wiki page for this gene.
 Written for that project: it may mention how a game models the gene. Not yet audited.)
 
+ROUND THREE, SECOND ANSWER (the owner's answer to question G6, survival, 2026-10-15)
+-------------------------------------------------------------------------------------
+No address has been opened by a maintainer. Her answer, condensed, with every point and
+address she gave (from https://www.nature.com/articles/s41598-020-72192-3 unless
+marked):
+
+  - D1/D1 foals do not normally live to birth: D1 is treated as an embryonic or fetal
+    lethal when homozygous or with any other ACAN variant. The conceptus is reabsorbed
+    or aborted, usually early in gestation; there is no foal lifespan to report.
+  - D1/D1, D1/D2, D1/D3*: fetal death. D1/D4: usually fetal death, but at least one
+    full-term live D1/D4 dwarf foal is documented, so rarely viable.
+  - D2/D2, D2/D3*, D2/D4, D3*/D3*, D3*/D4 and D4/D4 can be born alive and may reach
+    adulthood, as disproportionate dwarfs. Survival varies with severity, conformation,
+    breathing and orthopaedic problems, pain and management; many are put down for
+    poor quality of life rather than because the genotype cannot reach adulthood.
+    (https://laboklin.com/en/products/genetics/hereditary-diseases/horse/dwarfism-acan-chondrodysplasia/)
+  - D2/D2: generally among the less severe. D2/D4: live foal documented; D2 pairs often
+    considered milder. D3*/D3*: very rare, adult data limited. D4/D4: live newborns
+    documented, adult phenotype not well established
+    (https://pmc.ncbi.nlm.nih.gov/articles/PMC7003212/).
+  - Carriers (one variant, one N) look normal or near normal and are not dwarfs.
+
+The answer writes D3 as "D3*", Generatio's name; whether that is the D3 of the gene file
+is question G7.
+
+What the gene file does with it: D1/D1, D1/D2 and D1/D3 become nonviable (absent from
+the living genotypes). This changes the owner's "lethal_in_early_life" of 2026-10-12 for
+D1/D1, which rested on round two's "survival time varies". D1/D4 stays a living pair
+with an outcome of its own: usually lost before birth, a severe dwarf on the rare
+occasion it is born. The dwarf outcome gains what is said of survival.
 ROUND THREE (the owner's answer to question G6, last part, 2026-10-15)
 -----------------------------------------------------------------------
 Asked whether UC Davis has an ACAN test page and which variants laboratories name. No
