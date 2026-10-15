@@ -11,17 +11,18 @@ WHERE THE DATA STANDS
   (round three, 2026-10-15; answers about one locus are at the top of its note, answers
   about several are kept whole in knowledge/science/round-3-answers.txt). Round four
   (2026-10-15, after this file was rewritten) so far: overviews of acan, agouti and
-  b4galt7, and answers to B3, B4, C1, C4, C6, D6, E3, G2, G4, G6 (part), G7, H1 and H2; answers about several loci are kept whole in
+  b4galt7, and answers to B3, B4, C1, C4, C6, D6, E3, G2, G4, G6 (part), G7, H1, H2 and H3; answers about several loci are kept whole in
   knowledge/science/round-4-answers.txt. The lists below
   are each kept on one long line, sorted, so they are easy to edit.
-RESEARCHED: abstracted_jump_strength, acan, agouti, b4galt7, brindle, champagne, ckm, dmrt3, dun, ednrb, extension, flaxen, gbe1, grey, gys1, hmga2, kit, lama3, lamc2, lcorl, leopard, matp, met, mitf, mstn, mushroom, myo5a, patn1, pax3, pdk4, plod1, ppib, prkdc, rapgef5, roan, ryr1, scn4a, shox, silver, slc5a3, sooty, st14, tiger_eye, tobiano, toe1.
+RESEARCHED: abstracted_jump_strength, acan, agouti, b4galt7, brindle, champagne, ckm, dmrt3, dun, ednrb, extension, flaxen, gbe1, grey, gys1, hmga2, kit, lama3, lamc2, lcorl, leopard, matp, met, mitf, mstn, mushroom, myo5a, patn1, pax3, pdk4, plod1, ppib, prkdc, rapgef5, roan, ryr1, scn4a, shade, shox, silver, slc5a3, sooty, st14, tiger_eye, tobiano, toe1.
 - NO SESSION OPENED A SOURCE. Every fact rests on the owner's documents, and every
   citation is an address those documents gave (some built from a DOI or PubMed number
   they gave). None has been opened. The owner said not to spend effort on that for now.
 - The owner's rule (knowledge/decisions.txt): the science wins. Where it contradicts
   what a locus said before, the locus is changed.
-- The 23 other abstracted loci have had no research. flaxen and sooty (round four) have,
-  and stay abstracted: no gene is known for either.
+- The 22 other abstracted loci have had no research. flaxen, sooty and shade (round four)
+  have, and stay abstracted: no gene is known for flaxen or sooty, and shade's published
+  region has no causal variant (its three alleles model a dosage, not the marker).
 - Every allele says how far to trust it ("quality") and every citation whether a
   maintainer has opened it ("verified"). No citation is verified, no allele is
   "verified", four alleles are "invalid" (acan D3, kit W17a and W17b, shox sa),
@@ -91,8 +92,8 @@ THE OTHER LOCI
 - Every "general population" table is an estimate.
 
 CITATIONS
-- Every published locus has at least one citation; of the abstracted loci only flaxen and
-  sooty have any (round four).
+- Every published locus has at least one citation; of the abstracted loci only flaxen,
+  sooty and shade have any (round four).
 - For 29 loci some citations were gathered from earlier notes, with "source" guessed from
   the host name. The rest are the owner's addresses, unopened.
 - A citation hangs on the locus, not on an allele, a genotype or a table.
@@ -101,7 +102,7 @@ CITATIONS
 SCIENCE NOTES
 - Every researched locus's note is the owner's research, newest first: ROUND THREE,
   then ROUND TWO, then LATEST FINDINGS (her later audit answers), then her first document.
-NOTES FROM RESEARCH: abstracted_jump_strength, acan, agouti, b4galt7, brindle, champagne, ckm, dmrt3, dun, ednrb, extension, flaxen, gbe1, grey, gys1, hmga2, kit, lama3, lamc2, lcorl, leopard, matp, met, mitf, mstn, mushroom, myo5a, patn1, pax3, pdk4, plod1, ppib, prkdc, rapgef5, roan, ryr1, scn4a, shox, silver, slc5a3, sooty, st14, tiger_eye, tobiano, toe1.
+NOTES FROM RESEARCH: abstracted_jump_strength, acan, agouti, b4galt7, brindle, champagne, ckm, dmrt3, dun, ednrb, extension, flaxen, gbe1, grey, gys1, hmga2, kit, lama3, lamc2, lcorl, leopard, matp, met, mitf, mstn, mushroom, myo5a, patn1, pax3, pdk4, plod1, ppib, prkdc, rapgef5, roan, ryr1, scn4a, shade, shox, silver, slc5a3, sooty, st14, tiger_eye, tobiano, toe1.
 - The notes for unresearched abstracted loci are earlier notes, not yet audited.
 - 14 loci have no note: the five abstracted body loci, the eight eye loci, patn2.
 
@@ -198,8 +199,6 @@ BLOCK H - TRAITS HELD AS ABSTRACTIONS
 These are kept as made-up loci because no gene was known. For each: has a gene, locus or
 variant now been published? If so, give it, the paper, and how it is inherited. If not,
 say what is known (heritability, candidate regions) and from which source.
-H3. Bay shade (light to dark bay; a modifier near ASIP/RALY on chromosome 22 has been
-    suggested).
 H4. Pangare (mealy: pale muzzle, eyes, flanks and belly).
 H5. Rabicano (white ticking on the flanks, a "skunk" tail).
 H6. Manchado (the Argentine spotting pattern).

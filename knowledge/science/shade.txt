@@ -1,6 +1,210 @@
 Shade (ASIP/RALY) - science notes
 (A science note on this locus, written 2026-10-12. Not yet audited.)
 
+ROUND FOUR (the owner's answer to question H3, 2026-10-15)
+-----------------------------------------------------------
+No address has been opened by a maintainer. Her document follows whole, as she sent it
+(the [web:N] and [page:0] markers point to the sources listed at its end). It confirms
+the study the earlier note below was built on (Corbin et al. 2020), and adds detail.
+
+The session's reading:
+  - The locus stays abstracted: no causal variant or test, and the three alleles here
+    model the dosage, not the lead marker's T and C. Making it a published locus with
+    the marker's alleles would be a format change for the owner.
+  - The answer's suggested numbers (0.55, -0.18, -0.08) are its own modelling advice.
+  - The first round's "whether agouti is A/a" in the summary is kept: Corbin et al.
+    found A/a against A/A weak and not significant once Shade and MC1R were counted,
+    but Druml et al. 2018 found A/a E/E bays darker.
+
+--- her document ---
+# Bay shade (light bay to dark bay)
+
+## Bottom line
+
+**Yes—bay shade now has a published associated locus, called *Shade*, on horse chromosome 22 near *ASIP* and *RALY*.** Corbin et al. (2020) mapped variation in the amount/distribution of black pigment in bay horses to an approximately 0.5 Mb region on ECA22; the lead SNP lies between *ASIP* and *RALY*. However, **no causal mutation has been proven and no validated commercial DNA test exists**. [page:0]
+
+It is best modeled as an **additive, quantitative modifier of bay phenotype**, not as a simple dominant or recessive “light bay/dark bay” gene. The effect is on the amount and extent of black eumelanin in the body coat; it does not create bay from a chestnut, nor does it override the base-color system. [page:0]
+
+## Primary paper
+
+**Corbin, L. J., Pope, J., Sanson, J., Antczak, D. F., Miller, D., Sadeghi, R., & Brooks, S. A. (2020). “An Independent Locus Upstream of *ASIP* Controls Variation in the Shade of the Bay Coat Colour in Horses.” *Genes* 11(6):606.**  
+DOI: [10.3390/genes11060606](https://doi.org/10.3390/genes11060606)  
+PubMed: [32486210](https://pubmed.ncbi.nlm.nih.gov/32486210/)  
+Full text: https://pmc.ncbi.nlm.nih.gov/articles/PMC7349280/ [page:0]
+
+The study used **126 bay horses** after quality control—39 Quarter Horses, 61 Arabians, 23 Persian Horses, 2 Standardbreds, and 1 Thoroughbred—from owner-submitted photographs and existing genotype/sequence datasets. Horses were ranked from light bay, with black limited to points, to very dark bay, with black extending across much of the body. [page:0]
+
+## What the locus does
+
+Bay is produced when a horse has at least one functional *MC1R* \(E\) allele and at least one dominant *ASIP* \(A\) allele: black pigment is restricted largely to the mane, tail, lower legs, ear edges, and related “points,” while the body remains red/bay. [page:0][web:77]
+
+The *Shade* locus modifies **how much black pigment appears in the body area** of a bay horse:
+
+- Lower *Shade* rank: lighter bay, with black largely confined to the points.
+- Higher *Shade* rank: darker bay, with more black eumelanin distributed through the body.
+- The extreme end approaches black-like body pigmentation while retaining enough lighter flank/nose areas to distinguish it from \(a/a\) black. [page:0]
+
+This is therefore a **quantitative bay-shade modifier**, not a separate base-color allele.
+
+## Published genomic evidence
+
+### Associated region
+
+The GWAS identified a single significant region spanning about **0.5 Mb on ECA22**, immediately upstream of *ASIP*. The broader candidate region examined was **ECA22:24,841,938–25,178,735** and contained 21 annotated genes. [page:0]
+
+The lead GWAS SNP was:
+
+| Item | Detail |
+|---|---|
+| SNP | AX-103117105 |
+| Assembly | **EquCab2.0** |
+| Position | **ECA22:24,998,294** |
+| Effect allele | T |
+| Effect-allele frequency | 0.38 in the study sample |
+| Effect | −32.2 shade-rank units per T allele; approximately one-quarter of the 126-horse ranking range |
+| \(p\)-value | \(9.76 \times 10^{-15}\) |
+| Location | Between *ASIP* and *RALY*—downstream of *ASIP*, upstream of *RALY* |
+
+The authors explicitly state that the lead SNP is **unlikely to be causal** and is probably tagging functional variation elsewhere in the high-LD region. [page:0]
+
+A second approximately independent index SNP, AX-103538677, was also associated (\(p = 1.22 \times 10^{-7}\); effect allele C, frequency 0.35). No additional genome-wide significant signal remained after conditioning on these two SNPs. [page:0]
+
+### Candidate causal variant
+
+The most plausible functional candidate is a variable **(GGCAGC)\(_n\) repeat in exon 6 of *RALY***, producing a serine/glycine motif change:
+
+- Reference allele: reference sequence.
+- 6 bp deletion: **NC_009165.2:g.24,917,006_24,917,007delGGCAGC**.
+- 6 bp insertion: **NC_009165.2:g.24,917,006_24,917,007insGGCAGC**.
+- Protein consequence: ENSECAP00000010319.1:p.Ser238_Gly239insGS or delGS.
+- Association with bay-shade rank: \(p = 3.802 \times 10^{-10}\).
+
+All coordinates here are **EquCab2.0**, because the authors found an apparent artificial duplication around ECA22:25.7–25.87 Mb in EquCab3.0 and used EquCab2.0 for reporting. [page:0]
+
+The *RALY* indel is associated, but the GWAS lead SNP remained the better predictor in the available data. Because the region has strong linkage disequilibrium, the authors could **not distinguish** whether the causal change is in *RALY*, in *ASIP* regulation, or in another linked regulatory element. [page:0]
+
+## Inheritance
+
+The published evidence supports an **additive allele-dosage effect**, not a clean dominant/recessive model:
+
+- Each additional T allele at AX-103117105 reduced the bay-shade rank by about 32 units, i.e. moved the horse toward lighter bay. [page:0]
+- The effect was significant within Arabians (\(n=61\)), Persian Horses (\(n=23\)), and Quarter Horses (\(n=39\)), as well as in the combined sample (\(n=126\)). [page:0]
+- *MC1R* also contributed to shade: \(E/E\) horses were on average darker than \(E/e\) horses. The combined *Shade* and *MC1R* effects appeared additive. [page:0]
+- *ASIP* \(A/a\) versus \(A/A\) had only a weak, non-significant shade effect after accounting for the *Shade* and *MC1R* effects. [page:0]
+
+So a practical simulator rule is:
+
+```text
+bay_shade = base_value
+          + Shade_allele_dosage_effect
+          + MC1R_dosage_effect
+          + polygenic/environmental residual
+```
+
+Do **not** implement bay shade as a simple recessive trait unless you deliberately choose a simplified game convention.
+
+## What is established versus unresolved
+
+| Question | Status |
+|---|---|
+| Is bay shade genetically influenced? | Yes; a significant ECA22 association was published in 2020. [page:0] |
+| Is there a named locus? | Yes: **Shade**, near *ASIP*/*RALY* on ECA22. [page:0] |
+| Is the causal variant known? | No; the lead SNP is a tag, and the *RALY* indel is a candidate but unproven. [page:0] |
+| Is there a DNA test? | No validated commercial test is established from this paper. [page:0] |
+| Is inheritance dominant or recessive? | Neither is established; the data fit an additive dosage model. [page:0] |
+| Does it affect chestnuts? | The published study excluded \(e/e\) chestnuts; it concerns bay horses with functional black-pigment production. [page:0] |
+| Does it affect black horses? | The study excluded \(a/a\) black horses; its direct evidence is for bay horses. [page:0] |
+
+## Simulator implementation
+
+Use a **quantitative Shade locus** with an additive allele effect:
+
+```text
+SHD/SHD = strongest lightening / least body eumelanin
+SHD/shd = intermediate
+shd/shd = darkest bay tendency
+```
+
+Important: the published T effect allele was associated with a **lower rank**, meaning less body black and therefore a **lighter** bay. If your simulator uses a “darkness” scale, invert the sign.
+
+Recommended model:
+
+```text
+bay_darkness = 0.0–1.0
+
+bay_darkness =
+    0.55
+  - 0.18 * count_of_T_at_Shade
+  - 0.08 * MC1R_e_dosage
+  + polygenic_residual
+```
+
+Then convert `bay_darkness` into visual parameters:
+
+- Red-channel body base color.
+- Amount of black ticking or shading in the body.
+- Size/intensity of black points.
+- Gradual transition from bright red bay through standard bay to dark/mahogany bay.
+
+Do not use *Shade* to produce:
+
+- Chestnut (\(e/e\)).
+- True black (\(a/a\) at *ASIP*).
+- Bay dun, buckskin, or other dilution phenotypes.
+- Gray progression.
+
+Those require their own established loci.
+
+## Other shade influences
+
+Bay shade is not wholly explained by *Shade*. The same GWAS found that *MC1R* genotype affects shade: horses with two \(E\) alleles tended to be darker than \(E/e\) horses. [page:0]
+
+An earlier colorimetric study by Druml et al. (2018), *Czech Journal of Animal Science* 63:347–355, also found that *ASIP*/*MC1R* genotype combinations affected measured brightness and chromaticity; \(A/a\ E/E\) horses tended to be darker and were over-represented among seal brown and dark mahogany bay classifications. DOI: [10.17221/67/2018-CJAS](http://cjas.agriculturejournals.cz/artkey/cjs-201809-0002_discriminant-analysis-of-colour-measurements-reveals-allele-dosage-effect-of-asip-mc1r-in-bay-horses.php). [web:76]
+
+Therefore, a realistic simulator should retain residual variation beyond *Shade*: nutrition/season, sun exposure, age, photographic conditions, and unmeasured polygenic factors. The Corbin study itself used owner photographs with variable lighting and noted that future work should use spectrophotometry or color-calibrated images. [page:0]
+
+## Effects outside coat color
+
+No published evidence shows that the bay-shade *Shade* locus affects height, speed, muscle, bone structure, hoof shape, feathering, or mane/tail length. Its demonstrated phenotype is pigmentation: the extent of black eumelanin in the bay body coat. [page:0]
+
+The authors note a theoretical possibility of pleiotropy because *ASIP* regulatory variation can affect obesity-related traits in mice, but this is **speculative for the equine Shade allele** and must not be implemented as an established health or conformation effect. [page:0]
+
+## Breeds and allele frequency
+
+The published association was demonstrated in a mixed sample of **126 horses**: Quarter Horse, Arabian, Persian Horse, Standardbred, and Thoroughbred. The T effect allele at AX-103117105 had a frequency of **0.38** in that sample; this is an **allele frequency**, not a share of carriers, and it comes from the 2020 Corbin et al. GWAS. [page:0]
+
+That frequency should not be generalized to breeds or worldwide horse populations without breed-specific genotyping. A later Konik study found that the tested *RALY* polymorphism was in complete linkage disequilibrium with the 11-bp *ASIP* indel in 73 Polish Primitive Horses, with all tested bay or bay-dun horses carrying the “darkening” *RALY* allele; this is breed-specific evidence about LD and does not establish a universal bay-shade allele frequency. [web:71]
+
+## Controversy and future science
+
+The main unresolved issue is **which variant causes the effect**. The lead SNP is intergenic and likely tags a causal variant; the *RALY* exon-6 repeat is a strong candidate but could not be separated from the GWAS signal because of high linkage disequilibrium. [page:0]
+
+Future work needs:
+
+- Larger, multi-breed cohorts.
+- Objective spectrophotometric or color-calibrated phenotyping.
+- Long-read or haplotype-resolved assembly of the difficult ECA22 region.
+- Functional testing of *RALY* and *ASIP* regulatory variants.
+- Tests for pleiotropic effects on metabolism, behavior, and health. [page:0]
+
+## Sources
+
+- Corbin et al. 2020, primary paper: https://doi.org/10.3390/genes11060606; https://pmc.ncbi.nlm.nih.gov/articles/PMC7349280/; https://pubmed.ncbi.nlm.nih.gov/32486210/ [page:0]  
+- UC Davis VGL horse coat-color overview: https://vgl.ucdavis.edu/resources/horse-coat-color [web:5]  
+- UC Davis VGL test directory: https://vgl.ucdavis.edu/tests [web:22]  
+- Druml et al. 2018, *ASIP*/*MC1R* color measurements: http://cjas.agriculturejournals.cz/artkey/cjs-201809-0002_discriminant-analysis-of-colour-measurements-reveals-allele-dosage-effect-of-asip-mc1r-in-bay-horses.php [web:76]  
+- Konik *RALY*/*ASIP* linkage study: https://academic.oup.com/jhered/article/112/5/436/6357767 [web:71]  
+- Sarcidano horse review giving EquCab3.0 *ASIP* coordinates: https://pmc.ncbi.nlm.nih.gov/articles/PMC9558981/ [web:77]  
+- ASIP livestock review situating the equine Shade locus: https://onlinelibrary.wiley.com/doi/full/10.1002/age.70139 [web:73]
+--- end of her document ---
+
+What the gene file does with it: the summary gives the study, the lead marker and its
+frequency in the sample, the additive effect, the RALY candidate and the E/E effect;
+five citations. Alleles, outcomes and tables unchanged.
+
+EARLIER NOTE (2026-10-12, before round four)
+--------------------------------------------
+
 What it is modelling
 --------------------
 
