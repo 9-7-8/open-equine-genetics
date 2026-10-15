@@ -294,6 +294,7 @@ D3. PDK4 g.38973231A>G and CKM g.15884567G>A are candidate racing-performance va
     not disease variants. For each, which allele is ancestral?
 D4. What allele frequencies are published, by breed, for LCORL (marker BIEC2-808543),
     HMGA2, MSTN g.66493737C>T, PDK4 g.38973231A>G and CKM g.15884567G>A?
+
 BLOCK E - DISORDERS OF ARABIANS AND THOROUGHBREDS
 -------------------------------------------------
 E2. Cerebellar abiotrophy (TOE1 g.2171G>A): about 20% of Arabians are carriers. What
