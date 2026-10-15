@@ -5,7 +5,7 @@
   "name": "Pangare (mealy)",
   "symbol": null,
   "evidence": "abstracted",
-  "summary": "Mealy: the pale muzzle, eye rings, belly, flanks and inner legs of an Exmoor pony or a Fjord. It takes red pigment off the soft parts of the horse, which is why it shows brightest on a chestnut, spares a bay's black points entirely, and is invisible on a black. A dosage of two variant alleles; near-fixed in some pony and draft breeds and no confirmed mutation anywhere.",
+  "summary": "Mealy: the pale muzzle, eye rings, belly, flanks and inner legs of an Exmoor pony or a Fjord. It takes red pigment off the soft parts of the horse, which is why it shows brightest on a chestnut, spares a bay's black points entirely, and is invisible on a black. Held here as a dosage of two made-up alleles: no gene, locus, variant or DNA test for mealy has been published, and how it is inherited is unknown. The one lead is a region about 50 kb downstream of EDN3 on chromosome 22 (Jaderkvist Fegraeus et al. 2018): in 1,915 horses of 18 breeds one marker there was mostly C in pony and draft breeds, near fixed in Exmoors and Fjords where mealy is common, and mostly T in racing and show-jumping breeds where it is rare. That study was about harness-racing performance, not a study of mealy horses, so the link is indirect. Mealy is not the same thing as seal brown, though the two can look alike. It has no known effect on build, speed or the long hair.",
   "inheritance": "autosomal",
   "affects_coat": true,
   "alleles": [
@@ -42,5 +42,10 @@
       ]
     }
   ],
-  "citations": []
+  "citations": [
+    { "source": "pubmed", "label": "PMID 29767791: Jaderkvist Fegraeus et al. 2018, Physiol Rep 6(10):e13700, a region near EDN3, harness racing and coat colour", "url": "https://pubmed.ncbi.nlm.nih.gov/29767791/", "verified": false },
+    { "source": "other", "label": "DiVA: Jaderkvist Fegraeus et al. 2018, full text", "url": "https://www.diva-portal.org/smash/get/diva2:1239798/FULLTEXT01.pdf", "verified": false },
+    { "source": "pubmed", "label": "PMC11308356: Icelandic horse study discussing EDN3 and OCA2 as mealy candidates", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11308356/", "verified": false },
+    { "source": "ucdavis-vgl", "label": "UC Davis VGL: horse tests (no mealy test)", "url": "https://vgl.ucdavis.edu/tests", "verified": false }
+  ]
 }
