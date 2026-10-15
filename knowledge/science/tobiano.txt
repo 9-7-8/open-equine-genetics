@@ -4,6 +4,12 @@ No source was opened by the session that filed this. genes/tobiano.json was chan
 on the owner's word the same day; what is left over is in knowledge/known-issues.txt.
 Not yet audited.)
 
+ROUND THREE (the owner's answer to question C6, 2026-10-15)
+------------------------------------------------------------
+The whole answer is in knowledge/science/round-3-answers.txt. No address has been opened
+by a maintainer.
+- The Paint white-score study (PMC10671537): TO/N with W20/N had a median 48% white, and TO/N, O/N and W20/N together 78.5%. Not modelled; the whole answer is in knowledge/science/round-3-answers.txt (C6).
+
 ROUND THREE (the owner's answer to question C4, 2026-10-15)
 ------------------------------------------------------------
 This came after everything below and settles the size left unexplained in round two. No

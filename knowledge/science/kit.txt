@@ -4,6 +4,12 @@ No source was opened by the session that filed this. genes/kit.json was changed 
 on the owner's word the same day; what is left over is in knowledge/known-issues.txt.
 Not yet audited.)
 
+ROUND THREE (the owner's answer to question C6, 2026-10-15)
+------------------------------------------------------------
+The whole answer is in knowledge/science/round-3-answers.txt. No address has been opened
+by a maintainer.
+- Allele frequencies by breed (Avila et al. 2022): SB1 up to 0.083 (Tennessee Walking Horse); W5 0.0075 in Thoroughbreds; W10 0.00031 in Quarter Horses; W20 in 25 of 28 breeds, up to 0.34 (Thoroughbred) and 0.33 (Gypsy Cob), absent from Arabian, Icelandic and Fjord; W22 0.015 in Thoroughbreds and Oldenburgs. No figures for W13, W32, W34, W35. No table made (see the file). In 1,195 Paint Horses (PMC10671537) median white rose with the number of spotting alleles; W20/N alone gave 5% against 4%; chestnuts showed more white.
+
 ROUND THREE (the owner's answer to question C2, 2026-10-15)
 ------------------------------------------------------------
 This came after everything below and settles the W22 point left UNSETTLED in round two.

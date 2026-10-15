@@ -4,6 +4,12 @@ No source was opened by the session that filed this. genes/pax3.json was changed
 on the owner's word the same day; what is left over is in knowledge/known-issues.txt.
 Not yet audited.)
 
+ROUND THREE (the owner's answer to question C6, 2026-10-15)
+------------------------------------------------------------
+The whole answer is in knowledge/science/round-3-answers.txt. No address has been opened
+by a maintainer.
+- SW2 0.0078 (Paint) and 0.0083 (Quarter Horse), SW4 not found (Avila et al. 2022): the tables already in the data. SW10 frequency in the PRE was not answered.
+
 ROUND THREE (the owner's answer to question C5, 2026-10-15)
 ------------------------------------------------------------
 This settles what SW9 and SW10 are. No address has been opened by a maintainer. Her

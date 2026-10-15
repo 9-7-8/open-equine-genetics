@@ -283,3 +283,124 @@ The main non-cosmetic implementation flags are:
 - Bellone R.R. et al. **Two Variants in SLC24A5 Are Associated with “Tiger-Eye” Iris Color in Puerto Rican Paso Fino Horses.** *G3* 2017. [web:11][page:14]
 - UC Davis Veterinary Genetics Laboratory, **Pearl** test page. [web:15]
 - UC Davis Veterinary Genetics Laboratory summary of the 2022 breed-distribution study. [web:16]
+
+
+QUESTION C6 - WHITE-PATTERN ALLELE FREQUENCIES BY BREED (2026-10-15)
+---------------------------------------------------------------------
+Her answer is kept whole below as she sent it (one formula written in plain text).
+
+What was done with it (the session, 2026-10-15)
+- No KIT or MITF table was made. A table must give every allele's share, and KIT is one
+  locus of 40 alleles here: the answer gives five (SB1, W5, W10, W20, W22) for some
+  breeds, nothing for W13, W32, W34 or W35, and "present" where the study's figure is
+  in its supplement. Its "practical priors" fill the gaps with 0 or "rare lineage
+  rate", which is its own modelling, not the study's. MITF likewise: the study tested
+  SW1-SW6, not SW7, SW8 or SW9.
+- W20 and W22: this data treats W22 as the W20_22 haplotype (round three, C2). Whether
+  the study's W20 figure counts the W20 on W22 chromosomes is not said, so the two
+  cannot go into one table here without guessing.
+- PAX3: the SW2 tables already in the data (Paint 0.0078, Quarter Horse 0.0083) are
+  these figures.
+- The Paint white-score study (PMC10671537) is the first source given for how white
+  patterns add up across loci and for chestnut showing more white. Noted in kit, mitf,
+  pax3 and tobiano; not modelled.
+- The summaries of kit and mitf gain the headline frequencies (W20 widespread, SW1 up to
+  0.10).
+
+=== The answer as sent ===
+# C6 — White-pattern allele frequencies by breed
+
+The best current population-scale reference is Avila et al. (2022), a UC Davis VGL study of **11,281 horses from 28 breeds**, with relatedness-filtered allele frequencies for **SB1, W5, W10, W20, W22, SW1–SW6**.  For **W13, W32, W34, W35, SW7, and SW8**, no comparable multi-breed frequency table yet exists; they are best modeled as rare, lineage- or breed-associated variants. [pmc.ncbi.nlm.nih](https://pmc.ncbi.nlm.nih.gov/articles/PMC9498372/)
+
+## Frequency conventions
+
+- **a.f.** = allele frequency: proportion of all alleles in the sampled breed that are the variant.
+- **Carrier share** ≈ 2 × a.f. when the allele is rare and Hardy–Weinberg assumptions are reasonable.
+- UC Davis filtered first-degree relatives before estimating frequencies, which is preferable for simulator base rates because it reduces founder-horse inflation. [pmc.ncbi.nlm.nih](https://pmc.ncbi.nlm.nih.gov/articles/PMC9498372/)
+- These are **testing-cohort frequencies**, not necessarily breed-wide census frequencies; testing is often biased toward patterned horses or breeding stock. [pmc.ncbi.nlm.nih](https://pmc.ncbi.nlm.nih.gov/articles/PMC9498372/)
+
+## KIT alleles
+
+| Allele | Best-known breed distribution | Published frequency / carrier evidence | Simulator implementation |
+|---|---|---:|---|
+| **SB1** | Found in Gypsy Cob, Gypsy Vanner, Miniature Horse, Missouri Fox Trotter, Mustang, Paint, POA, Quarter Horse, Shetland Pony, Tennessee Walking Horse. [pmc.ncbi.nlm.nih](https://pmc.ncbi.nlm.nih.gov/articles/PMC9498372/) | Highest: **Tennessee Walking Horse a.f. 0.083**; lowest reported: **Quarter Horse a.f. 0.0010**. Only six homozygotes appeared in the study. [pmc.ncbi.nlm.nih](https://pmc.ncbi.nlm.nih.gov/articles/PMC9498372/) | Incomplete dominant white-spotting dose; SB1/SB1 can be all white. Use breed-specific base rate, with a strong TWH/Paint/Gypsy prior. |
+| **W5** | Thoroughbred family associated with Puchilingui. [avian2.animalgenetics](https://avian2.animalgenetics.com/Equine/Coat_Color/DW.asp) | **Thoroughbred a.f. 0.0075** (2 heterozygotes among 67 filtered horses); no W5/W5 observed. [pmc.ncbi.nlm.nih](https://pmc.ncbi.nlm.nih.gov/articles/PMC9498372/) | Rare lineage tag; heterozygote variable white, homozygote presumed lethal. |
+| **W10** | Quarter Horse origin; detected in Quarter Horse and Paint Horse in the large survey. [pmc.ncbi.nlm.nih](https://pmc.ncbi.nlm.nih.gov/articles/PMC9498372/) | **Quarter Horse a.f. 0.00031**; Paint Horse 0 in the filtered dataset. No homozygote observed. [pmc.ncbi.nlm.nih](https://pmc.ncbi.nlm.nih.gov/articles/PMC9498372/) | Very rare dominant-white allele; W10/W10 presumed lethal. |
+| **W13** | Originally identified in Quarter Horse-related families; later found in Shetland Ponies and Miniature Horses. [pmc.ncbi.nlm.nih](https://pmc.ncbi.nlm.nih.gov/articles/PMC10854722/) | **No published breed allele-frequency table**; treat as very rare. [pmc.ncbi.nlm.nih](https://pmc.ncbi.nlm.nih.gov/articles/PMC10854722/) | Rare dominant white; likely all-white heterozygote and presumed homozygous lethal. |
+| **W20** | Widespread: present in 25 of 28 surveyed breeds; absent from Arabian, Icelandic Horse, and Norwegian Fjord in that dataset. [pmc.ncbi.nlm.nih](https://pmc.ncbi.nlm.nih.gov/articles/PMC9498372/) | Highest: **Thoroughbred 0.34**, **Gypsy Cob 0.33**, Gypsy Vanner 0.27, Dutch Warmblood 0.26, Oldenburg 0.26, Welsh Pony 0.26; Paint 0.21; Quarter Horse 0.14. [pmc.ncbi.nlm.nih](https://pmc.ncbi.nlm.nih.gov/articles/PMC9498372/) | Mild additive spotting modifier; allow homozygotes; strongest effect when stacked with TO, SB1, SW, or O. |
+| **W22** | Thoroughbred founder lineage; also detected in Oldenburg, Paint, and Quarter Horse. [pmc.ncbi.nlm.nih](https://pmc.ncbi.nlm.nih.gov/articles/PMC9498372/) | **Thoroughbred a.f. 0.015**, Oldenburg 0.015, Paint 0.0015, Quarter Horse 0.00047; no homozygote observed. [pmc.ncbi.nlm.nih](https://pmc.ncbi.nlm.nih.gov/articles/PMC9498372/) | Rare dominant white; use founder-lineage flag rather than a broad breed frequency. |
+| **W32** | Reported across multiple breeds; associated with no markings to sabino-like white. [pmc.ncbi.nlm.nih](https://pmc.ncbi.nlm.nih.gov/articles/PMC10854722/) | **No broad published frequency table**; rare. [pmc.ncbi.nlm.nih](https://pmc.ncbi.nlm.nih.gov/articles/PMC10854722/) | Low-penetrance/variable white-spotting modifier; do not treat as reliably all-white alone. |
+| **W34** | Reported in Paint, Quarter Horse, Appaloosa, Arabian, Mangalarga, Morgan, Mustang, Rocky Mountain Horse, and Warmbloods. [en.wikipedia](https://en.wikipedia.org/wiki/Dominant_white) | **No broad published frequency table**; rare. [pmc.ncbi.nlm.nih](https://pmc.ncbi.nlm.nih.gov/articles/PMC10854722/) | Variable sabino-like spotting allele; use low breed-specific probability, not a fixed visual outcome. |
+| **W35** | Reported as a KIT UTR variant producing no markings to sabino-like white. [pmc.ncbi.nlm.nih](https://pmc.ncbi.nlm.nih.gov/articles/PMC10854722/) | **No broad published frequency table**; rare. [pmc.ncbi.nlm.nih](https://pmc.ncbi.nlm.nih.gov/articles/PMC10854722/) | Variable, often subtle spotting modifier; best handled as a low-effect additive allele. |
+
+### Practical KIT priors
+
+For a simulation, use these as starting allele frequencies, then apply a "founder/lineage" override for W5, W10, W13, W22, W32, W34, and W35:
+
+| Breed | SB1 | W5 | W10 | W20 | W22 |
+|---|---:|---:|---:|---:|---:|
+| Thoroughbred | 0 | 0.0075 | 0 | 0.34 | 0.015 |
+| Quarter Horse | 0.0010 | 0 | 0.00031 | 0.14 | 0.00047 |
+| Paint Horse | present; use APHA-specific testing data | 0 | 0 | 0.21 | 0.0015 |
+| Gypsy Cob | present | 0 | 0 | 0.33 | 0 |
+| Gypsy Vanner | present | 0 | 0 | 0.27 | 0 |
+| Tennessee Walking Horse | 0.083 | 0 | 0 | 0.072 | 0 |
+| Miniature Horse | present | 0 | 0 | 0.046 | 0 |
+| Shetland Pony | present | 0 | 0 | 0.013 | 0 |
+| Arabian | 0 | 0 | 0 | 0 | 0 |
+| Icelandic Horse | 0 | 0 | 0 | 0 | 0 |
+| Norwegian Fjord | 0 | 0 | 0 | 0 | 0 |
+
+These values come directly from the UC Davis/VGL 28-breed frequency study; "present" indicates the allele was detected but the table-level frequency was published in the supplement rather than the main text. [pmc.ncbi.nlm.nih](https://pmc.ncbi.nlm.nih.gov/articles/PMC9498372/)
+
+## MITF splashed-white alleles
+
+| Allele | Main breed associations | Published frequency / evidence | Simulator implementation |
+|---|---|---:|---|
+| **SW1** | Broadest SW allele: Appaloosa, Dutch Warmblood, Gypsy Cob, Icelandic, Knabstrupper, Miniature, Morgan, Oldenburg, Paint, POA, Quarter Horse, Shetland, Welsh Pony. [pmc.ncbi.nlm.nih](https://pmc.ncbi.nlm.nih.gov/articles/PMC9498372/) | Highest: **Miniature Horse a.f. 0.10**; Icelandic 0.076; Welsh 0.057; Paint 0.053; Appaloosa 0.035; Knabstrupper 0.036; Quarter Horse 0.017; Morgan 0.018; Shetland 0.0070. [pmc.ncbi.nlm.nih](https://pmc.ncbi.nlm.nih.gov/articles/PMC9498372/) | Dominant splashed pattern; SW1/SW1 is viable and often more white. |
+| **SW3** | Quarter Horse and Paint Horse lineages. [vgl.ucdavis](https://vgl.ucdavis.edu/test/splashed-white) | **Paint a.f. 0.00056**; **Quarter Horse a.f. 0.00036**; no homozygote observed. [pmc.ncbi.nlm.nih](https://pmc.ncbi.nlm.nih.gov/articles/PMC9498372/) | Dominant splashed white; SW3/SW3 presumed lethal—block or abort the mating outcome. |
+| **SW5** | Essentially Paint Horse; one exception involved a double-registered AQHA/APHA Quarter Horse for SW6. [pmc.ncbi.nlm.nih](https://pmc.ncbi.nlm.nih.gov/articles/PMC9498372/) | **Paint a.f. 0.0022**; no homozygote observed. [pmc.ncbi.nlm.nih](https://pmc.ncbi.nlm.nih.gov/articles/PMC9498372/) | Rare Paint-lineage splashed white; likely homozygous lethal. |
+| **SW6** | Paint Horse; one double-registered Quarter Horse exception. [pmc.ncbi.nlm.nih](https://pmc.ncbi.nlm.nih.gov/articles/PMC9498372/) | **Paint a.f. 0.00056**; Quarter Horse 0 after filtering. [pmc.ncbi.nlm.nih](https://pmc.ncbi.nlm.nih.gov/articles/PMC9498372/) | Rare Paint-lineage splashed white; likely homozygous lethal. |
+| **SW7** | Reported in Quarter Horse and Paint Horse. [vgl.ucdavis](https://vgl.ucdavis.edu/test/splashed-white) | **No multi-breed frequency table**; rare lineage variant. [pmc.ncbi.nlm.nih](https://pmc.ncbi.nlm.nih.gov/articles/PMC10854722/) | Dominant splashed white with blue eyes and possible deafness; use a very low APHA/AQHA-lineage rate. |
+| **SW8** | Thoroughbred; identified as a de novo MITF deletion in one stallion and an offspring. [onlinelibrary.wiley](https://onlinelibrary.wiley.com/doi/full/10.1111/age.13352) | **No population frequency**; effectively a private/de novo family variant. [onlinelibrary.wiley](https://onlinelibrary.wiley.com/doi/full/10.1111/age.13352) | Founder mutation: allow inheritance only from identified descendants; do not assign a general Thoroughbred allele frequency. |
+
+### Practical MITF priors
+
+| Breed | SW1 | SW3 | SW5 | SW6 | SW7 | SW8 |
+|---|---:|---:|---:|---:|---:|---:|
+| Miniature Horse | 0.10 | 0 | 0 | 0 | 0 | 0 |
+| Icelandic Horse | 0.076 | 0 | 0 | 0 | 0 | 0 |
+| Welsh Pony | 0.057 | 0 | 0 | 0 | 0 | 0 |
+| Paint Horse | 0.053 | 0.00056 | 0.0022 | 0.00056 | rare lineage rate | 0 |
+| Knabstrupper | 0.036 | 0 | 0 | 0 | 0 | 0 |
+| Appaloosa | 0.035 | 0 | 0 | 0 | 0 | 0 |
+| Gypsy Cob | 0.026 | 0 | 0 | 0 | 0 | 0 |
+| Quarter Horse | 0.017 | 0.00036 | 0 | 0 | rare lineage rate | 0 |
+| Morgan | 0.018 | 0 | 0 | 0 | 0 | 0 |
+| Thoroughbred | 0 | 0 | 0 | 0 | 0 | founder-descendant only |
+
+SW2 and SW4 are PAX3 rather than MITF, so they should be excluded from a MITF-only table; SW2 had filtered frequencies of 0.0078 in Paints and 0.0083 in Quarter Horses, while SW4 was not detected in the survey. [pmc.ncbi.nlm.nih](https://pmc.ncbi.nlm.nih.gov/articles/PMC9498372/)
+
+## Epistasis and health effects
+
+- White percentage rises with the number of spotting alleles: in 1,195 Paint Horses, median white coat rose from 4% with zero tested spotting alleles to 19% with two, 53% with three, and 100% in the single five-allele horse. [pmc.ncbi.nlm.nih](https://pmc.ncbi.nlm.nih.gov/articles/PMC10671537/)
+- W20 alone is real but mild: W20/N Paints averaged a median 5% white versus 4% for N/N, while SB1/N and SW1/N were around 10%. [pmc.ncbi.nlm.nih](https://pmc.ncbi.nlm.nih.gov/articles/PMC10671537/)
+- Strong combinations matter: TO/N + W20/N had a median 48% white; O/N + SB1/N reached 95.5%; and TO/N + O/N + W20/N reached 78.5%. [pmc.ncbi.nlm.nih](https://pmc.ncbi.nlm.nih.gov/articles/PMC10671537/)
+- Chestnut base color increased white expression in Paints, indicating MC1R–white-spotting epistasis; model this as a multiplier or additive bonus rather than making base color directly cause white. [pmc.ncbi.nlm.nih](https://pmc.ncbi.nlm.nih.gov/articles/PMC10671537/)
+- Deafness is associated with some splashed-white phenotypes, particularly extreme MITF/PAX3-related white; SW8 was identified in a deaf, nearly all-white Thoroughbred offspring. [vgl.ucdavis](https://vgl.ucdavis.edu/test/splashed-white)
+- Presumed homozygous lethals in this set include **W5, W10, SW3**, and likely **SW5/SW6**; UC Davis specifically recommends avoiding SW3-to-SW3 matings. [pmc.ncbi.nlm.nih](https://pmc.ncbi.nlm.nih.gov/articles/PMC9498372/)
+
+## Recommended simulator model
+
+Use a **two-layer system**:
+
+1. **Inheritance layer:** each allele is an independent autosomal dominant allele with its own breed-specific prior; W20 is additive rather than strongly visual alone.
+2. **Phenotype layer:** calculate a continuous `whiteScore`, then map it to pattern class using allele-specific distribution rules.
+
+A useful formula is:
+
+whiteScore = sum_i w_i g_i + sum_{i<j} e_ij g_i g_j + b_chestnut + epsilon
+
+where g_i is 0, 1, or 2 copies of allele i, w_i is its main effect, e_ij captures combinations such as TO+W20, O+SB1, and SW1+SW2, b_chestnut is the chestnut epistatic bonus, and epsilon represents developmental randomness. The Paint study found that even a neural-net model explained only about 55.5% of white-coat variation in validation, so retain meaningful stochasticity. [pmc.ncbi.nlm.nih](https://pmc.ncbi.nlm.nih.gov/articles/PMC10671537/)
+
+For visual realism, separate **amount of white** from **pattern geography**: SB1 favors jagged high-leg/ventral white, SW favors broad blazes and belly white, TO creates crossing white patterns, and W alleles range from subtle sabino-like markings to near-complete depigmentation. [pmc.ncbi.nlm.nih](https://pmc.ncbi.nlm.nih.gov/articles/PMC10854722/)
