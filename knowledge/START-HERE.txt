@@ -9,26 +9,20 @@ to be the most accurate open list of real equine genetics its owner can keep, ch
 against UC Davis Veterinary Genetics Laboratory findings. Plain JSON. No code is needed
 to read it.
 
-It was lifted out of a Minecraft mod, Procedural Horse Coats
-(github.com/9-7-8/Procedural-Horse-Coats), whose genetics model was built from the real
-science. The mod is to become one consumer of this data among others.
-
 The owner is Isabel. She decides what goes in. Ask her before any change that is not a
 plain correction with a source.
 
 WHAT IS HERE TODAY
 ------------------
 genes/              one JSON file per locus. Format: knowledge/format.txt
-breeds/             one JSON file per natural breed (121), exported from the mod
-                    2026-10-14. Format: knowledge/format.txt, BREEDS (a draft)
+breeds/             one JSON file per natural breed (121), first written 2026-10-14.
+                    Format: knowledge/format.txt, BREEDS (a draft)
 apis/               readers for the data in Python, Java, Rust, C++ and C, with the same
                     calls in each (apis/README.md). The Python one is the reference; after
                     a format change, update it and run apis/check.py, which compares every
                     port's conformance report with it
-mod-map.json        how each locus here maps to the mod's saved gene keys. Only the mod
-                    needs it. See knowledge/the-mod.txt
 knowledge/          what a maintainer needs to know
-knowledge/science/  the science notes for each gene, copied from the mod's wiki
+knowledge/science/  the science notes for each gene, mostly the owner's research
 tools/validate.mjs  checks every gene and breed file against the format. Run it after any change
 README.md           the front page: what this is and how far to trust it
 
@@ -42,16 +36,14 @@ GitHub does not have them and does not need them to use the data.
 WHAT IS NOT HERE YET
 --------------------
 Read knowledge/known-issues.txt before trusting anything. In short:
-- This began as an export of what the mod models. Since 2026-10-12 the owner's research
-  has been applied locus by locus: all 42 published loci and one abstracted one
-  (knowledge/known-issues.txt lists them, what each left open, and the research
-  questions still to be asked). The 25 other abstracted loci are still the mod's
-  export, and most frequency tables are still the mod's estimates.
+- Since 2026-10-12 the owner's research has been applied locus by locus, in three rounds:
+  all 42 published loci and one abstracted one (knowledge/known-issues.txt lists what
+  each left open and the research questions still to be asked). The 25 other abstracted
+  loci have had no research, and every "general population" table is an estimate.
 - Nothing has been checked against a source by a maintainer. Every allele of a published
   locus is marked "unverified" and every citation "verified": false.
-- Breeds: the mod's 121 natural breeds, exported 2026-10-14 in a format the owner has not
-  reviewed. Every gene pool is the mod's estimate; no breed has a citation, a real
-  height or weight yet.
+- Breeds: 121 natural breeds, written 2026-10-14 in a format the owner has not reviewed.
+  Every gene pool is an estimate; no breed has a citation, a real height or weight yet.
 - No CONTRIBUTING file yet; the contributor clause the owner decided on
   (knowledge/decisions.txt) is not written. LICENSE is the unmodified GPL 3 text.
 

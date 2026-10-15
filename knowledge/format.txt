@@ -43,10 +43,7 @@ alleles       list, IN A FIXED ORDER that must never be changed (append only).
 phenotypes    list of the outcomes this locus can produce.
   id, name, description
   documented    optional. false marks an outcome that stands for "nobody has described
-                this pair". Allowed only on a pair with an allele the mod lacks
-                (mod-map.json, "not_in_mod"), or on a pair mod-map.json names under
-                "mod_outcome_unsupported": a pair of two alleles the mod has always has
-                an outcome there, and must not quietly lose it here.
+                this pair".
   changes_coat  false means this outcome paints nothing on the coat. It does NOT mean
                 "healthy" or "normal": every outcome of a non-coat locus is false.
 
@@ -85,16 +82,16 @@ citations     list.
 EVIDENCE
 --------
 published    A cited source says so. On a locus: the locus is real and identified.
-estimated    A number of ours for something real. Used on frequencies. EVERY frequency in
-             the first export is estimated: they were tuned for a game.
+estimated    A number of ours for something real. Used on frequencies. Every "general
+             population" table and every breed pool is estimated, not measured.
 abstracted   A stand-in of ours for something real that is polygenic or not understood.
              The alleles are invented. Never present an abstracted locus as a real gene.
 
 RULES A CHANGE MUST KEEP  (tools/validate.mjs checks 2 to 5)
 ------------------------------------------------------------
 1. Never reorder, rename or remove an allele. Append new ones at the end of the list.
-   Consumers store horses by allele id, and one of them aligns stored data by order.
-2. Never rename a locus id without updating mod-map.json in the same change.
+   Consumers store horses by allele id, and some align stored data by order.
+2. Never rename a locus id: consumers store it.
 3. "genotypes" plus "nonviable_genotypes" must cover every unordered pair of alleles
    exactly once (for an x_linked locus: every pair a mare or a stallion can have).
 4. Every phenotype and condition id used must be declared; every declared one used.
@@ -103,25 +100,24 @@ RULES A CHANGE MUST KEEP  (tools/validate.mjs checks 2 to 5)
 
 BREEDS (format 1, a draft)
 --------------------------
-One file per natural breed: breeds/<id>.json. Written by the session that exported the
-mod's breeds on 2026-10-14 (knowledge/how-this-was-exported/export-breeds.mjs). The owner
-has not reviewed it; every field name is the session's choice.
+One file per natural breed: breeds/<id>.json. Laid out by a session on 2026-10-14. The
+owner has not reviewed it; every field name is the session's choice.
 
 format        integer. 1.
-id            the breed id, lower case with underscores, the same as the mod's. The file
+id            the breed id, lower case with underscores. The file
               name without .json.
 species       "horse".
 name          a readable name.
-country       the country of origin, as the mod writes it ("saudi_arabia"). Not yet a
+country       the country of origin, as an id ("saudi_arabia"). Not yet a
               standard code.
 description   optional. A sentence or two; only five breeds have one.
-scores        the mod's 1-10 scores, which are not measurements. "evidence" is always
+scores        estimated 1-10 scores, which are not measurements. "evidence" is always
               "abstracted". "speed", "jump", "health" and "pull" are each a number, or
-              [low, high] where the mod gives a range.
+              [low, high] for a range.
 pools         the breed's gene pools, one per locus it has one at. A locus with no pool
               here is at its usual frequency (the gene file's tables).
   locus         a locus id from genes/.
-  evidence      "estimated" (a number of the mod's) or "published" (from a cited survey).
+  evidence      "estimated" (a number of ours) or "published" (from a cited survey).
   genotypes     alleles + percent, as in a gene file's frequency table. Each pair must be a
                 genotype of the locus. Percents sum to 100.
 strains       optional. Named lines within a breed whose pools differ at some loci.
@@ -131,16 +127,5 @@ strains       optional. Named lines within a breed whose pools differ at some lo
                 horses of that strain; at every other locus the breed's pool applies.
 citations     list, as in a gene file. Empty for every breed so far.
 
-Left out of the mod's breed files on purpose: magical breeds, biomes and spawn rules,
-prices, "commonness" (how often the game spawns it), the body-size model scale (not a
-height), the heat- and cold-tolerance pools, and the free-text "notes", which mix facts
-with notes about the game and have not been sorted.
-
-mod-map.json
-------------
-Not part of the science. One row per locus: "locus" (the id here), "mod_key" (the key the
-mod saves), "mod_allele_order" (the order the mod requires), "mod_only_alleles" (alleles
-the mod has that this data deliberately leaves out), and "not_in_mod" (alleles this data
-has that the mod lacks; they come after the mod's own in the allele list). A row may also
-carry "mod_outcome_unsupported": pairs for which the mod has an outcome that no source
-supports, and which are marked undocumented here on purpose.
+Not in a breed file yet: a real height, weight or body type, and the free-text notes on
+each breed, which have not been sorted into facts.
