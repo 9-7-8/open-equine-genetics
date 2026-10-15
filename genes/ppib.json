@@ -6,7 +6,7 @@
   "symbol": "PPIB",
   "chromosome": "1",
   "evidence": "published",
-  "summary": "PPIB encodes cyclophilin B, an enzyme that helps fold and process collagen. A missense change in exon 1, c.115G>A (p.Gly39Arg; g.129307092G>A on chromosome 1, EquCab3.0), impairs that and causes hereditary equine regional dermal asthenia (HERDA): fragile, over-stretchy skin that tears and scars. It is recessive; carriers are normally healthy. Signs in a horse with two copies usually appear at about a year and a half to two years old. The disease as documented is of the skin; the bone disease that PPIB mutations cause in people is not the picture in horses. Found in the American Quarter Horse and breeds with Quarter Horse ancestry, including Paint Horses and Appaloosas, and far commoner in cutting and cow-horse lines. Laboratories usually write the genotypes N/N, N/HR and HR/HR. No effect on coat, height, speed or build is established.",
+  "summary": "PPIB encodes cyclophilin B, an enzyme that helps fold and process collagen. A missense change in exon 1, c.115G>A (p.Gly39Arg; g.129307092G>A on chromosome 1, EquCab3.0), impairs that and causes hereditary equine regional dermal asthenia (HERDA): fragile, over-stretchy skin that tears and scars. It is recessive; carriers are normally healthy. Signs in a horse with two copies usually appear at about a year and a half to two years old. The disease as documented is of the skin; the bone disease that PPIB mutations cause in people is not the picture in horses. Found in the American Quarter Horse and breeds with Quarter Horse ancestry, including Paint Horses and Appaloosas, and far commoner in cutting and cow-horse lines. Laboratories usually write the genotypes N/N, N/HR and HR/HR; UC Davis writes N/HRD for a carrier. No effect on coat, height, speed or build is established.",
   "inheritance": "autosomal",
   "affects_coat": false,
   "alleles": [
@@ -28,7 +28,7 @@
   ],
   "frequencies": [
     {
-      "population": "American Quarter Horse in the United States (about 3.5% carriers; other estimates run from 1.8% to 6.5%, and the share of affected horses is not given)",
+      "population": "American Quarter Horse in the United States (7 carriers in 200 control horses, 3.5%, Tryon et al. 2007; an earlier estimate gave 3.65% of 1,041 unaffected horses; the share of affected horses is not given)",
       "evidence": "published",
       "genotypes": [
         { "alleles": ["herda", "N"], "percent": 3.5 },
@@ -36,7 +36,7 @@
       ]
     },
     {
-      "population": "Quarter Horse in France (about 1.6% carriers; the share of affected horses is not given)",
+      "population": "Quarter Horse in France (1.6% carriers, Veterinary Dermatology 2011; the share of affected horses is not given)",
       "evidence": "published",
       "genotypes": [
         { "alleles": ["herda", "N"], "percent": 1.6 },
@@ -44,11 +44,11 @@
       ]
     },
     {
-      "population": "American Quarter Horse, cutting and cow-horse lines (about 28% carriers reported; a figure for affected families or selected high-risk lines, not for the breed; the share of affected horses is not given)",
+      "population": "American Quarter Horse, elite cutting horses (32 carriers in 113, 28.3%, Tryon et al. 2009; allele frequency 0.142; a high-risk subgroup, not the breed)",
       "evidence": "published",
       "genotypes": [
-        { "alleles": ["herda", "N"], "percent": 28 },
-        { "alleles": ["N", "N"], "percent": 72 }
+        { "alleles": ["herda", "N"], "percent": 28.3 },
+        { "alleles": ["N", "N"], "percent": 71.7 }
       ]
     },
     {
@@ -73,6 +73,10 @@
     { "source": "ucdavis-vgl", "label": "UC Davis VGL: horse embryo testing", "url": "https://vgl.ucdavis.edu/test/horse-embryo", "verified": false },
     { "source": "ucdavis-vgl", "label": "UC Davis VGL: horse DNA tests", "url": "https://vgl.ucdavis.edu/dna-tests/horse", "verified": false },
     { "source": "ucdavis-vgl", "label": "UC Davis VGL: Quarter Horse disease panel", "url": "https://vgl.ucdavis.edu/panel/quarter-horse-disease-panel", "verified": false },
-    { "source": "omia", "label": "OMIA variant 157: PPIB c.115G>A", "url": "https://omia.org/variant/omia.variant:157/", "verified": false }
+    { "source": "omia", "label": "OMIA variant 157: PPIB c.115G>A", "url": "https://omia.org/variant/omia.variant:157/", "verified": false },
+    { "source": "paper", "label": "Genomics 2007: Tryon et al., the PPIB mutation and 3.5% carriers in control Quarter Horses", "url": "https://www.sciencedirect.com/science/article/pii/S0888754307000651", "verified": false },
+    { "source": "paper", "label": "JAVMA 234(1):120 (2009): Tryon et al., allele frequencies in subgroups of Quarter Horses (28.3% HERDA carriers among elite cutting horses)", "url": "https://avmajournals.avma.org/view/journals/javma/234/1/javma.234.1.120.xml", "verified": false },
+    { "source": "ucdavis-vgl", "label": "UC Davis VGL: HERDA", "url": "https://vgl.ucdavis.edu/test/herda", "verified": false },
+    { "source": "other", "label": "AQHA: HERDA", "url": "https://www.aqha.com/herda", "verified": false }
   ]
 }

@@ -28,7 +28,7 @@
   ],
   "frequencies": [
     {
-      "population": "American Quarter Horse (about 8.3% carriers, UC Davis's estimate; a 2006 study's allele frequency of about 4.1% among registered horses agrees with it)",
+      "population": "American Quarter Horse (about 8.3% carriers, UC Davis's estimate, which it now gives as 8-11% by discipline; Wagner et al. 2006 found an allele frequency of 0.041 among registered horses, about 8% carriers)",
       "evidence": "published",
       "genotypes": [
         { "alleles": ["gbed", "N"], "percent": 8.3 },
@@ -36,7 +36,7 @@
       ]
     },
     {
-      "population": "American Paint Horse (about 7.1% carriers, UC Davis's estimate; a 2006 study's allele frequency of about 3.6% agrees with it)",
+      "population": "American Paint Horse (about 7.1% carriers, UC Davis's estimate; Wagner et al. 2006 found an allele frequency of 0.036, about 7% carriers)",
       "evidence": "published",
       "genotypes": [
         { "alleles": ["gbed", "N"], "percent": 7.1 },
@@ -44,7 +44,7 @@
       ]
     },
     {
-      "population": "Thoroughbred (allele not found in a 2006 study)",
+      "population": "Thoroughbred (allele not found, Wagner et al. 2006)",
       "evidence": "published",
       "genotypes": [
         { "alleles": ["N", "N"], "percent": 100 }
@@ -64,7 +64,7 @@
     { "source": "ucdavis-vgl", "label": "UC Davis VGL: Glycogen Branching Enzyme Deficiency (GBED)", "url": "https://vgl.ucdavis.edu/test/gbed", "verified": false },
     { "source": "other", "label": "UC Davis Center for Equine Health: Glycogen Branching Enzyme Deficiency (GBED)", "url": "https://ceh.vetmed.ucdavis.edu/health-topics/glycogen-branching-enzyme-deficiency-gbed", "verified": false },
     { "source": "pubmed", "label": "PMC7198616: correction of the GBED mutation in equine cells; enzyme activity in carriers", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7198616/", "verified": false },
-    { "source": "pubmed", "label": "PMID 17063718: the GBED mutation in Quarter Horse-related breeds, tracing to one founder", "url": "https://pubmed.ncbi.nlm.nih.gov/17063718/", "verified": false },
+    { "source": "pubmed", "label": "PMID 17063718: Wagner et al. 2006, allele frequency of the GBED gene in Quarter Horses and Paint Horses (J Vet Intern Med 20:1207-1211)", "url": "https://pubmed.ncbi.nlm.nih.gov/17063718/", "verified": false },
     { "source": "other", "label": "Merck Veterinary Manual: hereditary and congenital myopathies in horses", "url": "https://www.merckvetmanual.com/musculoskeletal-system/myopathies-in-horses/hereditary-and-congenital-myopathies-in-horses", "verified": false }
   ]
 }
