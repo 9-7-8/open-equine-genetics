@@ -63,6 +63,32 @@ is verified.
 What is known to be wrong or unproven is listed in
 [knowledge/known-issues.txt](knowledge/known-issues.txt).
 
+## Abstracted genes
+
+Some traits clearly run in families, so they are inherited, but nobody knows how: no gene
+has been found, or the few genes found explain only part of it. The dished face of the
+Arabian, the curly coat and the inward-curving ears of the Marwari are examples. A game
+that breeds horses still has to pass these traits from parents to foals, and it cannot
+wait until the science is settled.
+
+An abstracted locus does that job. It is a made-up gene, inherited the way a real one
+would be, so a trait can be bred, kept or lost across generations. Its alleles are
+invented, and how strongly they act is chosen to look right, not measured. It says what
+real trait it stands for and makes no claim about the mechanism behind it.
+
+So an abstracted locus:
+
+- is marked `"evidence": "abstracted"`, and every one of its alleles has
+  `"quality": "abstracted"`;
+- has a `null` symbol, no chromosome and no citation, because there is no real locus to
+  point to;
+- often stands for many genes at once (height, speed, sooty) or for a cause nobody has
+  found yet (flaxen, rabicano, manchado).
+
+The data has 26 today, among them height, speed, jumping, draft power, flaxen, sooty,
+pangaré, markings, rabicano and eye colour. None of them is a real gene. Don't present
+one as a gene, and don't use one for anything about a real horse.
+
 ## What is in a gene file
 
 [genes/extension.json](genes/extension.json) is the simplest one. In short:
