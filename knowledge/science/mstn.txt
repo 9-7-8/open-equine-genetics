@@ -2,6 +2,31 @@ MSTN (myostatin) - science notes
 (Copied 2026-10-12 from the Science tab of the Procedural Horse Coats wiki page for this gene.
 Written for that project: it may mention how a game models the gene. Not yet audited.)
 
+ROUND THREE (the owner's answer to question D2, 2026-10-15)
+------------------------------------------------------------
+No address has been opened by a maintainer. Her answer, condensed, with every point and
+address she gave:
+
+  - g.66493737C>T (also rs397152648) is an ECA18 position on EquCab2.0, in intron 1 of
+    MSTN. It is not an EquCab3.0 position and must be lifted over before use on
+    EquCab3.0. (https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5865066/ ;
+    https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0008645)
+  - Hill et al. place MSTN at ECA18:66,489,608-66,495,780 on the reverse strand of
+    EquCab2.0, with the variant inside that interval. (PLOS ONE, above; also
+    https://patents.google.com/patent/AU2009290452B2/en)
+  - Older identifier: GQ183900:g.2115A>G.
+    (https://www.izs.it/vet_italiana/2014/50_3/VetIt_61_178_3.pdf)
+  - Later studies also use the EquCab2 designation.
+    (https://pmc.ncbi.nlm.nih.gov/articles/PMC4412973/)
+  - Store it with assembly EquCab2.0, chromosome 18, position 66493737, C>T, and keep an
+    EquCab3.0 position apart once lifted over. None was given.
+
+The answer also says EquCab3.0 "changed chromosome numbering"; it gives no source, and
+nothing here relies on it. Round two had called the position "EquCab3-style"; that is
+wrong.
+
+What the gene file does with it: the summary names the assembly, intron 1 and the rs
+number. Three citations; the patent is not cited.
 ROUND TWO (the owner's answers to the open research questions, 2026-10-12)
 --------------------------------------------------------------------------
 These came after everything below. Where they disagree with it, this section and the gene
