@@ -4,6 +4,25 @@ No source was opened by the session that filed this. genes/gbe1.json was changed
 on the owner's word the same day; what is left over is in knowledge/known-issues.txt.
 Not yet audited.)
 
+ROUND THREE (the owner's answer to question F1, 2026-10-15)
+------------------------------------------------------------
+No address has been opened by a maintainer. Her answer, condensed, with every point and
+address she gave:
+
+  - The 2006 study is Wagner ML, Valberg SJ, Ames EG, Bauer MM, Wiseman JA, Penedo MCT,
+    Kinde H, Abbitt B, Mickelson JR. "Allele frequency and likely impact of the glycogen
+    branching enzyme deficiency gene in Quarter Horse and Paint Horse populations." J Vet
+    Intern Med 2006;20(5):1207-1211. doi:10.1892/0891-6640(2006)20[1207:afalio]2.0.co;2.
+    PMID 17063718 (https://pubmed.ncbi.nlm.nih.gov/17063718/). University of Minnesota.
+  - Mutant allele frequencies: 0.041 in registered Quarter Horses, 0.036 in Paint
+    Horses, 0 in Thoroughbreds. These are allele frequencies; under Hardy-Weinberg they
+    give about 8.0% and 6.9% carriers.
+  - UC Davis's GBED page cites this paper and puts US Quarter Horse carriers at about
+    8-11%, varying by discipline. (https://vgl.ucdavis.edu/test/gbed)
+
+Round two called the study "Ward et al."; it is Wagner et al. What the gene file does
+with it: the table names and the citation label name the study. The tables already used
+UC Davis's carrier figures.
 ROUND TWO (the owner's answers to the open research questions, 2026-10-12)
 --------------------------------------------------------------------------
 These came after everything below. Where they disagree with it, this section and the gene

@@ -4,6 +4,39 @@ No source was opened by the session that filed this. genes/ppib.json was changed
 on the owner's word the same day; what is left over is in knowledge/known-issues.txt.
 Not yet audited.)
 
+ROUND THREE (the owner's answer to question F2, 2026-10-15)
+------------------------------------------------------------
+No address has been opened by a maintainer. Her answer, condensed, with every point and
+address she gave. All three figures are CARRIER frequencies, from three studies:
+
+  - 3.5% (United States): Tryon RC, White SD, Bannasch DL et al. 2007, Genomics,
+    "Homozygosity mapping approach identifies a missense mutation in equine cyclophilin
+    B (PPIB) associated with HERDA in the American Quarter Horse": "Screening of control
+    Quarter Horses indicates a 3.5% carrier frequency."
+    (https://www.sciencedirect.com/science/article/pii/S0888754307000651) Later work
+    describes it as 7 of 200 controls, and notes agreement with an earlier 3.65% from
+    1,041 unaffected horses.
+  - 1.6% (France): Badial/Fontaine et al. 2011, Veterinary Dermatology, "Prevalence of
+    the mutation in cyclophilin B (PPIB), a causal candidate gene for HERDA, among
+    Quarter Horses in France": "The prevalence of this mutation among Quarter Horses in
+    France was determined to be 1.6%." (https://pubmed.ncbi.nlm.nih.gov/21118319/)
+  - About 28% (cutting): Tryon RC, Penedo MCT, McCue ME, Valberg SJ, Mickelson JR,
+    Famula TR et al. 2009, JAVMA, "Evaluation of allele frequencies of inherited disease
+    genes in subgroups of American Quarter Horses": 32 of 113 elite cutting horses were
+    carriers, 28.3%; HERDA allele frequency 0.142 in that subgroup; the allele is
+    "prominent within cutting horse lines".
+    (https://avmajournals.avma.org/view/journals/javma/234/1/javma.234.1.120.xml)
+  - AQHA paraphrases: about 3.5% of Quarter Horses, about 28% in cutting and cow-horse
+    disciplines (https://www.aqha.com/herda). UC Davis writes carriers N/HRD
+    (https://vgl.ucdavis.edu/test/herda) and calls HERDA especially prevalent in some
+    cutting lines (https://ceh.vetmed.ucdavis.edu/health-topics/hereditary-equine-regional-dermal-asthenia-herda).
+  - The 28% is a narrow, high-risk subgroup and must not be read as all Quarter Horses;
+    3.5% is not a permanent breed-wide constant either.
+  - The share of affected (two-copy) horses was not given; that part of F2 stays open.
+
+Round two had called the 28% a figure for "affected families or high-risk lines" with no
+study; it is elite cutting horses, Tryon et al. 2009. What the gene file does with it:
+the three table names give the studies and samples; the cutting table becomes 28.3%.
 ROUND THREE (the owner's answer to question A1, 2026-10-15)
 ------------------------------------------------------------
 The whole answer, for six loci, is in knowledge/science/round-3-answers.txt. No address has
