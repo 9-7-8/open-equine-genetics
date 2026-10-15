@@ -4,6 +4,42 @@ No source was opened by the session that filed this. genes/dmrt3.json was change
 on the owner's word the same day; what is left over is in knowledge/known-issues.txt.
 Not yet audited.)
 
+ROUND THREE (the owner's answer to question D5, 2026-10-15)
+------------------------------------------------------------
+No address has been opened by a maintainer. Her answer, condensed, with every point and
+address she gave:
+
+  - The 2026 exon-2 study sequenced exon 2 in 260 horses (PCR and Sanger) and found six
+    variants, three of them new. Only c.902C>A (p.Ser301*, the "gait keeper") has a
+    well-supported effect on gait. The others include a synonymous c.855T>C and a
+    missense p.Tyr323Asn (found mainly in non-gaited breeds); the remaining three are not
+    named in the accessible summary. In-silico analysis suggested none of the new ones
+    drastically changes the protein; no gait effect is established for any. Treat them
+    as population markers, not gait alleles.
+    (https://madbarn.com/research/dmrt3-gene-variations-in-horse-breeds-selected-for-gaited-movement-established-research-and-novel-findings/ ;
+    https://omia.org/OMIA001715/9796/)
+  - c.902C>A: C/C wild type, generally walk-trot-canter and no pace in Icelandic
+    horses; C/A permissive, varying with breed and training
+    (https://ask.ifas.ufl.edu/publication/AN332); A/A needed for pace in Icelandic
+    horses and common in strongly gaited breeds (OMIA;
+    https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3523687/pdf/nihms404855.pdf).
+  - Standardbreds: DMRT3 does not decide trotter or pacer, because both are fixed or
+    nearly fixed for A. McCoy et al. 2019 (GWAS and whole-genome sequencing) built a
+    seven-SNP conditional-inference tree on ECA1, 6, 15, 17, 23 and 30 that classified
+    659 Standardbreds with 99.1% accuracy and 166 independent horses (83 pacers, 83
+    trotters) with 99.4%. The ECA23 signal includes the DMRT3 region, so the deciding
+    regions are the other five. They are "putative modifying alleles", predictive SNPs,
+    not proven causal mutations, and no simple trot or pace allele is established at
+    any of them. (https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1008146)
+  - No credible evidence that DMRT3 affects height, general speed, muscle, bone, hooves,
+    feathering or mane and tail colour. Speed effects are specific to harness and
+    trotting breeds.
+
+The answer says "the original DMRT3 paper" concluded that modifiers decide trot or pace
+in A/A Standardbreds, but cites McCoy et al. 2019, which is not the original paper.
+
+What the gene file does with it: the summary gains the c. name and the Standardbred
+modifiers, which are not modelled. Two citations.
 ROUND TWO (the owner's answers to the open research questions, 2026-10-12)
 --------------------------------------------------------------------------
 These came after everything below. Where they disagree with it, this section and the gene
