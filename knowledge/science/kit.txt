@@ -43,6 +43,42 @@ What the gene file does with it: the allele id stays W22 (ids are never renamed)
 stands for the W20_22 haplotype, as laboratories report it. W22/N is N/W20_22, a real
 genotype. W22/W20 stays "boosted-white" (usually, not always, all white).
 
+ROUND THREE, THIRD ANSWER (the owner's answer to question C3, 2026-10-15)
+--------------------------------------------------------------------------
+No address has been opened by a maintainer. Her answer, condensed, with every point and
+address she gave:
+
+  W37 without W35
+  - Not in the published discovery material. Every reported W37 horse also carried one
+    W35 allele, and the authors say the two are likely in phase on one haplotype
+    ("complete linkage"). That does not prove W37 can never occur alone; no W37-only
+    horse is documented. (https://pmc.ncbi.nlm.nih.gov/articles/PMC11987815/)
+  - W37 is c.1512_1513insT, predicted p.N505*, from an Anglo-Arabian/Zangersheide
+    family: six of seven family members carried it, all with one W35; the sire and one
+    offspring also carried tobiano. W37 carriers showed variable white spotting, not a
+    uniform all-white coat.
+  - Model W35+W37 as one linked haplotype; a W37-only horse could in principle arise by
+    recombination or recurrence but is undocumented.
+
+  W17a and W17b
+  - They occur together as a two-SNP haplotype on a Japanese Draft background, and OMIA
+    has consolidated them into one allele, W17. (https://omia.org/OMIA000209/9796/)
+      W17a c.2001A>T, p.E667D
+      W17b c.2021T>C, p.L674P
+      OMIA: g.[79548244A>G;79548264T>A], designated W17
+  - Any real W17 carrier has both changes; a horse with only one would not carry the
+    established W17. W17 is associated with dominant white (all-white) in reported
+    carriers.
+  - Recent work found 15 haplotypes carrying two or more depigmentation-associated KIT
+    variants, so "two KIT variants per horse" is not a universal rule.
+
+The session's reading: this reverses round two ("best treated as two distinct
+variants") and the owner's ruling of 2026-10-12 that split W17 into W17a and W17b.
+The g. bases given do not obviously match the c. changes (A>T against A>G, T>C against
+T>A, even allowing for strand), so the OMIA string may be garbled in the answer. What
+becomes of W17, W17a and W17b is the owner's decision and was put to her; nothing was
+changed for it yet. W37: the gene file already says W37 is found only with W35 and
+gives W37/W35 the W37 outcome; unchanged.
 ROUND THREE, SECOND ANSWER (the owner's answer to question C1, 2026-10-15)
 -------------------------------------------------------------------------
 No address has been opened by a maintainer. Her answer, condensed, with every point and
