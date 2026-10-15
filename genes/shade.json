@@ -5,7 +5,7 @@
   "name": "Shade (ASIP/RALY)",
   "symbol": null,
   "evidence": "abstracted",
-  "summary": "The regulatory region beside agouti that decides how far black spreads over a bay. It paints nothing on its own and every horse carries it - a chestnut can hand a seal brown to a grandfoal - but on a bay its dosage, plus whether extension is E/E and whether agouti is A/a, chooses between a bright blood bay and a near-black seal brown.",
+  "summary": "The regulatory region beside agouti that decides how far black spreads over a bay. It paints nothing on its own and every horse carries it - a chestnut can hand a seal brown to a grandfoal - but on a bay its dosage, plus whether extension is E/E and whether agouti is A/a, chooses between a bright blood bay and a near-black seal brown. The region is real and published: a genome-wide study of 126 bay horses (Corbin et al. 2020; Quarter Horses, Arabians, Persian Horses, two Standardbreds, one Thoroughbred) found one region of about 0.5 Mb on chromosome 22, just upstream of ASIP, near RALY. Each copy of the lead marker's T allele (AX-103117105, at 24,998,294 on EquCab2.0, allele frequency 0.38 in that sample) made a bay lighter, by about a quarter of the ranking's range, and the effect held within Arabians, Persians and Quarter Horses separately - an additive dosage, not a dominant or recessive one. The marker is a tag, not the cause; a 6-base repeat in exon 6 of RALY is the best candidate, unproven, and no DNA test exists. Two copies of E at extension also darken a bay, adding to it. The three alleles here stand for that dosage; they are not the marker's two alleles. Shade has no known effect on build, speed or the long hair.",
   "inheritance": "autosomal",
   "affects_coat": false,
   "alleles": [
@@ -42,5 +42,11 @@
       ]
     }
   ],
-  "citations": []
+  "citations": [
+    { "source": "pubmed", "label": "PMC7349280: Corbin et al. 2020, Genes 11(6):606, an independent locus upstream of ASIP controls the shade of bay", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7349280/", "verified": false },
+    { "source": "pubmed", "label": "PMID 32486210: Corbin et al. 2020", "url": "https://pubmed.ncbi.nlm.nih.gov/32486210/", "verified": false },
+    { "source": "paper", "label": "Czech Journal of Animal Science 63:347-355, 10.17221/67/2018-CJAS: Druml et al. 2018, colour measurements and ASIP/MC1R dosage in bays", "url": "http://cjas.agriculturejournals.cz/artkey/cjs-201809-0002_discriminant-analysis-of-colour-measurements-reveals-allele-dosage-effect-of-asip-mc1r-in-bay-horses.php", "verified": false },
+    { "source": "paper", "label": "Journal of Heredity 112(5):436: the RALY polymorphism and the ASIP deletion in Polish Konik horses", "url": "https://academic.oup.com/jhered/article/112/5/436/6357767", "verified": false },
+    { "source": "ucdavis-vgl", "label": "UC Davis VGL: horse tests (no shade test)", "url": "https://vgl.ucdavis.edu/tests", "verified": false }
+  ]
 }
