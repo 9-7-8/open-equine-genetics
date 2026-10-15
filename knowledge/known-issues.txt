@@ -136,7 +136,7 @@ STILL WRONG OR UNPROVEN IN THE RESEARCHED LOCI
 - prkdc: the severity changed from "lethal_at_birth" to "lethal_in_early_life": the research says affected foals generally do not survive beyond about four to six months. No frequency table was made: the research gives roughly 0.2% of Arabians affected, says carrier figures differ widely, and advises against using the old percentages; the mod's "general population" table stands. The research marks its sources by number and lists them by name only, so no citation was added; the three it already had are from the first export. Round three gives the variant as c.9478_9482del (TCTCA), g.36395752_36395756del on EquCab3.0 (OMIA); older papers write c.4675_4679del on another transcript.
 - rapgef5: the owner's first answer found no horse allele of RAPGEF5 at all; her second, asked about EFIH by name, confirms the variant and the disorder, and the locus follows the second. The severity changed from "lethal_at_birth" to "lethal_in_early_life": signs are reported up to about 35 days old. Settled in round three (2026-10-15): 1.8% is Rivas et al. 2020's allele frequency in 82 horses, a small preliminary sample; Elcombe et al. found 0.83% and 0.77% in 1,789 US Thoroughbreds (28 carriers, 1.6%); 1.4% carriers is an Australian laboratory's 12 of 880. Three Thoroughbred tables, all kept. The answer calls the change a "C-to-A transition"; C to A is a transversion, which changes nothing here.
 - toe1: the owner's first answer looked for a coat-colour locus and found none; her second, asked about cerebellar abiotrophy by name, confirms the disorder, and the locus follows the second. The locus is named for TOE1, but the research says the variant may act through MUTYH and that the mechanism is not settled. The Arabian table gives carriers only (about 20%); living affected horses are counted with the clear ones. The severity stays "impairing". The journal name in one citation label was read off the address.
-- mstn: chromosome 18 is from round two, which calls g.66493737C>T "EquCab3-style coordinates"; which assembly the position belongs to was not checked. No frequency was given.
+- mstn: chromosome 18 is from round two. g.66493737C>T is an EquCab2.0 position (round three; round two's "EquCab3-style" was wrong); no EquCab3.0 position has been given. No frequency was given.
 - scn4a: chromosome 11, c.4248C>G and the EquCab3.0 position are from round three (UC Davis, OMIA). No frequency was given.
 - lama3, lamc2: settled in round three (2026-10-15, sourced to PMC3297474): LAMC2 (JEB1) is the Belgian and draft form, LAMA3 (JEB2) the Saddlebred's, as the gene files had it. Round two's table was swapped. Only the citations changed.
 - Breed names added to summaries in round two (dun, extension, agouti, matp, champagne, silver, roan, leopard, patn1, lcorl, mstn) are the answer's descriptions, which it says to treat as estimates. None has a figure, and no frequency table was made from them.
@@ -293,8 +293,6 @@ C6. What allele frequencies are published, by breed, for KIT SB1, W5, W10, W13, 
 
 BLOCK D - BODY SIZE, PERFORMANCE AND GAIT
 -----------------------------------------
-D2. MSTN g.66493737C>T (the "speed gene" of Thoroughbreds): is that position on EquCab2 or
-    EquCab3?
 D3. PDK4 g.38973231A>G and CKM g.15884567G>A are candidate racing-performance variants,
     not disease variants. For each, which allele is ancestral?
 D4. What allele frequencies are published, by breed, for LCORL (marker BIEC2-808543),

@@ -6,7 +6,7 @@
   "symbol": "MSTN",
   "chromosome": "18",
   "evidence": "published",
-  "summary": "MSTN (myostatin), on chromosome 18, the best predictor of a Thoroughbred's best racing distance. At the variant g.66493737C>T, C/C horses are suited to short sprints, C/T to middle distances, and T/T to longer ones, with more stamina. The effect has been traced to an insertion in the gene. Shown in Thoroughbreds; it is a statistical tendency, not a guarantee for one horse. The C allele is described as commoner in Quarter Horses and sprint-bred Thoroughbred lines and T in endurance and many European sport breeds, without published figures; performance is strongly polygenic.",
+  "summary": "MSTN (myostatin), on chromosome 18, the best predictor of a Thoroughbred's best racing distance. At the variant g.66493737C>T (rs397152648, in intron 1; the position is on EquCab2.0, not EquCab3.0), C/C horses are suited to short sprints, C/T to middle distances, and T/T to longer ones, with more stamina. The effect has been traced to an insertion in the gene. Shown in Thoroughbreds; it is a statistical tendency, not a guarantee for one horse. The C allele is described as commoner in Quarter Horses and sprint-bred Thoroughbred lines and T in endurance and many European sport breeds, without published figures; performance is strongly polygenic.",
   "inheritance": "autosomal",
   "affects_coat": false,
   "alleles": [
@@ -43,6 +43,9 @@
     { "source": "pubmed", "label": "PMC12995546", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12995546/", "verified": false },
     { "source": "other", "label": "Anim. Behav. Genet. 54(2)", "url": "https://www.jstage.jst.go.jp/article/abgri/54/2/54_25/_article/-char/en", "verified": false },
     { "source": "paper", "label": "Hill et al. 2010, a genome-wide SNP-association study confirms g.66493737C>T in MSTN as the most powerful predictor of optimum racing distance (BMC Genomics 11:552)", "url": "https://doi.org/10.1186/1471-2164-11-552", "verified": false },
-    { "source": "paper", "label": "The speed gene effect of myostatin arises in Thoroughbred horses (PLoS ONE, 2018)", "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0205664", "verified": false }
+    { "source": "paper", "label": "The speed gene effect of myostatin arises in Thoroughbred horses (PLoS ONE, 2018)", "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0205664", "verified": false },
+    { "source": "pubmed", "label": "PMC5865066: MSTN g.66493737C>T on EquCab2.0, intron 1", "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5865066/", "verified": false },
+    { "source": "pubmed", "label": "PMC4412973: later use of the EquCab2 designation", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4412973/", "verified": false },
+    { "source": "paper", "label": "Veterinaria Italiana 50(3), 2014: MSTN variant, legacy name GQ183900:g.2115A>G", "url": "https://www.izs.it/vet_italiana/2014/50_3/VetIt_61_178_3.pdf", "verified": false }
   ]
 }
