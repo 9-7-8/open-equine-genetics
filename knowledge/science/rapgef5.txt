@@ -3,6 +3,37 @@ RAPGEF5 - science notes
 No source was opened by the session that filed this. Not yet audited.
 genes/rapgef5.json follows the LATEST FINDINGS below.)
 
+ROUND THREE (the owner's answer to question E4, 2026-10-15)
+------------------------------------------------------------
+This came after everything below and settles which figure is which. No address has been
+opened by a maintainer. Her answer, condensed, with every point and address she gave:
+
+  | Figure | Measures          | Source                          | Sample                     |
+  | 1.8%   | allele frequency  | Rivas et al. 2020, PLoS Genet.  | 82 Thoroughbreds, q=0.018  |
+  | 0.83%  | allele frequency  | Elcombe et al. 2022/2023        | US Thoroughbreds, 1988-2000|
+  | 0.77%  | allele frequency  | Elcombe et al.                  | US Thoroughbreds, 2001-2019|
+  | 1.6%   | carrier frequency | Elcombe et al.: 28 / 1,789      | all years combined         |
+  | 1.51%  | carrier frequency | Elcombe et al.                  | 2001-2019 cohort           |
+  | 1.65%  | carrier frequency | Elcombe et al.                  | 1988-2000 cohort           |
+  | 1.4%   | carrier frequency | Equine Genetics Research Centre | 12 / 880 anonymous         |
+  |        |                   | (Australia)                     | Thoroughbreds              |
+
+  Addresses: Rivas https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7544121/ ; Elcombe
+  https://pmc.ncbi.nlm.nih.gov/articles/PMC10073348/ and (1.65%)
+  https://www.vetmed.ucdavis.edu/sites/g/files/dgvnsk491/files/inline-files/STAR%20TG%20Poster%20-%20Elcombe.pdf ;
+  EGRC https://equinegeneticsresearchcentre.horse/horse-genetics/
+
+  - Rivas tested a small, preliminary validation sample, so its interval is wide.
+    Elcombe genotyped 1,789 US Thoroughbreds born 1988-2019; the two periods do not
+    differ significantly.
+  - "1.4-1.6% carriers" mixes Elcombe (28/1789 = 1.565%, rounded 1.6%) and EGRC
+    (12/880 = 1.36%, rounded 1.4%). Carrier share is about 2q for a rare allele, so 0.8%
+    predicts about 1.6% carriers, as Elcombe found.
+
+What the gene file does with it: the US table now gives the measured 28 of 1,789
+instead of a share worked out from the allele frequency, and an Australian table (12 of
+880) is added. The 1.8% table is unchanged in substance.
+
 ROUND TWO (the owner's answers to the open research questions, 2026-10-12)
 --------------------------------------------------------------------------
 These came after everything below. Where they disagree with it, this section and the gene
@@ -10,8 +41,8 @@ file stand, unless a line says the point is unsettled. The whole answer is in
 knowledge/science/round-2-answers.txt. No address has been opened by a maintainer.
 - The 1.8% and 0.8% figures reflect different studies, sampling frames, and possibly
   allele frequency against carrier share; the "1.4-1.6% carriers" looks like a later or
-  pooled estimate. All are to be treated as specific to their study. Nothing was settled,
-  and both tables stand.
+  pooled estimate. All are to be treated as specific to their study. Nothing was settled
+  here; SETTLED BY ROUND THREE (above).
 
 LATEST FINDINGS (the owner's second research answer, 2026-10-12)
 -----------------------------------------------------------------
