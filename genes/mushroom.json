@@ -25,6 +25,15 @@
   ],
   "frequencies": [
     {
+      "population": "Shetland Pony (allele frequency of Mu 0.23, relatedness-filtered, Avila et al. 2022; genotype shares worked out from it assuming random mating)",
+      "evidence": "published",
+      "genotypes": [
+        { "alleles": ["Mu", "Mu"], "percent": 5.29 },
+        { "alleles": ["Mu", "mu"], "percent": 35.42 },
+        { "alleles": ["mu", "mu"], "percent": 59.29 }
+      ]
+    },
+    {
       "population": "general population",
       "evidence": "estimated",
       "genotypes": [
@@ -40,6 +49,7 @@
     { "source": "ucdavis-vgl", "label": "UC Davis VGL: Mushroom", "url": "https://vgl.ucdavis.edu/test/mushroom", "verified": false },
     { "source": "ucdavis-vgl", "label": "UC Davis VGL: Horse Coat Color", "url": "https://vgl.ucdavis.edu/resources/horse-coat-color", "verified": false },
     { "source": "pubmed", "label": "PMID 31635058: MFSD12 frameshift and mushroom in Shetland Ponies", "url": "https://pubmed.ncbi.nlm.nih.gov/31635058/", "verified": false },
-    { "source": "other", "label": "Animal Genetics: Mushroom test", "url": "https://animalgenetics.com/horse-tests/equine-color-tests/194-mushroom/", "verified": false }
+    { "source": "other", "label": "Animal Genetics: Mushroom test", "url": "https://animalgenetics.com/horse-tests/equine-color-tests/194-mushroom/", "verified": false },
+    { "source": "pubmed", "label": "PMC9498372: Avila et al. 2022, allele frequencies of colour variants in 28 breeds", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9498372/", "verified": false }
   ]
 }

@@ -28,6 +28,24 @@
   ],
   "frequencies": [
     {
+      "population": "Rocky Mountain Horse (allele frequency of Z 0.32, relatedness-filtered, Avila et al. 2022; genotype shares worked out from it assuming random mating)",
+      "evidence": "published",
+      "genotypes": [
+        { "alleles": ["Z", "Z"], "percent": 10.24 },
+        { "alleles": ["Z", "z"], "percent": 43.52 },
+        { "alleles": ["z", "z"], "percent": 46.24 }
+      ]
+    },
+    {
+      "population": "Quarter Horse (allele frequency of Z 0.0011, relatedness-filtered, Avila et al. 2022; genotype shares worked out from it assuming random mating)",
+      "evidence": "published",
+      "genotypes": [
+        { "alleles": ["Z", "Z"], "percent": 0.0001 },
+        { "alleles": ["Z", "z"], "percent": 0.2198 },
+        { "alleles": ["z", "z"], "percent": 99.7801 }
+      ]
+    },
+    {
       "population": "general population",
       "evidence": "estimated",
       "genotypes": [
@@ -43,6 +61,7 @@
     { "source": "ucdavis-vgl", "label": "UC Davis VGL: Equine Coat Color Genetics", "url": "https://vgl.ucdavis.edu/resources/horse-coat-color", "verified": false },
     { "source": "pubmed", "label": "PMID 17029645: Andersson et al. 2006, a missense mutation in PMEL17 is associated with the Silver coat color in the horse", "url": "https://pubmed.ncbi.nlm.nih.gov/17029645/", "verified": false },
     { "source": "pubmed", "label": "PMC3781063: Andersson et al. 2013, equine MCOA and silver coat colour result from the pleiotropic effects of mutant PMEL", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3781063/", "verified": false },
-    { "source": "other", "label": "University of Kentucky: Equine Coat Color Genetics 101", "url": "https://equine.mgcafe.uky.edu/news-story/equine-coat-color-genetics-101", "verified": false }
+    { "source": "other", "label": "University of Kentucky: Equine Coat Color Genetics 101", "url": "https://equine.mgcafe.uky.edu/news-story/equine-coat-color-genetics-101", "verified": false },
+    { "source": "pubmed", "label": "PMC9498372: Avila et al. 2022, allele frequencies of colour variants in 28 breeds", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9498372/", "verified": false }
   ]
 }

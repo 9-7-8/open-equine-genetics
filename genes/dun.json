@@ -29,6 +29,20 @@
   ],
   "frequencies": [
     {
+      "population": "Norwegian Fjord (allele frequency of D 1.00, Avila et al. 2022)",
+      "evidence": "published",
+      "genotypes": [
+        { "alleles": ["D", "D"], "percent": 100 }
+      ]
+    },
+    {
+      "population": "Gypsy Vanner (allele frequency of nd2 1.00, Avila et al. 2022)",
+      "evidence": "published",
+      "genotypes": [
+        { "alleles": ["d2", "d2"], "percent": 100 }
+      ]
+    },
+    {
       "population": "general population",
       "evidence": "estimated",
       "genotypes": [
@@ -54,6 +68,7 @@
     { "source": "other", "label": "Mad Barn research summary: TBX3 expression in dun Mongolian horses with and without Bider markings", "url": "https://madbarn.com/research/differential-expression-and-analysis-of-tbx3-gene-in-skin-tissues-of-dun-mongolian-horses-with-and-without-bider-markings/", "verified": false },
     { "source": "other", "label": "Equine Genetics Research Centre: dun, nd1, nd2", "url": "https://equinegeneticsresearchcentre.horse/coat-colour-and-pattern-testing-2/dun-nd1-nd2/", "verified": false },
     { "source": "paper", "label": "Wiadomosci Zootechniczne 2018 (4), art. 3: dun alleles and the nd1 SNP", "url": "https://wz.iz.edu.pl/files/WZ_2018_4_art03_en.pdf", "verified": false },
-    { "source": "paper", "label": "Slovenian Veterinary Research, article 1810: the nd1 SNP", "url": "https://www.slovetres.si/index.php/SVR/article/download/1810/682/7405", "verified": false }
+    { "source": "paper", "label": "Slovenian Veterinary Research, article 1810: the nd1 SNP", "url": "https://www.slovetres.si/index.php/SVR/article/download/1810/682/7405", "verified": false },
+    { "source": "pubmed", "label": "PMC9498372: Avila et al. 2022, allele frequencies of colour variants in 28 breeds", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9498372/", "verified": false }
   ]
 }

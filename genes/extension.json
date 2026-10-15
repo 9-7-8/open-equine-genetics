@@ -28,6 +28,15 @@
   ],
   "frequencies": [
     {
+      "population": "Pony of the Americas (allele frequency of e 0.76, relatedness-filtered, Avila et al. 2022; genotype shares worked out from it assuming random mating)",
+      "evidence": "published",
+      "genotypes": [
+        { "alleles": ["e", "e"], "percent": 57.76 },
+        { "alleles": ["e", "E"], "percent": 36.48 },
+        { "alleles": ["E", "E"], "percent": 5.76 }
+      ]
+    },
+    {
       "population": "general population",
       "evidence": "estimated",
       "genotypes": [

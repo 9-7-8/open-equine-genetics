@@ -101,6 +101,69 @@
   },
   "frequencies": [
     {
+      "population": "Percheron (allele frequency of a 0.99, relatedness-filtered, Avila et al. 2022; genotype shares worked out from it assuming random mating)",
+      "evidence": "published",
+      "genotypes": [
+        { "alleles": ["a", "a"], "percent": 98.01 },
+        { "alleles": ["a", "A"], "percent": 1.98 },
+        { "alleles": ["A", "A"], "percent": 0.01 }
+      ]
+    },
+    {
+      "population": "Gypsy Vanner (allele frequency of a 0.92, relatedness-filtered, Avila et al. 2022; genotype shares worked out from it assuming random mating)",
+      "evidence": "published",
+      "genotypes": [
+        { "alleles": ["a", "a"], "percent": 84.64 },
+        { "alleles": ["a", "A"], "percent": 14.72 },
+        { "alleles": ["A", "A"], "percent": 0.64 }
+      ]
+    },
+    {
+      "population": "Rocky Mountain Horse (allele frequency of a 0.87, relatedness-filtered, Avila et al. 2022; genotype shares worked out from it assuming random mating)",
+      "evidence": "published",
+      "genotypes": [
+        { "alleles": ["a", "a"], "percent": 75.69 },
+        { "alleles": ["a", "A"], "percent": 22.62 },
+        { "alleles": ["A", "A"], "percent": 1.69 }
+      ]
+    },
+    {
+      "population": "Tennessee Walking Horse (allele frequency of a 0.86, relatedness-filtered, Avila et al. 2022; genotype shares worked out from it assuming random mating)",
+      "evidence": "published",
+      "genotypes": [
+        { "alleles": ["a", "a"], "percent": 73.96 },
+        { "alleles": ["a", "A"], "percent": 24.08 },
+        { "alleles": ["A", "A"], "percent": 1.96 }
+      ]
+    },
+    {
+      "population": "Gypsy Cob (allele frequency of a 0.82, relatedness-filtered, Avila et al. 2022; genotype shares worked out from it assuming random mating)",
+      "evidence": "published",
+      "genotypes": [
+        { "alleles": ["a", "a"], "percent": 67.24 },
+        { "alleles": ["a", "A"], "percent": 29.52 },
+        { "alleles": ["A", "A"], "percent": 3.24 }
+      ]
+    },
+    {
+      "population": "Thoroughbred (allele frequency of a 0.24, relatedness-filtered, Avila et al. 2022; genotype shares worked out from it assuming random mating)",
+      "evidence": "published",
+      "genotypes": [
+        { "alleles": ["a", "a"], "percent": 5.76 },
+        { "alleles": ["a", "A"], "percent": 36.48 },
+        { "alleles": ["A", "A"], "percent": 57.76 }
+      ]
+    },
+    {
+      "population": "Norwegian Fjord (allele frequency of a 0.24, relatedness-filtered, Avila et al. 2022; genotype shares worked out from it assuming random mating)",
+      "evidence": "published",
+      "genotypes": [
+        { "alleles": ["a", "a"], "percent": 5.76 },
+        { "alleles": ["a", "A"], "percent": 36.48 },
+        { "alleles": ["A", "A"], "percent": 57.76 }
+      ]
+    },
+    {
       "population": "general population",
       "evidence": "estimated",
       "genotypes": [
@@ -115,6 +178,7 @@
     { "source": "other", "label": "Equine Tapestry", "url": "https://www.equinetapestry.blog/base-color-variation-mealy-and-seal-brown/", "verified": false },
     { "source": "pubmed", "label": "PMC6447268", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6447268/", "verified": false },
     { "source": "ucdavis-vgl", "label": "UC Davis VGL: Agouti (Bay/Black)", "url": "https://vgl.ucdavis.edu/test/agouti-horse", "verified": false },
-    { "source": "pubmed", "label": "PMC7349280: Brooks et al. 2020, an independent locus upstream of ASIP controls variation in the shade of the bay coat colour (Genes)", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7349280/", "verified": false }
+    { "source": "pubmed", "label": "PMC7349280: Brooks et al. 2020, an independent locus upstream of ASIP controls variation in the shade of the bay coat colour (Genes)", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7349280/", "verified": false },
+    { "source": "pubmed", "label": "PMC9498372: Avila et al. 2022, allele frequencies of colour variants in 28 breeds", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9498372/", "verified": false }
   ]
 }

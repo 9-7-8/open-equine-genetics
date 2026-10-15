@@ -24,6 +24,78 @@
   ],
   "frequencies": [
     {
+      "population": "Missouri Fox Trotter (allele frequency of Ch 0.054, relatedness-filtered, Avila et al. 2022; genotype shares worked out from it assuming random mating)",
+      "evidence": "published",
+      "genotypes": [
+        { "alleles": ["Ch", "Ch"], "percent": 0.2916 },
+        { "alleles": ["Ch", "c"], "percent": 10.2168 },
+        { "alleles": ["c", "c"], "percent": 89.4916 }
+      ]
+    },
+    {
+      "population": "Rocky Mountain Horse (allele frequency of Ch 0.026, relatedness-filtered, Avila et al. 2022; genotype shares worked out from it assuming random mating)",
+      "evidence": "published",
+      "genotypes": [
+        { "alleles": ["Ch", "Ch"], "percent": 0.0676 },
+        { "alleles": ["Ch", "c"], "percent": 5.0648 },
+        { "alleles": ["c", "c"], "percent": 94.8676 }
+      ]
+    },
+    {
+      "population": "Miniature Horse (allele frequency of Ch 0.017, relatedness-filtered, Avila et al. 2022; genotype shares worked out from it assuming random mating)",
+      "evidence": "published",
+      "genotypes": [
+        { "alleles": ["Ch", "Ch"], "percent": 0.0289 },
+        { "alleles": ["Ch", "c"], "percent": 3.3422 },
+        { "alleles": ["c", "c"], "percent": 96.6289 }
+      ]
+    },
+    {
+      "population": "Gypsy Cob (allele frequency of Ch 0.008, relatedness-filtered, Avila et al. 2022; genotype shares worked out from it assuming random mating)",
+      "evidence": "published",
+      "genotypes": [
+        { "alleles": ["Ch", "Ch"], "percent": 0.0064 },
+        { "alleles": ["Ch", "c"], "percent": 1.5872 },
+        { "alleles": ["c", "c"], "percent": 98.4064 }
+      ]
+    },
+    {
+      "population": "Quarter Horse (allele frequency of Ch 0.008, relatedness-filtered, Avila et al. 2022; genotype shares worked out from it assuming random mating)",
+      "evidence": "published",
+      "genotypes": [
+        { "alleles": ["Ch", "Ch"], "percent": 0.0064 },
+        { "alleles": ["Ch", "c"], "percent": 1.5872 },
+        { "alleles": ["c", "c"], "percent": 98.4064 }
+      ]
+    },
+    {
+      "population": "Tennessee Walking Horse (allele frequency of Ch 0.008, relatedness-filtered, Avila et al. 2022; genotype shares worked out from it assuming random mating)",
+      "evidence": "published",
+      "genotypes": [
+        { "alleles": ["Ch", "Ch"], "percent": 0.0064 },
+        { "alleles": ["Ch", "c"], "percent": 1.5872 },
+        { "alleles": ["c", "c"], "percent": 98.4064 }
+      ]
+    },
+    {
+      "population": "Paint Horse (allele frequency of Ch 0.007, relatedness-filtered, Avila et al. 2022; genotype shares worked out from it assuming random mating)",
+      "evidence": "published",
+      "genotypes": [
+        { "alleles": ["Ch", "Ch"], "percent": 0.0049 },
+        { "alleles": ["Ch", "c"], "percent": 1.3902 },
+        { "alleles": ["c", "c"], "percent": 98.6049 }
+      ]
+    },
+    {
+      "population": "Shetland Pony (allele frequency of Ch 0.002, relatedness-filtered, Avila et al. 2022; genotype shares worked out from it assuming random mating)",
+      "evidence": "published",
+      "genotypes": [
+        { "alleles": ["Ch", "Ch"], "percent": 0.0004 },
+        { "alleles": ["Ch", "c"], "percent": 0.3992 },
+        { "alleles": ["c", "c"], "percent": 99.6004 }
+      ]
+    },
+    {
       "population": "general population",
       "evidence": "estimated",
       "genotypes": [
