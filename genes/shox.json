@@ -37,6 +37,18 @@
   ],
   "frequencies": [
     {
+      "population": "Shetland Pony, Sweden (allele frequencies Del1 0.0479 and Del2 0.0106, Rafati et al. 2016; genotype shares worked out from them assuming random mating)",
+      "evidence": "published",
+      "genotypes": [
+        { "alleles": ["Del1", "Del1"], "percent": 0.2294 },
+        { "alleles": ["Del2", "Del2"], "percent": 0.0112 },
+        { "alleles": ["Del2", "Del1"], "percent": 0.1015 },
+        { "alleles": ["Del1", "N"], "percent": 9.0196 },
+        { "alleles": ["Del2", "N"], "percent": 1.996 },
+        { "alleles": ["N", "N"], "percent": 88.6423 }
+      ]
+    },
+    {
       "population": "general population",
       "evidence": "estimated",
       "genotypes": [
@@ -53,6 +65,8 @@
     { "source": "other", "label": "Labgenvet: skeletal atavism", "url": "https://labgenvet.ca/en/disease/skeletal-atavism/", "verified": false },
     { "source": "other", "label": "MedlinePlus Genetics: SHOX gene", "url": "https://medlineplus.gov/genetics/gene/shox/", "verified": false },
     { "source": "ucdavis-vgl", "label": "UC Davis VGL: Red Factor", "url": "https://vgl.ucdavis.edu/test/red-factor-horse", "verified": false },
-    { "source": "other", "label": "ScienceDirect topic page: short stature homeobox gene", "url": "https://www.sciencedirect.com/topics/biochemistry-genetics-and-molecular-biology/short-stature-homeobox-gene", "verified": false }
+    { "source": "other", "label": "ScienceDirect topic page: short stature homeobox gene", "url": "https://www.sciencedirect.com/topics/biochemistry-genetics-and-molecular-biology/short-stature-homeobox-gene", "verified": false },
+    { "source": "pubmed", "label": "PMC4938674: Rafati et al. 2016, SHOX deletions and skeletal atavism in Shetland Ponies", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4938674/", "verified": false },
+    { "source": "ucdavis-vgl", "label": "UC Davis VGL: skeletal atavism", "url": "https://vgl.ucdavis.edu/test/skeletal-atavism", "verified": false }
   ]
 }

@@ -120,7 +120,7 @@ STILL WRONG OR UNPROVEN IN THE RESEARCHED LOCI
 - matp: the names palomino, buckskin, cremello and the rest depend on extension and agouti; the file says so in words and has no interactions table. The first of the three research answers marks its sources by number only, with no addresses; the citations added are the addresses in the other two. The wild type is written N here; the research also gives n and C.
 - gys1: one copy can show nothing at all (incomplete penetrance), but the format has one outcome per pair, so N/PSSM1 carries the condition and its description gives the range. Round three (F3) added Quarter Horse, Paint and halter tables (Tryon et al. 2009); drafts are given only as a 36-92% range. Before that no frequency table was made: the figures given (87% of affected draft-related horses, 72% of affected Quarter Horse-related horses, 18% of affected Warmbloods) are shares of diagnosed cases that carry the variant, not population frequencies. Chromosome 10 is from round two. The allele id is P; UC Davis writes PSSM1.
 - mushroom: the outcome depends on extension and agouti (clear on chestnut, uncertain on bay, none expected on black); the file says so in words and has no interactions table. Its link to flaxen is unresolved. Round three added a Shetland Pony table (allele frequency 0.23, Avila et al. 2022, which did not find it in its Miniature sample); the general table is still the mod's. The allele ids are Mu and mu; UC Davis writes Mu and N.
-- met: met/met stays a nonviable pair. The research supports it as a recessive embryonic lethal, on indirect evidence: about 25 per cent lower insemination success in carrier-to-carrier matings. It is reported in Friesians only; the frequency table is still the mod's "general population". The research gave the UniProt record at two addresses; one is cited.
+- met: round three's answer to G4 described Friesian hydrocephalus (B3GALNT2), not this MET deletion; not used. Hydrocephalus (Ducro et al. 2015, about 17% carriers) is not a locus here. met/met stays a nonviable pair. The research supports it as a recessive embryonic lethal, on indirect evidence: about 25 per cent lower insemination success in carrier-to-carrier matings. It is reported in Friesians only; the frequency table is still the mod's "general population". The research gave the UniProt record at two addresses; one is cited.
 - myo5a: the locus now says it affects the coat, and the affected foal's outcome changes the coat, because the research describes the foal as diluted; the mod's export had both false. The Arabian tables use the mapping study's carrier shares (10.3% and 1.8%). Settled in round three (2026-10-15): the mapping study's 10.3% (6 of 58) and 1.8% (1 of 56) are carrier shares, with allele frequencies of 5.2% and 0.89%. UC Davis's "1.6%" allele frequency for non-Egyptian Arabians matches neither and is left out as an apparent inconsistency. The third table (allele frequency 0.08, 16% carriers) is one Egyptian farm, 200 horses, partly targeted. Chromosome 1 and the EquCab3.0 position g.139290592del are from round three (OMIA); the g.138235715del the summary gave before came from an earlier answer with no assembly named, may be an EquCab2 position, and was not checked.
 - plod1: affected foals may be stillborn, and the research says some pregnancies may be lost early (unproven); the single severity stays "lethal_at_birth". The breed tables are carrier shares among horses tested; the small ones (Sport Pony, Haflinger, Knabstrupper) rest on 12 to 48 horses; round three confirms they are carriers, from Reiter et al. 2020 (round two's "may include affected cases" was wrong). Chromosome 2 is from round three; no EquCab3.0 position for c.2032G>A was found, and the gene span the answer gave (on NC_091685.1) may be on another assembly, so it is not in the data.
 - ppib: round three (F2): no observed affected share is published, only q squared; new tables for Paint controls (1.7%) and 2020-2024 elite cutting horses (0.135, Brown et al. 2026, via a research-summary site). The Quarter Horse tables give carriers only; living affected horses exist and their share was not given, so they are counted with the clear horses. Round three names the studies: 3.5% is Tryon et al. 2007 (7 of 200 controls), 1.6% the French study of 2011, and 28.3% Tryon et al. 2009 (32 of 113 elite cutting horses); round two's "affected families" was wrong. The allele id is herda; laboratories write HR or H. Chromosome 1 and the EquCab3.0 position are from round three (OMIA).
@@ -302,20 +302,15 @@ BLOCK E - DISORDERS OF ARABIANS AND THOROUGHBREDS
 -------------------------------------------------
 E3. SCID (PRKDC): what is the carrier frequency in Arabians today, from a named study?
 
-BLOCK F - DISORDERS OF QUARTER HORSES AND RELATED BREEDS
---------------------------------------------------------
-
 BLOCK G - DISORDERS OF WARMBLOODS, DRAFTS, PONIES AND OTHER BREEDS
 ------------------------------------------------------------------
-G2. Fragile foal syndrome (PLOD1 c.2032G>A): what are the carrier frequencies for each
-    Warmblood breed (Hanoverian, Holsteiner, Oldenburg, KWPN, Trakehner, Danish and
-    Swedish Warmblood and others), from which studies and samples?
-G4. The MET embryonic lethal in Friesians: what carrier frequency is published, and by
-    which study?
-G5. Skeletal atavism (SHOX deletions Del1 and Del2) in Shetland Ponies and Miniature
-    Horses: what carrier frequencies are published?
-G6. ACAN dwarfism (variants D1 to D4, Miniature Horses and ponies): what carrier
-    frequencies are published, by breed, for each of D1, D2, D3 and D4?
+G2. Fragile foal syndrome (PLOD1 c.2032G>A): carrier frequencies for Holsteiner,
+    Oldenburg, KWPN and Trakehner, with the study and sample size for each?
+G4. MET in Friesians: the 14 base-pair frameshift deletion in the MET gene
+    (g.74041982_74041995del, haplotypes FH2-FH4), a recessive embryonic lethal. What carrier
+    frequency is published? This is NOT hydrocephalus (B3GALNT2), which an answer gave.
+G6. ACAN dwarfism in Miniature Horses: the four alleles together are at about 0.28. What is
+    the frequency of EACH of D1, D2, D3 and D4 separately, from which study?
 G7. ACAN: Generatio lists D3* as g.95282140C>G and D4 as g.95257458_95257500del (43
     bases). The published names used here are D3 c.6700delC (a one-base deletion) and D4
     c.7299_7319del (21 bases). Are these the same variants? On which assembly are
