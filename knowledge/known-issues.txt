@@ -11,7 +11,7 @@ WHERE THE DATA STANDS
   (round three, 2026-10-15; answers about one locus are at the top of its note, answers
   about several are kept whole in knowledge/science/round-3-answers.txt). Round four
   (2026-10-15, after this file was rewritten) so far: overviews of acan, agouti and
-  b4galt7, and answers to B3, B4, C1, C4, C6 and D6; answers about several loci are kept whole in
+  b4galt7, and answers to B3, B4, C1, C4, C6, D6 and E3; answers about several loci are kept whole in
   knowledge/science/round-4-answers.txt. The lists below
   are each kept on one long line, sorted, so they are easy to edit.
 RESEARCHED: abstracted_jump_strength, acan, agouti, b4galt7, brindle, champagne, ckm, dmrt3, dun, ednrb, extension, gbe1, grey, gys1, hmga2, kit, lama3, lamc2, lcorl, leopard, matp, met, mitf, mstn, mushroom, myo5a, patn1, pax3, pdk4, plod1, ppib, prkdc, rapgef5, roan, ryr1, scn4a, shox, silver, slc5a3, st14, tiger_eye, tobiano, toe1.
@@ -59,7 +59,7 @@ STILL WRONG OR UNPROVEN IN THE RESEARCHED LOCI
 - pdk4: A is flagged wild_type (reference allele, carried by pre-domestication horses); no formal reconstruction was found.
 - plod1: affected foals may be stillborn and some pregnancies may be lost early (unproven); the severity stays "lethal_at_birth". No EquCab3.0 position for c.2032G>A. Several Warmblood breeds have no figure (question G2).
 - ppib: the Quarter Horse tables give carriers only; living affected horses are counted with the clear ones, and no observed affected share is published. One table comes from a research-summary site.
-- prkdc: no frequency table: about 0.2% of Arabians affected is all that was given (question E3). The research names its sources by number only.
+- prkdc: four Arabian tables (US 1998 8.4%, Iran 2015 1.6%, Turkish state studs 0 of 239, Egypt 2018 0 of 33); the newest result, a pooled 2026 sequencing of 120 Arabians, found none but gives no share. Durward-Akhurst et al. 2024's Arabian figure is in a supplement not retrieved. The first research names its sources by number only.
 - rapgef5: three Thoroughbred tables from three studies, all kept.
 - roan: the symbol stays KIT; the causal variant is unknown. RN1-RN3 are haplotype markers, in the summary only.
 - ryr1, slc5a3, grey: their "general population" tables are estimates.
@@ -180,12 +180,6 @@ B3. Avila et al. 2022 (Genes 13:1641, PMC9498372, doi 10.3390/genes13091641):
     'Tiger-Eye' iris pigmentation in Puerto Rican Paso Fino Horses": the sample size and
     the TE1 and TE2 genotype counts in Puerto Rican Paso Finos as a whole, saying whether
     each figure is an allele frequency or a share of horses.
-
-BLOCK E - DISORDERS OF ARABIANS
--------------------------------
-E3. SCID in Arabians (PRKDC, the 5 bp deletion c.9478_9482del): what carrier frequency is
-    published, from which study, sample and year? Older figures exist; a current one is
-    wanted.
 
 BLOCK G - DISORDERS OF WARMBLOODS, DRAFTS AND PONIES
 ----------------------------------------------------

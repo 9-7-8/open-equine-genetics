@@ -5,6 +5,39 @@ No source was opened by the session that filed this. genes/prkdc.json was change
 on the owner's word the same day; what is left over is in knowledge/known-issues.txt.
 Not yet audited.)
 
+ROUND FOUR (the owner's answer to question E3, 2026-10-15)
+-----------------------------------------------------------
+No address has been opened by a maintainer. Her answer, condensed, with every point and
+address she gave:
+
+  - Newest: a 2026 whole-genome allele-frequency database of 120 Arabians from Poland,
+    the United States, Egypt and Syria (https://pmc.ncbi.nlm.nih.gov/articles/PMC13277238/)
+    did not detect the SCID allele. Sequenced in pools, so no individual carrier share
+    or confidence interval; evidence of very low or absent frequency in that set.
+  - UC Davis: 1-8% of Arabians carriers, varying by country; no single current
+    worldwide figure. (https://vgl.ucdavis.edu/test/scid)
+  - Bernoco and Bailey 1998 (https://pubmed.ncbi.nlm.nih.gov/9682449/): 21 carriers in
+    250 randomly selected US Arabians, 8.4%; allele frequency 4.2%. A US baseline, not a
+    current global figure.
+  - Iran 2015 (https://jast.modares.ac.ir/article_15723_67f19fd0431cac0ac7f8ea986bbf8b9b.pdf):
+    244 Arabians (228 Persian/Asil, 16 imported), allele frequency 0.8%, carriers 1.6%.
+  - Egypt 2018, cited by OMIA (https://omia.org/OMIA000220/9796/): 103 horses, 33 of
+    them randomly selected Arabians; zero.
+  - Turkish state studs (https://dergipark.org.tr/en/download/article-file/658474): 0 of
+    239; year not in the record.
+  - Durward-Akhurst et al. 2024 (https://pmc.ncbi.nlm.nih.gov/articles/PMC11006912/):
+    the Arabian figure is in Supplementary Table 6, not retrieved.
+  - The 2026 database gives the deletion as ECA9 g.36,395,752_36,395,756del (EquCab3.0)
+    and 9:50,511,072-76 (EquCab2); its "c.4675_4679del" is another transcript's
+    numbering of the same deletion, c.9478_9482del in common use.
+  - Recessive; N/SCID carrier, SCID/SCID affected; a quarter of foals of two carriers.
+  - Its modelling advice (not a finding): a carrier frequency per population, not one
+    global value.
+
+What the gene file does with it: the summary gives the figures by country; four tables
+(US 1998, Iran 2015, Turkish state studs, Egypt 2018). The pooled 2026 result is in the
+summary, not a table. Three citations. The EquCab2 position is not added.
+
 ROUND THREE (the owner's answer to questions E3, F3 and G1, 2026-10-15)
 ------------------------------------------------------------------------
 The whole answer is in knowledge/science/round-3-answers.txt. No address has been opened
