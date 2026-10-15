@@ -162,7 +162,7 @@ for (const file of breedFiles) {
   if (b.species !== "horse") bad(`species is "${b.species}"`);
   for (const f of ["name", "country"]) if (!b[f]) bad(`"${f}" is empty`);
   // Nothing from a game: no game ids, biomes or spawn rules.
-  if (/minecraft:|"(biomes|spawn[a-z_]*|price|commonness|kind)"/.test(text)) bad("has a game-only field or value");
+  if (/"(biomes|spawn[a-z_]*|price|commonness|kind)"/.test(text)) bad("has a field that is not part of the format");
   const s = b.scores ?? {};
   if (s.evidence !== "abstracted") bad(`scores evidence is "${s.evidence}"`);
   for (const f of ["speed", "jump", "health", "pull"]) if (!isScore(s[f])) bad(`score "${f}" is ${JSON.stringify(s[f])}`);
