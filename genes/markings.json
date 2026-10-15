@@ -5,7 +5,7 @@
   "name": "Markings",
   "symbol": null,
   "evidence": "abstracted",
-  "summary": "Ordinary white markings - the star, stripe, snip, sock and stocking a horse can have without carrying any white pattern gene at all. An additive dosage locus: more copies means more white, from a coronet up to a broad blaze and high stockings. It runs before every pattern locus, so sabino and splash stack their white on top of it.",
+  "summary": "Ordinary white markings - the star, stripe, snip, sock and stocking a horse can have without any named white-pattern allele. Held here as one additive dosage locus of made-up alleles: more copies means more white, from a coronet up to a broad blaze and high stockings. In reality the trait is polygenic, with no single gene, causal variant or DNA test: in 1,077 Franches-Montagnes horses (Haase et al. 2013) seven regions explained 54 per cent of the genetic variance in white, KIT and MITF together 26 - MITF about 23 per cent of it on the head, KIT and MC1R (extension) about 10 each on the legs, KIT more so in chestnuts - and the white-adding versions of KIT and MITF add up. The KIT allele W20 was linked to face and total white in Menorca horses. A smaller study elsewhere found other regions and not KIT or MITF, so the picture differs by breed. No genotype predicts which leg or what shape. No known effect on build, speed or the long hair. It runs before every pattern locus, so sabino and splash stack their white on top of it.",
   "inheritance": "autosomal",
   "affects_coat": true,
   "alleles": [
@@ -42,5 +42,10 @@
       ]
     }
   ],
-  "citations": []
+  "citations": [
+    { "source": "pubmed", "label": "PMC3787084: Haase et al. 2013, PLoS ONE 8(9):e75071, KIT and MITF haplotypes and white markings in Franches-Montagnes horses", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3787084/", "verified": false },
+    { "source": "pubmed", "label": "PMID 24069340: Haase et al. 2013", "url": "https://pubmed.ncbi.nlm.nih.gov/24069340/", "verified": false },
+    { "source": "omia", "label": "OMIA 001884-9796: white markings, horse", "url": "https://omia.org/OMIA001884/9796/", "verified": false },
+    { "source": "paper", "label": "Animal Genetics, 10.1111/age.12528: KIT, MITF and PAX3 and white markings in Menorca and Spanish Purebred horses", "url": "https://onlinelibrary.wiley.com/doi/abs/10.1111/age.12528", "verified": false }
+  ]
 }
