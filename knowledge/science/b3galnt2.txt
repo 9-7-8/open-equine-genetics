@@ -1,0 +1,31 @@
+B3GALNT2 (Friesian hydrocephalus) - science notes
+(Written 2026-10-15 when the locus was added, on the owner's agreement, from her
+round-four answer. No address has been opened by a maintainer.)
+
+ROUND FOUR (the owner's answer on Friesian hydrocephalus, 2026-10-15)
+---------------------------------------------------------------------
+Her answer, condensed, with every point and address she gave:
+
+  - Ducro et al. 2015, "A nonsense mutation in B3GALNT2 is concordant with hydrocephalus
+    in Friesian horses", BMC Genomics 16:761, doi 10.1186/s12864-015-1936-z
+    (https://pmc.ncbi.nlm.nih.gov/articles/PMC4600337/): c.1423C>T in exon 12, a stop,
+    p.Gln475*. Reported at ECA1:75,907,505, the gene at ECA1:75,859,296-75,909,376, on
+    the assembly of that study, not stated as EquCab3.0 - so no position is in the data
+    until converted. The paper calls it the "likely cause"; the same variant causes a
+    human dystroglycanopathy with hydrocephalus.
+  - Autosomal recessive, either sex. hcp/hcp: excess cerebrospinal fluid, severe cranial
+    swelling, stillbirth, difficult birth (dystocia).
+  - 865 Friesians in the study: 147 carriers, 718 clear; allele frequency 0.085. UC Davis:
+    about 17% of Friesians carriers (https://vgl.ucdavis.edu/test/friesian-horse-hydrocephalus).
+    A Barock Pinto studbook page: about 20% of Friesian mares and 10% of Barock Pinto
+    mares carriers (no address given).
+  - Also reported in a Belgian draft horse (no address given). Other hydrocephalus causes
+    exist; a negative test does not exclude them.
+  - No effect on coat, build, performance or carriers.
+  - Its advice: a two-allele recessive lethal; HCP/HCP as stillbirth, with a dystocia risk
+    to the mare (not in the format).
+
+What the data does with it: new locus genes/b3galnt2.json, published, chromosome 1;
+hcp/hcp a living row with "lethal_at_birth" (usually stillborn, as gbe1). Two Friesian
+tables (the study's 865 horses; UC Davis's 17%); the friesian breed pool is the study's
+table. The answer's sources [1], [4], [5], [7], [8] and [10] were given by number only.
