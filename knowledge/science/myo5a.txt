@@ -4,6 +4,39 @@ No source was opened by the session that filed this. genes/myo5a.json was change
 on the owner's word the same day; what is left over is in knowledge/known-issues.txt.
 Not yet audited.)
 
+ROUND THREE (the owner's answer to question E1, 2026-10-15)
+------------------------------------------------------------
+This came after everything below and settles what kind of figure 10.3% and 1.8% are. No
+address has been opened by a maintainer. Her answer, condensed, with every point and
+address she gave:
+
+  - Brooks et al. 2010: 10.3% and 1.8% are CARRIER shares (N/LFS), not allele
+    frequencies. The paper: "10.3% of Egyptian Arabians (six out of 58 horses) and 1.8%
+    of non-Egyptian Arabians (one out of 56 horses) were identified as carriers". The
+    allele frequencies it gives are 5.2% (Egyptian) and 0.89% (other Arabians).
+    (https://journals.plos.org/plosgenetics/article/file?id=10.1371/journal.pgen.1000909&type=printable)
+
+    | Group                 | Tested | Carriers | Carrier share | Allele frequency |
+    | Egyptian Arabian      | 58     | 6        | 10.3%         | 5.2%             |
+    | Other Arabian         | 56     | 1        | 1.8%          | 0.89%            |
+    | All Arabians          | 114    | 7        | 6.1%          | about 3.1%       |
+
+  - The samples are small, especially the single non-Egyptian carrier; the authors call
+    it a "rough estimate" for the breed.
+  - UC Davis gives "about 1.6%" as the allele frequency in non-Egyptian Arabians beside
+    10.3% in Egyptian ones, calling both allele frequencies. That does not match Brooks
+    (1.8% carriers, 0.89% alleles); it may be rounded or reworded from another source,
+    or an inconsistency. (https://vgl.ucdavis.edu/test/lfs)
+  - The 0.08 / 16% figures come from a different study: 200 samples from one Arabian farm
+    in Egypt, a cross-sectional survey of 170 horses plus 30 targeted samples traced
+    through farm records for LFS. Mutant allele frequency 0.08; carriers (N/L) 16%. A
+    single farm, partly targeted, so not a breed-wide figure.
+    (https://scholars.uky.edu/en/publications/evidence-for-origin-of-lavender-foal-syndrome-among-egyptian-arab/)
+  - Carrier share is about 2p(1-p) when affected horses are negligible.
+
+What the gene file does with it: the three tables already gave carrier shares; their
+names now give the samples, and the farm table says it is not breed-wide.
+
 ROUND TWO (the owner's answers to the open research questions, 2026-10-12)
 --------------------------------------------------------------------------
 These came after everything below. Where they disagree with it, this section and the gene
@@ -16,7 +49,8 @@ knowledge/science/round-2-answers.txt. No address has been opened by a maintaine
   The answer does not describe the sample.
 - It says 10.3% and 1.6-1.8% are not interchangeable with those figures and likely come
   from different studies, subpopulations or definitions. Whether they are allele
-  frequencies or carrier shares was NOT settled.
+  frequencies or carrier shares was not settled here; SETTLED BY ROUND THREE (above):
+  carrier shares.
 
 MYO5A is not a routine “dilution gene” for viable coat colors in horses. Its known equine role is as the causative gene for Lavender Foal Syndrome (LFS)—also called Coat Color Dilution Lethal (CCDL)—a rare, fatal autosomal-recessive neurological disease seen chiefly in Arabian horses, especially Egyptian-bloodline Arabians. [vgl.ucdavis](https://vgl.ucdavis.edu/test/lfs)
 
