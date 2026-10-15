@@ -4,6 +4,40 @@ No source was opened by the session that filed this. genes/ckm.json was changed 
 on the owner's word the same day; what is left over is in knowledge/known-issues.txt.
 Not yet audited.)
 
+ROUND FOUR (the owner's answer to question D6, 2026-10-15)
+-----------------------------------------------------------
+No address has been opened by a maintainer. Her answer, condensed, with every point and
+address she gave. It settles round three's D3 answer, which put CKM on chromosome 9.
+
+  - CKM is on chromosome 10 (ECA10). NCBI Gene places horse CKM there
+    (https://www.ncbi.nlm.nih.gov/gene/100065641); the original BIEC2-109575 description
+    puts it on ECA10 at EquCab2.0 15,884,567, intron 4, a G/A change with A associated
+    with elite Thoroughbred racing (https://patents.google.com/patent/US8771943B2/en); an
+    older comparative map also has CKM on 10
+    (https://www.ncbi.nlm.nih.gov/pmc/articles/PMC311003/). No source for 9 was found;
+    treat it as an error.
+  - g.16079732G>A is almost certainly the same SNP on EquCab3.0: Dall'Olio et al. 2021
+    give positions on EquCab3.0 (Ensembl release 100) and treat their marker as Gu et
+    al.'s, with A reported favourable in Thoroughbreds. The offset is 191,165 bp; the
+    conversion is not stated in any source found, so "same SNP, pending verification of
+    the coordinate lift".
+    (https://doi.org/10.1016/j.livsci.2020.104351 ;
+    https://cris.unibo.it/bitstream/11585/818747/4/AAM%20SNPs%20and%20Italian%20Trotter%20horse%20performance.pdf)
+  - Allele frequencies: Italian Trotter G 0.59, A 0.41, 412 horses genotyped (313 kept
+    for the performance analysis, after removing geldings and horses with fewer than five
+    starts; racing records of horses born before 2010; sampling year not stated).
+    Thoroughbred G 0.50, A 0.50, 20 horses from different sires in northern Italy, too
+    few for a breed figure.
+  - The Italian study found no significant association with the harness-racing traits
+    tested; Gu et al.'s was a candidate association, not a validated effect. No
+    established effect on speed, muscle, height, bone, hoof, feathering or colour.
+  - Its modelling advice (not a finding): one locus, alleles G and A; no separate
+    alleles per assembly.
+
+What the gene file does with it: chromosome 10 kept, and the summary says who places it
+there; the Italian Trotter marker is said to be taken as the same SNP; an Italian Trotter
+table (C 0.59, worked out); the Thoroughbred 20 not tabled. Three citations.
+
 ROUND THREE (the owner's answer to question D4, 2026-10-15)
 ------------------------------------------------------------
 The whole answer is in knowledge/science/round-3-answers.txt. No address has been opened

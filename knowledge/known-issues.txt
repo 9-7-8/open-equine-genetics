@@ -11,7 +11,7 @@ WHERE THE DATA STANDS
   (round three, 2026-10-15; answers about one locus are at the top of its note, answers
   about several are kept whole in knowledge/science/round-3-answers.txt). Round four
   (2026-10-15, after this file was rewritten) so far: overviews of acan, agouti and
-  b4galt7, and answers to B3, B4, C1, C4 and C6; answers about several loci are kept whole in
+  b4galt7, and answers to B3, B4, C1, C4, C6 and D6; answers about several loci are kept whole in
   knowledge/science/round-4-answers.txt. The lists below
   are each kept on one long line, sorted, so they are easy to edit.
 RESEARCHED: abstracted_jump_strength, acan, agouti, b4galt7, brindle, champagne, ckm, dmrt3, dun, ednrb, extension, gbe1, grey, gys1, hmga2, kit, lama3, lamc2, lcorl, leopard, matp, met, mitf, mstn, mushroom, myo5a, patn1, pax3, pdk4, plod1, ppib, prkdc, rapgef5, roan, ryr1, scn4a, shox, silver, slc5a3, st14, tiger_eye, tobiano, toe1.
@@ -34,7 +34,7 @@ STILL WRONG OR UNPROVEN IN THE RESEARCHED LOCI
 - agouti: At (seal brown) and A+ (wild bay) are "unverified", proposed alleles with no outcome (owner, 2026-10-15); the looks are real, the alleles unvalidated. The research suggests the looks be modelled as separate modifiers of unknown basis; only the abstracted shade locus exists, and nothing for wild bay's low leg points.
 - b4galt7: its first research names its sources by number only. The Friesian tables omit d/d horses. The 12% is Leegwater et al. 2016's 22 of 177, a validation set, not a random sample; KFPS testing gave about 15% in 2000 and 12.5% in 2021 (Hermans et al. 2024). A Brazilian 33% (12 horses) is not a table. Round four confirms all of this and adds a 2026 screen of 8,263 Friesians (BMC Genomics) that gave no B4GALT7 figure alone and no address. The Friesian Health Panel has no address either.
 - champagne: the names gold, amber and classic champagne depend on extension and agouti; the file says so in words and has no interactions table. "Sable" and "ivory" are registry names, not alleles.
-- ckm: a candidate that failed to replicate (Gu et al. 2010; no association in Quarter Horses); the file states no effect. Its reference allele is flagged wild_type and called ancestral on that alone. Round three puts CKM on chromosome 9, the file says 10; and an Italian Trotter study's marker g.16079732G>A may or may not be the file's g.15884567G>A (question D6). Whether a locus with no established effect belongs in the data as published is the owner's call.
+- ckm: a candidate that failed to replicate (Gu et al. 2010; no association in Quarter Horses); the file states no effect. Its reference allele is flagged wild_type and called ancestral on that alone. Chromosome 10 (round four; round three's 9 was an error). The Italian Trotter table rests on taking g.16079732G>A (EquCab3.0) as the file's g.15884567G>A (EquCab2.0): best supported, but no source states the conversion. Thoroughbred G 0.50 is from 20 horses, not tabled. Whether a locus with no established effect belongs in the data as published is the owner's call.
 - dmrt3: the Icelandic table is worked out from one allele frequency. Of six exon-2 variants in a 2026 study, only c.902C>A has an established effect; three are not named in the summary the research could reach. Trot versus pace in Standardbreds is predicted by a seven-SNP panel of putative modifiers (McCoy et al. 2019); not modelled.
 - dun: nd1's markings are variable ("may show"), but d1/d1 and d1/d2 share one outcome that cannot say how often; round two says d1/d1 may mark more consistently, unmeasured. The nd1 change is G>T at chr8:18,227,267+1,066 on EquCab2.0, inside the 1.6 kb sequence the reference lacks, so it has no plain reference position. Breed tables exist for the Norwegian Fjord and Gypsy Vanner only; the rest are in Avila et al.'s Supplementary Table S4 (question B3). A citation to a TBX3 height enhancer (PMC8796118) has nothing in the data resting on it.
 - ednrb: the EDNRB gene span an answer gave is on another assembly (NC_091700.1) and is not in the data.
@@ -180,13 +180,6 @@ B3. Avila et al. 2022 (Genes 13:1641, PMC9498372, doi 10.3390/genes13091641):
     'Tiger-Eye' iris pigmentation in Puerto Rican Paso Fino Horses": the sample size and
     the TE1 and TE2 genotype counts in Puerto Rican Paso Finos as a whole, saying whether
     each figure is an allele frequency or a share of horses.
-
-BLOCK D - PERFORMANCE
----------------------
-D6. CKM (muscle creatine kinase; marker BIEC2-109575, g.15884567G>A on EquCab2.0): is it
-    on horse chromosome 9 or 10? Two answers disagree. Is g.16079732G>A (the marker of
-    an Italian Trotter study) the same SNP on another assembly, or a different one? If
-    the same, its frequencies (Italian Trotter G 0.59, Thoroughbred G 0.50) apply here.
 
 BLOCK E - DISORDERS OF ARABIANS
 -------------------------------
