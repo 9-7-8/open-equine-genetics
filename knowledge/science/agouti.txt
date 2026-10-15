@@ -7,6 +7,12 @@ No source was opened by the session that filed this. genes/agouti.json was chang
 on the owner's word the same day; what is left over is in knowledge/known-issues.txt.
 Not yet audited.)
 
+ROUND THREE (the owner's answer to question B3, 2026-10-15)
+------------------------------------------------------------
+The whole answer, for eight loci, is in knowledge/science/round-3-answers.txt. No address
+has been opened by a maintainer.
+- Allele frequencies of a by breed (Avila et al. 2022): Percheron 0.99, Gypsy Vanner 0.92, Rocky Mountain 0.87, Tennessee Walking 0.86, Gypsy Cob 0.82, Thoroughbred 0.24, Norwegian Fjord 0.24; mean 0.58, found in every breed. Seven tables.
+
 ROUND TWO (the owner's answers to the open research questions, 2026-10-12)
 --------------------------------------------------------------------------
 These came after everything below. Where they disagree with it, this section and the gene

@@ -4,6 +4,12 @@ No source was opened by the session that filed this. genes/silver.json was chang
 on the owner's word the same day; what is left over is in knowledge/known-issues.txt.
 Not yet audited.)
 
+ROUND THREE (the owner's answer to question B3, 2026-10-15)
+------------------------------------------------------------
+The whole answer, for eight loci, is in knowledge/science/round-3-answers.txt. No address
+has been opened by a maintainer.
+- Allele frequencies of Z by breed (Avila et al. 2022): Rocky Mountain 0.32, Quarter Horse 0.0011; found in 15 breeds. Z/Z more often has the severe eye anomalies (MCOA), Z/N cysts only. Two tables.
+
 ROUND TWO (the owner's answers to the open research questions, 2026-10-12)
 --------------------------------------------------------------------------
 These came after everything below. Where they disagree with it, this section and the gene

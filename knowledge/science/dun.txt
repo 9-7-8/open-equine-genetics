@@ -4,6 +4,12 @@ No source was opened by the session that filed this. genes/dun.json was changed 
 on the owner's word the same day; what is left over is in knowledge/known-issues.txt.
 Not yet audited.)
 
+ROUND THREE (the owner's answer to question B3, 2026-10-15)
+------------------------------------------------------------
+The whole answer, for eight loci, is in knowledge/science/round-3-answers.txt. No address
+has been opened by a maintainer.
+- Allele frequencies by breed (Avila et al. 2022): D 1.00 in the Norwegian Fjord and absent from nine breeds; nd1 highest in the PRE (0.79); nd2 1.00 in the Gypsy Vanner. Tables for the Fjord and the Vanner.
+
 ROUND THREE (the owner's answer to question B2, 2026-10-15)
 ------------------------------------------------------------
 No address has been opened by a maintainer. Her answer, condensed, with every point and

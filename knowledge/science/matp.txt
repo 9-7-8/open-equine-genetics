@@ -7,6 +7,12 @@ Three answers, in the order she sent them; the later ones add snowdrop and sunsh
 three "ANSWER" headings were added when filing. The first answer marks most of its sources
 by number only, and the list those numbers point to was not supplied.)
 
+ROUND THREE (the owner's answer to question B3, 2026-10-15)
+------------------------------------------------------------
+The whole answer, for eight loci, is in knowledge/science/round-3-answers.txt. No address
+has been opened by a maintainer.
+- Allele frequencies by breed (Avila et al. 2022): Cr up to 0.42 (Lusitano), 0.013 (Standardbred), in 25 of 28 breeds; prl 0.12 (Andalusian), 0.11 (PRE), 0.064 (Lusitano) down to 0.00031 (Quarter Horse). No table: no breed has both Cr and prl given. Sunshine is called very rare here, against the earlier research's high frequencies; unreconciled.
+
 ROUND THREE (the owner's answer to question B4, second part, 2026-10-15)
 -------------------------------------------------------------------------
 Asked what a horse with cream and snowdrop, or pearl and snowdrop, looks like. No

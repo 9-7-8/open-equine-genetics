@@ -69,3 +69,217 @@ What was done with it (the session, 2026-10-15)
 - PLOD1: the gene span is given on NC_091685.1. EquCab3.0's chromosome sequences are
   the NC_0091xx.3 series (as the other rows show), so that span may be on a different
   assembly. It is not in the data.
+
+
+QUESTION B3 - COAT-COLOUR ALLELE FREQUENCIES BY BREED (2026-10-15)
+-------------------------------------------------------------------
+Her answer was a document, kept whole below as she sent it. Its bracketed markers
+([page:4], [web:11] and so on) point to sources it does not list with addresses. In her
+message with it she gave these addresses: Avila et al. 2022
+(https://pmc.ncbi.nlm.nih.gov/articles/PMC9498372/), the tiger-eye paper
+(https://academic.oup.com/g3journal/article/7/8/2799/6031496), UC Davis's tiger-eye page
+(https://vgl.ucdavis.edu/test/tiger-eye), and for sunshine a breeder's site
+(https://stallioncompare.com/article/equine-genetics-101-sunshine-sun) and a laboratory's
+news page (https://m.etalondx.com/news-media/sunshine-mutation).
+
+What was done with it (the session, 2026-10-15)
+- Tables were made only where the answer gives every allele of the locus for a breed, or
+  where only two alleles exist and one is given: genotype shares are worked out from the
+  allele frequency assuming random mating, and each table's name says so. Dun: Norwegian
+  Fjord, Gypsy Vanner. Extension: Pony of the Americas (ea was found in only four other
+  breeds). Agouti: seven breeds. Champagne: eight. Silver: two. Mushroom: Shetland.
+- Not made into tables: dun in the PRE (D not given; nd1 0.79 and nd2 0.20 leave 0.01
+  unexplained) and the other partial dun rows; extension in Percheron and Knabstrupper
+  (e and ea are each given for only one of them); cream and pearl (in every breed named,
+  one of Cr or prl is missing); tiger eye (only counts among affected horses).
+- Sunshine: this answer calls it very rare, known from one small lineage, citing a
+  breeder's site and a laboratory's news page. The earlier research (PMC11006912) put
+  the variant at allele frequencies above 0.86 in several breeds. Not reconciled; the
+  gene file keeps sunshine as disputed. The breeder's site is not cited.
+- The relatedness-filtered frequencies come from samples sent for testing, not breed
+  censuses, as the answer says; the table names say "Avila et al. 2022".
+
+=== The document as sent ===
+# B3 — New Coat-Colour Allele Frequencies by Breed
+
+**Primary frequency source:** Avila et al. (2022), *Genes* 13(9):1641 — a UC Davis Veterinary Genetics Laboratory study of 29 variants in 11,281 horses from 28 breeds. Frequencies below are **relatedness-filtered allele frequencies (a.f.)** unless noted. [page:4][web:1]
+
+**Simulation note:** Store these as breed-specific allele-frequency priors, not universal probabilities. Most dilution alleles are highly breed-structured; a single global carrier rate would badly distort foal generation.
+
+## Quick reference
+
+| Locus / allele | Gene | Inheritance | Main coat effect | Best-documented breed frequencies |
+|---|---|---|---|---|
+| Dun `D` | *TBX3* | Dominant | Body dilution plus primitive markings | Norwegian Fjord: 1.00; Tennessee Walking Horse: 0.0060 [page:4] |
+| Non-dun 1 `nd1` | *TBX3* | Recessive to `D`; produces countershading/primitive marks without dun dilution | Dorsal stripe, leg barring possible | Highest: Pura Raza Española 0.79; low: Gypsy Cob 0.017 [page:4] |
+| Non-dun 2 `nd2` | *TBX3* | Recessive to `D` and `nd1`; no dilution or primitive marks | Ordinary non-dun coat | High in most breeds; 1.00 in Gypsy Vanner; 0.20 in Pura Raza Española [page:4] |
+| Extension `e` | *MC1R* | Recessive | Chestnut/red base; masks agouti | POA 0.76; Percheron 0.12; cross-breed mean 0.44 [page:4] |
+| Extension `ea` | *MC1R* | Recessive | Chestnut/red base, allelic to `e` | Knabstrupper 0.035; also detected in Paint, Percheron, Quarter Horse [page:4] |
+| Agouti `a` | *ASIP* | Recessive | Permits black base when `E/_` | Percheron 0.99; Gypsy Vanner 0.92; Rocky Mountain 0.87; Thoroughbred 0.24 [page:4] |
+| Cream `Cr` | *SLC45A2* | Incomplete dominant | Palomino/buckskin single-dose; cremello/perlino/smoky cream double-dose | Lusitano 0.42; Standardbred 0.013; absent from Hanoverian, Knabstrupper, Percheron [page:4] |
+| Pearl `Prl` | *SLC45A2* | Recessive; interacts with `Cr` | Apricot/pearl when `Prl/Prl`; pseudo-double-dilute with `Cr/Prl` | Andalusian 0.12; PRE 0.11; Lusitano 0.064; Quarter Horse 0.00031 [page:4] |
+| Sunshine `SUN` | *SLC45A2* | Recessive; interacts with `Cr` | Very rare dilution; compound heterozygotes can resemble double dilutes | No robust breed frequency published; known from a small Standardbred/Tennessee Walking Horse-related lineage [web:18][web:22] |
+| Champagne `Ch` | *SLC36A1* | Dominant | Dilutes both pigments; pinkish skin, mottling, amber eyes | Missouri Fox Trotter 0.054; Rocky Mountain 0.026; Miniature 0.017; Shetland 0.0020 [page:4] |
+| Silver `Z` | *PMEL* | Dominant | Dilutes black pigment; mane/tail lightening on bay | Rocky Mountain 0.32; Quarter Horse 0.0011; found in 15 breeds [page:4] |
+| Mushroom `Mu` | *MFSD12* | Recessive | Dilutes red pigment; sepia chestnut; altered bay phenotype | Shetland Pony 0.23; detected only among tested Shetlands in the UC Davis panel [page:4] |
+| Tiger eye `TE1` | *SLC24A5* | Recessive | Yellow, amber, or orange iris; no established coat dilution | Puerto Rican Paso Fino; 20 of 32 tiger-eyed study horses were `TE1/TE1` [web:11][page:14] |
+| Tiger eye `TE2` | *SLC24A5* | Recessive | Same iris phenotype when paired with another tiger-eye allele | Puerto Rican Paso Fino; 8 of 32 tiger-eyed study horses were `TE1/TE2`; `TE2/TE2` is extremely rare [web:11][web:13] |
+
+## Dun: `D`, `nd1`, `nd2`
+
+Dun is the ancestral, dominant dilution at *TBX3*. `D` dilutes the body while leaving points relatively dark and commonly adds a dorsal stripe and other primitive markings; `nd1` retains possible primitive markings without body dilution; `nd2` is the ordinary non-dun allele. [web:3][page:4]
+
+| Breed | `D` a.f. | `nd1` a.f. | `nd2` a.f. |
+|---|---:|---:|---:|
+| Norwegian Fjord | 1.00 | 0 | 0 [page:4] |
+| Pura Raza Española | Not listed as highest/lowest here | 0.79 | 0.20 [page:4] |
+| Gypsy Vanner | 0 | 0 | 1.00 [page:4] |
+| Tennessee Walking Horse | 0.0060 | Present | Present [page:4] |
+| Gypsy Cob | Present | 0.017 | Present [page:4] |
+
+`D` was not detected in Arabian, Dutch Warmblood, Gypsy Vanner, Hanoverian, Knabstrupper, Oldenburg, Percheron, Standardbred, or Thoroughbred in this dataset. [page:4]
+
+**Simulator implementation:** Treat dun as a three-allele ordered system: `D > nd1 > nd2`. Phenotype requires only the presence of `D`; `nd1/nd1` or `nd1/nd2` can add primitive markings as a separate visual-expression layer with breed- and individual-level variability.
+
+## Extension: `e` and `ea`
+
+`E` permits black pigment production. Recessive `e` prevents functional eumelanin production, producing chestnut regardless of agouti genotype; `ea` is a second recessive chestnut allele at *MC1R*. [page:4]
+
+- `e` was found in all 28 breeds, averaging 0.44; it ranged from 0.76 in Pony of the Americas to 0.12 in Percheron. [page:4]
+- `ea` was detected in Knabstrupper, Paint Horse, Percheron, and Quarter Horse. [page:4]
+- Knabstrupper had an estimated `ea` frequency of 0.035 after relatedness filtering. [page:4]
+- Earlier reports placed `ea` in Black Forest Horse, Hungarian Coldblood, and Haflinger; the UC Davis study expanded its known breed distribution. [page:4]
+
+**Simulator implementation:** Model `E`, `e`, and `ea` as recessive loss-of-function alternatives to `E`. For phenotype, `e/e`, `ea/ea`, and `e/ea` are all chestnut; for breeding, preserve the allele identity because `e/ea` is compound heterozygous but still chestnut.
+
+## Agouti: `a`
+
+The recessive `a` allele at *ASIP* removes restriction of black pigment to the points, allowing an `E/_` horse to be black. [page:4]
+
+| Breed | `a` a.f. |
+|---|---:|
+| Percheron | 0.99 [page:4] |
+| Gypsy Vanner | 0.92 [page:4] |
+| Rocky Mountain Horse | 0.87 [page:4] |
+| Tennessee Walking Horse | 0.86 [page:4] |
+| Gypsy Cob | 0.82 [page:4] |
+| Thoroughbred | 0.24 [page:4] |
+| Norwegian Fjord | 0.24 [page:4] |
+
+The cross-breed mean was 0.58, and `a` occurred in every breed studied. [page:4]
+
+**Simulator implementation:** Use a simple two-allele system: `A` restricts black to points in an `E/_` horse; `a/a` produces black. Agouti is masked by any chestnut genotype.
+
+## Cream, pearl, and sunshine
+
+Cream, pearl, and sunshine are all alleles at or associated with *SLC45A2* (historically called *MATP*), but they are distinct variants with different visual effects and inheritance interactions. [page:4][web:15][web:22]
+
+| Allele | Breed | a.f. |
+|---|---|---:|
+| `Cr` | Lusitano | 0.42 [page:4] |
+| `Cr` | Standardbred | 0.013 [page:4] |
+| `Cr` | 25 of 28 breeds | Present; absent in Hanoverian, Knabstrupper, Percheron [page:4] |
+| `Prl` | Andalusian | 0.12 [page:4] |
+| `Prl` | Pura Raza Española | 0.11 [page:4] |
+| `Prl` | Lusitano | 0.064 [page:4] |
+| `Prl` | Gypsy Cob | 0.017 [page:4] |
+| `Prl` | Gypsy Vanner | 0.015 [page:4] |
+| `Prl` | Paint Horse | 0.0070 [page:4] |
+| `Prl` | Quarter Horse | 0.00031 [page:4] |
+| `SUN` | Standardbred / Tennessee Walking Horse-related lineage | No population estimate; very rare [web:18][web:22] |
+
+`Cr/Cr` produces a double-dilute phenotype on any base; `Cr/Prl` and `Cr/SUN` can produce pseudo-double-dilute appearances despite only one cream copy. `Prl/Prl` produces pearl dilution, while single-copy pearl carriers usually look undiluted. [web:15][web:22]
+
+**Simulator implementation:** Keep `Cr`, `Prl`, and `SUN` as separate alleles at one dilution-complex locus, with a phenotype matrix rather than simple dominance:
+
+- `N/N`: no dilution.
+- `Cr/N`: palomino, buckskin, or smoky black depending on base.
+- `Cr/Cr`: double cream dilute.
+- `Prl/Prl`: pearl.
+- `Cr/Prl` and `Cr/SUN`: pseudo-double dilute.
+- `SUN/SUN`: expected sunshine dilution, but phenotype data remain too sparse for confident visual rules.
+
+## Champagne
+
+Champagne is dominant and dilutes both red and black pigment. It is much more breed-restricted than cream. [page:4]
+
+| Breed | `Ch` a.f. |
+|---|---:|
+| Missouri Fox Trotter | 0.054 [page:4] |
+| Rocky Mountain Horse | 0.026 [page:4] |
+| Miniature Horse | 0.017 [page:4] |
+| Gypsy Cob | 0.0080 [page:4] |
+| Quarter Horse | 0.0080 [page:4] |
+| Tennessee Walking Horse | 0.0080 [page:4] |
+| Paint Horse | 0.0070 [page:4] |
+| Shetland Pony | 0.0020 [page:4] |
+
+**Simulator implementation:** Use dominant `Ch/N` expression, with `Ch/Ch` visually equivalent or slightly stronger depending on your art pipeline. Do not assume champagne affects height, speed, muscle, bone, hooves, feathering, or mane/tail length; its established effects are coat and skin/eye pigmentation.
+
+## Silver
+
+Silver `Z` dilutes eumelanin, so it visibly affects black-based coats and the black mane/tail of bays; it has little obvious effect on chestnut. [page:4]
+
+| Breed | `Z` a.f. |
+|---|---:|
+| Rocky Mountain Horse | 0.32 [page:4] |
+| Quarter Horse | 0.0011 [page:4] |
+| 15 breeds total | Detected [page:4] |
+
+Silver is medically relevant: `Z/Z` horses can have more severe multiple congenital ocular anomalies (MCOA), while `Z/N` horses more often have cysts only. [page:4]
+
+**Simulator implementation:** Model `Z` as dominant for coat phenotype, but add a health/ocular-risk flag for `Z/Z`, especially in Rocky Mountain Horses, Miniature Horses, Icelandic Horses, Shetlands, Morgans, and other breeds where it occurs.
+
+## Mushroom
+
+Mushroom `Mu` is recessive and was tested only in Icelandic Horse, Miniature Horse, Quarter Horse, and Shetland Pony in the UC Davis dataset; it was detected only in Shetland Pony, at a relatedness-filtered frequency of 0.23. [page:4]
+
+- `Mu/Mu` reduces pheomelanin, creating a dilute sepia coat in chestnut horses. [page:4]
+- In bay horses, it can lighten red body pigment while producing darker countershading, suggesting a more complex effect on pigment balance than a simple “red diluter.” [web:10]
+- The allele is strongly associated with Shetland-type ponies; its presence in Miniature Horses remains plausible but was not detected in that UC Davis sample. [page:4]
+
+**Simulator implementation:** Restrict `Mu` generation heavily to Shetland and Shetland-influenced pony populations. Use recessive expression, but implement bay mushroom as a distinct coat recipe rather than merely applying the chestnut mushroom color.
+
+## Tiger eye: `TE1` and `TE2`
+
+Tiger eye is an iris-color trait, not a coat dilution. It is inherited recessively and produces yellow, amber, or orange irises; UC Davis identifies both variants in *SLC24A5*. [web:13][web:11]
+
+| Genotype | Expected eye phenotype |
+|---|---|
+| `N/N` | Normal brown eye [web:13] |
+| `N/TE1` or `N/TE2` | Brown-eyed carrier [web:13] |
+| `TE1/TE1` | Tiger eye; most common affected genotype [web:13][web:11] |
+| `TE1/TE2` | Tiger eye [web:13][web:11] |
+| `TE2/TE2` | Tiger eye; extremely rare, with one documented case [web:13] |
+
+In a Puerto Rican Paso Fino study of 154 horses, 32 had tiger eye: 20 were `TE1/TE1` and 8 were `TE1/TE2`. The remaining tiger-eye cases were not explained by these two variants, implying at least one additional genetic cause. [web:11][page:14]
+
+Testing of 196 horses from Colombian Paso, Mangalarga, Lusitano, and Andalusian populations found no tiger-eye alleles, supporting strong breed specificity. [web:11]
+
+**Simulator implementation:** Make `TE1` and `TE2` recessive eye-color alleles at *SLC24A5*. Any combination of two tiger-eye alleles expresses tiger eye. Add an unexplained-tiger-eye fallback trait for the roughly 12% of affected study horses not explained by `TE1` or `TE2`. [web:11]
+
+## What these genes do **not** establish
+
+None of the alleles listed here has robust evidence for controlling height, speed, muscle mass, bone structure, hoof shape, feathering, mane or tail length, or general body conformation. Their established primary effects are pigment production, pigment distribution, hair-coat color, skin pigmentation, iris color, and—in silver—ocular development. [page:4][web:13]
+
+The main non-cosmetic implementation flags are:
+
+- **Silver `Z/Z`:** elevated MCOA/ocular risk. [page:4]
+- **Cream, pearl, champagne, and tiger eye:** eye and skin appearance may change, but they should not be treated as performance genes. [web:13][page:4]
+- **Dun `nd1`:** primitive markings are a coat-expression trait, not a body-structure trait. [web:3]
+
+## Controversy and future work
+
+- **Sunshine:** Its breed distribution and population frequency are unresolved; it appears extremely rare and is known chiefly from a limited Standardbred/Tennessee Walking Horse-related lineage. [web:18][web:22]
+- **Mushroom outside Shetlands:** The UC Davis panel tested only four breeds for `Mu`; absence in Miniature Horses in that sample does not prove absence breed-wide. [page:4]
+- **Tiger eye:** `TE1` and `TE2` explain most, but not all, Puerto Rican Paso Fino tiger-eye cases, so additional variants likely remain undiscovered. [web:11]
+- **`ea`:** Its apparent rarity partly reflects limited historical testing; broader genomic screening will likely find it in additional breeds. [page:4]
+- **Breed-frequency bias:** UC Davis frequencies derive from submitted test samples, not necessarily random breed censuses; use them as priors and update them as more representative genomic datasets become available. [page:4]
+
+## Sources
+
+- Avila F., Hughes S.S., Magdesian K.G., Penedo M.C.T., Bellone R.R. **Breed Distribution and Allele Frequencies of Base Coat Color, Dilution, and White Patterning Variants across 28 Horse Breeds.** *Genes* 2022;13(9):1641. [page:4]
+- UC Davis Veterinary Genetics Laboratory, **Tiger Eye** test page. [web:13]
+- Bellone R.R. et al. **Two Variants in SLC24A5 Are Associated with “Tiger-Eye” Iris Color in Puerto Rican Paso Fino Horses.** *G3* 2017. [web:11][page:14]
+- UC Davis Veterinary Genetics Laboratory, **Pearl** test page. [web:15]
+- UC Davis Veterinary Genetics Laboratory summary of the 2022 breed-distribution study. [web:16]

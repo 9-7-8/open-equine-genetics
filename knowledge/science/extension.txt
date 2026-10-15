@@ -4,6 +4,12 @@ No source was opened by the session that filed this. genes/extension.json was ch
 on the owner's word the same day; what is left over is in knowledge/known-issues.txt.
 Not yet audited.)
 
+ROUND THREE (the owner's answer to question B3, 2026-10-15)
+------------------------------------------------------------
+The whole answer, for eight loci, is in knowledge/science/round-3-answers.txt. No address
+has been opened by a maintainer.
+- Allele frequencies by breed (Avila et al. 2022): e in all 28 breeds, mean 0.44, from 0.76 (Pony of the Americas) to 0.12 (Percheron); ea in Knabstrupper (0.035), Paint, Percheron and Quarter Horse, and earlier reports in Black Forest, Hungarian Coldblood and Haflinger. A table for the Pony of the Americas.
+
 ROUND THREE (the owner's answer to question B1, 2026-10-15)
 ------------------------------------------------------------
 No address has been opened by a maintainer. Her answer, condensed, with every point and

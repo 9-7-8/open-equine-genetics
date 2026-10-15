@@ -4,6 +4,12 @@ No source was opened by the session that filed this. genes/champagne.json was ch
 on the owner's word the same day; what is left over is in knowledge/known-issues.txt.
 Not yet audited.)
 
+ROUND THREE (the owner's answer to question B3, 2026-10-15)
+------------------------------------------------------------
+The whole answer, for eight loci, is in knowledge/science/round-3-answers.txt. No address
+has been opened by a maintainer.
+- Allele frequencies of Ch by breed (Avila et al. 2022): Missouri Fox Trotter 0.054, Rocky Mountain 0.026, Miniature 0.017, Gypsy Cob, Quarter Horse and Tennessee Walking 0.0080, Paint 0.0070, Shetland 0.0020. Eight tables.
+
 ROUND TWO (the owner's answers to the open research questions, 2026-10-12)
 --------------------------------------------------------------------------
 These came after everything below. Where they disagree with it, this section and the gene

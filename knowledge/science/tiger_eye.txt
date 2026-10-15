@@ -4,6 +4,12 @@ No source was opened by the session that filed this. genes/tiger_eye.json was ch
 on the owner's word the same day; what is left over is in knowledge/known-issues.txt.
 Not yet audited.)
 
+ROUND THREE (the owner's answer to question B3, 2026-10-15)
+------------------------------------------------------------
+The whole answer, for eight loci, is in knowledge/science/round-3-answers.txt. No address
+has been opened by a maintainer.
+- Of 154 Puerto Rican Paso Finos, 32 had tiger eye: 20 TE1/TE1, 8 TE1/TE2, and 4 explained by neither, so at least one more cause exists. 196 Colombian Paso, Mangalarga, Lusitano and Andalusian horses carried neither allele. No population frequency.
+
 ROUND TWO (the owner's answers to the open research questions, 2026-10-12)
 --------------------------------------------------------------------------
 These came after everything below. Where they disagree with it, this section and the gene

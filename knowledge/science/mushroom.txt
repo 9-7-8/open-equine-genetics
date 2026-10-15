@@ -4,6 +4,12 @@ No source was opened by the session that filed this. genes/mushroom.json was cha
 on the owner's word the same day; what is left over is in knowledge/known-issues.txt.
 Not yet audited.)
 
+ROUND THREE (the owner's answer to question B3, 2026-10-15)
+------------------------------------------------------------
+The whole answer, for eight loci, is in knowledge/science/round-3-answers.txt. No address
+has been opened by a maintainer.
+- Avila et al. 2022 tested Mu in Icelandic, Miniature, Quarter Horse and Shetland and found it only in the Shetland, allele frequency 0.23. A table for the Shetland. Absence from the Miniature sample does not prove absence from the breed.
+
 ROUND TWO (the owner's answers to the open research questions, 2026-10-12)
 --------------------------------------------------------------------------
 These came after everything below. Where they disagree with it, this section and the gene
