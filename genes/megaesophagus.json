@@ -5,7 +5,7 @@
   "name": "Megaesophagus",
   "symbol": null,
   "evidence": "abstracted",
-  "summary": "Megaesophagus, a slack gullet that will not move milk - a recessive lethal at birth. Like CVM it is a breed condition with no confirmed causal variant, simplified to one locus.",
+  "summary": "Megaesophagus: a dilated gullet that does not move feed along. Held here as a made-up recessive allele; like CVM it is a breed condition with no confirmed causal variant, simplified to one locus. The case for heritability is strongest in Friesians: in a necropsy study of 852 horses, severe gullet disease was commoner in Friesians; about 2 per cent of Friesians seen at two Dutch referral clinics had it, against 0.5 per cent of other breeds (shares of horses, not carriers); 41 of 45 Dutch cases in 2002-2007 were Friesians, clustered in families; abnormal collagen is found even in very young foals. Candidate variants were reported in 2021, but no causal mutation or DNA test exists. Some cases are acquired, after choke or other gullet disease.",
   "inheritance": "autosomal",
   "affects_coat": false,
   "alleles": [
@@ -15,7 +15,7 @@
   "phenotypes": [
     { "id": "wild", "name": "Wild type", "description": "Two working copies. Nothing is wrong and nothing is passed on.", "changes_coat": false },
     { "id": "megaesophagus-carrier", "name": "Megaesophagus carrier", "description": "One copy of meg. The horse is completely normal and there is no way to see it - but half its foals inherit the copy, and two carriers bred together are the only way megaesophagus appears.", "changes_coat": false },
-    { "id": "megaesophagus", "name": "Megaesophagus", "description": "The gullet is slack and does not push milk down. The foal chokes on what it swallows and inhales the rest.", "changes_coat": false }
+    { "id": "megaesophagus", "name": "Megaesophagus", "description": "The gullet is dilated and does not move food along properly, so feed lodges and the horse chokes or inhales it. In affected Friesians the muscle of the lower gullet is thickened and its collagen abnormal, even in very young foals.", "changes_coat": false }
   ],
   "genotypes": [
     { "alleles": ["N", "N"], "phenotype": "wild" },
@@ -23,7 +23,7 @@
     { "alleles": ["meg", "meg"], "phenotype": "megaesophagus", "conditions": ["megaesophagus"] }
   ],
   "conditions": [
-    { "id": "megaesophagus", "name": "Megaesophagus", "description": "The gullet is slack and does not push milk down. The foal chokes on what it swallows and inhales the rest.", "severity": "lethal_at_birth" }
+    { "id": "megaesophagus", "name": "Megaesophagus", "description": "The gullet is dilated and does not move food along properly, so feed lodges and the horse chokes or inhales it. In affected Friesians the muscle of the lower gullet is thickened and its collagen abnormal, even in very young foals.", "severity": "impairing" }
   ],
   "frequencies": [
     {
@@ -35,5 +35,12 @@
       ]
     }
   ],
-  "citations": []
+  "citations": [
+    { "source": "pubmed", "label": "PMID 24227010: Ploeg et al. 2014, gullet disease at necropsy in 852 horses, commoner in Friesians", "url": "https://pubmed.ncbi.nlm.nih.gov/24227010/", "verified": false },
+    { "source": "paper", "label": "Veterinary Pathology, 10.1177/0300985814556780: Ploeg et al. 2015, gullet dysfunction in Friesians, abnormal collagen", "url": "https://journals.sagepub.com/doi/10.1177/0300985814556780", "verified": false },
+    { "source": "other", "label": "Utrecht University research portal: Ploeg et al. 2015 (about 2% of Friesians at two referral clinics)", "url": "https://research-portal.uu.nl/en/publications/esophageal-dysfunction-in-friesian-horses-morphological-features/", "verified": false },
+    { "source": "other", "label": "The Horse: gullet problem hereditary in Friesians (45 cases, 41 Friesian)", "url": "https://thehorse.com/152981/esophageal-problem-hereditary-in-friesians/", "verified": false },
+    { "source": "other", "label": "FHANA: megaesophagus genetic research update", "url": "https://fhana.com/news/megaesophagus-genetic-research-update/", "verified": false },
+    { "source": "other", "label": "Fenway Foundation: megaesophagus", "url": "https://www.fenwayfoundation.com/megaesophagus", "verified": false }
+  ]
 }
