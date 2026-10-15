@@ -38,7 +38,7 @@ done (2026-10-12); nothing is owed to it before then. The mod still has:
 - scn4a: two copies killing the foal;
 - ryr1: a severe living two-copy form; a real jumping gene it calls ryr2;
 - pdk4 as a plain speed gene; hmga2 and lcorl changing speed and jump;
-- acan carriers of normal height, D5 as an established allele, and D1/D1 as lethal at birth; b4galt7 dwarfs that are slow and jump badly;
+- acan carriers of normal height, D5 as an established allele, D1/D1 as lethal at birth, and D1/D2, D1/D3 and D1/D4 as living dwarfs; b4galt7 dwarfs that are slow and jump badly;
 - agouti with a as the wild type, and bay split into four shades inside the agouti
   table.
 - champagne feeding removed black back as red, and an eye colour inherited with the allele (olive green among them);
@@ -76,7 +76,7 @@ STILL WRONG OR UNPROVEN IN THE RESEARCHED LOCI
   for jumping, this and abstracted_jump; whether both are wanted is open.
 - roan: the symbol stays KIT. The science says KIT region, causal variant unknown;
   RN1, RN2 and RN3 are haplotype markers, named in the summary only.
-- acan: D5 is "unconfirmed" with no outcome. Round two found no published report or laboratory page naming a fifth allele; the session applied the owner's ruling for such alleles without asking her again. The mod's estimated frequency table still gives D5 a share. UC Davis has no ACAN test page (round three); Generatio tests D1-D4, and two of its four positions do not match the gene file's D3 and D4 (question G7). D1/D1 is "lethal_in_early_life" (owner, 2026-10-12): round two says survival time varies and gives no ages. That every other dwarf pair survives is still the mod's.
+- acan: D5 is "unconfirmed" with no outcome. Round two found no published report or laboratory page naming a fifth allele; the session applied the owner's ruling for such alleles without asking her again. The mod's estimated frequency table still gives D5 a share. UC Davis has no ACAN test page (round three); Generatio tests D1-D4, and two of its four positions do not match the gene file's D3 and D4 (question G7). Survival is from round three (2026-10-15, Scientific Reports 2020): D1/D1, D1/D2 and D1/D3 are nonviable, dying before birth, which replaces the owner's "lethal_in_early_life" of 2026-10-12 for D1/D1 (it rested on round two's "survival time varies"). D1/D4 is a living pair with its own outcome, usually lost before birth but known once from a live foal; the format cannot give a pair a probability of surviving. The pairs of D2, D3 and D4 are born alive and can reach adulthood. That answer writes D3 as "D3*" (question G7).
 - ryr1: settled in round three (2026-10-15, sourced to PubMed and OMIA): Aleman et al. 2004 (Muscle and Nerve) is the first report; the 2009 J Vet Intern Med paper is a follow-up in Quarter Horses. Round two had it the other way. Both stay cited, labelled by role.
 - grey: G2/G3 has the same outcome as G3/N, which UC Davis states (round three, 2026-10-15): fast greying, high melanoma incidence. The Andalusian table's genotype shares are worked out from
   allele frequencies, assuming random mating. So is ryr1's Quarter Horse table.
@@ -321,9 +321,8 @@ G4. Friesian dwarfism (B4GALT7): how was the figure of 12% carriers sampled, and
     it now? The MET embryonic lethal in Friesians: what carrier frequency is published?
 G5. Skeletal atavism (SHOX deletions Del1 and Del2) in Shetland Ponies and Miniature
     Horses: what carrier frequencies are published?
-G6. ACAN dwarfism (variants D1 to D4, Miniature Horses and ponies): how long do D1/D1
-    foals live? Do horses with two other variants (D2, D3, D4 in any combination, or with
-    D1) live to adulthood? What carrier frequencies are published?
+G6. ACAN dwarfism (variants D1 to D4, Miniature Horses and ponies): what carrier
+    frequencies are published, by breed, for each of D1, D2, D3 and D4?
 G7. ACAN: Generatio lists D3* as g.95282140C>G and D4 as g.95257458_95257500del (43
     bases). The published names used here are D3 c.6700delC (a one-base deletion) and D4
     c.7299_7319del (21 bases). Are these the same variants? On which assembly are
