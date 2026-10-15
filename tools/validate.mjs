@@ -53,7 +53,8 @@ for (const file of readdirSync(join(root, "genes")).filter((f) => f.endsWith(".j
   for (const a of g.alleles ?? []) {
     if (a.placeholder) continue;
     if (!QUALITY.includes(a.quality)) bad(`allele "${a.id}": quality is "${a.quality}"`);
-    if (g.evidence === "abstracted" && a.quality !== "abstracted") bad(`allele "${a.id}" of an abstracted locus is not marked abstracted`);
+    // An abstracted locus may also keep an allele marked invalid: one no horse has (eye colours, 2026-10-15).
+    if (g.evidence === "abstracted" && !["abstracted", "invalid"].includes(a.quality)) bad(`allele "${a.id}" of an abstracted locus is not marked abstracted or invalid`);
     if (a.wild_type && a.quality === "invalid") bad(`the wild-type allele "${a.id}" is marked invalid`);
   }
   const placeholder = (g.alleles ?? []).find((a) => a.placeholder)?.id;

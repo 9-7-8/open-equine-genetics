@@ -352,3 +352,8 @@ What the data does with it
     session's choice: the research states no death for either). Five and six citations.
   - The answer's liability models and its "recessive major-risk allele in Friesian
     founder lines" are modelling advice.
+
+
+QUESTION H10 - EYE COLOUR (2026-10-15)
+--------------------------------------
+Filed whole in knowledge/science/eyes.txt, the one note for the eight eye loci.

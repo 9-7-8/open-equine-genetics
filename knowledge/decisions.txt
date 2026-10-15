@@ -65,6 +65,9 @@ THE AUDIT
   becomes of an allele or locus the science does not support (ids are never removed),
   and commits.
 - An outcome nobody has described is marked as undocumented, never guessed.
+- Eye-locus alleles for colours no horse has (iris white, red, chaos, invisible, black;
+  sclera black, invisible, chaos; sector chaos) are marked invalid; an abstracted locus
+  may hold invalid alleles (owner, 2026-10-15).
 - SB1 stays an allele of kit, not a locus of its own: it and the W variants are alleles of
   KIT, two copies per horse; a consumer may show SB1 and W results as separate fields
   (owner, 2026-10-15, on round four's answer).

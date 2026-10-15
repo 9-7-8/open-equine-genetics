@@ -31,7 +31,9 @@ alleles       list, IN A FIXED ORDER that must never be changed (append only).
                               allele.
                 "unverified"  believed real, from research or from the first export, but
                               no maintainer has opened a source for it. The default.
-                "abstracted"  invented, as every allele of an abstracted locus is.
+                "abstracted"  invented, as every allele of an abstracted locus is, unless
+                              it is "invalid": an abstracted allele for something no
+                              horse has (the red, chaos and invisible eye colours).
                 "invalid"     looked for and not found: no source supports it. It is
                               kept ON PURPOSE, so that the id is never reused and nobody
                               adds it back thinking it was overlooked. A consumer should

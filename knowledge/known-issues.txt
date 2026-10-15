@@ -11,21 +11,22 @@ WHERE THE DATA STANDS
   (round three, 2026-10-15; answers about one locus are at the top of its note, answers
   about several are kept whole in knowledge/science/round-3-answers.txt). Round four
   (2026-10-15, after this file was rewritten) so far: overviews of acan, agouti and
-  b4galt7, and answers to B3, B4, C1, C4, C6, D6, E3, G2, G4, G6 (part), G7 and H1-H9; answers about several loci are kept whole in
+  b4galt7, and answers to B3, B4, C1, C4, C6, D6, E3, G2, G4, G6 (part), G7, H1-H10, and SB1 as a locus; answers about several loci are kept whole in
   knowledge/science/round-4-answers.txt. The lists below
   are each kept on one long line, sorted, so they are easy to edit.
-RESEARCHED: abstracted_jump_strength, acan, agouti, b4galt7, brindle, champagne, ckm, cvm, dmrt3, dun, ednrb, extension, flaxen, gbe1, grey, gys1, hmga2, kit, lama3, lamc2, lcorl, leopard, manchado, markings, matp, megaesophagus, met, mitf, mstn, mushroom, myo5a, pangare, patn1, patn2, pax3, pdk4, plod1, ppib, prkdc, rabicano, rapgef5, roan, ryr1, scn4a, shade, shox, silver, slc5a3, sooty, st14, tiger_eye, tobiano, toe1.
+RESEARCHED: abstracted_jump_strength, acan, agouti, b4galt7, brindle, champagne, ckm, cvm, dmrt3, dun, ednrb, extension, eye loci (all eight), flaxen, gbe1, grey, gys1, hmga2, kit, lama3, lamc2, lcorl, leopard, manchado, markings, matp, megaesophagus, met, mitf, mstn, mushroom, myo5a, pangare, patn1, patn2, pax3, pdk4, plod1, ppib, prkdc, rabicano, rapgef5, roan, ryr1, scn4a, shade, shox, silver, slc5a3, sooty, st14, tiger_eye, tobiano, toe1.
 - NO SESSION OPENED A SOURCE. Every fact rests on the owner's documents, and every
   citation is an address those documents gave (some built from a DOI or PubMed number
   they gave). None has been opened. The owner said not to spend effort on that for now.
 - The owner's rule (knowledge/decisions.txt): the science wins. Where it contradicts
   what a locus said before, the locus is changed.
-- The 15 other abstracted loci have had no research. flaxen, sooty, shade, pangare,
+- The 7 other abstracted loci have had no research (the eight eye loci were researched in
+  round four). flaxen, sooty, shade, pangare,
   rabicano, manchado, markings, patn2, cvm and megaesophagus (round four) have, and stay abstracted: no gene is known for flaxen, sooty, pangare, manchado or rabicano, markings is polygenic, no PATN2 is published, and cvm and megaesophagus have no causal variant (severities now "impairing", the session's choice) (a KITLG haplotype is a lead), and shade's published
   region has no causal variant (its three alleles model a dosage, not the marker).
 - Every allele says how far to trust it ("quality") and every citation whether a
   maintainer has opened it ("verified"). No citation is verified, no allele is
-  "verified", four alleles are "invalid" (acan D3, kit W17a and W17b, shox sa),
+  "verified", four alleles of published loci are "invalid" (acan D3, kit W17a and W17b, shox sa), and nine alleles of each eye side (red, chaos and the like; round four),
   and every allele of an abstracted locus is "abstracted".
 - tools/validate.mjs passes on all 68 gene files and 121 breed files. It checks
   structure, not science.
@@ -80,9 +81,7 @@ THE OTHER LOCI
   a KIT-region locus. The rest are unchecked.
 - A locus whose name is a gene symbol should be asked about by its disorder: two answers
   (rapgef5, toe1) first looked for a coat-colour gene and missed the disorder.
-- Wording to check: what "wild horses" or founders carry (eye_colour_left,
-  eye_colour_right) and "no wild horse is born with two" in the five
-  abstracted body loci.
+- Wording to check: "no wild horse is born with two" in the five abstracted body loci.
 - The five abstracted body loci describe "the percentage written on that copy", an idea
   of each allele copy carrying its own strength that this format does not have.
   Owner's decision.
@@ -105,7 +104,8 @@ SCIENCE NOTES
   then ROUND TWO, then LATEST FINDINGS (her later audit answers), then her first document.
 NOTES FROM RESEARCH: abstracted_jump_strength, acan, agouti, b4galt7, brindle, champagne, ckm, cvm, dmrt3, dun, ednrb, extension, flaxen, gbe1, grey, gys1, hmga2, kit, lama3, lamc2, lcorl, leopard, manchado, markings, matp, megaesophagus, met, mitf, mstn, mushroom, myo5a, pangare, patn1, patn2, pax3, pdk4, plod1, ppib, prkdc, rabicano, rapgef5, roan, ryr1, scn4a, shade, shox, silver, slc5a3, sooty, st14, tiger_eye, tobiano, toe1.
 - The notes for unresearched abstracted loci are earlier notes, not yet audited.
-- 13 loci have no note: the five abstracted body loci and the eight eye loci.
+- 5 loci have no note: the five abstracted body loci. The eight eye loci share one note,
+  knowledge/science/eyes.txt (round four).
 
 INTERACTIONS
 - Only agouti, leopard and flaxen carry an interactions table.
@@ -194,14 +194,6 @@ G6. ACAN dwarfism: two papers have disputed authors. (a) The 2020 paper on heigh
     dwarfism in Miniature horses" (Scientific Reports 10:14590, PMC7499210): Andrade et
     al. or Frischknecht et al.? And does it print D4 as g.95257480_95257500del (21 bases)
     or g.95257458_95257500del (43)?
-
-BLOCK H - TRAITS HELD AS ABSTRACTIONS
--------------------------------------
-These are kept as made-up loci because no gene was known. For each: has a gene, locus or
-variant now been published? If so, give it, the paper, and how it is inherited. If not,
-say what is known (heritability, candidate regions) and from which source.
-H10. Eye colour in horses beyond tiger eye, cream and champagne: any loci for iris shade,
-     sectoral heterochromia or white sclera?
 
 FOR THE OWNER, NOT THE RESEARCHER
 ---------------------------------

@@ -1,0 +1,179 @@
+Eye loci - science notes
+(Written 2026-10-15 from the owner's round-four answer; until then the eight eye loci -
+eye_colour, eye_sclera, eye_sector and eye_sector_colour, left and right - had no note.
+This one file serves all eight.)
+
+ROUND FOUR (the owner's answer to question H10, 2026-10-15)
+-----------------------------------------------------------
+No address has been opened by a maintainer. Her document follows whole, as she sent it
+(the [web:N] markers point to the sources listed at its end).
+
+The owner's decision (2026-10-15, asked): alleles for colours no horse has are marked
+invalid - iris White, Red, Chaos, Invisible and Black; sclera Black, Invisible and Chaos;
+sector colour Chaos. Their pairs have the undocumented outcome "invalid-allele", their own
+outcomes were removed (no longer used), and their shares in the "general population"
+tables moved to the wild type. tools/validate.mjs now lets an abstracted locus hold an
+invalid allele (knowledge/format.txt says so).
+
+The session's reading: the "White" iris marked invalid is not the blue of a white-patterned
+horse, which the blues cover. Wikipedia and the Purdue thesis are not cited; nothing is
+cited on these loci, which remain drawing models.
+
+--- her document ---
+# Eye color beyond tiger eye, cream, and champagne
+
+## Bottom line
+
+**No additional locus for ordinary iris shade or sectoral heterochromia has been validated in horses.** Beyond tiger eye (*SLC24A5*), cream (*SLC45A2*), and champagne (*SLC36A1*), the genetics of normal brown-versus-lighter iris shade remain essentially unstudied; *OCA2* and *HERC2* have been investigated as candidates but no equine causal variant or test was established. [web:221][web:223][web:228]
+
+**White sclera does have a known genetic association: leopard complex (LP/*TRPM1*) is associated with visible white sclera.** However, it is not an iris-color locus; it affects the amount of visible sclera around the iris. Broad white facial markings and some white-spotting patterns can also make sclera more visible without changing iris pigment. [web:222][web:226][web:234]
+
+## Established iris-color loci
+
+| Trait | Gene / variant | Effect on iris | Inheritance | Test status |
+|---|---|---|---|---|
+| Cream dilution | *SLC45A2*/*MATP* | Lightens iris pigment; one copy on chestnut can produce amber or blue eyes | Incomplete dominant | Established |
+| Champagne | *SLC36A1* c.188C>G | Produces amber, hazel, or blue eyes, often with mottled skin | Autosomal dominant | Established |
+| Tiger eye | *SLC24A5* TE1 and TE2 | Bright yellow, amber, or orange iris in Puerto Rican Paso Finos | Autosomal recessive | Established |
+| Ordinary iris shade | Unknown | Brown to lighter shades; no validated horse-specific locus | Unknown | No test |
+| Sectoral heterochromia | Unknown | Patchy or sectoral iris color differences | Unknown | No test |
+| White sclera | LP/*TRPM1* association; also affected by facial white | More visible white sclera, not lighter iris | LP is incompletely dominant | LP test established |
+
+UC Davis offers tests for tiger eye, cream, champagne, and leopard complex, but not for ordinary iris shade or heterochromia. [web:225][web:166]
+
+## Tiger eye: the established non-dilution iris locus
+
+Tiger eye is the clearest published example of an iris-color locus not primarily explained by coat dilution. It occurs in Puerto Rican Paso Finos and produces bright yellow, amber, or orange irises. [web:223][web:225]
+
+**Bellone et al. 2017, “Two Variants in *SLC24A5* Are Associated with ‘Tiger-Eye’ Iris Pigmentation in Puerto Rican Paso Fino Horses,” *G3: Genes|Genomes|Genetics* 7:2799–2806.**  
+DOI: [10.1534/g3.117.043786](https://doi.org/10.1534/g3.117.043786)  
+PubMed: [28672369](https://pubmed.ncbi.nlm.nih.gov/28672369/)  
+Full text: https://pmc.ncbi.nlm.nih.gov/articles/PMC5555483/ [web:223][web:220]
+
+Key findings:
+
+- A GWAS of **24 Puerto Rican Paso Finos** identified a **3.5 Mb associated region on ECA1** containing *SLC24A5* and *MYO5A*. [web:220][web:223]
+- Two predicted deleterious *SLC24A5* variants explained **88% of tiger-eye cases** in the study population: **TE1** in exon 2 and **TE2** in exon 7. [web:220][web:225]
+- Inheritance is **autosomal recessive**. Most affected horses are TE1/TE1; some are compound heterozygotes, TE1/TE2. [web:225]
+- Brown-eyed horses may carry one TE1 or TE2 allele. [web:225]
+- Tiger eye is not connected to cream or champagne coat dilution and has been seen on black, bay, and chestnut bases. [web:225]
+
+## Ordinary iris shade
+
+For ordinary variation—dark brown, medium brown, hazel, amber, and lighter brown—there is **no established horse-specific locus**. The only direct candidate study found is:
+
+**Kowalski et al. 2011, “Investigation of *HERC2* and *OCA2* SNP for iris color variation in horses,” *Animal Genetics* / *Journal of Animal Breeding and Genetics* context.**  
+https://www.sciencedirect.com/science/article/pii/S0737080611002802 [web:221]
+
+This study investigated whether human-style *OCA2*/*HERC2* variation explains equine iris color, particularly in relation to tiger eye. It did **not** establish a general equine iris-shade locus, causal variant, or diagnostic test. [web:221][web:228]
+
+A later Purdue thesis explored *OCA2*–*HERC2* haplotypes and iris pigmentation, but it is not a peer-reviewed primary discovery of a validated equine locus. [web:233][web:235]
+
+### Simulator model
+
+Use a **polygenic iris-shade score**:
+
+```text
+iris_shade = 0.0 (very light) to 1.0 (very dark brown)
+
+iris_shade =
+    base_brown_iris_tendency
+  + cream_effect
+  + champagne_effect
+  + tiger_eye_effect
+  + polygenic_iris_modifiers
+  + developmental_noise
+```
+
+Do not create a named “iris color gene” as though it were established. A defensible implementation is:
+
+```text
+IRIS_MODIFIER_1: additive, unknown gene
+IRIS_MODIFIER_2: additive, unknown gene
+```
+
+with no genomic coordinates or allele frequencies.
+
+## Sectoral heterochromia
+
+**No equine locus, gene, or validated variant for sectoral heterochromia has been published.** Sectoral heterochromia means differently colored sectors within one iris; it is distinct from complete heterochromia, where one eye differs in color from the other. [web:228]
+
+There is no evidence that it is caused by cream, champagne, or tiger eye alone. It may occur as developmental mosaicism, local variation in melanocyte migration or survival, or as part of broader white-spotting effects, but none of these mechanisms has been genetically mapped in horses. [web:228]
+
+### Simulator model
+
+Treat it as a **developmental stochastic trait**, not a Mendelian allele:
+
+```text
+if random_developmental_event:
+    sectoral_heterochromia = true
+    sector_angle = random
+    sector_color = lighter_iris_shade
+```
+
+For breeding realism, give it a low recurrence risk rather than treating it as reliably inherited. Do not claim a carrier state or allele frequency.
+
+## White sclera
+
+White sclera is **not iris color**. It is the visibility of the normally white sclera around the pigmented iris. It is most associated with leopard complex, but it is not exclusive to LP. [web:222][web:226][web:229]
+
+### Leopard complex
+
+LP is caused by a 1,378 bp insertion in *TRPM1* on ECA1. LP-associated traits include white sclera, mottled skin, striped hooves, and varnish roaning. [web:222][web:230]
+
+- Primary paper: Bellone et al. 2013, *PLoS ONE* 8:e78280, DOI: [10.1371/journal.pone.0078280](https://doi.org/10.1371/journal.pone.0078280), PubMed: [24167615](https://pubmed.ncbi.nlm.nih.gov/24167615/). [web:222]
+- UC Davis offers an LP test. [web:166]
+- LP is incompletely dominant; LP/LP also causes congenital stationary night blindness. [web:222][web:166]
+
+### Other causes of visible sclera
+
+A broad blaze or facial white can make the sclera appear more prominent because white facial hair and pale skin approach the eye. Sabino-type patterning can also be associated with visible sclera in some horses. [web:226][web:229][web:234]
+
+Therefore, a simulator should treat visible sclera as a **separate anatomical/pigmentation output**, not as an iris-shade allele:
+
+```text
+visible_sclera =
+    LP_effect
+  + broad_facial_white_effect
+  + sabino_like_white_effect
+  + individual_anatomy
+```
+
+## What is not established
+
+- No locus for normal brown versus lighter iris shade has been validated outside tiger eye. [web:228][web:221]
+- No locus for sectoral heterochromia has been published. [web:228]
+- No locus specifically for “white sclera” independent of LP and facial white has been mapped. [web:222][web:229]
+- No allele frequency, carrier frequency, sample-size-based prevalence, or survey year can be cited for ordinary iris shade or heterochromia, because no genotype exists. [web:228]
+- No EquCab2 or EquCab3 coordinate can be given for an ordinary iris-shade or heterochromia locus. [web:228]
+
+## Breeds
+
+Tiger eye has so far been detected only in **Puerto Rican Paso Finos**, although UC Davis notes it could potentially explain lighter eyes in closely related breeds. [web:225]
+
+LP-associated white sclera is most characteristic of **Appaloosas, Knabstruppers, Norikers, British Spotted Ponies, and other LP breeds**, but visible sclera can occur in horses without LP when facial white is extensive. [web:166][web:226][web:229]
+
+## Future science
+
+A convincing ordinary-iris-color study would need:
+
+1. Standardized, controlled-lighting iris photography.
+2. Quantitative iris color measurement rather than subjective categories.
+3. Large multi-breed cohorts.
+4. Family-based segregation analysis.
+5. Whole-genome sequencing and GWAS.
+6. Explicit stratification for cream, champagne, pearl, gray, LP, white-spotting alleles, and age.
+
+For heterochromia, studies would also need documentation of whether the trait is congenital, unilateral or bilateral, sectoral or complete, and whether it correlates with white-spotting genotype. No such published equine mapping study was found. [web:228]
+
+## Sources
+
+- Bellone et al. 2017, tiger-eye/*SLC24A5*: https://doi.org/10.1534/g3.117.043786; https://pmc.ncbi.nlm.nih.gov/articles/PMC5555483/; https://pubmed.ncbi.nlm.nih.gov/28672369/ [web:220][web:223]  
+- UC Davis VGL Tiger Eye test: https://vgl.ucdavis.edu/test/tiger-eye [web:225]  
+- Kowalski et al. 2011, *HERC2*/*OCA2* investigation: https://www.sciencedirect.com/science/article/pii/S0737080611002802 [web:221]  
+- Purdue *OCA2*/*HERC2* thesis: https://hammer.purdue.edu/articles/thesis/UNDERSTANDING_THE_RELATIONSHIP_BETWEEN_HERC2_AND_OCA2_VARIANTS_AND_IRIS_PIGMENTATION_GENETICS/15057078 [web:235]  
+- Bellone et al. 2013, LP/*TRPM1* and white sclera: https://doi.org/10.1371/journal.pone.0078280; https://journals.plos.org/plosone/article/file?type=printable&id=10.1371/journal.pone.0078280 [web:222]  
+- UC Davis VGL Leopard Complex test: https://vgl.ucdavis.edu/test/leopard-complex [web:166]  
+- Leopard-complex white sclera overview: https://en.wikipedia.org/wiki/Leopard_complex [web:226]  
+- Laboklin white-pattern overview, including LP and sabino effects on eye/sclera appearance: https://www.laboklin.co.uk/laboklin/showGeneticTest.jsp?testID=8853 [web:234]
+--- end of her document ---
