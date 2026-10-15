@@ -4,6 +4,12 @@ No source was opened by the session that filed this. genes/dun.json was changed 
 on the owner's word the same day; what is left over is in knowledge/known-issues.txt.
 Not yet audited.)
 
+ROUND FOUR (the owner's answer to question B3, 2026-10-15)
+-----------------------------------------------------------
+The whole answer, for four loci, is in knowledge/science/round-4-answers.txt. No address
+has been opened by a maintainer.
+- PRE nd1 0.79 and nd2 0.20 again, D not stated; Fjord D 1.0; Gypsy Vanner nd2 1.0; Tennessee Walking D 0.0060 (lowest); Gypsy Cob nd1 0.017 (lowest). D not found in Arabian, Dutch Warmblood, Gypsy Vanner, Hanoverian, Knabstrupper, Oldenburg, Percheron, Standardbred, Thoroughbred. Full figures are in Avila et al.'s Supplementary Table S4, not retrieved. No new table.
+
 ROUND THREE (the owner's answer to question B3, 2026-10-15)
 ------------------------------------------------------------
 The whole answer, for eight loci, is in knowledge/science/round-3-answers.txt. No address

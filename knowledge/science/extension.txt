@@ -4,6 +4,12 @@ No source was opened by the session that filed this. genes/extension.json was ch
 on the owner's word the same day; what is left over is in knowledge/known-issues.txt.
 Not yet audited.)
 
+ROUND FOUR (the owner's answer to question B3, 2026-10-15)
+-----------------------------------------------------------
+The whole answer, for four loci, is in knowledge/science/round-4-answers.txt. No address
+has been opened by a maintainer.
+- ea: Knabstrupper 0.035 (filtered); Paint 0.00024, Percheron 0.0096, Quarter Horse 0.00018 (unfiltered counts only). e ranges from 0.76 (Pony of the Americas) to 0.12 (Percheron). Filtered figures per breed are in Avila et al.'s Supplementary Table S4, not retrieved. No new table.
+
 ROUND THREE (the owner's answer to question B3, 2026-10-15)
 ------------------------------------------------------------
 The whole answer, for eight loci, is in knowledge/science/round-3-answers.txt. No address

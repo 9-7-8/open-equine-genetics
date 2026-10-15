@@ -1,0 +1,118 @@
+ROUND FOUR - the owner's answers that cover several loci at once
+================================================================
+Round four is the owner's answers from 2026-10-15 after the round-three rewrite of
+knowledge/known-issues.txt: whole-locus overviews (acan, agouti, b4galt7, filed at the top
+of each locus's note) and answers to the open questions. An answer that covers several
+loci is kept whole here, and each locus's note has a short ROUND FOUR section pointing to
+it. No address in this file has been opened by a maintainer.
+
+
+QUESTION B3 - BREED ALLELE FREQUENCIES: TBX3, MC1R, SLC45A2, TIGER EYE (2026-10-15)
+-----------------------------------------------------------------------------------
+Her answer, as she sent it (tables reflowed for plain text). She said first: she could
+verify the primary papers for sunshine and take the frequencies Avila et al. give in the
+main text, but could not retrieve Supplementary Tables S3/S4 or the Mack et al. tiger-eye
+paper, and would not invent the missing values.
+
+Data source and definitions
+  Unless stated otherwise, all frequencies are allele frequencies, not shares of
+  carriers, from Avila et al. 2022 (Genes 13:1641; PMC9498372), calculated after removing
+  first-degree relatives within breed; the filtered dataset had 6,878 horses across 28
+  breeds. Sample sizes and exact per-breed values are in Supplementary Tables S1-S4.
+  https://pmc.ncbi.nlm.nih.gov/articles/PMC9498372/ ; https://doi.org/10.3390/genes13091641
+
+TBX3 / dun: D, nd1, nd2
+  D dun dilution plus primitive markings; nd1 non-dun with primitive markings; nd2 non-dun
+  without. Alternative alleles; per breed they sum to 1.0, subject to rounding.
+  Values stated in the main text:
+    Pura Raza Espanola   D not stated   nd1 0.79   nd2 0.20   (the remaining 0.01 is
+                         presumably D, not stated; confirm in Supplementary Table S4)
+    Norwegian Fjord      D 1.0          nd1 0      nd2 0      (D fixed)
+    Gypsy Vanner         D 0            nd1 0      nd2 1.0    (nd2 fixed)
+    Tennessee Walking    D 0.0060 (lowest D reported); nd1 and nd2 not stated
+    Gypsy Cob            nd1 0.017 (lowest nd1 reported); D and nd2 not stated
+  D was not detected in Arabian, Dutch Warmblood, Gypsy Vanner, Hanoverian, Knabstrupper,
+  Oldenburg, Percheron, Standardbred or Thoroughbred. nd1 was absent only from Gypsy
+  Vanner and Norwegian Fjord; nd2 only from Norwegian Fjord.
+  Modelling advice: three alleles; D dominant over both; nd1 dominant over nd2 for
+  primitive markings.
+
+MC1R / extension: E, e, ea
+  Avila et al. tested E, e (p.S83F) and ea (p.D84N). Both e and ea are loss-of-function
+  chestnut alleles; e/e, e/ea and ea/ea are chestnut.
+    Knabstrupper   ea 0.035 (filtered)
+    Paint Horse    ea not separately reported; one e/ea among 2,076 unfiltered, 1/4,152
+                   = 0.00024 unfiltered
+    Percheron      one E/ea among 52 unfiltered, 1/104 = 0.0096 unfiltered
+    Quarter Horse  one E/ea and one e/ea among 5,512 unfiltered, 2/11,024 = 0.00018
+                   unfiltered
+  The filtered ea figures for these three are in Supplementary Table S4, not retrieved.
+  e ranged from 0.76 in Pony of the Americas to 0.12 in Percheron; the full breed-by-breed
+  e values are in Supplementary Table S4. A complete E/e/ea table for every breed cannot
+  be given without estimating.
+
+SLC45A2: cream Cr and pearl prl
+  Alleles of one locus, alternatives to wild type.
+  prl, filtered allele frequencies: Andalusian 0.12, Gypsy Cob 0.017, Gypsy Vanner
+  0.015, Lusitano 0.064, Paint Horse 0.0070, Pura Raza Espanola 0.11, Quarter Horse
+  0.00031.
+  Cr occurred in 25 of 28 breeds, absent from Hanoverian, Knabstrupper and Percheron;
+  range 0.42 in Lusitano to 0.013 in Standardbred. The breed-by-breed Cr values, including
+  Paint Horse and Quarter Horse, are in Supplementary Table S4, not retrieved.
+  Allele set at minimum: N, Cr (incomplete dominant), prl (recessive in single copy), Csun
+  (proposed). Cr/prl can be dilute.
+
+Sunshine: which frequency claim is right?
+  Both statements describe different things; the population-sequencing result is the one
+  that addresses allele frequency.
+  - Holl et al. 2019 identified SLC45A2 c.568G>A (p.Gly190Arg), proposed as Csun, in a
+    small phenotyped dataset of about 130 horses. No horse was homozygous; it was proposed
+    to cause a pearl-like recessive dilution in compound heterozygotes. It did not
+    establish that sunshine is rare across breeds.
+    https://pubmed.ncbi.nlm.nih.gov/31006892/ ; https://doi.org/10.1111/age.12790
+  - Durward-Akhurst et al. 2024 sequenced 605 horses from 48 breeds: 146 heterozygotes and
+    390 homozygotes for the variant. The non-reference A allele was the major allele in
+    all 12 breed groups examined, above 0.86 in Arabian, Belgian, Morgan, Thoroughbred and
+    Quarter Horse. https://pmc.ncbi.nlm.nih.gov/articles/PMC11006912/ ;
+    https://doi.org/10.1038/s41598-024-57872-8
+  Correct interpretation: c.568G>A is not rare population-wide. Its status as the causal
+  sunshine dilution is uncertain; Durward-Akhurst et al. say more work is needed. Either
+  exclude Csun until validated, or include it as putative, with no dilution by default.
+  "Very rare, in one lineage" is not supported as a population-frequency claim; it may
+  reflect the discovery context.
+
+Tiger eye: TE1 and TE2 in Puerto Rican Paso Fino
+  Primary paper: Mack et al. 2017, "Two variants in SLC24A5 are associated with
+  'Tiger-Eye' iris pigmentation in Puerto Rican Paso Fino Horses", G3 7:2799-2806. Full
+  text not retrieved; no verified whole-breed frequency, and allele versus carrier
+  frequency cannot be told. Wolfsberger et al. 2022 studied selection around SLC24A5 in
+  Puerto Rican horses but could not evaluate Mack et al.'s four markers, not being in its
+  data. https://pmc.ncbi.nlm.nih.gov/articles/PMC8752667/
+  Established: TE1 and TE2 are associated with tiger-eye iris pigmentation in PRPF; most
+  tiger-eyed horses in Mack et al. were homozygous for one allele or compound
+  heterozygous. Modelling advice: two alleles of one SLC24A5 eye locus; no effect on body,
+  mane, tail, hoof, feathering or skin colour.
+
+What these loci do not affect
+  None of TBX3, MC1R, SLC45A2 or SLC24A5 has an established effect on height, speed,
+  muscle, bone, hoof shape or feathering. Blue eyes may occur with strong SLC45A2
+  dilution; tiger eye affects the iris; MC1R and TBX3 have no established eye effect.
+
+Missing data to obtain
+  1. Avila et al. 2022 Supplementary Table S4: filtered D, nd1, nd2, E, e, ea, Cr and prl
+     for all 28 breeds.
+  2. Mack et al. 2017: PRPF sample size, TE1 and TE2 genotype counts, and whether values
+     are allele frequencies or carrier proportions.
+
+What the data does with it
+  - matp: sunshine's summary now gives both papers; the owner chose (2026-10-15) to take
+    sun out of every frequency table (the general table and the tennessee_walking pool;
+    its shares moved to N) since no exact figure per breed exists. A Lusitano table is
+    worked out from Cr 0.42 and prl 0.064 (the only breed with both given).
+  - dun, extension, tiger_eye: nothing new can be tabled. The Percheron e 0.12 has no
+    filtered ea beside it; PRE's D is still not stated.
+
+
+QUESTION B4 - SNOWDROP WITH CREAM OR PEARL (2026-10-15)
+-------------------------------------------------------
+Filed at the top of knowledge/science/matp.txt (one locus).

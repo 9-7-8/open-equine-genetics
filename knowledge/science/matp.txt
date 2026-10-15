@@ -7,6 +7,42 @@ Three answers, in the order she sent them; the later ones add snowdrop and sunsh
 three "ANSWER" headings were added when filing. The first answer marks most of its sources
 by number only, and the list those numbers point to was not supplied.)
 
+ROUND FOUR (the owner's answer to question B4, 2026-10-15)
+-----------------------------------------------------------
+No address has been opened by a maintainer. Her answer, condensed, with every point and
+address she gave:
+
+  - No published paper, laboratory case, registry entry or named horse documents a tested
+    Cr/sno or prl/sno horse.
+  - Bisbee et al. 2020 (https://doi.org/10.1111/age.12913 ;
+    https://onlinelibrary.wiley.com/doi/full/10.1111/age.12913) found c.305G>A,
+    p.(Arg102Gln), in a Gypsy mare that looked cremello and tested negative for the known
+    dilutions; she was sno/sno; sire, dam and several relatives had one copy and no
+    visible dilution (https://www.biorxiv.org/content/10.1101/851246v1). Its Table S1
+    (genotypes and phenotypes) was not retrieved; nothing in the text suggests a compound.
+  - Laboklin: recessive, dilution only with two copies, Tinker/Gypsy Cob; no compounds.
+    (https://laboklin.com/en/products/genetics/coat-colour-coat-structure-coat-length/horse/snowdrop/)
+    CombiBreed: the effect beside other SLC45A2 variants is still unknown, so it tests
+    snowdrop apart. (https://www.combibreed.com/subject/cream-dilution/) Genomia: needs
+    two copies; no compounds. (https://www.genomia.cz/en/test/locus-c-horse/)
+  - Naming: c.305G>A is on transcript ENSECAT00000026240.1 (EquCab2.0); on EquCab3.0 it is
+    NC_009164.3:g.31688649G>A on ECA21, XM_001498110.4:c.449G>A, p.(R150Q). One change,
+    two numberings. (https://omia.org/OMIA001344/9796/) Found in one Traditional Gypsy
+    Cob family in the United Kingdom.
+  - No UC Davis snowdrop page or case was found.
+  - A dilution in Cr/sno or prl/sno is plausible, since Cr/prl dilutes, but untested.
+
+What the gene file does with it: the summary gives the two numberings and the EquCab3.0
+position, and says no compound is reported; the compound outcome stays undocumented, its
+text saying why. Three citations added.
+
+ROUND FOUR (the owner's answer to question B3, 2026-10-15)
+-----------------------------------------------------------
+The whole answer, for four loci, is in knowledge/science/round-4-answers.txt. No address
+has been opened by a maintainer.
+- Sunshine: Holl et al. 2019 proposed it from about 130 phenotyped horses, none homozygous; Durward-Akhurst et al. 2024 sequenced 605 horses of 48 breeds, 146 heterozygous and 390 homozygous, the variant the major allele in all 12 breed groups (above 0.86 in Arabian, Belgian, Morgan, Thoroughbred, Quarter Horse). Not rare; whether it dilutes is unresolved. The owner chose to take sun out of every table.
+- prl by breed: Andalusian 0.12, Gypsy Cob 0.017, Gypsy Vanner 0.015, Lusitano 0.064, Paint 0.0070, PRE 0.11, Quarter Horse 0.00031. Cr in 25 of 28 breeds (not Hanoverian, Knabstrupper, Percheron), 0.42 in Lusitano to 0.013 in Standardbred. A Lusitano table is worked out from Cr 0.42 and prl 0.064.
+
 ROUND THREE (the owner's answer to question B3, 2026-10-15)
 ------------------------------------------------------------
 The whole answer, for eight loci, is in knowledge/science/round-3-answers.txt. No address

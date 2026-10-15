@@ -4,6 +4,12 @@ No source was opened by the session that filed this. genes/tiger_eye.json was ch
 on the owner's word the same day; what is left over is in knowledge/known-issues.txt.
 Not yet audited.)
 
+ROUND FOUR (the owner's answer to question B3, 2026-10-15)
+-----------------------------------------------------------
+The whole answer, for four loci, is in knowledge/science/round-4-answers.txt. No address
+has been opened by a maintainer.
+- The primary paper is Mack et al. 2017 (G3 7:2799-2806), not retrieved; no whole-breed frequency. Wolfsberger et al. 2022 (PMC8752667) could not test the tiger-eye markers. No table.
+
 ROUND THREE (the owner's answer to question B3, 2026-10-15)
 ------------------------------------------------------------
 The whole answer, for eight loci, is in knowledge/science/round-3-answers.txt. No address

@@ -9,7 +9,10 @@ WHERE THE DATA STANDS
   documents and audit answers (2026-10-12), her answers to 54 questions (round two, kept
   whole as knowledge/science/round-2-answers.txt), and her answers one question at a time
   (round three, 2026-10-15; answers about one locus are at the top of its note, answers
-  about several are kept whole in knowledge/science/round-3-answers.txt). The lists below
+  about several are kept whole in knowledge/science/round-3-answers.txt). Round four
+  (2026-10-15, after this file was rewritten) so far: overviews of acan, agouti and
+  b4galt7, and answers to B3 and B4; answers about several loci are kept whole in
+  knowledge/science/round-4-answers.txt. The lists below
   are each kept on one long line, sorted, so they are easy to edit.
 RESEARCHED: abstracted_jump_strength, acan, agouti, b4galt7, brindle, champagne, ckm, dmrt3, dun, ednrb, extension, gbe1, grey, gys1, hmga2, kit, lama3, lamc2, lcorl, leopard, matp, met, mitf, mstn, mushroom, myo5a, patn1, pax3, pdk4, plod1, ppib, prkdc, rapgef5, roan, ryr1, scn4a, shox, silver, slc5a3, st14, tiger_eye, tobiano, toe1.
 - NO SESSION OPENED A SOURCE. Every fact rests on the owner's documents, and every
@@ -33,9 +36,9 @@ STILL WRONG OR UNPROVEN IN THE RESEARCHED LOCI
 - champagne: the names gold, amber and classic champagne depend on extension and agouti; the file says so in words and has no interactions table. "Sable" and "ivory" are registry names, not alleles.
 - ckm: a candidate that failed to replicate (Gu et al. 2010; no association in Quarter Horses); the file states no effect. Its reference allele is flagged wild_type and called ancestral on that alone. Round three puts CKM on chromosome 9, the file says 10; and an Italian Trotter study's marker g.16079732G>A may or may not be the file's g.15884567G>A (question D6). Whether a locus with no established effect belongs in the data as published is the owner's call.
 - dmrt3: the Icelandic table is worked out from one allele frequency. Of six exon-2 variants in a 2026 study, only c.902C>A has an established effect; three are not named in the summary the research could reach. Trot versus pace in Standardbreds is predicted by a seven-SNP panel of putative modifiers (McCoy et al. 2019); not modelled.
-- dun: nd1's markings are variable ("may show"), but d1/d1 and d1/d2 share one outcome that cannot say how often; round two says d1/d1 may mark more consistently, unmeasured. The nd1 change is G>T at chr8:18,227,267+1,066 on EquCab2.0, inside the 1.6 kb sequence the reference lacks, so it has no plain reference position. Breed tables exist for the Norwegian Fjord and Gypsy Vanner only (question B3). A citation to a TBX3 height enhancer (PMC8796118) has nothing in the data resting on it.
+- dun: nd1's markings are variable ("may show"), but d1/d1 and d1/d2 share one outcome that cannot say how often; round two says d1/d1 may mark more consistently, unmeasured. The nd1 change is G>T at chr8:18,227,267+1,066 on EquCab2.0, inside the 1.6 kb sequence the reference lacks, so it has no plain reference position. Breed tables exist for the Norwegian Fjord and Gypsy Vanner only; the rest are in Avila et al.'s Supplementary Table S4 (question B3). A citation to a TBX3 height enhancer (PMC8796118) has nothing in the data resting on it.
 - ednrb: the EDNRB gene span an answer gave is on another assembly (NC_091700.1) and is not in the data.
-- extension: the "general population" table has no ea. Breed tables exist for the Pony of the Americas only; ea is at 0.035 in Knabstruppers, with no e figure beside it (question B3).
+- extension: the "general population" table has no ea. Breed tables exist for the Pony of the Americas only; ea is at 0.035 in Knabstruppers, with no e figure beside it, and e at 0.12 in Percherons, with only an unfiltered ea count beside it (question B3).
 - gbe1: G/G foals are aborted late, stillborn or die as newborns; the format has one severity per condition, so it stays "lethal_at_birth" and the pair stays living, not nonviable. The Quarter Horse and Paint tables give UC Davis's carrier estimates (8.3%, 7.1%); UC Davis now gives 8-11% by discipline.
 - grey: G2/G3 has the G3/N outcome, as UC Davis states. The Andalusian table, and ryr1's Quarter Horse table, are worked out from allele frequencies.
 - gys1: one copy can show nothing (incomplete penetrance), but the format has one outcome per pair, so N/P carries the condition and its text gives the range. Drafts are given only as a 36-92% range, not tabled. The allele id is P; UC Davis writes PSSM1.
@@ -47,7 +50,7 @@ STILL WRONG OR UNPROVEN IN THE RESEARCHED LOCI
 - kit: W37, W38 and W39 (2025) each rest on one family or one horse. W29 and W36 are not assigned; nothing above W39. W20's EquCab3.0 position is printed a digit short in the 2024 paper; chr3:79482200T>C is a reconstruction (question C1). No KIT position is in the data. No breed table: no breed has every KIT allele's share (question C6).
 - lama3, lamc2: no frequency question left; JEB1 and JEB2 tables are in.
 - leopard depends on patn2, an abstraction; more than PATN1 modifies the pattern, and nothing else is named.
-- matp: sunshine is a disputed candidate with the undocumented outcome "sunshine-disputed". One answer puts it at allele frequencies above 0.86 in several breeds; another calls it very rare in one lineage (question B3). Snowdrop is known from one Gypsy Cob family; Cr/sno and prl/sno are undocumented (question B4). The names palomino, buckskin and the rest depend on extension and agouti, in words only. No breed table: no breed has both Cr and prl given (question B3). The first matp answer cites by number only.
+- matp: sunshine is a disputed candidate with the undocumented outcome "sunshine-disputed". The variant is the major allele in every breed group sequenced (above 0.86 in five breeds, Durward-Akhurst et al. 2024), but whether it dilutes is unresolved; with no exact figure per breed it is in no table (owner, 2026-10-15), so the tables count its copies as N. Snowdrop is known from one Gypsy Cob family; no Cr/sno or prl/sno horse is reported anywhere, so those pairs stay undocumented. The general table still gives sno small shares. The names palomino, buckskin and the rest depend on extension and agouti, in words only. Lusitano is the only breed table (Cr and prl worked out from Avila et al.); other breeds' Cr figures are in Avila et al.'s Supplementary Table S4 (question B3). The first matp answer cites by number only.
 - met: met/met is nonviable on indirect evidence (lower insemination success in carrier matings). Reported in Friesians only; no frequency (question G4). Friesian hydrocephalus (B3GALNT2) is not a locus here.
 - mitf: SW9 (McFadden et al. 2023) rests on association in one breed. 24 pairs of two different variants are "splash-undocumented" and 6 homozygotes "splash-homozygote-undetected". No genotype carries a deafness condition (owner: only pairs a source confirms). No breed table (question C6).
 - mushroom: the outcome depends on extension and agouti (clear on chestnut, uncertain on bay, none on black), in words only. Its link to flaxen is unresolved.
@@ -168,24 +171,15 @@ PREFACE (paste above every block)
 
 BLOCK B - COAT COLOUR: BASE COLOURS AND DILUTIONS
 -------------------------------------------------
-B3. Avila et al. 2022 (Genes 13:1641, PMC9498372) gives allele frequencies by breed, some
-    in its supplement. For each breed, give the frequencies of ALL alleles of a locus
-    together, so a full table can be made:
-    - dun (TBX3): D, nd1 and nd2 (the PRE figures given so far, nd1 0.79 and nd2 0.20,
-      leave 0.01 unexplained);
-    - extension (MC1R): e and ea together, especially for Knabstrupper, Paint Horse,
-      Percheron and Quarter Horse;
-    - SLC45A2: cream (Cr) and pearl (prl) together, for each breed with either.
-    Also:
-    - sunshine (SLC45A2 c.568G>A): one earlier answer put it at allele frequencies above
-      0.86 in several breeds (PMC11006912); another calls it very rare, in one lineage.
-      Which is right, from the primary papers?
-    - tiger eye (SLC24A5, TE1 and TE2): a frequency in the Puerto Rican Paso Fino as a
-      whole, not only among tiger-eyed horses.
-B4. Snowdrop (SLC45A2 c.305G>A, also written c.449G>A; known from one Gypsy Cob family):
-    has any horse with cream and snowdrop (Cr/sno), or pearl and snowdrop (prl/sno), been
-    tested and described - in a paper, a laboratory case or a registry? Name the horse or
-    the report. An expected phenotype is not wanted.
+B3. Avila et al. 2022 (Genes 13:1641, PMC9498372, doi 10.3390/genes13091641):
+    Supplementary Table S4 gives filtered allele frequencies for every one of its 28
+    breeds. Round four could not open it. Please open the supplementary file itself and
+    copy, breed by breed, these columns with the sample size: D, nd1, nd2 (TBX3); E, e, ea
+    (MC1R); Cr, prl (SLC45A2).
+    Also: Mack et al. 2017, G3 7:2799-2806, "Two variants in SLC24A5 are associated with
+    'Tiger-Eye' iris pigmentation in Puerto Rican Paso Fino Horses": the sample size and
+    the TE1 and TE2 genotype counts in Puerto Rican Paso Finos as a whole, saying whether
+    each figure is an allele frequency or a share of horses.
 
 BLOCK C - WHITE PATTERNS: KIT, TOBIANO AND SPLASH WHITE
 -------------------------------------------------------
