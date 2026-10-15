@@ -47,7 +47,7 @@ STILL WRONG OR UNPROVEN IN THE RESEARCHED LOCI
 - hmga2: the estimated "general population" table gives p a 25% allele share, though the allele is found in no full-sized breed tested.
 - kit: homozygotes of 30 variants, and W4/W4, are living rows with the undocumented outcome "homozygote-not-observed": none has been observed, and lethality is suspected (most for W1-W4) but unproven.
 - kit: 601 pairs of two different variants are "compound-undocumented". Only booster pairs have an outcome; that an all-white variant stays all white beside a booster is reasoned, not stated.
-- kit: horses can carry several variants on one chromosome (W20 with W22, W35 with W37, W19 with W34 and W35, W32 with W35, SB1 with W32); the format has two alleles per locus and cannot say this. W22 stands for the W20_22 haplotype (it is never found without W20). W37 has only been seen with W35, yet W37/N is in the data as if it could occur. W20/W22 is "boosted-white", "usually all white" in words. The research suggests SB1 as a locus of its own.
+- kit: horses can carry several variants on one chromosome (W20 with W22, W35 with W37, W19 with W34 and W35, W32 with W35, SB1 with W32); the format has two alleles per locus and cannot say this. W22 stands for the W20_22 haplotype (it is never found without W20). W37 has only been seen with W35, yet W37/N is in the data as if it could occur. W20/W22 is "boosted-white", "usually all white" in words. SB1 stays an allele of kit (owner, 2026-10-15): laboratories test it apart, but it is an allele of the same gene.
 - kit: W17 is the allele again, two changes always together (owner, 2026-10-15); W17a and W17b are invalid. The OMIA position quoted for it does not match the c. changes base for base and is not in the data.
 - kit: W37, W38 and W39 (2025) each rest on one family or one horse. W29 and W36 are not assigned; nothing above W39. W20 is at chr3:79,548,220 T>C on EquCab3.0 (OMIA, rs1143160924; round four), in the summary; the 2024 paper prints it a digit short, and round three's 79,482,200 was wrong. No other KIT position is in the data. Sixteen breed tables from Avila et al. 2022 (round four), for breeds with W20 alone among the tested variants; W13, W32, W34, W35 and later variants were never tested and count as N. No table where SB1 is found (its per-breed figure is in the supplement) or W22 (Avila et al. did not phase W20_22, and its W20 count includes W20 on W22 chromosomes, so the data's W20 and W22 cannot be split from it).
 - lama3, lamc2: no frequency question left; JEB1 and JEB2 tables are in.
@@ -208,8 +208,7 @@ FOR THE OWNER, NOT THE RESEARCHER
 - The answers for B4GALT7, PRKDC, ST14, PLOD1 and the first MATP answer cited their
   sources by number only. They can only be had by asking in the conversations that gave
   those answers.
-- Format questions only she can decide: should SB1 be a locus apart from the W series;
-  what "affects_coat" means for eye loci (tiger_eye); whether ckm, with no established
+- Format questions only she can decide: what "affects_coat" means for eye loci (tiger_eye); whether ckm, with no established
   effect, stays as a published locus; whether both abstracted_jump and
   abstracted_jump_strength are wanted; st14 severity (the session's choice); acan D5 made
   "unconfirmed" without asking.

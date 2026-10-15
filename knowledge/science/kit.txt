@@ -4,6 +4,36 @@ No source was opened by the session that filed this. genes/kit.json was changed 
 on the owner's word the same day; what is left over is in knowledge/known-issues.txt.
 Not yet audited.)
 
+ROUND FOUR (the owner's answer on SB1 as a locus apart, 2026-10-15)
+--------------------------------------------------------------------
+No address has been opened by a maintainer. Her answer, condensed, with every point and
+address she gave:
+
+  - UC Davis tests Sabino 1 as its own assay, N and SB1
+    (https://vgl.ucdavis.edu/test/sabino-1), and W5, W10, W13, W20 and W22 separately
+    (https://vgl.ucdavis.edu/test/dominant-white-horse). SB1 keeps its historical name;
+    it is not W nomenclature (https://generatio.de/en/guidance/lexicon/white-spotting-horse).
+  - SB1 is a KIT splice-site change with partial skipping of exon 17, incompletely
+    dominant: one copy a sabino pattern (two or more white legs, an extensive blaze,
+    ticking or roaning, jagged edges), two copies at least 90% white. W phenotypes vary
+    from extensive markings to all white; W5, W10, W13 and W22 homozygotes are thought
+    nonviable. Primary SB1 paper Brooks and Bailey 2006, cited via
+    https://doi.org/10.1371/journal.pgen.0030195 . Other addresses:
+    https://vgl.ucdavis.edu/resources/horse-coat-color ;
+    https://vgl.ucdavis.edu/panel/white-pattern-panel-1 ;
+    https://pmc.ncbi.nlm.nih.gov/articles/PMC10854588/
+  - Its advice: show SB1 and W as separate fields, but inherit them as one KIT pair
+    (one KIT haplotype per chromosome), so SB1 from one parent and W20 from the other is
+    possible. SB1 with W adds white (an abstraction, not a solved rule). No effect on base
+    colour, eyes, build or speed. Tested in Appaloosa, Azteca, Haflinger, Miniature
+    Horse, Missouri Fox Trotter, Noriker, Paint, Pony of the Americas, Quarter Horse,
+    Shetland, Spanish Mustang and Tennessee Walking Horse. No general frequency.
+  - It says SB1 and a W allele cannot be on the same chromosome copy; earlier rounds
+    reported SB1 with W32 on one chromosome (session's reading: a disagreement, in
+    known-issues).
+
+The owner's decision (2026-10-15, asked): SB1 stays an allele of kit. No data change.
+
 ROUND FOUR (the owner's answer to question C6, 2026-10-15)
 -----------------------------------------------------------
 The whole answer, for three loci, is in knowledge/science/round-4-answers.txt. No address

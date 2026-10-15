@@ -65,6 +65,9 @@ THE AUDIT
   becomes of an allele or locus the science does not support (ids are never removed),
   and commits.
 - An outcome nobody has described is marked as undocumented, never guessed.
+- SB1 stays an allele of kit, not a locus of its own: it and the W variants are alleles of
+  KIT, two copies per horse; a consumer may show SB1 and W results as separate fields
+  (owner, 2026-10-15, on round four's answer).
 - patn2 keeps giving the blanket patterns in leopard's outcomes, labelled as this data's
   model, though no PATN2 is published and the blanket-gene idea is given up (owner,
   2026-10-15).
