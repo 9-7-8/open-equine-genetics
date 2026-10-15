@@ -102,7 +102,7 @@ STILL WRONG OR UNPROVEN IN THE RESEARCHED LOCI
   the first export. The Friesian table omits d/d horses, which the 12 percent carrier
   estimate does not count.
 - ednrb: the variant's EquCab3.0 position and c. name are from round three (OMIA). The EDNRB gene span the answer also gave is on another assembly (NC_091700.1) and is not in the data.
-- ednrb and hmga2 each had an overview in round two, without addresses: chromosome, what the gene does, breeds. hmga2's overview names no tested variant and calls the gene a candidate region with a polygenic effect; the p allele rests on the earlier answer. Neither has a published frequency.
+- ednrb and hmga2 each had an overview in round two, without addresses: chromosome, what the gene does, breeds. hmga2 is settled by round three (Frischknecht et al. 2015): p is c.83G>A (p.Gly28Glu), on chromosome 6, not round two's 7. The mod's estimated "general population" table gives p a 25 per cent allele share, though the study found it in no full-sized breed; it is left as the mod's. Neither locus has a published frequency.
 - champagne: the names gold, amber and classic champagne depend on extension and agouti; the file says so in words and has no interactions table. "Sable" (on seal brown) and "ivory" (with cream) are registry names, not alleles, and are not in the data.
 - ckm: a candidate that failed to replicate (Gu et al. 2010; no association in Quarter Horses). The file states no effect. (An earlier answer's "g.22999655C>A" for it was a slip for the DMRT3 variant; settled.) C is flagged wild_type only because the format needs one. Whether a locus with no established effect belongs in the data as published is the owner's call. Round two called CKM a "tying-up risk" locus with a derived risk allele, which matches nothing in the earlier research; nothing was changed.
 - dmrt3: the Icelandic table's genotype shares are worked out from one allele frequency, assuming random mating. A 2026 study reports six variants in exon 2 of DMRT3, three of them new, the new ones mainly in non-gaited breeds and of unknown effect; none is in the data. Other gait loci (trot versus pace in Standardbreds) are known to exist and are not modelled.
@@ -293,8 +293,6 @@ C6. What allele frequencies are published, by breed, for KIT SB1, W5, W10, W13, 
 
 BLOCK D - BODY SIZE, PERFORMANCE AND GAIT
 -----------------------------------------
-D1. HMGA2: what is the variant that reduces height in Shetland ponies and other small
-    horses (Frischknecht et al. 2015) - its name and position?
 D2. MSTN g.66493737C>T (the "speed gene" of Thoroughbreds): is that position on EquCab2 or
     EquCab3?
 D3. PDK4 g.38973231A>G and CKM g.15884567G>A are candidate racing-performance variants,

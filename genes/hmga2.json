@@ -4,18 +4,18 @@
   "species": "horse",
   "name": "HMGA2 (pony)",
   "symbol": "HMGA2",
-  "chromosome": "7",
+  "chromosome": "6",
   "evidence": "published",
-  "summary": "HMGA2, on chromosome 7, encodes a transcription factor (high-mobility group AT-hook 2) that regulates growth and body size. Variation at it is associated with height and overall skeletal proportions: each p copy here makes the horse shorter. It is found in Shetland ponies and other small horses. Height is highly polygenic - LCORL, HMGA2 and many other loci contribute, and breed and nutrition change the outcome - so this is one additive part of size, not a switch. Allele frequencies differ sharply between pony breeds, Thoroughbreds, Warmbloods and drafts, and no general frequency table is published. It does not affect coat colour, white pattern, feathering, hooves or eye colour, and no effect on speed or jumping is established.",
+  "summary": "HMGA2, on chromosome 6, encodes a transcription factor (high-mobility group AT-hook 2) that regulates growth and body size. The pony allele p is a missense change in exon 1, c.83G>A (p.Gly28Glu), at the centre of the first AT-hook, the part that binds DNA; the changed protein binds DNA much less well. It was found by closing a gap in the EquCab2 reference, so it is published on its own transcript (EMBL LN849001) rather than as a reference position. Each p copy makes the horse shorter: in 110 Shetland Ponies, about 9.5 cm less at the withers per copy, with mean heights of about 103 cm for none, 95 cm for one and 84 cm for two. The effect is additive and need not be the same size in other breeds. In the study that found it, p was in Shetland Ponies and two other pony breeds and in none of the full-sized breeds tested; later work tied it to height in Welsh Ponies too. Height is highly polygenic - LCORL, HMGA2 and many other loci contribute, and breed and nutrition change the outcome - so this is one additive part of size, not a switch. It does not affect coat colour, white pattern, feathering, hooves or eye colour, and no effect on speed or jumping is established.",
   "inheritance": "autosomal",
   "affects_coat": false,
   "alleles": [
-    { "id": "p", "name": "Pony", "wild_type": false, "quality": "unverified" },
-    { "id": "N", "name": "Wild-type", "wild_type": true, "quality": "unverified" }
+    { "id": "p", "name": "Pony (A; c.83G>A, p.Gly28Glu)", "wild_type": false, "quality": "unverified" },
+    { "id": "N", "name": "Wild-type (G)", "wild_type": true, "quality": "unverified" }
   ],
   "phenotypes": [
-    { "id": "pony", "name": "Pony", "description": "Two pony copies. A visibly smaller horse.", "changes_coat": false },
-    { "id": "pony-mixed", "name": "Part pony", "description": "One pony copy. Half the loss of height.", "changes_coat": false },
+    { "id": "pony", "name": "Pony", "description": "Two pony copies. A visibly smaller horse: in Shetland Ponies about 84 cm at the withers on average, against about 103 cm with none.", "changes_coat": false },
+    { "id": "pony-mixed", "name": "Part pony", "description": "One pony copy. About half the loss of height: in Shetland Ponies about 95 cm at the withers on average.", "changes_coat": false },
     { "id": "pony-plain", "name": "Wild type", "description": "No pony copy. Ordinary height.", "changes_coat": false }
   ],
   "genotypes": [
@@ -37,6 +37,8 @@
   "citations": [
     { "source": "pubmed", "label": "Frischknecht et al., PMC4608717", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4608717/", "verified": false },
     { "source": "pubmed", "label": "PMC10229368", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10229368/", "verified": false },
-    { "source": "pubmed", "label": "PMC6430908", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6430908/", "verified": false }
+    { "source": "pubmed", "label": "PMC6430908", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6430908/", "verified": false },
+    { "source": "paper", "label": "PLOS ONE, 10.1371/journal.pone.0140749: Frischknecht et al. 2015, HMGA2 c.83G>A", "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0140749", "verified": false },
+    { "source": "omia", "label": "OMIA 001968-9796: HMGA2 and height", "url": "https://omia.org/OMIA001968/9796/", "verified": false }
   ]
 }
