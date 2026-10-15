@@ -43,6 +43,33 @@ What the gene file does with it: the allele id stays W22 (ids are never renamed)
 stands for the W20_22 haplotype, as laboratories report it. W22/N is N/W20_22, a real
 genotype. W22/W20 stays "boosted-white" (usually, not always, all white).
 
+ROUND THREE, SECOND ANSWER (the owner's answer to question C1, 2026-10-15)
+-------------------------------------------------------------------------
+No address has been opened by a maintainer. Her answer, condensed, with every point and
+address she gave:
+
+  - chr3:7948220T>C is missing a digit. W20 should be chr3:79482200T>C (79,482,200) on
+    EquCab3.0 (RefSeq GCF_002863925.1, GenBank GCA_002863925.1).
+    (https://www.ncbi.nlm.nih.gov/assembly/1512011)
+  - The 2024 KIT haplotype paper lists W20 as chr3:7948220T>C and says its coordinates
+    are on EquCab3.0. That is about 7.95 Mb, but KIT and the W and sabino variants lie
+    near 79.5-79.6 Mb; W22 is at chr3:79,548,925-79,550,822.
+    (https://pmc.ncbi.nlm.nih.gov/articles/PMC10854588/)
+  - Adding the omitted zero puts W20 at 79,482,200, just upstream of the main variant
+    cluster, consistent with its transcript change KIT c.2045G>A (p.Arg682His), a
+    missense change in exon 14. (https://vgl.ucdavis.edu/test/dominant-white-horse)
+  - T>C on the genome strand is G>A in the KIT transcript's orientation.
+  - UC Davis: W20 alone usually has a minor white-spotting effect, but can add a great
+    deal of white beside other white-pattern alleles.
+  - Treat chr3:7948220T>C as a typing slip, not a distinct allele.
+
+What this settles and what it does not: that 7948220 is a slip is now sourced (the paper
+itself says EquCab3.0, where KIT is near 79.5 Mb). Where the missing digit goes is the
+answer's reconstruction: no source is quoted printing 79482200, and a digit dropped
+elsewhere would give another position. It is recorded here and not in the gene file,
+which holds no positions for any KIT allele. c.2045G>A (p.Arg682His) is sourced to UC
+Davis.
+
 ROUND TWO (the owner's answers to the open research questions, 2026-10-12)
 --------------------------------------------------------------------------
 These came after everything below. Where they disagree with it, this section and the gene
