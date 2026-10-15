@@ -4,6 +4,40 @@ No source was opened by the session that filed this. genes/tobiano.json was chan
 on the owner's word the same day; what is left over is in knowledge/known-issues.txt.
 Not yet audited.)
 
+ROUND THREE (the owner's answer to question C4, 2026-10-15)
+------------------------------------------------------------
+This came after everything below and settles the size left unexplained in round two. No
+address has been opened by a maintainer. Her answer, condensed, with every point and
+address she gave:
+
+  - The inversion defined by its breakpoints is about 36.7 Mb, not 43.
+    ECA3:42,737,476-79,471,993 on EquCab3.0 spans 36,734,517 bp (about 36.73 Mb). The
+    2024 white-spotting review gives it as chr3:42,737,476_79471993inv on EquCab3.0, an
+    intergenic paracentric inversion. (https://pmc.ncbi.nlm.nih.gov/articles/PMC10854722/)
+  - "About 43 Mb" is a rounded, older estimate repeated in later reviews, not consistent
+    with the breakpoints. (https://onlinelibrary.wiley.com/doi/10.1111/age.12857)
+  - The discovery paper (Brooks et al.) found the flanking sequences and built a PCR
+    test; its abstract gives no coordinates or size.
+    (https://pubmed.ncbi.nlm.nih.gov/18253033/)
+  - Later summaries and patent material used EquCab2 breakpoints near
+    ECA3:41,925,230-41,925,231 and 77,663,330-77,663,331, about 35.74 Mb apart, which
+    also argues against 43.
+  - Use 36.7 Mb with the EquCab3.0 breakpoints; avoid 43 Mb in anything coordinate-based.
+  - The inversion begins roughly 100 kb DOWNSTREAM of KIT and does not interrupt KIT's
+    coding sequence; the leading hypothesis is that it changes long-range regulation of
+    KIT, lowering its expression.
+  - Dominant: TO/n and TO/TO both show tobiano; homozygotes often have more white and may
+    show ink spots.
+  - It affects white patterning, pink skin under the white and the mixed tail; not base
+    colour, and no good evidence of any effect on height, speed, muscle, bone, hooves or
+    feathering.
+  - UC Davis tests it but is not a primary source for the breakpoints.
+
+What the gene file does with it: the size becomes about 36.7 Mb on EquCab3.0, and 43 Mb
+is named as the older estimate. Two points disagree with what the file already says and
+were NOT changed (see known-issues): "downstream of KIT" against "upstream", and
+homozygotes "often" whiter against "does not reliably look different".
+
 ROUND TWO (the owner's answers to the open research questions, 2026-10-12)
 --------------------------------------------------------------------------
 These came after everything below. Where they disagree with it, this section and the gene
@@ -12,8 +46,8 @@ knowledge/science/round-2-answers.txt. No address has been opened by a maintaine
 - Confirmed: a paracentric inversion of about 43 Mb upstream of KIT on chromosome 3.
   Breakpoints are given as chr3:42,737,476-79,471,993 "in the cited review's coordinates"
   (https://pmc.ncbi.nlm.nih.gov/articles/PMC10854722/).
-- Those two positions are about 36.7 Mb apart, not 43. The answer does not explain the
-  difference; both figures are in the gene file as given.
+- Those two positions are about 36.7 Mb apart, not 43. SETTLED BY ROUND THREE (above):
+  36.7 Mb is right; 43 is an older rounded estimate.
 - Described as high in Paint, Icelandic and many European pony and draft breeds, and
   absent from closed studbooks that exclude spotted horses. No figure was given.
 
