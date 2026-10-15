@@ -21,6 +21,10 @@ WHAT IS HERE TODAY
 genes/              one JSON file per locus. Format: knowledge/format.txt
 breeds/             one JSON file per natural breed (121), exported from the mod
                     2026-10-14. Format: knowledge/format.txt, BREEDS (a draft)
+apis/               readers for the data in Python, Java, Rust, C++ and C, with the same
+                    calls in each (apis/README.md). The Python one is the reference; after
+                    a format change, update it and run apis/check.py, which compares every
+                    port's conformance report with it
 mod-map.json        how each locus here maps to the mod's saved gene keys. Only the mod
                     needs it. See knowledge/the-mod.txt
 knowledge/          what a maintainer needs to know
