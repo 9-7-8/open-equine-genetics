@@ -26,7 +26,7 @@
       "genotypes": [
         { "alleles": ["D1", "N"], "percent": 0.7874 },
         { "alleles": ["D2", "N"], "percent": 0.7874 },
-        { "alleles": ["D3", "N"], "percent": 0.7874 },
+        { "alleles": ["D3s", "N"], "percent": 0.7874 },
         { "alleles": ["D4", "N"], "percent": 0.7874 },
         { "alleles": ["N", "N"], "percent": 96.8504 }
       ]

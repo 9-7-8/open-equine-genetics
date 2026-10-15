@@ -6,24 +6,26 @@
   "symbol": "ACAN",
   "chromosome": "1",
   "evidence": "published",
-  "summary": "ACAN (aggrecan) on chromosome 1, a recessive dwarfism locus of Miniature Horses and related ponies, with four established variant alleles, D1 to D4. A horse is a dwarf when it has no working copy left, so two different variant alleles together still count. D1 beside a second D1, or beside D2 or D3, kills the foal before birth; D1 beside D4 usually does too, though one such foal is known to have been born alive. Two of D2, D3 and D4 in any combination give a dwarf that is born alive and can reach adulthood, though many are put down for their quality of life. A horse with one variant copy is not a dwarf, but heterozygotes are reported to be shorter than horses with none. Which variant is commonest depends on the population: in 361 American Miniature Horses D2 led (allele frequency about 0.09, against about 0.03 for D1 and D4 and 0.02 for D3; about 0.16 together), while in 347 Brazilian ones D4 made up nearly all of a combined 0.280 (D4 0.244, D2 0.017, D3 0.016, D1 0.003). D3 is written D3* in the original naming. UC Davis has no test page for it; a European laboratory, Generatio, tests for D1 to D4. A fifth allele, D5 (g.95258999C>T), has been proposed in a University of Kentucky dissertation and is offered by one laboratory, CombiBreed, but no peer-reviewed report establishes it and Generatio does not test for it; it is kept here as unconfirmed, with no outcome. ACAN affects the skeleton only: it has no direct effect on coat colour, white markings, feathering, muscle or speed.",
+  "summary": "ACAN (aggrecan) on chromosome 1, a recessive dwarfism locus of Miniature Horses and related ponies, with four established variant alleles, D1 to D4. A horse is a dwarf when it has no working copy left, so two different variant alleles together still count. D1 beside a second D1, or beside D2 or D3*, kills the foal before birth; D1 beside D4 usually does too, though one such foal is known to have been born alive. Two of D2, D3* and D4 in any combination give a dwarf that is born alive and can reach adulthood, though many are put down for their quality of life. A horse with one variant copy is not a dwarf, but heterozygotes are reported to be shorter than horses with none. Which variant is commonest depends on the population: in 361 American Miniature Horses D2 led (allele frequency about 0.09, against about 0.03 for D1 and D4 and 0.02 for D3*; about 0.16 together), while in 347 Brazilian ones D4 made up nearly all of a combined 0.280 (D4 0.244, D2 0.017, D3* 0.016, D1 0.003). The third allele is D3* (g.95282140C>G, p.Ala505Pro): the asterisk marks a correction, for the one-base deletion first reported as D3 (c.6700delC) was a sequencing artifact, kept here as D3, invalid. D4 is a 21-base deletion, g.95257480_95257500del; Generatio prints a 43-base span, g.95257458_95257500del, which does not fit it. Positions are on EquCab3.0. UC Davis has no test page for it; a European laboratory, Generatio, tests for D1 to D4. A fifth allele, D5 (g.95258999C>T), has been proposed in a University of Kentucky dissertation and is offered by one laboratory, CombiBreed, but no peer-reviewed report establishes it and Generatio does not test for it; it is kept here as unconfirmed, with no outcome. ACAN affects the skeleton only: it has no direct effect on coat colour, white markings, feathering, muscle or speed.",
   "inheritance": "autosomal",
   "affects_coat": false,
   "alleles": [
     { "id": "D1", "name": "Dwarfism D1 (c.245del, severe)", "wild_type": false, "quality": "unverified" },
     { "id": "D2", "name": "Dwarfism D2 (c.1270G>A)", "wild_type": false, "quality": "unverified" },
-    { "id": "D3", "name": "Dwarfism D3* (c.6700delC)", "wild_type": false, "quality": "unverified" },
+    { "id": "D3", "name": "Dwarfism D3 (c.6700delC; invalid: a sequencing artifact, replaced by D3s, written D3*)", "wild_type": false, "quality": "invalid" },
     { "id": "D4", "name": "Dwarfism D4 (c.7299_7319del)", "wild_type": false, "quality": "unverified" },
     { "id": "D5", "name": "Dwarfism D5 (unconfirmed; reported as g.95258999C>T)", "wild_type": false, "quality": "unverified" },
-    { "id": "N", "name": "Wild-type", "wild_type": true, "quality": "unverified" }
+    { "id": "N", "name": "Wild-type", "wild_type": true, "quality": "unverified" },
+    { "id": "D3s", "name": "Dwarfism D3* (g.95282140C>G, p.Ala505Pro)", "wild_type": false, "quality": "unverified" }
   ],
   "phenotypes": [
     { "id": "wild", "name": "Wild type", "description": "Two working copies of ACAN. Normal skeletal growth.", "changes_coat": false },
     { "id": "acan-carrier", "name": "ACAN carrier", "description": "One variant copy and one working one. Not a dwarf, but shorter than a horse with two working copies: in one study of Miniature Horses, carriers averaged 1.43 inches (about 3.6 cm) shorter. Two carriers bred together throw a dwarf one time in four, whether or not they carry the same variant.", "changes_coat": false },
-    { "id": "acan-dwarf", "name": "Chondrodysplastic dwarfism", "description": "No working copy of ACAN, from two of D2, D3 and D4 in any combination. Born alive as a disproportionate dwarf: markedly small, with shortened limbs. Such horses can reach adulthood, but survival varies with severity, breathing and joint problems, pain and care, and many are put down for their quality of life. Pairs with D2 are often the milder ones; for two copies of D4, or of D3, little is known of the adult horse.", "changes_coat": false },
-    { "id": "acan-lethal", "name": "Fetal death (D1 with D1, D2 or D3)", "description": "D1 beside a second D1, or beside D2 or D3. The foal dies before birth: it is reabsorbed or aborted, usually early in the pregnancy.", "changes_coat": false },
+    { "id": "acan-dwarf", "name": "Chondrodysplastic dwarfism", "description": "No working copy of ACAN, from two of D2, D3* and D4 in any combination. Born alive as a disproportionate dwarf: markedly small, with shortened limbs. Such horses can reach adulthood, but survival varies with severity, breathing and joint problems, pain and care, and many are put down for their quality of life. Pairs with D2 are often the milder ones; for two copies of D4, or of D3*, little is known of the adult horse.", "changes_coat": false },
+    { "id": "acan-lethal", "name": "Fetal death (D1 with D1, D2 or D3*)", "description": "D1 beside a second D1, or beside D2 or D3*. The foal dies before birth: it is reabsorbed or aborted, usually early in the pregnancy.", "changes_coat": false },
     { "id": "acan-d1-d4", "name": "D1 with D4", "description": "D1 beside D4. Usually the foal dies before birth, but at least one was carried to term and born alive, a severe dwarf.", "changes_coat": false },
-    { "id": "unconfirmed-allele", "name": "Pair with an unconfirmed variant", "documented": false, "description": "A pair that includes D5 (g.95258999C>T), a proposed fifth ACAN dwarfism allele. It rests on a University of Kentucky dissertation and one laboratory's test (CombiBreed), not on a peer-reviewed report, so nothing is given for it.", "changes_coat": false }
+    { "id": "unconfirmed-allele", "name": "Pair with an unconfirmed variant", "documented": false, "description": "A pair that includes D5 (g.95258999C>T), a proposed fifth ACAN dwarfism allele. It rests on a University of Kentucky dissertation and one laboratory's test (CombiBreed), not on a peer-reviewed report, so nothing is given for it.", "changes_coat": false },
+    { "id": "invalid-allele", "name": "Pair with the invalid D3", "documented": false, "description": "A pair that includes D3, the one-base deletion c.6700delC first reported as the third ACAN dwarfism allele. It was later found to be a sequencing artifact; the real third allele is a substitution, D3* (D3s here). D3 is kept, marked invalid, so that stored data still lines up and nobody adds it back. No outcome is given for it.", "changes_coat": false }
   ],
   "genotypes": [
     { "alleles": ["N", "N"], "phenotype": "wild" },
@@ -32,61 +34,68 @@
     { "alleles": ["D4", "N"], "phenotype": "acan-carrier" },
     { "alleles": ["D4", "D5"], "phenotype": "unconfirmed-allele" },
     { "alleles": ["D4", "D4"], "phenotype": "acan-dwarf", "conditions": ["chondrodysplastic-dwarfism"] },
-    { "alleles": ["D3", "N"], "phenotype": "acan-carrier" },
-    { "alleles": ["D3", "D5"], "phenotype": "unconfirmed-allele" },
-    { "alleles": ["D3", "D4"], "phenotype": "acan-dwarf", "conditions": ["chondrodysplastic-dwarfism"] },
-    { "alleles": ["D3", "D3"], "phenotype": "acan-dwarf", "conditions": ["chondrodysplastic-dwarfism"] },
+    { "alleles": ["D3s", "N"], "phenotype": "acan-carrier" },
+    { "alleles": ["D3s", "D5"], "phenotype": "unconfirmed-allele" },
+    { "alleles": ["D3s", "D4"], "phenotype": "acan-dwarf", "conditions": ["chondrodysplastic-dwarfism"] },
+    { "alleles": ["D3s", "D3s"], "phenotype": "acan-dwarf", "conditions": ["chondrodysplastic-dwarfism"] },
     { "alleles": ["D2", "N"], "phenotype": "acan-carrier" },
     { "alleles": ["D2", "D5"], "phenotype": "unconfirmed-allele" },
     { "alleles": ["D2", "D4"], "phenotype": "acan-dwarf", "conditions": ["chondrodysplastic-dwarfism"] },
-    { "alleles": ["D2", "D3"], "phenotype": "acan-dwarf", "conditions": ["chondrodysplastic-dwarfism"] },
+    { "alleles": ["D2", "D3s"], "phenotype": "acan-dwarf", "conditions": ["chondrodysplastic-dwarfism"] },
     { "alleles": ["D2", "D2"], "phenotype": "acan-dwarf", "conditions": ["chondrodysplastic-dwarfism"] },
     { "alleles": ["D1", "N"], "phenotype": "acan-carrier" },
     { "alleles": ["D1", "D5"], "phenotype": "unconfirmed-allele" },
-    { "alleles": ["D1", "D4"], "phenotype": "acan-d1-d4", "conditions": ["chondrodysplastic-dwarfism"] }
+    { "alleles": ["D1", "D4"], "phenotype": "acan-d1-d4", "conditions": ["chondrodysplastic-dwarfism"] },
+    { "alleles": ["D3", "N"], "phenotype": "invalid-allele" },
+    { "alleles": ["D3", "D3"], "phenotype": "invalid-allele" },
+    { "alleles": ["D1", "D3"], "phenotype": "invalid-allele" },
+    { "alleles": ["D2", "D3"], "phenotype": "invalid-allele" },
+    { "alleles": ["D3", "D4"], "phenotype": "invalid-allele" },
+    { "alleles": ["D3", "D5"], "phenotype": "invalid-allele" },
+    { "alleles": ["D3s", "D3"], "phenotype": "invalid-allele" }
   ],
   "nonviable_genotypes": [
     { "alleles": ["D1", "D1"], "phenotype": "acan-lethal" },
     { "alleles": ["D1", "D2"], "phenotype": "acan-lethal" },
-    { "alleles": ["D1", "D3"], "phenotype": "acan-lethal" }
+    { "alleles": ["D1", "D3s"], "phenotype": "acan-lethal" }
   ],
   "conditions": [
     { "id": "chondrodysplastic-dwarfism", "name": "Chondrodysplastic dwarfism", "description": "No working copy of ACAN. A disproportionate dwarf: markedly small, with shortened limbs, and often breathing and joint problems and pain.", "severity": "impairing" }
   ],
   "frequencies": [
     {
-      "population": "Miniature Horse, United States (361 horses submitted for private testing, Eberth et al. 2018; allele frequencies D1 0.03, D2 0.09, D3 0.02 and D4 0.03, together about 0.16; genotype shares worked out from them assuming random mating, with the three nonviable pairs, 0.75% of conceptions, left out)",
+      "population": "Miniature Horse, United States (361 horses submitted for private testing, Eberth et al. 2018; allele frequencies D1 0.03, D2 0.09, D3* 0.02 and D4 0.03, together about 0.16; genotype shares worked out from them assuming random mating, with the three nonviable pairs, 0.75% of conceptions, left out)",
       "evidence": "published",
       "genotypes": [
         { "alleles": ["N", "N"], "percent": 69.4106 },
         { "alleles": ["D4", "N"], "percent": 5.0176 },
         { "alleles": ["D4", "D4"], "percent": 0.0907 },
-        { "alleles": ["D3", "N"], "percent": 3.3451 },
-        { "alleles": ["D3", "D4"], "percent": 0.1209 },
-        { "alleles": ["D3", "D3"], "percent": 0.0403 },
+        { "alleles": ["D3s", "N"], "percent": 3.3451 },
+        { "alleles": ["D3s", "D4"], "percent": 0.1209 },
+        { "alleles": ["D3s", "D3s"], "percent": 0.0403 },
         { "alleles": ["D2", "N"], "percent": 15.0529 },
         { "alleles": ["D2", "D4"], "percent": 0.5441 },
-        { "alleles": ["D2", "D3"], "percent": 0.3627 },
+        { "alleles": ["D2", "D3s"], "percent": 0.3627 },
         { "alleles": ["D2", "D2"], "percent": 0.8161 },
         { "alleles": ["D1", "N"], "percent": 5.0176 },
         { "alleles": ["D1", "D4"], "percent": 0.1814 }
       ]
     },
     {
-      "population": "Miniature Horse, Brazil (347 phenotypically normal horses from nine farms, Andrade et al. 2020; allele frequencies D1 0.003, D2 0.017, D3 0.016 and D4 0.244, together 0.280; genotype shares worked out assuming random mating, with the three nonviable pairs, 0.02% of conceptions, left out)",
+      "population": "Miniature Horse, Brazil (347 phenotypically normal horses from nine farms, Andrade et al. 2020; allele frequencies D1 0.003, D2 0.017, D3* 0.016 and D4 0.244, together 0.280; genotype shares worked out assuming random mating, with the three nonviable pairs, 0.02% of conceptions, left out)",
       "evidence": "published",
       "genotypes": [
         { "alleles": ["N", "N"], "percent": 51.8507 },
         { "alleles": ["D4", "N"], "percent": 35.1433 },
-        { "alleles": ["D3", "N"], "percent": 2.3045 },
+        { "alleles": ["D3s", "N"], "percent": 2.3045 },
         { "alleles": ["D2", "N"], "percent": 2.4485 },
         { "alleles": ["D1", "N"], "percent": 0.4321 },
         { "alleles": ["D4", "D4"], "percent": 5.9548 },
-        { "alleles": ["D3", "D4"], "percent": 0.781 },
+        { "alleles": ["D3s", "D4"], "percent": 0.781 },
         { "alleles": ["D2", "D4"], "percent": 0.8298 },
         { "alleles": ["D1", "D4"], "percent": 0.1464 },
-        { "alleles": ["D3", "D3"], "percent": 0.0256 },
-        { "alleles": ["D2", "D3"], "percent": 0.0544 },
+        { "alleles": ["D3s", "D3s"], "percent": 0.0256 },
+        { "alleles": ["D2", "D3s"], "percent": 0.0544 },
         { "alleles": ["D2", "D2"], "percent": 0.0289 }
       ]
     },
@@ -96,7 +105,7 @@
       "genotypes": [
         { "alleles": ["D1", "N"], "percent": 0.7843 },
         { "alleles": ["D2", "N"], "percent": 0.7843 },
-        { "alleles": ["D3", "N"], "percent": 0.7843 },
+        { "alleles": ["D3s", "N"], "percent": 0.7843 },
         { "alleles": ["D4", "N"], "percent": 0.7843 },
         { "alleles": ["N", "N"], "percent": 96.8628 }
       ]
@@ -111,6 +120,8 @@
     { "source": "pubmed", "label": "PMC7003212: ACAN dwarfism, D4/D4 newborns", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7003212/", "verified": false },
     { "source": "other", "label": "Laboklin: dwarfism (ACAN chondrodysplasia)", "url": "https://laboklin.com/en/products/genetics/hereditary-diseases/horse/dwarfism-acan-chondrodysplasia/", "verified": false },
     { "source": "paper", "label": "Animal Genetics 49:413-420, 10.1111/age.12682: Eberth et al. 2018, ACAN alleles D1-D4 in 361 American Miniature Horses", "url": "https://onlinelibrary.wiley.com/doi/10.1111/age.12682", "verified": false },
+    { "source": "pubmed", "label": "PMID 30058072: Eberth et al. 2018, positions of D1, D2, D3* and D4 on EquCab3.0", "url": "https://pubmed.ncbi.nlm.nih.gov/30058072/", "verified": false },
+    { "source": "other", "label": "Labgenvet: dwarfism, chondrodysplasia", "url": "https://labgenvet.ca/en/disease/dwarfism-chondrodysplasia/", "verified": false },
     { "source": "pubmed", "label": "PMC7499210: Andrade et al. 2020, Scientific Reports 10:14590, ACAN variants in 347 Brazilian Miniature Horses (combined allele frequency 0.280)", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7499210/", "verified": false },
     { "source": "other", "label": "Laboklin UK: ACAN dwarfism test, outcomes of each pair", "url": "https://www.laboklin.co.uk/laboklin/showGeneticTest.jsp?testID=8548", "verified": false },
     { "source": "other", "label": "CombiBreed: ACAN D5 test", "url": "https://www.combibreed.com/acand5/", "verified": false },
