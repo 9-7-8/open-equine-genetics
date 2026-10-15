@@ -4,6 +4,33 @@ No source was opened by the session that filed this. genes/st14.json was changed
 on the owner's word the same day; what is left over is in knowledge/known-issues.txt.
 Not yet audited.)
 
+ROUND THREE (the owner's answer to question G3, 2026-10-15)
+------------------------------------------------------------
+This came after everything below and settles the age-at-death point left UNSETTLED in
+round two: the earlier answer was right. Every point rests on the paper that found the
+variant (https://pmc.ncbi.nlm.nih.gov/articles/PMC5386879/); no maintainer has opened it.
+Her answer, condensed, with every point she gave:
+
+  - The paper: "So far, all known NFS affected horses died between a few weeks and 3 yr
+    of age." and "It is not clear whether a specific pathology caused the premature
+    deaths."
+  - Affected foals are born nearly hairless, often without lashes or whiskers, with mild
+    ichthyosis (dry, scaly skin).
+  - "Days to weeks, from skin-barrier failure and infection" is an overstatement, likely
+    by analogy with St14 knockout mice, whose pups lose fluid through the skin and die
+    within about two days. The paper says this does not appear to be the cause of death
+    in horses, whose skin disease is much milder.
+  - One affected foal was put down at 21 days after a spontaneous leg fracture; another
+    was alive at nearly 3 years when the study was revised.
+  - Skin lesions from the missing coat are plausible and observed, but not proven to be
+    what kills.
+  - For a simulator: lethal, with high early juvenile mortality and a lifespan up to
+    about 3 years; no specific "dies in days from infection" rule.
+  - No breed-wide carrier figure was given (part of G3, still open).
+
+What the gene file does with it: nothing changes in substance. The severity stays
+"lethal_in_early_life"; the condition gains the 21-day foal and the note on mice.
+
 ROUND TWO (the owner's answers to the open research questions, 2026-10-12)
 --------------------------------------------------------------------------
 These came after everything below. Where they disagree with it, this section and the gene
@@ -12,7 +39,7 @@ knowledge/science/round-2-answers.txt. No address has been opened by a maintaine
 - The chromosome could not be verified.
 - The 191 Akhal-Tekes were a study sample; selection, relatedness and where the horses
   came from can bias the figure. No breed-wide carrier figure was given.
-- UNSETTLED: this answer says affected foals die "typically within days to weeks, from
+- SETTLED BY ROUND THREE (above), for the earlier answer. This answer says affected foals die "typically within days to weeks, from
   complications related to skin barrier failure and infection", with no source. The
   earlier answer, citing the paper that found the variant, says most died between a few
   weeks and three years old and that the cause is unresolved. The gene file still follows
