@@ -1,6 +1,121 @@
 ACAN - science notes
 (A science note on this locus, written 2026-10-12. Not yet audited.)
 
+ROUND FOUR, THIRD ANSWER (the owner's answer to question G7, 2026-10-15)
+-------------------------------------------------------------------------
+No address has been opened by a maintainer. Her document follows whole, as she sent it
+(the [web:N] markers point to the sources listed at its end). It overturns the D3 that
+every earlier round named.
+
+The owner's decision on it (2026-10-15, asked): add D3* as a new allele, D3s, and mark
+D3 invalid - the pattern of kit W17 and shox sa.
+
+The session's reading:
+  - This answer gives D4 as g.95257480_95257500del (21 bases) from Eberth et al. and
+    OMIA, and says only Generatio prints g.95257458_95257500del. The previous answer
+    (second answer, below) gave g.95257458_95257500del as Andrade et al.'s. Which
+    Andrade printed is not settled; the gene file gives the 21-base position.
+  - It names the author of PMC7499210 as Frischknecht et al.; the previous answer said
+    Andrade et al. The gene file keeps Andrade et al. (question G6).
+  - Its D4 protein changes ("p.Phe2017-Asp2023del", "p.Phe2433-Gln2440del/similar") are
+    not in the data.
+
+--- her document ---
+# ACAN D3* and D4: are Generatio's variants the published ones?
+
+**Short answer:** Generatio's **D3\*** is the same corrected variant published by Eberth et al. (2018) as **D3\***: `EquCab3.0 chr1:g.95282140C>G`. Generatio's **D4** is biologically the same published D4 allele, but Generatio's displayed genomic interval, `g.95257458_95257500del`, is **43 bp long** and does not match the primary paper's 21-bp D4 coordinate, `g.95257480_95257500del`. The primary-paper coordinate should be treated as authoritative unless Generatio documents a different reference/transcript convention.
+
+## Assembly and coordinates
+
+All four established pathogenic ACAN alleles were reported relative to **EquCab3.0 / GCF_002863925.1**, on horse chromosome 1 (`NC_009144.3`). [web:1][web:2]
+
+| Generatio label | Generatio coordinate | Published primary-paper coordinate | Same variant? |
+|---|---|---|---|
+| D3* | `g.95282140C>G` | `g.95282140C>G` (`rs1095048823`) | **Yes** |
+| D4 | `g.95257458_95257500del` | `g.95257480_95257500del` (`rs1095048839`) | **Same allele, but Generatio's start coordinate appears inconsistent** |
+
+The primary paper explicitly designates the four variants, in order, as D1, D2, D3*, and D4, with D3* at `g.95282140C>G` and D4 at `g.95257480_95257500del`. [web:1][web:16]
+
+## D3 versus D3*
+
+The asterisk in **D3\*** is a deliberate label meaning “corrected D3.” The original D3 report described a single-base deletion in exon 11, `c.6700delC` / `p.P1875fx`. Later work found that this result was a **technical sequencing artifact**, not the true causative variant. [web:2][web:4][web:12]
+
+The real pathogenic allele is a missense substitution, `g.95282140C>G`, causing `p.Ala505Pro` in the aggrecan interglobular domain. Eberth et al. renamed it **D3\*** to distinguish it from the erroneous original D3. [web:1][web:2][web:4]
+
+Therefore:
+
+- **Original D3:** `c.6700delC`, one-base deletion — **not a valid disease allele; artifact.**
+- **D3\*:** `EquCab3.0:g.95282140C>G`, missense — **the variant tested and reported by Generatio.**
+- They are **not the same variant**; D3\* replaced the discredited original D3.
+
+## D4 coordinate discrepancy
+
+The published D4 allele is a **21-bp deletion** affecting exon 14/15 depending on transcript annotation, with protein effect `p.Phe2017-Asp2023del` in one annotation and `p.Phe2433-Gln2440del`/similar in another. OMIA records the genomic change as `NC_009144.3:g.95257480_95257500del` on EquCab3.0. [web:2][web:4]
+
+Generatio writes D4 as:
+
+```text
+g.95257458_95257500del
+```
+
+That interval contains:
+
+```text
+95257500 - 95257458 + 1 = 43 bases
+```
+
+So it cannot literally describe the same 21-bp deletion if both endpoints use the same coordinate system. The likely explanations are:
+
+1. **Generatio's displayed start coordinate is erroneous or uses an unstated convention.**
+2. Generatio may be showing a larger reference interval around the deletion rather than the precise deleted bases, but its own “43 bases” wording makes that unlikely as a precise HGVS-style deletion.
+3. The biologically tested allele is still D4, because Generatio explicitly identifies it as D4 and uses the same variant name. [web:8]
+
+**For a simulation or database, record D4 as the 21-bp deletion at `EquCab3.0:g.95257480_95257500del`, and flag Generatio's `g.95257458_95257500del` as a coordinate-display discrepancy—not as a fifth independent allele.**
+
+## cDNA naming differences
+
+The cDNA descriptions differ because they are relative to different ACAN transcripts:
+
+- `c.7299_7319del` is the 21-bp deletion in one transcript annotation. [web:2]
+- `c.7633_7653del` is the same genomic deletion described against another transcript. [web:3]
+- This does **not** imply two different D4 mutations; genomic coordinates and the 21-bp deletion length are the stable identifiers.
+
+## Simulator implementation
+
+Model ACAN as a single autosomal recessive disease locus with four functionally equivalent pathogenic alleles:
+
+```text
+N  = normal
+d1 = ACAN D1
+d2 = ACAN D2
+d3 = ACAN D3*
+d4 = ACAN D4
+```
+
+Phenotype rule:
+
+- `N/N` — normal
+- `N/d1`, `N/d2`, `N/d3`, `N/d4` — clinically normal carrier
+- Any two pathogenic alleles — chondrodysplastic dwarfism, including compound heterozygotes such as `d2/d4` or `d3/d4` [web:1][web:4][web:8]
+
+Do **not** model original D3 as a separate allele. Either omit it or retain it only as a historical/lab-report alias mapped to “invalid/artifact.”
+
+## Sources
+
+- Eberth et al., *Multiple alleles of ACAN associated with chondrodysplastic dwarfism in Miniature horses*, Animal Genetics, 2018. DOI: https://doi.org/10.1111/age.12682 ; PubMed: https://pubmed.ncbi.nlm.nih.gov/30058072/ [web:1][web:16]
+- OMIA 001271-9796, *Dwarfism, ACAN-related in Equus caballus*: https://omia.org/OMIA001271/9796/ [web:2]
+- Generatio, *ACAN Dwarfism | Chondrodysplasia (ACAN Horse)*: https://generatio.de/en/guidance/lexicon/acan-dwarfism-chondrodysplasia-acan-horse [web:8]
+- Frischknecht et al., *Evaluation of a new variant in the aggrecan gene potentially associated with chondrodysplastic dwarfism in Miniature horses*, 2020: https://pmc.ncbi.nlm.nih.gov/articles/PMC7499210/ [web:4][web:17]
+- Labgenvet, *Dwarfism, chondrodysplasia*: https://labgenvet.ca/en/disease/dwarfism-chondrodysplasia/ [web:3]
+--- end of her document ---
+
+What the gene file does with it: D3 (c.6700delC) is "invalid", with the undocumented
+outcome "invalid-allele" for its seven pairs; a new allele D3s, "Dwarfism D3*
+(g.95282140C>G, p.Ala505Pro)", appended at the end, takes D3's outcomes and its shares in
+every table and in the american_miniature and friesian pools. D1/D3s is nonviable; D1/D3
+is now a living row with no outcome. The summary explains the asterisk and gives D4 as
+the 21-base g.95257480_95257500del, noting Generatio's 43-base span. Two citations.
+
 ROUND FOUR, SECOND ANSWER (the owner's answer to question G6, 2026-10-15)
 --------------------------------------------------------------------------
 No address has been opened by a maintainer. Her answer, condensed, with every point and

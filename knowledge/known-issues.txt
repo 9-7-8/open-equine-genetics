@@ -11,7 +11,7 @@ WHERE THE DATA STANDS
   (round three, 2026-10-15; answers about one locus are at the top of its note, answers
   about several are kept whole in knowledge/science/round-3-answers.txt). Round four
   (2026-10-15, after this file was rewritten) so far: overviews of acan, agouti and
-  b4galt7, and answers to B3, B4, C1, C4, C6, D6, E3, G2, G4 and G6 (part); answers about several loci are kept whole in
+  b4galt7, and answers to B3, B4, C1, C4, C6, D6, E3, G2, G4, G6 (part) and G7; answers about several loci are kept whole in
   knowledge/science/round-4-answers.txt. The lists below
   are each kept on one long line, sorted, so they are easy to edit.
 RESEARCHED: abstracted_jump_strength, acan, agouti, b4galt7, brindle, champagne, ckm, dmrt3, dun, ednrb, extension, gbe1, grey, gys1, hmga2, kit, lama3, lamc2, lcorl, leopard, matp, met, mitf, mstn, mushroom, myo5a, patn1, pax3, pdk4, plod1, ppib, prkdc, rapgef5, roan, ryr1, scn4a, shox, silver, slc5a3, st14, tiger_eye, tobiano, toe1.
@@ -23,14 +23,14 @@ RESEARCHED: abstracted_jump_strength, acan, agouti, b4galt7, brindle, champagne,
 - The 25 other abstracted loci have had no research.
 - Every allele says how far to trust it ("quality") and every citation whether a
   maintainer has opened it ("verified"). No citation is verified, no allele is
-  "verified", three alleles are "invalid" (kit W17a and W17b, shox sa),
+  "verified", four alleles are "invalid" (acan D3, kit W17a and W17b, shox sa),
   and every allele of an abstracted locus is "abstracted".
 - tools/validate.mjs passes on all 68 gene files and 121 breed files. It checks
   structure, not science.
 
 STILL WRONG OR UNPROVEN IN THE RESEARCHED LOCI
 - abstracted_jump_strength was "ryr2" until 2026-10-12 (owner: rename it). The data has two abstractions for jumping, this and abstracted_jump; whether both are wanted is open.
-- acan: D5 is "unconfirmed" with no outcome: proposed in a dissertation and tested by one laboratory (CombiBreed), with no peer-reviewed report. UC Davis has no ACAN test page. Two of Generatio's four positions do not match the file's D3 and D4 (question G7). D1/D1, D1/D2 and D1/D3 are nonviable; D1/D4 is a living pair with its own outcome, usually lost before birth but known once from a live foal (the format cannot give a pair a chance of surviving). Pairs of D2, D3 and D4 are born alive; D2 pairs milder, but the format has one severity for the dwarf condition. Two Miniature Horse tables, worked out from allele frequencies: US (Eberth et al. 2018, D2 leading, about 0.16) and Brazil (Andrade et al. 2020, D4 leading, 0.280); both count D1/D4 at its random-mating share. Who wrote the 1.43-inch height study is in doubt (question G6). Andrade et al.'s g. positions for D1-D4 are on EquCab3.0 and match Generatio's. A Brazilian candidate variant, c.6465A>T (p.Leu2155Phe), "potentially associated", is not an allele here.
+- acan: D5 is "unconfirmed" with no outcome: proposed in a dissertation and tested by one laboratory (CombiBreed), with no peer-reviewed report. UC Davis has no ACAN test page. D3 (c.6700delC) is invalid, a sequencing artifact; the real third allele is D3s, written D3* (g.95282140C>G), added in round four (owner). D4 is the 21-base g.95257480_95257500del; Generatio prints a 43-base span, and one round-four answer says Andrade et al. does too, the next that only Generatio does. D1/D1, D1/D2 and D1/D3 are nonviable; D1/D4 is a living pair with its own outcome, usually lost before birth but known once from a live foal (the format cannot give a pair a chance of surviving). Pairs of D2, D3 and D4 are born alive; D2 pairs milder, but the format has one severity for the dwarf condition. Two Miniature Horse tables, worked out from allele frequencies: US (Eberth et al. 2018, D2 leading, about 0.16) and Brazil (Andrade et al. 2020, D4 leading, 0.280); both count D1/D4 at its random-mating share. Who wrote the 1.43-inch height study is in doubt (question G6). Andrade et al.'s g. positions for D1-D4 are on EquCab3.0 and match Generatio's. A Brazilian candidate variant, c.6465A>T (p.Leu2155Phe), "potentially associated", is not an allele here.
 - agouti: At (seal brown) and A+ (wild bay) are "unverified", proposed alleles with no outcome (owner, 2026-10-15); the looks are real, the alleles unvalidated. The research suggests the looks be modelled as separate modifiers of unknown basis; only the abstracted shade locus exists, and nothing for wild bay's low leg points.
 - b4galt7: its first research names its sources by number only. The Friesian tables omit d/d horses. The 12% is Leegwater et al. 2016's 22 of 177, a validation set, not a random sample; KFPS testing gave about 15% in 2000 and 12.5% in 2021 (Hermans et al. 2024). A Brazilian 33% (12 horses) is not a table. Round four confirms all of this and adds a 2026 screen of 8,263 Friesians (BMC Genomics) that gave no B4GALT7 figure alone and no address. The Friesian Health Panel has no address either.
 - champagne: the names gold, amber and classic champagne depend on extension and agouti; the file says so in words and has no interactions table. "Sable" and "ivory" are registry names, not alleles.
@@ -183,14 +183,13 @@ B3. Avila et al. 2022 (Genes 13:1641, PMC9498372, doi 10.3390/genes13091641):
 
 BLOCK G - DISORDERS OF WARMBLOODS, DRAFTS AND PONIES
 ----------------------------------------------------
-G6. ACAN dwarfism: who wrote the 2020 paper on height in ACAN carriers (PMID 32065671;
-    carriers 1.43 inches shorter, 245 Miniature Horses) - Andersson et al., or Graves,
-    Eberth and Bailey? Is it the paper with DOI 10.1111/age.12921?
-G7. ACAN: Andrade et al. 2020 (PMC7499210) and Generatio give D3* as g.95282140C>G and D4
-    as g.95257458_95257500del (43 bases) on EquCab3.0. The published names, confirmed by
-    OMIA, are D3* c.6700delC (a one-base deletion) and D4 c.7299_7319del (21 bases). Are
-    these the same variants under two numberings, or do the sources disagree? Which does
-    OMIA give for the EquCab3.0 positions of D3* and D4?
+G6. ACAN dwarfism: two papers have disputed authors. (a) The 2020 paper on height in
+    ACAN carriers (PMID 32065671; 1.43 inches shorter, 245 Miniature Horses): Andersson
+    et al., or Graves, Eberth and Bailey? Is it DOI 10.1111/age.12921? (b) "Evaluation of
+    a new variant in the aggrecan gene potentially associated with chondrodysplastic
+    dwarfism in Miniature horses" (Scientific Reports 10:14590, PMC7499210): Andrade et
+    al. or Frischknecht et al.? And does it print D4 as g.95257480_95257500del (21 bases)
+    or g.95257458_95257500del (43)?
 
 BLOCK H - TRAITS HELD AS ABSTRACTIONS
 -------------------------------------
