@@ -932,6 +932,144 @@
   ],
   "frequencies": [
     {
+      "population": "Andalusian (allele frequency of W20 0.011, W5, W10, W22 and SB1 not found; relatedness-filtered, Avila et al. 2022; genotype shares worked out assuming random mating; W13, W32, W34, W35 and the rest were not tested and are counted as N)",
+      "evidence": "published",
+      "genotypes": [
+        { "alleles": ["W20", "W20"], "percent": 0.0121 },
+        { "alleles": ["W20", "N"], "percent": 2.1758 },
+        { "alleles": ["N", "N"], "percent": 97.8121 }
+      ]
+    },
+    {
+      "population": "Appaloosa (allele frequency of W20 0.18, W5, W10, W22 and SB1 not found; relatedness-filtered, Avila et al. 2022; genotype shares worked out assuming random mating; W13, W32, W34, W35 and the rest were not tested and are counted as N)",
+      "evidence": "published",
+      "genotypes": [
+        { "alleles": ["W20", "W20"], "percent": 3.24 },
+        { "alleles": ["W20", "N"], "percent": 29.52 },
+        { "alleles": ["N", "N"], "percent": 67.24 }
+      ]
+    },
+    {
+      "population": "Arabian (allele frequency of W20 0, W5, W10, W22 and SB1 not found; relatedness-filtered, Avila et al. 2022; genotype shares worked out assuming random mating; W13, W32, W34, W35 and the rest were not tested and are counted as N)",
+      "evidence": "published",
+      "genotypes": [
+        { "alleles": ["N", "N"], "percent": 100 }
+      ]
+    },
+    {
+      "population": "Connemara Pony (allele frequency of W20 0.12, W5, W10, W22 and SB1 not found; relatedness-filtered, Avila et al. 2022; genotype shares worked out assuming random mating; W13, W32, W34, W35 and the rest were not tested and are counted as N)",
+      "evidence": "published",
+      "genotypes": [
+        { "alleles": ["W20", "W20"], "percent": 1.44 },
+        { "alleles": ["W20", "N"], "percent": 21.12 },
+        { "alleles": ["N", "N"], "percent": 77.44 }
+      ]
+    },
+    {
+      "population": "Dutch Warmblood (allele frequency of W20 0.26, W5, W10, W22 and SB1 not found; relatedness-filtered, Avila et al. 2022; genotype shares worked out assuming random mating; W13, W32, W34, W35 and the rest were not tested and are counted as N)",
+      "evidence": "published",
+      "genotypes": [
+        { "alleles": ["W20", "W20"], "percent": 6.76 },
+        { "alleles": ["W20", "N"], "percent": 38.48 },
+        { "alleles": ["N", "N"], "percent": 54.76 }
+      ]
+    },
+    {
+      "population": "Hanoverian (allele frequency of W20 0.24, W5, W10, W22 and SB1 not found; relatedness-filtered, Avila et al. 2022; genotype shares worked out assuming random mating; W13, W32, W34, W35 and the rest were not tested and are counted as N)",
+      "evidence": "published",
+      "genotypes": [
+        { "alleles": ["W20", "W20"], "percent": 5.76 },
+        { "alleles": ["W20", "N"], "percent": 36.48 },
+        { "alleles": ["N", "N"], "percent": 57.76 }
+      ]
+    },
+    {
+      "population": "Icelandic Horse (allele frequency of W20 0, W5, W10, W22 and SB1 not found; relatedness-filtered, Avila et al. 2022; genotype shares worked out assuming random mating; W13, W32, W34, W35 and the rest were not tested and are counted as N)",
+      "evidence": "published",
+      "genotypes": [
+        { "alleles": ["N", "N"], "percent": 100 }
+      ]
+    },
+    {
+      "population": "Knabstrupper (allele frequency of W20 0.18, W5, W10, W22 and SB1 not found; relatedness-filtered, Avila et al. 2022; genotype shares worked out assuming random mating; W13, W32, W34, W35 and the rest were not tested and are counted as N)",
+      "evidence": "published",
+      "genotypes": [
+        { "alleles": ["W20", "W20"], "percent": 3.24 },
+        { "alleles": ["W20", "N"], "percent": 29.52 },
+        { "alleles": ["N", "N"], "percent": 67.24 }
+      ]
+    },
+    {
+      "population": "Lusitano (allele frequency of W20 0.049, W5, W10, W22 and SB1 not found; relatedness-filtered, Avila et al. 2022; genotype shares worked out assuming random mating; W13, W32, W34, W35 and the rest were not tested and are counted as N)",
+      "evidence": "published",
+      "genotypes": [
+        { "alleles": ["W20", "W20"], "percent": 0.2401 },
+        { "alleles": ["W20", "N"], "percent": 9.3198 },
+        { "alleles": ["N", "N"], "percent": 90.4401 }
+      ]
+    },
+    {
+      "population": "Morgan Horse (allele frequency of W20 0.092, W5, W10, W22 and SB1 not found; relatedness-filtered, Avila et al. 2022; genotype shares worked out assuming random mating; W13, W32, W34, W35 and the rest were not tested and are counted as N)",
+      "evidence": "published",
+      "genotypes": [
+        { "alleles": ["W20", "W20"], "percent": 0.8464 },
+        { "alleles": ["W20", "N"], "percent": 16.7072 },
+        { "alleles": ["N", "N"], "percent": 82.4464 }
+      ]
+    },
+    {
+      "population": "Norwegian Fjord Horse (allele frequency of W20 0, W5, W10, W22 and SB1 not found; relatedness-filtered, Avila et al. 2022; genotype shares worked out assuming random mating; W13, W32, W34, W35 and the rest were not tested and are counted as N)",
+      "evidence": "published",
+      "genotypes": [
+        { "alleles": ["N", "N"], "percent": 100 }
+      ]
+    },
+    {
+      "population": "Percheron (allele frequency of W20 0.027, W5, W10, W22 and SB1 not found; relatedness-filtered, Avila et al. 2022; genotype shares worked out assuming random mating; W13, W32, W34, W35 and the rest were not tested and are counted as N)",
+      "evidence": "published",
+      "genotypes": [
+        { "alleles": ["W20", "W20"], "percent": 0.0729 },
+        { "alleles": ["W20", "N"], "percent": 5.2542 },
+        { "alleles": ["N", "N"], "percent": 94.6729 }
+      ]
+    },
+    {
+      "population": "Pura Raza Espanola (allele frequency of W20 0.025, W5, W10, W22 and SB1 not found; relatedness-filtered, Avila et al. 2022; genotype shares worked out assuming random mating; W13, W32, W34, W35 and the rest were not tested and are counted as N)",
+      "evidence": "published",
+      "genotypes": [
+        { "alleles": ["W20", "W20"], "percent": 0.0625 },
+        { "alleles": ["W20", "N"], "percent": 4.875 },
+        { "alleles": ["N", "N"], "percent": 95.0625 }
+      ]
+    },
+    {
+      "population": "Rocky Mountain Horse (allele frequency of W20 0.0087, W5, W10, W22 and SB1 not found; relatedness-filtered, Avila et al. 2022; genotype shares worked out assuming random mating; W13, W32, W34, W35 and the rest were not tested and are counted as N)",
+      "evidence": "published",
+      "genotypes": [
+        { "alleles": ["W20", "W20"], "percent": 0.0076 },
+        { "alleles": ["W20", "N"], "percent": 1.7249 },
+        { "alleles": ["N", "N"], "percent": 98.2675 }
+      ]
+    },
+    {
+      "population": "Standardbred (allele frequency of W20 0.026, W5, W10, W22 and SB1 not found; relatedness-filtered, Avila et al. 2022; genotype shares worked out assuming random mating; W13, W32, W34, W35 and the rest were not tested and are counted as N)",
+      "evidence": "published",
+      "genotypes": [
+        { "alleles": ["W20", "W20"], "percent": 0.0676 },
+        { "alleles": ["W20", "N"], "percent": 5.0648 },
+        { "alleles": ["N", "N"], "percent": 94.8676 }
+      ]
+    },
+    {
+      "population": "Welsh Pony (allele frequency of W20 0.26, W5, W10, W22 and SB1 not found; relatedness-filtered, Avila et al. 2022; genotype shares worked out assuming random mating; W13, W32, W34, W35 and the rest were not tested and are counted as N)",
+      "evidence": "published",
+      "genotypes": [
+        { "alleles": ["W20", "W20"], "percent": 6.76 },
+        { "alleles": ["W20", "N"], "percent": 38.48 },
+        { "alleles": ["N", "N"], "percent": 54.76 }
+      ]
+    },
+    {
       "population": "general population",
       "evidence": "estimated",
       "genotypes": [

@@ -66,6 +66,138 @@
   ],
   "frequencies": [
     {
+      "population": "Appaloosa (allele frequencies SW1 0.035; SW3, SW5 and SW6 not found; relatedness-filtered, Avila et al. 2022; genotype shares worked out assuming random mating; SW7, SW8 and SW9 were not tested and are counted as N)",
+      "evidence": "published",
+      "genotypes": [
+        { "alleles": ["SW1", "SW1"], "percent": 0.1225 },
+        { "alleles": ["SW1", "N"], "percent": 6.755 },
+        { "alleles": ["N", "N"], "percent": 93.1225 }
+      ]
+    },
+    {
+      "population": "Dutch Warmblood (allele frequencies SW1 0.018; SW3, SW5 and SW6 not found; relatedness-filtered, Avila et al. 2022; genotype shares worked out assuming random mating; SW7, SW8 and SW9 were not tested and are counted as N)",
+      "evidence": "published",
+      "genotypes": [
+        { "alleles": ["SW1", "SW1"], "percent": 0.0324 },
+        { "alleles": ["SW1", "N"], "percent": 3.5352 },
+        { "alleles": ["N", "N"], "percent": 96.4324 }
+      ]
+    },
+    {
+      "population": "Gypsy Cob (allele frequencies SW1 0.026; SW3, SW5 and SW6 not found; relatedness-filtered, Avila et al. 2022; genotype shares worked out assuming random mating; SW7, SW8 and SW9 were not tested and are counted as N)",
+      "evidence": "published",
+      "genotypes": [
+        { "alleles": ["SW1", "SW1"], "percent": 0.0676 },
+        { "alleles": ["SW1", "N"], "percent": 5.0648 },
+        { "alleles": ["N", "N"], "percent": 94.8676 }
+      ]
+    },
+    {
+      "population": "Icelandic Horse (allele frequencies SW1 0.076; SW3, SW5 and SW6 not found; relatedness-filtered, Avila et al. 2022; genotype shares worked out assuming random mating; SW7, SW8 and SW9 were not tested and are counted as N)",
+      "evidence": "published",
+      "genotypes": [
+        { "alleles": ["SW1", "SW1"], "percent": 0.5776 },
+        { "alleles": ["SW1", "N"], "percent": 14.0448 },
+        { "alleles": ["N", "N"], "percent": 85.3776 }
+      ]
+    },
+    {
+      "population": "Knabstrupper (allele frequencies SW1 0.036; SW3, SW5 and SW6 not found; relatedness-filtered, Avila et al. 2022; genotype shares worked out assuming random mating; SW7, SW8 and SW9 were not tested and are counted as N)",
+      "evidence": "published",
+      "genotypes": [
+        { "alleles": ["SW1", "SW1"], "percent": 0.1296 },
+        { "alleles": ["SW1", "N"], "percent": 6.9408 },
+        { "alleles": ["N", "N"], "percent": 92.9296 }
+      ]
+    },
+    {
+      "population": "Miniature Horse (allele frequencies SW1 0.1; SW3, SW5 and SW6 not found; relatedness-filtered, Avila et al. 2022; genotype shares worked out assuming random mating; SW7, SW8 and SW9 were not tested and are counted as N)",
+      "evidence": "published",
+      "genotypes": [
+        { "alleles": ["SW1", "SW1"], "percent": 1 },
+        { "alleles": ["SW1", "N"], "percent": 18 },
+        { "alleles": ["N", "N"], "percent": 81 }
+      ]
+    },
+    {
+      "population": "Morgan Horse (allele frequencies SW1 0.018; SW3, SW5 and SW6 not found; relatedness-filtered, Avila et al. 2022; genotype shares worked out assuming random mating; SW7, SW8 and SW9 were not tested and are counted as N)",
+      "evidence": "published",
+      "genotypes": [
+        { "alleles": ["SW1", "SW1"], "percent": 0.0324 },
+        { "alleles": ["SW1", "N"], "percent": 3.5352 },
+        { "alleles": ["N", "N"], "percent": 96.4324 }
+      ]
+    },
+    {
+      "population": "Oldenburg (allele frequencies SW1 0.016; SW3, SW5 and SW6 not found; relatedness-filtered, Avila et al. 2022; genotype shares worked out assuming random mating; SW7, SW8 and SW9 were not tested and are counted as N)",
+      "evidence": "published",
+      "genotypes": [
+        { "alleles": ["SW1", "SW1"], "percent": 0.0256 },
+        { "alleles": ["SW1", "N"], "percent": 3.1488 },
+        { "alleles": ["N", "N"], "percent": 96.8256 }
+      ]
+    },
+    {
+      "population": "Paint Horse (allele frequencies SW1 0.053, SW3 0.00056, SW5 0.0022, SW6 0.00056; relatedness-filtered, Avila et al. 2022; genotype shares worked out assuming random mating; SW7, SW8 and SW9 were not tested and are counted as N)",
+      "evidence": "published",
+      "genotypes": [
+        { "alleles": ["SW1", "SW1"], "percent": 0.2809 },
+        { "alleles": ["SW1", "SW3"], "percent": 0.0059 },
+        { "alleles": ["SW1", "SW5"], "percent": 0.0233 },
+        { "alleles": ["SW1", "SW6"], "percent": 0.0059 },
+        { "alleles": ["SW1", "N"], "percent": 10.003 },
+        { "alleles": ["SW3", "SW3"], "percent": 0 },
+        { "alleles": ["SW3", "SW5"], "percent": 0.0002 },
+        { "alleles": ["SW3", "SW6"], "percent": 0.0001 },
+        { "alleles": ["SW3", "N"], "percent": 0.1057 },
+        { "alleles": ["SW5", "SW5"], "percent": 0.0005 },
+        { "alleles": ["SW5", "SW6"], "percent": 0.0002 },
+        { "alleles": ["SW5", "N"], "percent": 0.4152 },
+        { "alleles": ["SW6", "SW6"], "percent": 0 },
+        { "alleles": ["SW6", "N"], "percent": 0.1057 },
+        { "alleles": ["N", "N"], "percent": 89.0534 }
+      ]
+    },
+    {
+      "population": "Pony of the Americas (allele frequencies SW1 0.014; SW3, SW5 and SW6 not found; relatedness-filtered, Avila et al. 2022; genotype shares worked out assuming random mating; SW7, SW8 and SW9 were not tested and are counted as N)",
+      "evidence": "published",
+      "genotypes": [
+        { "alleles": ["SW1", "SW1"], "percent": 0.0196 },
+        { "alleles": ["SW1", "N"], "percent": 2.7608 },
+        { "alleles": ["N", "N"], "percent": 97.2196 }
+      ]
+    },
+    {
+      "population": "Quarter Horse (allele frequencies SW1 0.017, SW3 0.00036; SW5 and SW6 not found; relatedness-filtered, Avila et al. 2022; genotype shares worked out assuming random mating; SW7, SW8 and SW9 were not tested and are counted as N)",
+      "evidence": "published",
+      "genotypes": [
+        { "alleles": ["SW1", "SW1"], "percent": 0.0289 },
+        { "alleles": ["SW1", "SW3"], "percent": 0.0012 },
+        { "alleles": ["SW1", "N"], "percent": 3.341 },
+        { "alleles": ["SW3", "SW3"], "percent": 0 },
+        { "alleles": ["SW3", "N"], "percent": 0.0708 },
+        { "alleles": ["N", "N"], "percent": 96.5581 }
+      ]
+    },
+    {
+      "population": "Shetland Pony (allele frequencies SW1 0.007; SW3, SW5 and SW6 not found; relatedness-filtered, Avila et al. 2022; genotype shares worked out assuming random mating; SW7, SW8 and SW9 were not tested and are counted as N)",
+      "evidence": "published",
+      "genotypes": [
+        { "alleles": ["SW1", "SW1"], "percent": 0.0049 },
+        { "alleles": ["SW1", "N"], "percent": 1.3902 },
+        { "alleles": ["N", "N"], "percent": 98.6049 }
+      ]
+    },
+    {
+      "population": "Welsh Pony (allele frequencies SW1 0.057; SW3, SW5 and SW6 not found; relatedness-filtered, Avila et al. 2022; genotype shares worked out assuming random mating; SW7, SW8 and SW9 were not tested and are counted as N)",
+      "evidence": "published",
+      "genotypes": [
+        { "alleles": ["SW1", "SW1"], "percent": 0.3249 },
+        { "alleles": ["SW1", "N"], "percent": 10.7502 },
+        { "alleles": ["N", "N"], "percent": 88.9249 }
+      ]
+    },
+    {
       "population": "general population",
       "evidence": "estimated",
       "genotypes": [
