@@ -3,6 +3,12 @@ TOE1 (cerebellar abiotrophy) - science notes
 No source was opened by the session that filed this. Not yet audited.
 genes/toe1.json follows the LATEST FINDINGS below.)
 
+ROUND THREE, SECOND ANSWER (the owner's answer to questions E2 and F2, 2026-10-15)
+-----------------------------------------------------------------------------------
+The whole answer is in knowledge/science/round-3-answers.txt. No address has been opened
+by a maintainer.
+- (E2) No observed share of affected horses is published; q squared from an allele frequency is the only figure. Allele frequencies: 80 Egyptian Arabians 0.06 (5 carriers, no affected), Bashkir Curly 0.028 (from one Arabian stallion), Trakehner 0.0068, Welsh Pony 0.0033 (carriers at least half-Arabian), Barb and Arab-Barb 0. UC Davis tests Arabian, Danish Sport Horse, Trakehner and Welsh Pony. Five tables.
+
 ROUND TWO (the owner's answers to the open research questions, 2026-10-12)
 --------------------------------------------------------------------------
 These came after everything below. Where they disagree with it, this section and the gene

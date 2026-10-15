@@ -578,3 +578,74 @@ The biggest trap is **allele-name orientation**. Studies may report the same SNP
 - Whether the frequency is allele frequency or carrier frequency
 
 For example, LCORL BIEC2-808543 is documented as **T = small, C = large**, while the separate LCORL g.107374136C>T marker in the Italian Trotter study reports T at 0.72–0.80; those should not be merged as though they are the same assay. [journals.plos](https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0056497&type=printable)
+
+
+QUESTIONS E2 AND F2 - CEREBELLAR ABIOTROPHY AND HERDA, AFFECTED SHARES (2026-10-15)
+-----------------------------------------------------------------------------------
+Her answer is kept whole below as she sent it (q-squared written in plain text).
+
+What was done with it (the session, 2026-10-15)
+- The answer gives no OBSERVED share of affected horses for either disease. Its
+  "expected affected share" column is q squared worked out from each allele frequency,
+  which assumes random mating; one sample (80 Egyptian Arabians) found no affected horse.
+  No affected rows were added; both questions are closed as "not published".
+- toe1: new tables for the Egyptian sample (5 carriers in 80), Bashkir Curly (0.028),
+  Trakehner (0.0068) and Welsh Pony (0.0033) (Brault and Penedo 2011; carriers in the
+  last two at least half-Arabian), and Barb and Arab-Barb (not found; sample size not
+  given). The existing Arabian table (about 20% carriers) stands; the Egyptian figure is
+  far lower and from a small regional sample.
+- ppib: new tables for Paint Horse controls (1.7% carriers, Tryon et al. 2009) and the
+  2020-2024 elite cutting cohort (allele frequency 0.135, Brown et al. 2026, from a
+  research-summary site). The answer attributes 3.5% (7 of 200) to Tryon et al. 2009,
+  where the earlier answer gave it to Tryon et al. 2007; the 2009 paper may repeat it.
+- The answer's Paint row gives allele frequency 0.008 and carriers 1.7%, which do not
+  quite agree (0.008 gives about 1.6%); the carrier share is used.
+
+=== The answer as sent ===
+# TOE1 (CA, "E2") and HERDA ("F2") — Breed Frequencies and Affected Shares
+
+Both are **autosomal recessive** disorders, so the simulator should treat the disease allele as hidden in heterozygotes and express disease only in the homozygote. UC Davis designates the normal allele **N** and disease alleles **CA** for cerebellar abiotrophy (*TOE1*) and **HRD** for HERDA (*PPIB*). [vgl.ucdavis](https://vgl.ucdavis.edu/test/herda)
+
+## TOE1 / Cerebellar Abiotrophy (E2)
+
+Cerebellar abiotrophy (CA) is found almost exclusively in Arabians and Arabian-derived breeds. UC Davis identifies appropriate testing breeds as Arabian, Danish Sport Horse, Trakehner, and Welsh Pony; the mutation is on ECA2 in *TOE1*. [vgl.ucdavis](https://vgl.ucdavis.edu/test/ca)
+
+| Breed / population | Study | Disease-allele frequency | Carrier share | Expected affected share |
+|---|---|---:|---:|---:|
+| Arabian (Egyptian/related study cohort, n=80) | 2021 Egyptian study | 0.06 | 6.3% (5/80) | 0.36% expected under Hardy-Weinberg; 0 affected horses observed [pmc.ncbi.nlm.nih](https://pmc.ncbi.nlm.nih.gov/articles/PMC8701198/) |
+| Bashkir Curly | Brault & Penedo 2011 | 2.8% | Not separately reported in abstract | ~0.078% expected; introduced via one Arabian stallion [pubmed.ncbi.nlm.nih](https://pubmed.ncbi.nlm.nih.gov/21496100/) |
+| Trakehner | Brault & Penedo 2011 | 0.68% | Not separately reported in abstract | ~0.0046% expected; carriers were at least half-Arabian [pubmed.ncbi.nlm.nih](https://pubmed.ncbi.nlm.nih.gov/21496100/) |
+| Welsh Pony | Brault & Penedo 2011 | 0.33% | Not separately reported in abstract | ~0.0011% expected; carriers were at least half-Arabian [pubmed.ncbi.nlm.nih](https://pubmed.ncbi.nlm.nih.gov/21496100/) |
+| Barb, Arab-Barb | 2021 Egyptian study | 0 | 0% | 0% [pmc.ncbi.nlm.nih](https://pmc.ncbi.nlm.nih.gov/articles/PMC8701198/) |
+
+**Affected share:** For a recessive allele, the theoretical affected proportion is q², where q is the disease-allele frequency. Thus, an Arabian population with q = 0.06 would produce roughly 0.36% CA/CA foals if mating were random; the study found no homozygous affected horses in its sample. UC Davis notes that the true incidence in Arabians is unknown, but the gene occurs in popular bloodlines. [vgl.ucdavis](https://vgl.ucdavis.edu/cerebellar-abiotrophy)
+
+**Simulator implementation:** Use `E2 = N | CA`, recessive expression, and apply breed-specific prior allele frequencies rather than a single global frequency. For Arabians, a defensible baseline is 1–6% depending on the population being modeled; use the higher value only for bloodline-heavy or historical populations. For non-Arabians, treat CA as a rare Arabian-introgression allele: Bashkir Curly 2.8%, Trakehner 0.68%, Welsh Pony 0.33%. [pmc.ncbi.nlm.nih](https://pmc.ncbi.nlm.nih.gov/articles/PMC8701198/)
+
+## HERDA (F2)
+
+HERDA is a collagen/connective-tissue disorder caused by a *PPIB* missense variant, c.115G>A / p.G39R. It is predominantly an American Quarter Horse disease, with especially high frequency in cutting-horse lines; UC Davis lists Quarter Horse and related breeds as the appropriate testing population. [vgl.ucdavis](https://vgl.ucdavis.edu/test/herda)
+
+| Breed / population | Study | Disease-allele frequency | Carrier share | Expected affected share |
+|---|---|---:|---:|---:|
+| American Quarter Horse, random/control | Tryon et al. 2009 | 0.021 | 3.5% (7/200) | ~0.044% expected [avmajournals.avma](https://avmajournals.avma.org/view/journals/javma/234/1/javma.234.1.120.xml) |
+| American Paint Horse, control | Tryon et al. 2009 | 0.008 | 1.7% | ~0.0064% expected [avmajournals.avma](https://avmajournals.avma.org/view/journals/javma/234/1/javma.234.1.120.xml) |
+| Elite AQH cutting horses | Tryon et al. 2009 | 0.142 | 28.3% (32/113) | ~2.0% expected [avmajournals.avma](https://avmajournals.avma.org/view/journals/javma/234/1/javma.234.1.120.xml) |
+| AQH cutting horses, 2020–2024 elite cohort | Brown et al. 2026 | 0.135 ± 0.035 | Reported by study, not given in abstract | ~1.8% expected [madbarn](https://madbarn.com/research/allele-frequencies-of-7-inherited-disorders-in-performance-and-random-cohorts-of-american-quarter-horses-2020-2024/) |
+| Random registered AQH, 2020–2024 | Brown et al. 2026 | Similar to 2009 random estimate; abstract reports no meaningful change over time | Not given in abstract | Use ~0.04–0.05% expected as a conservative baseline [madbarn](https://madbarn.com/research/allele-frequencies-of-7-inherited-disorders-in-performance-and-random-cohorts-of-american-quarter-horses-2020-2024/) |
+
+**Affected share:** HERDA is recessive, so carrier-to-carrier matings yield a 25% affected-foal risk per pregnancy; UC Davis explicitly states this rule. In a randomly mating population, q² gives the expected affected share: about 0.044% for the 2009 general AQH estimate and about 1.8–2.0% in elite cutting lines. [vgl.ucdavis](https://vgl.ucdavis.edu/test/herda)
+
+**Simulator implementation:** Use `F2 = N | HRD`, recessive expression, and make frequency strongly lineage- and discipline-dependent. A good default is:
+
+- General Quarter Horse population: allele frequency 0.02, carrier share ~4%.
+- American Paint Horse: allele frequency 0.008, carrier share ~1.7%.
+- Cutting-line Quarter Horses: allele frequency 0.135–0.142, carrier share ~28%.
+- Other breeds: default to zero unless the pedigree includes Quarter Horse ancestry. [vgl.ucdavis](https://vgl.ucdavis.edu/test/herda)
+
+## Clinical and Simulation Notes
+
+- **TOE1/CA** affects the nervous system—cerebellar development and coordination—not red or black pigment, height, speed, muscle mass, bone structure, hoof shape, feathering, or mane/tail color. UC Davis describes it as a neurological condition; affected foals show cerebellar signs. [vgl.ucdavis](https://vgl.ucdavis.edu/test/ca)
+- **HERDA** affects skin and connective tissue through defective collagen handling. It causes hyperextensible skin, scarring, and severe lesions along the back, usually becoming apparent by age two; it does not directly alter coat pigment, mane/tail color, hooves, feathering, height, or conformation. [vgl.ucdavis](https://vgl.ucdavis.edu/test/herda)
+- For both loci, do **not** model carriers as visibly affected. Instead, expose carrier status in breeding/pedigree views and calculate foal risk as 25% only when both parents carry the allele. [vgl.ucdavis](https://vgl.ucdavis.edu/test/herda)
+- For realism, avoid applying a single "breed frequency" uniformly: HERDA is highly concentrated in cutting bloodlines, while CA is concentrated in Arabian bloodlines and entered other breeds through Arabian ancestry. [vgl.ucdavis](https://vgl.ucdavis.edu/test/herda)

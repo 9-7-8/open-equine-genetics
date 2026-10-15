@@ -4,6 +4,12 @@ No source was opened by the session that filed this. genes/ppib.json was changed
 on the owner's word the same day; what is left over is in knowledge/known-issues.txt.
 Not yet audited.)
 
+ROUND THREE, SECOND ANSWER (the owner's answer to questions E2 and F2, 2026-10-15)
+-----------------------------------------------------------------------------------
+The whole answer is in knowledge/science/round-3-answers.txt. No address has been opened
+by a maintainer.
+- (F2) No observed share of affected horses is published; q squared only. Paint Horse controls 1.7% carriers (Tryon et al. 2009); elite cutting horses 2020-2024 allele frequency 0.135 (Brown et al. 2026), little changed since 2009. Two tables.
+
 ROUND THREE (the owner's answer to question F2, 2026-10-15)
 ------------------------------------------------------------
 No address has been opened by a maintainer. Her answer, condensed, with every point and
