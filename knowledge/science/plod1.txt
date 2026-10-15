@@ -4,6 +4,30 @@ No source was opened by the session that filed this. genes/plod1.json was change
 on the owner's word the same day; what is left over is in knowledge/known-issues.txt.
 Not yet audited.)
 
+ROUND THREE (the owner's answer to question G2, second part, 2026-10-15)
+-------------------------------------------------------------------------
+No address has been opened by a maintainer. Her answer, condensed, with every point and
+address she gave:
+
+  - The Knabstrupper (3 of 46), Haflinger (2 of 48) and American Sport Pony (1 of 12)
+    counts are CARRIERS (one copy), found in population screening, not affected horses.
+    The paper calls them "WFFS carriers".
+  - Source: Reiter et al. 2020, "Distribution of the Warmblood Fragile Foal Syndrome
+    Type 1 Mutation (PLOD1 c.2032G>A) in Different Horse Breeds from Europe and the
+    United States", Genes 11(12):1518; 4,081 horses of 38 breeds; led by UC Davis VGL
+    (Rebecca Bellone). (https://pubmed.ncbi.nlm.nih.gov/33353040/ ;
+    https://www.mdpi.com/2073-4425/11/12/1518)
+      Knabstrupper   46  3  6.52% carriers  allele 3.26%
+      Haflinger      48  2  4.17% carriers  allele 2.08%
+      Sport Pony     12  1  8.33% carriers  allele 4.17%
+  - No affected foals were reported in these three breeds. The samples are small, the
+    single Sport Pony carrier especially, so the estimates are uncertain.
+  - w/w should be nonviable or die soon after birth in a simulation.
+
+Round two had said the counts "may include affected cases"; they do not. The first part
+of G2 (carrier frequencies for each Warmblood breed) was not answered and stays open.
+What the gene file does with it: the three table names now say carriers, Reiter et al.
+2020, and that the samples are small. One citation (the PubMed record).
 ROUND THREE (the owner's answer to question A1, 2026-10-15)
 ------------------------------------------------------------
 The whole answer, for six loci, is in knowledge/science/round-3-answers.txt. No address has
