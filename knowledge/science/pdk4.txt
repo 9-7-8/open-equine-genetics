@@ -5,6 +5,39 @@ No source was opened by the session that filed this. genes/pdk4.json was changed
 on the owner's word the same day; what is left over is in knowledge/known-issues.txt.
 Not yet audited.)
 
+ROUND THREE (the owner's answer to question D3, 2026-10-15)
+------------------------------------------------------------
+Asked which allele is ancestral at PDK4 g.38973231A>G and CKM g.15884567G>A. No address
+has been opened by a maintainer. Her answer, condensed, with every point and address
+she gave:
+
+  - Best-supported inference: PDK4 A is ancestral, CKM G is ancestral. PDK4 G and CKM A
+    are the derived, non-reference alleles, but both are very old in horses, not recent
+    Thoroughbred inventions. (https://pmc.ncbi.nlm.nih.gov/articles/PMC4284583/)
+  - PDK4 g.38973231A>G: ECA4, intron 2, BIEC2-903605. A is the reference allele and the
+    one associated with elite racing. Pre-domestication horses in a 2014 ancient-DNA
+    study carried the reference allele at most loci assayed, and PDK4 was not among the
+    exceptions. (https://patents.google.com/patent/AU2009290452B2/en ; PMC4284583)
+  - CKM g.15884567G>A: ECA9, BIEC2-109575. G is the reference allele, A the
+    alternative. The Late Pleistocene stallion CGG10023 (about 16,099 calibrated years
+    before present) carried the alternative A allele, so A is at least that old; the
+    authors called such variants standing variation, not new mutations from
+    domestication or racing.
+  - "Ancestral" here is inferred from the reference allele, the SNP's orientation and
+    the ancient genomes, not from a formal reconstruction; the 2014 study used the donkey
+    as an outgroup but prints no per-SNP ancestral table for these two.
+  - In the association work, A/A and A/G at PDK4 were commoner among elite Thoroughbreds
+    than G/G (a dominant model); the CKM effect was weaker. Treat both as performance
+    markers, not speed genes.
+
+The session's reading: the reference genome comes from one Thoroughbred, so a reference
+allele is not ancestral by that fact alone. For PDK4 there is more: the ancient horses
+carried A. For CKM the only evidence is that G is the reference; the ancient stallion
+shows A is old, not that G came first.
+
+What the gene files do with it: pdk4's wild-type flag moves from G to A. ckm already
+flagged its reference allele (G of the papers) and is unchanged. The answer puts CKM on
+chromosome 9; the gene file says 10 (from an earlier answer). Not changed; asked again.
 ROUND TWO (the owner's answers to the open research questions, 2026-10-12)
 --------------------------------------------------------------------------
 These came after everything below. Where they disagree with it, this section and the gene
