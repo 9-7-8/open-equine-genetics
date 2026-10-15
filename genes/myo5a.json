@@ -4,8 +4,9 @@
   "species": "horse",
   "name": "MYO5A (lavender foal)",
   "symbol": "MYO5A",
+  "chromosome": "1",
   "evidence": "published",
-  "summary": "MYO5A encodes myosin Va, a motor protein that carries pigment granules to the edge of pigment cells and vesicles within nerve cells. A single-base deletion in exon 30 (g.138235715del, also written c.4249del) shifts the reading frame and leaves no working protein. Two copies cause lavender foal syndrome, also called coat colour dilution lethal: a foal born with a pale, diluted coat and severe neurological signs that dies or is put down shortly after birth. It is recessive, and carriers are healthy and look normal. It is chiefly a disease of Arabian horses, above all Egyptian lines, and turns up in some Arabian-derived populations. No MYO5A allele is known to give a healthy diluted horse, and no effect on build or performance is established.",
+  "summary": "MYO5A encodes myosin Va, a motor protein that carries pigment granules to the edge of pigment cells and vesicles within nerve cells. A single-base deletion in exon 30 (c.4249del, p.Arg1417Alafs*13; g.139290592del on chromosome 1, EquCab3.0) shifts the reading frame and leaves no working protein. Two copies cause lavender foal syndrome, also called coat colour dilution lethal: a foal born with a pale, diluted coat and severe neurological signs that dies or is put down shortly after birth. It is recessive, and carriers are healthy and look normal. It is chiefly a disease of Arabian horses, above all Egyptian lines, and turns up in some Arabian-derived populations. No MYO5A allele is known to give a healthy diluted horse, and no effect on build or performance is established.",
   "inheritance": "autosomal",
   "affects_coat": true,
   "alleles": [
@@ -69,6 +70,7 @@
     { "source": "ucdavis-vgl", "label": "UC Davis VGL: Cream", "url": "https://vgl.ucdavis.edu/test/cream", "verified": false },
     { "source": "pubmed", "label": "PMC8701198: carriers in wider Arabian and Arabian-derived populations", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8701198/", "verified": false },
     { "source": "other", "label": "University of Kentucky: evidence for the origin of lavender foal syndrome among Egyptian Arabians", "url": "https://scholars.uky.edu/en/publications/evidence-for-origin-of-lavender-foal-syndrome-among-egyptian-arab/", "verified": false },
-    { "source": "paper", "label": "PLoS Genetics, 10.1371/journal.pgen.1000909: Brooks et al. 2010, the mapping study (printable)", "url": "https://journals.plos.org/plosgenetics/article/file?id=10.1371/journal.pgen.1000909&type=printable", "verified": false }
+    { "source": "paper", "label": "PLoS Genetics, 10.1371/journal.pgen.1000909: Brooks et al. 2010, the mapping study (printable)", "url": "https://journals.plos.org/plosgenetics/article/file?id=10.1371/journal.pgen.1000909&type=printable", "verified": false },
+    { "source": "omia", "label": "OMIA variant 510: MYO5A c.4249del", "url": "https://omia.org/variant/omia.variant:510/", "verified": false }
   ]
 }

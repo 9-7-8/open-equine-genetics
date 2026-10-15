@@ -6,7 +6,7 @@
   "symbol": "PRKDC",
   "chromosome": "9",
   "evidence": "published",
-  "summary": "PRKDC, on chromosome 9, encodes the catalytic subunit of DNA-dependent protein kinase (DNA-PKcs), which repairs double-strand breaks in DNA and is needed for the DNA rearrangement that builds antibodies and T-cell receptors. A five base-pair deletion shifts the reading frame, truncates the protein and removes its kinase activity. Two copies cause severe combined immunodeficiency (SCID): a foal with no adaptive immune system that dies of infection, generally within four to six months. It is recessive; carriers are clinically normal. It is a disease of Arabian and part-Arabian horses. No link between carrier status and sarcoids is established. UC Davis writes the genotypes N/N, N/SCID and SCID/SCID. No effect on coat, build or performance is established.",
+  "summary": "PRKDC, on chromosome 9, encodes the catalytic subunit of DNA-dependent protein kinase (DNA-PKcs), which repairs double-strand breaks in DNA and is needed for the DNA rearrangement that builds antibodies and T-cell receptors. A five base-pair deletion of TCTCA (c.9478_9482del, p.Asn3160fs*3; g.36395752_36395756del on EquCab3.0; older papers number it c.4675_4679del on another transcript) shifts the reading frame, truncates the protein and removes its kinase activity. Two copies cause severe combined immunodeficiency (SCID): a foal with no adaptive immune system that dies of infection, generally within four to six months. It is recessive; carriers are clinically normal. It is a disease of Arabian and part-Arabian horses. No link between carrier status and sarcoids is established. UC Davis writes the genotypes N/N, N/SCID and SCID/SCID. No effect on coat, build or performance is established.",
   "inheritance": "autosomal",
   "affects_coat": false,
   "alleles": [
@@ -39,6 +39,8 @@
   "citations": [
     { "source": "omia", "label": "OMIA 000220", "url": "https://omia.org/OMIA000220/9796/", "verified": false },
     { "source": "ucdavis-vgl", "label": "UC Davis VGL: Severe Combined Immunodeficiency (SCID)", "url": "https://vgl.ucdavis.edu/test/scid", "verified": false },
-    { "source": "pubmed", "label": "PMID 9682449", "url": "https://pubmed.ncbi.nlm.nih.gov/9682449/", "verified": false }
+    { "source": "pubmed", "label": "PMID 9682449", "url": "https://pubmed.ncbi.nlm.nih.gov/9682449/", "verified": false },
+    { "source": "pubmed", "label": "PMC8701198: the deleted sequence, TCTCA", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8701198/", "verified": false },
+    { "source": "pubmed", "label": "PMC7184946: what the truncated DNA-PKcs lacks", "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7184946/", "verified": false }
   ]
 }

@@ -4,8 +4,9 @@
   "species": "horse",
   "name": "PPIB (HERDA)",
   "symbol": "PPIB",
+  "chromosome": "1",
   "evidence": "published",
-  "summary": "PPIB encodes cyclophilin B, an enzyme that helps fold and process collagen. A missense change in exon 1, c.115G>A, impairs that and causes hereditary equine regional dermal asthenia (HERDA): fragile, over-stretchy skin that tears and scars. It is recessive; carriers are normally healthy. Signs in a horse with two copies usually appear at about a year and a half to two years old. The disease as documented is of the skin; the bone disease that PPIB mutations cause in people is not the picture in horses. Found in the American Quarter Horse and breeds with Quarter Horse ancestry, including Paint Horses and Appaloosas, and far commoner in cutting and cow-horse lines. Laboratories usually write the genotypes N/N, N/HR and HR/HR. No effect on coat, height, speed or build is established.",
+  "summary": "PPIB encodes cyclophilin B, an enzyme that helps fold and process collagen. A missense change in exon 1, c.115G>A (p.Gly39Arg; g.129307092G>A on chromosome 1, EquCab3.0), impairs that and causes hereditary equine regional dermal asthenia (HERDA): fragile, over-stretchy skin that tears and scars. It is recessive; carriers are normally healthy. Signs in a horse with two copies usually appear at about a year and a half to two years old. The disease as documented is of the skin; the bone disease that PPIB mutations cause in people is not the picture in horses. Found in the American Quarter Horse and breeds with Quarter Horse ancestry, including Paint Horses and Appaloosas, and far commoner in cutting and cow-horse lines. Laboratories usually write the genotypes N/N, N/HR and HR/HR. No effect on coat, height, speed or build is established.",
   "inheritance": "autosomal",
   "affects_coat": false,
   "alleles": [
@@ -71,6 +72,7 @@
     { "source": "paper", "label": "Journal of Biological Chemistry, S0021-9258(20)49754-6", "url": "https://www.jbc.org/article/S0021-9258(20)49754-6/fulltext", "verified": false },
     { "source": "ucdavis-vgl", "label": "UC Davis VGL: horse embryo testing", "url": "https://vgl.ucdavis.edu/test/horse-embryo", "verified": false },
     { "source": "ucdavis-vgl", "label": "UC Davis VGL: horse DNA tests", "url": "https://vgl.ucdavis.edu/dna-tests/horse", "verified": false },
-    { "source": "ucdavis-vgl", "label": "UC Davis VGL: Quarter Horse disease panel", "url": "https://vgl.ucdavis.edu/panel/quarter-horse-disease-panel", "verified": false }
+    { "source": "ucdavis-vgl", "label": "UC Davis VGL: Quarter Horse disease panel", "url": "https://vgl.ucdavis.edu/panel/quarter-horse-disease-panel", "verified": false },
+    { "source": "omia", "label": "OMIA variant 157: PPIB c.115G>A", "url": "https://omia.org/variant/omia.variant:157/", "verified": false }
   ]
 }

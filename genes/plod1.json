@@ -4,6 +4,7 @@
   "species": "horse",
   "name": "PLOD1",
   "symbol": "PLOD1",
+  "chromosome": "2",
   "evidence": "published",
   "summary": "PLOD1 encodes lysyl hydroxylase 1, an enzyme needed for the cross-links that give collagen its strength. One missense change, c.2032G>A (p.Gly678Arg), impairs it. Two copies cause fragile foal syndrome type 1, formerly Warmblood fragile foal syndrome: a foal with fragile, tearing skin and lax joints that is stillborn or cannot survive. It is recessive, and carriers have no known health problem. The allele is commonest in Warmbloods, where about 11 per cent of horses tested are carriers and it was found in 17 of 19 breeds; it is rare in Thoroughbreds, has been found in Knabstruppers, Haflingers and American Sport Ponies, and was not found in 302 Arabians. It was not associated with catastrophic breakdown in Thoroughbreds. No effect on coat, height, speed or build is established.",
   "inheritance": "autosomal",

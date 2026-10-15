@@ -4,8 +4,9 @@
   "species": "horse",
   "name": "ST14",
   "symbol": "ST14",
+  "chromosome": "7",
   "evidence": "published",
-  "summary": "ST14 encodes matriptase, an enzyme of the skin needed for a sound outer layer and for hair follicles to form. A nonsense change, c.388G>T (p.Glu130*), cuts off more than four fifths of the protein and causes naked foal syndrome in the Akhal-Teke: a foal with almost no hair and dry, scaly skin, most of which have died between a few weeks and three years old. It is recessive, and carriers are normal. In the study that found it, all five affected horses had two copies, 26 of 191 other Akhal-Tekes were carriers, and none of 400 horses of other breeds had it. Why affected foals die early is unresolved; a heart defect and other findings in one foal may be coincidental. The colour of the coat is not affected, only whether hair grows. No effect on build or performance is established.",
+  "summary": "ST14 encodes matriptase, an enzyme of the skin needed for a sound outer layer and for hair follicles to form. A nonsense change, c.388G>T (p.Glu130*; g.39710628G>T on chromosome 7, EquCab3.0), cuts off more than four fifths of the protein and causes naked foal syndrome in the Akhal-Teke: a foal with almost no hair and dry, scaly skin, most of which have died between a few weeks and three years old. It is recessive, and carriers are normal. In the study that found it, all five affected horses had two copies, 26 of 191 other Akhal-Tekes were carriers, and none of 400 horses of other breeds had it. Why affected foals die early is unresolved; a heart defect and other findings in one foal may be coincidental. The colour of the coat is not affected, only whether hair grows. No effect on build or performance is established.",
   "inheritance": "autosomal",
   "affects_coat": false,
   "alleles": [
@@ -54,6 +55,7 @@
     { "source": "pubmed", "label": "Bärtschi et al., PMC5386879", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5386879/", "verified": false },
     { "source": "ucdavis-vgl", "label": "UC Davis VGL: Naked Foal Syndrome", "url": "https://vgl.ucdavis.edu/test/naked-foal-syndrome", "verified": false },
     { "source": "paper", "label": "G3 7(4):1315: an ST14 nonsense variant and naked foal syndrome in the Akhal-Teke", "url": "https://academic.oup.com/g3journal/article/7/4/1315/6031816", "verified": false },
-    { "source": "ucdavis-vgl", "label": "UC Davis VGL: Horse Coat Color", "url": "https://vgl.ucdavis.edu/resources/horse-coat-color", "verified": false }
+    { "source": "ucdavis-vgl", "label": "UC Davis VGL: Horse Coat Color", "url": "https://vgl.ucdavis.edu/resources/horse-coat-color", "verified": false },
+    { "source": "omia", "label": "OMIA variant 354: ST14 c.388G>T", "url": "https://omia.org/variant/omia.variant:354/", "verified": false }
   ]
 }
