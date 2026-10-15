@@ -17,7 +17,7 @@
   "phenotypes": [
     { "id": "wild", "name": "Wild type", "description": "The coat keeps its colour for life.", "changes_coat": false },
     { "id": "grey-slow", "name": "Slow grey (G2 without G3)", "description": "Greys slowly. Born its base colour, the horse gains white hairs gradually and is typically still a moderate grey in middle age.", "changes_coat": true },
-    { "id": "grey-fast", "name": "Fast grey (one G3)", "description": "Greys quickly. Born its base colour, noticeably grey or dappled as a young adult, and usually white or nearly white in later life. Where the second allele is G2 the pace is less well characterised.", "changes_coat": true },
+    { "id": "grey-fast", "name": "Fast grey (one G3)", "description": "Greys quickly. Born its base colour, noticeably grey or dappled as a young adult, and usually white or nearly white in later life. UC Davis says a horse with G2 and G3 also greys fast, faster than one with G2 alone.", "changes_coat": true },
     { "id": "grey-rapid", "name": "Fastest grey (G3/G3)", "description": "Two G3 alleles: the fastest greying and the highest melanoma incidence.", "changes_coat": true }
   ],
   "genotypes": [
@@ -29,7 +29,7 @@
     { "alleles": ["G3", "G3"], "phenotype": "grey-rapid", "conditions": ["melanoma-risk-3"] }
   ],
   "conditions": [
-    { "id": "melanoma-risk-2", "name": "Melanoma risk (raised)", "description": "One G3 allele. A raised incidence of melanoma, mostly tumours in the skin under the tail, around the anus and genitals, and on the head. With G2 as the second allele the size of the risk is less well characterised.", "severity": "informational" },
+    { "id": "melanoma-risk-2", "name": "Melanoma risk (raised)", "description": "One G3 allele. A raised incidence of melanoma, mostly tumours in the skin under the tail, around the anus and genitals, and on the head. UC Davis gives a horse with G2 and G3 a high incidence too. Across grey horses about half to four fifths develop melanomas by 15 or older, a figure driven by G3 carriers; greys born black-based are reported at higher risk than those born bay or brown.", "severity": "informational" },
     { "id": "melanoma-risk-3", "name": "Melanoma risk (highest)", "description": "Two G3 alleles: the highest melanoma incidence of any genotype at this locus.", "severity": "informational" }
   ],
   "frequencies": [
@@ -66,6 +66,7 @@
     { "source": "paper", "label": "An intronic copy number variation in Syntaxin 17 determines speed of greying and melanoma susceptibility in horses (Nature Communications, 2024)", "url": "https://www.nature.com/articles/s41467-024-51898-2", "verified": false },
     { "source": "pubmed", "label": "PMC3443021: Copy number expansion of the STX17 duplication in melanoma", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3443021/", "verified": false },
     { "source": "pubmed", "label": "PMC3567150: Complex Inheritance of Melanoma and Pigmentation", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3567150/", "verified": false },
-    { "source": "omia", "label": "OMIA 001356-9796: Coat colour, grey", "url": "https://omia.org/OMIA001356/9796/", "verified": false }
+    { "source": "omia", "label": "OMIA 001356-9796: Coat colour, grey", "url": "https://omia.org/OMIA001356/9796/", "verified": false },
+    { "source": "other", "label": "Labogen: greying, melanoma risk by base colour", "url": "https://labogen.com/en/farbe-haarlaenge-haarstruktur-pferd/graying/", "verified": false }
   ]
 }

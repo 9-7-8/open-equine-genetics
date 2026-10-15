@@ -78,8 +78,7 @@ STILL WRONG OR UNPROVEN IN THE RESEARCHED LOCI
   RN1, RN2 and RN3 are haplotype markers, named in the summary only.
 - acan: D5 is "unconfirmed" with no outcome. Round two found no published report or laboratory page naming a fifth allele; the session applied the owner's ruling for such alleles without asking her again. The mod's estimated frequency table still gives D5 a share. UC Davis has no ACAN test page (round three); Generatio tests D1-D4, and two of its four positions do not match the gene file's D3 and D4 (question G7). D1/D1 is "lethal_in_early_life" (owner, 2026-10-12): round two says survival time varies and gives no ages. That every other dwarf pair survives is still the mod's.
 - ryr1: settled in round three (2026-10-15, sourced to PubMed and OMIA): Aleman et al. 2004 (Muscle and Nerve) is the first report; the 2009 J Vet Intern Med paper is a follow-up in Quarter Horses. Round two had it the other way. Both stay cited, labelled by role.
-- grey: G2/G3 is given the same outcome as G3/N; the research says its pace and risk
-  are not quantified. The Andalusian table's genotype shares are worked out from
+- grey: G2/G3 has the same outcome as G3/N, which UC Davis states (round three, 2026-10-15): fast greying, high melanoma incidence. The Andalusian table's genotype shares are worked out from
   allele frequencies, assuming random mating. So is ryr1's Quarter Horse table.
 - silver: chromosome 6 now also rests on a university page. The one-copy eye condition (mcoa-cyst) still sits on every Z/z pair, because the format cannot tell a chestnut carrier from a bay one; round two says the risk is not established for a chestnut carrier, and the condition's text says so. That silver is hidden on a chestnut is in words only.
 - leopard still depends on patn2, an abstraction; no real second modifier was found. Round two confirms that more than PATN1 modifies the pattern and names nothing.
@@ -268,9 +267,6 @@ B4. Snowdrop (SLC45A2 c.305G>A, also c.449G>A; one Gypsy Cob family): has any ho
     cream and snowdrop (Cr/sno), or pearl and snowdrop (prl/sno), been tested and
     described - in a paper, a laboratory case or a registry? Name the horse or the report.
     An expected phenotype is not needed; one was given already.
-B5. Grey (STX17): the G2 allele carries two copies of the 4.6 kb duplication and G3
-    carries three. How fast does a horse with one G2 and one G3 grey, and what is its
-    melanoma risk, compared with G2/N and G3/N?
 
 BLOCK C - WHITE PATTERNS: KIT, TOBIANO AND SPLASH WHITE
 -------------------------------------------------------
