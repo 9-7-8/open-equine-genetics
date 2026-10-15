@@ -37,6 +37,8 @@
     }
   ],
   "citations": [
-    { "source": "pubmed", "label": "PMID 19016681: Graves et al. 2009, partial deletion of LAMA3 and junctional epidermolysis bullosa in the American Saddlebred (Animal Genetics)", "url": "https://pubmed.ncbi.nlm.nih.gov/19016681/", "verified": false }
+    { "source": "pubmed", "label": "PMID 19016681: Graves et al. 2009, partial deletion of LAMA3 and junctional epidermolysis bullosa in the American Saddlebred (Animal Genetics)", "url": "https://pubmed.ncbi.nlm.nih.gov/19016681/", "verified": false },
+    { "source": "pubmed", "label": "PMC3297474: the two equine JEB forms, LAMC2 (JEB1) and LAMA3 (JEB2)", "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3297474/", "verified": false },
+    { "source": "other", "label": "Equiseq: junctional epidermolysis bullosa JEB1 and JEB2", "url": "https://www.equiseq.com/junctional-epidermolysis-bullosa-jeb1-jeb2/", "verified": false }
   ]
 }

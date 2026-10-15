@@ -40,6 +40,8 @@
     { "source": "paper", "label": "Spirito et al. 2003, a mutation in LAMC2 causes Herlitz junctional epidermolysis bullosa in two French draft horse breeds (Genetics Selection Evolution)", "url": "https://www.gse-journal.org/articles/gse/abs/2003/02/g350207/g350207.html", "verified": false },
     { "source": "ucdavis-vgl", "label": "UC Davis VGL: Junctional Epidermolysis Bullosa (JEB1) in Belgians", "url": "https://vgl.ucdavis.edu/test/jeb-belgian", "verified": false },
     { "source": "other", "label": "UC Davis Center for Equine Health: Junctional Epidermolysis Bullosa", "url": "https://ceh.vetmed.ucdavis.edu/health-topics/junctional-epidermolysis-bullosa-jeb", "verified": false },
-    { "source": "omia", "label": "OMIA 001678-9796: Epidermolysis bullosa, junctional, LAMC2-related", "url": "https://omia.org/OMIA001678/9796/", "verified": false }
+    { "source": "omia", "label": "OMIA 001678-9796: Epidermolysis bullosa, junctional, LAMC2-related", "url": "https://omia.org/OMIA001678/9796/", "verified": false },
+    { "source": "pubmed", "label": "PMC3297474: the two equine JEB forms, LAMC2 (JEB1) and LAMA3 (JEB2)", "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3297474/", "verified": false },
+    { "source": "other", "label": "Equiseq: junctional epidermolysis bullosa JEB1 and JEB2", "url": "https://www.equiseq.com/junctional-epidermolysis-bullosa-jeb1-jeb2/", "verified": false }
   ]
 }

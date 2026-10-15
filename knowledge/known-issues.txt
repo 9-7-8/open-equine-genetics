@@ -137,7 +137,7 @@ STILL WRONG OR UNPROVEN IN THE RESEARCHED LOCI
 - toe1: the owner's first answer looked for a coat-colour locus and found none; her second, asked about cerebellar abiotrophy by name, confirms the disorder, and the locus follows the second. The locus is named for TOE1, but the research says the variant may act through MUTYH and that the mechanism is not settled. The Arabian table gives carriers only (about 20%); living affected horses are counted with the clear ones. The severity stays "impairing". The journal name in one citation label was read off the address.
 - mstn: chromosome 18 is from round two, which calls g.66493737C>T "EquCab3-style coordinates"; which assembly the position belongs to was not checked. No frequency was given.
 - scn4a: no chromosome; round two could not verify one. No frequency was given.
-- lama3, lamc2: round two's table swaps the breeds (LAMA3 for Belgian drafts, LAMC2 for Saddlebreds) against the first answers and the gene files. It gives no source and may be a slip; nothing was changed.
+- lama3, lamc2: settled in round three (2026-10-15, sourced to PMC3297474): LAMC2 (JEB1) is the Belgian and draft form, LAMA3 (JEB2) the Saddlebred's, as the gene files had it. Round two's table was swapped. Only the citations changed.
 - Breed names added to summaries in round two (dun, extension, agouti, matp, champagne, silver, roan, leopard, patn1, lcorl, mstn) are the answer's descriptions, which it says to treat as estimates. None has a figure, and no frequency table was made from them.
 - Round two gave three addresses that are in no gene file: a game's wiki (horsereality) for pearl, a breeder's tool page (soloselecthorses) for fragile foal, and UC Davis's PSSM1 page for the HERDA figures.
 
@@ -343,10 +343,9 @@ F3. What carrier frequencies are published, by breed, for PSSM1 (GYS1 c.925G>A),
 
 BLOCK G - DISORDERS OF WARMBLOODS, DRAFTS, PONIES AND OTHER BREEDS
 ------------------------------------------------------------------
-G1. Junctional epidermolysis bullosa: which gene carries the form found in Belgian and
-    related draft horses, and which the form in the American Saddlebred? Earlier answers
-    say LAMC2 for the drafts and LAMA3 for the Saddlebred; a later one has them the other
-    way round. What carrier frequencies are published for each?
+G1. Junctional epidermolysis bullosa: what carrier frequencies are published for the
+    LAMC2 form (JEB1, Belgian and related draft breeds) and the LAMA3 form (JEB2,
+    American Saddlebred), by breed, with the study for each?
 G2. Fragile foal syndrome (PLOD1 c.2032G>A): what are the carrier frequencies for each
     Warmblood breed, from which studies? Are the Knabstrupper (3 of 46), Haflinger (2 of
     48) and American Sport Pony (1 of 12) figures carriers or affected cases, and from
