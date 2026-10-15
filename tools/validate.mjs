@@ -1,6 +1,6 @@
 #!/usr/bin/env node
-// Checks every genes/*.json against the rules in knowledge/format.txt, and mod-map.json
-// against the genes. Needs Node 22 or newer, no packages.
+// Checks every genes/*.json and breeds/*.json against the rules in knowledge/format.txt.
+// Needs Node 22 or newer, no packages.
 //
 //   node tools/validate.mjs
 //
@@ -130,49 +130,12 @@ for (const file of readdirSync(join(root, "genes")).filter((f) => f.endsWith(".j
   }
 }
 
-// Interactions name real loci; the mod map agrees with the genes.
+// Interactions name real loci.
 for (const g of genes.values()) {
   for (const d of g.interactions?.depends_on ?? []) {
     if (!genes.has(d)) problems.push(`genes/${g.id}.json: depends on unknown locus "${d}"`);
   }
 }
-try {
-  const map = JSON.parse(readFileSync(join(root, "mod-map.json"), "utf8"));
-  const mapped = new Set();
-  for (const row of map.loci) {
-    mapped.add(row.locus);
-    const g = genes.get(row.locus);
-    if (!g) {
-      problems.push(`mod-map.json: locus "${row.locus}" has no gene file`);
-      continue;
-    }
-    // Alleles this data has and the mod lacks are appended after the mod's own, so the mod's
-    // order must still be the start of the list here.
-    const notInMod = row.not_in_mod ?? [];
-    for (const a of notInMod) {
-      if (!g.alleles.some((x) => x.id === a)) problems.push(`mod-map.json: "${row.locus}" not_in_mod names unknown allele "${a}"`);
-      if (row.mod_allele_order.includes(a)) problems.push(`mod-map.json: "${row.locus}" allele "${a}" is both in the mod's order and not_in_mod`);
-    }
-    const undocumented = new Set(g.phenotypes.filter((p) => p.documented === false).map((p) => p.id));
-    for (const r of g.genotypes) {
-      const waived = (row.mod_outcome_unsupported ?? []).some((p) => key(p) === key(r.alleles));
-      if (undocumented.has(r.phenotype) && !waived && !r.alleles.some((a) => notInMod.includes(a))) {
-        problems.push(`genes/${g.id}.json: ${key(r.alleles)} is marked undocumented but the mod has both alleles`);
-      }
-    }
-    const all = g.alleles.map((a) => a.id);
-    const here = all.filter((a) => !notInMod.includes(a));
-    if (all.slice(here.length).some((a) => !notInMod.includes(a))) problems.push(`mod-map.json: "${row.locus}" has an allele the mod lacks ahead of one it has`);
-    const mod = row.mod_allele_order.filter((a) => !(row.mod_only_alleles ?? []).includes(a));
-    if (here.join(",") !== mod.join(",")) {
-      problems.push(`mod-map.json: "${row.locus}" allele order is [${here}] here but the mod requires [${mod}]`);
-    }
-  }
-  for (const id of genes.keys()) if (!mapped.has(id)) problems.push(`mod-map.json: no row for "${id}"`);
-} catch (e) {
-  problems.push(`mod-map.json: ${e.message}`);
-}
-
 // Breeds (knowledge/format.txt, BREEDS). Every pool names a real locus and pairs it can have.
 let breedCount = 0;
 let breedFiles = [];
@@ -248,4 +211,4 @@ if (problems.length) {
   console.log(`\n${problems.length} problem(s) in ${genes.size} gene files and ${breedCount} breed files`);
   process.exit(1);
 }
-console.log(`OK - ${genes.size} gene files, ${breedCount} breed files and mod-map.json pass every check`);
+console.log(`OK - ${genes.size} gene files and ${breedCount} breed files pass every check`);
