@@ -1,0 +1,177 @@
+PATN2 - science notes
+(Written 2026-10-15 from the owner's round-four answer; until then this locus had no note.)
+
+ROUND FOUR (the owner's answer to question H8, 2026-10-15)
+-----------------------------------------------------------
+No address has been opened by a maintainer. Her document follows whole, as she sent it
+(the [web:N] markers point to the sources listed at its end).
+
+The session's reading:
+  - The locus said PATN2 gives the blanket patterns. The research says no PATN2 is
+    published and the blanket-gene idea has been given up. The locus stays, as the
+    abstraction leopard depends on, but its summary and name now say it is made up and
+    that the blanket split is this data's model. Whether to keep that split, or recast
+    PATN2 as a plain extra-white modifier as the answer suggests, is a format choice for
+    the owner; nothing was changed in the outcomes.
+  - PATN1's position, ECA3:23,658,447T>G, is not added: the answer says its assembly
+    should be confirmed first. Horse Reality is a game's wiki and is not cited.
+
+--- her document ---
+# Second leopard-complex modifier besides PATN1
+
+## Bottom line
+
+**No second leopard-complex modifier comparable to PATN1 has been published.** “PATN2” is a useful simulation label for the remaining genetic variation in LP-pattern extent, but it is **not an identified gene, locus, variant, or validated test**. UC Davis states that additional modifiers are thought to explain the range of leopard-complex patterning, but only PATN1 has been molecularly associated. [web:165][web:166][web:186]
+
+The best current model is therefore:
+
+```text
+LP determines whether leopard-complex traits occur.
+PATN1 is the one proven major modifier of white-pattern extent.
+PATN2 and further modifiers remain hypothetical/polygenic placeholders.
+```
+
+## Primary evidence
+
+### LP itself
+
+Leopard complex spotting (LP) is caused by an incompletely dominant 1,378 bp retroviral insertion in **TRPM1** on ECA1. It produces the LP-associated traits: varnish roaning, mottled skin, striped hooves, white sclera, and variable white patterning; LP/LP also causes congenital stationary night blindness. [web:166][web:188]
+
+- Primary LP paper: Bellone et al. 2013, *PLoS ONE* 8:e78280, DOI: [10.1371/journal.pone.0078280](https://doi.org/10.1371/journal.pone.0078280), PubMed: [24167615](https://pubmed.ncbi.nlm.nih.gov/24167615/). [web:188]
+- LP is necessary for the leopard-complex phenotype, but it does not by itself determine how much white a horse has. [web:165][web:166]
+
+### PATN1
+
+**Holl, H. M., Brooks, S. A., Archer, S., Brown, K., Malvick, J., Penedo, M. C. T., Bellone, R. R. (2016). “Variant in the *RFWD3* gene associated with PATN1, a modifier of leopard complex spotting.” *Animal Genetics* 47(1):91–101.**  
+DOI: [10.1111/age.12375](https://doi.org/10.1111/age.12375)  
+PubMed: [26568529](https://pubmed.ncbi.nlm.nih.gov/26568529/) [web:186]
+
+PATN1 is associated with a SNP in the 3′ UTR of *RFWD3*:
+
+- SNP: **ECA3:23,658,447T>G**
+- Assembly: reported in the paper’s ECA3 context; the exact reference-assembly version should be confirmed against the paper’s supplemental data before embedding a coordinate in a database.
+- Association: \(p = 1.063 	imes 10^{-39}\) in fine mapping; \(p = 4.17 	imes 10^{-115}\) in the larger validation set.
+- Effect: increases white patterning in horses that also carry LP.
+- Inheritance: PATN1 behaves as a dominant modifier in the studied families. [web:186]
+
+UC Davis reports that LP horses with PATN1 commonly have about **60–100% white**, while LP horses without PATN1 commonly have **0–40% white at birth**. [web:165]
+
+## Status of “PATN2”
+
+| Question | Status |
+|---|---|
+| Is PATN2 a published gene? | No. |
+| Is PATN2 a mapped locus? | No. |
+| Is there a PATN2 causal variant? | No. |
+| Is there a PATN2 DNA test? | No. |
+| Is there an official PATN2 allele symbol? | No. |
+| Do additional LP modifiers exist? | Yes, inferred from unexplained variation in LP-pattern extent. [web:165][web:166] |
+| Is “PATN2” scientifically established? | No; it is a placeholder/simulation convention. [web:172][web:186] |
+
+No peer-reviewed paper has mapped a second major modifier or named a causal PATN2 variant. The OMIA entry for leopard complex lists LP/TRPM1 and PATN1/RFWD3, but no PATN2 entry or causal variant. [web:188][web:186]
+
+## What the evidence supports
+
+UC Davis explicitly says that “other genes” determine the amount of white patterning in LP horses and that PATN1 is one of those modifiers. [web:165][web:166]
+
+That supports the existence of **additional genetic influence**, but not a specific second major locus. The remaining variation could be:
+
+- one or more undiscovered major modifiers;
+- several minor modifiers;
+- polygenic variation;
+- LP dosage effects;
+- developmental stochasticity;
+- breed-specific modifier haplotypes. [web:165][web:186][web:188]
+
+## Simulator implementation
+
+Use **PATN1 as the proven major modifier** and implement a second modifier only as a hidden, unlabeled polygenic component—or as a clearly fictional “PATN2” locus if your game needs a discrete inheritance system.
+
+### Recommended realistic model
+
+```text
+if LP_present:
+    pattern_extent =
+        LP_dosage_effect
+      + PATN1_dominant_effect
+      + polygenic_modifier_effect
+      + developmental_noise
+else:
+    pattern_extent = 0
+```
+
+Suggested values:
+
+```text
+LP/n  = varnish roaning, mottled skin, striped hooves, white sclera
+LP/LP = stronger LP effects; CSNB; often less residual pigment
+
+PATN1 present:
+    LP/n  -> leopard or near-leopard tendency
+    LP/LP -> few-spot or near-few-spot tendency
+
+PATN1 absent:
+    LP/n  -> 0–40% white tendency
+    LP/LP -> variable, often less-extensive white pattern
+```
+
+### Optional PATN2 model
+
+If you want a discrete second modifier:
+
+```text
+PATN2/PATN2 or PATN2/patn2 = additional white-pattern extent
+patn2/patn2                = no additional effect
+```
+
+But label it **“PATN2 (simulation convention; not a published locus)”** in any genetics documentation. Do not give it a genomic coordinate, allele frequency, or DNA test. [web:172][web:186]
+
+## Pattern-shape versus pattern-extent
+
+PATN1 is primarily associated with **amount of white**, not with a specific blanket-versus-leopard “shape gene.” The older idea that PATN2 was specifically the “blanket gene” has been abandoned; Horse Reality explicitly notes that real-life PATN2 was once theorized to be the blanket gene but is not established. [web:172]
+
+For a realistic simulator:
+
+- Model **extent** as a continuous value.
+- Model **distribution**—for example, hindquarter-concentrated blanket versus more generalized white—using separate developmental rules or additional hidden modifiers.
+- Do not claim that PATN2 creates blankets while PATN1 creates leopards.
+
+## Breeds and testing
+
+PATN1 has been identified in LP-carrying breeds including **Appaloosa, British Spotted Pony, American Miniature Horse, Noriker, and Knabstrupper**, among others. [web:165]
+
+UC Davis offers validated tests for **LP/TRPM1** and **PATN1/RFWD3**. It does not offer a PATN2 test. [web:165][web:166][web:168]
+
+No reliable PATN2 allele frequency, carrier frequency, population sample size, or survey year can be reported, because no PATN2 genotype exists.
+
+## Effects outside coat color
+
+LP itself has a well-established non-coat effect: **LP/LP causes congenital stationary night blindness (CSNB)** due to the TRPM1 insertion. [web:166][web:188]
+
+By contrast, there is **no evidence** that a second LP modifier affects height, speed, muscle, bone structure, hoof shape, feathering, mane/tail color, or health. Any PATN2 health effect would be unsupported speculation. [web:165][web:186]
+
+## Future science
+
+A real PATN2 discovery would require:
+
+1. Large LP-positive cohorts with quantitative white-pattern scoring.
+2. Family-based linkage or GWAS conditioned on LP and PATN1.
+3. Whole-genome sequencing of high-white and low-white LP horses.
+4. Replication across Appaloosas, Knabstruppers, Norikers, Miniature Horses, and spotted ponies.
+5. Functional validation of any candidate regulatory variant.
+
+Until then, the scientifically accurate answer is: **PATN1 is the only published major leopard-complex pattern modifier; PATN2 remains hypothetical.** [web:186][web:165][web:188]
+
+## Sources
+
+- UC Davis VGL Appaloosa Pattern-1: https://vgl.ucdavis.edu/test/appaloosa-pattern-1 [web:165]  
+- UC Davis VGL Leopard Complex test: https://vgl.ucdavis.edu/test/leopard-complex [web:166]  
+- UC Davis VGL Appaloosa Panel 2: https://vgl.ucdavis.edu/panel/appaloosa-panel-2 [web:168]  
+- Holl et al. 2016, PATN1/*RFWD3* primary paper: https://doi.org/10.1111/age.12375; https://pubmed.ncbi.nlm.nih.gov/26568529/ [web:186]  
+- OMIA leopard-complex entry: https://omia.org/OMIA002139/9796/ [web:188]  
+- Bellone et al. 2013, LP/TRPM1 primary paper: https://doi.org/10.1371/journal.pone.0078280; https://pubmed.ncbi.nlm.nih.gov/24167615/ [web:188]  
+- Horse Reality discussion that real-life PATN2 is not discovered: https://horsereality.wiki/en/colour-genetics/white-patterns/leopard-complex [web:172]
+--- end of her document ---
+
+What the gene files do with it: patn2's name and summary as above, four citations; patn1
+gains UC Davis's 60-100% and 0-40% and the breeds. Outcomes and tables unchanged.
