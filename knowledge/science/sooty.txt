@@ -1,6 +1,175 @@
 Sooty - science notes
 (A science note on this locus, written 2026-10-12. Not yet audited.)
 
+ROUND FOUR (the owner's answer to question H2, 2026-10-15)
+-----------------------------------------------------------
+No address has been opened by a maintainer. Her document follows whole, as she sent it
+(the [web:N] and [page:0] markers point to the sources listed at its end). It comes after
+everything below and stands where they disagree.
+
+The session's reading:
+  - It does not mention the 2020 chromosome-22 (ASIP/RALY) study that the older text
+    below rests on; that study measured bay shade, which is the shade locus. The gene
+    file no longer says sooty "declines to remove pigment" - no source states that
+    mechanism.
+  - The chat summary also cited horsereality.wiki, a game's wiki; not cited here.
+    Wikipedia and a blog (homecomingbook) are not cited in the gene file either.
+
+--- her document ---
+# Sooty (dark hairs mixed through the coat; darker topline)
+
+## Bottom line
+
+**No causal gene, locus, or diagnostic variant for the general “sooty” phenotype has been published.** Sooty—also called smutty—remains a phenotype-level descriptor: dark, often black hairs distributed through the body coat, usually concentrated along the topline and fading toward the underside. The best-supported current interpretation is that it is **heritable but genetically heterogeneous and probably polygenic**, not a single proven locus. [web:37][web:40][web:42]
+
+A related but distinct published finding is a GWAS for **variation in pigmentation intensity within chestnut** that identified a region containing *SALL1*; this is evidence for genetic control of chestnut shade/intensity, but it has **not** been shown to be the causal basis of sooty as classically defined. [page:0]
+
+## Phenotype
+
+Sooty adds dark hairs to a base coat. In the classic description, these are black or darker hairs mixed into the coat, with greatest density along the back, croup, shoulders, and upper barrel, and less on the belly and lower body. Extreme sooty can make a bay appear nearly black over the topline or make a chestnut appear liver/brown. [web:40][web:42]
+
+The term covers more than one visual mechanism:
+
+- **True interspersed dark hairs:** individual black or very dark hairs scattered through an otherwise red, bay, buckskin, palomino, or other coat.
+- **Topline shading / countershading:** a dorsal concentration of darker pigment, sometimes involving banded hairs with dark tips rather than wholly black hairs.
+- **General darkening of chestnut:** darker red-brown or liver-like chestnut shades, which may have a partially different genetic basis from sooty on bay-based coats. [web:37][web:43]
+
+This distinction matters: “sooty” is a useful visual category, but it is probably not one biologically uniform trait.
+
+## Published genetic evidence
+
+### No proven sooty locus
+
+No peer-reviewed study has identified a mutation, haplotype, or locus that predicts the classic sooty phenotype across chestnut, bay, buckskin, palomino, and other bases. Therefore:
+
+- No official locus symbol or allele symbol is established.
+- No EquCab2 or EquCab3 coordinate can be assigned to “the sooty locus.”
+- No validated commercial DNA test for sooty exists.
+- Informal symbols such as **STY/sty** are simulation or hobby conventions, not established molecular nomenclature. [web:42][web:37]
+
+Sponenberg’s equine-color genetics text explicitly states that genetic control of sooty is “not straightforward” and is likely different in chestnut-based colors than in colors with black points. [web:37]
+
+### Chestnut intensity: *SALL1* region
+
+The closest published molecular lead is Hammons et al. (2021), **“GWAS identifies a region containing the SALL1 gene in variation of pigmentation intensity within the chestnut coat color of horses,”** *Journal of Heredity* 112:443–446, DOI: [10.1093/jhered/esab037](https://doi.org/10.1093/jhered/esab037), PubMed: [34343312](https://pubmed.ncbi.nlm.nih.gov/34343312/). [page:0]
+
+Important limits:
+
+- The trait studied was **variation in pigmentation intensity within chestnut**, not “sooty” as a separately scored, cross-base phenotype.
+- The result is a **candidate region containing *SALL1***, not a proven causal variant.
+- It should not be presented as “the sooty gene,” although it is a plausible starting point for the chestnut-darkening component of sooty.
+
+### Franches-Montagnes dark shades
+
+Henner et al. (2002), **“Horse breeding: genetic tests for the coat colors chestnut, bay and black. Results from a first study in the Swiss Franches-Montagnes horse breed,”** *Schweiz Arch Tierheilkd* 144:405–412, DOI: [10.1024/0036-7281.144.8.405](https://doi.org/10.1024/0036-7281.144.8.405), PubMed: [12224446](https://pubmed.ncbi.nlm.nih.gov/12224446/), analyzed 1,369 offspring from five Franches-Montagnes stallions. [web:56][web:57][page:0]
+
+The authors reported that darker shades of the basic phenotypes—dark chestnut and dark bay—appeared to follow a **recessive** mode of inheritance in that breed. [web:56][web:57][page:0]
+
+This is the strongest published inheritance evidence often connected to sooty, but it has important limits:
+
+- It concerned **darker basic-color phenotypes**, not a molecularly defined sooty allele.
+- It was a single breed, five stallions, and a 2002 phenotype-based analysis.
+- It does not establish that all sooty phenotypes are recessive, nor that the same factor acts on chestnut and bay.
+- No causal variant was identified. [web:56][web:57][page:0]
+
+## Best current inheritance model
+
+| Question | Best-supported answer |
+|---|---|
+| Is sooty heritable? | Yes, in the broad sense; darker shades and sooty-like patterns run in families and breeds. [web:40][web:56] |
+| Is it one gene? | Not established; likely heterogeneous or polygenic. [web:37][web:40] |
+| Is it dominant? | Not established. |
+| Is it recessive? | Supported only for darker chestnut/bay shades in the Franches-Montagnes study; not generalizable as proven. [web:56][web:57] |
+| Is it the same in chestnut and bay? | Unknown; the existing expert view is that the control may differ between red-based and black-point-based coats. [web:37] |
+| Is there a test? | No validated sooty test. [web:37][web:42] |
+
+## Simulator implementation
+
+Treat sooty as a **continuous phenotype layer**, not a simple dominant allele.
+
+Recommended architecture:
+
+```text
+SOOTY_EXPRESSION = 0.0 to 1.0
+
+SOOTY_EXPRESSION =
+    major_darkening_component
+  + chestnut_intensity_component      # includes SALL1-region influence if used
+  + bay_shading_component
+  + polygenic_modifiers
+  + age/season/developmental noise
+```
+
+Suggested rules:
+
+- Separate **sooty intensity** from **sooty distribution**.
+- Use a gradient concentrated on the topline: withers, back, croup, shoulder, and upper barrel.
+- Apply the effect to body hair, not necessarily mane and tail.
+- Allow different parameter sets for chestnut-based and bay/black-point-based horses.
+- Do not force a single recessive genotype; if you want a simple breeding model, use a recessive major factor plus polygenic modifiers, and label it “working model,” not established genetics.
+- Prevent sooty from being visually assigned when dun, gray, roan, rabicano, or a known dilution better explains the coat.
+
+A defensible player-facing genotype could be:
+
+```text
+STY/STY = high sooty tendency
+STY/sty = variable, often low or hidden
+sty/sty = little or no sooty
+```
+
+But the UI should describe this as a **simulation convention**, because the real inheritance is unresolved.
+
+## Effects outside the coat
+
+There is no evidence that sooty affects height, speed, muscle, bone structure, hoof shape, feathering, mane or tail length, or any non-pigment trait. Its established phenotype is limited to coat pigmentation: interspersed darker hairs and/or darker topline shading. [web:40][web:37]
+
+It also should not be equated with dun: dun is a genetically established dilution phenotype involving primitive markings and a dorsal stripe, whereas sooty is diffuse darkening without the dun-specific primitive-marking package. [web:46]
+
+## Breeds and frequency
+
+No reliable breed-level allele frequency or carrier frequency can be reported, because no sooty genotype exists. Sooty-like darkening is described across many breeds and base colors, but prevalence depends heavily on subjective phenotype scoring and on whether observers separate sooty from dun, gray, roan, sooty palomino, liver chestnut, and dark bay. [web:40][web:42]
+
+The Franches-Montagnes/Freiberger population is the best-documented breed-specific inheritance dataset, based on 1,369 offspring from five stallions in a 2002 study; it supports recessive inheritance of darker basic shades in that population, not a universal sooty allele frequency. [web:56][web:57][page:0]
+
+## Controversy and future science
+
+The central controversy is whether “sooty” is:
+
+1. one inherited darkening factor;
+2. several distinct factors, including separate chestnut-darkening and bay-shading mechanisms; or
+3. largely a polygenic continuum of pigment intensity and countershading.
+
+Current evidence favors **heterogeneity**: chestnut shade has at least one mapped intensity-associated region near *SALL1*, while darker bay/chestnut shades in Franches-Montagnes showed a recessive pedigree-level pattern. Neither result identifies a universal sooty mutation. [page:0][web:56][web:57]
+
+A definitive study would need:
+
+- standardized photographic and hair-level scoring;
+- separation of true black interspersed hairs from dark-tipped banded hairs;
+- large, multi-breed cohorts;
+- pedigree-based variance-component heritability estimates;
+- whole-genome sequencing and GWAS within chestnut, bay, buckskin, and palomino groups separately;
+- replication and functional validation of any candidate variant.
+
+## Sources
+
+- Sponenberg, *Equine Color Genetics*, overview of sooty and its unresolved genetic control: https://onlinelibrary.wiley.com/doi/10.1002/9781119130628.ch5 [web:37]  
+- Hammons et al. 2021, *J Hered* 112:443–446, GWAS of chestnut pigmentation intensity and *SALL1* region: https://doi.org/10.1093/jhered/esab037; PubMed: https://pubmed.ncbi.nlm.nih.gov/34343312/ [page:0]  
+- Henner et al. 2002, *Schweiz Arch Tierheilkd* 144:405–412, Franches-Montagnes darker-shade inheritance: https://doi.org/10.1024/0036-7281.144.8.405; PubMed: https://pubmed.ncbi.nlm.nih.gov/12224446/ [page:0]  
+- Swiss veterinary archive summary of the Franches-Montagnes study: https://sat.gstsvs.ch/de/sat/sat-artikel/archiv/2002/082002/pferdezucht-genetische-tests-fuer-die-fellfarben-fuchs-braun-und-schwarz-ergebnisse-einer-ersten-u.html [web:56]  
+- Full PDF of the Franches-Montagnes study summary: https://sat.gstsvs.ch/fileadmin/media/pdf/archive/2002/08/SAT144080405.pdf [web:57]  
+- OMIA entry for equine Extension/*MC1R*, including the Hammons et al. reference: https://omia.org/OMIA001199/9796/ [page:0]  
+- General sooty phenotype description: https://en.wikipedia.org/wiki/Sooty_horse [web:40]  
+- Discussion distinguishing interspersed black hairs from dark-tipped/banded shading: https://homecomingbook.wordpress.com/2013/03/23/horse-color-genetics-darkening-genes/ [web:43]  
+- UC Davis VGL large breed-distribution/allele-frequency study announcement: https://vgl.ucdavis.edu/vgl-article/new-publication-vgl-researchers-sheds-light-breed-distribution-and-allele-frequencies [web:38]
+--- end of her document ---
+
+What the gene file does with it: the summary says no gene, locus, variant or test is
+published, what "sooty" may cover, the Franches-Montagnes and SALL1 results and their
+limits; four citations. Alleles, outcomes and tables unchanged; still abstracted.
+
+EARLIER NOTE (2026-10-12, before round four)
+--------------------------------------------
+
 What is actually known
 ----------------------
 
