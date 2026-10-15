@@ -11,7 +11,7 @@ WHERE THE DATA STANDS
   (round three, 2026-10-15; answers about one locus are at the top of its note, answers
   about several are kept whole in knowledge/science/round-3-answers.txt). Round four
   (2026-10-15, after this file was rewritten) so far: overviews of acan, agouti and
-  b4galt7, and answers to B3, B4, C1, C4, C6, D6, E3 and G2; answers about several loci are kept whole in
+  b4galt7, and answers to B3, B4, C1, C4, C6, D6, E3, G2 and G4; answers about several loci are kept whole in
   knowledge/science/round-4-answers.txt. The lists below
   are each kept on one long line, sorted, so they are easy to edit.
 RESEARCHED: abstracted_jump_strength, acan, agouti, b4galt7, brindle, champagne, ckm, dmrt3, dun, ednrb, extension, gbe1, grey, gys1, hmga2, kit, lama3, lamc2, lcorl, leopard, matp, met, mitf, mstn, mushroom, myo5a, patn1, pax3, pdk4, plod1, ppib, prkdc, rapgef5, roan, ryr1, scn4a, shox, silver, slc5a3, st14, tiger_eye, tobiano, toe1.
@@ -51,7 +51,7 @@ STILL WRONG OR UNPROVEN IN THE RESEARCHED LOCI
 - lama3, lamc2: no frequency question left; JEB1 and JEB2 tables are in.
 - leopard depends on patn2, an abstraction; more than PATN1 modifies the pattern, and nothing else is named.
 - matp: sunshine is a disputed candidate with the undocumented outcome "sunshine-disputed". The variant is the major allele in every breed group sequenced (above 0.86 in five breeds, Durward-Akhurst et al. 2024), but whether it dilutes is unresolved; with no exact figure per breed it is in no table (owner, 2026-10-15), so the tables count its copies as N. Snowdrop is known from one Gypsy Cob family; no Cr/sno or prl/sno horse is reported anywhere, so those pairs stay undocumented. The general table still gives sno small shares. The names palomino, buckskin and the rest depend on extension and agouti, in words only. Lusitano is the only breed table (Cr and prl worked out from Avila et al.); other breeds' Cr figures are in Avila et al.'s Supplementary Table S4 (question B3). The first matp answer cites by number only.
-- met: met/met is nonviable on indirect evidence (lower insemination success in carrier matings). Reported in Friesians only; no frequency (question G4). Friesian hydrocephalus (B3GALNT2) is not a locus here.
+- met: met/met is nonviable on indirect evidence (lower insemination success in carrier matings). Reported in Friesians only. Only haplotype carrier shares are published (FH2 14.7%, FH3 13.7%, FH4 8.0%, overlapping; Steensma et al. 2026), not one for the deletion, so no table. 15 FH2 and 5 FH3 homozygotes were seen alive, against the format's nonviable met/met: taken to be recombinants or semi-lethality, not tested. Friesian hydrocephalus (B3GALNT2) is not a locus here.
 - mitf: SW9 (McFadden et al. 2023) rests on association in one breed. 24 pairs of two different variants are "splash-undocumented" and 6 homozygotes "splash-homozygote-undetected". No genotype carries a deafness condition (owner: only pairs a source confirms). Thirteen breed tables from Avila et al. 2022, which tested SW1, SW3, SW5 and SW6 only; SW7, SW8 and SW9 count as N.
 - mushroom: the outcome depends on extension and agouti (clear on chestnut, uncertain on bay, none on black), in words only. Its link to flaxen is unresolved.
 - myo5a: UC Davis's "1.6%" for non-Egyptian Arabians matches neither of the mapping study's figures and is left out. The Egyptian farm table (0.08) is one farm, partly targeted.
@@ -183,9 +183,6 @@ B3. Avila et al. 2022 (Genes 13:1641, PMC9498372, doi 10.3390/genes13091641):
 
 BLOCK G - DISORDERS OF WARMBLOODS, DRAFTS AND PONIES
 ----------------------------------------------------
-G4. MET in Friesians: the 14 base-pair frameshift deletion in the MET gene
-    (g.74041982_74041995del, haplotypes FH2-FH4), a recessive embryonic lethal. What
-    carrier frequency is published? This is NOT hydrocephalus (B3GALNT2).
 G6. ACAN dwarfism in Miniature Horses: two answers disagree on who reported what. Is the
     combined allele frequency 0.280 from Eberth et al. 2018 (Animal Genetics) or from the
     Brazilian study PMC7499210? Are the per-allele figures D1 0.03, D2 0.09, D3* 0.02,
@@ -227,6 +224,6 @@ FOR THE OWNER, NOT THE RESEARCHER
   effect, stays as a published locus; whether both abstracted_jump and
   abstracted_jump_strength are wanted; st14 severity (the session's choice); acan D5 made
   "unconfirmed" without asking.
-- Friesian hydrocephalus (B3GALNT2) could be added as a new locus.
+- Friesian hydrocephalus (B3GALNT2) could be added as a new locus (UC Davis: about 17% carriers).
 - The Brazilian ACAN candidate c.6465A>T (p.Leu2155Phe) could be added to acan as an
   unconfirmed allele; adding an allele is a format change.

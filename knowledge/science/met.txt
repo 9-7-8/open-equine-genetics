@@ -4,6 +4,43 @@ No source was opened by the session that filed this. genes/met.json was changed 
 on the owner's word the same day; what is left over is in knowledge/known-issues.txt.
 Not yet audited.)
 
+ROUND FOUR (the owner's answer to question G4, asked again, 2026-10-15)
+------------------------------------------------------------------------
+No address has been opened by a maintainer. Her answer, condensed, with every point and
+address she gave. This time it answers about MET.
+
+  - Steensma et al. 2026, BMC Genomics 27:389, doi 10.1186/s12864-026-12728-5
+    (https://pmc.ncbi.nlm.nih.gov/articles/PMC13088515/): 8,263 Friesians born
+    1996-2024, genotyped on a 70K SNP array. Haplotype carrier shares (horses carrying
+    it, not allele frequencies): FH2 14.7%, FH3 13.7%, FH4 8.0%. Homozygotes observed
+    against expected: FH2 15 of 53, FH3 5 of 45, FH4 0 of 15; the deficits are
+    significant (possible semi-lethality, or recombination between haplotype and
+    variant).
+  - The three overlap in carriers and were treated as one entity: in linkage
+    disequilibrium and sharing the deletion. Their shares cannot be added; no carrier
+    share of the deletion itself was published. Carrier status was inferred from
+    haplotypes; the deletion was found by sequencing 50 sires and checked by PCR in a
+    few haplotype homozygotes.
+  - The variant: NC_009147.3:g.74041982_74041995del (EquCab3.0, chromosome 4),
+    XM_014739000.3:c.1559_1572del, p.(P392Lfs*3) (OMIA,
+    https://omia.org/OMIA003064/9796/). The paper's Table 2 gives chromosome
+    4:76,214,165 on its own Friesian reference, EquCab_Friesian_WUR (GCA_964023265.1); a
+    different coordinate system, not a conflict.
+  - Carrier-by-carrier matings: insemination success 25.0% lower (P < 0.001), as
+    expected for a recessive early embryonic lethal. The deletion in exon 1 makes an
+    early stop; MET-null mice have placental defects and die as embryos - support, not
+    proof.
+  - No confirmed effect in carriers on coat, build, height, speed, muscle, hoof,
+    feathering or colour.
+  - UC Davis's Friesian hydrocephalus (B3GALNT2) test page gives about 17% carriers; a
+    separate condition (https://vgl.ucdavis.edu/test/friesian-horse-hydrocephalus).
+  - Its modelling advice (not a finding): one recessive lethal allele, not three; the
+    haplotypes as historical labels.
+
+What the gene file does with it: the summary gives the c. and p. names, the haplotype
+carrier shares and homozygote deficits, and the mouse evidence. No table, since no share
+for the deletion itself was published. One citation. met/met stays nonviable.
+
 ROUND THREE (the owner's answer to questions G2, G4, G5 and G6, 2026-10-15)
 ----------------------------------------------------------------------------
 The whole answer is in knowledge/science/round-3-answers.txt. No address has been opened
