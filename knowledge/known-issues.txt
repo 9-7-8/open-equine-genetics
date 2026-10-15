@@ -190,6 +190,8 @@ INTERACTIONS
   extension alone since 2026-10-12.
 - Real epistasis NOT stated in the data: grey and dominant white hiding other colours,
   cream on red versus black, silver showing only on black pigment.
+- How white patterns add up across loci (TO, O, SB1, SW, W20) and that chestnuts show more
+  white now has a source (PMC10671537, round three C6), in the notes only.
 
 STRUCTURE
 - "chromosome" is only on loci whose research gave one. To list them:
@@ -282,9 +284,11 @@ C4. Tobiano (inversion chr3:42,737,476_79,471,993 on EquCab3.0): earlier answers
     by the primary paper (Brooks et al., PMID 18253033, or the 2024 review, PMC10854722)? And do
     TO/TO horses have measurably more white than TO/N, or do they not reliably differ?
     Earlier answers say the second; the latest says "often more white".
-C6. What allele frequencies are published, by breed, for KIT SB1, W5, W10, W13, W20, W22,
-    W32, W34 and W35, for the MITF splash alleles SW1, SW3, SW5, SW6, SW7 and SW8, and for SW9 (MITF) and SW10
-    (PAX3) in Pura Raza Espanola horses?
+C6. Avila et al. 2022 (PMC9498372) gives KIT and MITF allele frequencies, some only in its
+    supplement. For each breed, what are the shares of ALL its KIT variants together (SB1,
+    W5, W10, W13, W20, W22, W32, W34, W35 and any other), and of all its MITF splash
+    variants (SW1-SW9)? Does the study's W20 figure include the W20 carried on W22
+    (W20_22) chromosomes? And SW10 (PAX3) in Pura Raza Espanola horses?
 
 BLOCK D - BODY SIZE, PERFORMANCE AND GAIT
 -----------------------------------------
