@@ -27,7 +27,7 @@ RESEARCHED: abstracted_jump_strength, acan, agouti, b4galt7, brindle, champagne,
 
 STILL WRONG OR UNPROVEN IN THE RESEARCHED LOCI
 - abstracted_jump_strength was "ryr2" until 2026-10-12 (owner: rename it). The data has two abstractions for jumping, this and abstracted_jump; whether both are wanted is open.
-- acan: D5 is "unconfirmed" with no outcome: no published report or laboratory page names a fifth allele, and Generatio's test lists only D1-D4. The estimated "general population" table still gives D5 a share. UC Davis has no ACAN test page. Two of Generatio's four positions do not match the file's D3 and D4 (question G7); the round-three answers write D3 as "D3*". D1/D1, D1/D2 and D1/D3 are nonviable, dying before birth (round three, Scientific Reports 2020); D1/D4 is a living pair with its own outcome, usually lost before birth but known once from a live foal (the format cannot give a pair a chance of surviving). Pairs of D2, D3 and D4 are born alive and can reach adulthood. The four alleles together are at about 0.28 in Miniature Horses, not split by allele, so no table (question G6).
+- acan: D5 is "unconfirmed" with no outcome: proposed in a dissertation and tested by one laboratory (CombiBreed), with no peer-reviewed report. UC Davis has no ACAN test page. Two of Generatio's four positions do not match the file's D3 and D4 (question G7). D1/D1, D1/D2 and D1/D3 are nonviable; D1/D4 is a living pair with its own outcome, usually lost before birth but known once from a live foal (the format cannot give a pair a chance of surviving). Pairs of D2, D3 and D4 are born alive; D2 pairs milder, but the format has one severity for the dwarf condition. The Miniature Horse table is worked out from per-allele frequencies (sum 0.17), and counts D1/D4 at its random-mating share; a Brazilian study gives 0.280 for the four together. Who reported the 0.280 and the 1.43-inch height study is in doubt (question G6). A Brazilian candidate variant, c.6465A>T (p.Leu2155Phe), "potentially associated", is not an allele here.
 - agouti: At (seal brown) and A+ (wild bay) are marked "invalid" (owner, 2026-10-12). The research calls them plausible but unproven rather than wrong, and some laboratories report At; "invalid" is the nearest tag the format has.
 - b4galt7: its first research names its sources by number only. The Friesian tables omit d/d horses. The 12% is Leegwater et al. 2016's 22 of 177, a validation set, not a random sample; KFPS testing gave about 15% in 2000 and 12.5% in 2021 (Hermans et al. 2024). A Brazilian 33% (12 horses) is not a table.
 - champagne: the names gold, amber and classic champagne depend on extension and agouti; the file says so in words and has no interactions table. "Sable" and "ivory" are registry names, not alleles.
@@ -131,8 +131,12 @@ BREEDS
 - Every pool is an estimate, not a measurement. Some contradict the published tables in
   the gene files: the Arabian has 2.4% toe1 carriers and 2.2% myo5a carriers, where
   genes/toe1.json gives about 20% and genes/myo5a.json 10.3% (Egyptian) and 1.8%.
-- Three pools give a share to an allele the data does not confirm: chincoteague_pony
-  (acan D5), gypsy_vanner (matp sno, a candidate), tennessee_walking (matp sun, disputed).
+- Two pools give a share to an allele the data does not confirm: gypsy_vanner (matp sno,
+  a candidate), tennessee_walking (matp sun, disputed). chincoteague_pony's acan pool,
+  which held only D5, was removed in round four.
+- american_miniature's acan pool is the published Miniature Horse table of
+  genes/acan.json, the first breed pool with a citation. friesian keeps an estimated acan
+  pool though ACAN dwarfism is reported in Miniature Horses and Shetland Ponies.
 - Eight pools whose weights did not sum to 100 were scaled to 100: arabian dmrt3,
   gypsy_vanner matp, karakachan extension and agouti, kiso extension and dun, morgan
   dmrt3, standardbred matp.
@@ -220,12 +224,16 @@ G2. Fragile foal syndrome (PLOD1 c.2032G>A): carrier frequencies for Holsteiner,
 G4. MET in Friesians: the 14 base-pair frameshift deletion in the MET gene
     (g.74041982_74041995del, haplotypes FH2-FH4), a recessive embryonic lethal. What
     carrier frequency is published? This is NOT hydrocephalus (B3GALNT2).
-G6. ACAN dwarfism in Miniature Horses: the four alleles together are at about 0.28. What
-    is the frequency of EACH of D1, D2, D3 and D4 separately, from which study?
+G6. ACAN dwarfism in Miniature Horses: two answers disagree on who reported what. Is the
+    combined allele frequency 0.280 from Eberth et al. 2018 (Animal Genetics) or from the
+    Brazilian study PMC7499210? Are the per-allele figures D1 0.03, D2 0.09, D3* 0.02,
+    D4 0.03 from Eberth et al. 2018, and from how many horses? And who are the authors of
+    the 2020 height paper (PMID 32065671, 1.43 inches in 245 horses): Andersson et al.,
+    or Graves, Eberth and Bailey? Is it the same paper as DOI 10.1111/age.12921?
 G7. ACAN: Generatio lists D3* as g.95282140C>G and D4 as g.95257458_95257500del (43
-    bases). The published names used here are D3 c.6700delC (a one-base deletion) and D4
-    c.7299_7319del (21 bases). Are these the same variants? On which assembly are
-    Generatio's positions, and what does the asterisk on D3* mean?
+    bases). The published names, confirmed by OMIA, are D3* c.6700delC (a one-base
+    deletion) and D4 c.7299_7319del (21 bases). Are Generatio's positions the same
+    variants? On which assembly are they?
 
 BLOCK H - TRAITS HELD AS ABSTRACTIONS
 -------------------------------------
@@ -258,3 +266,5 @@ FOR THE OWNER, NOT THE RESEARCHER
   abstracted_jump_strength are wanted; st14 severity (the session's choice); acan D5 made
   "unconfirmed" without asking.
 - Friesian hydrocephalus (B3GALNT2) could be added as a new locus.
+- The Brazilian ACAN candidate c.6465A>T (p.Leu2155Phe) could be added to acan as an
+  unconfirmed allele; adding an allele is a format change.

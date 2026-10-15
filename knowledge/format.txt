@@ -83,7 +83,8 @@ EVIDENCE
 --------
 published    A cited source says so. On a locus: the locus is real and identified.
 estimated    A number of ours for something real. Used on frequencies. Every "general
-             population" table and every breed pool is estimated, not measured.
+             population" table is estimated, not measured, and so is every breed pool
+             not marked "published".
 abstracted   A stand-in of ours for something real that is polygenic or not understood.
              The alleles are invented. Never present an abstracted locus as a real gene.
 

@@ -1,6 +1,60 @@
 ACAN - science notes
 (A science note on this locus, written 2026-10-12. Not yet audited.)
 
+ROUND FOUR (the owner's ACAN overview, answering G6 and part of G7, 2026-10-15)
+--------------------------------------------------------------------------------
+No address has been opened by a maintainer. Her answer, condensed, with every point and
+address she gave. Where it disagrees with the rounds below, this section and the gene
+file stand.
+
+  - Established alleles: N, D1 c.245del (p.K82fs), D2 c.1270G>A (p.V424M), D3*
+    c.6700delC (p.P1875fs) and D4 c.7299_7319del (Eberth et al. 2018, via OMIA,
+    https://omia.org/OMIA001271/9796/). This confirms the c. names in the gene file. The
+    asterisk on D3* is from the original naming and marks the established allele; many
+    breeder pages write D3. (The protein change printed for D4, "p.F2433_O2440del", has
+    a letter that is no amino acid and is not in the data.)
+  - D5 (g.95258999C>T) is proposed, not established: a University of Kentucky
+    dissertation reports that it segregates apart from D1-D4 and the Brazilian
+    haplotype; CombiBreed offers a test (https://www.combibreed.com/acand5/). Generatio
+    lists only D1-D4; UC Davis has no ACAN page. Keep D5 out of the core model.
+  - A Brazilian missense variant, c.6465A>T (p.Leu2155Phe), is "potentially associated"
+    with dwarfism (Scientific Reports 2020). It is not D5 and must not be renamed D5.
+    Dwarfs carrying only one of D2, D3* or D4, or none, imply further variants.
+  - Pairs: as in round three. D1 with D1, D2 or D3*: prenatal loss. D1/D4: usually
+    prenatal loss, a rare live severe dwarf
+    (https://www.laboklin.co.uk/laboklin/showGeneticTest.jsp?testID=8548). Pairs of D2,
+    D3* and D4 are live dwarfs, D2 pairs comparatively milder, D3*/D3*, D3*/D4 and
+    D4/D4 moderate to severe. D3*/D3* is expected live but little documented; D4/D4 is
+    documented in two Miniature Horses.
+  - Frequencies in Miniature Horses, by allele (Eberth et al., via OMIA): D1 0.03, D2
+    0.09, D3* 0.02, D4 0.03, summing to about 0.17. The 0.280 is the four together in a
+    Brazilian study (https://pmc.ncbi.nlm.nih.gov/articles/PMC7499210/), implying about
+    40.3% carriers and 7.8% affected under random mating; it is not to be split by
+    allele.
+  - Height: in 245 Miniature Horses, carriers of any of D1-D4 averaged 1.43 inches
+    shorter, with much overlap (https://pubmed.ncbi.nlm.nih.gov/32065671/; the answer
+    names the authors Graves, Eberth and Bailey).
+  - No direct effect on pigment, mane or tail colour, feathering, white markings, hoof
+    colour, speed or muscle. Effects are skeletal; any loss of performance comes through
+    conformation and soundness.
+  - Its modelling advice (not a finding): D1/D4 lost before birth 90-98% of the time; the
+    answer says these percentages are not measured. Not in the data: the format has no
+    chance of survival for a pair.
+
+What the gene file does with it: D3's name is "D3*" (the id stays D3). The summary gives
+the per-allele frequencies, the 0.280, and D5's dissertation and laboratory. A Miniature
+Horse table is worked out from the four allele frequencies, assuming random mating, with
+the three nonviable pairs left out; the american_miniature breed pool is the same table.
+D5 is dropped from the "general population" table and the chincoteague_pony pool (which
+held only D5) is removed. Three citations added.
+
+The session's reading (not the answer's):
+  - Round three put the 0.280 with Eberth et al. and the 98 carriers in 245 with
+    "Andersson et al. 2020"; this round puts the 0.280 with the Brazilian study and the
+    245 horses with Graves, Eberth and Bailey. Question G6.
+  - The worked-out table counts D1/D4 at its random-mating share although most such foals
+    are lost, and the sample's allele frequencies are of living horses.
+
 ROUND THREE (the owner's answer to questions G2, G4, G5 and G6, 2026-10-15)
 ----------------------------------------------------------------------------
 The whole answer is in knowledge/science/round-3-answers.txt. No address has been opened

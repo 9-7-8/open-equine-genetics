@@ -103,14 +103,6 @@
         { "alleles": ["O", "N"], "percent": 4 },
         { "alleles": ["N", "N"], "percent": 96 }
       ]
-    },
-    {
-      "locus": "acan",
-      "evidence": "estimated",
-      "genotypes": [
-        { "alleles": ["D5", "N"], "percent": 2 },
-        { "alleles": ["N", "N"], "percent": 98 }
-      ]
     }
   ],
   "strains": [
