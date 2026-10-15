@@ -29,6 +29,33 @@
   ],
   "frequencies": [
     {
+      "population": "American Quarter Horse, control horses (200 horses, allele frequency of P 0.055, Tryon et al. 2009; genotype shares worked out from it assuming random mating)",
+      "evidence": "published",
+      "genotypes": [
+        { "alleles": ["P", "P"], "percent": 0.3025 },
+        { "alleles": ["P", "N"], "percent": 10.395 },
+        { "alleles": ["N", "N"], "percent": 89.3025 }
+      ]
+    },
+    {
+      "population": "American Paint Horse, control horses (180 horses, allele frequency of P 0.023, Tryon et al. 2009; genotype shares worked out from it assuming random mating)",
+      "evidence": "published",
+      "genotypes": [
+        { "alleles": ["P", "P"], "percent": 0.0529 },
+        { "alleles": ["P", "N"], "percent": 4.4942 },
+        { "alleles": ["N", "N"], "percent": 95.4529 }
+      ]
+    },
+    {
+      "population": "American Quarter Horse, halter horses (110 horses: 28 with one copy, 3 with two; Tryon et al. 2009)",
+      "evidence": "published",
+      "genotypes": [
+        { "alleles": ["P", "P"], "percent": 2.7273 },
+        { "alleles": ["P", "N"], "percent": 25.4545 },
+        { "alleles": ["N", "N"], "percent": 71.8182 }
+      ]
+    },
+    {
       "population": "general population",
       "evidence": "estimated",
       "genotypes": [
@@ -46,6 +73,7 @@
     { "source": "ucdavis-vgl", "label": "UC Davis VGL: Polysaccharide Storage Myopathy Type 1 (PSSM1)", "url": "https://vgl.ucdavis.edu/test/pssm1", "verified": false },
     { "source": "other", "label": "UC Davis Center for Equine Health: Polysaccharide Storage Myopathy (PSSM)", "url": "https://ceh.vetmed.ucdavis.edu/health-topics/polysaccharide-storage-myopathy-pssm", "verified": false },
     { "source": "other", "label": "MedlinePlus Genetics: GYS1 gene", "url": "https://medlineplus.gov/genetics/gene/gys1/", "verified": false },
-    { "source": "other", "label": "Kentucky Equine Research: PSSM1", "url": "https://ker.com/nmdl/resources/pssm-1/", "verified": false }
+    { "source": "other", "label": "Kentucky Equine Research: PSSM1", "url": "https://ker.com/nmdl/resources/pssm-1/", "verified": false },
+    { "source": "paper", "label": "JAVMA 234(1):120 (2009): Tryon et al., allele frequencies of inherited disease genes in subgroups of Quarter Horses and Paints", "url": "https://avmajournals.avma.org/view/journals/javma/234/1/javma.234.1.120.xml", "verified": false }
   ]
 }

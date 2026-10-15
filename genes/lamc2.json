@@ -28,6 +28,14 @@
   ],
   "frequencies": [
     {
+      "population": "Belgian Draft, North America (31 carriers in 76 horses, on 11 of 12 farms)",
+      "evidence": "published",
+      "genotypes": [
+        { "alleles": ["jeb", "N"], "percent": 40.7895 },
+        { "alleles": ["N", "N"], "percent": 59.2105 }
+      ]
+    },
+    {
       "population": "general population",
       "evidence": "estimated",
       "genotypes": [
@@ -42,6 +50,7 @@
     { "source": "other", "label": "UC Davis Center for Equine Health: Junctional Epidermolysis Bullosa", "url": "https://ceh.vetmed.ucdavis.edu/health-topics/junctional-epidermolysis-bullosa-jeb", "verified": false },
     { "source": "omia", "label": "OMIA 001678-9796: Epidermolysis bullosa, junctional, LAMC2-related", "url": "https://omia.org/OMIA001678/9796/", "verified": false },
     { "source": "pubmed", "label": "PMC3297474: the two equine JEB forms, LAMC2 (JEB1) and LAMA3 (JEB2)", "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3297474/", "verified": false },
-    { "source": "other", "label": "Equiseq: junctional epidermolysis bullosa JEB1 and JEB2", "url": "https://www.equiseq.com/junctional-epidermolysis-bullosa-jeb1-jeb2/", "verified": false }
+    { "source": "other", "label": "Equiseq: junctional epidermolysis bullosa JEB1 and JEB2", "url": "https://www.equiseq.com/junctional-epidermolysis-bullosa-jeb1-jeb2/", "verified": false },
+    { "source": "other", "label": "CABI Digital Library: JEB1 carriers in North American Belgian Drafts", "url": "https://www.cabidigitallibrary.org/doi/pdf/10.5555/20053192979", "verified": false }
   ]
 }

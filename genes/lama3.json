@@ -28,6 +28,14 @@
   ],
   "frequencies": [
     {
+      "population": "American Saddlebred (9 carriers in 175 foals born in 2007, a random sample, Graves et al. 2009)",
+      "evidence": "published",
+      "genotypes": [
+        { "alleles": ["jeb", "N"], "percent": 5.1429 },
+        { "alleles": ["N", "N"], "percent": 94.8571 }
+      ]
+    },
+    {
       "population": "general population",
       "evidence": "estimated",
       "genotypes": [

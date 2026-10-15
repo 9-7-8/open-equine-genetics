@@ -29,6 +29,24 @@
   ],
   "frequencies": [
     {
+      "population": "American Quarter Horse, control horses (200 horses, allele frequency of H 0.008, Tryon et al. 2009; genotype shares worked out from it assuming random mating)",
+      "evidence": "published",
+      "genotypes": [
+        { "alleles": ["H", "H"], "percent": 0.0064 },
+        { "alleles": ["H", "N"], "percent": 1.5872 },
+        { "alleles": ["N", "N"], "percent": 98.4064 }
+      ]
+    },
+    {
+      "population": "American Paint Horse, control horses (180 horses, allele frequency of H 0.025, Tryon et al. 2009; genotype shares worked out from it assuming random mating)",
+      "evidence": "published",
+      "genotypes": [
+        { "alleles": ["H", "H"], "percent": 0.0625 },
+        { "alleles": ["H", "N"], "percent": 4.875 },
+        { "alleles": ["N", "N"], "percent": 95.0625 }
+      ]
+    },
+    {
       "population": "general population",
       "evidence": "estimated",
       "genotypes": [
@@ -42,6 +60,7 @@
     { "source": "other", "label": "Vetlexicon", "url": "https://www.vetlexicon.com/equis/internal-medicine/articles/muscle-hyperkalemic-periodic-paralysis/", "verified": false },
     { "source": "other", "label": "AQHA", "url": "https://www.aqha.com/hypp", "verified": false },
     { "source": "omia", "label": "OMIA 000785", "url": "https://omia.org/OMIA000785/9796/", "verified": false },
-    { "source": "omia", "label": "OMIA variant 162: SCN4A, HYPP", "url": "https://omia.org/variant/omia.variant:162/", "verified": false }
+    { "source": "omia", "label": "OMIA variant 162: SCN4A, HYPP", "url": "https://omia.org/variant/omia.variant:162/", "verified": false },
+    { "source": "paper", "label": "JAVMA 234(1):120 (2009): Tryon et al., allele frequencies of inherited disease genes in subgroups of Quarter Horses and Paints", "url": "https://avmajournals.avma.org/view/journals/javma/234/1/javma.234.1.120.xml", "verified": false }
   ]
 }

@@ -28,6 +28,22 @@
   ],
   "frequencies": [
     {
+      "population": "American Paint Horse, Brazil (21.6% carry O, 89.5% of those classed as overo; 2018 study, sample size not given)",
+      "evidence": "published",
+      "genotypes": [
+        { "alleles": ["O", "N"], "percent": 21.6 },
+        { "alleles": ["N", "N"], "percent": 78.4 }
+      ]
+    },
+    {
+      "population": "American Paint Horse, United States (10.7% of 180 horses carry O)",
+      "evidence": "published",
+      "genotypes": [
+        { "alleles": ["O", "N"], "percent": 10.7 },
+        { "alleles": ["N", "N"], "percent": 89.3 }
+      ]
+    },
+    {
       "population": "general population",
       "evidence": "estimated",
       "genotypes": [
@@ -41,6 +57,9 @@
     { "source": "ucdavis-vgl", "label": "UC Davis VGL", "url": "https://vgl.ucdavis.edu/test/lethal-white-overo", "verified": false },
     { "source": "paper", "label": "JAVMA 235(10):1204", "url": "https://avmajournals.avma.org/view/journals/javma/235/10/javma.235.10.1204.xml", "verified": false },
     { "source": "pubmed", "label": "PMID 11197568", "url": "https://pubmed.ncbi.nlm.nih.gov/11197568/", "verified": false },
-    { "source": "omia", "label": "OMIA 000629-9796: lethal white foal syndrome (EDNRB position on EquCab3.0)", "url": "https://omia.org/OMIA000629/9796/", "verified": false }
+    { "source": "omia", "label": "OMIA 000629-9796: lethal white foal syndrome (EDNRB position on EquCab3.0)", "url": "https://omia.org/OMIA000629/9796/", "verified": false },
+    { "source": "pubmed", "label": "PMID 30096357: EDNRB genotyping of Paint Horses in Brazil (2018)", "url": "https://pubmed.ncbi.nlm.nih.gov/30096357/", "verified": false },
+    { "source": "other", "label": "Science for Animal Welfare: overo lethal white foal syndrome in the American Paint Horse", "url": "https://scienceforanimalwelfare.org/species/horse/american-paint-horse/overo-lethal-white-foal-syndrome/", "verified": false },
+    { "source": "other", "label": "University of Minnesota Extension: overo lethal white syndrome", "url": "https://extension.umn.edu/agriculture/animals-and-livestock/horse/overo-lethal-white-syndrome-olws", "verified": false }
   ]
 }
