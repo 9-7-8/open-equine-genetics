@@ -27,7 +27,7 @@
   ],
   "frequencies": [
     {
-      "population": "Arabian horses in a study of the allele's origin among Egyptian Arabians (allele frequency 0.08, 16% carriers; the sample is not described in the research received)",
+      "population": "Arabian horses on one farm in Egypt (200 horses: 170 surveyed plus 30 traced through farm records for the disease; allele frequency 0.08, 16% carriers; partly targeted, not breed-wide)",
       "evidence": "published",
       "genotypes": [
         { "alleles": ["lfs", "N"], "percent": 16 },
@@ -35,7 +35,7 @@
       ]
     },
     {
-      "population": "Egyptian Arabian (10.3% carriers among unrelated horses in the original mapping study)",
+      "population": "Egyptian Arabian (6 carriers in 58 horses, 10.3%, in the mapping study, Brooks et al. 2010; allele frequency 5.2%)",
       "evidence": "published",
       "genotypes": [
         { "alleles": ["lfs", "N"], "percent": 10.3 },
@@ -43,7 +43,7 @@
       ]
     },
     {
-      "population": "Arabian, not of Egyptian descent (1.8% carriers in the original mapping study)",
+      "population": "Arabian, not of Egyptian descent (1 carrier in 56 horses, 1.8%, in the mapping study, Brooks et al. 2010; allele frequency 0.89%)",
       "evidence": "published",
       "genotypes": [
         { "alleles": ["lfs", "N"], "percent": 1.8 },
@@ -68,6 +68,7 @@
     { "source": "other", "label": "MedlinePlus Genetics: MYO5A gene", "url": "https://medlineplus.gov/genetics/gene/myo5a/", "verified": false },
     { "source": "ucdavis-vgl", "label": "UC Davis VGL: Cream", "url": "https://vgl.ucdavis.edu/test/cream", "verified": false },
     { "source": "pubmed", "label": "PMC8701198: carriers in wider Arabian and Arabian-derived populations", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8701198/", "verified": false },
-    { "source": "other", "label": "University of Kentucky: evidence for the origin of lavender foal syndrome among Egyptian Arabians", "url": "https://scholars.uky.edu/en/publications/evidence-for-origin-of-lavender-foal-syndrome-among-egyptian-arab/", "verified": false }
+    { "source": "other", "label": "University of Kentucky: evidence for the origin of lavender foal syndrome among Egyptian Arabians", "url": "https://scholars.uky.edu/en/publications/evidence-for-origin-of-lavender-foal-syndrome-among-egyptian-arab/", "verified": false },
+    { "source": "paper", "label": "PLoS Genetics, 10.1371/journal.pgen.1000909: Brooks et al. 2010, the mapping study (printable)", "url": "https://journals.plos.org/plosgenetics/article/file?id=10.1371/journal.pgen.1000909&type=printable", "verified": false }
   ]
 }
