@@ -7,6 +7,34 @@ Three answers, in the order she sent them; the later ones add snowdrop and sunsh
 three "ANSWER" headings were added when filing. The first answer marks most of its sources
 by number only, and the list those numbers point to was not supplied.)
 
+ROUND THREE (the owner's answer to question B4, first part, 2026-10-15)
+------------------------------------------------------------------------
+Asked whether snowdrop has been confirmed beyond the first report. No address has been
+opened by a maintainer. Her answer, condensed, with every point and address she gave:
+
+  - Yes, but only within the same Gypsy Cob family. Snowdrop (SLC45A2 c.305G>A, now
+    written c.449G>A, p.Arg150Gln, in EquCab3.0 numbering) was found in the original
+    homozygous dilute mare and, as one copy, in several relatives including her sire and
+    dam. No independent published report of further unrelated homozygous horses was
+    found. (https://www.omia.org/OMIA001344/9796/)
+  - The 2020 report (Bisbee et al.): one Gypsy mare that looked cremello and lacked
+    cream, pearl and the common spotting alleles; the relatives with one copy showed no
+    visible dilution. OMIA lists the variant only in the Traditional Gypsy Cob (UK).
+  - No large breed survey or follow-up has found more homozygous horses. The 2024
+    variant-frequency study discusses other SLC45A2 variants such as sunshine and gives
+    no new snowdrop cohort. (https://pmc.ncbi.nlm.nih.gov/articles/PMC11006912/)
+  - A commercial test exists, which is not peer-reviewed confirmation of more affected
+    horses. (https://m.etalondx.com/news-media/snowdrop-mutation/?fsuid=null)
+  - Model it as a rare recessive allele of this locus, confined to Gypsy Cob lines:
+    one copy, no visible dilution; two copies, a strong double-dilute-like dilution of
+    red and black. Pairs with cream, pearl or sunshine: speculative, no published data.
+
+The c.305 and c.449 names differ by 144 bases, and p.102 and p.150 by 48 codons, as two
+numberings of the same change would. The answer did not describe Cr/sno or prl/sno; that
+part of B4 stays open.
+
+What the gene file does with it: the summary and sno's name gain the second numbering
+and the single family; outcomes unchanged. One citation.
 ROUND TWO (the owner's answers to the open research questions, 2026-10-12)
 --------------------------------------------------------------------------
 These came after everything below. Where they disagree with it, this section and the gene
