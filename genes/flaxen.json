@@ -5,7 +5,7 @@
   "name": "Flaxen",
   "symbol": null,
   "evidence": "abstracted",
-  "summary": "The pale mane and tail of a chestnut horse - from a few gold strands to a near-white fall of hair - as a dosage of two variant alleles rather than the simple recessive folklore models it as, because no flaxen mutation has ever been identified. It touches the long hair and nothing else, and it is invisible on any horse that makes black hair, which carries and transmits it regardless.",
+  "summary": "The pale mane and tail of a chestnut horse - from a few gold strands, or light and dark hairs mixed, to a near-white fall of hair - held here as a dosage of two made-up alleles. No gene, locus, variant or DNA test for flaxen has been published, so no position can be given; a candidate region on chromosome 14 is claimed only in sources that are not peer-reviewed. It is heritable: in Morgans especially, flaxen chestnuts bred together often give flaxen foals, and it can pass unseen through bay or black relatives. Breeders have long taken it for a recessive, but that rests on pedigrees, not on a published study, and the wide range of intensity fits no simple single-locus model. It touches only the mane and tail (perhaps feathering), only on a chestnut, and nothing else. Look-alikes have known genes and should be ruled out first: palomino (one cream), champagne on chestnut, mushroom, and silver, which lightens the mane and tail of a bay or black, not a chestnut.",
   "inheritance": "autosomal",
   "affects_coat": true,
   "alleles": [
@@ -84,5 +84,10 @@
       ]
     }
   ],
-  "citations": []
+  "citations": [
+    { "source": "ucdavis-vgl", "label": "UC Davis VGL: horse tests (no flaxen test listed)", "url": "https://vgl.ucdavis.edu/tests", "verified": false },
+    { "source": "ucdavis-vgl", "label": "UC Davis VGL: Horse Coat Color", "url": "https://vgl.ucdavis.edu/resources/horse-coat-color", "verified": false },
+    { "source": "other", "label": "The Morgan Horse, September 2023: the colourful origins of Morgan colours (flaxen, no test)", "url": "https://www.morganhorse.com/upload/photos/page_1134_tmh_sept2023_colorful_originsof_morgan_colors_small.pdf", "verified": false },
+    { "source": "other", "label": "The Morgan Horse, February-March 2015: Back to Basics (flaxen inheritance, no test)", "url": "https://www.morganhorse.com/upload/photos/904TMH_FebMarch2015_BackToBasics.pdf", "verified": false }
+  ]
 }
