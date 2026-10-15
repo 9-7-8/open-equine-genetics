@@ -1,6 +1,212 @@
 Pangare (mealy) - science notes
 (A science note on this locus, written 2026-10-12. Not yet audited.)
 
+ROUND FOUR (the owner's answer to question H4, 2026-10-15)
+-----------------------------------------------------------
+No address has been opened by a maintainer. Her document follows whole, as she sent it
+(the [web:N] markers point to the sources listed at its end). It agrees with the earlier
+note below: the EDN3 region is the one lead, and it is indirect.
+
+The session's reading: the EDN3 position is on the 2009 reference (EquCab2.0, Wade et al.
+2009) and is not added to the data. A game's wiki (horsereality), a feed company's study
+summary (madbarn), a blog (Equine Tapestry), another site (theequinest) and Wikipedia are
+not cited in the gene file. The answer's dominant model is its own modelling advice.
+
+--- her document ---
+# Pangaré / mealy (pale muzzle, eyes, flanks, and belly)
+
+## Bottom line
+
+**No causal gene, locus, or validated DNA variant for pangaré/mealy in horses has been published.** The best current evidence is a **candidate region near *EDN3* on ECA22**, from a 2018 study that was primarily designed to investigate harness-racing performance, not to map pangaré. Therefore pangaré remains a phenotype-level, genetically unresolved trait. [web:111][web:106][web:88]
+
+The proposed *EDN3* association is **not proof of a pangaré gene**: the study did not perform a pangaré-specific GWAS or identify a causal variant. It found that a C allele near *EDN3* was common in mealy-rich pony and draft breeds and rare in athletic breeds, which is suggestive but indirect. [web:111][web:110]
+
+## Phenotype
+
+Pangaré, also called **mealy** or **light-pointed**, produces pale hair around the muzzle and eyes and on the underside of the body. The pale areas may extend to the flanks, throat, chest, behind the elbows, in front of the stifle, and up the buttocks. [web:86]
+
+The pale color depends on the underlying coat: it may be cream, tan, off-white, or only slightly lighter than the body. It is most conspicuous on bay and chestnut-based horses; on a very dark bay or brown-based horse it can contribute to a “seal brown” appearance. [web:86][web:94]
+
+## Published status
+
+| Question | Status |
+|---|---|
+| Causal gene | Not identified |
+| Causal variant | Not identified |
+| Official locus name | None established |
+| EquCab2/EquCab3 coordinate for a proven pangaré allele | None available |
+| DNA test | None validated |
+| Inheritance | Unknown |
+| Candidate region | Near *EDN3* on ECA22, proposed but unproven |
+
+No commercial test for pangaré is listed by UC Davis’s Veterinary Genetics Laboratory, and its coat-color resources do not identify a pangaré locus. [web:22][web:5]
+
+## Candidate evidence: *EDN3*
+
+The main published lead is:
+
+**Jäderkvist Fegraeus, K., Velie, B. D., Axelsson, J., Ang, R., Hamilton, N. A., Andersson, L., Meadows, J. R. S., & Lindgren, G. (2018). “A potential regulatory region near the *EDN3* gene may control both harness racing performance and coat color variation in horses.” *Physiological Reports* 6(10):e13700.**  
+DOI: [10.14814/phy2.13700](https://doi.org/10.14814/phy2.13700)  
+PubMed: [29767791](https://pubmed.ncbi.nlm.nih.gov/29767791/)  
+Full text PDF: https://www.diva-portal.org/smash/get/diva2:1239798/FULLTEXT01.pdf [web:103][web:110][web:111]
+
+Key findings:
+
+- The highest-ranked selective-sweep window was about **50–52 kb downstream of *EDN3***, reported as **ECA22:45,674,895–45,696,466** in the Wade et al. 2009 reference assembly used by the authors. [web:111]
+- In **400 raced Coldblooded trotters**, a SNP in this region was associated with harness-racing performance; the CC genotype was negatively associated with performance. [web:110][web:111]
+- The same SNP was genotyped in **1,915 horses from 18 breeds**. The TT genotype was common in racing/show-jumping breeds, while CC was common in many pony and draft breeds. [web:110][web:111]
+- Breeds in which mealy is common or nearly fixed—such as Exmoor and Fjord horses—were predominantly fixed for the C allele, while Coldblooded trotters and Standardbreds, which rarely show mealy, were not. [web:111]
+- The authors interpreted this as a **possible link** between the region and pangaré, not as proof. [web:111]
+
+### Important limitation
+
+This was a **population-level allele-frequency and selective-sweep study**, not a pangaré case-control GWAS. It did not:
+
+- phenotype individual horses for mealy versus non-mealy in a standardized way;
+- test segregation within mealy and non-mealy families;
+- identify a causal mutation;
+- demonstrate that the C allele causes pale muzzle/belly hairs;
+- establish dominant, recessive, additive, or polygenic inheritance. [web:111][web:110]
+
+Thus, *EDN3* should be treated as a **candidate region**, not as the pangaré locus.
+
+## What is established
+
+- Pangaré is a real, recognizable phenotype: pale muzzle, periocular area, belly, flanks, and related “soft” areas. [web:86]
+- It is most visible where the underlying coat contains red pigment, especially bay and chestnut bases. [web:88][web:94]
+- It is common in some primitive, pony, and draft populations, including Exmoor Ponies and Fjord horses, and is comparatively rare in many athletic warmblood and racing populations. [web:88][web:111]
+- The *EDN3*-near ECA22 region is a published candidate, but its association with pangaré is indirect. [web:111][web:106]
+- No validated molecular test exists. [web:22][web:88]
+
+## What is not established
+
+- **No pangaré allele symbol is official.** Informal labels such as \(PANG\), \(PNG\), or \(Pn\) are game/simulation conventions. [web:88]
+- **No mode of inheritance is proven.** A dominant model is often assumed by breeders and simulation communities, but it is not supported by a published segregation study. [web:88][web:95]
+- **No reliable heritability estimate** with population, sample size, and publication year has been published.
+- **No allele or carrier frequency** can be cited for pangaré itself, because no genotype exists. The 2018 study reports frequencies for a performance-associated SNP near *EDN3*, not for a proven pangaré allele. [web:111][web:110]
+- **No causal coordinate** on EquCab2 or EquCab3 can be assigned to pangaré.
+
+## Inheritance: best working model
+
+The safest scientific position is:
+
+- **Heritable:** likely, based on breed and family observations.
+- **Mode:** unresolved.
+- **Most plausible model:** a major locus and/or oligogenic control, with variable expression.
+- **Simulation convention:** dominant or semi-dominant major allele plus a continuous expression modifier.
+
+A common, useful model is:
+
+```text
+PANG/PANG = strong mealy expression
+PANG/png  = moderate or variable mealy expression
+png/png   = no mealy expression
+```
+
+Because the actual inheritance is unknown, this should be labeled a **simulation convention**, not established genetics. [web:88][web:95]
+
+## Simulator implementation
+
+Treat pangaré as a **regional lightening layer**, not a whole-body dilution.
+
+Recommended model:
+
+```text
+pangare_intensity = 0.0–1.0
+
+pangare_intensity =
+    major_PANG_effect
+  + polygenic_modifier
+  + developmental_noise
+```
+
+Apply it with a ventral/soft-tissue mask:
+
+| Region | Relative effect |
+|---|---|
+| Muzzle | Very high |
+| Around eyes | High |
+| Belly | High |
+| Flanks | Medium to high |
+| Behind elbows | Medium |
+| Inside legs | Medium |
+| Throat/chest | Medium |
+| Front of stifle / buttocks | Low to medium |
+| Topline, back, croup | None or negligible |
+
+Rules:
+
+- Express pangaré most strongly on bay and chestnut-based coats.
+- Reduce or suppress visible expression on black-based coats, because the affected areas have little red pigment to lighten.
+- Do not let pangaré lighten the entire body uniformly; that would resemble a dilution gene.
+- Do not confuse it with dun, cream, pearl, silver, champagne, or gray.
+- Keep the *EDN3* candidate as an optional hidden genetic marker, but do not label it causal in the player-facing genetics UI.
+
+A visually believable implementation is:
+
+```text
+pale_color = mix(body_color, cream_or_tan, pangare_intensity * region_weight)
+```
+
+where `region_weight` is highest at the muzzle, eyes, and belly.
+
+## Relationship to seal brown
+
+Pangaré and seal brown overlap visually but are not the same established genetic category. Seal brown horses generally test as bay at *ASIP* (\(A/_\)) rather than black (\(a/a\)), yet show very dark bodies with pale soft points. [web:94]
+
+A practical simulator distinction:
+
+- **Pangaré:** pale muzzle/eye/belly areas on a bay or chestnut base.
+- **Seal brown:** very dark bay-like body with pale soft points; likely involves additional genetic factors beyond ordinary bay.
+- **Black:** \(a/a\) at *ASIP*, with black body pigment; pangaré is not expected to be strongly visible. [web:94][web:77]
+
+Do not implement “seal brown” as simply “pangaré + bay.” The relationship is unresolved.
+
+## Effects outside coat color
+
+There is no evidence that pangaré affects height, speed, muscle, bone structure, hoof shape, feathering, mane/tail length, or other conformational traits. Its established phenotype is limited to regional lightening of body hair. [web:86][web:88]
+
+The *EDN3* candidate region was also associated with racing performance in the 2018 study, but that does **not** establish that pangaré causes or correlates with performance at the individual-horse level. The authors themselves state that functional and physiological studies are needed. [web:110][web:111]
+
+## Breeds and frequency
+
+Pangaré is especially associated with **primitive, pony, and draft breeds**, including Exmoor Ponies and Fjord horses; it is much less common in many sport horses and racing breeds. [web:88][web:111]
+
+No defensible pangaré allele frequency, carrier frequency, sample size, or survey year can be given because the causal genotype is unknown. The 2018 *EDN3* study provides breed-level frequencies for a nearby SNP—not a pangaré genotype—and therefore cannot be used as a pangaré frequency. [web:111][web:110]
+
+## Future science
+
+A definitive pangaré study would need:
+
+1. Standardized scoring of muzzle, periocular, belly, flank, and elbow lightness.
+2. Family pedigrees with mealy and non-mealy offspring.
+3. A direct GWAS using mealy status as the phenotype.
+4. Whole-genome sequencing around *EDN3* and other candidate regions.
+5. Replication across Exmoor, Fjord, draft, pony, and non-mealy breeds.
+6. Functional validation of any candidate regulatory variant.
+
+Until then, pangaré should remain a **heritable but genetically unresolved phenotype**, with *EDN3* on ECA22 as the leading but unproven candidate region. [web:111][web:106]
+
+## Sources
+
+- Jäderkvist Fegraeus et al. 2018, primary *EDN3* candidate-region paper: https://doi.org/10.14814/phy2.13700; full text: https://www.diva-portal.org/smash/get/diva2:1239798/FULLTEXT01.pdf [web:103][web:111]  
+- Summary of the same study, including 400 trotters and 1,915 horses from 18 breeds: https://madbarn.com/research/a-potential-regulatory-region-near-the-edn3-gene-may-control-both-harness-racing-performance-and-coat-color-variation-in-horses/ [web:110]  
+- Icelandic horse study discussing *EDN3* and *OCA2* as mealy candidates: https://pmc.ncbi.nlm.nih.gov/articles/PMC11308356/ [web:106]  
+- Pangaré phenotype overview: https://en.wikipedia.org/wiki/Pangar%C3%A9 [web:86]  
+- Discussion of *EDN3* as a candidate and its limitations: https://www.equinetapestry.blog/candidate-gene-for-the-mealy-pattern/ [web:87]  
+- Discussion of mealy versus seal brown: https://www.equinetapestry.blog/base-color-variation-mealy-and-seal-brown/ [web:94]  
+- UC Davis VGL coat-color overview: https://vgl.ucdavis.edu/resources/horse-coat-color [web:5]  
+- UC Davis VGL test directory: https://vgl.ucdavis.edu/tests [web:22]  
+- Horse Reality wiki explicitly noting that real-life pangaré genetics have not been discovered: https://horsereality.wiki/en/colour-genetics/modifiers/pangare [web:88]
+--- end of her document ---
+
+What the gene file does with it: the summary says no gene, variant, test or inheritance
+is known, gives the EDN3 lead and its limits, and separates mealy from seal brown; four
+citations. Alleles, outcomes and tables unchanged; still abstracted.
+
+EARLIER NOTE (2026-10-12, before round four)
+--------------------------------------------
+
 What is actually known
 ----------------------
 
