@@ -6,7 +6,7 @@
   "symbol": "B4GALT7",
   "chromosome": "14",
   "evidence": "published",
-  "summary": "B4GALT7, Friesian dwarfism - a recessive disorder of the Friesian and its crosses. One change in the gene (c.50G>A, p.Arg17Lys; g.3772591C>T on chromosome 14, EquCab3.0), at the last base of exon 1, disrupts splicing of an enzyme needed to build the proteoglycans of cartilage, tendon and growing bone. A horse with two copies is a disproportionate dwarf with lax joints. A carrier is unaffected. UC Davis estimated about 12 percent of Friesians to be carriers.",
+  "summary": "B4GALT7, Friesian dwarfism - a recessive disorder of the Friesian and its crosses. One change in the gene (c.50G>A, p.Arg17Lys; g.3772591C>T on chromosome 14, EquCab3.0), at the last base of exon 1, disrupts splicing of an enzyme needed to build the proteoglycans of cartilage, tendon and growing bone. A horse with two copies is a disproportionate dwarf with lax joints. A carrier is unaffected. In the study that found it, 22 of 177 Friesians were carriers (12.4 per cent); testing by the Friesian studbook (KFPS) put the share at about 15 per cent in 2000 and about 12.5 per cent in 2021, and the studbook has restricted carrier-to-carrier matings since 2014.",
   "inheritance": "autosomal",
   "affects_coat": false,
   "alleles": [
@@ -28,11 +28,27 @@
   ],
   "frequencies": [
     {
-      "population": "Friesian (UC Davis's estimate of carriers; how it was sampled is not stated, and it may have fallen since testing began)",
+      "population": "Friesian, KFPS testing, 2021 (about 12.5% carriers; Hermans et al. 2024)",
       "evidence": "published",
       "genotypes": [
-        { "alleles": ["d", "N"], "percent": 12 },
-        { "alleles": ["N", "N"], "percent": 88 }
+        { "alleles": ["d", "N"], "percent": 12.5 },
+        { "alleles": ["N", "N"], "percent": 87.5 }
+      ]
+    },
+    {
+      "population": "Friesian, KFPS testing, 2000 (about 15% carriers; Hermans et al. 2024)",
+      "evidence": "published",
+      "genotypes": [
+        { "alleles": ["d", "N"], "percent": 15 },
+        { "alleles": ["N", "N"], "percent": 85 }
+      ]
+    },
+    {
+      "population": "Friesian (22 carriers in 177 horses, 12.4%, Leegwater et al. 2016; the study's validation set, not a random sample of the breed)",
+      "evidence": "published",
+      "genotypes": [
+        { "alleles": ["d", "N"], "percent": 12.43 },
+        { "alleles": ["N", "N"], "percent": 87.57 }
       ]
     },
     {
@@ -47,6 +63,7 @@
   "citations": [
     { "source": "pubmed", "label": "Leegwater et al., PMC5084406", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5084406/", "verified": false },
     { "source": "ucdavis-vgl", "label": "UC Davis", "url": "https://vgl.ucdavis.edu/test/friesian-horse-dwarfism", "verified": false },
-    { "source": "omia", "label": "OMIA 002068-9796: Friesian dwarfism (positions on EquCab2.0 and EquCab3.0)", "url": "https://omia.org/OMIA002068/9796/", "verified": false }
+    { "source": "omia", "label": "OMIA 002068-9796: Friesian dwarfism (positions on EquCab2.0 and EquCab3.0)", "url": "https://omia.org/OMIA002068/9796/", "verified": false },
+    { "source": "paper", "label": "Journal of Animal Breeding and Genetics, 10.1111/jbg.12872: Hermans et al. 2024, Friesian breeding strategy (KFPS carrier figures 2000 and 2021)", "url": "https://onlinelibrary.wiley.com/doi/10.1111/jbg.12872", "verified": false }
   ]
 }

@@ -98,8 +98,7 @@ STILL WRONG OR UNPROVEN IN THE RESEARCHED LOCI
   unidentified. Round two says no dosage effect of E on bay shade is established.
 - b4galt7: chromosome 14 and the EquCab3.0 position are from round three (OMIA). Its research names its sources by number only, so
   no citation was added; the two it already had (UC Davis, Leegwater et al.) are from
-  the first export. The Friesian table omits d/d horses, which the 12 percent carrier
-  estimate does not count.
+  the first export. The Friesian tables omit d/d horses. Round three (2026-10-15): the 12% is Leegwater et al. 2016's 22 of 177, a validation set, not a random sample; KFPS testing gave about 15% in 2000 and 12.5% in 2021 (Hermans et al. 2024), now tables too. A Brazilian 33% (12 horses) is not.
 - ednrb: the variant's EquCab3.0 position and c. name are from round three (OMIA). The EDNRB gene span the answer also gave is on another assembly (NC_091700.1) and is not in the data.
 - ednrb and hmga2 each had an overview in round two, without addresses: chromosome, what the gene does, breeds. hmga2 is settled by round three (Frischknecht et al. 2015): p is c.83G>A (p.Gly28Glu), on chromosome 6, not round two's 7. The mod's estimated "general population" table gives p a 25 per cent allele share, though the study found it in no full-sized breed; it is left as the mod's. Neither locus has a published frequency.
 - champagne: the names gold, amber and classic champagne depend on extension and agouti; the file says so in words and has no interactions table. "Sable" (on seal brown) and "ivory" (with cream) are registry names, not alleles, and are not in the data.
@@ -313,8 +312,8 @@ G2. Fragile foal syndrome (PLOD1 c.2032G>A): what are the carrier frequencies fo
     Swedish Warmblood and others), from which studies and samples?
 G3. Naked foal syndrome (ST14 c.388G>T, Akhal-Teke): is there a breed-wide carrier
     figure beyond the 2017 study's 26 of 191?
-G4. Friesian dwarfism (B4GALT7): how was the figure of 12% carriers sampled, and what is
-    it now? The MET embryonic lethal in Friesians: what carrier frequency is published?
+G4. The MET embryonic lethal in Friesians: what carrier frequency is published, and by
+    which study?
 G5. Skeletal atavism (SHOX deletions Del1 and Del2) in Shetland Ponies and Miniature
     Horses: what carrier frequencies are published?
 G6. ACAN dwarfism (variants D1 to D4, Miniature Horses and ponies): what carrier
