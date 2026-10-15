@@ -2,6 +2,30 @@ EDNRB (frame overo) - science notes
 (Copied 2026-10-12 from the Science tab of the Procedural Horse Coats wiki page for this gene.
 Written for that project: it may mention how a game models the gene. Not yet audited.)
 
+ROUND THREE (the owner's answer to question A3, 2026-10-15)
+------------------------------------------------------------
+No address has been opened by a maintainer. Her answer, condensed, with every point and
+address she gave (all from https://omia.org/OMIA000629/9796/ unless marked):
+
+  - The frame overo variant is at ECA17:50,503,041-50,503,042 on EquCab3.0
+    (GCA_002863925.1; RefSeq chromosome NC_009160.3): a two-base change,
+    NC_009160.3:g.50503041_50503042delinsCT.
+  - On the mRNA it is NM_001081837.2:c.353_354delinsAG, giving
+    NP_001075306.2:p.(Ile118Lys), I118K. The laboratory allele is O (frame overo, LWO)
+    (https://vgl.ucdavis.edu/test/lethal-white-overo).
+  - The genome strand carries TC; the coding-strand change is TC>AG, so the genomic
+    replacement is delinsCT and the cDNA one delinsAG.
+  - UC Davis: a two base-pair mutation in EDNRB giving Ile118Lys; one copy commonly
+    gives frame overo, two copies lethal white overo.
+  - OMIA places the EDNRB gene itself at 17:71,075,557-71,053,794 on NC_091700.1. The
+    answer says the variant "at roughly 50.5 Mb lies within that gene's reported span
+    under its respective assembly"; 50.5 Mb is not within 71.05-71.08 Mb, and NC_091700.1
+    is not an EquCab3.0 sequence, so the two figures are on different assemblies and
+    say nothing about each other. The gene span is not in the data.
+  - Use ECA17:50503041_50503042delinsCT (EquCab3.0) with c.353_354delinsAG; p.Ile118Lys.
+
+What the gene file does with it: the summary gains the c. and EquCab3.0 names; one
+citation (OMIA).
 ROUND TWO (the owner's answers to the open research questions, 2026-10-12)
 --------------------------------------------------------------------------
 These came after everything below. Where they disagree with it, this section and the gene
