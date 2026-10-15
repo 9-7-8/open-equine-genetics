@@ -82,6 +82,10 @@ THE AUDIT
   the session ends (above).
 - A frequency nobody has published is left out, never invented: a locus may have no
   frequency table.
+- An allele known to be common but with no exact figure per breed is left out of every
+  table, its copies counted as the wild type, rather than given a share that is known
+  to be wrong (owner, 2026-10-15: matp sun, the major allele in every breed group
+  sequenced, whose effect is unresolved).
 - Where the research lists two variants and the data has one allele, the two are added as
   new alleles and the old id is kept and marked invalid (2026-10-12: shox sa became Del1
   and Del2; kit W17 became W17a and W17b).
