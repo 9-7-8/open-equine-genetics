@@ -41,7 +41,8 @@ EVIDENCE
   asked again.
 
 LICENCE
-- GPL 3.
+- GPL 3, "or later": GPL-3.0-or-later where a licence id is needed (owner, 2026-10-15,
+  asked for the Rust reader's Cargo.toml).
 - Contributions: a clause in CONTRIBUTING and a pull-request checkbox - "I license this
   contribution under GPL 3 and grant the maintainer the right to relicense it." This is
   what lets outside additions flow back into the MIT-licensed mod.
@@ -116,6 +117,10 @@ MADE BY THE EXPORTING SESSION, NOT ASKED (change freely, tell the owner)
   knowledge/format.txt, BREEDS, and every field name in it; strains as named lines whose
   pools replace the breed's at the loci they list; the mod's notes, size scale and
   "commonness" left out; mod weights scaled to percents where they did not sum to 100.
+- (2026-10-15, when the owner asked for readers in Java, Python, Rust, C++ and C) apis/:
+  the calls and their names, Python as the reference, the conformance report that every
+  port must print the same, and the exact sampling rule; Rust on serde_json, every
+  other port without dependencies.
 - The file layout and every field name in knowledge/format.txt.
 - genes/ is one flat folder with a "species" field in each file.
 - "sex" is not exported as a locus.

@@ -2,6 +2,7 @@
 name = "open-equine-genetics"
 version = "0.1.0"
 edition = "2021"
+license = "GPL-3.0-or-later"
 description = "A small reader for the Open Equine Genetics genes/ and breeds/ JSON files"
 publish = false
 
