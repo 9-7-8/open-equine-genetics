@@ -77,7 +77,7 @@ STILL WRONG OR UNPROVEN IN THE RESEARCHED LOCI
 - roan: the symbol stays KIT. The science says KIT region, causal variant unknown;
   RN1, RN2 and RN3 are haplotype markers, named in the summary only.
 - acan: D5 is "unconfirmed" with no outcome. Round two found no published report or laboratory page naming a fifth allele; the session applied the owner's ruling for such alleles without asking her again. The mod's estimated frequency table still gives D5 a share. Whether UC Davis has an ACAN test page was not answered. D1/D1 is "lethal_in_early_life" (owner, 2026-10-12): round two says survival time varies and gives no ages. That every other dwarf pair survives is still the mod's.
-- ryr1: two papers are cited as the first description (2004 and 2009). The owner's answers disagree: the first says the 2004 paper is the primary one and 2009 may be a confusion; round two says the variant was reported in 2009 and 2004 was earlier or other work. Neither gives a source for the claim. Both stay cited.
+- ryr1: settled in round three (2026-10-15, sourced to PubMed and OMIA): Aleman et al. 2004 (Muscle and Nerve) is the first report; the 2009 J Vet Intern Med paper is a follow-up in Quarter Horses. Round two had it the other way. Both stay cited, labelled by role.
 - grey: G2/G3 is given the same outcome as G3/N; the research says its pace and risk
   are not quantified. The Andalusian table's genotype shares are worked out from
   allele frequencies, assuming random mating. So is ryr1's Quarter Horse table.
@@ -340,9 +340,6 @@ F2. HERDA (PPIB c.115G>A): which studies give carrier frequencies of 3.5% (Unite
     affected (two copies)?
 F3. What carrier frequencies are published, by breed, for PSSM1 (GYS1 c.925G>A), HYPP
     (SCN4A) and frame overo (EDNRB p.Ile118Lys)?
-F4. Malignant hyperthermia (RYR1 c.7360C>G): which paper first reported it in horses -
-    Aleman et al. 2004 (Muscle and Nerve) or the 2009 paper in the Journal of Veterinary
-    Internal Medicine? Two earlier answers disagree.
 
 BLOCK G - DISORDERS OF WARMBLOODS, DRAFTS, PONIES AND OTHER BREEDS
 ------------------------------------------------------------------
